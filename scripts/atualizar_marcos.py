@@ -52,6 +52,32 @@ SUBETAPAS_PREGAO = [
 ]
 ORDEM_GLOBAL = ["dfd", "etp", "tr", "lista", "analiseDfi", "pesquisaPrecos", "irp", "edital", "juridico", "dfe"]
 
+# --- Dispensa de Licitação (CLAUDE.md seção 4.1) ---
+# Padrões calibrados contra 2 processos reais de Dispensa + o planejamento
+# apensado de um deles (ago/2026). Confirmado na prática: os documentos de
+# DFD/ETP que aparecem copiados dentro do próprio processo de Dispensa têm
+# data diferente (posterior) da data real no planejamento — por isso DFD/ETP/
+# TR/Autorização continuam lidos só do processo de Planejamento, nunca da
+# Dispensa (mesma regra do Pregão, CLAUDE.md seção 2).
+SUBETAPAS_PLANEJAMENTO_DISPENSA = [
+    ("dfd", ["FORMALIZA[ÇC][ÃA]O DA DEMANDA"]),
+    ("etp", ["MAPA DE GERENCIAMENTO DE RISCOS"]),
+    # TR não tem documento de fechamento próprio no SIPAC (CLAUDE.md marca
+    # "—") — considerado concluído quando o próprio TR é protocolado.
+    ("tr", ["TERMO DE REFER[ÊE]NCIA"]),
+    ("autorizacaoDireta", ["AUTORIZA[ÇC][ÃA]O DE FORMALIZA[ÇC][ÃA]O.*CONTRATA[ÇC][ÃA]O DIRETA"]),
+]
+SUBETAPAS_DISPENSA = [
+    ("apensacao", ["JUNTADA POR APENSA[ÇC][ÃA]O"]),
+    ("julgamento", ["QUADRO COMPARATIVO DE PROPOSTAS", "PARECER T[ÉE]CNICO"]),
+    ("divulgacao", ["DIVULGA[ÇC][ÃA]O DA DISPENSA"]),
+    ("orcamento", ["DECLARA[ÇC][ÃA]O DE DISPONIBILIDADE OR[ÇC]AMENT[ÁA]RIA"]),
+    ("empenho", ["^NOTA DE EMPENHO"]),
+]
+ORDEM_DISPENSA = [
+    "dfd", "etp", "tr", "autorizacaoDireta", "apensacao", "julgamento", "divulgacao", "orcamento", "empenho",
+]
+
 FASE_POR_SUBETAPA = {
     "dfd": "Planejamento (DPGC)",
     "etp": "Planejamento (DPGC)",
@@ -63,6 +89,12 @@ FASE_POR_SUBETAPA = {
     "edital": "Fase Interna (DFI)",
     "juridico": "Jurídico (Projur/Análise)",
     "dfe": "Fase Externa (DFE)",
+    "autorizacaoDireta": "Planejamento (DPGC)",
+    "apensacao": "Fase Interna (DFI)",
+    "julgamento": "Fase Interna (DFI)",
+    "divulgacao": "Fase Externa (DFE)",
+    "orcamento": "Fase Interna (DFI)",
+    "empenho": "Fase Interna (DFI)",
 }
 MARCO_FIM_POR_SUBETAPA = {
     "dfd": "dfdFim",
@@ -75,6 +107,12 @@ MARCO_FIM_POR_SUBETAPA = {
     "edital": "editalFim",
     "juridico": "juridicoFim",
     "dfe": "dfeFim",
+    "autorizacaoDireta": "autorizacaoDiretaFim",
+    "apensacao": "apensacaoFim",
+    "julgamento": "julgamentoFim",
+    "divulgacao": "divulgacaoFim",
+    "orcamento": "orcamentoFim",
+    "empenho": "empenhoFim",
 }
 
 import re as _re
@@ -106,8 +144,18 @@ def calcular_progresso(docs, etapas: list[tuple[str, list[str]]]) -> tuple[str |
     return sub_atual, marcos, False
 
 
-def detectar_estados_especiais(docs, movimentacoes) -> dict:
+def detectar_estados_especiais(docs, movimentacoes, caminho: str = "pregao") -> dict:
+    """Estados especiais do CLAUDE.md seção 8 — documentados só pro caminho
+    Pregão (recurso/suspensão são conceitos de licitação em disputa, não se
+    aplicam a Dispensa). "concluido" é o gatilho de saída do acompanhamento
+    ativo, que muda de significado por caminho (Homologação no Pregão, Nota
+    de Empenho na Dispensa)."""
     tipos = [d.tipo.upper() for d in docs]
+
+    if caminho == "dispensa":
+        concluido = any(t.startswith("NOTA DE EMPENHO") for t in tipos)
+        return {"concluido": concluido, "em_recurso": False, "candidato_suspensao": False}
+
     homologado = any("HOMOLOGA" in t for t in tipos)
     em_recurso = any("RECURSO ADMINISTRATIVO DE LICITA" in t for t in tipos) and any(
         "JULGAMENTO DE RECURSO" in t for t in tipos
@@ -122,7 +170,7 @@ def detectar_estados_especiais(docs, movimentacoes) -> dict:
             if not homologado and not em_recurso:
                 candidato_suspensao = True
     return {
-        "homologado": homologado,
+        "concluido": homologado,
         "em_recurso": em_recurso,
         "candidato_suspensao": candidato_suspensao,
     }
@@ -147,29 +195,39 @@ def atualizar_todos() -> dict:
     avisos = []
 
     for p in data:
-        if p.get("caminho") != "pregao" or p.get("fase") == "Homologado":
+        caminho = p.get("caminho")
+        if caminho not in ("pregao", "dispensa") or p.get("fase") == "Homologado":
             continue
 
-        tem_pregao_vinculado = bool(p.get("pregao"))
         mudou = False
         subetapa_mudou = False
 
-        if tem_pregao_vinculado:
-            # Já apensou/formalizou o pregão: DFD/ETP/TR/Lista são história
-            # do apenso de planejamento (id ainda não resolvido para todos os
-            # processos antigos — ver aviso abaixo) e não são recalculados
-            # aqui. Só a parte do processo de PREGÃO é reavaliada.
-            if not p.get("pregao_id"):
+        # Cada caminho usa nomes de campo próprios pro processo de execução
+        # vinculado (pregão / dispensa), porque cada um pode ter uma
+        # nomenclatura de tramitação diferente — ver CLAUDE.md seção 4.
+        campo_vinculo = "pregao" if caminho == "pregao" else "execucao_numero"
+        campo_vinculo_id = "pregao_id" if caminho == "pregao" else "execucao_id"
+        etapas_execucao = SUBETAPAS_PREGAO if caminho == "pregao" else SUBETAPAS_DISPENSA
+        etapas_planejamento = SUBETAPAS_PLANEJAMENTO if caminho == "pregao" else SUBETAPAS_PLANEJAMENTO_DISPENSA
+        ordem = ORDEM_GLOBAL if caminho == "pregao" else ORDEM_DISPENSA
+
+        tem_execucao_vinculada = bool(p.get(campo_vinculo))
+
+        if tem_execucao_vinculada:
+            # Já formalizou o processo de execução: DFD/ETP/TR/etc. são
+            # história do apenso de planejamento e não são recalculados
+            # aqui — só a parte do processo de execução é reavaliada
+            # (nunca misturar fonte, CLAUDE.md seção 2).
+            if not p.get(campo_vinculo_id):
                 avisos.append(
-                    f"{p['processo']}: tem pregão vinculado ({p['pregao']}) mas o id interno do "
-                    f"SIPAC do pregão não está resolvido — pulado nesta execução. Resolver via "
-                    f"cross-referência (busca por tipo 1470 na janela de datas prováveis)."
+                    f"{p['processo']}: tem {campo_vinculo}={p[campo_vinculo]!r} vinculado mas o id "
+                    f"interno do SIPAC não está resolvido — pulado nesta execução."
                 )
                 continue
-            html = client.obter_processo(p["pregao_id"])
+            html = client.obter_processo(p[campo_vinculo_id])
             docs = extrair_documentos(html)
             movs = extrair_movimentacoes(html)
-            etapas = SUBETAPAS_PREGAO
+            etapas = etapas_execucao
         else:
             if not p.get("processo_id"):
                 avisos.append(f"{p['processo']}: sem processo_id resolvido — pulado.")
@@ -177,12 +235,17 @@ def atualizar_todos() -> dict:
             html = client.obter_processo(p["processo_id"])
             docs = extrair_documentos(html)
             movs = extrair_movimentacoes(html)
-            etapas = SUBETAPAS_PLANEJAMENTO
+            etapas = etapas_planejamento
 
         sub_atual, marcos_novos, _chegou_ao_fim = calcular_progresso(docs, etapas)
-        estados = detectar_estados_especiais(docs, movs)
+        estados = detectar_estados_especiais(docs, movs, caminho)
 
-        if estados["homologado"] and p.get("fase") != "Homologado":
+        if estados["concluido"] and p.get("fase") != "Homologado":
+            # "Homologado" é reaproveitado aqui como o balde genérico de
+            # "processo de contratação concluído" (CLAUDE.md seção 7/8) —
+            # pra Dispensa o gatilho real é a Nota de Empenho, não uma
+            # Homologação de verdade, mas a semântica de painel é a mesma:
+            # sai do acompanhamento ativo.
             p["fase"] = "Homologado"
             p["subEtapa"] = None
             mudou = subetapa_mudou = True
@@ -193,8 +256,8 @@ def atualizar_todos() -> dict:
             # casamento por palavra-chave falhar silenciosamente e pareceria
             # um retrocesso — mais seguro não aplicar do que corromper um
             # dado que já foi lido/confirmado com juízo humano antes.
-            idx_novo = ORDEM_GLOBAL.index(sub_atual) if sub_atual in ORDEM_GLOBAL else -1
-            idx_atual = ORDEM_GLOBAL.index(p["subEtapa"]) if p.get("subEtapa") in ORDEM_GLOBAL else -1
+            idx_novo = ordem.index(sub_atual) if sub_atual in ordem else -1
+            idx_atual = ordem.index(p["subEtapa"]) if p.get("subEtapa") in ordem else -1
             if idx_novo > idx_atual:
                 p["subEtapa"] = sub_atual
                 p["fase"] = FASE_POR_SUBETAPA[sub_atual]
@@ -235,19 +298,24 @@ def atualizar_todos() -> dict:
                 p["subetapa"] = novo_resumo
                 mudou = True
 
-        # Planejamento que já foi enviado à DFI mas ainda não tem o número
-        # do pregão vinculado — não dá para descobrir automaticamente
-        # (busca por número não funciona); sinaliza para confirmação manual.
-        if not tem_pregao_vinculado:
+        # Planejamento que já mudou de status (ex. "APENSADO") mas ainda não
+        # tem o processo de execução vinculado no painel — não dá pra
+        # descobrir automaticamente hoje (busca por número não funciona,
+        # CLAUDE.md seção 12); sinaliza pra confirmação manual. A peça que
+        # resolveria isso sozinha (varrer Termos de Juntada por tipo de
+        # documento) ainda não foi construída — combinado com a pessoa dona
+        # do projeto pra fazer depois do levantamento por caminho.
+        if not tem_execucao_vinculada:
+            status_mudou = "Status: APENSADO" in html or "Status: ARQUIVADO" in html
             enviado_a_dfi = any(
                 "DFI" in mv.unidade_destino.upper() and "PLANEJAMENTO" not in mv.unidade_destino.upper()
                 for mv in movs
             )
-            if enviado_a_dfi:
+            if status_mudou or enviado_a_dfi:
                 avisos.append(
-                    f"{p['processo']}: processo foi enviado à DFI mas ainda não tem número de "
-                    f"pregão vinculado no painel — confirmar manualmente (busca por número não "
-                    f"funciona via automação, ver CLAUDE.md seção 12)."
+                    f"{p['processo']}: sinais de que já saiu do planejamento (status/movimentação) "
+                    f"mas ainda não tem processo de execução vinculado no painel — confirmar "
+                    f"manualmente por enquanto."
                 )
 
         if mudou:
