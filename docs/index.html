@@ -1,0 +1,1534 @@
+<meta charset="UTF-8">
+<title>Linha de Compras</title>
+<style>
+:root{
+  --paper:#F3F6FA;
+  --paper-raised:#FFFFFF;
+  --paper-sunken:#E7EDF5;
+  --ink:#14202E;
+  --ink-soft:#49586B;
+  --ink-faint:#8593A6;
+  --rail:#D2DCE8;
+  --rail-strong:#AEC0D4;
+
+  --accent:#164194;
+  --accent-bright:#0095DB;
+
+  --line-dpgc:#B25F1B;
+  --line-dpgc-soft:#F2E1CB;
+  --line-dfi:#164194;
+  --line-dfi-soft:#DBE5F5;
+  --line-jur:#7A3552;
+  --line-jur-soft:#EEDCE3;
+  --line-dfe:#1F6E5C;
+  --line-dfe-soft:#DBEAE5;
+  --line-homolog:#93791F;
+  --line-homolog-soft:#F0E7C4;
+
+  --warn:#BD8A2A;
+  --critical:#AE3B2A;
+  --ok-fg:#2E7D46;
+  --suspenso:#5748A8;
+
+  --font-display:"Liberation Sans Narrow","Arial Narrow",var(--font-body);
+  --font-body:"Liberation Sans",Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --font-mono:"Liberation Mono","SF Mono","Cascadia Code","Roboto Mono",Menlo,monospace;
+
+  --shadow-card:0 1px 2px rgba(20,32,46,.06), 0 1px 1px rgba(20,32,46,.04);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0E141C;
+    --paper-raised:#182230;
+    --paper-sunken:#0A0F16;
+    --ink:#E7ECF3;
+    --ink-soft:#A6B3C4;
+    --ink-faint:#6C7B8F;
+    --rail:#293445;
+    --rail-strong:#3C4B60;
+
+    --accent:#6E9BE0;
+    --accent-bright:#3FBBEE;
+
+    --line-dpgc:#E0954C;
+    --line-dpgc-soft:#3A2A15;
+    --line-dfi:#6E9BE0;
+    --line-dfi-soft:#16273F;
+    --line-jur:#D084A0;
+    --line-jur-soft:#301F28;
+    --line-dfe:#57B79C;
+    --line-dfe-soft:#122A24;
+    --line-homolog:#D4BB4F;
+    --line-homolog-soft:#332B10;
+
+    --warn:#E0B24E;
+    --critical:#E0715C;
+    --ok-fg:#6FBF87;
+    --suspenso:#9C90E0;
+    --shadow-card:0 1px 2px rgba(0,0,0,.4);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0E141C;
+  --paper-raised:#182230;
+  --paper-sunken:#0A0F16;
+  --ink:#E7ECF3;
+  --ink-soft:#A6B3C4;
+  --ink-faint:#6C7B8F;
+  --rail:#293445;
+  --rail-strong:#3C4B60;
+
+  --accent:#6E9BE0;
+  --accent-bright:#3FBBEE;
+
+  --line-dpgc:#E0954C;
+  --line-dpgc-soft:#3A2A15;
+  --line-dfi:#6E9BE0;
+  --line-dfi-soft:#16273F;
+  --line-jur:#D084A0;
+  --line-jur-soft:#301F28;
+  --line-dfe:#57B79C;
+  --line-dfe-soft:#122A24;
+  --line-homolog:#D4BB4F;
+  --line-homolog-soft:#332B10;
+
+  --warn:#E0B24E;
+  --critical:#E0715C;
+  --ok-fg:#6FBF87;
+  --suspenso:#9C90E0;
+  --shadow-card:0 1px 2px rgba(0,0,0,.4);
+}
+
+*{box-sizing:border-box;}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--font-body);
+}
+.wrap{
+  max-width:1240px;
+  margin:0 auto;
+  padding:2.25rem 2rem 4rem;
+}
+
+/* header */
+.eyebrow{
+  font-family:var(--font-mono);
+  font-size:11px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:var(--ink-faint);
+  margin:0 0 6px;
+}
+h1{
+  font-family:var(--font-display);
+  font-weight:700;
+  font-size:clamp(30px,4vw,42px);
+  margin:0 0 .3rem;
+  letter-spacing:0;
+  color:var(--accent);
+  text-wrap:balance;
+}
+.subhead{
+  color:var(--ink-soft);
+  font-size:14.5px;
+  margin:0 0 1.25rem;
+  max-width:62ch;
+}
+.subhead b{ color:var(--ink); font-variant-numeric:tabular-nums; }
+
+/* pulse */
+.pulse{
+  display:flex;
+  gap:20px;
+  flex-wrap:wrap;
+  font-size:13px;
+  color:var(--ink-soft);
+  background:var(--paper-raised);
+  border:1px solid var(--rail);
+  border-radius:6px;
+  padding:10px 16px;
+  margin-bottom:1.75rem;
+}
+.pulse b{ color:var(--ink); font-variant-numeric:tabular-nums; }
+.pulse .sep{ color:var(--rail-strong); }
+
+.controls{
+  display:flex;
+  gap:10px;
+  align-items:center;
+  margin-bottom:1.5rem;
+  flex-wrap:wrap;
+}
+.search-box{ position:relative; flex:1; min-width:240px; max-width:420px; }
+.search-box input{
+  width:100%;
+  height:40px;
+  border-radius:3px;
+  border:1px solid var(--rail-strong);
+  background:var(--paper-raised);
+  color:var(--ink);
+  padding:0 14px 0 36px;
+  font-family:var(--font-body);
+  font-size:13.5px;
+}
+.search-box input::placeholder{ color:var(--ink-faint); }
+.search-box input:focus{ outline:2px solid var(--accent); outline-offset:1px; }
+.search-box svg{ position:absolute; left:11px; top:50%; transform:translateY(-50%); opacity:.55; }
+
+.view-toggle{
+  display:flex;
+  border:1px solid var(--rail-strong);
+  border-radius:4px;
+  overflow:hidden;
+}
+.view-toggle button{
+  font-family:var(--font-body);
+  font-size:12.5px;
+  color:var(--ink-soft);
+  background:var(--paper-raised);
+  border:none;
+  padding:9px 14px;
+  cursor:pointer;
+}
+.view-toggle button + button{ border-left:1px solid var(--rail-strong); }
+.view-toggle button.active{ background:var(--accent); color:#fff; }
+
+.legend{
+  display:flex;
+  gap:14px;
+  flex-wrap:wrap;
+  font-size:12px;
+  color:var(--ink-soft);
+  margin-left:auto;
+}
+.legend span{ display:inline-flex; align-items:center; gap:5px; }
+.legend i{ width:8px; height:8px; border-radius:2px; display:inline-block; flex:none; }
+
+/* ===== the line ===== */
+.transit{
+  padding:1.5rem 0 1.25rem;
+  margin-bottom:.5rem;
+}
+.stations{
+  display:flex;
+  gap:0 14px;
+}
+.stations.mode-divisao .station{ flex:1; }
+.stations.mode-subetapa .station{ flex:1; min-width:0; }
+.stations.mode-subetapa .station.group-start{ margin-left:20px; }
+.stations.mode-subetapa .station.group-start:first-child{ margin-left:0; }
+
+.station{
+  position:relative;
+  cursor:pointer;
+  user-select:none;
+}
+.rail-seg{
+  position:relative;
+  height:3px;
+  background:var(--rail);
+  border-radius:2px;
+  margin-bottom:14px;
+}
+.rail-seg::before{
+  content:'';
+  position:absolute;
+  left:0; top:50%;
+  width:14px; height:14px;
+  border-radius:3px;
+  background:var(--dot-color);
+  border:3px solid var(--paper);
+  box-shadow:0 0 0 2px var(--dot-color);
+  transform:translate(-6px,-50%) rotate(0deg);
+}
+.station-head{
+  display:flex;
+  align-items:baseline;
+  gap:6px;
+  flex-wrap:wrap;
+  padding-bottom:14px;
+}
+.station-label{
+  font-family:var(--font-display);
+  font-weight:700;
+  font-size:17px;
+  color:var(--ink);
+}
+.mode-subetapa .station-label{ font-size:13.5px; }
+.station-sub{
+  font-family:var(--font-mono);
+  font-size:11px;
+  color:var(--ink-faint);
+}
+.station-count{
+  font-family:var(--font-mono);
+  font-size:11.5px;
+  color:var(--paper);
+  background:var(--dot-color);
+  border-radius:3px;
+  padding:1px 7px;
+  font-weight:600;
+}
+.station.open .station-label{ text-decoration:underline; text-decoration-color:var(--dot-color); text-underline-offset:4px; }
+
+.cluster{
+  display:flex;
+  flex-wrap:wrap;
+  gap:5px;
+  padding:0 4px 0 0;
+  min-height:26px;
+  align-content:flex-start;
+}
+.chip{
+  width:12px; height:12px;
+  border-radius:3px;
+  background:var(--dot-color);
+  flex:none;
+  cursor:pointer;
+  position:relative;
+  transition:transform .1s ease;
+  box-shadow:inset 0 0 0 1px rgba(0,0,0,.08);
+}
+.chip:hover{ transform:scale(1.35); }
+.chip.status-warn{ box-shadow:0 0 0 2.5px var(--warn); }
+.chip.status-stale{ box-shadow:0 0 0 2.5px var(--critical); }
+.chip.suspenso{ box-shadow:0 0 0 2.5px var(--suspenso); }
+.chip.urgente::after{
+  content:'';
+  position:absolute; inset:-4px;
+  border-radius:4px;
+  border:1.5px solid var(--critical);
+  animation:pulseRing 1.8s ease-out infinite;
+}
+.chip.dim{ opacity:.18; }
+@keyframes pulseRing{
+  0%{ transform:scale(.7); opacity:.9; }
+  100%{ transform:scale(1.6); opacity:0; }
+}
+
+/* homologado terminus */
+.terminus{
+  margin-top:1.75rem;
+  padding-top:1.25rem;
+  border-top:1px dashed var(--rail);
+  display:flex;
+  align-items:center;
+  gap:12px;
+  cursor:pointer;
+}
+.terminus-dot{
+  width:14px; height:14px;
+  border-radius:3px;
+  background:var(--line-homolog);
+  border:3px solid var(--paper);
+  box-shadow:0 0 0 2px var(--line-homolog);
+  flex:none;
+}
+.terminus-label{ font-family:var(--font-display); font-size:14px; color:var(--ink-soft); }
+.terminus-count{
+  font-family:var(--font-mono); font-size:11px; color:var(--paper);
+  background:var(--line-homolog); border-radius:3px; padding:1px 7px;
+}
+.terminus .cluster{ padding-top:0; }
+
+/* manifest panel */
+.manifest{
+  display:none;
+  margin:.75rem 0 2rem;
+  border:1px solid var(--rail);
+  border-radius:6px;
+  background:var(--paper-raised);
+  overflow:hidden;
+}
+.manifest.show{ display:block; }
+.manifest-head{
+  padding:12px 16px;
+  border-bottom:1px solid var(--rail);
+  font-family:var(--font-mono);
+  font-size:11px;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+  color:var(--ink-faint);
+  background:var(--paper-sunken);
+}
+.row{
+  display:flex;
+  gap:16px;
+  align-items:flex-start;
+  padding:13px 16px;
+  border-bottom:1px solid var(--rail);
+}
+.row:last-child{ border-bottom:none; }
+.row.faded{ opacity:.3; }
+.row-dot{
+  width:10px; height:10px; border-radius:2px;
+  background:var(--dot-color); flex:none; margin-top:6px;
+}
+.row-main{ flex:1; min-width:0; }
+.row-top{ display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin-bottom:2px; }
+.row-id{ font-family:var(--font-mono); font-size:12.5px; color:var(--ink); font-weight:600; }
+.row-tag{
+  font-family:var(--font-mono); font-size:10px; border-radius:3px; padding:1px 6px;
+  border:1px solid var(--rail-strong); color:var(--ink-soft);
+}
+.row-tag.suspenso{ color:var(--suspenso); border-color:var(--suspenso); }
+.row-tag.recurso{ color:var(--warn); border-color:var(--warn); }
+.row-tag.urgente{ color:var(--critical); border-color:var(--critical); font-weight:600; }
+.row-subj{ font-size:13.5px; color:var(--ink); margin-bottom:3px; }
+.row-status{ font-size:12.5px; color:var(--ink-soft); line-height:1.4; margin-bottom:6px; }
+
+.link-badges{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  margin-top:6px;
+  font-family:var(--font-mono);
+  font-size:10.5px;
+}
+.link-badge{
+  border-radius:3px;
+  padding:2px 7px;
+  border:1px solid var(--rail-strong);
+  color:var(--ink-soft);
+  white-space:nowrap;
+}
+.link-badge.plan{ color:var(--ink-faint); }
+.link-badge.pregao{ color:var(--line-dfi); border-color:var(--line-dfi); }
+.link-arrow{ color:var(--ink-faint); }
+
+.row-meta{ text-align:right; flex:none; font-family:var(--font-mono); font-size:11px; color:var(--ink-faint); white-space:nowrap; }
+.row-meta .days{ font-size:12.5px; margin-bottom:3px; display:block; }
+.row-meta .days.warn{ color:var(--warn); }
+.row-meta .days.stale{ color:var(--critical); }
+.row-meta .days.ok{ color:var(--ok-fg); }
+.row-meta .previsao{ display:block; margin-bottom:3px; }
+.row-meta a{ color:var(--ink-soft); text-decoration:none; border-bottom:1px dotted var(--ink-faint); }
+.row-meta a:hover{ color:var(--ink); }
+
+/* gestor panel */
+.gestor-section{ margin-top:2.5rem; padding-top:1.5rem; border-top:1px solid var(--rail); }
+.gestor-title{
+  font-family:var(--font-mono);
+  font-size:11px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:var(--ink-faint);
+  margin-bottom:1rem;
+}
+.gestor-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+  gap:10px;
+}
+.gestor-card{
+  background:var(--paper-raised);
+  border:1px solid var(--rail);
+  border-radius:6px;
+  padding:.75rem .9rem;
+  cursor:pointer;
+  transition:border-color .12s ease;
+}
+.gestor-card:hover{ border-color:var(--rail-strong); }
+.gestor-card.active{ border-color:var(--accent); border-width:1.5px; }
+.gestor-name{ font-size:13.5px; font-weight:600; color:var(--ink); }
+.gestor-stats{ font-size:12px; color:var(--ink-soft); margin-top:4px; }
+.gestor-stats .alert{ color:var(--critical); font-weight:600; }
+
+/* ledger */
+.ledger{
+  margin-top:2.5rem;
+  padding-top:1.5rem;
+  border-top:1px solid var(--rail);
+}
+.ledger-title{
+  font-family:var(--font-mono);
+  font-size:11px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:var(--ink-faint);
+  margin-bottom:1rem;
+}
+.ledger-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(130px,1fr));
+  gap:1px;
+  background:var(--rail);
+  border:1px solid var(--rail);
+  border-radius:6px;
+  overflow:hidden;
+}
+.ledger-cell{
+  background:var(--paper-raised);
+  padding:10px 14px;
+}
+.ledger-cell.no-data{ opacity:.4; }
+.ledger-stage{ font-size:11px; color:var(--ink-faint); margin-bottom:3px; }
+.ledger-value{ font-family:var(--font-mono); font-size:16px; font-weight:600; color:var(--ink); font-variant-numeric:tabular-nums; }
+.ledger-value span{ font-size:10.5px; font-weight:400; color:var(--ink-soft); margin-left:2px; }
+
+.empty-note{ font-size:12.5px; color:var(--ink-faint); padding:14px 16px; }
+
+@media (max-width:760px){
+  .stations{ flex-wrap:wrap; }
+  .stations .station{ flex:1 1 45%; margin-bottom:1.25rem; }
+  .stations.mode-subetapa .station.group-start{ margin-left:0; }
+  .row{ flex-direction:column; }
+  .row-meta{ text-align:left; }
+}
+
+/* ===== portão de entrada ===== */
+.gate{
+  position:fixed; inset:0;
+  background:var(--paper);
+  z-index:100;
+  overflow-y:auto;
+}
+.gate-wrap{
+  max-width:760px;
+  margin:0 auto;
+  padding:3rem 2rem 4rem;
+}
+.gate-eyebrow{
+  font-family:var(--font-mono);
+  font-size:11px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:var(--ink-faint);
+  margin:0 0 8px;
+}
+.gate h1{ margin-bottom:.5rem; }
+.gate-sub{
+  color:var(--ink-soft);
+  font-size:14px;
+  margin:0 0 2rem;
+  max-width:60ch;
+}
+.gate-progress{
+  font-family:var(--font-mono);
+  font-size:12px;
+  color:var(--ink-faint);
+  margin-bottom:1.25rem;
+}
+.gate-list{ display:flex; flex-direction:column; gap:12px; margin-bottom:2rem; }
+.gate-card{
+  background:var(--paper-raised);
+  border:1px solid var(--rail);
+  border-radius:8px;
+  padding:1rem 1.15rem;
+  transition:opacity .2s ease, transform .2s ease;
+}
+.gate-card.resolved{ opacity:0; transform:translateX(12px) scale(.98); pointer-events:none; height:0; padding:0; margin:0; border:none; overflow:hidden; }
+.gate-card-top{ display:flex; justify-content:space-between; align-items:flex-start; gap:12px; margin-bottom:6px; }
+.gate-id{ font-family:var(--font-mono); font-size:12.5px; color:var(--ink); font-weight:600; }
+.gate-date{ font-family:var(--font-mono); font-size:11px; color:var(--ink-faint); white-space:nowrap; }
+.gate-subj{ font-size:14px; color:var(--ink); margin-bottom:4px; }
+.gate-meta{ font-size:12px; color:var(--ink-soft); margin-bottom:10px; }
+.gate-warning{
+  display:inline-flex; align-items:center; gap:6px;
+  font-size:11.5px; font-weight:600; color:var(--critical);
+  background:color-mix(in srgb, var(--critical) 12%, var(--paper-raised));
+  border:1px solid var(--critical);
+  border-radius:4px; padding:4px 9px; margin-bottom:10px;
+}
+.gate-actions{ display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+.gate-btn{
+  font-family:var(--font-body);
+  font-size:12.5px;
+  font-weight:600;
+  border-radius:5px;
+  padding:8px 14px;
+  cursor:pointer;
+  border:1px solid var(--rail-strong);
+  background:var(--paper-raised);
+  color:var(--ink);
+}
+.gate-btn.primary{ background:var(--accent); border-color:var(--accent); color:#fff; }
+.gate-btn.primary:hover{ background:var(--accent-bright); border-color:var(--accent-bright); }
+.gate-btn.ghost{ color:var(--ink-soft); }
+.gate-btn.ghost:hover{ background:var(--paper-sunken); }
+.gate-btn-link{
+  font-size:12px; color:var(--ink-soft); text-decoration:none;
+  border-bottom:1px dotted var(--ink-faint); margin-left:auto;
+}
+.gate-status-tag{
+  display:inline-block; font-size:10.5px; font-weight:700; letter-spacing:.03em; text-transform:uppercase;
+  padding:2px 8px; border-radius:3px; margin-bottom:8px;
+}
+.gate-status-tag.em-analise{ background:color-mix(in srgb, var(--warn) 18%, var(--paper-raised)); color:var(--warn); }
+.gate-status-tag.acompanhando{ background:color-mix(in srgb, var(--ok-fg) 18%, var(--paper-raised)); color:var(--ok-fg); }
+.caminho-picker{
+  display:flex; gap:6px; flex-wrap:wrap; margin-top:2px;
+}
+.caminho-picker-label{ font-size:12px; color:var(--ink-soft); width:100%; margin-bottom:2px; }
+.caminho-btn{
+  font-family:var(--font-body); font-size:12px; font-weight:600;
+  border-radius:5px; padding:6px 12px; cursor:pointer;
+  border:1px solid var(--rail-strong); background:var(--paper-raised); color:var(--ink);
+}
+.caminho-btn:hover{ background:var(--accent-soft, var(--paper-sunken)); border-color:var(--accent); }
+.gate-sync{ margin:1rem 0; text-align:left; }
+.gate-sync-label{ font-size:12.5px; color:var(--ink-soft); margin-bottom:6px; }
+#gateSyncText{
+  width:100%; font-family:var(--font-mono); font-size:11px; color:var(--ink);
+  background:var(--paper-sunken); border:1px solid var(--rail); border-radius:6px; padding:8px;
+  resize:vertical; margin-bottom:8px;
+}
+.gate-btn-link:hover{ color:var(--ink); }
+.gate-done{
+  text-align:center;
+  padding:3rem 1rem;
+}
+.gate-done h2{ font-family:var(--font-display); font-weight:700; font-size:24px; color:var(--accent); margin:0 0 .5rem; }
+.gate-done p{ color:var(--ink-soft); font-size:14px; margin:0 0 1.5rem; }
+.gate-reset{
+  position:fixed; bottom:14px; right:18px;
+  font-family:var(--font-mono); font-size:10.5px; color:var(--ink-faint);
+  text-decoration:none; border-bottom:1px dotted var(--ink-faint); z-index:101;
+}
+
+/* clique na linha do manifesto abre a trilha */
+.row{ cursor:pointer; transition:background .12s ease; }
+.row:hover{ background:var(--paper-sunken); }
+.row-trail-link{
+  font-size:11.5px; color:var(--accent); text-decoration:none;
+  border-bottom:1px dotted var(--accent); margin-top:4px; display:inline-block;
+}
+
+.example-trigger{
+  position:fixed; bottom:14px; left:18px;
+  font-family:var(--font-mono); font-size:10.5px; color:var(--ink-faint);
+  text-decoration:none; border-bottom:1px dotted var(--ink-faint); z-index:101;
+  background:var(--paper-raised); padding:3px 8px; border-radius:4px; border:1px solid var(--rail);
+}
+
+/* ===== trilha (visão detalhada de um processo) ===== */
+.trail-overlay{
+  display:none;
+  position:fixed; inset:0;
+  background:rgba(20,32,46,.55);
+  z-index:200;
+  align-items:center; justify-content:center;
+  padding:2rem 1.5rem;
+  overflow-y:auto;
+}
+.trail-overlay.show{ display:flex; }
+.trail-modal{
+  background:var(--paper);
+  border-radius:10px;
+  max-width:920px;
+  width:100%;
+  max-height:88vh;
+  overflow-y:auto;
+  box-shadow:0 24px 60px rgba(0,0,0,.35);
+  position:relative;
+}
+.trail-close{
+  position:absolute; top:14px; right:16px;
+  background:none; border:none; font-size:20px; color:var(--ink-faint);
+  cursor:pointer; line-height:1; z-index:2;
+}
+.trail-close:hover{ color:var(--ink); }
+.trail-head{
+  padding:1.75rem 2rem 1.25rem;
+  border-bottom:1px solid var(--rail);
+}
+.trail-eyebrow{
+  font-family:var(--font-mono); font-size:11px; letter-spacing:.08em; text-transform:uppercase;
+  color:var(--ink-faint); margin:0 0 6px; display:flex; align-items:center; gap:8px;
+}
+.trail-caminho-tag{
+  background:var(--accent); color:#fff; border-radius:3px; padding:1px 8px;
+  font-size:10.5px; letter-spacing:0; text-transform:none;
+}
+.trail-caminho-tag.placeholder{ background:var(--ink-faint); }
+.trail-title{ font-family:var(--font-display); font-weight:700; font-size:22px; color:var(--ink); margin:0 0 6px; }
+.trail-meta{ font-size:13px; color:var(--ink-soft); display:flex; gap:14px; flex-wrap:wrap; }
+.trail-meta b{ color:var(--ink); font-variant-numeric:tabular-nums; }
+
+.trail-placeholder-note{
+  margin:1rem 2rem 0;
+  font-size:12px; color:var(--warn);
+  background:color-mix(in srgb, var(--warn) 12%, var(--paper-raised));
+  border:1px solid var(--warn);
+  border-radius:5px; padding:8px 12px;
+}
+
+.trail-board{
+  padding:2.25rem 2rem 1rem;
+  overflow-x:auto;
+}
+.trail-row-label{
+  font-family:var(--font-mono); font-size:10.5px; color:var(--ink-faint);
+  text-transform:uppercase; letter-spacing:.06em; margin-bottom:10px;
+}
+.trail-path{
+  display:flex;
+  align-items:flex-start;
+  gap:0;
+  min-width:max-content;
+  padding-bottom:1.5rem;
+}
+.trail-path.muted{ opacity:.55; }
+.trail-stop{
+  display:flex; flex-direction:column; align-items:center;
+  width:108px; flex:none; position:relative;
+}
+.trail-connector{
+  flex:none; width:40px; height:2px; background:var(--rail-strong);
+  margin-top:23px;
+}
+.trail-connector.done{ background:var(--accent); }
+.trail-node{
+  width:46px; height:46px; border-radius:10px;
+  display:flex; align-items:center; justify-content:center;
+  font-family:var(--font-mono); font-weight:700; font-size:15px;
+  border:2.5px solid var(--rail-strong);
+  background:var(--paper-raised);
+  color:var(--ink-faint);
+  position:relative;
+  transform:rotate(45deg);
+}
+.trail-node span{ transform:rotate(-45deg); }
+.trail-stop.done .trail-node{ background:var(--node-color,var(--accent)); border-color:var(--node-color,var(--accent)); color:#fff; }
+.trail-stop.current .trail-node{
+  background:var(--node-color,var(--accent)); border-color:var(--node-color,var(--accent)); color:#fff;
+  width:54px; height:54px;
+  box-shadow:0 0 0 5px color-mix(in srgb, var(--node-color,var(--accent)) 25%, transparent);
+}
+.trail-token{
+  position:absolute; top:-26px; left:50%; transform:translateX(-50%);
+  font-size:20px;
+  animation:tokenBounce 1.4s ease-in-out infinite;
+}
+@keyframes tokenBounce{
+  0%,100%{ transform:translateX(-50%) translateY(0); }
+  50%{ transform:translateX(-50%) translateY(-5px); }
+}
+.trail-label{ font-size:11.5px; color:var(--ink); text-align:center; margin-top:10px; font-weight:600; line-height:1.25; }
+.trail-stop.future .trail-label{ color:var(--ink-faint); font-weight:400; }
+.trail-sub{ font-size:9px; color:var(--ink-faint); text-align:center; margin-top:2px; font-family:var(--font-mono); text-transform:uppercase; letter-spacing:.03em; }
+.trail-dates{ font-size:10px; color:var(--ink-faint); text-align:center; margin-top:2px; font-family:var(--font-mono); }
+.trail-dates .dur{ color:var(--ink-soft); }
+
+.trail-node.tentative{ border-style:dashed; opacity:.65; }
+.trail-stop.tentative .trail-label{ font-style:italic; color:var(--ink-faint); font-weight:400; }
+.trail-stop.tentative .trail-sub{ color:var(--warn); }
+
+.trail-switch-note{
+  margin:0 2rem 1.25rem;
+  font-size:12.5px; color:var(--ink-soft);
+  display:flex; align-items:center; gap:8px;
+}
+.trail-switch-note::before{ content:'↳'; color:var(--warn); font-weight:700; font-size:16px; }
+
+.trail-foot{
+  padding:1rem 2rem 1.75rem;
+  border-top:1px solid var(--rail);
+  display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;
+}
+.trail-foot a{ font-size:12.5px; color:var(--accent); text-decoration:none; }
+.trail-foot a:hover{ text-decoration:underline; }
+.trail-status-current{ font-size:13px; color:var(--ink-soft); }
+.trail-status-current b{ color:var(--ink); }
+
+@media (max-width:640px){
+  .trail-head, .trail-board, .trail-foot{ padding-left:1.25rem; padding-right:1.25rem; }
+}
+</style>
+
+<div class="gate" id="gate" style="display:none;">
+  <div class="gate-wrap">
+    <p class="gate-eyebrow">Antes de entrar</p>
+    <h1>Processos de planejamento pendentes de decisão</h1>
+    <p class="gate-sub">Todo processo de planejamento (tipo 33.00) descoberto pela busca semanal aparece aqui até você decidir. Acompanhar pede o caminho de contratação; Em análise mantém o item na fila para perguntar de novo depois.</p>
+    <p class="gate-progress" id="gateProgress"></p>
+    <div class="gate-list" id="gateList"></div>
+    <div class="gate-done" id="gateDone" style="display:none;">
+      <h2>Tudo revisado</h2>
+      <p id="gateDoneSummary"></p>
+      <div class="gate-sync" id="gateSync" style="display:none;">
+        <p class="gate-sync-label">Decisões ainda não sincronizadas com o painel real — copie e envie para o Claude aplicar:</p>
+        <textarea id="gateSyncText" readonly rows="5"></textarea>
+        <button class="gate-btn ghost" id="gateSyncCopy">Copiar decisões</button>
+      </div>
+      <button class="gate-btn primary" id="gateEnter">Entrar no painel →</button>
+    </div>
+  </div>
+</div>
+<a href="#" class="example-trigger" id="exampleTrigger">🎲 Ver exemplo: processo que mudou de caminho</a>
+
+<div class="trail-overlay" id="trailOverlay">
+  <div class="trail-modal">
+    <button class="trail-close" id="trailClose">✕</button>
+    <div id="trailContent"></div>
+  </div>
+</div>
+
+<div class="wrap" id="dashboardWrap">
+  <p class="eyebrow">DPGC · UFRN · Protótipo v2</p>
+  <h1>Linha de Compras</h1>
+  <p class="subhead">Cada processo é lido como um trem percorrendo a linha, de <b>Planejamento</b> a <b>Homologação</b>. O tamanho do aglomerado em cada estação mostra onde os processos estão se acumulando; o anel ao redor do ponto mostra há quanto tempo ele está parado ali.</p>
+
+  <div class="pulse" id="pulse"></div>
+
+  <div class="controls">
+    <div class="search-box">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input type="text" id="searchInput" placeholder="Buscar processo, assunto ou gestor…">
+    </div>
+    <div class="view-toggle">
+      <button id="viewDivisao" class="active">Por divisão</button>
+      <button id="viewSubetapa">Por sub-etapa</button>
+    </div>
+    <div class="legend">
+      <span><i style="background:var(--ok-fg)"></i>No prazo</span>
+      <span><i style="background:var(--warn)"></i>Atenção</span>
+      <span><i style="background:var(--critical)"></i>Parado</span>
+      <span><i style="background:var(--suspenso)"></i>Suspenso</span>
+    </div>
+  </div>
+
+  <div class="transit">
+    <div class="stations" id="stations"></div>
+  </div>
+
+  <div class="terminus" id="terminusHead">
+    <span class="terminus-dot"></span>
+    <span class="terminus-label">Homologado — Fora do acompanhamento ativo</span>
+    <span class="terminus-count" id="terminusCount">0</span>
+  </div>
+  <div class="manifest" id="manifest-homologado"></div>
+
+  <div class="gestor-section">
+    <p class="gestor-title">Carga por gestor (DPGC)</p>
+    <div class="gestor-grid" id="gestorGrid"></div>
+  </div>
+
+  <div class="ledger">
+    <p class="ledger-title">Tempo médio por sub-etapa</p>
+    <div class="ledger-grid" id="ledgerGrid"></div>
+  </div>
+</div>
+
+<script>
+const FASES = [
+  { key:'dpgc', label:'Planejamento', sub:'DPGC', fase:'Planejamento (DPGC)', color:'var(--line-dpgc)', soft:'var(--line-dpgc-soft)' },
+  { key:'dfi', label:'Fase Interna', sub:'DFI', fase:'Fase Interna (DFI)', color:'var(--line-dfi)', soft:'var(--line-dfi-soft)' },
+  { key:'jur', label:'Jurídico', sub:'Projur', fase:'Jurídico (Projur/Análise)', color:'var(--line-jur)', soft:'var(--line-jur-soft)' },
+  { key:'dfe', label:'Fase Externa', sub:'DFE', fase:'Fase Externa (DFE)', color:'var(--line-dfe)', soft:'var(--line-dfe-soft)' },
+];
+
+const SUBETAPAS = [
+  { key:'dfd', label:'DFD', sub:'DPGC', fase:'Planejamento (DPGC)', color:'var(--line-dpgc)', soft:'var(--line-dpgc-soft)', groupStart:true },
+  { key:'etp', label:'ETP', sub:'DPGC', fase:'Planejamento (DPGC)', color:'var(--line-dpgc)', soft:'var(--line-dpgc-soft)' },
+  { key:'tr', label:'TR', sub:'DPGC', fase:'Planejamento (DPGC)', color:'var(--line-dpgc)', soft:'var(--line-dpgc-soft)' },
+  { key:'lista', label:'Lista', sub:'DPGC', fase:'Planejamento (DPGC)', color:'var(--line-dpgc)', soft:'var(--line-dpgc-soft)' },
+  { key:'analiseDfi', label:'Análise', sub:'DFI', fase:'Fase Interna (DFI)', color:'var(--line-dfi)', soft:'var(--line-dfi-soft)', groupStart:true },
+  { key:'pesquisaPrecos', label:'Pesquisa', sub:'DFI', fase:'Fase Interna (DFI)', color:'var(--line-dfi)', soft:'var(--line-dfi-soft)' },
+  { key:'irp', label:'IRP', sub:'DFI', fase:'Fase Interna (DFI)', color:'var(--line-dfi)', soft:'var(--line-dfi-soft)' },
+  { key:'edital', label:'Edital', sub:'DFI', fase:'Fase Interna (DFI)', color:'var(--line-dfi)', soft:'var(--line-dfi-soft)' },
+  { key:'juridico', label:'Jurídico', sub:'Projur', fase:'Jurídico (Projur/Análise)', color:'var(--line-jur)', soft:'var(--line-jur-soft)', groupStart:true },
+  { key:'dfe', label:'DFE', sub:'DFE', fase:'Fase Externa (DFE)', color:'var(--line-dfe)', soft:'var(--line-dfe-soft)', groupStart:true },
+];
+const STAGE_ORDER = SUBETAPAS.map(s => s.key);
+
+const CATEGORIA_LIMITES = {
+  proad:{ amarelo:2, vermelho:3 },
+  juridico:{ amarelo:10, vermelho:20 },
+  elaboracao:{ amarelo:5, vermelho:10 },
+  unidades:{ amarelo:5, vermelho:10 },
+};
+
+
+let processos = [];
+let portaoPendentes = [];
+
+const HOJE = new Date();
+
+function parseDataBR(str){ const [d,m,y] = str.split('/').map(Number); return new Date(y, m-1, d); }
+function diasParado(dataStr){ return Math.max(0, Math.round((HOJE - parseDataBR(dataStr)) / 86400000)); }
+function statusClasse(dias, categoria){
+  const lim = CATEGORIA_LIMITES[categoria] || CATEGORIA_LIMITES.elaboracao;
+  if(dias > lim.vermelho) return 'stale';
+  if(dias > lim.amarelo) return 'warn';
+  return 'ok';
+}
+function diasEntre(d1,d2){ if(!d1||!d2) return null; return Math.round((parseDataBR(d2)-parseDataBR(d1))/86400000); }
+
+let viewMode = 'divisao'; // 'divisao' | 'subetapa'
+let activeStation = null;
+let activeGestor = null;
+let searchTerm = '';
+
+function matches(p){
+  const searchOk = !searchTerm || (p.processo+' '+p.assunto+' '+(p.assuntoPregao||'')+' '+p.gestor+' '+p.unidade).toLowerCase().includes(searchTerm.toLowerCase());
+  const gestorOk = !activeGestor || p.gestor === activeGestor;
+  return searchOk && gestorOk;
+}
+
+/* ---------- pulso semanal ---------- */
+function renderPulse(){
+  const ativos = processos.filter(p => p.fase !== 'Homologado');
+  const avancaram = ativos.filter(p => diasParado(p.data) <= 7).length;
+  const novos = ativos.filter(p => { const d = diasEntre(p.dataCriacao, `${String(HOJE.getDate()).padStart(2,'0')}/${String(HOJE.getMonth()+1).padStart(2,'0')}/${HOJE.getFullYear()}`); return d !== null && d <= 7; }).length;
+  const parados = ativos.filter(p => diasParado(p.data) > 30).length;
+  document.getElementById('pulse').innerHTML = `
+    <span>Esta semana: <b>${avancaram}</b> processo${avancaram===1?'':'s'} ${avancaram===1?'se movimentou':'se movimentaram'} nos últimos 7 dias</span>
+    <span class="sep">·</span>
+    <span><b>${novos}</b> ${novos===1?'novo entrou':'novos entraram'} no acompanhamento</span>
+    <span class="sep">·</span>
+    <span><b>${parados}</b> ${parados===1?'segue parado':'seguem parados'} há mais de 30 dias</span>
+  `;
+}
+
+/* ---------- estações (divisão ou sub-etapa) ---------- */
+function currentStations(){ return viewMode === 'divisao' ? FASES : SUBETAPAS; }
+function stationProcs(st){
+  if(viewMode === 'divisao') return processos.filter(p => p.fase === st.fase);
+  return processos.filter(p => p.subEtapa === st.key);
+}
+
+function renderStations(){
+  const stations = currentStations();
+  const el = document.getElementById('stations');
+  el.className = 'stations mode-' + viewMode;
+  el.innerHTML = stations.map(f => {
+    const procs = stationProcs(f);
+    const chips = procs.map(p => {
+      const dias = diasParado(p.data);
+      const cls = statusClasse(dias, p.categoria);
+      const dim = !matches(p) ? 'dim' : '';
+      return `<div class="chip status-${cls} ${p.suspenso?'suspenso':''} ${p.urgente?'urgente':''} ${dim}" style="--dot-color:${f.color}" data-id="${p.processo}" title="${p.assuntoPregao||p.processo} — ${p.assunto}"></div>`;
+    }).join('');
+    return `
+      <div class="station ${f.groupStart?'group-start':''}" data-key="${f.key}" style="--dot-color:${f.color}">
+        <div class="rail-seg" style="--dot-color:${f.color}"></div>
+        <div class="station-head">
+          <span class="station-label">${f.label}</span>
+          <span class="station-sub">${f.sub}</span>
+          <span class="station-count" style="--dot-color:${f.color}">${procs.length}</span>
+        </div>
+        <div class="cluster">${chips}</div>
+      </div>
+    `;
+  }).join('');
+
+  el.querySelectorAll('.station').forEach(st => {
+    st.addEventListener('click', () => {
+      const key = st.getAttribute('data-key');
+      activeStation = activeStation === key ? null : key;
+      renderAll();
+      if(activeStation){
+        document.getElementById('manifest-'+key)?.scrollIntoView({behavior:'smooth', block:'nearest'});
+      }
+    });
+  });
+}
+
+/* ---------- projeção de homologação ---------- */
+let mediaPorEtapa = {};
+function calcularMediasEtapas(){
+  mediaPorEtapa = {};
+  STAGE_ORDER.forEach(key => {
+    const valores = processos.map(p => calcularEtapa(p, key)).filter(v => v!==null && v>=0);
+    mediaPorEtapa[key] = valores.length ? (valores.reduce((a,b)=>a+b,0)/valores.length) : null;
+  });
+}
+function projecao(p){
+  if(!p.subEtapa) return null;
+  const idx = STAGE_ORDER.indexOf(p.subEtapa);
+  if(idx === -1) return null;
+  const restantes = STAGE_ORDER.slice(idx);
+  let totalDias = 0, faltam = 0;
+  restantes.forEach(key => {
+    const media = mediaPorEtapa[key];
+    if(media === null) faltam++;
+    else totalDias += media;
+  });
+  const dataPrevista = new Date(HOJE.getTime() + Math.round(totalDias)*86400000);
+  return { dataPrevista, parcial: faltam>0, faltam };
+}
+function fmtDataCurta(d){
+  return d.toLocaleDateString('pt-BR', { day:'2-digit', month:'short', year:'numeric' });
+}
+
+/* ---------- manifesto ---------- */
+function railHtml(p){
+  const dias = diasParado(p.data);
+  const cls = statusClasse(dias, p.categoria);
+  const txt = dias===0?'Hoje':dias===1?'Há 1 dia':`Há ${dias} dias`;
+  return `<span class="days ${cls}">${txt}</span>`;
+}
+function previsaoHtml(p){
+  const proj = projecao(p);
+  if(!proj) return '';
+  return `<span class="previsao">Previsão: ${fmtDataCurta(proj.dataPrevista)}${proj.parcial?' (parcial)':''}</span>`;
+}
+function linkBadgesHtml(p){
+  if(!p.pregao) return '';
+  return `
+    <div class="link-badges">
+      <span class="link-badge plan">Planejamento · ${p.processo}</span>
+      <span class="link-arrow">→</span>
+      <span class="link-badge pregao">Pregão · ${p.pregao}</span>
+    </div>
+  `;
+}
+
+function manifestRows(procs, color, soft){
+  if(procs.length===0) return '<p class="empty-note">Nenhum processo nesta seleção.</p>';
+  return procs
+    .sort((a,b)=>diasParado(b.data)-diasParado(a.data))
+    .map(p => {
+      const match = matches(p);
+      const showGestor = p.fase === 'Planejamento (DPGC)';
+      return `
+      <div class="row ${match?'':'faded'}" style="--dot-soft:${soft}" data-processo="${p.processo}">
+        <div class="row-dot" style="--dot-color:${color}"></div>
+        <div class="row-main">
+          <div class="row-top">
+            <span class="row-id">${p.assuntoPregao || p.processo}</span>
+            ${p.suspenso?'<span class="row-tag suspenso">Suspenso</span>':''}
+            ${p.emRecurso?'<span class="row-tag recurso">Em recurso</span>':''}
+            ${p.urgente?'<span class="row-tag urgente">Prioridade</span>':''}
+          </div>
+          <div class="row-subj">${p.assunto}${showGestor && p.gestor ? ' · <span style="color:var(--ink-faint)">'+p.gestor.split(' ')[0]+'</span>' : ''}</div>
+          <div class="row-status">${p.subetapa}</div>
+          ${linkBadgesHtml(p)}
+          <span class="row-trail-link">🎲 Ver trilha do processo →</span>
+        </div>
+        <div class="row-meta">
+          ${railHtml(p)}
+          ${previsaoHtml(p)}
+          <div>${p.unidade.split(' - ')[0]}</div>
+          <a href="${p.link}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Sipac ↗</a>
+        </div>
+      </div>`;
+    }).join('');
+}
+
+function renderManifests(){
+  const stations = currentStations();
+  const el = document.getElementById('stations');
+  let anchor = el;
+  stations.forEach(f => {
+    let panel = document.getElementById('manifest-'+f.key);
+    if(!panel){
+      panel = document.createElement('div');
+      panel.className = 'manifest';
+      panel.id = 'manifest-'+f.key;
+    }
+    const procs = stationProcs(f);
+    panel.className = 'manifest' + (activeStation === f.key ? ' show' : '');
+    panel.innerHTML = `<div class="manifest-head">${f.label} · ${f.sub} — ${procs.length} processo${procs.length===1?'':'s'}</div>` + manifestRows(procs, f.color, f.soft);
+    anchor.after(panel);
+    anchor = panel;
+  });
+  // clean up panels from the other view mode so they don't linger below
+  const validKeys = new Set(stations.map(f => 'manifest-'+f.key));
+  document.querySelectorAll('.manifest').forEach(panel => {
+    if(panel.id !== 'manifest-homologado' && !validKeys.has(panel.id)){
+      panel.remove();
+    }
+  });
+}
+
+function renderHomologados(){
+  const procs = processos.filter(p => p.fase === 'Homologado');
+  document.getElementById('terminusCount').textContent = procs.length;
+  const panel = document.getElementById('manifest-homologado');
+  panel.className = 'manifest' + (activeStation === 'homologado' ? ' show' : '');
+  panel.innerHTML = `<div class="manifest-head">Homologado — ${procs.length} processo${procs.length===1?'':'s'}</div>` + manifestRows(procs, 'var(--line-homolog)', 'var(--line-homolog-soft)');
+}
+
+/* ---------- carga por gestor ---------- */
+function renderGestores(){
+  const dpgc = processos.filter(p => p.fase === 'Planejamento (DPGC)' && p.gestor);
+  const porGestor = {};
+  dpgc.forEach(p => {
+    if(!porGestor[p.gestor]) porGestor[p.gestor] = { total:0, atrasados:0 };
+    porGestor[p.gestor].total++;
+    if(statusClasse(diasParado(p.data), p.categoria) !== 'ok') porGestor[p.gestor].atrasados++;
+  });
+  const nomes = Object.keys(porGestor).sort();
+  const el = document.getElementById('gestorGrid');
+  el.innerHTML = nomes.map(nome => {
+    const g = porGestor[nome];
+    const primeiroNome = nome.split(' ')[0];
+    return `
+    <div class="gestor-card ${activeGestor===nome?'active':''}" data-gestor="${nome}" title="${nome}">
+      <div class="gestor-name">${primeiroNome}</div>
+      <div class="gestor-stats">${g.total} processo${g.total===1?'':'s'}${g.atrasados>0?` · <span class="alert">${g.atrasados} atrasado${g.atrasados===1?'':'s'}</span>`:''}</div>
+    </div>`;
+  }).join('');
+  el.querySelectorAll('.gestor-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const nome = card.getAttribute('data-gestor');
+      activeGestor = activeGestor === nome ? null : nome;
+      renderAll();
+    });
+  });
+}
+
+/* ---------- ledger ---------- */
+function calcularEtapa(p, key){
+  if(!p.marcos) return null;
+  const m = p.marcos;
+  switch(key){
+    case "dfd": return diasEntre(m.cadastro, m.dfdFim);
+    case "etp": return diasEntre(m.etpInicio, m.etpFim);
+    case "tr": return diasEntre(m.trInicio, m.trFim);
+    case "lista": return diasEntre(m.listaInicio, m.listaFim);
+    case "analiseDfi": return diasEntre(m.analiseDfiInicio, m.analiseDfiFim);
+    case "pesquisaPrecos": return diasEntre(m.pesquisaInicio, m.pesquisaFim);
+    case "irp": return diasEntre(m.irpInicio, m.irpFim);
+    case "edital": return diasEntre(m.editalInicio, m.editalFim);
+    case "juridico": return diasEntre(m.juridicoInicio, m.juridicoFim);
+    case "dfe": return diasEntre(m.dfeInicio, m.dfeFim);
+    default: return null;
+  }
+}
+function renderLedger(){
+  const el = document.getElementById('ledgerGrid');
+  el.innerHTML = SUBETAPAS.map(etapa => {
+    const media = mediaPorEtapa[etapa.key];
+    const arredondado = media === null ? null : Math.round(media);
+    return `<div class="ledger-cell ${arredondado===null?'no-data':''}">
+      <div class="ledger-stage">${etapa.label}</div>
+      <div class="ledger-value">${arredondado!==null?arredondado:'—'}<span>${arredondado!==null?(arredondado===1?'dia':'dias'):''}</span></div>
+    </div>`;
+  }).join('');
+}
+
+function renderAll(){
+  calcularMediasEtapas();
+  renderPulse();
+  renderStations();
+  renderManifests();
+  renderHomologados();
+  renderGestores();
+  renderLedger();
+}
+
+document.getElementById('searchInput').addEventListener('input', e => {
+  searchTerm = e.target.value;
+  renderAll();
+});
+document.getElementById('terminusHead').addEventListener('click', () => {
+  activeStation = activeStation === 'homologado' ? null : 'homologado';
+  renderAll();
+});
+document.getElementById('viewDivisao').addEventListener('click', () => {
+  viewMode = 'divisao'; activeStation = null;
+  document.getElementById('viewDivisao').classList.add('active');
+  document.getElementById('viewSubetapa').classList.remove('active');
+  renderAll();
+});
+document.getElementById('viewSubetapa').addEventListener('click', () => {
+  viewMode = 'subetapa'; activeStation = null;
+  document.getElementById('viewSubetapa').classList.add('active');
+  document.getElementById('viewDivisao').classList.remove('active');
+  renderAll();
+});
+
+/* ===== carregamento dos dados reais =====
+   processos.json e portao_pendentes.json são gerados/atualizados pelos
+   scripts em scripts/ (rodando via GitHub Actions — ver CLAUDE.md seção 11)
+   e lidos aqui via fetch, sempre relativos a este arquivo (funciona tanto
+   local quanto no GitHub Pages). */
+async function carregarDados(){
+  const [procs, pend] = await Promise.all([
+    fetch('data/processos.json').then(r => r.ok ? r.json() : []).catch(() => []),
+    fetch('data/portao_pendentes.json').then(r => r.ok ? r.json() : []).catch(() => []),
+  ]);
+  processos = procs;
+  portaoPendentes = pend;
+}
+
+carregarDados().then(() => {
+  renderAll();
+  abrirPortaoSeNecessario();
+});
+
+/* ===== portão de entrada: processos de planejamento pendentes de decisão =====
+   A fila vem de data/portao_pendentes.json (pipeline de descoberta semanal,
+   CLAUDE.md seção 11). Três destinos por processo: ACOMPANHAR (pede o
+   caminho de contratação), IGNORAR, ou EM ANÁLISE (continua aparecendo até
+   virar uma das outras duas). Como esta página é estática (GitHub Pages),
+   decisões tomadas aqui ficam guardadas no navegador (localStorage) até
+   serem sincronizadas de volta pro repositório — o botão "Copiar decisões"
+   gera o texto pra colar na conversa com o Claude aplicar de verdade. */
+const DECISOES_KEY = 'linhaDeCompras_decisoesLocais_v1';
+
+const CAMINHO_OPCOES = [
+  { key: 'pregao', label: 'Pregão' },
+  { key: 'dispensa', label: 'Dispensa de Licitação' },
+  { key: 'inexigibilidade', label: 'Inexigibilidade de Licitação' },
+  { key: 'adesao_srp', label: 'Adesão SRP' },
+  { key: 'concorrencia', label: 'Concorrência' },
+  { key: 'contratabrasil', label: 'Contrata+Brasil' },
+];
+
+function carregarDecisoesLocais(){
+  try { return JSON.parse(localStorage.getItem(DECISOES_KEY)) || {}; }
+  catch { return {}; }
+}
+function salvarDecisoesLocais(d){
+  localStorage.setItem(DECISOES_KEY, JSON.stringify(d));
+}
+let decisoesLocais = carregarDecisoesLocais();
+
+function itensDoPortao(){
+  // pendente/em_analise vindos do arquivo, com override pela decisão local
+  // mais recente tomada neste navegador (ainda não sincronizada).
+  return portaoPendentes
+    .filter(p => p.status === 'pendente' || p.status === 'em_analise')
+    .map(p => ({ ...p, decisaoLocal: decisoesLocais[p.processo_id] || null }));
+}
+
+function gateContagem(){
+  const itens = itensDoPortao();
+  const semDecisao = itens.filter(p => !p.decisaoLocal || p.decisaoLocal.status === 'em_analise').length;
+  return { total: itens.length, feitos: itens.length - itens.filter(p => !p.decisaoLocal).length };
+}
+
+function renderGate(){
+  const el = document.getElementById('gateList');
+  const itens = itensDoPortao();
+  el.innerHTML = itens.map(p => {
+    const decisao = p.decisaoLocal;
+    const resolvido = decisao && decisao.status !== 'em_analise';
+    const tagHtml = decisao
+      ? (decisao.status === 'em_analise'
+          ? `<span class="gate-status-tag em-analise">Em análise</span>`
+          : decisao.status === 'acompanhar'
+            ? `<span class="gate-status-tag acompanhando">Acompanhando · ${(CAMINHO_OPCOES.find(c=>c.key===decisao.caminho)||{}).label||''}</span>`
+            : '')
+      : '';
+    return `
+    <div class="gate-card ${resolvido?'resolved':''}" data-processo-id="${p.processo_id}">
+      <div class="gate-card-top">
+        <span class="gate-id">${p.numero}</span>
+        <span class="gate-date">Descoberto em ${p.descoberto_em || ''}</span>
+      </div>
+      <div class="gate-subj">${p.assunto || '(assunto não disponível)'}</div>
+      <div class="gate-meta">${p.primeiro_documento ? `1º documento: ${p.primeiro_documento}` : ''}</div>
+      ${tagHtml}
+      <div class="gate-actions" ${decisao && decisao.status !== 'em_analise' ? 'style="display:none"' : ''}>
+        <button class="gate-btn primary" data-acao="acompanhar">Acompanhar</button>
+        <button class="gate-btn ghost" data-acao="ignorar">Ignorar</button>
+        <button class="gate-btn ghost" data-acao="em_analise">Em análise</button>
+        <a class="gate-btn-link" href="${p.link}" target="_blank" rel="noopener">Abrir no Sipac ↗</a>
+      </div>
+      <div class="caminho-picker" data-processo-id="${p.processo_id}" style="display:none">
+        <span class="caminho-picker-label">Qual caminho este processo vai seguir?</span>
+        ${CAMINHO_OPCOES.map(c => `<button class="caminho-btn" data-caminho="${c.key}">${c.label}</button>`).join('')}
+      </div>
+    </div>`;
+  }).join('');
+
+  el.querySelectorAll('.gate-btn[data-acao]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const card = btn.closest('.gate-card');
+      const processoId = card.getAttribute('data-processo-id');
+      const acao = btn.getAttribute('data-acao');
+      if(acao === 'acompanhar'){
+        card.querySelector('.gate-actions').style.display = 'none';
+        card.querySelector(`.caminho-picker[data-processo-id="${processoId}"]`).style.display = 'flex';
+        return;
+      }
+      decisoesLocais[processoId] = { status: acao };
+      salvarDecisoesLocais(decisoesLocais);
+      renderGate();
+    });
+  });
+
+  el.querySelectorAll('.caminho-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const picker = btn.closest('.caminho-picker');
+      const processoId = picker.getAttribute('data-processo-id');
+      const caminho = btn.getAttribute('data-caminho');
+      decisoesLocais[processoId] = { status: 'acompanhar', caminho };
+      salvarDecisoesLocais(decisoesLocais);
+      renderGate();
+    });
+  });
+
+  updateGateProgress();
+}
+
+function decisoesPendentesDeSincronizar(){
+  // toda decisão local que ainda corresponde a um item 'pendente'/'em_analise'
+  // no arquivo (ainda não foi aplicada de verdade ao repositório).
+  const idsNaFila = new Set(portaoPendentes.filter(p => p.status !== 'acompanhando' && p.status !== 'ignorado').map(p => String(p.processo_id)));
+  return Object.entries(decisoesLocais)
+    .filter(([id, d]) => idsNaFila.has(String(id)) && d.status !== 'em_analise')
+    .map(([id, d]) => ({ processo_id: Number(id), decisao: d.status, caminho: d.caminho || null }));
+}
+
+function updateGateProgress(){
+  const { total, feitos } = gateContagem();
+  document.getElementById('gateProgress').textContent = total === 0 ? 'Nenhum processo pendente' : `${feitos} de ${total} revisados`;
+  const tudoRevisado = total === 0 || feitos >= total;
+  if(tudoRevisado){
+    document.getElementById('gateDone').style.display = 'block';
+    const itens = itensDoPortao();
+    const acompanhados = itens.filter(p => p.decisaoLocal && p.decisaoLocal.status === 'acompanhar').length;
+    const ignorados = itens.filter(p => p.decisaoLocal && p.decisaoLocal.status === 'ignorar').length;
+    document.getElementById('gateDoneSummary').textContent = total === 0
+      ? 'Nada pendente no momento.'
+      : `${acompanhados} pra acompanhar, ${ignorados} ignorado${ignorados===1?'':'s'}.`;
+
+    const pendentesSync = decisoesPendentesDeSincronizar();
+    const syncBox = document.getElementById('gateSync');
+    if(pendentesSync.length > 0){
+      syncBox.style.display = 'block';
+      document.getElementById('gateSyncText').value = JSON.stringify(pendentesSync, null, 2);
+    } else {
+      syncBox.style.display = 'none';
+    }
+  } else {
+    document.getElementById('gateDone').style.display = 'none';
+  }
+}
+
+document.getElementById('gateSyncCopy').addEventListener('click', () => {
+  const text = document.getElementById('gateSyncText');
+  text.select();
+  navigator.clipboard?.writeText(text.value).catch(() => document.execCommand('copy'));
+  const btn = document.getElementById('gateSyncCopy');
+  const original = btn.textContent;
+  btn.textContent = 'Copiado ✓';
+  setTimeout(() => { btn.textContent = original; }, 1500);
+});
+
+function openGate(){
+  document.getElementById('gate').style.display = 'block';
+  document.body.style.overflow = 'hidden';
+  renderGate();
+}
+function closeGate(){
+  document.getElementById('gate').style.display = 'none';
+  document.body.style.overflow = '';
+  renderAll();
+}
+
+document.getElementById('gateEnter').addEventListener('click', closeGate);
+
+function abrirPortaoSeNecessario(){
+  const { total } = gateContagem();
+  if(total > 0) openGate();
+}
+
+/* ===== trilha (visão detalhada de um processo, estilo tabuleiro) =====
+   "pregao" usa os dados reais já levantados (SUBETAPAS). Os outros 5
+   caminhos são RASCUNHO — sequência plausível baseada em conhecimento
+   geral de compras públicas, ainda não confirmada com processos reais
+   (isso está sendo levantado à parte). Por isso aparecem em cinza e com
+   aviso na tela, em vez de cores próprias como o pregão já validado. */
+const CAMINHOS = {
+  pregao: {
+    label: 'Pregão',
+    confirmado: true,
+    etapas: SUBETAPAS.map(s => ({ key:s.key, label:s.label, color:s.color })),
+  },
+  dispensa: {
+    label: 'Dispensa de Licitação',
+    confirmado: true,
+    etapas: [
+      { key:'dfd', label:'DFD', sub:'DPGC · apensado', color:'var(--line-dpgc)' },
+      { key:'etp', label:'ETP + Mapa de Riscos', sub:'DPGC · apensado', color:'var(--line-dpgc)' },
+      { key:'tr', label:'TR', sub:'DPGC · apensado', color:'var(--line-dpgc)' },
+      { key:'autorizacaoDireta', label:'Autorização da Contratação Direta', sub:'DPGC · apensado', color:'var(--line-dpgc)' },
+      { key:'apensacao', label:'Apensação do Planejamento', sub:'DFI', color:'var(--line-dfi)' },
+      { key:'julgamento', label:'Comparação de Preços', sub:'DFI', color:'var(--line-dfi)' },
+      { key:'divulgacao', label:'Divulgação (casos maiores)', sub:'DFE', color:'var(--line-dfe)' },
+      { key:'orcamento', label:'Disponibilidade Orçamentária', sub:'PROAD', color:'var(--line-dfi)' },
+      { key:'empenho', label:'Nota de Empenho', sub:'DCF · fechamento', color:'var(--line-homolog)' },
+    ],
+  },
+  inexigibilidade: {
+    label: 'Inexigibilidade de Licitação',
+    confirmado: true,
+    etapas: [
+      { key:'dfd', label:'DFD', sub:'DPGC · apensado', color:'var(--line-dpgc)' },
+      { key:'etp', label:'ETP + Carta de Exclusividade', sub:'DPGC · apensado', color:'var(--line-dpgc)' },
+      { key:'tr', label:'TR', sub:'DPGC · apensado', color:'var(--line-dpgc)' },
+      { key:'autorizacaoDireta', label:'Autorização da Contratação Direta', sub:'DPGC · apensado', color:'var(--line-dpgc)' },
+      { key:'apensacao', label:'Apensação do Planejamento', sub:'DFI', color:'var(--line-dfi)' },
+      { key:'empenho', label:'Empenho', sub:'DFI/DCF · fechamento', color:'var(--line-homolog)' },
+    ],
+  },
+  adesao_srp: {
+    label: 'Adesão a Ata de Registro de Preços',
+    confirmado: true,
+    etapas: [
+      { key:'dfd', label:'DFD', sub:'DPGC · apensado', color:'var(--line-dpgc)' },
+      { key:'etp', label:'ETP + SICAF/TCU', sub:'DPGC · apensado', color:'var(--line-dpgc)' },
+      { key:'autorizacaoFormalizacao', label:'Autorização de Formalização da Adesão', sub:'DPGC · apensado', color:'var(--line-dpgc)' },
+      { key:'autorizacaoAdesao', label:'Autorização de Adesão à Ata', sub:'DFI · apensado', color:'var(--line-dfi)' },
+      { key:'registro', label:'Apensação / Registro', sub:'DFI · fechamento', color:'var(--line-homolog)' },
+    ],
+  },
+  concorrencia: {
+    label: 'Concorrência',
+    confirmado: true,
+    etapas: [
+      { key:'planejamentoAnterior', label:'Planejamento anterior (hipótese)', sub:'CAOSE/INFRA · não confirmado', color:'var(--ink-faint)', tentativo:true },
+      { key:'dfd', label:'DFD', sub:'CAOSE/INFRA', color:'var(--line-dpgc)' },
+      { key:'etp', label:'ETP', sub:'CAOSE/INFRA', color:'var(--line-dpgc)' },
+      { key:'trProjetos', label:'TR + Projetos de Engenharia', sub:'CAOSE/INFRA → DP/INFRA', color:'var(--line-dpgc)' },
+      { key:'editalCertificacao', label:'Edital e Certificação', sub:'PROAD', color:'var(--line-dfi)' },
+      { key:'juridico', label:'Parecer Jurídico', sub:'SPF', color:'var(--line-jur)' },
+      { key:'dfe', label:'Fase Externa', sub:'DFE', color:'var(--line-dfe)' },
+      { key:'homologacao', label:'Julgamento e Homologação', sub:'DFE · fechamento', color:'var(--line-homolog)' },
+    ],
+  },
+  contratabrasil: {
+    label: 'Contrata+Brasil',
+    confirmado: false,
+    etapas: [
+      { key:'demanda', label:'Publicação da Demanda', sub:'Órgão · plataforma', color:'var(--ink-faint)' },
+      { key:'notificacao', label:'Notificação a MEIs Cadastrados', sub:'Plataforma', color:'var(--ink-faint)' },
+      { key:'propostas', label:'Envio de Propostas', sub:'Fornecedores', color:'var(--ink-faint)' },
+      { key:'selecao', label:'Seleção do Prestador', sub:'Órgão', color:'var(--ink-faint)' },
+      { key:'formalizacao', label:'Formalização (Empenho ou Contrato)', sub:'Sistema Contratos Gov.br', color:'var(--ink-faint)' },
+    ],
+  },
+};
+
+function trailNodeHtml(etapa, status, color, datas){
+  const icon = status==='current' ? `<span class="trail-token">🔵</span>` : '';
+  const tentativo = etapa.tentativo ? ' tentative' : '';
+  return `
+    <div class="trail-stop ${status}${tentativo}">
+      ${icon}
+      <div class="trail-node${tentativo}" style="--node-color:${color||'var(--ink-faint)'}"><span>${etapa.tentativo?'?':status==='done'?'✓':''}</span></div>
+      <div class="trail-label">${etapa.label}</div>
+      ${etapa.sub ? `<div class="trail-sub">${etapa.sub}</div>` : ''}
+      ${datas ? `<div class="trail-dates">${datas}</div>` : ''}
+    </div>
+  `;
+}
+
+function renderTrailPath(etapas, currentKey, doneKeys, confirmado, marcos){
+  return `<div class="trail-path ${confirmado?'':'muted'}">` + etapas.map((etapa, i) => {
+    let status = 'future';
+    if(doneKeys.includes(etapa.key)) status = 'done';
+    if(etapa.key === currentKey) status = 'current';
+    let datas = '';
+    if(confirmado && marcos){
+      const dias = calcularEtapa({marcos}, etapa.key);
+      if(dias !== null && dias >= 0) datas = `<span class="dur">${dias}d</span>`;
+    }
+    const connector = i > 0 ? `<div class="trail-connector ${status!=='future'?'done':''}"></div>` : '';
+    return connector + trailNodeHtml(etapa, status, etapa.color, datas);
+  }).join('') + '</div>';
+}
+
+function openTrailFor(processoNumero){
+  const p = processos.find(x => x.processo === processoNumero);
+  if(!p) return;
+  const caminhoKey = p.caminho || 'pregao';
+  const caminho = CAMINHOS[caminhoKey];
+  const idxAtual = p.subEtapa ? caminho.etapas.findIndex(e => e.key === p.subEtapa) : -1;
+  const doneKeys = p.fase === 'Homologado'
+    ? caminho.etapas.map(e => e.key)
+    : caminho.etapas.slice(0, Math.max(idxAtual, 0)).map(e => e.key);
+  const dias = diasParado(p.data);
+  const cls = statusClasse(dias, p.categoria);
+
+  document.getElementById('trailContent').innerHTML = `
+    <div class="trail-head">
+      <p class="trail-eyebrow">
+        ${p.assuntoPregao ? 'Processo de pregão' : 'Processo de planejamento'}
+        <span class="trail-caminho-tag ${caminho.confirmado?'':'placeholder'}">${caminho.label}${caminho.confirmado?'':' · rascunho'}</span>
+      </p>
+      <h2 class="trail-title">${p.assunto}</h2>
+      <div class="trail-meta">
+        <span>${p.assuntoPregao || p.processo}</span>
+        <span>${p.unidade}</span>
+        ${p.fase==='Planejamento (DPGC)' && p.gestor ? `<span>Gestor: <b>${p.gestor.split(' ')[0]}</b></span>` : ''}
+        <span class="days ${cls}">${dias===0?'Hoje':dias===1?'Há 1 dia':`Há ${dias} dias`}</span>
+      </div>
+    </div>
+    ${caminho.confirmado ? '' : `<p class="trail-placeholder-note">⚠ Sequência de etapas ainda não confirmada com processos reais deste caminho — é um rascunho provisório, sujeito a mudar.</p>`}
+    <div class="trail-board">
+      <p class="trail-row-label">Trilha · ${caminho.label}</p>
+      ${renderTrailPath(caminho.etapas, p.subEtapa, doneKeys, caminho.confirmado, p.marcos)}
+    </div>
+    <div class="trail-foot">
+      <span class="trail-status-current">Situação atual: <b>${p.subetapa}</b></span>
+      <a href="${p.link}" target="_blank" rel="noopener">Abrir processo no Sipac ↗</a>
+    </div>
+  `;
+  document.getElementById('trailOverlay').classList.add('show');
+}
+
+function openTrailExample(){
+  const exemplo = {
+    assunto: '[Exemplo ilustrativo — dados fictícios] Aquisição de licenças de software educacional',
+    assuntoPregao: null,
+    processo: '23077.999001/2026-00',
+    unidade: 'DPGC - Divisão de Planejamento e Gerenciamento de Compras',
+    gestor: 'Chianc Leocadio de Lima',
+    fase: 'Planejamento (DPGC)',
+    categoria: 'elaboracao',
+    data: '20/07/2026',
+    subetapa: 'Pesquisa de preços indicou valor abaixo do limite de dispensa — processo redirecionado de pregão para dispensa de licitação em 20/07/2026',
+    link: 'https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=0',
+    marcos: null,
+  };
+  const caminhoAntigo = CAMINHOS.pregao;
+  const doneAntigo = ['dfd','etp','tr','lista'];
+  const caminhoNovo = CAMINHOS.dispensa;
+  const doneNovo = ['dfd','etp'];
+
+  document.getElementById('trailContent').innerHTML = `
+    <div class="trail-head">
+      <p class="trail-eyebrow">Exemplo — mudança de caminho no meio do processo</p>
+      <h2 class="trail-title">${exemplo.assunto}</h2>
+      <div class="trail-meta">
+        <span>${exemplo.processo}</span>
+        <span>${exemplo.unidade}</span>
+        <span>Gestor: <b>${exemplo.gestor.split(' ')[0]}</b></span>
+      </div>
+    </div>
+    <p class="trail-placeholder-note">⚠ Este processo não existe de verdade — é um exemplo montado só para mostrar como a trilha se comportaria quando o caminho muda no meio do fluxo.</p>
+    <div class="trail-board">
+      <p class="trail-row-label">Caminho original · ${caminhoAntigo.label} (abandonado em TR)</p>
+      ${renderTrailPath(caminhoAntigo.etapas.slice(0,4), null, doneAntigo, true, null)}
+    </div>
+    <div class="trail-switch-note">Mudou de <b>Pregão</b> para <b>Dispensa de Licitação</b> em 20/07/2026 — pesquisa de preços indicou valor abaixo do limite de dispensa.</div>
+    <div class="trail-board" style="padding-top:0;">
+      <p class="trail-row-label">Caminho atual · ${caminhoNovo.label}</p>
+      ${renderTrailPath(caminhoNovo.etapas, 'tr', doneNovo, caminhoNovo.confirmado, null)}
+    </div>
+    <div class="trail-foot">
+      <span class="trail-status-current">Situação atual: <b>${exemplo.subetapa}</b></span>
+    </div>
+  `;
+  document.getElementById('trailOverlay').classList.add('show');
+}
+
+function closeTrail(){
+  document.getElementById('trailOverlay').classList.remove('show');
+}
+
+document.addEventListener('click', (e) => {
+  const row = e.target.closest('.row[data-processo]');
+  if(row){
+    openTrailFor(row.getAttribute('data-processo'));
+  }
+});
+document.getElementById('trailClose').addEventListener('click', closeTrail);
+document.getElementById('trailOverlay').addEventListener('click', (e) => {
+  if(e.target.id === 'trailOverlay') closeTrail();
+});
+document.getElementById('exampleTrigger').addEventListener('click', (e) => {
+  e.preventDefault();
+  openTrailExample();
+});
+</script>

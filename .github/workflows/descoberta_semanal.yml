@@ -1,0 +1,38 @@
+name: Descoberta semanal de processos novos
+
+on:
+  schedule:
+    # Toda sexta-feira, 09:00 America/Sao_Paulo (12:00 UTC), CLAUDE.md seção 11
+    - cron: "0 12 * * 5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  descoberta:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Rodar descoberta semanal
+        run: python3 scripts/descoberta_semanal.py
+
+      - name: Commitar novos processos descobertos (se houver)
+        run: |
+          git config user.name "painel-compras-bot"
+          git config user.email "painel-compras-bot@users.noreply.github.com"
+          git add data/vistos.json data/portao_pendentes.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Descoberta semanal automática: novos processos de planejamento"
+            git push
+          else
+            echo "Nada novo para commitar."
+          fi

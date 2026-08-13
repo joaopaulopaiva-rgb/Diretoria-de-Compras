@@ -1,0 +1,102 @@
+#!/usr/bin/env python3
+"""
+Aplica decisões tomadas na tela do portão de entrada (Acompanhar/Ignorar)
+de volta aos dados reais do painel.
+
+O front-end (docs/index.html) é uma página estática — não escreve no
+repositório sozinha. Decisões ficam guardadas no navegador (localStorage)
+até a pessoa copiar o bloco JSON exibido em "Copiar decisões" e colar numa
+conversa com o Claude, que roda este script e commita o resultado.
+
+Uso:
+    python3 scripts/aplicar_decisoes.py decisoes.json
+    # ou via stdin:
+    echo '[{"processo_id":123,"decisao":"acompanhar","caminho":"pregao"}]' | python3 scripts/aplicar_decisoes.py -
+
+Formato de cada decisão: {"processo_id": int, "decisao": "acompanhar"|"ignorar", "caminho": str|null}
+"caminho" só é obrigatório quando decisao == "acompanhar".
+"""
+
+from __future__ import annotations
+
+import json
+import sys
+from pathlib import Path
+
+REPO_ROOT = Path(__file__).parent.parent
+PENDENTES_PATH = REPO_ROOT / "data" / "portao_pendentes.json"
+PROCESSOS_PATH = REPO_ROOT / "data" / "processos.json"
+
+CAMINHOS_VALIDOS = {"pregao", "dispensa", "inexigibilidade", "adesao_srp", "concorrencia", "contratabrasil"}
+
+
+def aplicar(decisoes: list[dict]) -> dict:
+    pendentes = json.loads(PENDENTES_PATH.read_text(encoding="utf-8"))
+    processos = json.loads(PROCESSOS_PATH.read_text(encoding="utf-8"))
+
+    pendentes_por_id = {p["processo_id"]: p for p in pendentes}
+    acompanhados, ignorados, nao_encontrados = [], [], []
+
+    for d in decisoes:
+        pid = d["processo_id"]
+        acao = d["decisao"]
+        pendente = pendentes_por_id.get(pid)
+        if pendente is None:
+            nao_encontrados.append(pid)
+            continue
+
+        if acao == "acompanhar":
+            caminho = d.get("caminho")
+            if caminho not in CAMINHOS_VALIDOS:
+                raise ValueError(f"processo_id {pid}: caminho inválido ou ausente: {caminho!r}")
+            processos.append(
+                {
+                    "processo": pendente["numero"],
+                    "assunto": pendente.get("assunto", ""),
+                    "fase": "Planejamento (DPGC)",
+                    "subEtapa": "dfd",
+                    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+                    "categoria": "elaboracao",
+                    "unidade": "",
+                    "data": pendente.get("descoberto_em", ""),
+                    "dataCriacao": pendente.get("descoberto_em", ""),
+                    "gestor": None,
+                    "pregao": None,
+                    "suspenso": False,
+                    "emRecurso": False,
+                    "urgente": False,
+                    "link": pendente.get("link", ""),
+                    "marcos": None,
+                    "caminho": caminho,
+                    "caminhoHistorico": [],
+                    "processo_id": pid,
+                    "pregao_id": None,
+                }
+            )
+            acompanhados.append(pendente["numero"])
+        elif acao == "ignorar":
+            ignorados.append(pendente["numero"])
+        else:
+            raise ValueError(f"processo_id {pid}: decisão desconhecida: {acao!r}")
+
+        del pendentes_por_id[pid]
+
+    pendentes_restantes = list(pendentes_por_id.values())
+
+    PENDENTES_PATH.write_text(json.dumps(pendentes_restantes, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    PROCESSOS_PATH.write_text(json.dumps(processos, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    return {
+        "acompanhados": acompanhados,
+        "ignorados": ignorados,
+        "nao_encontrados_na_fila": nao_encontrados,
+    }
+
+
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("uso: python3 scripts/aplicar_decisoes.py <arquivo.json|->", file=sys.stderr)
+        sys.exit(1)
+    origem = sys.stdin.read() if sys.argv[1] == "-" else Path(sys.argv[1]).read_text(encoding="utf-8")
+    resultado = aplicar(json.loads(origem))
+    print(json.dumps(resultado, ensure_ascii=False, indent=2))

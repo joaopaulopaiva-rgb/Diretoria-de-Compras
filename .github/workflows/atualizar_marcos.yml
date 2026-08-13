@@ -1,0 +1,38 @@
+name: Atualização de marcos e status
+
+on:
+  schedule:
+    # Todo dia útil, 07:00 America/Sao_Paulo (10:00 UTC)
+    - cron: "0 10 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Rodar atualização de marcos (caminho Pregão)
+        run: python3 scripts/atualizar_marcos.py
+
+      - name: Commitar mudanças (se houver)
+        run: |
+          git config user.name "painel-compras-bot"
+          git config user.email "painel-compras-bot@users.noreply.github.com"
+          git add data/processos.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Atualização automática de marcos e status"
+            git push
+          else
+            echo "Nada novo para commitar."
+          fi
