@@ -1246,6 +1246,10 @@ function salvarDecisoesLocais(d){
   localStorage.setItem(DECISOES_KEY, JSON.stringify(d));
 }
 let decisoesLocais = carregarDecisoesLocais();
+// "Em análise" some da lista só nesta sessão de revisão (não persiste entre
+// recarregamentos) — a pessoa volta a ver o card na próxima vez que abrir o
+// portão, mas ele não fica atrapalhando a revisão que está em andamento agora.
+let escondidosNestaSessao = new Set();
 
 function itensDoPortao(){
   // pendente/em_analise vindos do arquivo, com override pela decisão local
@@ -1266,7 +1270,8 @@ function renderGate(){
   const itens = itensDoPortao();
   el.innerHTML = itens.map(p => {
     const decisao = p.decisaoLocal;
-    const resolvido = decisao && decisao.status !== 'em_analise';
+    const escondidoAgora = escondidosNestaSessao.has(String(p.processo_id));
+    const resolvido = (decisao && decisao.status !== 'em_analise') || escondidoAgora;
     const tagHtml = decisao
       ? (decisao.status === 'em_analise'
           ? `<span class="gate-status-tag em-analise">Em análise</span>`
@@ -1314,6 +1319,9 @@ function renderGate(){
       }
       decisoesLocais[processoId] = { status: acao };
       salvarDecisoesLocais(decisoesLocais);
+      if(acao === 'em_analise'){
+        escondidosNestaSessao.add(String(processoId));
+      }
       renderGate();
     });
   });
