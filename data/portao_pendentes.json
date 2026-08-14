@@ -3496,19 +3496,6 @@
     "statusChecado": true
   },
   {
-    "processo_id": 1109140,
-    "numero": "23077.128596/2024-07",
-    "assunto": "ADESÃO CARONA FRUTAS E VERDURAS - JM DISTRIBUIDORA",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1109140",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "30/09/2024",
-    "ultimaAtividade": "21/10/2024",
-    "triado": true
-  },
-  {
     "processo_id": 1162320,
     "numero": "23077.128750/2025-13",
     "assunto": "PROCESSO PARA CONTRATAÇÃO DE PESSOA FÍSICA PARA MINISTRAR CURSO COM FOMENTO APROVADO POR EDITAL INTERNO UFRN",
@@ -3519,7 +3506,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "18/08/2025",
     "ultimaAtividade": null,
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1109290,
@@ -3534,7 +3522,8 @@
     "ultimaAtividade": "10/10/2024",
     "triado": true,
     "alertaRedirecionado": true,
-    "processoDestino": "23077.172271/2023-72"
+    "processoDestino": "23077.172271/2023-72",
+    "statusChecado": true
   },
   {
     "processo_id": 1109810,
@@ -3548,33 +3537,8 @@
     "dataAbertura": "02/10/2024",
     "ultimaAtividade": "30/10/2024",
     "alertaEmpenhoSemExecucao": true,
-    "triado": true
-  },
-  {
-    "processo_id": 1109811,
-    "numero": "23077.131168/2024-53",
-    "assunto": "AQUISIÇÃO DE EQUIPAMENTOS DE PROCESSAMENTO DE DADOS PARA O MESTRADO PROFISSIONAL EM ENSINO DE HISTÓRIA - PROFHISTORIA/UFRN.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1109811",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "02/10/2024",
-    "ultimaAtividade": "18/11/2024",
-    "triado": true
-  },
-  {
-    "processo_id": 1109820,
-    "numero": "23077.131197/2024-15",
-    "assunto": "AQUISIÇÃO DE PLACAS INTRAORAIS PARA O DOD",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1109820",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "02/10/2024",
-    "ultimaAtividade": "04/10/2024",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1109849,
@@ -3587,7 +3551,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "03/10/2024",
     "ultimaAtividade": null,
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1109914,
@@ -3600,33 +3565,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/10/2024",
     "ultimaAtividade": "13/03/2026",
-    "triado": true
-  },
-  {
-    "processo_id": 1109980,
-    "numero": "23077.131791/2024-14",
-    "assunto": "AQUISIÇÃO DE MICROFONE PROFISSIONAL COM FIO - DISPENSA DE LICITAÇÃO",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1109980",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "04/10/2024",
-    "ultimaAtividade": "15/10/2024",
-    "triado": true
-  },
-  {
-    "processo_id": 1163594,
-    "numero": "23077.132484/2025-23",
-    "assunto": "SOLICITAÇÃO DE ADESÃO ATRAVÉS DO PROCESSO LICITATÓRIO, PREGÃO Nº 90026/2024, UASG 158139, PARA COMPRA DE FITA ADESIVA TRANSPARENTE, 12MM X 30M.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1163594",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "21/08/2025",
-    "ultimaAtividade": "28/08/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1163868,
@@ -3639,7 +3579,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "22/08/2025",
     "ultimaAtividade": "27/11/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1110397,
@@ -3652,7 +3593,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "08/10/2024",
     "ultimaAtividade": "29/01/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1164440,
@@ -3665,7 +3607,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "26/08/2025",
     "ultimaAtividade": "27/08/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1164466,
@@ -3678,7 +3621,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "26/08/2025",
     "ultimaAtividade": "10/08/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1110904,
@@ -3691,7 +3635,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "09/10/2024",
     "ultimaAtividade": "21/10/2024",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1111016,
@@ -3704,7 +3649,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "10/10/2024",
     "ultimaAtividade": "21/10/2024",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1164860,
@@ -3717,7 +3663,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "27/08/2025",
     "ultimaAtividade": "10/02/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1111101,
@@ -3731,7 +3678,8 @@
     "dataAbertura": "10/10/2024",
     "ultimaAtividade": "13/11/2024",
     "alertaEmpenhoSemExecucao": true,
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1111189,
@@ -3744,7 +3692,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "11/10/2024",
     "ultimaAtividade": null,
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1111219,
@@ -3757,7 +3706,8 @@
     "nota_classificacao": "apensado a 23077.034888/2026-33 (Concorrência) — apensação nesse caminho é hipótese não confirmada (CLAUDE.md 4.4), decisão manual necessária",
     "dataAbertura": "11/10/2024",
     "ultimaAtividade": "16/03/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1165375,
@@ -3770,72 +3720,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "29/08/2025",
     "ultimaAtividade": "07/11/2025",
-    "triado": true
-  },
-  {
-    "processo_id": 1165406,
-    "numero": "23077.137692/2025-19",
-    "assunto": "ADESÃO DE GÊNEROS DE ALIMENTAÇÃO - CARNE DE SOL 1ª, PERNIL SUÍNO, CARNE BOV. EM CUBOS",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1165406",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "29/08/2025",
-    "ultimaAtividade": "08/09/2025",
-    "triado": true
-  },
-  {
-    "processo_id": 1165415,
-    "numero": "23077.137718/2025-29",
-    "assunto": "ADESÃO PARA AQUISIÇÃO DE GÊNEROS DE ALIMENTAÇÃO - COXA/SOBRECOXA, CARNE BOVINA 1ª ALCATRA, BISTECA SUÍNA",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1165415",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "29/08/2025",
-    "ultimaAtividade": "29/08/2025",
-    "triado": true
-  },
-  {
-    "processo_id": 1165420,
-    "numero": "23077.137734/2025-11",
-    "assunto": "ADESÃO PARA AQUISIÇÃO DE GÊNEROS DE ALIMENTAÇÃO - FILÉ DE PEITO DE FRANGO",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1165420",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "29/08/2025",
-    "ultimaAtividade": "11/09/2025",
-    "triado": true
-  },
-  {
-    "processo_id": 1165546,
-    "numero": "23077.138214/2025-26",
-    "assunto": "SOLICITAÇÃO DE ADESÃO ATRAVÉS DO PROCESSO LICITATÓRIO PREGÃO Nº 90026/2024, UASG 158139 - INST. FEDERAL DE EDUCAÇÃO, CIÊNCIA E TEC. FLUMINENSE, PARA COMPRA DE FITA ADESIVA 12MM X 30M E FITA ADESIVA 50MM X 50M.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1165546",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "29/08/2025",
-    "ultimaAtividade": "01/09/2025",
-    "triado": true
-  },
-  {
-    "processo_id": 1111921,
-    "numero": "23077.139330/2024-81",
-    "assunto": "PLANEJAMENTO DE AQUISIÇÃO DE TOMÓGRAFO PARA O CCS, EM VIRTUDE DE FRACASSO DO ITEM NO PREGÃO 46/2023-UFRN.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1111921",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "16/10/2024",
-    "ultimaAtividade": "17/10/2024",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1166158,
@@ -3848,7 +3734,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "02/09/2025",
     "ultimaAtividade": "02/09/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1112173,
@@ -3861,33 +3748,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "17/10/2024",
     "ultimaAtividade": "18/10/2024",
-    "triado": true
-  },
-  {
-    "processo_id": 1112337,
-    "numero": "23077.141115/2024-41",
-    "assunto": "SOLICITAÇÃO DE EMPENHO DE MATERIAIS NO.: 26073/2024. SISTEMA DE REGISTRO DE PREÇOS - SRP.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1112337",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "18/10/2024",
-    "ultimaAtividade": "15/10/2024",
-    "triado": true
-  },
-  {
-    "processo_id": 1166622,
-    "numero": "23077.141542/2025-18",
-    "assunto": "AQUISIÇÃO DE CAMISAS PARA IDENTIFICAÇÃO DA EQUIPE DO MUSEU DO SERIDÓ.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1166622",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "04/09/2025",
-    "ultimaAtividade": "05/09/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1166624,
@@ -3900,7 +3762,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/09/2025",
     "ultimaAtividade": "24/09/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1112520,
@@ -3913,7 +3776,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "21/10/2024",
     "ultimaAtividade": "22/11/2024",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1166989,
@@ -3926,7 +3790,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "05/09/2025",
     "ultimaAtividade": "10/11/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1167004,
@@ -3939,34 +3804,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "05/09/2025",
     "ultimaAtividade": "07/11/2025",
-    "triado": true
-  },
-  {
-    "processo_id": 1112903,
-    "numero": "23077.142998/2024-14",
-    "assunto": "AQUISIÇÃO DE RAÇÃO PARA O BIOTÉRIO CENTRAL E DEMAIS BIOTÉRIOS DO CENTRO DE BIOCIÊNCIAS.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1112903",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "22/10/2024",
-    "ultimaAtividade": "09/01/2025",
-    "alertaEmpenhoSemExecucao": true,
-    "triado": true
-  },
-  {
-    "processo_id": 1112964,
-    "numero": "23077.143229/2024-25",
-    "assunto": "AQUISIÇÃO DE PROJETORES MULTIMÍDIA, POR MEIO DE ADESÃO.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1112964",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "22/10/2024",
-    "ultimaAtividade": "25/10/2024",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1167425,
@@ -3979,33 +3818,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "08/09/2025",
     "ultimaAtividade": null,
-    "triado": true
-  },
-  {
-    "processo_id": 1167437,
-    "numero": "23077.144160/2025-38",
-    "assunto": "A AQUISIÇÃO DESSES NOTEBOOKS É ESSENCIAL PARA GARANTIR O SUPORTE ADEQUADO ÀS DEMANDAS ACADÊMICAS E ADMINISTRATIVAS DA FELCS, CONTRIBUINDO DIRETAMENTE PARA A MELHORIA DAS ATIVIDADES DE ENSINO, DESENVOLVIMENTO DE PESQUISAS E EXECUÇÃO DE AÇÕES DE EXTENSÃO.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1167437",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "08/09/2025",
-    "ultimaAtividade": null,
-    "triado": true
-  },
-  {
-    "processo_id": 1167446,
-    "numero": "23077.144194/2025-22",
-    "assunto": "A AQUISIÇÃO DESSES NOTEBOOKS É ESSENCIAL PARA GARANTIR O SUPORTE ADEQUADO ÀS DEMANDAS ACADÊMICAS E ADMINISTRATIVAS DA FELCS, CONTRIBUINDO DIRETAMENTE PARA A MELHORIA DAS ATIVIDADES DE ENSINO, DESENVOLVIMENTO DE PESQUISAS E EXECUÇÃO DE AÇÕES DE EXTENSÃO.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1167446",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "08/09/2025",
-    "ultimaAtividade": null,
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1113226,
@@ -4018,7 +3832,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "23/10/2024",
     "ultimaAtividade": "25/10/2024",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1167531,
@@ -4031,7 +3846,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "09/09/2025",
     "ultimaAtividade": "05/11/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1167611,
@@ -4044,46 +3860,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "09/09/2025",
     "ultimaAtividade": "11/11/2025",
-    "triado": true
-  },
-  {
-    "processo_id": 1167640,
-    "numero": "23077.144990/2025-65",
-    "assunto": "AQUISIÇÃO DE MOBILIÁRIO POR ADESÃO AO PREGÃO 90015/2025 - UASG 120625",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1167640",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "09/09/2025",
-    "ultimaAtividade": "11/09/2025",
-    "triado": true
-  },
-  {
-    "processo_id": 1167666,
-    "numero": "23077.145117/2025-90",
-    "assunto": "SOLICITAÇÃO DE UM HD EXTERNO 2TB, MARCA WESTERN DIGITAL.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1167666",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "09/09/2025",
-    "ultimaAtividade": "05/11/2025",
-    "triado": true
-  },
-  {
-    "processo_id": 1167871,
-    "numero": "23077.145857/2025-26",
-    "assunto": "SOLICITAÇÃO DE AQUISIÇÃO DE 08 (OITO) PROJETORES MULTIMÍDIA DESTINADOS A APOIAR AS ATIVIDADES DE ENSINO, PESQUISA E EXTENSÃO DA FACULDADE DE ENGENHARIA, LETRAS E CIÊNCIAS SOCIAIS DO SERIDÓ – FELCS.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1167871",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "10/09/2025",
-    "ultimaAtividade": "09/10/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1113657,
@@ -4096,7 +3874,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "25/10/2024",
     "ultimaAtividade": "06/11/2024",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1167895,
@@ -4109,7 +3888,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "10/09/2025",
     "ultimaAtividade": "22/09/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1113859,
@@ -4122,7 +3902,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "29/10/2024",
     "ultimaAtividade": "20/10/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1168142,
@@ -4135,7 +3916,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "11/09/2025",
     "ultimaAtividade": "01/12/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1168159,
@@ -4148,7 +3930,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "12/09/2025",
     "ultimaAtividade": "17/10/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1168290,
@@ -4161,7 +3944,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "12/09/2025",
     "ultimaAtividade": "27/11/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1114076,
@@ -4174,20 +3958,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "30/10/2024",
     "ultimaAtividade": "27/11/2024",
-    "triado": true
-  },
-  {
-    "processo_id": 1168326,
-    "numero": "23077.147486/2025-17",
-    "assunto": "SOLICITAÇÃO DE DISPENSA DE LICITAÇÃO PARA COMPRA DE INSUMOS PARA AULAS PRÁTICAS.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1168326",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "12/09/2025",
-    "ultimaAtividade": "30/10/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1168357,
@@ -4200,7 +3972,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "12/09/2025",
     "ultimaAtividade": "26/09/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1114285,
@@ -4213,7 +3986,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "31/10/2024",
     "ultimaAtividade": "31/10/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1114352,
@@ -4226,7 +4000,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "31/10/2024",
     "ultimaAtividade": "20/10/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1114377,
@@ -4239,21 +4014,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "31/10/2024",
     "ultimaAtividade": "22/10/2025",
-    "triado": true
-  },
-  {
-    "processo_id": 1114392,
-    "numero": "23077.148820/2024-79",
-    "assunto": "AQUISIÇÃO DE MÁSCARAS",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1114392",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "31/10/2024",
-    "ultimaAtividade": "02/04/2025",
-    "alertaEmpenhoSemExecucao": true,
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1114546,
@@ -4266,7 +4028,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "01/11/2024",
     "ultimaAtividade": "01/11/2024",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1169167,
@@ -4279,20 +4042,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "17/09/2025",
     "ultimaAtividade": "22/10/2025",
-    "triado": true
-  },
-  {
-    "processo_id": 1169191,
-    "numero": "23077.150274/2025-17",
-    "assunto": "SOLICITAÇÃO DE COMPRA POR CARONA",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1169191",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "17/09/2025",
-    "ultimaAtividade": "19/09/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1114826,
@@ -4305,33 +4056,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/11/2024",
     "ultimaAtividade": null,
-    "triado": true
-  },
-  {
-    "processo_id": 1114912,
-    "numero": "23077.151204/2024-03",
-    "assunto": "PLANEJAMENTO DE CONTRATAÇÃO/AQUISIÇÃO DE EMBALAGENS",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1114912",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "05/11/2024",
-    "ultimaAtividade": null,
-    "triado": true
-  },
-  {
-    "processo_id": 1169870,
-    "numero": "23077.152346/2025-61",
-    "assunto": "SOLICITAÇÃO DE AQUISIÇÃO DE MATERIAL DE CONSUMO PARA PROJETO (SENSORES, MICROCONTROLADORES, CABO)",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1169870",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "20/09/2025",
-    "ultimaAtividade": null,
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1169871,
@@ -4344,20 +4070,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "20/09/2025",
     "ultimaAtividade": "24/09/2025",
-    "triado": true
-  },
-  {
-    "processo_id": 1169976,
-    "numero": "23077.152701/2025-00",
-    "assunto": "CONTRATAÇÃO DE LEILOEIRO PÚBLICO OFICIAL (2º COLOCADO) ATRAVÉS DE INEXIGIBILIDADE DE LICITAÇÃO COM FULCRO NO ART. 74, IV, DA LEI N 14.133 SELECIONADO A PARTIR DA LISTA DE LEILOEIROS CLASSIFICADOS NO CREDENCIAMENTO N 01/2025",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1169976",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "22/09/2025",
-    "ultimaAtividade": "22/09/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1115366,
@@ -4370,20 +4084,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "07/11/2024",
     "ultimaAtividade": "02/01/2025",
-    "triado": true
-  },
-  {
-    "processo_id": 1170067,
-    "numero": "23077.152976/2025-35",
-    "assunto": "ASSUNTO: SOLICITAÇÃO DE COMPRA DE ITENS DE CONSUMO: 3 UNIDADES SENSOR FLEX 2.2”; 3 UNIDADES SENSOR FORÇA RESISTIVO FSR 50N; 3 UNIDADES SENSOR DE FORÇA RESISTIVO FSR402, 2 UNIDADES MÓDULO WIFI ESP32 BLUETOOTH - 30 PINOS.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1170067",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "22/09/2025",
-    "ultimaAtividade": "24/09/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1115521,
@@ -4396,7 +4098,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "07/11/2024",
     "ultimaAtividade": "30/12/2024",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1115544,
@@ -4409,7 +4112,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "07/11/2024",
     "ultimaAtividade": "07/11/2024",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1170210,
@@ -4422,33 +4126,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "23/09/2025",
     "ultimaAtividade": "30/09/2025",
-    "triado": true
-  },
-  {
-    "processo_id": 1115626,
-    "numero": "23077.153704/2024-71",
-    "assunto": "MANIFESTAÇÃO DE DEMANDA PARA A CONTRATAÇÃO DE SERVIÇOS DE OUTSOURCING DE IMPRESSÃO, CÓPIA E DIGITALIZAÇÃO PARA O DEPARTAMENTO DE INFORMÁTICA E MATEMÁTICA APLICADA (DIMAP). A SOLICITAÇÃO É MOTIVADA PELA PROXIMIDADE DO TÉRMINO DO CONTRATO VIGENTE COM A ATUAL PRESTADORA E VISA GARANTIR A CONTINUIDADE DOS SERVIÇOS, ESSENCIAIS PARA O FUNCIONAMENTO DAS ATIVIDADES ADMINISTRATIVAS E ACADÊMICAS DO DEPARTAMENTO.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1115626",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "08/11/2024",
-    "ultimaAtividade": "11/11/2024",
-    "triado": true
-  },
-  {
-    "processo_id": 1170571,
-    "numero": "23077.154597/2025-80",
-    "assunto": "SOLICITAÇÃO ADESÃO DE PROJETORES MULTIMÍDIA ATA DE REGISTRO DE PREÇO Nº 90016/2024 DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DA PARAÍBA - IFPB (UASG 158138)",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1170571",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "24/09/2025",
-    "ultimaAtividade": "26/09/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1116014,
@@ -4462,7 +4141,8 @@
     "dataAbertura": "11/11/2024",
     "ultimaAtividade": "27/11/2024",
     "alertaEmpenhoSemExecucao": true,
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1170756,
@@ -4475,7 +4155,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "25/09/2025",
     "ultimaAtividade": "20/10/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1170870,
@@ -4488,7 +4169,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "25/09/2025",
     "ultimaAtividade": "27/11/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1170887,
@@ -4501,7 +4183,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "26/09/2025",
     "ultimaAtividade": "18/11/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1170894,
@@ -4514,7 +4197,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "26/09/2025",
     "ultimaAtividade": "17/10/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1170948,
@@ -4527,20 +4211,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "26/09/2025",
     "ultimaAtividade": "24/02/2026",
-    "triado": true
-  },
-  {
-    "processo_id": 1116205,
-    "numero": "23077.156030/2024-67",
-    "assunto": "TRANSPORTE DE 150 AMOSTRAS DE PLASMAS PARA ESTE LABORATÓRIO NO JAPÃO",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1116205",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "12/11/2024",
-    "ultimaAtividade": "13/11/2024",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1170954,
@@ -4553,7 +4225,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "26/09/2025",
     "ultimaAtividade": null,
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1170960,
@@ -4566,7 +4239,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "26/09/2025",
     "ultimaAtividade": "13/10/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1170966,
@@ -4579,7 +4253,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "26/09/2025",
     "ultimaAtividade": "24/02/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1170973,
@@ -4592,20 +4267,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "26/09/2025",
     "ultimaAtividade": "24/02/2026",
-    "triado": true
-  },
-  {
-    "processo_id": 1170996,
-    "numero": "23077.156174/2025-02",
-    "assunto": "ADESÃO A ATA DE REGISTRO DE PREÇO Nº 90030/2024 DA UNIDADE GERENCIADORA COLÉGIO MILITAR DO RIO DE JANEIRO - CMRJ (UASG 160292) PARA AQUISIÇÃO DE CADEIRAS E BANQUETAS.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1170996",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "26/09/2025",
-    "ultimaAtividade": "14/10/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1171386,
@@ -4618,7 +4281,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "29/09/2025",
     "ultimaAtividade": "13/10/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1171388,
@@ -4631,7 +4295,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "30/09/2025",
     "ultimaAtividade": "12/01/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1171501,
@@ -4644,7 +4309,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "30/09/2025",
     "ultimaAtividade": "13/10/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1171530,
@@ -4659,7 +4325,8 @@
     "ultimaAtividade": "11/02/2026",
     "triado": true,
     "alertaRedirecionado": true,
-    "processoDestino": "23077.141145/2025-38"
+    "processoDestino": "23077.141145/2025-38",
+    "statusChecado": true
   },
   {
     "processo_id": 1171637,
@@ -4674,7 +4341,8 @@
     "ultimaAtividade": "25/11/2025",
     "triado": true,
     "alertaRedirecionado": true,
-    "processoDestino": "23077.178512/2025-59"
+    "processoDestino": "23077.178512/2025-59",
+    "statusChecado": true
   },
   {
     "processo_id": 1171680,
@@ -4687,7 +4355,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "30/09/2025",
     "ultimaAtividade": "06/10/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1171682,
@@ -4700,34 +4369,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "30/09/2025",
     "ultimaAtividade": "23/10/2025",
-    "triado": true
-  },
-  {
-    "processo_id": 1171903,
-    "numero": "23077.158768/2025-40",
-    "assunto": "DESISTÊNCIA EM PROCESSO DE CONTRATAÇÃO DE SERVIÇO",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1171903",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "01/10/2025",
-    "ultimaAtividade": null,
-    "triado": true
-  },
-  {
-    "processo_id": 1171905,
-    "numero": "23077.158776/2025-96",
-    "assunto": "DESISTÊNCIA EM PROCESSO DE CONTRATAÇÃO",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1171905",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "01/10/2025",
-    "ultimaAtividade": "01/10/2025",
     "triado": true,
-    "alertaDesistencia": true
+    "statusChecado": true
   },
   {
     "processo_id": 1172170,
@@ -4740,7 +4383,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "02/10/2025",
     "ultimaAtividade": "01/10/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1117132,
@@ -4753,20 +4397,8 @@
     "nota_classificacao": "apensado a 23077.060070/2026-76 (Concorrência) — apensação nesse caminho é hipótese não confirmada (CLAUDE.md 4.4), decisão manual necessária",
     "dataAbertura": "19/11/2024",
     "ultimaAtividade": "30/04/2026",
-    "triado": true
-  },
-  {
-    "processo_id": 1172727,
-    "numero": "23077.161345/2025-15",
-    "assunto": "ADESÃO CARONA PARA AQUISIÇÃO DE PRODUTOS CÁRNEOS",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1172727",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "07/10/2025",
-    "ultimaAtividade": "15/10/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1172868,
@@ -4779,7 +4411,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "08/10/2025",
     "ultimaAtividade": "10/10/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1172910,
@@ -4792,7 +4425,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "08/10/2025",
     "ultimaAtividade": "06/11/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1172912,
@@ -4805,33 +4439,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "08/10/2025",
     "ultimaAtividade": "08/10/2025",
-    "triado": true
-  },
-  {
-    "processo_id": 1173072,
-    "numero": "23077.162491/2025-50",
-    "assunto": "AQUISIÇÃO DE NOTEBOOK INTERMEDIÁRIO",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1173072",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "08/10/2025",
-    "ultimaAtividade": null,
-    "triado": true
-  },
-  {
-    "processo_id": 1118103,
-    "numero": "23077.163126/2024-81",
-    "assunto": "AQUISIÇÃO DE LICENÇAS DO SOFTWARE WINDOWS 11 PRO PARA COMPUTADORES DA INFRA.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1118103",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "27/11/2024",
-    "ultimaAtividade": "27/11/2024",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1173370,
@@ -4844,7 +4453,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "10/10/2025",
     "ultimaAtividade": "18/12/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1173614,
@@ -4857,7 +4467,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "13/10/2025",
     "ultimaAtividade": "10/11/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1174719,
@@ -4870,21 +4481,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "16/10/2025",
     "ultimaAtividade": "10/03/2026",
-    "triado": true
-  },
-  {
-    "processo_id": 1174754,
-    "numero": "23077.167484/2025-44",
-    "assunto": "PLANEJAMENTO DE CONTRATAÇÃO – ATUALIZAÇÃO DO SOFTWARE DEA SOLVER PRO (VERSÃO 64 BITS)",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1174754",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "16/10/2025",
-    "ultimaAtividade": "29/07/2026",
-    "alertaEmpenhoSemExecucao": true,
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1119169,
@@ -4897,20 +4495,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/12/2024",
     "ultimaAtividade": "07/01/2025",
-    "triado": true
-  },
-  {
-    "processo_id": 1119447,
-    "numero": "23077.169250/2024-51",
-    "assunto": "AD - MANUTENÇÃO DE VEÍCULOS - TRANSP/PROAD",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1119447",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "06/12/2024",
-    "ultimaAtividade": "06/12/2024",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1175461,
@@ -4923,7 +4509,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "21/10/2025",
     "ultimaAtividade": null,
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1119866,
@@ -4936,7 +4523,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "10/12/2024",
     "ultimaAtividade": "20/10/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1177673,
@@ -4949,7 +4537,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "03/11/2025",
     "ultimaAtividade": "03/11/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1120087,
@@ -4962,7 +4551,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "11/12/2024",
     "ultimaAtividade": "14/12/2024",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1176172,
@@ -4975,7 +4565,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "24/10/2025",
     "ultimaAtividade": "31/10/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1120186,
@@ -4988,7 +4579,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "12/12/2024",
     "ultimaAtividade": "14/12/2024",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1120326,
@@ -5003,20 +4595,8 @@
     "ultimaAtividade": "30/12/2024",
     "triado": true,
     "alertaRedirecionado": true,
-    "processoDestino": "23077.162178/2024-31"
-  },
-  {
-    "processo_id": 1120344,
-    "numero": "23077.172901/2024-90",
-    "assunto": "ADESÃO A ATA DE REGISTRO DE PREÇOS PARA AQUISIÇÃO DE CARTEIRAS ESCOLARES PARA A EMCM",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1120344",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "13/12/2024",
-    "ultimaAtividade": "18/12/2024",
-    "triado": true
+    "processoDestino": "23077.162178/2024-31",
+    "statusChecado": true
   },
   {
     "processo_id": 1120345,
@@ -5031,7 +4611,8 @@
     "ultimaAtividade": "29/12/2024",
     "triado": true,
     "alertaRedirecionado": true,
-    "processoDestino": "23077.176996/2024-11"
+    "processoDestino": "23077.176996/2024-11",
+    "statusChecado": true
   },
   {
     "processo_id": 1176752,
@@ -5044,7 +4625,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "29/10/2025",
     "ultimaAtividade": null,
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1120709,
@@ -5057,7 +4639,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "16/12/2024",
     "ultimaAtividade": "18/12/2024",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1120722,
@@ -5070,20 +4653,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "16/12/2024",
     "ultimaAtividade": "31/01/2025",
-    "triado": true
-  },
-  {
-    "processo_id": 1120987,
-    "numero": "23077.175212/2024-37",
-    "assunto": "ADESÃO CARONA - LIXEIRA 80L",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1120987",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "18/12/2024",
-    "ultimaAtividade": "19/12/2024",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1121065,
@@ -5096,7 +4667,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "18/12/2024",
     "ultimaAtividade": "07/01/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1178075,
@@ -5109,20 +4681,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/11/2025",
     "ultimaAtividade": "29/01/2026",
-    "triado": true
-  },
-  {
-    "processo_id": 1122043,
-    "numero": "23077.178785/2024-12",
-    "assunto": "ADESÃO A ATA DE REGISTRO DE PREÇOS - PREGÃO 16/2023 - IFES",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1122043",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "28/12/2024",
-    "ultimaAtividade": "28/12/2024",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1122051,
@@ -5137,7 +4697,8 @@
     "ultimaAtividade": "30/12/2024",
     "triado": true,
     "alertaRedirecionado": true,
-    "processoDestino": "23077.159079/2024-71"
+    "processoDestino": "23077.159079/2024-71",
+    "statusChecado": true
   },
   {
     "processo_id": 1179208,
@@ -5150,7 +4711,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "07/11/2025",
     "ultimaAtividade": "10/08/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1181253,
@@ -5163,7 +4725,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "18/11/2025",
     "ultimaAtividade": "03/08/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1184069,
@@ -5176,20 +4739,7 @@
     "nota_classificacao": "apensado a 23077.202195/2025-07 (Concorrência) — apensação nesse caminho é hipótese não confirmada (CLAUDE.md 4.4), decisão manual necessária",
     "dataAbertura": "04/12/2025",
     "ultimaAtividade": "16/12/2025",
-    "triado": true
-  },
-  {
-    "processo_id": 1184174,
-    "numero": "23077.196460/2025-01",
-    "assunto": "AQUISIÇÃO E INSTALAÇÃO DE PAINÉIS DE USINAS FOTOVOLTAICAS",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1184174",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "05/12/2025",
-    "ultimaAtividade": "26/02/2026",
-    "alertaEmpenhoSemExecucao": true,
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   }
 ]
