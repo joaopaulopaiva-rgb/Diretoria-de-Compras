@@ -1344,7 +1344,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1085853",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "16/04/2024",
+    "ultimaAtividade": "22/01/2025"
   },
   {
     "processo_id": 1085978,
@@ -1354,7 +1356,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1085978",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "17/04/2024",
+    "ultimaAtividade": "29/01/2025"
   },
   {
     "processo_id": 1136804,
@@ -1364,7 +1368,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1136804",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "01/04/2025",
+    "ultimaAtividade": "14/04/2025"
   },
   {
     "processo_id": 1086006,
@@ -1374,7 +1380,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1086006",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "17/04/2024",
+    "ultimaAtividade": "27/05/2024"
   },
   {
     "processo_id": 1086094,
@@ -1384,7 +1392,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1086094",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "apensado a 23077.114834/2023-16, mas esse número não foi encontrado em nenhum dos 5 tipos de execução"
+    "nota_classificacao": "apensado a 23077.114834/2023-16, mas esse número não foi encontrado em nenhum dos 5 tipos de execução",
+    "dataAbertura": "18/04/2024",
+    "ultimaAtividade": "23/04/2024"
   },
   {
     "processo_id": 1086171,
@@ -1394,7 +1404,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1086171",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "19/04/2024",
+    "ultimaAtividade": "19/04/2024"
   },
   {
     "processo_id": 1086175,
@@ -1404,7 +1416,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1086175",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "19/04/2024",
+    "ultimaAtividade": "12/11/2024"
   },
   {
     "processo_id": 1086197,
@@ -1414,7 +1428,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1086197",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "19/04/2024",
+    "ultimaAtividade": "22/04/2024"
   },
   {
     "processo_id": 1202728,
@@ -1424,7 +1440,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1202728",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "14/04/2026",
+    "ultimaAtividade": "11/06/2026"
   },
   {
     "processo_id": 1137510,
@@ -1434,7 +1452,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1137510",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "03/04/2025",
+    "ultimaAtividade": "10/08/2026"
   },
   {
     "processo_id": 1137511,
@@ -1444,7 +1464,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1137511",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "03/04/2025",
+    "ultimaAtividade": "13/05/2025"
   },
   {
     "processo_id": 1137620,
@@ -1454,7 +1476,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1137620",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "04/04/2025",
+    "ultimaAtividade": "07/04/2025"
   },
   {
     "processo_id": 1086558,
@@ -1464,7 +1488,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1086558",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "25/04/2024",
+    "ultimaAtividade": "30/04/2024"
   },
   {
     "processo_id": 1137686,
@@ -1474,7 +1500,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1137686",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "04/04/2025",
+    "ultimaAtividade": "08/05/2025"
   },
   {
     "processo_id": 1086579,
@@ -1484,7 +1512,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1086579",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "25/04/2024",
+    "ultimaAtividade": "26/04/2024"
   },
   {
     "processo_id": 1086582,
@@ -1494,7 +1524,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1086582",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "25/04/2024",
+    "ultimaAtividade": "26/04/2024"
   },
   {
     "processo_id": 1086868,
@@ -1504,7 +1536,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1086868",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "29/04/2024",
+    "ultimaAtividade": "24/07/2024"
   },
   {
     "processo_id": 1203257,
@@ -1514,7 +1548,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1203257",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "17/04/2026",
+    "ultimaAtividade": "04/08/2026"
   },
   {
     "processo_id": 1087127,
@@ -1524,7 +1560,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1087127",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "02/05/2024",
+    "ultimaAtividade": "10/05/2024"
   },
   {
     "processo_id": 1138371,
@@ -1534,7 +1572,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1138371",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "08/04/2025",
+    "ultimaAtividade": "11/04/2025"
   },
   {
     "processo_id": 1203586,
@@ -1544,7 +1584,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1203586",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "22/04/2026",
+    "ultimaAtividade": "23/04/2026"
   },
   {
     "processo_id": 1138433,
@@ -1554,7 +1596,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1138433",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "08/04/2025",
+    "ultimaAtividade": null
   },
   {
     "processo_id": 1203873,
@@ -1564,7 +1608,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1203873",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "23/04/2026",
+    "ultimaAtividade": "19/05/2026"
   },
   {
     "processo_id": 1138704,
@@ -1574,7 +1620,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1138704",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "09/04/2025",
+    "ultimaAtividade": "09/04/2025"
   },
   {
     "processo_id": 1087630,
@@ -1584,7 +1632,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1087630",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "08/05/2024",
+    "ultimaAtividade": "27/05/2024"
   },
   {
     "processo_id": 1204090,
@@ -1594,7 +1644,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1204090",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "24/04/2026",
+    "ultimaAtividade": "01/07/2026"
   },
   {
     "processo_id": 1087827,
@@ -1604,7 +1656,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1087827",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "10/05/2024",
+    "ultimaAtividade": "29/01/2025"
   },
   {
     "processo_id": 1087829,
@@ -1614,7 +1668,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1087829",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "10/05/2024",
+    "ultimaAtividade": "18/11/2024"
   },
   {
     "processo_id": 1087833,
@@ -1624,7 +1680,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1087833",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "10/05/2024",
+    "ultimaAtividade": "18/09/2024"
   },
   {
     "processo_id": 1087835,
@@ -1634,7 +1692,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1087835",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "10/05/2024",
+    "ultimaAtividade": "12/09/2024"
   },
   {
     "processo_id": 1087920,
@@ -1644,7 +1704,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1087920",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "13/05/2024",
+    "ultimaAtividade": "22/05/2024"
   },
   {
     "processo_id": 1087964,
@@ -1654,7 +1716,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1087964",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "13/05/2024",
+    "ultimaAtividade": "22/12/2025"
   },
   {
     "processo_id": 1088097,
@@ -1664,7 +1728,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1088097",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "14/05/2024",
+    "ultimaAtividade": "16/08/2024"
   },
   {
     "processo_id": 1088099,
@@ -1674,7 +1740,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1088099",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "14/05/2024",
+    "ultimaAtividade": "09/08/2024"
   },
   {
     "processo_id": 1088100,
@@ -1684,7 +1752,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1088100",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "14/05/2024",
+    "ultimaAtividade": "03/07/2024"
   },
   {
     "processo_id": 1139479,
@@ -1694,7 +1764,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1139479",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "14/04/2025",
+    "ultimaAtividade": null
   },
   {
     "processo_id": 1088246,
@@ -1704,7 +1776,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1088246",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "apensado a 23077.158227/2023-50, mas esse número não foi encontrado em nenhum dos 5 tipos de execução"
+    "nota_classificacao": "apensado a 23077.158227/2023-50, mas esse número não foi encontrado em nenhum dos 5 tipos de execução",
+    "dataAbertura": "16/05/2024",
+    "ultimaAtividade": "28/05/2024"
   },
   {
     "processo_id": 1088339,
@@ -1714,7 +1788,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1088339",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "17/05/2024",
+    "ultimaAtividade": "06/06/2024"
   },
   {
     "processo_id": 1088350,
@@ -1724,7 +1800,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1088350",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "17/05/2024",
+    "ultimaAtividade": "17/05/2024"
   },
   {
     "processo_id": 1088378,
@@ -1734,7 +1812,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1088378",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "17/05/2024",
+    "ultimaAtividade": "21/05/2024"
   },
   {
     "processo_id": 1139791,
@@ -1744,7 +1824,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1139791",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "15/04/2025",
+    "ultimaAtividade": "16/04/2025"
   },
   {
     "processo_id": 1088501,
@@ -1754,7 +1836,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1088501",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "20/05/2024",
+    "ultimaAtividade": "06/06/2024"
   },
   {
     "processo_id": 1204885,
@@ -1764,7 +1848,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1204885",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "30/04/2026",
+    "ultimaAtividade": "29/05/2026"
   },
   {
     "processo_id": 1204897,
@@ -1774,7 +1860,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1204897",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "30/04/2026",
+    "ultimaAtividade": "29/05/2026"
   },
   {
     "processo_id": 1204932,
@@ -1784,7 +1872,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1204932",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "30/04/2026",
+    "ultimaAtividade": "29/05/2026"
   },
   {
     "processo_id": 1204939,
@@ -1794,7 +1884,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1204939",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "30/04/2026",
+    "ultimaAtividade": "29/05/2026"
   },
   {
     "processo_id": 1088799,
@@ -1804,7 +1896,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1088799",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "22/05/2024",
+    "ultimaAtividade": "17/06/2024"
   },
   {
     "processo_id": 1088857,
@@ -1814,7 +1908,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1088857",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "23/05/2024",
+    "ultimaAtividade": "10/06/2024"
   },
   {
     "processo_id": 1089085,
@@ -1824,7 +1920,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1089085",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "27/05/2024",
+    "ultimaAtividade": "27/05/2024"
   },
   {
     "processo_id": 1205363,
@@ -1834,7 +1932,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1205363",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "05/05/2026",
+    "ultimaAtividade": "05/05/2026"
   },
   {
     "processo_id": 1089296,
@@ -1844,7 +1944,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1089296",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "28/05/2024",
+    "ultimaAtividade": "19/06/2024"
   },
   {
     "processo_id": 1089314,
@@ -1854,7 +1956,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1089314",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "29/05/2024",
+    "ultimaAtividade": "01/04/2025"
   },
   {
     "processo_id": 1205619,
@@ -1864,7 +1968,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1205619",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "06/05/2026",
+    "ultimaAtividade": "04/08/2026"
   },
   {
     "processo_id": 1205674,
@@ -1874,7 +1980,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1205674",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "06/05/2026",
+    "ultimaAtividade": "13/08/2026"
   },
   {
     "processo_id": 1205703,
@@ -1884,7 +1992,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1205703",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "06/05/2026",
+    "ultimaAtividade": "08/06/2026"
   },
   {
     "processo_id": 1205817,
@@ -1894,7 +2004,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1205817",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "07/05/2026",
+    "ultimaAtividade": "24/06/2026"
   },
   {
     "processo_id": 1089784,
@@ -1904,7 +2016,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1089784",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "apensado a 23077.156846/2025-71, mas esse número não foi encontrado em nenhum dos 5 tipos de execução"
+    "nota_classificacao": "apensado a 23077.156846/2025-71, mas esse número não foi encontrado em nenhum dos 5 tipos de execução",
+    "dataAbertura": "04/06/2024",
+    "ultimaAtividade": "24/09/2025"
   },
   {
     "processo_id": 1141031,
@@ -1914,7 +2028,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1141031",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "25/04/2025",
+    "ultimaAtividade": "23/07/2025"
   },
   {
     "processo_id": 1206187,
@@ -1924,7 +2040,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1206187",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "08/05/2026",
+    "ultimaAtividade": "08/05/2026"
   },
   {
     "processo_id": 1090103,
@@ -1934,7 +2052,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1090103",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "06/06/2024",
+    "ultimaAtividade": "01/08/2024"
   },
   {
     "processo_id": 1206228,
@@ -1944,7 +2064,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1206228",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "08/05/2026",
+    "ultimaAtividade": "11/05/2026"
   },
   {
     "processo_id": 1206808,
@@ -1954,7 +2076,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1206808",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "13/05/2026",
+    "ultimaAtividade": "05/08/2026"
   },
   {
     "processo_id": 1090733,
@@ -1964,7 +2088,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1090733",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "12/06/2024",
+    "ultimaAtividade": "05/08/2026"
   },
   {
     "processo_id": 1090779,
@@ -1974,7 +2100,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1090779",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "13/06/2024",
+    "ultimaAtividade": "10/07/2024"
   },
   {
     "processo_id": 1207154,
@@ -1984,7 +2112,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1207154",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "14/05/2026",
+    "ultimaAtividade": null
   },
   {
     "processo_id": 1207156,
@@ -1994,7 +2124,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1207156",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "14/05/2026",
+    "ultimaAtividade": "22/06/2026"
   },
   {
     "processo_id": 1091161,
@@ -2004,7 +2136,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1091161",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "17/06/2024",
+    "ultimaAtividade": "09/09/2024"
   },
   {
     "processo_id": 1142002,
@@ -2014,7 +2148,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1142002",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "05/05/2025",
+    "ultimaAtividade": "09/05/2025"
   },
   {
     "processo_id": 1142303,
@@ -2024,7 +2160,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1142303",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "06/05/2025",
+    "ultimaAtividade": "23/05/2025"
   },
   {
     "processo_id": 1142319,
@@ -2034,7 +2172,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1142319",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "06/05/2025",
+    "ultimaAtividade": "25/06/2025"
   },
   {
     "processo_id": 1142325,
@@ -2044,7 +2184,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1142325",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "06/05/2025",
+    "ultimaAtividade": "12/05/2025"
   },
   {
     "processo_id": 1142497,
@@ -2054,7 +2196,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1142497",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "07/05/2025",
+    "ultimaAtividade": "31/03/2026"
   },
   {
     "processo_id": 1091781,
@@ -2064,7 +2208,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1091781",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "20/06/2024",
+    "ultimaAtividade": "17/07/2024"
   },
   {
     "processo_id": 1142649,
@@ -2074,7 +2220,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1142649",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "07/05/2025",
+    "ultimaAtividade": "29/05/2025"
   },
   {
     "processo_id": 1207930,
@@ -2084,7 +2232,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1207930",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "19/05/2026",
+    "ultimaAtividade": "21/05/2026"
   },
   {
     "processo_id": 1142721,
@@ -2094,7 +2244,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1142721",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "08/05/2025",
+    "ultimaAtividade": "09/05/2025"
   },
   {
     "processo_id": 1208112,
@@ -2104,7 +2256,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1208112",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "20/05/2026",
+    "ultimaAtividade": "29/06/2026"
   },
   {
     "processo_id": 1142907,
@@ -2114,7 +2268,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1142907",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "08/05/2025",
+    "ultimaAtividade": "11/06/2025"
   },
   {
     "processo_id": 1208193,
@@ -2124,7 +2280,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1208193",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "20/05/2026",
+    "ultimaAtividade": "08/06/2026"
   },
   {
     "processo_id": 1092292,
@@ -2134,7 +2292,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1092292",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "25/06/2024",
+    "ultimaAtividade": "04/11/2024"
   },
   {
     "processo_id": 1092323,
@@ -2144,7 +2304,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1092323",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "25/06/2024",
+    "ultimaAtividade": "27/03/2025"
   },
   {
     "processo_id": 1092324,
@@ -2154,7 +2316,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1092324",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "25/06/2024",
+    "ultimaAtividade": "15/04/2025"
   },
   {
     "processo_id": 1208252,
@@ -2164,7 +2328,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1208252",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "20/05/2026",
+    "ultimaAtividade": "20/05/2026"
   },
   {
     "processo_id": 1092364,
@@ -2174,7 +2340,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1092364",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "25/06/2024",
+    "ultimaAtividade": "28/06/2024"
   },
   {
     "processo_id": 1143019,
@@ -2184,7 +2352,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1143019",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "09/05/2025",
+    "ultimaAtividade": "02/06/2025"
   },
   {
     "processo_id": 1208323,
@@ -2194,7 +2364,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1208323",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "20/05/2026",
+    "ultimaAtividade": "08/06/2026"
   },
   {
     "processo_id": 1208380,
@@ -2204,7 +2376,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1208380",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "20/05/2026",
+    "ultimaAtividade": "08/06/2026"
   },
   {
     "processo_id": 1143082,
@@ -2214,7 +2388,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1143082",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "09/05/2025",
+    "ultimaAtividade": "21/05/2025"
   },
   {
     "processo_id": 1208513,
@@ -2224,7 +2400,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1208513",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "21/05/2026",
+    "ultimaAtividade": "11/08/2026"
   },
   {
     "processo_id": 1143254,
@@ -2234,7 +2412,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1143254",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "12/05/2025",
+    "ultimaAtividade": "08/07/2025"
   },
   {
     "processo_id": 1092769,
@@ -2244,7 +2424,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1092769",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "27/06/2024",
+    "ultimaAtividade": "01/04/2026"
   },
   {
     "processo_id": 1092833,
@@ -2254,7 +2436,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1092833",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "28/06/2024",
+    "ultimaAtividade": "30/07/2024"
   },
   {
     "processo_id": 1092839,
@@ -2264,7 +2448,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1092839",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "28/06/2024",
+    "ultimaAtividade": "30/07/2024"
   },
   {
     "processo_id": 1092845,
@@ -2274,7 +2460,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1092845",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "28/06/2024",
+    "ultimaAtividade": "26/07/2024"
   },
   {
     "processo_id": 1208700,
@@ -2284,7 +2472,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1208700",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "22/05/2026",
+    "ultimaAtividade": "21/07/2026"
   },
   {
     "processo_id": 1092964,
@@ -2294,7 +2484,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1092964",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "28/06/2024",
+    "ultimaAtividade": "09/07/2024"
   },
   {
     "processo_id": 1208793,
@@ -2304,7 +2496,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1208793",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "22/05/2026",
+    "ultimaAtividade": "10/07/2026"
   },
   {
     "processo_id": 1208810,
@@ -2314,7 +2508,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1208810",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "22/05/2026",
+    "ultimaAtividade": "28/07/2026"
   },
   {
     "processo_id": 1143528,
@@ -2324,7 +2520,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1143528",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "13/05/2025",
+    "ultimaAtividade": "25/06/2025"
   },
   {
     "processo_id": 1093103,
@@ -2334,7 +2532,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1093103",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "01/07/2024",
+    "ultimaAtividade": "03/07/2024"
   },
   {
     "processo_id": 1093215,
@@ -2344,7 +2544,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1093215",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "apensado a 23077.177997/2023-00, mas esse número não foi encontrado em nenhum dos 5 tipos de execução"
+    "nota_classificacao": "apensado a 23077.177997/2023-00, mas esse número não foi encontrado em nenhum dos 5 tipos de execução",
+    "dataAbertura": "01/07/2024",
+    "ultimaAtividade": "25/07/2024"
   },
   {
     "processo_id": 1209061,
@@ -2354,7 +2556,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1209061",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "25/05/2026",
+    "ultimaAtividade": "24/07/2026"
   },
   {
     "processo_id": 1093361,
@@ -2364,7 +2568,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1093361",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "02/07/2024",
+    "ultimaAtividade": "03/07/2024"
   },
   {
     "processo_id": 1143875,
@@ -2374,7 +2580,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1143875",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "14/05/2025",
+    "ultimaAtividade": "14/05/2025"
   },
   {
     "processo_id": 1209277,
@@ -2384,7 +2592,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1209277",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "26/05/2026",
+    "ultimaAtividade": "28/07/2026"
   },
   {
     "processo_id": 1209634,
@@ -2394,7 +2604,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1209634",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "27/05/2026",
+    "ultimaAtividade": null
   },
   {
     "processo_id": 1209719,
@@ -2404,7 +2616,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1209719",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "27/05/2026",
+    "ultimaAtividade": "05/08/2026"
   },
   {
     "processo_id": 1094100,
@@ -2414,7 +2628,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1094100",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "05/07/2024",
+    "ultimaAtividade": "23/09/2024"
   },
   {
     "processo_id": 1144709,
@@ -2424,7 +2640,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1144709",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "19/05/2025",
+    "ultimaAtividade": "19/05/2025"
   },
   {
     "processo_id": 1094224,
@@ -2434,7 +2652,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1094224",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "05/07/2024",
+    "ultimaAtividade": "08/07/2024"
   },
   {
     "processo_id": 1210171,
@@ -2444,7 +2664,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1210171",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "28/05/2026",
+    "ultimaAtividade": "21/07/2026"
   },
   {
     "processo_id": 1210501,
@@ -2454,7 +2676,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1210501",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "29/05/2026",
+    "ultimaAtividade": "10/06/2026"
   },
   {
     "processo_id": 1210941,
@@ -2464,7 +2688,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1210941",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "01/06/2026",
+    "ultimaAtividade": "30/06/2026"
   },
   {
     "processo_id": 1145491,
@@ -2474,7 +2700,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1145491",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "21/05/2025",
+    "ultimaAtividade": "21/05/2025"
   },
   {
     "processo_id": 1211036,
@@ -2484,7 +2712,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1211036",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "01/06/2026",
+    "ultimaAtividade": "13/08/2026"
   },
   {
     "processo_id": 1095389,
@@ -2494,7 +2724,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1095389",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "10/07/2024",
+    "ultimaAtividade": "31/07/2024"
   },
   {
     "processo_id": 1146193,
@@ -2504,7 +2736,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1146193",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "26/05/2025",
+    "ultimaAtividade": "27/05/2025"
   },
   {
     "processo_id": 1212996,
@@ -2514,7 +2748,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1212996",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "11/06/2026",
+    "ultimaAtividade": "28/07/2026"
   },
   {
     "processo_id": 1213078,
@@ -2524,7 +2760,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1213078",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "11/06/2026",
+    "ultimaAtividade": "25/06/2026"
   },
   {
     "processo_id": 1213132,
@@ -2534,7 +2772,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1213132",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "11/06/2026",
+    "ultimaAtividade": "16/06/2026"
   },
   {
     "processo_id": 1096716,
@@ -2544,7 +2784,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1096716",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "18/07/2024",
+    "ultimaAtividade": "15/10/2024"
   },
   {
     "processo_id": 1096934,
@@ -2554,7 +2796,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1096934",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "19/07/2024",
+    "ultimaAtividade": ""
   },
   {
     "processo_id": 1213583,
@@ -2564,7 +2808,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1213583",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "15/06/2026",
+    "ultimaAtividade": "13/08/2026"
   },
   {
     "processo_id": 1097131,
@@ -2574,7 +2820,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1097131",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "22/07/2024",
+    "ultimaAtividade": "25/10/2024"
   },
   {
     "processo_id": 1213806,
@@ -2584,7 +2832,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1213806",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "16/06/2026",
+    "ultimaAtividade": "06/07/2026"
   },
   {
     "processo_id": 1097252,
@@ -2594,7 +2844,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1097252",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "23/07/2024",
+    "ultimaAtividade": "30/01/2025"
   },
   {
     "processo_id": 1147970,
@@ -2604,7 +2856,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1147970",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "04/06/2025",
+    "ultimaAtividade": "11/06/2025"
   },
   {
     "processo_id": 1148054,
@@ -2614,7 +2868,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1148054",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "04/06/2025",
+    "ultimaAtividade": "22/05/2025"
   },
   {
     "processo_id": 1097315,
@@ -2624,7 +2880,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1097315",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "23/07/2024",
+    "ultimaAtividade": "25/09/2024"
   },
   {
     "processo_id": 1213959,
@@ -2634,7 +2892,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1213959",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "17/06/2026",
+    "ultimaAtividade": "18/06/2026"
   },
   {
     "processo_id": 1097335,
@@ -2644,7 +2904,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1097335",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "23/07/2024",
+    "ultimaAtividade": "30/10/2024"
   },
   {
     "processo_id": 1097345,
@@ -2654,7 +2916,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1097345",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "23/07/2024",
+    "ultimaAtividade": "30/10/2024"
   },
   {
     "processo_id": 1097384,
@@ -2664,7 +2928,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1097384",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "23/07/2024",
+    "ultimaAtividade": "16/09/2024"
   },
   {
     "processo_id": 1214165,
@@ -2674,7 +2940,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1214165",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "18/06/2026",
+    "ultimaAtividade": "23/06/2026"
   },
   {
     "processo_id": 1214174,
@@ -2684,7 +2952,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1214174",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "18/06/2026",
+    "ultimaAtividade": "18/06/2026"
   },
   {
     "processo_id": 1097831,
@@ -2694,7 +2964,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1097831",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "26/07/2024",
+    "ultimaAtividade": "13/11/2024"
   },
   {
     "processo_id": 1097933,
@@ -2704,7 +2976,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1097933",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "26/07/2024",
+    "ultimaAtividade": "29/10/2024"
   },
   {
     "processo_id": 1214717,
@@ -2714,7 +2988,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1214717",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "22/06/2026",
+    "ultimaAtividade": null
   },
   {
     "processo_id": 1149069,
@@ -2724,7 +3000,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1149069",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "09/06/2025",
+    "ultimaAtividade": "24/06/2025"
   },
   {
     "processo_id": 1149071,
@@ -2734,7 +3012,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1149071",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "09/06/2025",
+    "ultimaAtividade": "24/06/2025"
   },
   {
     "processo_id": 1149075,
@@ -2744,7 +3024,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1149075",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "09/06/2025",
+    "ultimaAtividade": "09/06/2025"
   },
   {
     "processo_id": 1214726,
@@ -2754,7 +3036,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1214726",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "22/06/2026",
+    "ultimaAtividade": "22/06/2026"
   },
   {
     "processo_id": 1214738,
@@ -2764,7 +3048,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1214738",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "22/06/2026",
+    "ultimaAtividade": "29/07/2026"
   },
   {
     "processo_id": 1097963,
@@ -2774,7 +3060,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1097963",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "26/07/2024",
+    "ultimaAtividade": "14/08/2024"
   },
   {
     "processo_id": 1214948,
@@ -2784,7 +3072,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1214948",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "23/06/2026",
+    "ultimaAtividade": "13/08/2026"
   },
   {
     "processo_id": 1098562,
@@ -2794,7 +3084,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1098562",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "01/08/2024",
+    "ultimaAtividade": "05/08/2024"
   },
   {
     "processo_id": 1215658,
@@ -2804,7 +3096,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1215658",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "30/06/2026",
+    "ultimaAtividade": "29/07/2026"
   },
   {
     "processo_id": 1150400,
@@ -2814,7 +3108,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1150400",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "14/06/2025",
+    "ultimaAtividade": "14/07/2025"
   },
   {
     "processo_id": 1150406,
@@ -2824,7 +3120,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1150406",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "14/06/2025",
+    "ultimaAtividade": "28/08/2025"
   },
   {
     "processo_id": 1215685,
@@ -2834,7 +3132,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1215685",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "30/06/2026",
+    "ultimaAtividade": "01/07/2026"
   },
   {
     "processo_id": 1098972,
@@ -2844,7 +3144,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1098972",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "05/08/2024",
+    "ultimaAtividade": "09/08/2024"
   },
   {
     "processo_id": 1216082,
@@ -2854,7 +3156,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1216082",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "02/07/2026",
+    "ultimaAtividade": "09/07/2026"
   },
   {
     "processo_id": 1099225,
@@ -2864,7 +3168,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1099225",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "06/08/2024",
+    "ultimaAtividade": "15/08/2024"
   },
   {
     "processo_id": 1099238,
@@ -2874,7 +3180,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1099238",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "06/08/2024",
+    "ultimaAtividade": "06/08/2024"
   },
   {
     "processo_id": 1099257,
@@ -2884,7 +3192,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1099257",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "06/08/2024",
+    "ultimaAtividade": "16/09/2024"
   },
   {
     "processo_id": 1099307,
@@ -2894,7 +3204,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1099307",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "07/08/2024",
+    "ultimaAtividade": "05/02/2026"
   },
   {
     "processo_id": 1151627,
@@ -2904,7 +3216,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1151627",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "17/06/2025",
+    "ultimaAtividade": "18/06/2025"
   },
   {
     "processo_id": 1216335,
@@ -2914,7 +3228,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1216335",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "03/07/2026",
+    "ultimaAtividade": "07/08/2026"
   },
   {
     "processo_id": 1099507,
@@ -2924,7 +3240,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1099507",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "08/08/2024",
+    "ultimaAtividade": "08/08/2024"
   },
   {
     "processo_id": 1099517,
@@ -2934,7 +3252,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1099517",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "08/08/2024",
+    "ultimaAtividade": "14/08/2024"
   },
   {
     "processo_id": 1099649,
@@ -2944,7 +3264,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1099649",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "08/08/2024",
+    "ultimaAtividade": "18/09/2024"
   },
   {
     "processo_id": 1099735,
@@ -2954,7 +3276,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1099735",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "09/08/2024",
+    "ultimaAtividade": "14/08/2024"
   },
   {
     "processo_id": 1152151,
@@ -2964,7 +3288,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1152151",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "23/06/2025",
+    "ultimaAtividade": "23/06/2025"
   },
   {
     "processo_id": 1216881,
@@ -2974,7 +3300,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1216881",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "07/07/2026",
+    "ultimaAtividade": "11/08/2026"
   },
   {
     "processo_id": 1099874,
@@ -2984,7 +3312,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1099874",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "12/08/2024",
+    "ultimaAtividade": "03/12/2024"
   },
   {
     "processo_id": 1217065,
@@ -2994,7 +3324,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1217065",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "08/07/2026",
+    "ultimaAtividade": "12/08/2026"
   },
   {
     "processo_id": 1100065,
@@ -3004,7 +3336,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1100065",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "12/08/2024",
+    "ultimaAtividade": "12/08/2024"
   },
   {
     "processo_id": 1100075,
@@ -3014,7 +3348,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1100075",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "12/08/2024",
+    "ultimaAtividade": "30/09/2024"
   },
   {
     "processo_id": 1217383,
@@ -3024,7 +3360,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1217383",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "10/07/2026",
+    "ultimaAtividade": "10/08/2026"
   },
   {
     "processo_id": 1152667,
@@ -3034,7 +3372,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1152667",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "26/06/2025",
+    "ultimaAtividade": "01/08/2025"
   },
   {
     "processo_id": 1100183,
@@ -3044,7 +3384,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1100183",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "13/08/2024",
+    "ultimaAtividade": null
   },
   {
     "processo_id": 1100334,
@@ -3054,7 +3396,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1100334",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "14/08/2024",
+    "ultimaAtividade": "30/10/2024"
   },
   {
     "processo_id": 1100435,
@@ -3064,7 +3408,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1100435",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "14/08/2024",
+    "ultimaAtividade": "02/12/2024"
   },
   {
     "processo_id": 1152939,
@@ -3074,7 +3420,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1152939",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "30/06/2025",
+    "ultimaAtividade": null
   },
   {
     "processo_id": 1100443,
@@ -3084,7 +3432,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1100443",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "14/08/2024",
+    "ultimaAtividade": "15/08/2024"
   },
   {
     "processo_id": 1100602,
@@ -3094,7 +3444,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1100602",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "15/08/2024",
+    "ultimaAtividade": "21/08/2024"
   },
   {
     "processo_id": 1217996,
@@ -3104,7 +3456,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1217996",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "15/07/2026",
+    "ultimaAtividade": "12/08/2026"
   },
   {
     "processo_id": 1101052,
@@ -3114,7 +3468,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1101052",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "16/08/2024",
+    "ultimaAtividade": "23/08/2024"
   },
   {
     "processo_id": 1153733,
@@ -3124,7 +3480,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1153733",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "03/07/2025",
+    "ultimaAtividade": "04/07/2025"
   },
   {
     "processo_id": 1101319,
@@ -3134,7 +3492,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1101319",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "19/08/2024",
+    "ultimaAtividade": "16/08/2024"
   },
   {
     "processo_id": 1101322,
@@ -3144,7 +3504,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1101322",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "19/08/2024",
+    "ultimaAtividade": "20/08/2024"
   },
   {
     "processo_id": 1153984,
@@ -3154,7 +3516,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1153984",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "04/07/2025",
+    "ultimaAtividade": "14/07/2025"
   },
   {
     "processo_id": 1218675,
@@ -3164,7 +3528,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1218675",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "17/07/2026",
+    "ultimaAtividade": "13/08/2026"
   },
   {
     "processo_id": 1101520,
@@ -3174,7 +3540,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1101520",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "20/08/2024",
+    "ultimaAtividade": "10/09/2024"
   },
   {
     "processo_id": 1218753,
@@ -3184,7 +3552,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1218753",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "18/07/2026",
+    "ultimaAtividade": "28/07/2026"
   },
   {
     "processo_id": 1101632,
@@ -3194,7 +3564,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1101632",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "21/08/2024",
+    "ultimaAtividade": "31/10/2024"
   },
   {
     "processo_id": 1101962,
@@ -3204,7 +3576,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1101962",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "22/08/2024",
+    "ultimaAtividade": "16/09/2024"
   },
   {
     "processo_id": 1102205,
@@ -3214,7 +3588,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1102205",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "23/08/2024",
+    "ultimaAtividade": "31/10/2024"
   },
   {
     "processo_id": 1219340,
@@ -3224,7 +3600,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1219340",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "23/07/2026",
+    "ultimaAtividade": "04/08/2026"
   },
   {
     "processo_id": 1102214,
@@ -3234,7 +3612,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1102214",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "23/08/2024",
+    "ultimaAtividade": "23/09/2024"
   },
   {
     "processo_id": 1102245,
@@ -3244,7 +3624,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1102245",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "23/08/2024",
+    "ultimaAtividade": "23/09/2024"
   },
   {
     "processo_id": 1102264,
@@ -3254,7 +3636,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1102264",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "25/08/2024",
+    "ultimaAtividade": "05/12/2024"
   },
   {
     "processo_id": 1219430,
@@ -3264,7 +3648,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1219430",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "23/07/2026",
+    "ultimaAtividade": "09/07/2026"
   },
   {
     "processo_id": 1154975,
@@ -3274,7 +3660,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1154975",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "10/07/2025",
+    "ultimaAtividade": "15/07/2025"
   },
   {
     "processo_id": 1154977,
@@ -3284,7 +3672,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1154977",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "10/07/2025",
+    "ultimaAtividade": "15/07/2025"
   },
   {
     "processo_id": 1155222,
@@ -3294,7 +3684,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1155222",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "11/07/2025",
+    "ultimaAtividade": "13/07/2026"
   },
   {
     "processo_id": 1219797,
@@ -3304,7 +3696,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1219797",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "24/07/2026",
+    "ultimaAtividade": "30/07/2026"
   },
   {
     "processo_id": 1102733,
@@ -3314,7 +3708,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1102733",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "27/08/2024",
+    "ultimaAtividade": "28/08/2024"
   },
   {
     "processo_id": 1155324,
@@ -3324,7 +3720,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1155324",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "14/07/2025",
+    "ultimaAtividade": "25/07/2025"
   },
   {
     "processo_id": 1219957,
@@ -3334,7 +3732,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1219957",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "27/07/2026",
+    "ultimaAtividade": "11/08/2026"
   },
   {
     "processo_id": 1102847,
@@ -3344,7 +3744,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1102847",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "28/08/2024",
+    "ultimaAtividade": "08/11/2024"
   },
   {
     "processo_id": 1155498,
@@ -3354,7 +3756,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1155498",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "14/07/2025",
+    "ultimaAtividade": "14/07/2025"
   },
   {
     "processo_id": 1155506,
@@ -3364,7 +3768,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1155506",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "14/07/2025",
+    "ultimaAtividade": "04/09/2025"
   },
   {
     "processo_id": 1155513,
@@ -3374,7 +3780,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1155513",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "14/07/2025",
+    "ultimaAtividade": "14/07/2025"
   },
   {
     "processo_id": 1103008,
@@ -3384,7 +3792,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103008",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "28/08/2024",
+    "ultimaAtividade": "04/11/2024"
   },
   {
     "processo_id": 1103012,
@@ -3394,7 +3804,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103012",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "28/08/2024",
+    "ultimaAtividade": "15/10/2024"
   },
   {
     "processo_id": 1103098,
@@ -3404,7 +3816,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103098",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "28/08/2024",
+    "ultimaAtividade": "04/10/2024"
   },
   {
     "processo_id": 1103149,
@@ -3414,7 +3828,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103149",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "29/08/2024",
+    "ultimaAtividade": "02/09/2024"
   },
   {
     "processo_id": 1103152,
@@ -3424,7 +3840,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103152",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "29/08/2024",
+    "ultimaAtividade": "02/09/2024"
   },
   {
     "processo_id": 1220287,
@@ -3434,7 +3852,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1220287",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "28/07/2026",
+    "ultimaAtividade": null
   },
   {
     "processo_id": 1103156,
@@ -3444,7 +3864,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103156",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "29/08/2024",
+    "ultimaAtividade": "13/09/2024"
   },
   {
     "processo_id": 1103176,
@@ -3454,7 +3876,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103176",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "29/08/2024",
+    "ultimaAtividade": "04/09/2024"
   },
   {
     "processo_id": 1220315,
@@ -3464,7 +3888,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1220315",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "28/07/2026",
+    "ultimaAtividade": "03/08/2026"
   },
   {
     "processo_id": 1103243,
@@ -3474,7 +3900,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103243",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "29/08/2024",
+    "ultimaAtividade": "06/09/2024"
   },
   {
     "processo_id": 1220405,
@@ -3484,7 +3912,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1220405",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "28/07/2026",
+    "ultimaAtividade": "13/08/2026"
   },
   {
     "processo_id": 1156123,
@@ -3494,7 +3924,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1156123",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "17/07/2025",
+    "ultimaAtividade": "17/07/2025"
   },
   {
     "processo_id": 1103613,
@@ -3504,7 +3936,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103613",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "30/08/2024",
+    "ultimaAtividade": "22/12/2025"
   },
   {
     "processo_id": 1103626,
@@ -3514,7 +3948,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103626",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "30/08/2024",
+    "ultimaAtividade": "20/09/2024"
   },
   {
     "processo_id": 1103629,
@@ -3524,7 +3960,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103629",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "30/08/2024",
+    "ultimaAtividade": "16/09/2024"
   },
   {
     "processo_id": 1103630,
@@ -3534,7 +3972,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103630",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "30/08/2024",
+    "ultimaAtividade": "03/09/2024"
   },
   {
     "processo_id": 1103646,
@@ -3544,7 +3984,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103646",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "30/08/2024",
+    "ultimaAtividade": "20/09/2024"
   },
   {
     "processo_id": 1103648,
@@ -3554,7 +3996,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103648",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "31/08/2024",
+    "ultimaAtividade": "18/11/2025"
   },
   {
     "processo_id": 1221346,
@@ -3564,7 +4008,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1221346",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "29/07/2026",
+    "ultimaAtividade": "20/07/2026"
   },
   {
     "processo_id": 1103844,
@@ -3574,7 +4020,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103844",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "02/09/2024",
+    "ultimaAtividade": "15/10/2024"
   },
   {
     "processo_id": 1103849,
@@ -3584,7 +4032,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103849",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "02/09/2024",
+    "ultimaAtividade": "09/09/2024"
   },
   {
     "processo_id": 1104021,
@@ -3594,7 +4044,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1104021",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "03/09/2024",
+    "ultimaAtividade": "05/09/2024"
   },
   {
     "processo_id": 1156586,
@@ -3604,7 +4056,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1156586",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "21/07/2025",
+    "ultimaAtividade": "16/10/2025"
   },
   {
     "processo_id": 1104085,
@@ -3614,7 +4068,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1104085",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "03/09/2024",
+    "ultimaAtividade": "23/09/2024"
   },
   {
     "processo_id": 1104164,
@@ -3624,7 +4080,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1104164",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "03/09/2024",
+    "ultimaAtividade": null
   },
   {
     "processo_id": 1156689,
@@ -3634,7 +4092,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1156689",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "21/07/2025",
+    "ultimaAtividade": "21/07/2025"
   },
   {
     "processo_id": 1221759,
@@ -3644,7 +4104,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1221759",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "31/07/2026",
+    "ultimaAtividade": "21/07/2026"
   },
   {
     "processo_id": 1104288,
@@ -3654,7 +4116,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1104288",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "04/09/2024",
+    "ultimaAtividade": "04/09/2024"
   },
   {
     "processo_id": 1104290,
@@ -3664,7 +4128,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1104290",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "04/09/2024",
+    "ultimaAtividade": "04/09/2024"
   },
   {
     "processo_id": 1104295,
@@ -3674,7 +4140,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1104295",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "04/09/2024",
+    "ultimaAtividade": "04/09/2024"
   },
   {
     "processo_id": 1104297,
@@ -3684,7 +4152,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1104297",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "04/09/2024",
+    "ultimaAtividade": null
   },
   {
     "processo_id": 1104300,
@@ -3694,7 +4164,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1104300",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "04/09/2024",
+    "ultimaAtividade": "04/09/2024"
   },
   {
     "processo_id": 1104303,
@@ -3704,7 +4176,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1104303",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "04/09/2024",
+    "ultimaAtividade": "04/09/2024"
   },
   {
     "processo_id": 1221874,
@@ -3714,7 +4188,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1221874",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "31/07/2026",
+    "ultimaAtividade": "07/08/2026"
   },
   {
     "processo_id": 1104464,
@@ -3724,7 +4200,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1104464",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "apensado a 23077.177404/2023-05, mas esse número não foi encontrado em nenhum dos 5 tipos de execução"
+    "nota_classificacao": "apensado a 23077.177404/2023-05, mas esse número não foi encontrado em nenhum dos 5 tipos de execução",
+    "dataAbertura": "04/09/2024",
+    "ultimaAtividade": "12/09/2024"
   },
   {
     "processo_id": 1104480,
@@ -3734,7 +4212,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1104480",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "04/09/2024",
+    "ultimaAtividade": "11/10/2024"
   },
   {
     "processo_id": 1104588,
@@ -3744,7 +4224,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1104588",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "05/09/2024",
+    "ultimaAtividade": "19/09/2024"
   },
   {
     "processo_id": 1157251,
@@ -3754,7 +4236,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1157251",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "apensado a 23077.144670/2025-13 (Concorrência) — apensação nesse caminho é hipótese não confirmada (CLAUDE.md 4.4), decisão manual necessária"
+    "nota_classificacao": "apensado a 23077.144670/2025-13 (Concorrência) — apensação nesse caminho é hipótese não confirmada (CLAUDE.md 4.4), decisão manual necessária",
+    "dataAbertura": "23/07/2025",
+    "ultimaAtividade": "09/09/2025"
   },
   {
     "processo_id": 1104701,
@@ -3764,7 +4248,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1104701",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "05/09/2024",
+    "ultimaAtividade": "10/09/2024"
   },
   {
     "processo_id": 1157300,
@@ -3774,7 +4260,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1157300",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "23/07/2025",
+    "ultimaAtividade": "23/07/2025"
   },
   {
     "processo_id": 1104795,
@@ -3784,7 +4272,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1104795",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "06/09/2024",
+    "ultimaAtividade": "13/09/2024"
   },
   {
     "processo_id": 1104933,
@@ -3794,7 +4284,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1104933",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "06/09/2024",
+    "ultimaAtividade": "13/10/2024"
   },
   {
     "processo_id": 1104939,
@@ -3804,7 +4296,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1104939",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "06/09/2024",
+    "ultimaAtividade": "10/09/2024"
   },
   {
     "processo_id": 1222675,
@@ -3814,7 +4308,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1222675",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "05/08/2026",
+    "ultimaAtividade": "05/08/2026"
   },
   {
     "processo_id": 1222677,
@@ -3824,7 +4320,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1222677",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "05/08/2026",
+    "ultimaAtividade": "05/08/2026"
   },
   {
     "processo_id": 1222680,
@@ -3834,7 +4332,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1222680",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "05/08/2026",
+    "ultimaAtividade": "05/08/2026"
   },
   {
     "processo_id": 1157727,
@@ -3844,7 +4344,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1157727",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "25/07/2025",
+    "ultimaAtividade": null
   },
   {
     "processo_id": 1222799,
@@ -3854,7 +4356,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1222799",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "05/08/2026",
+    "ultimaAtividade": "12/08/2026"
   },
   {
     "processo_id": 1105222,
@@ -3864,7 +4368,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1105222",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "09/09/2024",
+    "ultimaAtividade": "25/09/2024"
   },
   {
     "processo_id": 1105347,
@@ -3874,7 +4380,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1105347",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "10/09/2024",
+    "ultimaAtividade": "15/10/2024"
   },
   {
     "processo_id": 1105349,
@@ -3884,7 +4392,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1105349",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "10/09/2024",
+    "ultimaAtividade": "15/10/2024"
   },
   {
     "processo_id": 1105351,
@@ -3894,7 +4404,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1105351",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "10/09/2024",
+    "ultimaAtividade": "23/09/2024"
   },
   {
     "processo_id": 1105408,
@@ -3904,7 +4416,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1105408",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "10/09/2024",
+    "ultimaAtividade": "18/09/2024"
   },
   {
     "processo_id": 1105478,
@@ -3914,7 +4428,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1105478",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "10/09/2024",
+    "ultimaAtividade": "18/09/2024"
   },
   {
     "processo_id": 1105510,
@@ -3924,7 +4440,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1105510",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "11/09/2024",
+    "ultimaAtividade": "30/09/2024"
   },
   {
     "processo_id": 1158218,
@@ -3934,7 +4452,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1158218",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "apensado a 23077.164559/2025-35 (Concorrência) — apensação nesse caminho é hipótese não confirmada (CLAUDE.md 4.4), decisão manual necessária"
+    "nota_classificacao": "apensado a 23077.164559/2025-35 (Concorrência) — apensação nesse caminho é hipótese não confirmada (CLAUDE.md 4.4), decisão manual necessária",
+    "dataAbertura": "29/07/2025",
+    "ultimaAtividade": "10/10/2025"
   },
   {
     "processo_id": 1105598,
@@ -3944,7 +4464,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1105598",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "11/09/2024",
+    "ultimaAtividade": "17/09/2024"
   },
   {
     "processo_id": 1105707,
@@ -3954,7 +4476,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1105707",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "11/09/2024",
+    "ultimaAtividade": "13/09/2024"
   },
   {
     "processo_id": 1105782,
@@ -3964,7 +4488,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1105782",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "12/09/2024",
+    "ultimaAtividade": "17/09/2024"
   },
   {
     "processo_id": 1158679,
@@ -3974,7 +4500,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1158679",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "31/07/2025",
+    "ultimaAtividade": "30/10/2025"
   },
   {
     "processo_id": 1106045,
@@ -3984,7 +4512,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1106045",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "13/09/2024",
+    "ultimaAtividade": "18/09/2024"
   },
   {
     "processo_id": 1106090,
@@ -3994,7 +4524,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1106090",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "13/09/2024",
+    "ultimaAtividade": "28/11/2024"
   },
   {
     "processo_id": 1106116,
@@ -4004,7 +4536,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1106116",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "13/09/2024",
+    "ultimaAtividade": "19/09/2024"
   },
   {
     "processo_id": 1106272,
@@ -4014,7 +4548,9 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1106272",
     "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
+    "dataAbertura": "16/09/2024",
+    "ultimaAtividade": "18/09/2024"
   },
   {
     "processo_id": 1159399,
