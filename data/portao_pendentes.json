@@ -2477,7 +2477,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "05/07/2024",
-    "ultimaAtividade": "08/07/2024"
+    "ultimaAtividade": "08/07/2024",
+    "triado": true
   },
   {
     "processo_id": 1210171,
@@ -2489,7 +2490,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "28/05/2026",
-    "ultimaAtividade": "21/07/2026"
+    "ultimaAtividade": "21/07/2026",
+    "triado": true
   },
   {
     "processo_id": 1210501,
@@ -2501,7 +2503,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "29/05/2026",
-    "ultimaAtividade": "10/06/2026"
+    "ultimaAtividade": "10/06/2026",
+    "triado": true
   },
   {
     "processo_id": 1210941,
@@ -2513,7 +2516,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "01/06/2026",
-    "ultimaAtividade": "30/06/2026"
+    "ultimaAtividade": "30/06/2026",
+    "triado": true
   },
   {
     "processo_id": 1145491,
@@ -2525,7 +2529,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "21/05/2025",
-    "ultimaAtividade": "21/05/2025"
+    "ultimaAtividade": "21/05/2025",
+    "triado": true
   },
   {
     "processo_id": 1211036,
@@ -2537,7 +2542,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "01/06/2026",
-    "ultimaAtividade": "13/08/2026"
+    "ultimaAtividade": "13/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1095389,
@@ -2549,7 +2555,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "10/07/2024",
-    "ultimaAtividade": "31/07/2024"
+    "ultimaAtividade": "31/07/2024",
+    "triado": true
   },
   {
     "processo_id": 1146193,
@@ -2561,7 +2568,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "26/05/2025",
-    "ultimaAtividade": "27/05/2025"
+    "ultimaAtividade": "27/05/2025",
+    "triado": true
   },
   {
     "processo_id": 1212996,
@@ -2573,7 +2581,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "11/06/2026",
-    "ultimaAtividade": "28/07/2026"
+    "ultimaAtividade": "28/07/2026",
+    "triado": true
   },
   {
     "processo_id": 1213078,
@@ -2585,7 +2594,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "11/06/2026",
-    "ultimaAtividade": "25/06/2026"
+    "ultimaAtividade": "25/06/2026",
+    "triado": true
   },
   {
     "processo_id": 1213132,
@@ -2597,7 +2607,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "11/06/2026",
-    "ultimaAtividade": "16/06/2026"
+    "ultimaAtividade": "16/06/2026",
+    "triado": true
   },
   {
     "processo_id": 1096716,
@@ -2609,7 +2620,9 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "18/07/2024",
-    "ultimaAtividade": "15/10/2024"
+    "ultimaAtividade": "15/10/2024",
+    "triado": true,
+    "alertaEmpenhoSemExecucao": true
   },
   {
     "processo_id": 1096934,
@@ -2621,7 +2634,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "19/07/2024",
-    "ultimaAtividade": ""
+    "ultimaAtividade": "",
+    "triado": true
   },
   {
     "processo_id": 1213583,
@@ -2633,19 +2647,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "15/06/2026",
-    "ultimaAtividade": "13/08/2026"
-  },
-  {
-    "processo_id": 1097131,
-    "numero": "23077.084164/2024-79",
-    "assunto": "SOLICITO A AQUISIÇÃO DE UM MODELO 3D DE UM SMILODON - TIGRE DENTRE DE SABRE RIGADO E ANIMADO COM, PELO MENOS, MOVIMENTAÇÃO E ATAQUE E EM ALTA DEFINIÇÃO, COM BAIXA QUANTIDADE DE POLÍGONOS E VÉRTICES, EM UM FORMATO COMPATÍVEL COM USO NO UNITY PARA REALIDADE VIRTUAL E JOGOS 3D.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1097131",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "22/07/2024",
-    "ultimaAtividade": "25/10/2024"
+    "ultimaAtividade": "13/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1213806,
