@@ -502,6 +502,16 @@ h1{
   display:inline-block; margin-top:6px; padding:3px 9px; border-radius:5px;
   background:var(--warn); color:var(--paper); font-size:11px; font-weight:600;
 }
+.gate-card.alerta-redirecionado{ background:color-mix(in srgb, var(--line-dfi) 10%, var(--paper-raised)); border-color:var(--line-dfi); }
+.gate-alerta-redirecionado{
+  display:inline-block; margin-top:6px; padding:3px 9px; border-radius:5px;
+  background:var(--line-dfi); color:var(--paper); font-size:11px; font-weight:600;
+}
+.gate-card.alerta-desistencia{ background:color-mix(in srgb, var(--line-jur) 10%, var(--paper-raised)); border-color:var(--line-jur); }
+.gate-alerta-desistencia{
+  display:inline-block; margin-top:6px; padding:3px 9px; border-radius:5px;
+  background:var(--line-jur); color:var(--paper); font-size:11px; font-weight:600;
+}
 .gate-card-top{ display:flex; justify-content:space-between; align-items:flex-start; gap:12px; margin-bottom:6px; }
 .gate-id{ font-family:var(--font-mono); font-size:12.5px; color:var(--ink); font-weight:600; }
 .gate-date{ font-family:var(--font-mono); font-size:11px; color:var(--ink-faint); white-space:nowrap; }
@@ -1265,7 +1275,7 @@ function renderGate(){
             : '')
       : '';
     return `
-    <div class="gate-card ${resolvido?'resolved':''} ${p.alertaEmpenhoSemExecucao?'alerta-empenho':''}" data-processo-id="${p.processo_id}">
+    <div class="gate-card ${resolvido?'resolved':''} ${p.alertaEmpenhoSemExecucao?'alerta-empenho':''} ${p.alertaRedirecionado?'alerta-redirecionado':''} ${p.alertaDesistencia?'alerta-desistencia':''}" data-processo-id="${p.processo_id}">
       <div class="gate-card-top">
         <span class="gate-id">${p.numero}</span>
         <div class="gate-dates">
@@ -1276,6 +1286,8 @@ function renderGate(){
       <div class="gate-subj">${p.assunto || '(assunto não disponível)'}</div>
       <div class="gate-meta">${p.primeiro_documento ? `1º documento: ${p.primeiro_documento}` : ''}</div>
       ${p.alertaEmpenhoSemExecucao ? `<span class="gate-alerta-empenho">⚠ Tem Nota de Empenho, mas sem processo de execução rastreado</span>` : ''}
+      ${p.alertaRedirecionado ? `<span class="gate-alerta-redirecionado">↪ Demanda parece redirecionada${p.processoDestino ? ` para ${p.processoDestino}` : ''}</span>` : ''}
+      ${p.alertaDesistencia ? `<span class="gate-alerta-desistencia">✕ Requisitante desistiu da demanda</span>` : ''}
       ${tagHtml}
       <div class="gate-actions" ${decisao && decisao.status !== 'em_analise' ? 'style="display:none"' : ''}>
         <button class="gate-btn primary" data-acao="acompanhar">Acompanhar</button>
