@@ -258,33 +258,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "12/01/2026",
     "ultimaAtividade": "05/02/2026",
-    "triado": true
-  },
-  {
-    "processo_id": 1123061,
-    "numero": "23077.003797/2025-75",
-    "assunto": "PAGAMENTO DO INVOICE, NO VALOR DE US$2.290,00 (DOIS MIL DUZENTOS E NOVENTA DÓLARES AMERICANOS), REFERENTE A PAGAMENTO DE PUBLICAÇÃO DO ARTIGO “CELLULAR THERAPY FOR THE PERIPHERAL ARTERIAL DISEASE TREATMENT: PROTOCOL FOR A SYSTEMATIC REVIEW AND META-ANALYSIS\" DA PROFESSORA GRASIELA PIUVEZAM E DE SEU ORIENTANDO DE DOUTORADO, ISAC DAVIDSON SANTIAGO FERNANDES PIMENTA (MAT. 20221021832), DO PROGRAMA DE PÓS-GRADUAÇÃO EM SAÚDE COLETIVA EM FAVOR DE PUBLIC LIBRARY OF SCIENCE.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1123061",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "13/01/2025",
-    "ultimaAtividade": "17/03/2025",
-    "triado": true
-  },
-  {
-    "processo_id": 1073785,
-    "numero": "23077.004025/2024-70",
-    "assunto": "PLANEJAMENTO PARA CONTRATAÇÃO DE SERVIÇOS PARA COLAÇÕES DE GRAU DA FACISA 2023.2.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1073785",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "12/01/2024",
-    "ultimaAtividade": "24/01/2024",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1074371,
@@ -297,7 +272,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "17/01/2024",
     "ultimaAtividade": "17/01/2024",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1074374,
@@ -310,7 +286,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "17/01/2024",
     "ultimaAtividade": "17/01/2024",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1189808,
@@ -323,7 +300,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "20/01/2026",
     "ultimaAtividade": "27/01/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1190076,
@@ -336,47 +314,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "23/01/2026",
     "ultimaAtividade": "28/07/2026",
-    "triado": true
-  },
-  {
-    "processo_id": 1124176,
-    "numero": "23077.007611/2025-57",
-    "assunto": "PROCESSO DE PLANEJAMENTO PARA DERVIÇO DE MANUTENÇÃO EM EMPILHADEIRA E PALETEIRA DO ALMOXARIFADO CENTRAL.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1124176",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "20/01/2025",
-    "ultimaAtividade": "10/03/2025",
-    "triado": true
-  },
-  {
-    "processo_id": 1075057,
-    "numero": "23077.007863/2024-03",
-    "assunto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM PROJETOS DE ESTRUTURAS METÁLICAS PARA ATENDER ÀS DEMANDAS DA UFRN",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1075057",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "23/01/2024",
-    "ultimaAtividade": "11/03/2024",
-    "triado": true
-  },
-  {
-    "processo_id": 1124296,
-    "numero": "23077.007874/2025-66",
-    "assunto": "AQUISIÇÃO DE 5O SACOS DE RAÇÃO PARA ROEDORES.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1124296",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "20/01/2025",
-    "ultimaAtividade": "28/05/2025",
-    "alertaEmpenhoSemExecucao": true,
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1190372,
@@ -389,7 +328,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "26/01/2026",
     "ultimaAtividade": "10/03/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1124494,
@@ -402,34 +342,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "21/01/2025",
     "ultimaAtividade": "16/05/2025",
-    "triado": true
-  },
-  {
-    "processo_id": 1075619,
-    "numero": "23077.010235/2024-05",
-    "assunto": "AQUISIÇÃO DE GÊNEROS ALIMENTÍCIOS PARA O INSTITUTO DO CÉREBRO (ICE).",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1075619",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "29/01/2024",
-    "ultimaAtividade": "06/02/2024",
-    "triado": true
-  },
-  {
-    "processo_id": 1075707,
-    "numero": "23077.010567/2024-81",
-    "assunto": "AQUISIÇÃO DE 1.000KG DE MARAVALHA PARA O BIOTÉRIO CENTRAL DO CB.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1075707",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "29/01/2024",
-    "ultimaAtividade": "11/03/2024",
-    "alertaEmpenhoSemExecucao": true,
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1125256,
@@ -442,7 +356,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "27/01/2025",
     "ultimaAtividade": "23/07/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1191502,
@@ -455,7 +370,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "03/02/2026",
     "ultimaAtividade": "24/04/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1076169,
@@ -470,7 +386,8 @@
     "ultimaAtividade": "15/02/2024",
     "triado": true,
     "alertaRedirecionado": true,
-    "processoDestino": "23077.177404/2023-05"
+    "processoDestino": "23077.177404/2023-05",
+    "statusChecado": true
   },
   {
     "processo_id": 1125768,
@@ -483,7 +400,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "29/01/2025",
     "ultimaAtividade": "11/02/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1125979,
@@ -496,7 +414,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "30/01/2025",
     "ultimaAtividade": "30/01/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1126544,
@@ -509,7 +428,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/02/2025",
     "ultimaAtividade": "11/02/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1077158,
@@ -522,7 +442,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "09/02/2024",
     "ultimaAtividade": "09/02/2024",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1126658,
@@ -535,7 +456,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/02/2025",
     "ultimaAtividade": "09/06/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1126716,
@@ -548,7 +470,8 @@
     "nota_classificacao": "apensado a 23077.087366/2025-53 (Concorrência) — apensação nesse caminho é hipótese não confirmada (CLAUDE.md 4.4), decisão manual necessária",
     "dataAbertura": "04/02/2025",
     "ultimaAtividade": "17/07/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1193147,
@@ -561,7 +484,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "12/02/2026",
     "ultimaAtividade": "24/02/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1077848,
@@ -574,7 +498,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "19/02/2024",
     "ultimaAtividade": "02/06/2024",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1193666,
@@ -587,33 +512,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "19/02/2026",
     "ultimaAtividade": null,
-    "triado": true
-  },
-  {
-    "processo_id": 1077961,
-    "numero": "23077.019064/2024-71",
-    "assunto": "PROCESSO DE PLANEJAMENTO PARA CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NO CONTROLE DE PRAGAS E ROEDORES.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1077961",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "19/02/2024",
-    "ultimaAtividade": "20/02/2024",
-    "triado": true
-  },
-  {
-    "processo_id": 1078143,
-    "numero": "23077.020119/2024-96",
-    "assunto": "PROCESSO DE PLANEJAMENTO PARA CONTRATAÇÃO DE SERVIÇO DE CONTROLE DE PRAGAS E ROEDORES PARA ATENDER A DEMANDA DA UFRN PELO PERÍODO DE 12 MESES.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1078143",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "21/02/2024",
-    "ultimaAtividade": "23/02/2024",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1078287,
