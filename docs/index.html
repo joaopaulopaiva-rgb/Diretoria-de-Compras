@@ -789,9 +789,10 @@ h1{
 
   <div class="terminus" id="terminusHead">
     <span class="terminus-dot"></span>
-    <span class="terminus-label">Homologado — Fora do acompanhamento ativo</span>
+    <span class="terminus-label">Homologados/Finalizados — Fora do acompanhamento ativo</span>
     <span class="terminus-count" id="terminusCount">0</span>
   </div>
+  <div class="subetapa-tabs" id="homologadoCaminhoTabs" style="display:none"></div>
   <div class="manifest" id="manifest-homologado"></div>
 
   <div class="gestor-section" id="gestorSection">
@@ -860,6 +861,7 @@ function diasEntre(d1,d2){ if(!d1||!d2) return null; return Math.round((parseDat
 let viewMode = 'divisao'; // 'divisao' | 'subetapa'
 let activeStation = null;
 let activeGestor = null;
+let activeCaminhoHomologado = null; // filtro por tipo de contratação dentro de Homologados/Finalizados
 let searchTerm = '';
 
 const DFI_SUBETAPAS = [
@@ -1052,11 +1054,32 @@ function renderManifests(){
 }
 
 function renderHomologados(){
-  const procs = processos.filter(p => p.fase === 'Homologado');
-  document.getElementById('terminusCount').textContent = procs.length;
+  const todos = processos.filter(p => p.fase === 'Homologado');
+  document.getElementById('terminusCount').textContent = todos.length;
+
+  const tabsEl = document.getElementById('homologadoCaminhoTabs');
+  const aberto = activeStation === 'homologado';
+  tabsEl.style.display = aberto ? 'flex' : 'none';
+  if(aberto){
+    const caminhosPresentes = CAMINHO_OPCOES.filter(c => todos.some(p => (p.caminho || 'pregao') === c.key));
+    tabsEl.innerHTML = `<button class="subetapa-tab ${activeCaminhoHomologado===null?'active':''}" data-caminho="">Todos · ${todos.length}</button>` +
+      caminhosPresentes.map(c => {
+        const n = todos.filter(p => (p.caminho || 'pregao') === c.key).length;
+        return `<button class="subetapa-tab ${activeCaminhoHomologado===c.key?'active':''}" data-caminho="${c.key}">${c.label} · ${n}</button>`;
+      }).join('');
+    tabsEl.querySelectorAll('.subetapa-tab').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const c = btn.getAttribute('data-caminho');
+        activeCaminhoHomologado = c || null;
+        renderAll();
+      });
+    });
+  }
+
+  const procs = activeCaminhoHomologado ? todos.filter(p => (p.caminho || 'pregao') === activeCaminhoHomologado) : todos;
   const panel = document.getElementById('manifest-homologado');
-  panel.className = 'manifest' + (activeStation === 'homologado' ? ' show' : '');
-  panel.innerHTML = `<div class="manifest-head">Homologado — ${procs.length} processo${procs.length===1?'':'s'}</div>` + manifestRows(procs, 'var(--line-homolog)', 'var(--line-homolog-soft)');
+  panel.className = 'manifest' + (aberto ? ' show' : '');
+  panel.innerHTML = `<div class="manifest-head">Homologados/Finalizados — ${procs.length} processo${procs.length===1?'':'s'}</div>` + manifestRows(procs, 'var(--line-homolog)', 'var(--line-homolog-soft)');
 }
 
 /* ---------- carga por gestor ---------- */
