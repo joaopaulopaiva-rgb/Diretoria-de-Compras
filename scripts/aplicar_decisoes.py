@@ -31,6 +31,22 @@ IGNORADOS_PATH = REPO_ROOT / "data" / "ignorados.json"
 
 CAMINHOS_VALIDOS = {"pregao", "dispensa", "inexigibilidade", "adesao_srp", "concorrencia", "contratabrasil"}
 
+# Primeira sub-etapa de cada caminho, na nomenclatura real que
+# scripts/atualizar_marcos.py usa (ORDEM_* daquele arquivo) — tem que bater
+# exatamente com as chaves de CAMINHOS[...].etapas em docs/index.html, senão
+# a trilha desses processos recém-adicionados nasce quebrada (mesmo bug já
+# corrigido pra quem já estava em processos.json). "concorrencia" e
+# "contratabrasil" não nascem como Planejamento (33.00) apensado no modelo
+# atual (CLAUDE.md seção 4.4/4.5) — escolher esses caminhos pra um processo
+# vindo do portão é caso fora do padrão; fica sem sub-etapa inicial definida
+# pra não presumir.
+PRIMEIRA_SUBETAPA = {
+    "pregao": "dfd",
+    "dispensa": "planejamento",
+    "inexigibilidade": "planejamento",
+    "adesao_srp": "planejamento",
+}
+
 
 def aplicar(decisoes: list[dict]) -> dict:
     pendentes = json.loads(PENDENTES_PATH.read_text(encoding="utf-8"))
@@ -58,7 +74,7 @@ def aplicar(decisoes: list[dict]) -> dict:
                     "processo": pendente["numero"],
                     "assunto": pendente.get("assunto", ""),
                     "fase": "Planejamento (DPGC)",
-                    "subEtapa": "dfd",
+                    "subEtapa": PRIMEIRA_SUBETAPA.get(caminho),
                     "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
                     "categoria": "elaboracao",
                     "unidade": "",
