@@ -332,6 +332,8 @@ h1{
   background:var(--line-homolog); border-radius:3px; padding:1px 7px;
 }
 .terminus .cluster{ padding-top:0; }
+.terminus.watch .terminus-dot{ background:var(--ink-faint); box-shadow:0 0 0 2px var(--ink-faint); }
+.terminus.watch .terminus-count{ background:var(--ink-faint); }
 
 /* manifest panel */
 .manifest{
@@ -787,6 +789,13 @@ h1{
     <div class="stations" id="stations"></div>
   </div>
 
+  <div class="terminus watch" id="concorrenciaWatchHead">
+    <span class="terminus-dot"></span>
+    <span class="terminus-label">Concorrência · aguardando Fase Externa — ainda na CAOSE/INFRA, fora da gestão da Diretoria de Compras</span>
+    <span class="terminus-count" id="concorrenciaWatchCount">0</span>
+  </div>
+  <div class="manifest" id="manifest-concorrenciaWatch"></div>
+
   <div class="terminus" id="terminusHead">
     <span class="terminus-dot"></span>
     <span class="terminus-label">Homologados/Finalizados — Fora do acompanhamento ativo</span>
@@ -820,6 +829,9 @@ const FASES = [
   { key:'jur', label:'Jurídico', sub:'Projur', fase:'Jurídico (Projur/Análise)', color:'var(--line-jur)', soft:'var(--line-jur-soft)' },
   { key:'dfe', label:'Fase Externa', sub:'DFE', fase:'Fase Externa (DFE)', color:'var(--line-dfe)', soft:'var(--line-dfe-soft)' },
 ];
+
+// Mesmo literal usado em scripts/atualizar_marcos.py e scripts/aplicar_decisoes.py.
+const FASE_CONCORRENCIA_PRE_DFE = 'Concorrência · aguardando Fase Externa (CAOSE/INFRA)';
 
 const SUBETAPAS = [
   { key:'dfd', label:'DFD', sub:'DPGC', fase:'Planejamento (DPGC)', color:'var(--line-dpgc)', soft:'var(--line-dpgc-soft)', groupStart:true },
@@ -1046,11 +1058,21 @@ function renderManifests(){
   });
   // clean up panels from the other view mode so they don't linger below
   const validKeys = new Set(stations.map(f => 'manifest-'+f.key));
+  const panelsProtegidos = new Set(['manifest-homologado', 'manifest-concorrenciaWatch']);
   document.querySelectorAll('.manifest').forEach(panel => {
-    if(panel.id !== 'manifest-homologado' && !validKeys.has(panel.id)){
+    if(!panelsProtegidos.has(panel.id) && !validKeys.has(panel.id)){
       panel.remove();
     }
   });
+}
+
+function renderConcorrenciaWatch(){
+  const procs = processos.filter(p => p.fase === FASE_CONCORRENCIA_PRE_DFE);
+  document.getElementById('concorrenciaWatchCount').textContent = procs.length;
+  const panel = document.getElementById('manifest-concorrenciaWatch');
+  const aberto = activeStation === 'concorrenciaWatch';
+  panel.className = 'manifest' + (aberto ? ' show' : '');
+  panel.innerHTML = `<div class="manifest-head">Concorrência em observação — ${procs.length} processo${procs.length===1?'':'s'} ainda na CAOSE/INFRA</div>` + manifestRows(procs, 'var(--ink-faint)', 'var(--line-dpgc-soft)');
 }
 
 function renderHomologados(){
@@ -1200,6 +1222,7 @@ function renderAll(){
   renderStations();
   renderManifests();
   renderHomologados();
+  renderConcorrenciaWatch();
   renderGestores();
   renderResponsaveisDfi();
   renderResponsaveisDfe();
@@ -1211,6 +1234,10 @@ document.getElementById('searchInput').addEventListener('input', e => {
 });
 document.getElementById('terminusHead').addEventListener('click', () => {
   activeStation = activeStation === 'homologado' ? null : 'homologado';
+  renderAll();
+});
+document.getElementById('concorrenciaWatchHead').addEventListener('click', () => {
+  activeStation = activeStation === 'concorrenciaWatch' ? null : 'concorrenciaWatch';
   renderAll();
 });
 document.getElementById('viewDivisao').addEventListener('click', () => {

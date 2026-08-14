@@ -29,6 +29,19 @@ from sipac_client import SipacClient, extrair_documentos, extrair_movimentacoes,
 REPO_ROOT = Path(__file__).parent.parent
 PROCESSOS_PATH = REPO_ROOT / "data" / "processos.json"
 
+# Mesmo literal usado em scripts/aplicar_decisoes.py ao sincronizar decisões
+# do portão — mantido em texto (não importado) porque os dois scripts rodam
+# de forma independente; se um mudar, o outro precisa mudar junto.
+PLACEHOLDER_SUBETAPA = "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos."
+
+# Fase usada pra Concorrência ENQUANTO ainda não há evidência de chegada à
+# Fase Externa (documento de origem DFE) — ver calcular_progresso_concorrencia.
+# Deliberadamente NÃO usa "Planejamento (DPGC)": nesse caminho o DFD/ETP/TR
+# tramita inteiro na CAOSE/INFRA (CLAUDE.md 4.4), não é processo da DPGC —
+# rotular como DPGC inflaria a contagem da estação da DPGC com processos que
+# não são da equipe. Mesmo literal usado em scripts/aplicar_decisoes.py.
+FASE_CONCORRENCIA_PRE_DFE = "Concorrência · aguardando Fase Externa (CAOSE/INFRA)"
+
 # Sub-etapas do caminho Pregão (CLAUDE.md seção 3), separadas por
 # processo-fonte — DFD/ETP/TR/Lista SÓ podem vir do processo de
 # Planejamento; as demais SÓ do processo de Pregão. Nunca misturar (regra
@@ -151,7 +164,7 @@ ORDEM_ADESAO_SRP = ["planejamento", "faseInterna"]
 # CAOSE/INFRA — obras): por orientação da pessoa dona do projeto,
 # desconsidera todo o planejamento/tramitação da Infra (DFD/ETP/TR, mais de
 # 100 documentos em processos típicos) — o acompanhamento começa quando o
-# processo chega na Fase Externa (primeiro documento de origem DFE/COMPRAS,
+# processo chega na Fase Externa (primeiro documento de origem DFE,
 # confirmado num processo real ativo, CC 90001/2026) e termina com
 # "Homologação" (confirmado num processo real concluído, CC 4/2025: Termo
 # de Julgamento + Homologação, mesmo padrão do Pregão — inclusive uma
@@ -162,6 +175,40 @@ SUBETAPAS_CONCORRENCIA = [
     ("faseExterna", ["HOMOLOGA[ÇC][ÃA]O"]),
 ]
 ORDEM_CONCORRENCIA = ["faseExterna"]
+
+
+def calcular_progresso_concorrencia(docs) -> tuple[str | None, dict, bool]:
+    """Concorrência tem UM caminho tratado (calcular_progresso genérico) mas
+    isso presume que "não achou o documento de fechamento" já significa
+    "está na única etapa rastreada" — errado aqui: a maioria nasce como
+    Planejamento (33.00) recém-descoberto no portão, ainda tramitando
+    DFD/ETP/TR na CAOSE/INFRA, bem antes de chegar à Fase Externa (bug
+    encontrado em 14/08/2026 — os 13 primeiros processos sincronizados do
+    portão foram todos rotulados "Fase Externa (DFE)" mesmo com o último
+    documento ainda sendo um despacho de TR/projeto de engenharia na
+    INFRA). Exige evidência real — um documento de origem DFE ou COMPRAS —
+    antes de marcar faseExterna; antes disso fica sem sub-etapa definida
+    (None), coerente com "desconsidera todo planejamento/tramitação da
+    Infra" já documentado acima, em vez de presumir a etapa mais avançada
+    só porque a Homologação ainda não apareceu."""
+    marcos: dict = {}
+
+    homologacao = next((d for d in docs if "HOMOLOGA" in d.tipo.upper()), None)
+    if homologacao:
+        marcos["homologadoData"] = homologacao.data
+        return None, marcos, True
+
+    # Só "DFE" é sinal confiável — "COMPRAS" sozinho aparece em unidades bem
+    # anteriores (ex. "DPGC/COMPRAS", "COMPRAS/PROAD"), inclusive em
+    # documentos de abertura como "FORMALIZAÇÃO DA DEMANDA" (bug encontrado
+    # ao validar contra os 13 primeiros processos reais — usar só "COMPRAS"
+    # marcava Fase Externa em processos que mal tinham saído da DPGC).
+    doc_dfe = next((d for d in docs if "DFE" in d.origem.upper()), None)
+    if doc_dfe:
+        marcos["faseExternaInicio"] = doc_dfe.data
+        return "faseExterna", marcos, False
+
+    return None, marcos, False
 
 
 # --- Concorrência que nasce na Diretoria de Compras (RASCUNHO, não validado) ---
@@ -459,8 +506,18 @@ def atualizar_todos() -> dict:
             html = client.obter_processo(p["processo_id"])
             docs = extrair_documentos(html)
             movs = extrair_movimentacoes(html)
-            sub_atual, marcos_novos, concluido, retrabalho = calcular_progresso(docs, SEMPRE_PROCESSO_ID[caminho])
-            avisos.extend(avisos_retrabalho(p["processo"], retrabalho))
+            if caminho == "concorrencia":
+                sub_atual, marcos_novos, concluido = calcular_progresso_concorrencia(docs)
+                if not concluido and sub_atual is None and p.get("fase") != FASE_CONCORRENCIA_PRE_DFE:
+                    # Autocorrige rótulo de fase desatualizado/errado (ex.
+                    # "Planejamento (DPGC)" herdado do valor genérico que
+                    # aplicar_decisoes.py usava antes de saber diferenciar
+                    # Concorrência dos demais caminhos).
+                    p["fase"] = FASE_CONCORRENCIA_PRE_DFE
+                    mudou = True
+            else:
+                sub_atual, marcos_novos, concluido, retrabalho = calcular_progresso(docs, SEMPRE_PROCESSO_ID[caminho])
+                avisos.extend(avisos_retrabalho(p["processo"], retrabalho))
             estados = {"concluido": concluido, "em_recurso": False, "candidato_suspensao": False}
         elif tem_execucao_vinculada:
             # Já formalizou o processo de execução: a etapa de Planejamento é
@@ -570,8 +627,13 @@ def atualizar_todos() -> dict:
         # desatualizado de verdade (mudou de sub-etapa) ou nunca existiu —
         # texto escrito à mão (por uma sessão do Claude lendo com juízo)
         # é sempre mais rico que o resumo mecânico e não deve ser perdido
-        # à toa a cada execução automática.
-        if subetapa_mudou or not p.get("subetapa"):
+        # à toa a cada execução automática. O placeholder que
+        # aplicar_decisoes.py grava ao sincronizar o portão NÃO conta como
+        # "texto escrito à mão" — sem este caso especial ele nunca seria
+        # substituído pra processos que já nasceram na primeira sub-etapa
+        # (o texto real só troca quando subEtapa avança, e um processo
+        # recém-sincronizado começa exatamente na primeira).
+        if subetapa_mudou or not p.get("subetapa") or p.get("subetapa") == PLACEHOLDER_SUBETAPA:
             novo_resumo = resumo_mecanico(docs, movs)
             if novo_resumo != p.get("subetapa"):
                 p["subetapa"] = novo_resumo

@@ -47,6 +47,17 @@ PRIMEIRA_SUBETAPA = {
     "adesao_srp": "planejamento",
 }
 
+# Fase inicial por caminho — default é "Planejamento (DPGC)" (todo processo
+# de compra nasce lá, CLAUDE.md seção 2), EXCETO Concorrência: seu DFD/ETP/TR
+# tramita inteiro na CAOSE/INFRA, não é processo da DPGC (CLAUDE.md 4.4).
+# Rotular como DPGC inflaria a contagem da estação da DPGC com processos que
+# não são da equipe — mesmo literal usado em scripts/atualizar_marcos.py.
+FASE_INICIAL_PADRAO = "Planejamento (DPGC)"
+FASE_CONCORRENCIA_PRE_DFE = "Concorrência · aguardando Fase Externa (CAOSE/INFRA)"
+FASE_INICIAL_POR_CAMINHO = {
+    "concorrencia": FASE_CONCORRENCIA_PRE_DFE,
+}
+
 
 def aplicar(decisoes: list[dict]) -> dict:
     pendentes = json.loads(PENDENTES_PATH.read_text(encoding="utf-8"))
@@ -73,7 +84,7 @@ def aplicar(decisoes: list[dict]) -> dict:
                 {
                     "processo": pendente["numero"],
                     "assunto": pendente.get("assunto", ""),
-                    "fase": "Planejamento (DPGC)",
+                    "fase": FASE_INICIAL_POR_CAMINHO.get(caminho, FASE_INICIAL_PADRAO),
                     "subEtapa": PRIMEIRA_SUBETAPA.get(caminho),
                     "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
                     "categoria": "elaboracao",
