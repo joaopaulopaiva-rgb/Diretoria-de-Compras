@@ -109,6 +109,41 @@ def calcular_progresso_dispensa_execucao(docs) -> tuple[str | None, dict, bool, 
 
     return sub_atual, marcos, concluido, sem_disputa
 
+
+# --- Inexigibilidade de Licitação ---
+# Mesmo modelo por origem da Dispensa, mas mais simples: nunca tem Fase
+# Externa (CLAUDE.md seção 4.2 já indicava "sem DFE"; confirmado em 2
+# processos reais — "Relatório de Julgamento de Propostas" sempre sai da
+# própria DFI, nunca da DFE). Nem sempre passa pelo DCF: alguns processos
+# formalizam por Contrato (setor Contratos/PROAD) em vez de só Empenho.
+# Regra confirmada pela pessoa dona do projeto: "quando sair da Diretoria de
+# Compras pra PROAD ou DCF, pode considerar Homologado" — importante: essa
+# regra NÃO se aplica à Dispensa (lá "PROAD" sozinho aparece cedo, na
+# checagem de orçamento, e marcaria conclusão errada demais cedo).
+SUBETAPAS_PLANEJAMENTO_INEXIGIBILIDADE = [
+    ("planejamento", ["AUTORIZA[ÇC][ÃA]O DE FORMALIZA[ÇC][ÃA]O.*CONTRATA[ÇC][ÃA]O DIRETA"]),
+]
+ORDEM_INEXIGIBILIDADE = ["planejamento", "faseInterna"]
+
+
+def calcular_progresso_inexigibilidade_execucao(docs) -> tuple[str | None, dict, bool]:
+    """Retorna (subEtapa, marcos, concluido) pro processo de Inexigibilidade
+    (pós-planejamento), usando a origem dos documentos."""
+    marcos: dict = {}
+    sub_atual = "faseInterna"
+
+    doc_conclusao = next(
+        (d for d in docs if d.origem.strip().upper().startswith("PROAD (") or "DCF" in d.origem.upper()),
+        None,
+    )
+    concluido = doc_conclusao is not None
+    if concluido:
+        marcos["homologadoData"] = doc_conclusao.data
+        sub_atual = None
+
+    return sub_atual, marcos, concluido
+
+
 FASE_POR_SUBETAPA = {
     "dfd": "Planejamento (DPGC)",
     "etp": "Planejamento (DPGC)",
@@ -213,19 +248,28 @@ def atualizar_todos() -> dict:
 
     for p in data:
         caminho = p.get("caminho")
-        if caminho not in ("pregao", "dispensa") or p.get("fase") == "Homologado":
+        if caminho not in ("pregao", "dispensa", "inexigibilidade") or p.get("fase") == "Homologado":
             continue
 
         mudou = False
         subetapa_mudou = False
 
         # Cada caminho usa nomes de campo próprios pro processo de execução
-        # vinculado (pregão / dispensa), porque cada um pode ter uma
-        # nomenclatura de tramitação diferente — ver CLAUDE.md seção 4.
+        # vinculado (pregão / dispensa / inexigibilidade), porque cada um
+        # pode ter uma nomenclatura de tramitação diferente — CLAUDE.md
+        # seção 4.
         campo_vinculo = "pregao" if caminho == "pregao" else "execucao_numero"
         campo_vinculo_id = "pregao_id" if caminho == "pregao" else "execucao_id"
-        etapas_planejamento = SUBETAPAS_PLANEJAMENTO if caminho == "pregao" else SUBETAPAS_PLANEJAMENTO_DISPENSA
-        ordem = ORDEM_GLOBAL if caminho == "pregao" else ORDEM_DISPENSA
+        etapas_planejamento = {
+            "pregao": SUBETAPAS_PLANEJAMENTO,
+            "dispensa": SUBETAPAS_PLANEJAMENTO_DISPENSA,
+            "inexigibilidade": SUBETAPAS_PLANEJAMENTO_INEXIGIBILIDADE,
+        }[caminho]
+        ordem = {
+            "pregao": ORDEM_GLOBAL,
+            "dispensa": ORDEM_DISPENSA,
+            "inexigibilidade": ORDEM_INEXIGIBILIDADE,
+        }[caminho]
 
         tem_execucao_vinculada = bool(p.get(campo_vinculo))
         concluido = False
@@ -249,6 +293,9 @@ def atualizar_todos() -> dict:
                 if sem_disputa is not None and p.get("semDisputaFaseExterna") != sem_disputa:
                     p["semDisputaFaseExterna"] = sem_disputa
                     mudou = True
+                estados = {"concluido": concluido, "em_recurso": False, "candidato_suspensao": False}
+            elif caminho == "inexigibilidade":
+                sub_atual, marcos_novos, concluido = calcular_progresso_inexigibilidade_execucao(docs)
                 estados = {"concluido": concluido, "em_recurso": False, "candidato_suspensao": False}
             else:
                 sub_atual, marcos_novos, _chegou_ao_fim = calcular_progresso(docs, SUBETAPAS_PREGAO)
