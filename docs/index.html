@@ -1165,6 +1165,9 @@ function calcularEtapa(p, key){
     case "edital": return diasEntre(m.editalInicio, m.editalFim);
     case "juridico": return diasEntre(m.juridicoInicio, m.juridicoFim);
     case "dfe": return diasEntre(m.dfeInicio, m.dfeFim);
+    case "planejamento": return diasEntre(m.cadastro, m.planejamentoFim);
+    case "faseInterna": return diasEntre(m.planejamentoFim, m.faseInternaFim);
+    case "faseExterna": return diasEntre(m.faseExternaInicio, m.faseExternaFim || m.homologadoData);
     default: return null;
   }
 }
@@ -1404,11 +1407,15 @@ function abrirPortaoSeNecessario(){
 }
 
 /* ===== trilha (visão detalhada de um processo, estilo tabuleiro) =====
-   "pregao" usa os dados reais já levantados (SUBETAPAS). Os outros 5
-   caminhos são RASCUNHO — sequência plausível baseada em conhecimento
-   geral de compras públicas, ainda não confirmada com processos reais
-   (isso está sendo levantado à parte). Por isso aparecem em cinza e com
-   aviso na tela, em vez de cores próprias como o pregão já validado. */
+   As chaves de "etapas[].key" abaixo têm que bater exatamente com os
+   valores reais de subEtapa que scripts/atualizar_marcos.py escreve pra
+   cada caminho (ORDEM_DISPENSA, ORDEM_INEXIGIBILIDADE, ORDEM_ADESAO_SRP,
+   ORDEM_CONCORRENCIA) — só "pregao" tem um modelo de sub-etapas granular
+   (10 marcos, ver SUBETAPAS); os demais caminhos hoje só rastreiam marcos
+   mais genéricos e largos ("planejamento" / "faseInterna" / "faseExterna"),
+   então a trilha deles é mais simples mesmo depois de validada — não é bug,
+   é reflexo do que o levantamento empírico (CLAUDE.md seção 4) realmente
+   confirma documento a documento pra cada caminho. */
 const CAMINHOS = {
   pregao: {
     label: 'Pregão',
@@ -1419,52 +1426,33 @@ const CAMINHOS = {
     label: 'Dispensa de Licitação',
     confirmado: true,
     etapas: [
-      { key:'dfd', label:'DFD', sub:'DPGC · apensado', color:'var(--line-dpgc)' },
-      { key:'etp', label:'ETP + Mapa de Riscos', sub:'DPGC · apensado', color:'var(--line-dpgc)' },
-      { key:'tr', label:'TR', sub:'DPGC · apensado', color:'var(--line-dpgc)' },
-      { key:'autorizacaoDireta', label:'Autorização da Contratação Direta', sub:'DPGC · apensado', color:'var(--line-dpgc)' },
-      { key:'apensacao', label:'Apensação do Planejamento', sub:'DFI', color:'var(--line-dfi)' },
-      { key:'julgamento', label:'Comparação de Preços', sub:'DFI', color:'var(--line-dfi)' },
-      { key:'divulgacao', label:'Divulgação (casos maiores)', sub:'DFE', color:'var(--line-dfe)' },
-      { key:'orcamento', label:'Disponibilidade Orçamentária', sub:'PROAD', color:'var(--line-dfi)' },
-      { key:'empenho', label:'Nota de Empenho', sub:'DCF · fechamento', color:'var(--line-homolog)' },
+      { key:'planejamento', label:'Planejamento', sub:'DPGC · apensado (DFD, ETP, TR, Autorização)', color:'var(--line-dpgc)' },
+      { key:'faseInterna', label:'Fase Interna', sub:'DFI · apensação + comparação de preços', color:'var(--line-dfi)' },
+      { key:'faseExterna', label:'Fase Externa', sub:'DFE · só quando há divulgação/disputa', color:'var(--line-dfe)' },
     ],
   },
   inexigibilidade: {
     label: 'Inexigibilidade de Licitação',
     confirmado: true,
     etapas: [
-      { key:'dfd', label:'DFD', sub:'DPGC · apensado', color:'var(--line-dpgc)' },
-      { key:'etp', label:'ETP + Carta de Exclusividade', sub:'DPGC · apensado', color:'var(--line-dpgc)' },
-      { key:'tr', label:'TR', sub:'DPGC · apensado', color:'var(--line-dpgc)' },
-      { key:'autorizacaoDireta', label:'Autorização da Contratação Direta', sub:'DPGC · apensado', color:'var(--line-dpgc)' },
-      { key:'apensacao', label:'Apensação do Planejamento', sub:'DFI', color:'var(--line-dfi)' },
-      { key:'empenho', label:'Empenho', sub:'DFI/DCF · fechamento', color:'var(--line-homolog)' },
+      { key:'planejamento', label:'Planejamento', sub:'DPGC · apensado (DFD, ETP + Carta de Exclusividade, TR, Autorização)', color:'var(--line-dpgc)' },
+      { key:'faseInterna', label:'Fase Interna', sub:'DFI · apensação até Empenho/Contrato', color:'var(--line-dfi)' },
     ],
   },
   adesao_srp: {
     label: 'Adesão a Ata de Registro de Preços',
     confirmado: true,
     etapas: [
-      { key:'dfd', label:'DFD', sub:'DPGC · apensado', color:'var(--line-dpgc)' },
-      { key:'etp', label:'ETP + SICAF/TCU', sub:'DPGC · apensado', color:'var(--line-dpgc)' },
-      { key:'autorizacaoFormalizacao', label:'Autorização de Formalização da Adesão', sub:'DPGC · apensado', color:'var(--line-dpgc)' },
-      { key:'autorizacaoAdesao', label:'Autorização de Adesão à Ata', sub:'DFI · apensado', color:'var(--line-dfi)' },
-      { key:'registro', label:'Apensação / Registro', sub:'DFI · fechamento', color:'var(--line-homolog)' },
+      { key:'planejamento', label:'Planejamento', sub:'DPGC · apensado (DFD, ETP + SICAF/TCU, Autorização de Formalização)', color:'var(--line-dpgc)' },
+      { key:'faseInterna', label:'Fase Interna', sub:'DFI · Autorização de Adesão + apensação/registro', color:'var(--line-dfi)' },
     ],
   },
   concorrencia: {
     label: 'Concorrência',
     confirmado: true,
+    notaEscopo: 'Este painel rastreia a Concorrência só a partir da chegada à Fase Externa (DFE) até a Homologação — DFD/ETP/TR tramitam inteiramente na CAOSE/INFRA, fora do processo de execução, e não são cobertos aqui (CLAUDE.md seção 4.4).',
     etapas: [
-      { key:'planejamentoAnterior', label:'Planejamento anterior (hipótese)', sub:'CAOSE/INFRA · não confirmado', color:'var(--ink-faint)', tentativo:true },
-      { key:'dfd', label:'DFD', sub:'CAOSE/INFRA', color:'var(--line-dpgc)' },
-      { key:'etp', label:'ETP', sub:'CAOSE/INFRA', color:'var(--line-dpgc)' },
-      { key:'trProjetos', label:'TR + Projetos de Engenharia', sub:'CAOSE/INFRA → DP/INFRA', color:'var(--line-dpgc)' },
-      { key:'editalCertificacao', label:'Edital e Certificação', sub:'PROAD', color:'var(--line-dfi)' },
-      { key:'juridico', label:'Parecer Jurídico', sub:'SPF', color:'var(--line-jur)' },
-      { key:'dfe', label:'Fase Externa', sub:'DFE', color:'var(--line-dfe)' },
-      { key:'homologacao', label:'Julgamento e Homologação', sub:'DFE · fechamento', color:'var(--line-homolog)' },
+      { key:'faseExterna', label:'Fase Externa', sub:'DFE · julgamento até Homologação', color:'var(--line-dfe)' },
     ],
   },
   contratabrasil: {
@@ -1536,6 +1524,7 @@ function openTrailFor(processoNumero){
       </div>
     </div>
     ${caminho.confirmado ? '' : `<p class="trail-placeholder-note">⚠ Sequência de etapas ainda não confirmada com processos reais deste caminho — é um rascunho provisório, sujeito a mudar.</p>`}
+    ${caminho.notaEscopo ? `<p class="trail-placeholder-note">ℹ ${caminho.notaEscopo}</p>` : ''}
     <div class="trail-board">
       <p class="trail-row-label">Trilha · ${caminho.label}</p>
       ${renderTrailPath(caminho.etapas, p.subEtapa, doneKeys, caminho.confirmado, p.marcos)}
