@@ -15699,9 +15699,9 @@
   {
     "processo": "23077.191540/2025-61",
     "assunto": "AQUISIÇÃO DE MATERIAL HOSPITALAR - PCA 26 - LETRAS DE A A C.",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "dfd",
-    "subetapa": "Adicionado via levantamento histórico — aguardando a próxima atualização automática de marcos.",
+    "fase": "Fase Interna (DFI)",
+    "subEtapa": "irp",
+    "subetapa": "Último documento: RELATÓRIO DETALHADO DE REQUISIÇÕES DO PROCESSO (13/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (15/05/2026 09:33)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -15710,20 +15710,31 @@
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
-    "marcos": null,
+    "marcos": {
+      "analiseDfiFim": "13/05/2026",
+      "pesquisaPrecosFim": "09/06/2026"
+    },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "pregao": "23077.048030/2026-56",
     "pregao_id": 1202192,
     "processo_id": null,
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1202192"
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1202192",
+    "responsaveisDfi": {
+      "pesquisaPrecos": "Vanessa Raquel da Silva Medino",
+      "irp": "Marilia Linhares de Sousa"
+    },
+    "responsaveisDfe": {
+      "pregoeiro": "Diego Brito Cruz",
+      "equipeApoio": "Adriana da Silva Cardoso"
+    }
   },
   {
     "processo": "23077.196202/2025-16",
     "assunto": "ADESÃO CARONA - OVO DE GALINHA - NATAL DISTRIBUIDORA",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via levantamento histórico — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: DESPACHO (11/12/2025) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (11/12/2025 09:52)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -15732,7 +15743,10 @@
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "09/12/2025",
+      "faseInternaFim": "11/12/2025"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1184088,
@@ -15741,9 +15755,9 @@
   {
     "processo": "23077.198334/2025-82",
     "assunto": "AQUISIÇÃO DE MATERIAL QUÍMICO CONTROLADO (3011) - PCA 2026.",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "dfd",
-    "subetapa": "Adicionado via levantamento histórico — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: ATA DE REGISTRO DE PREÇOS () · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (07/04/2026 16:53)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -15752,20 +15766,32 @@
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
-    "marcos": null,
+    "marcos": {
+      "analiseDfiFim": "07/04/2026",
+      "pesquisaPrecosFim": "09/04/2026",
+      "dfeFim": "16/06/2026"
+    },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "pregao": "23077.018481/2026-69",
     "pregao_id": 1193521,
     "processo_id": null,
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1193521"
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1193521",
+    "responsaveisDfi": {
+      "pesquisaPrecos": "Sayonara Suely Januário Pereira",
+      "irp": "Sonaydy Lyany Dantas"
+    },
+    "responsaveisDfe": {
+      "pregoeiro": "Andrea Lopes de Figueiredo",
+      "equipeApoio": "Adriana da Silva Cardoso"
+    }
   },
   {
     "processo": "23077.200473/2025-83",
     "assunto": "AQUISIÇÃO DE CAMINHÃO, COM O FORNECIMENTO E ADAPTAÇÃO DE IMPLEMENTO PARA MANUTENÇÃO DE REDES ELÉTRICAS ENERGIZADAS (LINHA VIVA), DESTINADO AO PLANTÃO DE ENERGIA ELÉTRICA DA UFRN",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "dfd",
-    "subetapa": "Adicionado via levantamento histórico — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: ATA DE REGISTRO DE PREÇOS () · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (05/02/2026 21:02)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -15774,20 +15800,30 @@
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
-    "marcos": null,
+    "marcos": {
+      "analiseDfiFim": "23/01/2026",
+      "pesquisaPrecosFim": "11/03/2026",
+      "irpFim": "27/03/2026",
+      "dfeFim": "06/05/2026"
+    },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "pregao": "23077.007641/2026-44",
     "pregao_id": 1190185,
     "processo_id": null,
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1190185"
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1190185",
+    "responsaveisDfi": {
+      "pesquisaPrecos": "Bruna de Oliveira Silva",
+      "irp": "Marilia Linhares de Sousa",
+      "elaboracaoEdital": "Rosana Maria Garcia Silva"
+    }
   },
   {
     "processo": "23077.203011/2025-18",
     "assunto": "PCA 2026:AQUISIÇÃO DE AR CONDICIONADO - GRUPO 5212",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "dfd",
-    "subetapa": "Adicionado via levantamento histórico — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: DESPACHO (30/06/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (05/01/2026 12:07)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -15796,20 +15832,36 @@
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
-    "marcos": null,
+    "marcos": {
+      "analiseDfiFim": "05/01/2026",
+      "pesquisaPrecosFim": "05/01/2026",
+      "irpFim": "27/01/2026",
+      "editalFim": "24/02/2026",
+      "juridicoFim": "05/03/2026",
+      "dfeFim": "16/06/2026"
+    },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "pregao": "23077.208234/2025-71",
     "pregao_id": 1187661,
     "processo_id": null,
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1187661"
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1187661",
+    "responsaveisDfi": {
+      "pesquisaPrecos": "Amanda Medeiros",
+      "irp": "Marília Linhares de Sousa",
+      "elaboracaoEdital": "Leonardo Belchior Silva Neto"
+    },
+    "responsaveisDfe": {
+      "pregoeiro": "Diego Brito Cruz",
+      "equipeApoio": "Adriana da Silva Cardoso"
+    }
   },
   {
     "processo": "23077.204761/2025-15",
     "assunto": "PLANEJAMENTO DE AQUISIÇÃO/CONTRATAÇÃO DE SERVIÇOS PARA COLAÇÕES DE GRAU DA UFRN – EXERCÍCIO 2026.",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via levantamento histórico — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: TERMO DE DESAPENSAÇÃO (10/02/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (08/01/2026 14:46)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -15818,20 +15870,23 @@
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
-    "marcos": null,
+    "marcos": {
+      "homologadoData": "09/01/2026"
+    },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "execucao_numero": "23077.001581/2026-56",
     "execucao_id": 1188307,
     "processo_id": null,
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1188307"
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1188307",
+    "semDisputaFaseExterna": true
   },
   {
     "processo": "23077.207331/2025-47",
     "assunto": "AQUISIÇÃO E INSTALAÇÃO, EM REGIME DE URGÊNCIA, DE NOVO MÓDULO DE DISTRIBUIÇÃO DE ENERGIA (PDM) PARA SUBSTITUIÇÃO DE EQUIPAMENTO ATUALMENTE EM ESTADO DE FALHA CRÍTICA NA SALA DE SERVIDORES - DATACENTER DO INSTITUTO METRÓPOLE DIGITAL.",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via levantamento histórico — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: NOTA DE EMPENHO (13/04/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (08/04/2026 09:42)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -15840,20 +15895,23 @@
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
-    "marcos": null,
+    "marcos": {
+      "homologadoData": "13/04/2026"
+    },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "execucao_numero": "23077.046435/2026-50",
     "execucao_id": 1201769,
     "processo_id": null,
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1201769"
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1201769",
+    "semDisputaFaseExterna": true
   },
   {
     "processo": "23077.208186/2025-11",
     "assunto": "AQUISIÇÃO DE MATERIAL HOSPITALAR - PCA 26 - LETRAS D A L - 97 ITENS",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "dfd",
-    "subetapa": "Adicionado via levantamento histórico — aguardando a próxima atualização automática de marcos.",
+    "fase": "Jurídico (Projur/Análise)",
+    "subEtapa": "juridico",
+    "subetapa": "Último documento: DESPACHO DE ENCAMINHAMENTO (13/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (14/05/2026 08:00)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -15862,20 +15920,28 @@
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
-    "marcos": null,
+    "marcos": {
+      "analiseDfiFim": "13/05/2026",
+      "pesquisaPrecosFim": "08/06/2026",
+      "editalFim": "17/06/2026"
+    },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "pregao": "23077.048597/2026-22",
     "pregao_id": 1202377,
     "processo_id": null,
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1202377"
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1202377",
+    "responsaveisDfi": {
+      "pesquisaPrecos": "Sayonara Suely Januário Pereira",
+      "irp": "Marilia Linhares de Sousa"
+    }
   },
   {
     "processo": "23077.208192/2025-79",
     "assunto": "AQUISIÇÃO DE MATERIAL HOSPITALAR - PCA 26 - LETRAS M A R - 53 ITENS.",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "dfd",
-    "subetapa": "Adicionado via levantamento histórico — aguardando a próxima atualização automática de marcos.",
+    "fase": "Fase Interna (DFI)",
+    "subEtapa": "edital",
+    "subetapa": "Último documento: DESPACHO DE ENCAMINHAMENTO (13/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (26/05/2026 09:27)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -15884,12 +15950,18 @@
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
-    "marcos": null,
+    "marcos": {
+      "pesquisaPrecosFim": "26/06/2026",
+      "irpFim": "22/05/2026"
+    },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "pregao": "23077.067797/2026-84",
     "pregao_id": 1207791,
     "processo_id": null,
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1207791"
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1207791",
+    "responsaveisDfi": {
+      "irp": "Marilia Linhares de Sousa"
+    }
   }
 ]
