@@ -2660,19 +2660,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "16/06/2026",
-    "ultimaAtividade": "06/07/2026"
-  },
-  {
-    "processo_id": 1097252,
-    "numero": "23077.084601/2024-54",
-    "assunto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA EXECUÇÃO DOS SERVIÇOS DE INSTALAÇÃO DE SISTEMA DE VENTILAÇÃO MECÂNICA, INCLUINDO FORNECIMENTO DE MATERIAIS, EQUIPAMENTOS E MÃO DE OBRA, CONFORME PROJETO ARQUITETÔNICO E ESPECIFICAÇÕES TÉCNICAS PARA ADEQUAÇÃO DO INSTITUTO DE MEDICINA TROPICAL (IMT).",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1097252",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "23/07/2024",
-    "ultimaAtividade": "30/01/2025"
+    "ultimaAtividade": "06/07/2026",
+    "triado": true
   },
   {
     "processo_id": 1147970,
@@ -2684,7 +2673,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/06/2025",
-    "ultimaAtividade": "11/06/2025"
+    "ultimaAtividade": "11/06/2025",
+    "triado": true
   },
   {
     "processo_id": 1148054,
@@ -2696,19 +2686,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/06/2025",
-    "ultimaAtividade": "22/05/2025"
-  },
-  {
-    "processo_id": 1097315,
-    "numero": "23077.084938/2024-61",
-    "assunto": "AQUISIÇÃO DE EQUIPAMENTOS DE PROCESSAMENTO DE DADOS - COMPRAS/PROAD",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1097315",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "23/07/2024",
-    "ultimaAtividade": "25/09/2024"
+    "ultimaAtividade": "22/05/2025",
+    "triado": true
   },
   {
     "processo_id": 1213959,
@@ -2720,31 +2699,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "17/06/2026",
-    "ultimaAtividade": "18/06/2026"
-  },
-  {
-    "processo_id": 1097335,
-    "numero": "23077.085078/2024-83",
-    "assunto": "AQUISIÇÃO DE COMPUTADOR ULTRACOMPACTO INTERMEDIÁRIO SEM MONITOR - COMPRAS/PROAD",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1097335",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "23/07/2024",
-    "ultimaAtividade": "30/10/2024"
-  },
-  {
-    "processo_id": 1097345,
-    "numero": "23077.085105/2024-18",
-    "assunto": "AQUISIÇÃO DE MONITOR E NOTEBOOK - COMPRAS/PROAD",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1097345",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "23/07/2024",
-    "ultimaAtividade": "30/10/2024"
+    "ultimaAtividade": "18/06/2026",
+    "triado": true
   },
   {
     "processo_id": 1097384,
@@ -2756,7 +2712,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "23/07/2024",
-    "ultimaAtividade": "16/09/2024"
+    "ultimaAtividade": "16/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1214165,
@@ -2768,7 +2725,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "18/06/2026",
-    "ultimaAtividade": "23/06/2026"
+    "ultimaAtividade": "23/06/2026",
+    "triado": true
   },
   {
     "processo_id": 1214174,
@@ -2780,7 +2738,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "18/06/2026",
-    "ultimaAtividade": "18/06/2026"
+    "ultimaAtividade": "18/06/2026",
+    "triado": true
   },
   {
     "processo_id": 1097831,
@@ -2792,7 +2751,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "26/07/2024",
-    "ultimaAtividade": "13/11/2024"
+    "ultimaAtividade": "13/11/2024",
+    "triado": true
   },
   {
     "processo_id": 1097933,
@@ -2804,7 +2764,9 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "26/07/2024",
-    "ultimaAtividade": "29/10/2024"
+    "ultimaAtividade": "29/10/2024",
+    "triado": true,
+    "alertaEmpenhoSemExecucao": true
   },
   {
     "processo_id": 1214717,
@@ -2816,7 +2778,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "22/06/2026",
-    "ultimaAtividade": null
+    "ultimaAtividade": null,
+    "triado": true
   },
   {
     "processo_id": 1149069,
@@ -2828,7 +2791,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "09/06/2025",
-    "ultimaAtividade": "24/06/2025"
+    "ultimaAtividade": "24/06/2025",
+    "triado": true
   },
   {
     "processo_id": 1149071,
@@ -2840,7 +2804,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "09/06/2025",
-    "ultimaAtividade": "24/06/2025"
+    "ultimaAtividade": "24/06/2025",
+    "triado": true
   },
   {
     "processo_id": 1149075,
@@ -2852,7 +2817,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "09/06/2025",
-    "ultimaAtividade": "09/06/2025"
+    "ultimaAtividade": "09/06/2025",
+    "triado": true
   },
   {
     "processo_id": 1214726,
@@ -2864,7 +2830,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "22/06/2026",
-    "ultimaAtividade": "22/06/2026"
+    "ultimaAtividade": "22/06/2026",
+    "triado": true
   },
   {
     "processo_id": 1214738,
@@ -2876,7 +2843,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "22/06/2026",
-    "ultimaAtividade": "29/07/2026"
+    "ultimaAtividade": "29/07/2026",
+    "triado": true
   },
   {
     "processo_id": 1097963,
@@ -2888,7 +2856,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "26/07/2024",
-    "ultimaAtividade": "14/08/2024"
+    "ultimaAtividade": "14/08/2024",
+    "triado": true
   },
   {
     "processo_id": 1214948,
@@ -2900,19 +2869,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "23/06/2026",
-    "ultimaAtividade": "13/08/2026"
-  },
-  {
-    "processo_id": 1098562,
-    "numero": "23077.090227/2024-26",
-    "assunto": "AQUISIÇÃO DE ESTABILIZADORES PARA A DASP/PROAE",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1098562",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "01/08/2024",
-    "ultimaAtividade": "05/08/2024"
+    "ultimaAtividade": "13/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1215658,
@@ -2924,7 +2882,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "30/06/2026",
-    "ultimaAtividade": "29/07/2026"
+    "ultimaAtividade": "29/07/2026",
+    "triado": true
   },
   {
     "processo_id": 1150400,
@@ -2936,7 +2895,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "14/06/2025",
-    "ultimaAtividade": "14/07/2025"
+    "ultimaAtividade": "14/07/2025",
+    "triado": true
   },
   {
     "processo_id": 1150406,
@@ -2948,7 +2908,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "14/06/2025",
-    "ultimaAtividade": "28/08/2025"
+    "ultimaAtividade": "28/08/2025",
+    "triado": true
   },
   {
     "processo_id": 1215685,
@@ -2960,7 +2921,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "30/06/2026",
-    "ultimaAtividade": "01/07/2026"
+    "ultimaAtividade": "01/07/2026",
+    "triado": true
   },
   {
     "processo_id": 1098972,
@@ -2972,7 +2934,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "05/08/2024",
-    "ultimaAtividade": "09/08/2024"
+    "ultimaAtividade": "09/08/2024",
+    "triado": true
   },
   {
     "processo_id": 1216082,
@@ -2984,19 +2947,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "02/07/2026",
-    "ultimaAtividade": "09/07/2026"
-  },
-  {
-    "processo_id": 1099225,
-    "numero": "23077.093186/2024-20",
-    "assunto": "CONTRATAÇÃO DE EMPRESA PARA PRESTAÇÃO DE SERVIÇOS COM DEDICAÇÃO DE MÃO DE OBRA EXCLUSIVA",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1099225",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "06/08/2024",
-    "ultimaAtividade": "15/08/2024"
+    "ultimaAtividade": "09/07/2026",
+    "triado": true
   },
   {
     "processo_id": 1099238,
@@ -3008,19 +2960,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "06/08/2024",
-    "ultimaAtividade": "06/08/2024"
-  },
-  {
-    "processo_id": 1099257,
-    "numero": "23077.093310/2024-57",
-    "assunto": "CONFECÇÃO DE MATERIAIS GRÁFICOS PARA MOSTRA DE PROFISSÕES DA UFRN E ENCONTRO COGRAD ORGANIZADOS PELA PROGRAD.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1099257",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "06/08/2024",
-    "ultimaAtividade": "16/09/2024"
+    "ultimaAtividade": "06/08/2024",
+    "triado": true
   },
   {
     "processo_id": 1099307,
@@ -3032,7 +2973,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "07/08/2024",
-    "ultimaAtividade": "05/02/2026"
+    "ultimaAtividade": "05/02/2026",
+    "triado": true
   },
   {
     "processo_id": 1151627,
@@ -3044,7 +2986,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "17/06/2025",
-    "ultimaAtividade": "18/06/2025"
+    "ultimaAtividade": "18/06/2025",
+    "triado": true
   },
   {
     "processo_id": 1216335,
@@ -3056,7 +2999,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "03/07/2026",
-    "ultimaAtividade": "07/08/2026"
+    "ultimaAtividade": "07/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1099507,
@@ -3068,7 +3012,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "08/08/2024",
-    "ultimaAtividade": "08/08/2024"
+    "ultimaAtividade": "08/08/2024",
+    "triado": true
   },
   {
     "processo_id": 1099517,
@@ -3080,7 +3025,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "08/08/2024",
-    "ultimaAtividade": "14/08/2024"
+    "ultimaAtividade": "14/08/2024",
+    "triado": true
   },
   {
     "processo_id": 1099649,
@@ -3092,19 +3038,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "08/08/2024",
-    "ultimaAtividade": "18/09/2024"
-  },
-  {
-    "processo_id": 1099735,
-    "numero": "23077.095202/2024-19",
-    "assunto": "CONTRATAÇÃO DE SERVIÇOS DE PESSOA JURÍDICA PARA LOCAÇÃO DE SALA DE CONFERÊNCIA DO EVENTO \"21ST CONFERENCE ON COMPUTACIONAL INTELLIGENCE IN BIOINFORMATICS AND COMPUTACIONAL BIOLOGY\" (IEEE CIBCB) COM ORÇAMENTO APROVADO ATRAVÉS DE FINANCIAMENTO INTERNO (EDITAL DE EVENTOS INTEGRADOS Nº 006/2023-UFRN/PROGRAD/PPG/PROEX/PROPESQ).",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1099735",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "09/08/2024",
-    "ultimaAtividade": "14/08/2024"
+    "ultimaAtividade": "18/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1152151,
@@ -3116,7 +3051,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "23/06/2025",
-    "ultimaAtividade": "23/06/2025"
+    "ultimaAtividade": "23/06/2025",
+    "triado": true
   },
   {
     "processo_id": 1216881,
@@ -3128,7 +3064,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "07/07/2026",
-    "ultimaAtividade": "11/08/2026"
+    "ultimaAtividade": "11/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1099874,
@@ -3140,7 +3077,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "12/08/2024",
-    "ultimaAtividade": "03/12/2024"
+    "ultimaAtividade": "03/12/2024",
+    "triado": true
   },
   {
     "processo_id": 1217065,
@@ -3152,7 +3090,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "08/07/2026",
-    "ultimaAtividade": "12/08/2026"
+    "ultimaAtividade": "12/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1100065,
@@ -3164,7 +3103,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "12/08/2024",
-    "ultimaAtividade": "12/08/2024"
+    "ultimaAtividade": "12/08/2024",
+    "triado": true
   },
   {
     "processo_id": 1100075,
@@ -3176,7 +3116,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "12/08/2024",
-    "ultimaAtividade": "30/09/2024"
+    "ultimaAtividade": "30/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1217383,
@@ -3188,7 +3129,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "10/07/2026",
-    "ultimaAtividade": "10/08/2026"
+    "ultimaAtividade": "10/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1152667,
@@ -3200,7 +3142,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "26/06/2025",
-    "ultimaAtividade": "01/08/2025"
+    "ultimaAtividade": "01/08/2025",
+    "triado": true
   },
   {
     "processo_id": 1100183,
@@ -3212,19 +3155,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "13/08/2024",
-    "ultimaAtividade": null
-  },
-  {
-    "processo_id": 1100334,
-    "numero": "23077.097756/2024-51",
-    "assunto": "SOLICITAÇÃO DE DL PARA MANUTENÇÃO DE EQUIPAMENTOS PARA O RU",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1100334",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "14/08/2024",
-    "ultimaAtividade": "30/10/2024"
+    "ultimaAtividade": null,
+    "triado": true
   },
   {
     "processo_id": 1100435,
@@ -3236,7 +3168,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "14/08/2024",
-    "ultimaAtividade": "02/12/2024"
+    "ultimaAtividade": "02/12/2024",
+    "triado": true
   },
   {
     "processo_id": 1152939,
@@ -3248,7 +3181,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "30/06/2025",
-    "ultimaAtividade": null
+    "ultimaAtividade": null,
+    "triado": true
   },
   {
     "processo_id": 1100443,
@@ -3260,7 +3194,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "14/08/2024",
-    "ultimaAtividade": "15/08/2024"
+    "ultimaAtividade": "15/08/2024",
+    "triado": true
   },
   {
     "processo_id": 1100602,
@@ -3272,7 +3207,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "15/08/2024",
-    "ultimaAtividade": "21/08/2024"
+    "ultimaAtividade": "21/08/2024",
+    "triado": true
   },
   {
     "processo_id": 1217996,
@@ -3284,7 +3220,9 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "15/07/2026",
-    "ultimaAtividade": "12/08/2026"
+    "ultimaAtividade": "12/08/2026",
+    "triado": true,
+    "alertaEmpenhoSemExecucao": true
   },
   {
     "processo_id": 1101052,
@@ -3296,7 +3234,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "16/08/2024",
-    "ultimaAtividade": "23/08/2024"
+    "ultimaAtividade": "23/08/2024",
+    "triado": true
   },
   {
     "processo_id": 1153733,
@@ -3308,7 +3247,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "03/07/2025",
-    "ultimaAtividade": "04/07/2025"
+    "ultimaAtividade": "04/07/2025",
+    "triado": true
   },
   {
     "processo_id": 1101319,
@@ -3320,7 +3260,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "19/08/2024",
-    "ultimaAtividade": "16/08/2024"
+    "ultimaAtividade": "16/08/2024",
+    "triado": true
   },
   {
     "processo_id": 1101322,
@@ -3332,7 +3273,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "19/08/2024",
-    "ultimaAtividade": "20/08/2024"
+    "ultimaAtividade": "20/08/2024",
+    "triado": true
   },
   {
     "processo_id": 1153984,
@@ -3344,7 +3286,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/07/2025",
-    "ultimaAtividade": "14/07/2025"
+    "ultimaAtividade": "14/07/2025",
+    "triado": true
   },
   {
     "processo_id": 1218675,
@@ -3356,19 +3299,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "17/07/2026",
-    "ultimaAtividade": "13/08/2026"
-  },
-  {
-    "processo_id": 1101520,
-    "numero": "23077.102221/2024-17",
-    "assunto": "COMPRA DE REAGENTES QUÍMICOS PARA EXPERIMENTOS LABORATORIAIS",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1101520",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "20/08/2024",
-    "ultimaAtividade": "10/09/2024"
+    "ultimaAtividade": "13/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1218753,
@@ -3380,7 +3312,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "18/07/2026",
-    "ultimaAtividade": "28/07/2026"
+    "ultimaAtividade": "28/07/2026",
+    "triado": true
   },
   {
     "processo_id": 1101632,
@@ -3392,7 +3325,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "21/08/2024",
-    "ultimaAtividade": "31/10/2024"
+    "ultimaAtividade": "31/10/2024",
+    "triado": true
   },
   {
     "processo_id": 1101962,
@@ -3404,7 +3338,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "22/08/2024",
-    "ultimaAtividade": "16/09/2024"
+    "ultimaAtividade": "16/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1102205,
@@ -3416,7 +3351,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "23/08/2024",
-    "ultimaAtividade": "31/10/2024"
+    "ultimaAtividade": "31/10/2024",
+    "triado": true
   },
   {
     "processo_id": 1219340,
@@ -3428,7 +3364,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "23/07/2026",
-    "ultimaAtividade": "04/08/2026"
+    "ultimaAtividade": "04/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1102214,
@@ -3440,7 +3377,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "23/08/2024",
-    "ultimaAtividade": "23/09/2024"
+    "ultimaAtividade": "23/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1102245,
@@ -3452,7 +3390,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "23/08/2024",
-    "ultimaAtividade": "23/09/2024"
+    "ultimaAtividade": "23/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1102264,
@@ -3464,7 +3403,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "25/08/2024",
-    "ultimaAtividade": "05/12/2024"
+    "ultimaAtividade": "05/12/2024",
+    "triado": true
   },
   {
     "processo_id": 1219430,
@@ -3476,7 +3416,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "23/07/2026",
-    "ultimaAtividade": "09/07/2026"
+    "ultimaAtividade": "09/07/2026",
+    "triado": true
   },
   {
     "processo_id": 1154975,
@@ -3488,7 +3429,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "10/07/2025",
-    "ultimaAtividade": "15/07/2025"
+    "ultimaAtividade": "15/07/2025",
+    "triado": true
   },
   {
     "processo_id": 1154977,
@@ -3500,7 +3442,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "10/07/2025",
-    "ultimaAtividade": "15/07/2025"
+    "ultimaAtividade": "15/07/2025",
+    "triado": true
   },
   {
     "processo_id": 1155222,
@@ -3512,7 +3455,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "11/07/2025",
-    "ultimaAtividade": "13/07/2026"
+    "ultimaAtividade": "13/07/2026",
+    "triado": true
   },
   {
     "processo_id": 1219797,
@@ -3524,19 +3468,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "24/07/2026",
-    "ultimaAtividade": "30/07/2026"
-  },
-  {
-    "processo_id": 1102733,
-    "numero": "23077.106612/2024-01",
-    "assunto": "SOLICITAÇÃO DE LICITAÇÃO PARA CESSÃO ONEROSA DE USO DA CANTINA NAS DEPENDÊNCIAS DO PRÉDIO DA EMCM/UFRN.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1102733",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "27/08/2024",
-    "ultimaAtividade": "28/08/2024"
+    "ultimaAtividade": "30/07/2026",
+    "triado": true
   },
   {
     "processo_id": 1155324,
@@ -3548,7 +3481,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "14/07/2025",
-    "ultimaAtividade": "25/07/2025"
+    "ultimaAtividade": "25/07/2025",
+    "triado": true
   },
   {
     "processo_id": 1219957,
@@ -3560,7 +3494,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "27/07/2026",
-    "ultimaAtividade": "11/08/2026"
+    "ultimaAtividade": "11/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1102847,
@@ -3572,7 +3507,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "28/08/2024",
-    "ultimaAtividade": "08/11/2024"
+    "ultimaAtividade": "08/11/2024",
+    "triado": true
   },
   {
     "processo_id": 1155498,
@@ -3584,19 +3520,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "14/07/2025",
-    "ultimaAtividade": "14/07/2025"
-  },
-  {
-    "processo_id": 1155506,
-    "numero": "23077.107241/2025-57",
-    "assunto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM MANUTENÇÃO DE INFRAESTRUTURA DE DATACENTER, INCLUINDO UPS, SISTEMA DE REFRIGERAÇÃO, PAINÉIS ELÉTRICOS E SISTEMA DETECÇÃO E COMBATE A INCÊNDIO, PARA A UFRN. (DL)",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1155506",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "14/07/2025",
-    "ultimaAtividade": "04/09/2025"
+    "ultimaAtividade": "14/07/2025",
+    "triado": true
   },
   {
     "processo_id": 1155513,
@@ -3608,7 +3533,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "14/07/2025",
-    "ultimaAtividade": "14/07/2025"
+    "ultimaAtividade": "14/07/2025",
+    "triado": true
   },
   {
     "processo_id": 1103008,
@@ -3620,7 +3546,9 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "28/08/2024",
-    "ultimaAtividade": "04/11/2024"
+    "ultimaAtividade": "04/11/2024",
+    "triado": true,
+    "alertaEmpenhoSemExecucao": true
   },
   {
     "processo_id": 1103012,
@@ -3632,19 +3560,9 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "28/08/2024",
-    "ultimaAtividade": "15/10/2024"
-  },
-  {
-    "processo_id": 1103098,
-    "numero": "23077.107815/2024-14",
-    "assunto": "COMPRA DE MICROCOMPUTADOR E IMPRESSORA - PROJETO ARTES VISUAIS É A NOSSA PRAIA ! PROJETO DE REFORÇO ACADÊMICO, INCLUSÃO E APOIO (PAMQEG)",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103098",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "28/08/2024",
-    "ultimaAtividade": "04/10/2024"
+    "ultimaAtividade": "15/10/2024",
+    "triado": true,
+    "alertaEmpenhoSemExecucao": true
   },
   {
     "processo_id": 1103149,
@@ -3656,7 +3574,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "29/08/2024",
-    "ultimaAtividade": "02/09/2024"
+    "ultimaAtividade": "02/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1103152,
@@ -3668,7 +3587,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "29/08/2024",
-    "ultimaAtividade": "02/09/2024"
+    "ultimaAtividade": "02/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1220287,
@@ -3680,7 +3600,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "28/07/2026",
-    "ultimaAtividade": null
+    "ultimaAtividade": null,
+    "triado": true
   },
   {
     "processo_id": 1103156,
@@ -3692,19 +3613,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "29/08/2024",
-    "ultimaAtividade": "13/09/2024"
-  },
-  {
-    "processo_id": 1103176,
-    "numero": "23077.108068/2024-23",
-    "assunto": "SOLICITAÇÃO DE CONTRATAÇÃO/AQUISIÇÃO PARA UTILIZAÇÃO DE RECURSO DE PROJETO DE EXTENSÃO",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103176",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "29/08/2024",
-    "ultimaAtividade": "04/09/2024"
+    "ultimaAtividade": "13/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1220315,
@@ -3716,19 +3626,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "28/07/2026",
-    "ultimaAtividade": "03/08/2026"
-  },
-  {
-    "processo_id": 1103243,
-    "numero": "23077.108253/2024-18",
-    "assunto": "AQUISIÇÃO DE AR-CONDICIONADO 18.000 BTU",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103243",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "29/08/2024",
-    "ultimaAtividade": "06/09/2024"
+    "ultimaAtividade": "03/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1220405,
@@ -3740,7 +3639,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "28/07/2026",
-    "ultimaAtividade": "13/08/2026"
+    "ultimaAtividade": "13/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1156123,
@@ -3752,7 +3652,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "17/07/2025",
-    "ultimaAtividade": "17/07/2025"
+    "ultimaAtividade": "17/07/2025",
+    "triado": true
   },
   {
     "processo_id": 1103613,
@@ -3764,7 +3665,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "30/08/2024",
-    "ultimaAtividade": "22/12/2025"
+    "ultimaAtividade": "22/12/2025",
+    "triado": true
   },
   {
     "processo_id": 1103626,
@@ -3776,7 +3678,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "30/08/2024",
-    "ultimaAtividade": "20/09/2024"
+    "ultimaAtividade": "20/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1103629,
@@ -3788,19 +3691,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "30/08/2024",
-    "ultimaAtividade": "16/09/2024"
-  },
-  {
-    "processo_id": 1103630,
-    "numero": "23077.109467/2024-10",
-    "assunto": "ADESÃO A ATA DE REGISTRO DE PREÇOS - CADEIRAS FIXAS E ESTANTES DE AÇO",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103630",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "30/08/2024",
-    "ultimaAtividade": "03/09/2024"
+    "ultimaAtividade": "16/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1103646,
@@ -3812,19 +3704,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "30/08/2024",
-    "ultimaAtividade": "20/09/2024"
-  },
-  {
-    "processo_id": 1103648,
-    "numero": "23077.109539/2024-11",
-    "assunto": "AQUISIÇÃO TIC - DESKTOP BÁSICO, DESKTOP AVANÇADO E NOTEBOOK BÁSICO PARA DIVERSOS SETORES DA UFRN",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103648",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "31/08/2024",
-    "ultimaAtividade": "18/11/2025"
+    "ultimaAtividade": "20/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1221346,
@@ -3836,7 +3717,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "29/07/2026",
-    "ultimaAtividade": "20/07/2026"
+    "ultimaAtividade": "20/07/2026",
+    "triado": true
   },
   {
     "processo_id": 1103844,
@@ -3848,7 +3730,9 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "02/09/2024",
-    "ultimaAtividade": "15/10/2024"
+    "ultimaAtividade": "15/10/2024",
+    "triado": true,
+    "alertaEmpenhoSemExecucao": true
   },
   {
     "processo_id": 1103849,
@@ -3860,7 +3744,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "02/09/2024",
-    "ultimaAtividade": "09/09/2024"
+    "ultimaAtividade": "09/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1104021,
@@ -3872,19 +3757,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "03/09/2024",
-    "ultimaAtividade": "05/09/2024"
-  },
-  {
-    "processo_id": 1156586,
-    "numero": "23077.110914/2025-56",
-    "assunto": "ADAPTAÇÃO DE SALAS DO DEPARTAMENTO DE ENFERMAGEM PARA INSTALAÇÃO DO LABORATÓRIO DE HABILIDADES CLÍNICAS",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1156586",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "21/07/2025",
-    "ultimaAtividade": "16/10/2025"
+    "ultimaAtividade": "05/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1104085,
@@ -3896,7 +3770,9 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "03/09/2024",
-    "ultimaAtividade": "23/09/2024"
+    "ultimaAtividade": "23/09/2024",
+    "triado": true,
+    "alertaEmpenhoSemExecucao": true
   },
   {
     "processo_id": 1104164,
@@ -3908,7 +3784,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "03/09/2024",
-    "ultimaAtividade": null
+    "ultimaAtividade": null,
+    "triado": true
   },
   {
     "processo_id": 1156689,
@@ -3920,7 +3797,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "21/07/2025",
-    "ultimaAtividade": "21/07/2025"
+    "ultimaAtividade": "21/07/2025",
+    "triado": true
   },
   {
     "processo_id": 1221759,
@@ -3932,7 +3810,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "31/07/2026",
-    "ultimaAtividade": "21/07/2026"
+    "ultimaAtividade": "21/07/2026",
+    "triado": true
   },
   {
     "processo_id": 1104288,
@@ -3944,7 +3823,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/09/2024",
-    "ultimaAtividade": "04/09/2024"
+    "ultimaAtividade": "04/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1104290,
@@ -3956,7 +3836,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/09/2024",
-    "ultimaAtividade": "04/09/2024"
+    "ultimaAtividade": "04/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1104295,
@@ -3968,7 +3849,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/09/2024",
-    "ultimaAtividade": "04/09/2024"
+    "ultimaAtividade": "04/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1104297,
@@ -3980,7 +3862,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/09/2024",
-    "ultimaAtividade": null
+    "ultimaAtividade": null,
+    "triado": true
   },
   {
     "processo_id": 1104300,
@@ -3992,7 +3875,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/09/2024",
-    "ultimaAtividade": "04/09/2024"
+    "ultimaAtividade": "04/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1104303,
@@ -4004,7 +3888,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/09/2024",
-    "ultimaAtividade": "04/09/2024"
+    "ultimaAtividade": "04/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1221874,
@@ -4016,7 +3901,9 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "31/07/2026",
-    "ultimaAtividade": "07/08/2026"
+    "ultimaAtividade": "07/08/2026",
+    "triado": true,
+    "alertaEmpenhoSemExecucao": true
   },
   {
     "processo_id": 1104464,
@@ -4028,31 +3915,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "apensado a 23077.177404/2023-05, mas esse número não foi encontrado em nenhum dos 5 tipos de execução",
     "dataAbertura": "04/09/2024",
-    "ultimaAtividade": "12/09/2024"
-  },
-  {
-    "processo_id": 1104480,
-    "numero": "23077.112343/2024-11",
-    "assunto": "LAUDO DE IMÓVEIS PARA A CANTINA DO PRÉDIO SEDE DA EMCM",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1104480",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "04/09/2024",
-    "ultimaAtividade": "11/10/2024"
-  },
-  {
-    "processo_id": 1104588,
-    "numero": "23077.112769/2024-67",
-    "assunto": "SOLICITAÇÃO DE ADESÃO PARA COMPRA DE 2 SOFÁS DE 3 LUGARES PARA USO NO APOIO PEDAGÓGICO E NA SALA DE DESCANSO DE ESTUDANTES DO CERES.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1104588",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "05/09/2024",
-    "ultimaAtividade": "19/09/2024"
+    "ultimaAtividade": "12/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1157251,
@@ -4064,7 +3928,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "apensado a 23077.144670/2025-13 (Concorrência) — apensação nesse caminho é hipótese não confirmada (CLAUDE.md 4.4), decisão manual necessária",
     "dataAbertura": "23/07/2025",
-    "ultimaAtividade": "09/09/2025"
+    "ultimaAtividade": "09/09/2025",
+    "triado": true
   },
   {
     "processo_id": 1104701,
@@ -4076,7 +3941,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "05/09/2024",
-    "ultimaAtividade": "10/09/2024"
+    "ultimaAtividade": "10/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1157300,
@@ -4088,7 +3954,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "23/07/2025",
-    "ultimaAtividade": "23/07/2025"
+    "ultimaAtividade": "23/07/2025",
+    "triado": true
   },
   {
     "processo_id": 1104795,
@@ -4100,7 +3967,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "06/09/2024",
-    "ultimaAtividade": "13/09/2024"
+    "ultimaAtividade": "13/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1104933,
@@ -4112,7 +3980,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "06/09/2024",
-    "ultimaAtividade": "13/10/2024"
+    "ultimaAtividade": "13/10/2024",
+    "triado": true
   },
   {
     "processo_id": 1104939,
@@ -4124,7 +3993,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "06/09/2024",
-    "ultimaAtividade": "10/09/2024"
+    "ultimaAtividade": "10/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1222675,
@@ -4136,7 +4006,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "05/08/2026",
-    "ultimaAtividade": "05/08/2026"
+    "ultimaAtividade": "05/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1222677,
@@ -4148,7 +4019,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "05/08/2026",
-    "ultimaAtividade": "05/08/2026"
+    "ultimaAtividade": "05/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1222680,
@@ -4160,7 +4032,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "05/08/2026",
-    "ultimaAtividade": "05/08/2026"
+    "ultimaAtividade": "05/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1157727,
@@ -4172,7 +4045,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "25/07/2025",
-    "ultimaAtividade": null
+    "ultimaAtividade": null,
+    "triado": true
   },
   {
     "processo_id": 1222799,
@@ -4184,7 +4058,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "05/08/2026",
-    "ultimaAtividade": "12/08/2026"
+    "ultimaAtividade": "12/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1105222,
@@ -4196,7 +4071,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "09/09/2024",
-    "ultimaAtividade": "25/09/2024"
+    "ultimaAtividade": "25/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1105347,
@@ -4208,7 +4084,9 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "10/09/2024",
-    "ultimaAtividade": "15/10/2024"
+    "ultimaAtividade": "15/10/2024",
+    "triado": true,
+    "alertaEmpenhoSemExecucao": true
   },
   {
     "processo_id": 1105349,
@@ -4220,7 +4098,9 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "10/09/2024",
-    "ultimaAtividade": "15/10/2024"
+    "ultimaAtividade": "15/10/2024",
+    "triado": true,
+    "alertaEmpenhoSemExecucao": true
   },
   {
     "processo_id": 1105351,
@@ -4232,7 +4112,9 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "10/09/2024",
-    "ultimaAtividade": "23/09/2024"
+    "ultimaAtividade": "23/09/2024",
+    "triado": true,
+    "alertaEmpenhoSemExecucao": true
   },
   {
     "processo_id": 1105408,
@@ -4244,7 +4126,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "10/09/2024",
-    "ultimaAtividade": "18/09/2024"
+    "ultimaAtividade": "18/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1105478,
@@ -4256,7 +4139,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "10/09/2024",
-    "ultimaAtividade": "18/09/2024"
+    "ultimaAtividade": "18/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1105510,
@@ -4268,7 +4152,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "11/09/2024",
-    "ultimaAtividade": "30/09/2024"
+    "ultimaAtividade": "30/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1158218,
@@ -4280,19 +4165,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "apensado a 23077.164559/2025-35 (Concorrência) — apensação nesse caminho é hipótese não confirmada (CLAUDE.md 4.4), decisão manual necessária",
     "dataAbertura": "29/07/2025",
-    "ultimaAtividade": "10/10/2025"
-  },
-  {
-    "processo_id": 1105598,
-    "numero": "23077.116317/2024-54",
-    "assunto": "AQUISIÇÃO DE PALHETAS PARA SAXOFONES DA EMUFRN",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1105598",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "11/09/2024",
-    "ultimaAtividade": "17/09/2024"
+    "ultimaAtividade": "10/10/2025",
+    "triado": true
   },
   {
     "processo_id": 1105707,
@@ -4304,7 +4178,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "11/09/2024",
-    "ultimaAtividade": "13/09/2024"
+    "ultimaAtividade": "13/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1105782,
@@ -4316,19 +4191,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "12/09/2024",
-    "ultimaAtividade": "17/09/2024"
-  },
-  {
-    "processo_id": 1158679,
-    "numero": "23077.117687/2025-90",
-    "assunto": "AQUISIÇÃO DE 01 (UM) NOTEBOOK PARA O PROJETO \"PRÁTICAS LABORATORIAIS COMO ESTRATÉGIAS NO PROCESSO ENSINO-APRENDIZAGEM DA ATUAÇÃO FONOAUDIOLÓGICA NAS DISFAGIAS OROFARÍNGEAS” (11.87.00.00.00.00.02.02.26)",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1158679",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "31/07/2025",
-    "ultimaAtividade": "30/10/2025"
+    "ultimaAtividade": "17/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1106045,
@@ -4340,7 +4204,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "13/09/2024",
-    "ultimaAtividade": "18/09/2024"
+    "ultimaAtividade": "18/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1106090,
@@ -4352,7 +4217,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "13/09/2024",
-    "ultimaAtividade": "28/11/2024"
+    "ultimaAtividade": "28/11/2024",
+    "triado": true
   },
   {
     "processo_id": 1106116,
@@ -4364,7 +4230,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "13/09/2024",
-    "ultimaAtividade": "19/09/2024"
+    "ultimaAtividade": "19/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1106272,
@@ -4376,7 +4243,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "16/09/2024",
-    "ultimaAtividade": "18/09/2024"
+    "ultimaAtividade": "18/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1159399,
@@ -4388,7 +4256,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "apensado a 23077.034037/2026-91 (Concorrência) — apensação nesse caminho é hipótese não confirmada (CLAUDE.md 4.4), decisão manual necessária",
     "dataAbertura": "04/08/2025",
-    "ultimaAtividade": "13/03/2026"
+    "ultimaAtividade": "13/03/2026",
+    "triado": true
   },
   {
     "processo_id": 1159409,
@@ -4400,7 +4269,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/08/2025",
-    "ultimaAtividade": "06/10/2025"
+    "ultimaAtividade": "06/10/2025",
+    "triado": true
   },
   {
     "processo_id": 1106625,
@@ -4412,7 +4282,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "17/09/2024",
-    "ultimaAtividade": "23/09/2024"
+    "ultimaAtividade": "23/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1159660,
@@ -4424,7 +4295,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "05/08/2025",
-    "ultimaAtividade": "05/08/2025"
+    "ultimaAtividade": "05/08/2025",
+    "triado": true
   },
   {
     "processo_id": 1224852,
@@ -4436,7 +4308,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "13/08/2026",
-    "ultimaAtividade": ""
+    "ultimaAtividade": "",
+    "triado": true
   },
   {
     "processo_id": 1224859,
@@ -4448,7 +4321,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "13/08/2026",
-    "ultimaAtividade": "13/08/2026"
+    "ultimaAtividade": "13/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1224929,
@@ -4460,7 +4334,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "13/08/2026",
-    "ultimaAtividade": "13/08/2026"
+    "ultimaAtividade": "13/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1224948,
@@ -4472,7 +4347,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "13/08/2026",
-    "ultimaAtividade": "13/08/2026"
+    "ultimaAtividade": "13/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1106993,
@@ -4484,7 +4360,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "18/09/2024",
-    "ultimaAtividade": "18/09/2024"
+    "ultimaAtividade": "18/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1107093,
@@ -4496,7 +4373,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "18/09/2024",
-    "ultimaAtividade": "20/09/2024"
+    "ultimaAtividade": "20/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1107488,
@@ -4508,19 +4386,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "20/09/2024",
-    "ultimaAtividade": "20/09/2024"
-  },
-  {
-    "processo_id": 1107553,
-    "numero": "23077.122985/2024-11",
-    "assunto": "AQUISIÇÃO DE ITENS DE PRIMEIROS SOCORROS",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1107553",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "20/09/2024",
-    "ultimaAtividade": "02/12/2024"
+    "ultimaAtividade": "20/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1161132,
@@ -4532,7 +4399,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "12/08/2025",
-    "ultimaAtividade": "14/08/2025"
+    "ultimaAtividade": "14/08/2025",
+    "triado": true
   },
   {
     "processo_id": 1161169,
@@ -4544,7 +4412,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "12/08/2025",
-    "ultimaAtividade": "10/08/2026"
+    "ultimaAtividade": "10/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1108402,
@@ -4556,7 +4425,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "25/09/2024",
-    "ultimaAtividade": "10/10/2024"
+    "ultimaAtividade": "10/10/2024",
+    "triado": true
   },
   {
     "processo_id": 1108456,
@@ -4568,19 +4438,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "25/09/2024",
-    "ultimaAtividade": "15/10/2024"
-  },
-  {
-    "processo_id": 1161397,
-    "numero": "23077.126074/2025-43",
-    "assunto": "CONTRATAÇÃO DE SEGURO DE VIDA PARA A 4ª CORRIDA DA FACISA 2025",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1161397",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "13/08/2025",
-    "ultimaAtividade": "15/09/2025"
+    "ultimaAtividade": "15/10/2024",
+    "triado": true
   },
   {
     "processo_id": 1108602,
@@ -4592,19 +4451,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "26/09/2024",
-    "ultimaAtividade": null
-  },
-  {
-    "processo_id": 1108603,
-    "numero": "23077.126522/2024-28",
-    "assunto": "ADEQUAÇÕES PARA ACESSIBILIDADE NO DEPARTAMENTO DE FONOAUDIOLOGIA",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1108603",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "26/09/2024",
-    "ultimaAtividade": "24/10/2024"
+    "ultimaAtividade": null,
+    "triado": true
   },
   {
     "processo_id": 1108665,
@@ -4616,7 +4464,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "26/09/2024",
-    "ultimaAtividade": "26/09/2024"
+    "ultimaAtividade": "26/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1108694,
@@ -4628,7 +4477,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "26/09/2024",
-    "ultimaAtividade": "26/09/2024"
+    "ultimaAtividade": "26/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1108702,
@@ -4640,7 +4490,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "26/09/2024",
-    "ultimaAtividade": "06/12/2024"
+    "ultimaAtividade": "06/12/2024",
+    "triado": true
   },
   {
     "processo_id": 1161762,
@@ -4652,7 +4503,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "14/08/2025",
-    "ultimaAtividade": "11/08/2026"
+    "ultimaAtividade": "11/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1108770,
@@ -4664,7 +4516,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "27/09/2024",
-    "ultimaAtividade": "02/10/2024"
+    "ultimaAtividade": "02/10/2024",
+    "triado": true
   },
   {
     "processo_id": 1109028,
@@ -4676,7 +4529,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "28/09/2024",
-    "ultimaAtividade": "04/10/2024"
+    "ultimaAtividade": "04/10/2024",
+    "triado": true
   },
   {
     "processo_id": 1109140,
@@ -4688,7 +4542,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "30/09/2024",
-    "ultimaAtividade": "21/10/2024"
+    "ultimaAtividade": "21/10/2024",
+    "triado": true
   },
   {
     "processo_id": 1162320,
@@ -4700,7 +4555,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "18/08/2025",
-    "ultimaAtividade": null
+    "ultimaAtividade": null,
+    "triado": true
   },
   {
     "processo_id": 1109290,
@@ -4712,31 +4568,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "30/09/2024",
-    "ultimaAtividade": "10/10/2024"
-  },
-  {
-    "processo_id": 1162518,
-    "numero": "23077.129336/2025-21",
-    "assunto": "SOLICITAÇÃO DE CONTRATAÇÃO DE ESPECIALISTAS/INSTRUTORES PARA O PROJETO DE EXTENSÃO \"CURSO DE INTRODUÇÃO À AGROECOLOGIA COM FOCO PRODUTIVO EM PLANTAS MEDICINAIS\"",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1162518",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "18/08/2025",
-    "ultimaAtividade": "29/01/2026"
-  },
-  {
-    "processo_id": 1162895,
-    "numero": "23077.130372/2025-38",
-    "assunto": "AQUISIÇÃO DE 200 CONES CONFECCIONADOS EM PVC SEMI-FLEXÍVEL E 50 METROS DE CORRENTE DE FERRO GALVANIZADA PARA DIRETORIA DE SEGURANÇA PATRIMONIAL (DSP).",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1162895",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "19/08/2025",
-    "ultimaAtividade": "25/11/2025"
+    "ultimaAtividade": "10/10/2024",
+    "triado": true
   },
   {
     "processo_id": 1109810,
@@ -4748,7 +4581,9 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "02/10/2024",
-    "ultimaAtividade": "30/10/2024"
+    "ultimaAtividade": "30/10/2024",
+    "triado": true,
+    "alertaEmpenhoSemExecucao": true
   },
   {
     "processo_id": 1109811,
@@ -4760,7 +4595,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "02/10/2024",
-    "ultimaAtividade": "18/11/2024"
+    "ultimaAtividade": "18/11/2024",
+    "triado": true
   },
   {
     "processo_id": 1109820,
@@ -4772,7 +4608,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "02/10/2024",
-    "ultimaAtividade": "04/10/2024"
+    "ultimaAtividade": "04/10/2024",
+    "triado": true
   },
   {
     "processo_id": 1109849,
@@ -4784,7 +4621,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "03/10/2024",
-    "ultimaAtividade": null
+    "ultimaAtividade": null,
+    "triado": true
   },
   {
     "processo_id": 1109914,
@@ -4796,7 +4634,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/10/2024",
-    "ultimaAtividade": "13/03/2026"
+    "ultimaAtividade": "13/03/2026",
+    "triado": true
   },
   {
     "processo_id": 1109980,
@@ -4808,7 +4647,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/10/2024",
-    "ultimaAtividade": "15/10/2024"
+    "ultimaAtividade": "15/10/2024",
+    "triado": true
   },
   {
     "processo_id": 1163594,
@@ -4820,7 +4660,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "21/08/2025",
-    "ultimaAtividade": "28/08/2025"
+    "ultimaAtividade": "28/08/2025",
+    "triado": true
   },
   {
     "processo_id": 1163868,
@@ -4832,7 +4673,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "22/08/2025",
-    "ultimaAtividade": "27/11/2025"
+    "ultimaAtividade": "27/11/2025",
+    "triado": true
   },
   {
     "processo_id": 1110397,
@@ -4844,7 +4686,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "08/10/2024",
-    "ultimaAtividade": "29/01/2026"
+    "ultimaAtividade": "29/01/2026",
+    "triado": true
   },
   {
     "processo_id": 1164440,
@@ -4856,7 +4699,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "26/08/2025",
-    "ultimaAtividade": "27/08/2025"
+    "ultimaAtividade": "27/08/2025",
+    "triado": true
   },
   {
     "processo_id": 1164466,
@@ -4868,7 +4712,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "26/08/2025",
-    "ultimaAtividade": "10/08/2026"
+    "ultimaAtividade": "10/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1110904,
@@ -4880,19 +4725,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "09/10/2024",
-    "ultimaAtividade": "21/10/2024"
-  },
-  {
-    "processo_id": 1110960,
-    "numero": "23077.135364/2024-05",
-    "assunto": "PLANEJAMENTO DE PARTICIPAÇÃO EM IRP DA CENTRAL DE COMPRAS - SEGES - ME, PARA CONTRATAÇÃO DE EMPRESAS ESPECIALIZADAS EM FORNECIMENTO DE EQUIPAMENTOS E SISTEMAS DE TRANSMISSÃO DE RÁDIO FM E FORNECIMENTO DE SOLUÇÃO INTEGRAL EM SISTEMAS DE TRANSMISSÃO DE TV DIGITAL PADRÃO ISDB-TB.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1110960",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "10/10/2024",
-    "ultimaAtividade": "19/02/2025"
+    "ultimaAtividade": "21/10/2024",
+    "triado": true
   },
   {
     "processo_id": 1111016,
@@ -4904,19 +4738,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "10/10/2024",
-    "ultimaAtividade": "21/10/2024"
-  },
-  {
-    "processo_id": 1111048,
-    "numero": "23077.135908/2024-21",
-    "assunto": "SOLICITAÇÃO DE ADESÃO PARA COMPRA DE 1 MEDIDOR DE LABORATÓRIO TIPO CANETA PARA A REALIZAÇÃO DE ANÁLISES VOLTADAS PARA PESQUISAS CIENTÍFICAS E AULAS PRÁTICAS EM LABORATÓRIO, ATIVIDADES IMPORTANTES PARA O PROCESSO DE FORMAÇÃO DOS DISCENTES.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1111048",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "10/10/2024",
-    "ultimaAtividade": "14/10/2024"
+    "ultimaAtividade": "21/10/2024",
+    "triado": true
   },
   {
     "processo_id": 1164860,
@@ -4928,7 +4751,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "27/08/2025",
-    "ultimaAtividade": "10/02/2026"
+    "ultimaAtividade": "10/02/2026",
+    "triado": true
   },
   {
     "processo_id": 1111101,
@@ -4940,31 +4764,9 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "10/10/2024",
-    "ultimaAtividade": "13/11/2024"
-  },
-  {
-    "processo_id": 1111106,
-    "numero": "23077.136091/2024-16",
-    "assunto": "SOLICITAÇÃO DE FORMALIZAÇÃO DE ADESÃO A ATA DE REGISTRO DE PREÇOS: PREGÃO Nº 45/2023, CONSELHO REGIONAL DE ENGENHARIA E AGRONOMIA DE MINAS GERAIS – CREA/MG - UASG: 389089, ITEM 11 - MESA RETANGULAR",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1111106",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "10/10/2024",
-    "ultimaAtividade": "06/11/2024"
-  },
-  {
-    "processo_id": 1111128,
-    "numero": "23077.136199/2024-09",
-    "assunto": "SOLICITAÇÃO DE SERVIÇO DE IMPRESSÃO DE UMA TIRAGEM DE 30 E-BOOKS CONTENDO 69 PÁGINAS, TAMANHO 210X280MM, A SER CONFECCIONADA EM PAPEL COUCHÊ 115G, COM IMPRESSÃO COLORIDA, PREFERENCIALMENTE COM RESOLUÇÃO DE 300DPI",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1111128",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "10/10/2024",
-    "ultimaAtividade": "16/10/2024"
+    "ultimaAtividade": "13/11/2024",
+    "triado": true,
+    "alertaEmpenhoSemExecucao": true
   },
   {
     "processo_id": 1111189,
@@ -4976,7 +4778,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "11/10/2024",
-    "ultimaAtividade": null
+    "ultimaAtividade": null,
+    "triado": true
   },
   {
     "processo_id": 1111219,
@@ -4988,7 +4791,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "apensado a 23077.034888/2026-33 (Concorrência) — apensação nesse caminho é hipótese não confirmada (CLAUDE.md 4.4), decisão manual necessária",
     "dataAbertura": "11/10/2024",
-    "ultimaAtividade": "16/03/2026"
+    "ultimaAtividade": "16/03/2026",
+    "triado": true
   },
   {
     "processo_id": 1165375,
@@ -5000,7 +4804,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "29/08/2025",
-    "ultimaAtividade": "07/11/2025"
+    "ultimaAtividade": "07/11/2025",
+    "triado": true
   },
   {
     "processo_id": 1165406,
@@ -5012,7 +4817,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "29/08/2025",
-    "ultimaAtividade": "08/09/2025"
+    "ultimaAtividade": "08/09/2025",
+    "triado": true
   },
   {
     "processo_id": 1165415,
@@ -5024,7 +4830,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "29/08/2025",
-    "ultimaAtividade": "29/08/2025"
+    "ultimaAtividade": "29/08/2025",
+    "triado": true
   },
   {
     "processo_id": 1165420,
@@ -5036,7 +4843,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "29/08/2025",
-    "ultimaAtividade": "11/09/2025"
+    "ultimaAtividade": "11/09/2025",
+    "triado": true
   },
   {
     "processo_id": 1165546,
@@ -5048,19 +4856,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "29/08/2025",
-    "ultimaAtividade": "01/09/2025"
-  },
-  {
-    "processo_id": 1165738,
-    "numero": "23077.138846/2025-90",
-    "assunto": "CONTRATAÇÃO DIRETA POR DISPENSA DE LICITAÇÃO",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1165738",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "01/09/2025",
-    "ultimaAtividade": "23/09/2025"
+    "ultimaAtividade": "01/09/2025",
+    "triado": true
   },
   {
     "processo_id": 1111921,
@@ -5072,7 +4869,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "16/10/2024",
-    "ultimaAtividade": "17/10/2024"
+    "ultimaAtividade": "17/10/2024",
+    "triado": true
   },
   {
     "processo_id": 1166158,
@@ -5084,7 +4882,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "02/09/2025",
-    "ultimaAtividade": "02/09/2025"
+    "ultimaAtividade": "02/09/2025",
+    "triado": true
   },
   {
     "processo_id": 1112173,
@@ -5096,7 +4895,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "17/10/2024",
-    "ultimaAtividade": "18/10/2024"
+    "ultimaAtividade": "18/10/2024",
+    "triado": true
   },
   {
     "processo_id": 1112337,
@@ -5108,7 +4908,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "18/10/2024",
-    "ultimaAtividade": "15/10/2024"
+    "ultimaAtividade": "15/10/2024",
+    "triado": true
   },
   {
     "processo_id": 1166622,
@@ -5120,7 +4921,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/09/2025",
-    "ultimaAtividade": "05/09/2025"
+    "ultimaAtividade": "05/09/2025",
+    "triado": true
   },
   {
     "processo_id": 1166624,
@@ -5132,7 +4934,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/09/2025",
-    "ultimaAtividade": "24/09/2025"
+    "ultimaAtividade": "24/09/2025",
+    "triado": true
   },
   {
     "processo_id": 1112520,
@@ -5144,7 +4947,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "21/10/2024",
-    "ultimaAtividade": "22/11/2024"
+    "ultimaAtividade": "22/11/2024",
+    "triado": true
   },
   {
     "processo_id": 1166989,
@@ -5156,7 +4960,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "05/09/2025",
-    "ultimaAtividade": "10/11/2025"
+    "ultimaAtividade": "10/11/2025",
+    "triado": true
   },
   {
     "processo_id": 1167004,
@@ -5168,7 +4973,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "05/09/2025",
-    "ultimaAtividade": "07/11/2025"
+    "ultimaAtividade": "07/11/2025",
+    "triado": true
   },
   {
     "processo_id": 1112903,
@@ -5180,7 +4986,9 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "22/10/2024",
-    "ultimaAtividade": "09/01/2025"
+    "ultimaAtividade": "09/01/2025",
+    "triado": true,
+    "alertaEmpenhoSemExecucao": true
   },
   {
     "processo_id": 1112964,
@@ -5192,7 +5000,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "22/10/2024",
-    "ultimaAtividade": "25/10/2024"
+    "ultimaAtividade": "25/10/2024",
+    "triado": true
   },
   {
     "processo_id": 1167425,
@@ -5204,7 +5013,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "08/09/2025",
-    "ultimaAtividade": null
+    "ultimaAtividade": null,
+    "triado": true
   },
   {
     "processo_id": 1167437,
@@ -5216,7 +5026,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "08/09/2025",
-    "ultimaAtividade": null
+    "ultimaAtividade": null,
+    "triado": true
   },
   {
     "processo_id": 1167446,
@@ -5228,19 +5039,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "08/09/2025",
-    "ultimaAtividade": null
-  },
-  {
-    "processo_id": 1167454,
-    "numero": "23077.144214/2025-65",
-    "assunto": "A AQUISIÇÃO DESSES NOTEBOOKS É ESSENCIAL PARA GARANTIR O SUPORTE ADEQUADO ÀS DEMANDAS ACADÊMICAS E ADMINISTRATIVAS DA FELCS, CONTRIBUINDO DIRETAMENTE PARA A MELHORIA DAS ATIVIDADES DE ENSINO, DESENVOLVIMENTO DE PESQUISAS E EXECUÇÃO DE AÇÕES DE EXTENSÃO.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1167454",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "08/09/2025",
-    "ultimaAtividade": "30/10/2025"
+    "ultimaAtividade": null,
+    "triado": true
   },
   {
     "processo_id": 1113226,
@@ -5252,19 +5052,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "23/10/2024",
-    "ultimaAtividade": "25/10/2024"
-  },
-  {
-    "processo_id": 1167464,
-    "numero": "23077.144286/2025-11",
-    "assunto": "PROCESSO PARA AQUISIÇÃO DE KIT DE HIGIENE BUCAL ADULTO",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1167464",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "08/09/2025",
-    "ultimaAtividade": "14/11/2025"
+    "ultimaAtividade": "25/10/2024",
+    "triado": true
   },
   {
     "processo_id": 1167531,
@@ -5276,7 +5065,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "09/09/2025",
-    "ultimaAtividade": "05/11/2025"
+    "ultimaAtividade": "05/11/2025",
+    "triado": true
   },
   {
     "processo_id": 1167611,
@@ -5288,7 +5078,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "09/09/2025",
-    "ultimaAtividade": "11/11/2025"
+    "ultimaAtividade": "11/11/2025",
+    "triado": true
   },
   {
     "processo_id": 1167640,
@@ -5300,7 +5091,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "09/09/2025",
-    "ultimaAtividade": "11/09/2025"
+    "ultimaAtividade": "11/09/2025",
+    "triado": true
   },
   {
     "processo_id": 1167666,
@@ -5312,31 +5104,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "09/09/2025",
-    "ultimaAtividade": "05/11/2025"
-  },
-  {
-    "processo_id": 1113584,
-    "numero": "23077.145605/2024-16",
-    "assunto": "PROGRAMA DE PÓS-GRADUAÇÃO EM CIÊNCIAS ODONTOLÓGICAS SOLICITA MATERIAL PARA PESQUISA ODONTOLÓGICA (KIT DE AGENTE CARIOSTÁTICO).",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1113584",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "25/10/2024",
-    "ultimaAtividade": "06/11/2024"
-  },
-  {
-    "processo_id": 1167859,
-    "numero": "23077.145820/2025-06",
-    "assunto": "AQUISIÇÃO DE DESKTOPS E MONITORES - DISPENSA DE LICITAÇÃO",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1167859",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "10/09/2025",
-    "ultimaAtividade": "07/11/2025"
+    "ultimaAtividade": "05/11/2025",
+    "triado": true
   },
   {
     "processo_id": 1167871,
@@ -5348,7 +5117,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "10/09/2025",
-    "ultimaAtividade": "09/10/2025"
+    "ultimaAtividade": "09/10/2025",
+    "triado": true
   },
   {
     "processo_id": 1113657,
@@ -5360,19 +5130,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "25/10/2024",
-    "ultimaAtividade": "06/11/2024"
-  },
-  {
-    "processo_id": 1167876,
-    "numero": "23077.145875/2025-16",
-    "assunto": "AQUISIÇÃO DE FIOS DE NYLON PARA ROÇADEIRA E CORTADOR DE GRAMA",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1167876",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "10/09/2025",
-    "ultimaAtividade": "03/11/2025"
+    "ultimaAtividade": "06/11/2024",
+    "triado": true
   },
   {
     "processo_id": 1167895,
@@ -5384,7 +5143,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "10/09/2025",
-    "ultimaAtividade": "22/09/2025"
+    "ultimaAtividade": "22/09/2025",
+    "triado": true
   },
   {
     "processo_id": 1113859,
