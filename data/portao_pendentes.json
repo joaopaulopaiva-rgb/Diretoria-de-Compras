@@ -249,34 +249,6 @@
     "statusChecado": true
   },
   {
-    "processo_id": 1074371,
-    "numero": "23077.005669/2024-85",
-    "assunto": "IMPORTAÇÃO DIRETA PARA COMPRA MICROSCÓPIO SEM CAMARÁ FOTOGRÁFICA",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1074371",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "17/01/2024",
-    "ultimaAtividade": "17/01/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1074374,
-    "numero": "23077.005682/2024-34",
-    "assunto": "TAXAS PARA IMPORTAÇÃO DIRETA MICROSCOPIO COM CAMARA",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1074374",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "17/01/2024",
-    "ultimaAtividade": "17/01/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
     "processo_id": 1189808,
     "numero": "23077.006332/2026-57",
     "assunto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE REMOÇÃO, TRANSPORTE, TRATAMENTO E DESTINAÇÃO FINAL DE RESÍDUOS QUÍMICOS PARA ATENDER DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES.",
@@ -391,20 +363,6 @@
     "statusChecado": true
   },
   {
-    "processo_id": 1125979,
-    "numero": "23077.014165/2025-37",
-    "assunto": "AQUISIÇÃO DE MATERIAL ODONTOLÓGICO",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1125979",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "30/01/2025",
-    "ultimaAtividade": "30/01/2025",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
     "processo_id": 1126544,
     "numero": "23077.016091/2025-73",
     "assunto": "PROCESSO DE MANUTENÇÃO DE OBOÉS DA EMUFRN",
@@ -415,20 +373,6 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/02/2025",
     "ultimaAtividade": "11/02/2025",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1077158,
-    "numero": "23077.016389/2024-01",
-    "assunto": "COMPRA DE FORMOL",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1077158",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "09/02/2024",
-    "ultimaAtividade": "09/02/2024",
     "triado": true,
     "statusChecado": true
   },
@@ -527,34 +471,6 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "19/02/2025",
     "ultimaAtividade": "19/02/2025",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1079386,
-    "numero": "23077.024667/2024-95",
-    "assunto": "ANALISAR MELHOR FORMA PARA AQUISIÇÃO DE ASPERSORES ROTORES PARA IRRIGAÇÃO DE CAMPO DE FUTEBOL DO COESPE/UFRN.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1079386",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "29/02/2024",
-    "ultimaAtividade": "05/03/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1079400,
-    "numero": "23077.024737/2024-13",
-    "assunto": "LISTA DE EQUIPAMENTOS - ESTÚDIO DE FOTOGRAFIA DO DEPARTAMENTO DE COMUNICAÇÃO SOCIAL",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1079400",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "29/02/2024",
-    "ultimaAtividade": "03/04/2024",
     "triado": true,
     "statusChecado": true
   },
@@ -667,20 +583,6 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "05/03/2026",
     "ultimaAtividade": "24/04/2026",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1080043,
-    "numero": "23077.026910/2024-18",
-    "assunto": "PLANEJAMENTO PARA CONTRATAÇÃO DE SERVIÇOS DE DIGITALIZAÇÃO DE DOCUMENTOS DE ASSENTAMENTO FUNCIONAL DIGITAL (AFD), NO QUE TANGE O ACERVO FÍSICO LEGADO, PARA AS UNIDADES PAGADORAS (UPAGS) DOS ÓRGÃOS/ENTIDADES DA ADMINISTRAÇÃO PÚBLICA DE MODO A ATENDER O ESCOPO DO PROJETO DE ASSENTAMENTO FUNCIONAL DIGITAL (AFD)",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1080043",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "04/03/2024",
-    "ultimaAtividade": "04/03/2024",
     "triado": true,
     "statusChecado": true
   },
@@ -799,20 +701,6 @@
     "statusChecado": true
   },
   {
-    "processo_id": 1081565,
-    "numero": "23077.032939/2024-21",
-    "assunto": "CONTRATAÇÃO DO SERVIÇO E MANUTENÇÃO DO USO DA FERRAMENTA WHATSAPP CLOUD API BUSINNES",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1081565",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "13/03/2024",
-    "ultimaAtividade": "19/03/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
     "processo_id": 1198026,
     "numero": "23077.032951/2026-05",
     "assunto": "ADESÃO CARONA - OVO DE GALINHA - NATAL DISTRIBUIDORA",
@@ -869,20 +757,6 @@
     "triado": true,
     "alertaRedirecionado": true,
     "processoDestino": "23077.114834/2023-16",
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1082962,
-    "numero": "23077.037557/2024-93",
-    "assunto": "AQUISIÇÃO DE COMPONENTES ELETRONICOS DE ÁUDIO (CONECTORES E CABO BALANCEADO) PARA EMUFRN",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1082962",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "21/03/2024",
-    "ultimaAtividade": "09/12/2024",
-    "triado": true,
     "statusChecado": true
   },
   {
@@ -986,20 +860,6 @@
     "statusChecado": true
   },
   {
-    "processo_id": 1084432,
-    "numero": "23077.042824/2024-44",
-    "assunto": "CONTRATAÇÃO DE CLÍNICA PARA REALIZAÇÃO DE EXAMES LABORATORIAIS.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1084432",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "04/04/2024",
-    "ultimaAtividade": "30/09/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
     "processo_id": 1136279,
     "numero": "23077.046836/2025-29",
     "assunto": "SOLICITAÇÃO DE DISPENSA DE LICITAÇÃO PARA AQUISIÇÃO DE POLPAS DE FRUTAS",
@@ -1097,34 +957,6 @@
     "triado": true,
     "alertaRedirecionado": true,
     "processoDestino": "23077.114834/2023-16",
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1086171,
-    "numero": "23077.049220/2024-29",
-    "assunto": "EXECUÇÃO DE SERVIÇOS DE ADAPTAÇÃO DAS INSTALAÇÕES DO LABORATÓRIO DE HABILIDADES DO CENTRO DE CIÊNCIAS DA SAÚDE DA UFRN",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1086171",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "19/04/2024",
-    "ultimaAtividade": "19/04/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1086197,
-    "numero": "23077.049364/2024-85",
-    "assunto": "OFÍCIO Nº 047/2024/DIRETORIA DE LOGISTICA/UFRN",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1086197",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "19/04/2024",
-    "ultimaAtividade": "22/04/2024",
-    "triado": true,
     "statusChecado": true
   },
   {
@@ -1255,34 +1087,6 @@
     "statusChecado": true
   },
   {
-    "processo_id": 1087833,
-    "numero": "23077.055716/2024-31",
-    "assunto": "PLANEJAMENTO DE AQUISIÇÃO DE MATERIAL DE PROTEÇÃO E SEGURANÇA",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1087833",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "10/05/2024",
-    "ultimaAtividade": "18/09/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1087835,
-    "numero": "23077.055744/2024-59",
-    "assunto": "PLANEJAMENTO DE AQUISIÇÃO DE EXTINTORES",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1087835",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "10/05/2024",
-    "ultimaAtividade": "12/09/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
     "processo_id": 1087964,
     "numero": "23077.056258/2024-58",
     "assunto": "PR - AQUISIÇÃO DE MATERIAL FARMACOLÓGICO (3009) - PCA 25",
@@ -1293,20 +1097,6 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "13/05/2024",
     "ultimaAtividade": "22/12/2025",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1088100,
-    "numero": "23077.056743/2024-21",
-    "assunto": "PROCESSO DESTINADO A COMPRA DE MATERIAIS VOLTADOS A SUPERINTENDÊNCIA DE COMUNICAÇÃO, OS QUAIS SERÃO ARCADOS COM VERBA ADVINDA DE EMENDA PARLAMENTAR.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1088100",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "14/05/2024",
-    "ultimaAtividade": "03/07/2024",
     "triado": true,
     "statusChecado": true
   },
@@ -1341,34 +1131,6 @@
     "statusChecado": true
   },
   {
-    "processo_id": 1088350,
-    "numero": "23077.057650/2024-14",
-    "assunto": "OFÍCIO DE SOLICITAÇÃO DE MATERIAIS GRÁFICOS, ESPECIFICAMENTE BOTTONS PERSONALIZADOS, ADESIVO DIGITAL, BOLSA TIPO ECOBAG EM ALGODÃO, BANNERS, LIVRO COLORIDO, RÓTULOS PARA ALIMENTOS, CARTILHAS E CARIMBO PERSONALIZADO, OS QUAIS SÃO FUNDAMENTAIS PARA A EFETIVAÇÃO DAS AÇÕES QUE VÊM SENDO DESENVOLVIDAS EM DIFERENTES PROJETOS DE EXTENSÃO.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1088350",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "17/05/2024",
-    "ultimaAtividade": "17/05/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1088378,
-    "numero": "23077.057755/2024-73",
-    "assunto": "CONTRATAÇÃO DE PROGRAMA EXTERNO DE CERTIFICAÇÃO DE QUALIDADE PARA ACREDITAÇÃO DOS LABORATÓRIOS DA UNIDADE CLÍNICA DO IMT-RN, CONFORME EXIGÊNCIA DA COVISA.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1088378",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "17/05/2024",
-    "ultimaAtividade": "21/05/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
     "processo_id": 1204932,
     "numero": "23077.058391/2026-19",
     "assunto": "AQUISIÇÃO DE PROTOBOARDS COM 1660 FUROS E BASE METÁLICA PARA REALIZAR MONTAGENS ELETRÔNICAS SEM NECESSIDADE DE SOLDA DE COMPONENTES. ESSAS PROTOBOARDS NÃO SE ENCONTRAM DISPONÍVEIS NO PREGÃO.",
@@ -1379,34 +1141,6 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "30/04/2026",
     "ultimaAtividade": "29/05/2026",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1088857,
-    "numero": "23077.059294/2024-73",
-    "assunto": "AQUISIÇÃO DE MONITORES PARA LABORATÓRIO DE INFORMÁTICA DO DEPARTAMENTO DE ARQUITETURA",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1088857",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "23/05/2024",
-    "ultimaAtividade": "10/06/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1089085,
-    "numero": "23077.059995/2024-11",
-    "assunto": "PROCESSO DE PLANEJAMENTO PARA AQUISIÇÃO DE BEBEDOUROS E VENTILADORES",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1089085",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "27/05/2024",
-    "ultimaAtividade": "27/05/2024",
     "triado": true,
     "statusChecado": true
   },
@@ -1551,20 +1285,6 @@
     "statusChecado": true
   },
   {
-    "processo_id": 1090779,
-    "numero": "23077.064879/2024-13",
-    "assunto": "AQUISIÇÃO DE MATERIAIS PARA RESTAURAÇÃO DE ACERVO BIBLIOGRÁFICO PELO PROJETO \"PRESERVANDO A MEMÓRIA DE ZILA MAMEDE\"",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1090779",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "13/06/2024",
-    "ultimaAtividade": "10/07/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
     "processo_id": 1207154,
     "numero": "23077.065705/2026-21",
     "assunto": "SOLICITAÇÃO PARA COMPRA POR DISPENSA DE LICITAÇÃO",
@@ -1659,20 +1379,6 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "07/05/2025",
     "ultimaAtividade": "31/03/2026",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1091781,
-    "numero": "23077.067782/2024-54",
-    "assunto": "PLANEJAMENTO DE CONTRATAÇÃO DE SERVIÇO DE TRADUÇÃO SIMULTÂNEA PARA O PROJETO EV169-2024 - TRADUÇÃO DO CONHECIMENTO: COMO APROXIMAR A PESQUISA CIENTÍFICA DA PRÁTICA CLÍNICA PARA A PRODUÇÃO DE PRÁTICAS BASEADAS EM EVIDÊNCIAS NOS PROGRAMAS PÓS-GRADUAÇÃO DE SAÚDE COLETIVA, E CIÊNCIAS DA REABILITAÇÃO DA FACISA/UFRN.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1091781",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "20/06/2024",
-    "ultimaAtividade": "17/07/2024",
     "triado": true,
     "statusChecado": true
   },
@@ -1848,20 +1554,6 @@
     "statusChecado": true
   },
   {
-    "processo_id": 1092964,
-    "numero": "23077.071081/2024-10",
-    "assunto": "DEMANDA DA AUDITORIA INTERNA RELATIVA À EQUIPAMENTO DE TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO (TIC).",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1092964",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "28/06/2024",
-    "ultimaAtividade": "09/07/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
     "processo_id": 1208793,
     "numero": "23077.071179/2026-39",
     "assunto": "SOLICITAÇÃO DE MANUTENÇÃO EM PORTAS DE ROLO DO ALMOXARIFADO CENTRAL DA UFRN - CONTRATA+BRASIL",
@@ -1892,20 +1584,6 @@
     "statusChecado": true
   },
   {
-    "processo_id": 1093103,
-    "numero": "23077.071508/2024-80",
-    "assunto": "DISPENSA DE LICITAÇÃO PARA CONTRATAÇÃO DE SERVIÇOS DE ISOLAMENTO TÉRMICO DE APARELHOS DE AR CONDICIONADO NO LABORATÓRIO DE MEMÓRIA DO INSTITUTO DO CÉREBRO.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1093103",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "01/07/2024",
-    "ultimaAtividade": "03/07/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
     "processo_id": 1093215,
     "numero": "23077.071865/2024-48",
     "assunto": "COMPRA DE EQUIPAMENTOS PARA O IPP POR MEIO DE EMENDA PARLAMENTAR",
@@ -1932,20 +1610,6 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "25/05/2026",
     "ultimaAtividade": "24/07/2026",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1093361,
-    "numero": "23077.072354/2024-43",
-    "assunto": "SOLICITAÇÃO DE EQUIPAMENTO PARA MANUTENÇÃO DO ELEVADOR",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1093361",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "02/07/2024",
-    "ultimaAtividade": "03/07/2024",
     "triado": true,
     "statusChecado": true
   },
@@ -1988,20 +1652,6 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "27/05/2026",
     "ultimaAtividade": "05/08/2026",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1094100,
-    "numero": "23077.074400/2024-49",
-    "assunto": "VERBA APROVADA NO EDITAL PROEX DESTINADA AO PROJETO MEMORIAL DO GRUPO PARAFOLCÓRICO DA UFRN- CÓDIGO PJ654-2024",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1094100",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "05/07/2024",
-    "ultimaAtividade": "23/09/2024",
     "triado": true,
     "statusChecado": true
   },
@@ -2202,20 +1852,6 @@
     "statusChecado": true
   },
   {
-    "processo_id": 1097831,
-    "numero": "23077.087220/2024-27",
-    "assunto": "PLANEJAMENTO DE CONTRATAÇÃO DE SERVIÇOS DE PESSOA FÍSICA E JURÍDICA",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1097831",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "26/07/2024",
-    "ultimaAtividade": "13/11/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
     "processo_id": 1097933,
     "numero": "23077.087559/2024-23",
     "assunto": "AQUISIÇÃO DE 2 COMPUTADORES COMPLETOS DO TIPO DESKTOP PARA A SECRETARIA DO PROGRAMA DE PÓS-GRADUAÇÃO EM GESTÃO DA QUALIDADE EM SERVIÇOS DE SAÚDE (PPGQUALISAÚDE).",
@@ -2387,20 +2023,6 @@
     "statusChecado": true
   },
   {
-    "processo_id": 1098972,
-    "numero": "23077.092051/2024-47",
-    "assunto": "SOLICITAÇÃO DE COMPRA DE MATERIAL",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1098972",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "05/08/2024",
-    "ultimaAtividade": "09/08/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
     "processo_id": 1216082,
     "numero": "23077.092616/2026-58",
     "assunto": "SOLICITAÇÃO DE ADESÃO: CARNES",
@@ -2485,20 +2107,6 @@
     "statusChecado": true
   },
   {
-    "processo_id": 1099874,
-    "numero": "23077.095949/2024-77",
-    "assunto": "CONTRATAÇÃO DO SR. EMANOEL LUIZGINO BARROS DE LIMA, CNPJ 25.208.577/0001-14 PARA PRODUÇÃO DE ARRANJOS MUSICAIS PARA O GRUPO POTIBONES/UFRN",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1099874",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "12/08/2024",
-    "ultimaAtividade": "03/12/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
     "processo_id": 1217065,
     "numero": "23077.096049/2026-17",
     "assunto": "AQUISIÇÃO DE FILAMENTO PARA IMPRESSORA 3D",
@@ -2509,34 +2117,6 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "08/07/2026",
     "ultimaAtividade": "12/08/2026",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1100065,
-    "numero": "23077.096638/2024-25",
-    "assunto": "OFICIO",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1100065",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "12/08/2024",
-    "ultimaAtividade": "12/08/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1100075,
-    "numero": "23077.096667/2024-97",
-    "assunto": "EU COORDENADORA E RESPONSÁVEL PELO PROJETO DE EXTENSÃO CITADO, VENHO POR MEIO DESTE SOLICITAR A AQUISIÇÃO DOS ITENS LISTADOS ABAIXO, VISTO QUE NÃO LOCALIZEI ITENS VIGENTES EM PREGÕES ATIVOS DA UFRN.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1100075",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "12/08/2024",
-    "ultimaAtividade": "30/09/2024",
     "triado": true,
     "statusChecado": true
   },
@@ -2583,20 +2163,6 @@
     "statusChecado": true
   },
   {
-    "processo_id": 1100435,
-    "numero": "23077.098144/2024-85",
-    "assunto": "SOLICITO ORIENTAÇÕES SOBRE A MODALIDADE DE CONTRATAÇÃO MAIS ADEQUADA PARA O SERVIÇO DESCRITO ABAIXO, BEM COMO A LISTA DE DOCUMENTOS INICIAIS QUE DEVEM SER PROVIDENCIADOS PARA COMPOR O PROCESSO DE CONTRATAÇÃO. 1. PROFISSIONAL A SER CONTRATADO: ILUSTRADOR/QUADRINISTA 2. DEMANDA - SERVIÇO A SER REALIZADO ILUSTRAÇÃO DE UMA HISTÓRIA EM QUADRINHOS (HQ) SOBRE AS EXPEDIÇÕES CIENTÍFICAS DO MUSEU CÂMARA CASCUDO/UFRN, PRODUTO DO PROJETO DE EXTENSÃO PJ343-2024 AVENTURAS EM QUADRINHOS - EXPEDIÇÕES CIENTÍFICAS DO MUSEU C MARA CASCUDO (2024)",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1100435",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "14/08/2024",
-    "ultimaAtividade": "02/12/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
     "processo_id": 1152939,
     "numero": "23077.098147/2025-08",
     "assunto": "AQUISIÇÃO DE IMPRESSORA 3D PARA IMPRESSÃO DE COMPONENTES DA CABINE DE MEDIÇÃO 13,8 KV EM TECNIL, PLA OU POLIMÉRICO.",
@@ -2607,34 +2173,6 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "30/06/2025",
     "ultimaAtividade": null,
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1100443,
-    "numero": "23077.098175/2024-36",
-    "assunto": "AQUISIÇÃO DE COLA ADESIVO DE CONTATO - 2,8 KG PARA USO NO AUDITÓRIO DA FACISA.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1100443",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "14/08/2024",
-    "ultimaAtividade": "15/08/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1100602,
-    "numero": "23077.098948/2024-84",
-    "assunto": "TREINAMENTO DE CAPACITAÇÃO DO MÓDULO 1 DO SAGE",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1100602",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "15/08/2024",
-    "ultimaAtividade": "21/08/2024",
     "triado": true,
     "statusChecado": true
   },
@@ -2650,34 +2188,6 @@
     "dataAbertura": "15/07/2026",
     "ultimaAtividade": "12/08/2026",
     "alertaEmpenhoSemExecucao": true,
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1101052,
-    "numero": "23077.100370/2024-33",
-    "assunto": "CONTRATAÇÃO VIA ADESÃO(CARONA) PARA SERVIÇO DE TRANSPORTE ÔNIBUS",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1101052",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "16/08/2024",
-    "ultimaAtividade": "23/08/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1101322,
-    "numero": "23077.101457/2024-28",
-    "assunto": "AQUISIÇÃO DE EQUIPAMENTOS DE LABORATÓRIO VIA ADESÃO À ATAS DE PREGÃO",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1101322",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "19/08/2024",
-    "ultimaAtividade": "20/08/2024",
     "triado": true,
     "statusChecado": true
   },
@@ -2720,34 +2230,6 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "18/07/2026",
     "ultimaAtividade": "28/07/2026",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1101962,
-    "numero": "23077.103921/2024-11",
-    "assunto": "PLANEJAMENTO DE COMPRA DE CONTRATAÇÃO PARA AQUISIÇÃO DE BATERIAS PARA INSTALAÇÃO DE INSTRUMENTOS PLUVIOMÉTRICOS E SENSORES DE NÍVEL NA BACIA HIDROGRÁFICA DO RIO PITIMBU, VINCULADA A SUBREDE ÁGUA E SOLO DO PROJETO INCT KLIMAPOLIS.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1101962",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "22/08/2024",
-    "ultimaAtividade": "16/09/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1102205,
-    "numero": "23077.104737/2024-98",
-    "assunto": "AQUISIÇÃO DE SAXOFONES PARA A EMUFRN",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1102205",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "23/08/2024",
-    "ultimaAtividade": "31/10/2024",
     "triado": true,
     "statusChecado": true
   },
@@ -2936,20 +2418,6 @@
     "statusChecado": true
   },
   {
-    "processo_id": 1103646,
-    "numero": "23077.109527/2024-96",
-    "assunto": "SOLICITO ORIENTAÇÕES SOBRE A MODALIDADE DE CONTRATAÇÃO MAIS ADEQUADA PARA O SERVIÇO DESCRITO ABAIXO, BEM COMO A LISTA DE DOCUMENTOS INICIAIS QUE DEVEM SER PROVIDENCIADOS PARA COMPOR O PROCESSO DE CONTRATAÇÃO. 1. PROFISSIONAL A SER CONTRATADO: ATOR OU GRUPO TEATRAL PARA CONTAÇÃO DE HISTÓRIAS PARA O PÚBLICO INFANTIL. 2. DEMANDA - SERVIÇO A SER REALIZADO 3 SESSÕES DE CONTAÇÃO DE HISTÓRIA, DE NO MÍNIMO 40 MINUTOS CADA, COM TEMAS RELACIONADOS A MEIO AMBIENTE, SUSTENTABILIDADE, INCLUSÃO E ACESSIBILIDADE, CIÊNCIA, CULTURA POPULAR OU DIREITOS HUMANOS, PARA COMPOR A PROGRAMAÇÃO EDUCATIVA E CULTURAL DO PROJETO DE EXTENSÃO PJ784-2024 MINHA COMUNIDADE VAI AO MUSEU.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103646",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "30/08/2024",
-    "ultimaAtividade": "20/09/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
     "processo_id": 1221346,
     "numero": "23077.109984/2026-42",
     "assunto": "ASSINATURA REFERENTE AO PLANO DE 02 (DOIS) ANOS DA LISTA DE AUTORIDADES GOVERNAMENTAIS - LAG (2026 - 2028)",
@@ -2960,20 +2428,6 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "29/07/2026",
     "ultimaAtividade": "20/07/2026",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1103849,
-    "numero": "23077.110351/2024-15",
-    "assunto": "AQUISIÇÃO DE GORRO DESCARTÁVEL, SERINGA DE 1ML E AGULHA (26G X 1/2'') PARA O BIOTÉRIO CENTRAL DO CB.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103849",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "02/09/2024",
-    "ultimaAtividade": "09/09/2024",
     "triado": true,
     "statusChecado": true
   },
@@ -3197,20 +2651,6 @@
     "statusChecado": true
   },
   {
-    "processo_id": 1106045,
-    "numero": "23077.118052/2024-29",
-    "assunto": "SOLICITAÇÃO DE AQUISIÇÃO DE “CADERNETAS DE CAMPO” QUE SERÃO UTILIZADAS, NOS TRABALHOS DE CAMPO, EM NOSSO PROJETO, JUNTO À EQUIPE E A NOSSOS PARCEIROS, COMO PARTE RELEVANTE DE NOSSA ESTRATÉGIA DE “MAPEAMENTO PARTICIPATIVO” E DE TROCA DE INFORMAÇÕES SOCIOAMBIENTAIS.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1106045",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "13/09/2024",
-    "ultimaAtividade": "18/09/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
     "processo_id": 1106116,
     "numero": "23077.118364/2024-32",
     "assunto": "SOLICITAÇÃO DE ADESÃO PARA COMPRA DE 50 BATERIAS 12V 7A PARA MANUTENÇÃO GERAL DOS NOBREAKS DA ADMINISTRAÇÃO, BIBLIOTECA, BACHARELADO DE SISTEMAS DE INFORMAÇÃO E LABORATÓRIOS DO CERES.",
@@ -3221,20 +2661,6 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "13/09/2024",
     "ultimaAtividade": "19/09/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1106272,
-    "numero": "23077.119055/2024-80",
-    "assunto": "AQUISIÇÃO DE AR-CONDICIONADOS - DISPENSA DE LICITAÇÃO",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1106272",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "16/09/2024",
-    "ultimaAtividade": "18/09/2024",
     "triado": true,
     "statusChecado": true
   },
@@ -3353,20 +2779,6 @@
     "statusChecado": true
   },
   {
-    "processo_id": 1107093,
-    "numero": "23077.121497/2024-96",
-    "assunto": "PLANEJAMENTO DE CONTRATAÇÃO/AQUISIÇÃO",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1107093",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "18/09/2024",
-    "ultimaAtividade": "20/09/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
     "processo_id": 1161132,
     "numero": "23077.125187/2025-21",
     "assunto": "SOLICITAÇÃO DE ADESÃO: EPI TIPO GORRO/TOUCA",
@@ -3411,20 +2823,6 @@
     "statusChecado": true
   },
   {
-    "processo_id": 1108665,
-    "numero": "23077.126825/2024-41",
-    "assunto": "AQUISIÇÃO DE EQUIPAMENTOS DE TRANSMISSÃO PARA ATENDER DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1108665",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "26/09/2024",
-    "ultimaAtividade": "26/09/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
     "processo_id": 1108702,
     "numero": "23077.126974/2024-18",
     "assunto": "SOLICITAÇÃO DE FORMALIZAÇÃO DE ADESÃO A ATA DE REGISTRO DE PREÇOS: PREGÃO Nº 90030/2024, UASG 070008 - TRIBUNAL REGIONAL ELEITORAL DO RIO GRANDE DO NORTE – TRE/RN, ITEM 02 - MICROCOMPUTADOR.",
@@ -3451,34 +2849,6 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "14/08/2025",
     "ultimaAtividade": "11/08/2026",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1108770,
-    "numero": "23077.127319/2024-79",
-    "assunto": "ADESÃO: SWITCHES POE PARA SISTEMA DE VIGILANCIA DA EAJ",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1108770",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "27/09/2024",
-    "ultimaAtividade": "02/10/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1109028,
-    "numero": "23077.128166/2024-87",
-    "assunto": "REALIZAÇÃO DE UMA REVISÃO DA PESQUISA NACIONAL QUE ABORDA TEMAS E INTERESSES RELACIONADOS ÀS COLÔNIAS DE PESCA, COM O OBJETIVO DE SUBSIDIAR ATIVIDADES DE FORMAÇÃO EM SEGURANÇA ALIMENTAR E NUTRICIONAL (SAN), ALÉM DE ORIENTAR O PROCESSAMENTO E COMERCIALIZAÇÃO DE ALIMENTOS BENEFICIADOS.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1109028",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "28/09/2024",
-    "ultimaAtividade": "04/10/2024",
     "triado": true,
     "statusChecado": true
   },
@@ -3612,34 +2982,6 @@
     "statusChecado": true
   },
   {
-    "processo_id": 1110904,
-    "numero": "23077.135212/2024-02",
-    "assunto": "SOLICITAÇÃO DE FORMALIZAÇÃO DE ADESÃO A ATA DE REGISTRO DE PREÇOS: PREGÃO Nº 90005/2024, UASG 170334 - SUPERINTENDÊNCIA REGIONAL DE ADMINISTRAÇÃO DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS NO ACRE, ITENS 46 E 47 - POLTRONAS DE AUDITÓRIO",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1110904",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "09/10/2024",
-    "ultimaAtividade": "21/10/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1111016,
-    "numero": "23077.135780/2024-03",
-    "assunto": "AQUISIÇÃO DE AR CONDICIONADO 22.000 BTU",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1111016",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "10/10/2024",
-    "ultimaAtividade": "21/10/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
     "processo_id": 1164860,
     "numero": "23077.135929/2025-27",
     "assunto": "AQUISIÇÃO DE MÓVEIS (PARA ESCRITÓRIO) PARA O SETOR CIRÚRGICO DEPARTAMENTO DE ODONTOLOGIA",
@@ -3725,20 +3067,6 @@
     "statusChecado": true
   },
   {
-    "processo_id": 1112173,
-    "numero": "23077.140387/2024-23",
-    "assunto": "SOLICITAÇÃO DE ADESÃO DE ATA DE REGISTRO DE PREÇOS Nº 00063/2024 PARA AQUISIÇÃO DE UNIFORMES RESISTENTE A FOGO PARA OS SERVIDORES DO SETOR DE MANUTENÇÃO ELÉTRICA QUE OPERAM O SISTEMA ELÉTRICO DE POTÊNCIA DA UFRN.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1112173",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "17/10/2024",
-    "ultimaAtividade": "18/10/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
     "processo_id": 1166624,
     "numero": "23077.141549/2025-21",
     "assunto": "AQUISIÇÃO DE PLÁSTICO BOLHA PARA REALIZAÇÃO DA MUDANÇA DE RETORNO DO ACERVO APÓS REFORMA DO MUSEU DO SERIDÓ",
@@ -3749,20 +3077,6 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/09/2025",
     "ultimaAtividade": "24/09/2025",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1112520,
-    "numero": "23077.141846/2024-96",
-    "assunto": "PLANEJAMENTO PARA CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM MANUTENÇÃO PREVENTIVA E CORRETIVA, COM EMISSÃO DE CERTIFICADO E EVENTUAL SUBSTITUIÇÃO DE PEÇAS E FILTROS, PARA OS SISTEMAS DE CLIMATIZAÇÃO DE EXPANSÃO INDIRETA (ÁGUA GELADA) INSTALADOS NO PRÉDIO DO NUPLAM DA UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE (UFRN).",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1112520",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "21/10/2024",
-    "ultimaAtividade": "22/11/2024",
     "triado": true,
     "statusChecado": true
   },
@@ -3809,20 +3123,6 @@
     "statusChecado": true
   },
   {
-    "processo_id": 1113226,
-    "numero": "23077.144265/2024-14",
-    "assunto": "REGISTRO DOS PROCEDIMENTOS DE AQUISIÇÃO DE MATERIAIS INFORMACIONAIS IMPORTADOS: 2024-2025",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1113226",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "23/10/2024",
-    "ultimaAtividade": "25/10/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
     "processo_id": 1167531,
     "numero": "23077.144458/2025-48",
     "assunto": "AQUISIÇÃO DE MATERIAIS GRÁFICOS (ADESÃO)",
@@ -3847,20 +3147,6 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "09/09/2025",
     "ultimaAtividade": "11/11/2025",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1113657,
-    "numero": "23077.145866/2024-36",
-    "assunto": "SOLICITAÇÃO DE ADESÃO ATRAVÉS DO PROCESSO LICITATÓRIO PREGÃO NO 90028/2024 (SRP), UASG 070008, REFERENTE A COMPRA DO PANO DE LIMPEZA.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1113657",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "25/10/2024",
-    "ultimaAtividade": "06/11/2024",
     "triado": true,
     "statusChecado": true
   },
@@ -3935,20 +3221,6 @@
     "statusChecado": true
   },
   {
-    "processo_id": 1114076,
-    "numero": "23077.147457/2024-74",
-    "assunto": "O PROJETO \"PRÁTICAS SOCIAIS, LETRAMENTOS E LÍNGUA DE SINAIS: DOS SINAIS PARA A ESCRITA\" DE APOIO À MELHORIA NA QUALIDADE DO ENSINO DE GRADUAÇÃO - PAMQEG (11.87.00.00.00.00.01.02.13) ANO DE REFERÊNCIA: 2024 DATA DE INÍCIO: 01/03/2024 DATA DE FIM: 28/02/2025 FOI CONTEMPLADO PELO EDITAL Nº 03/2023-PROGRAD/DDPED - PAMQEG 2024 (PAMQEG) COM O VALOR ORÇAMENTÁRIO DE R$ 7.000,00 O PROJETO PREVÊ A CONTRATAÇÃO DE TILS PARA ELABORAÇÃO DE VÍDEOS ACESSÍVEIS AOS ESTUDANTES SURDOS DE ARTIGOS CIENTÍFICOS. DESSA FORMA, PRECISAMOS CONTRATAR TILS POR EMPRESA QUE OFERTA SERVIÇOS DE ACESSIBILIDADE COMUNICACIONAL, PARA A CONTRATAÇÃO DE TILS E EDIÇÃO DOS VÍDEOS.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1114076",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "30/10/2024",
-    "ultimaAtividade": "27/11/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
     "processo_id": 1168357,
     "numero": "23077.147581/2025-11",
     "assunto": "SOLICITAÇÃO DE AQUISIÇÃO DE MATERIAL",
@@ -4005,20 +3277,6 @@
     "statusChecado": true
   },
   {
-    "processo_id": 1114546,
-    "numero": "23077.149650/2024-40",
-    "assunto": "NOVO PROCESSO LICITATÓRIO JUNTO A DIRETORIA DE COMPRAS - SERVIÇOS DE MANUTENÇÃO DE AR-CONDICIONADO PARA A UNIDADE 11.24.02. CONFORME OFÍCIO OFÍCIO N° 139/2024/DFAC/CONTRATOS/CONTRATOS/PROAD/PROAD/REITORIA/UFRN. PLANEJAMENTO DE CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM MANUTENÇÃO PREVENTIVA E CORRETIVA DA CENTRAL DE AR CONDICIONADO DO TIPO VRF DO INSTITUTO INTERNACIONAL DE FÍSICA.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1114546",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "01/11/2024",
-    "ultimaAtividade": "01/11/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
     "processo_id": 1169167,
     "numero": "23077.150203/2025-14",
     "assunto": "COMPRA DE MATERIAL PERMANENTE PARA PROJETO DO EDITAL PAMQEG",
@@ -4057,48 +3315,6 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "20/09/2025",
     "ultimaAtividade": "24/09/2025",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1115366,
-    "numero": "23077.152725/2024-70",
-    "assunto": "PLANEJAMENTO DE CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM MANUTENÇÃO PREVENTIVA E CORRETIVA EM CENTRAL DE AR CONDICIONADO PARA ATENDER À DEMANDA DO INSTITUTO INTERNACIONAL DE FÍSICA DA UFRN, PELO PERÍODO DE 12 (DOZE) MESES.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1115366",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "07/11/2024",
-    "ultimaAtividade": "02/01/2025",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1115521,
-    "numero": "23077.153313/2024-57",
-    "assunto": "PLANEJAMENTO PARA CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS DE AGENCIAMENTO DE VIAGENS PARA VÔOS REGULARES DOMÉSTICOS E INTERNACIONAIS E FORNECIMENTO DE PASSAGENS AÉREAS PARA ATENDER AS DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1115521",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "07/11/2024",
-    "ultimaAtividade": "30/12/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1115544,
-    "numero": "23077.153371/2024-81",
-    "assunto": "PLANEJAMENTO DL EVENTOS",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1115544",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "07/11/2024",
-    "ultimaAtividade": "07/11/2024",
     "triado": true,
     "statusChecado": true
   },
@@ -4528,20 +3744,6 @@
     "statusChecado": true
   },
   {
-    "processo_id": 1120087,
-    "numero": "23077.171851/2024-23",
-    "assunto": "SOLICITAÇÃO DE AQUISIÇÃO DE CRACHÁS INSTITUCIONAIS",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1120087",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "11/12/2024",
-    "ultimaAtividade": "14/12/2024",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
     "processo_id": 1176172,
     "numero": "23077.171911/2025-99",
     "assunto": "AQUISIÇÃO E INSTALAÇÃO DE CÂMERAS DE SEGURANÇA.",
@@ -4552,20 +3754,6 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "24/10/2025",
     "ultimaAtividade": "31/10/2025",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1120186,
-    "numero": "23077.172306/2024-54",
-    "assunto": "SOLICITAÇÃO DE COMPRA DE MATERIAL GRÁFICO - AGENDAS PERMANENTES - FELCS",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1120186",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "12/12/2024",
-    "ultimaAtividade": "14/12/2024",
     "triado": true,
     "statusChecado": true
   },
@@ -4612,20 +3800,6 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "29/10/2025",
     "ultimaAtividade": null,
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1120709,
-    "numero": "23077.174250/2024-72",
-    "assunto": "AQUISIÇÃO DE CANCELAS AUTOMÁTICAS VIA ADESÃO DE ATA DE REGISTRO DE PREÇOS",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1120709",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "16/12/2024",
-    "ultimaAtividade": "18/12/2024",
     "triado": true,
     "statusChecado": true
   },

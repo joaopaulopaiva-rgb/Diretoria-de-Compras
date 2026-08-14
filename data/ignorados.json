@@ -1,1 +1,474 @@
-[]
+[
+  {
+    "numero": "23077.005669/2024-85",
+    "processo_id": 1074371,
+    "assunto": "IMPORTAÇÃO DIRETA PARA COMPRA MICROSCÓPIO SEM CAMARÁ FOTOGRÁFICA",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "17/01/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (DEPARTAMENTO DE BIOFÍSICA E FARMACOLOGIA (17.08)) e sem movimentacao desde 17/01/2024"
+  },
+  {
+    "numero": "23077.005682/2024-34",
+    "processo_id": 1074374,
+    "assunto": "TAXAS PARA IMPORTAÇÃO DIRETA MICROSCOPIO COM CAMARA",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "17/01/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (DEPARTAMENTO DE BIOFÍSICA E FARMACOLOGIA (17.08)) e sem movimentacao desde 17/01/2024"
+  },
+  {
+    "numero": "23077.014165/2025-37",
+    "processo_id": 1125979,
+    "assunto": "AQUISIÇÃO DE MATERIAL ODONTOLÓGICO",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "30/01/2025",
+    "motivo": "localizacao fora da Diretoria de Compras (DEPARTAMENTO DE ODONTOLOGIA (15.19)) e sem movimentacao desde 30/01/2025"
+  },
+  {
+    "numero": "23077.016389/2024-01",
+    "processo_id": 1077158,
+    "assunto": "COMPRA DE FORMOL",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "09/02/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (DEPARTAMENTO DE MORFOLOGIA (17.14)) e sem movimentacao desde 09/02/2024"
+  },
+  {
+    "numero": "23077.024667/2024-95",
+    "processo_id": 1079386,
+    "assunto": "ANALISAR MELHOR FORMA PARA AQUISIÇÃO DE ASPERSORES ROTORES PARA IRRIGAÇÃO DE CAMPO DE FUTEBOL DO COESPE/UFRN.",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "05/03/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (COMPLEXO DE ESPORTES E EVENTOS (11.24.01)) e sem movimentacao desde 05/03/2024"
+  },
+  {
+    "numero": "23077.024737/2024-13",
+    "processo_id": 1079400,
+    "assunto": "LISTA DE EQUIPAMENTOS - ESTÚDIO DE FOTOGRAFIA DO DEPARTAMENTO DE COMUNICAÇÃO SOCIAL",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "03/04/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (DEPARTAMENTO DE COMUNICAÇÃO SOCIAL (13.15)) e sem movimentacao desde 03/04/2024"
+  },
+  {
+    "numero": "23077.026910/2024-18",
+    "processo_id": 1080043,
+    "assunto": "PLANEJAMENTO PARA CONTRATAÇÃO DE SERVIÇOS DE DIGITALIZAÇÃO DE DOCUMENTOS DE ASSENTAMENTO FUNCIONAL DIGITAL (AFD), NO QUE TANGE O ACERVO FÍSICO LEGADO, PARA AS UNIDADES PAGADORAS (UPAGS) DOS ÓRGÃOS/ENTIDADES DA ADMINISTRAÇÃO PÚBLICA DE MODO A ATENDER O ESCOPO DO PROJETO DE ASSENTAMENTO FUNCIONAL DIGITAL (AFD)",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "04/03/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (PRÓ-REITORIA DE GESTÃO DE PESSOAS (11.65)) e sem movimentacao desde 04/03/2024"
+  },
+  {
+    "numero": "23077.032939/2024-21",
+    "processo_id": 1081565,
+    "assunto": "CONTRATAÇÃO DO SERVIÇO E MANUTENÇÃO DO USO DA FERRAMENTA WHATSAPP CLOUD API BUSINNES",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "19/03/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (DAS - DIVISÃO DE VIGILÂNCIA EM SAÚDE E SEGURANÇA DO TRABALHO (11.65.05.00.01)) e sem movimentacao desde 19/03/2024"
+  },
+  {
+    "numero": "23077.037557/2024-93",
+    "processo_id": 1082962,
+    "assunto": "AQUISIÇÃO DE COMPONENTES ELETRONICOS DE ÁUDIO (CONECTORES E CABO BALANCEADO) PARA EMUFRN",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "09/12/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (ESCOLA DE MÚSICA (11.39)) e sem movimentacao desde 09/12/2024"
+  },
+  {
+    "numero": "23077.042824/2024-44",
+    "processo_id": 1084432,
+    "assunto": "CONTRATAÇÃO DE CLÍNICA PARA REALIZAÇÃO DE EXAMES LABORATORIAIS.",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "30/09/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (COMPLEXO DE ESPORTES E EVENTOS (11.24.01)) e sem movimentacao desde 30/09/2024"
+  },
+  {
+    "numero": "23077.049220/2024-29",
+    "processo_id": 1086171,
+    "assunto": "EXECUÇÃO DE SERVIÇOS DE ADAPTAÇÃO DAS INSTALAÇÕES DO LABORATÓRIO DE HABILIDADES DO CENTRO DE CIÊNCIAS DA SAÚDE DA UFRN",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "19/04/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (FUNDAÇÃO NORTE-RIOGRANDENSE DE PESQUISA E CULTURA (10.03)) e sem movimentacao desde 19/04/2024"
+  },
+  {
+    "numero": "23077.049364/2024-85",
+    "processo_id": 1086197,
+    "assunto": "OFÍCIO Nº 047/2024/DIRETORIA DE LOGISTICA/UFRN",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "22/04/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (DLOG - DIVISÃO DE ALMOXARIFADO CENTRAL (11.02.03.28)) e sem movimentacao desde 22/04/2024"
+  },
+  {
+    "numero": "23077.055716/2024-31",
+    "processo_id": 1087833,
+    "assunto": "PLANEJAMENTO DE AQUISIÇÃO DE MATERIAL DE PROTEÇÃO E SEGURANÇA",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "18/09/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (DAS - DIVISÃO DE VIGILÂNCIA EM SAÚDE E SEGURANÇA DO TRABALHO (11.65.05.00.01)) e sem movimentacao desde 18/09/2024"
+  },
+  {
+    "numero": "23077.055744/2024-59",
+    "processo_id": 1087835,
+    "assunto": "PLANEJAMENTO DE AQUISIÇÃO DE EXTINTORES",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "12/09/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (DAS - DIVISÃO DE VIGILÂNCIA EM SAÚDE E SEGURANÇA DO TRABALHO (11.65.05.00.01)) e sem movimentacao desde 12/09/2024"
+  },
+  {
+    "numero": "23077.056743/2024-21",
+    "processo_id": 1088100,
+    "assunto": "PROCESSO DESTINADO A COMPRA DE MATERIAIS VOLTADOS A SUPERINTENDÊNCIA DE COMUNICAÇÃO, OS QUAIS SERÃO ARCADOS COM VERBA ADVINDA DE EMENDA PARLAMENTAR.",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "03/07/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (SUPERINTENDENCIA DE COMUNICACAO (11.28)) e sem movimentacao desde 03/07/2024"
+  },
+  {
+    "numero": "23077.057650/2024-14",
+    "processo_id": 1088350,
+    "assunto": "OFÍCIO DE SOLICITAÇÃO DE MATERIAIS GRÁFICOS, ESPECIFICAMENTE BOTTONS PERSONALIZADOS, ADESIVO DIGITAL, BOLSA TIPO ECOBAG EM ALGODÃO, BANNERS, LIVRO COLORIDO, RÓTULOS PARA ALIMENTOS, CARTILHAS E CARIMBO PERSONALIZADO, OS QUAIS SÃO FUNDAMENTAIS PARA A EFETIVAÇÃO DAS AÇÕES QUE VÊM SENDO DESENVOLVIDAS EM DIFERENTES PROJETOS DE EXTENSÃO.",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "17/05/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (INTEGRAÇÃO DE PRODUTOS DO POVOADO TRANGOLA E DA COMUNIDADE DE QUEIMADAS ÀS ATIVIDADES DE COMERCIALIZAÇÃO CULTURAL E TURÍSTICA: DIÁLOGOS ENTR PATRIMÔNIO CULTURAL E ECONOMIA SOLIDÁRIA (11.44.00.00.00.04.06.01)) e sem movimentacao desde 17/05/2024"
+  },
+  {
+    "numero": "23077.057755/2024-73",
+    "processo_id": 1088378,
+    "assunto": "CONTRATAÇÃO DE PROGRAMA EXTERNO DE CERTIFICAÇÃO DE QUALIDADE PARA ACREDITAÇÃO DOS LABORATÓRIOS DA UNIDADE CLÍNICA DO IMT-RN, CONFORME EXIGÊNCIA DA COVISA.",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "21/05/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (INSTITUTO DE MEDICINA TROPICAL - IMT-RN (11.00.10)) e sem movimentacao desde 21/05/2024"
+  },
+  {
+    "numero": "23077.059294/2024-73",
+    "processo_id": 1088857,
+    "assunto": "AQUISIÇÃO DE MONITORES PARA LABORATÓRIO DE INFORMÁTICA DO DEPARTAMENTO DE ARQUITETURA",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "10/06/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (DEPARTAMENTO DE ARQUITETURA (14.15)) e sem movimentacao desde 10/06/2024"
+  },
+  {
+    "numero": "23077.059995/2024-11",
+    "processo_id": 1089085,
+    "assunto": "PROCESSO DE PLANEJAMENTO PARA AQUISIÇÃO DE BEBEDOUROS E VENTILADORES",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "27/05/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (ESCOLA DE SAÚDE (11.69)) e sem movimentacao desde 27/05/2024"
+  },
+  {
+    "numero": "23077.064879/2024-13",
+    "processo_id": 1090779,
+    "assunto": "AQUISIÇÃO DE MATERIAIS PARA RESTAURAÇÃO DE ACERVO BIBLIOGRÁFICO PELO PROJETO \"PRESERVANDO A MEMÓRIA DE ZILA MAMEDE\"",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "10/07/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (SETOR DE COLEÇÕES ESPECIAIS (11.20.23.01)) e sem movimentacao desde 10/07/2024"
+  },
+  {
+    "numero": "23077.067782/2024-54",
+    "processo_id": 1091781,
+    "assunto": "PLANEJAMENTO DE CONTRATAÇÃO DE SERVIÇO DE TRADUÇÃO SIMULTÂNEA PARA O PROJETO EV169-2024 - TRADUÇÃO DO CONHECIMENTO: COMO APROXIMAR A PESQUISA CIENTÍFICA DA PRÁTICA CLÍNICA PARA A PRODUÇÃO DE PRÁTICAS BASEADAS EM EVIDÊNCIAS NOS PROGRAMAS PÓS-GRADUAÇÃO DE SAÚDE COLETIVA, E CIÊNCIAS DA REABILITAÇÃO DA FACISA/UFRN.",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "17/07/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (TRADUÇÃO DO CONHECIMENTO: COMO APROXIMAR A PESQUISA CIENTÍFICA DA PRÁTICA CLÍNICA PARA A PRODUÇÃO DE PRÁTICAS BASEADAS EM EVIDÊNCIAS NOS PROGRAMAS PÓS-GRADUAÇÃO DE SAÚDE COLETIVA, E CIÊNCIAS DA REABIL (11.43.05.05)) e sem movimentacao desde 17/07/2024"
+  },
+  {
+    "numero": "23077.071081/2024-10",
+    "processo_id": 1092964,
+    "assunto": "DEMANDA DA AUDITORIA INTERNA RELATIVA À EQUIPAMENTO DE TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO (TIC).",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "09/07/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (AUDITORIA INTERNA (11.32.01)) e sem movimentacao desde 09/07/2024"
+  },
+  {
+    "numero": "23077.071508/2024-80",
+    "processo_id": 1093103,
+    "assunto": "DISPENSA DE LICITAÇÃO PARA CONTRATAÇÃO DE SERVIÇOS DE ISOLAMENTO TÉRMICO DE APARELHOS DE AR CONDICIONADO NO LABORATÓRIO DE MEMÓRIA DO INSTITUTO DO CÉREBRO.",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "03/07/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (INSTITUTO DO CÉREBRO (10.89)) e sem movimentacao desde 03/07/2024"
+  },
+  {
+    "numero": "23077.072354/2024-43",
+    "processo_id": 1093361,
+    "assunto": "SOLICITAÇÃO DE EQUIPAMENTO PARA MANUTENÇÃO DO ELEVADOR",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "03/07/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (SECRETARIA GERAL - CENTRO DE EDUCAÇÃO (19.01.03)) e sem movimentacao desde 03/07/2024"
+  },
+  {
+    "numero": "23077.074400/2024-49",
+    "processo_id": 1094100,
+    "assunto": "VERBA APROVADA NO EDITAL PROEX DESTINADA AO PROJETO MEMORIAL DO GRUPO PARAFOLCÓRICO DA UFRN- CÓDIGO PJ654-2024",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "23/09/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (MEMORIAL DO GRUPO PARAFOLCLÓRICO DA UFRN (11.44.00.00.00.04.09.24)) e sem movimentacao desde 23/09/2024"
+  },
+  {
+    "numero": "23077.087220/2024-27",
+    "processo_id": 1097831,
+    "assunto": "PLANEJAMENTO DE CONTRATAÇÃO DE SERVIÇOS DE PESSOA FÍSICA E JURÍDICA",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "13/11/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (DEPARTAMENTO DE CIÊNCIAS SOCIAIS (13.14)) e sem movimentacao desde 13/11/2024"
+  },
+  {
+    "numero": "23077.092051/2024-47",
+    "processo_id": 1098972,
+    "assunto": "SOLICITAÇÃO DE COMPRA DE MATERIAL",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "09/08/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (FACULDADE DE ENGENHARIA, LETRAS E CIÊNCIAS SOCIAIS DO SERIDÓ - FELCS (11.70)) e sem movimentacao desde 09/08/2024"
+  },
+  {
+    "numero": "23077.095949/2024-77",
+    "processo_id": 1099874,
+    "assunto": "CONTRATAÇÃO DO SR. EMANOEL LUIZGINO BARROS DE LIMA, CNPJ 25.208.577/0001-14 PARA PRODUÇÃO DE ARRANJOS MUSICAIS PARA O GRUPO POTIBONES/UFRN",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "03/12/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (ESCOLA DE MÚSICA (11.39)) e sem movimentacao desde 03/12/2024"
+  },
+  {
+    "numero": "23077.096638/2024-25",
+    "processo_id": 1100065,
+    "assunto": "OFICIO",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "12/08/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (FAEX/24E12/P47 (11.44.00.00.00.04.01.47)) e sem movimentacao desde 12/08/2024"
+  },
+  {
+    "numero": "23077.096667/2024-97",
+    "processo_id": 1100075,
+    "assunto": "EU COORDENADORA E RESPONSÁVEL PELO PROJETO DE EXTENSÃO CITADO, VENHO POR MEIO DESTE SOLICITAR A AQUISIÇÃO DOS ITENS LISTADOS ABAIXO, VISTO QUE NÃO LOCALIZEI ITENS VIGENTES EM PREGÕES ATIVOS DA UFRN.",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "30/09/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (CORPO E MOVIMENTO NA EDUCAÇÃO DA INFÂNCIA (11.44.00.00.00.04.01.47)) e sem movimentacao desde 30/09/2024"
+  },
+  {
+    "numero": "23077.098144/2024-85",
+    "processo_id": 1100435,
+    "assunto": "SOLICITO ORIENTAÇÕES SOBRE A MODALIDADE DE CONTRATAÇÃO MAIS ADEQUADA PARA O SERVIÇO DESCRITO ABAIXO, BEM COMO A LISTA DE DOCUMENTOS INICIAIS QUE DEVEM SER PROVIDENCIADOS PARA COMPOR O PROCESSO DE CONTRATAÇÃO. 1. PROFISSIONAL A SER CONTRATADO: ILUSTRADOR/QUADRINISTA 2. DEMANDA - SERVIÇO A SER REALIZADO ILUSTRAÇÃO DE UMA HISTÓRIA EM QUADRINHOS (HQ) SOBRE AS EXPEDIÇÕES CIENTÍFICAS DO MUSEU CÂMARA CASCUDO/UFRN, PRODUTO DO PROJETO DE EXTENSÃO PJ343-2024 AVENTURAS EM QUADRINHOS - EXPEDIÇÕES CIENTÍFICAS DO MUSEU C MARA CASCUDO (2024)",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "02/12/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (MUSEU CÂMARA CASCUDO (11.26)) e sem movimentacao desde 02/12/2024"
+  },
+  {
+    "numero": "23077.098175/2024-36",
+    "processo_id": 1100443,
+    "assunto": "AQUISIÇÃO DE COLA ADESIVO DE CONTATO - 2,8 KG PARA USO NO AUDITÓRIO DA FACISA.",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "15/08/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (SETOR DE ALMOXARIFADO (10.32.08)) e sem movimentacao desde 15/08/2024"
+  },
+  {
+    "numero": "23077.098948/2024-84",
+    "processo_id": 1100602,
+    "assunto": "TREINAMENTO DE CAPACITAÇÃO DO MÓDULO 1 DO SAGE",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "21/08/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (DEPARTAMENTO DE ENGENHARIA ELÉTRICA (14.19)) e sem movimentacao desde 21/08/2024"
+  },
+  {
+    "numero": "23077.100370/2024-33",
+    "processo_id": 1101052,
+    "assunto": "CONTRATAÇÃO VIA ADESÃO(CARONA) PARA SERVIÇO DE TRANSPORTE ÔNIBUS",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "23/08/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (PRÓ-REITORIA DE PÓS GRADUAÇÃO (11.23)) e sem movimentacao desde 23/08/2024"
+  },
+  {
+    "numero": "23077.101457/2024-28",
+    "processo_id": 1101322,
+    "assunto": "AQUISIÇÃO DE EQUIPAMENTOS DE LABORATÓRIO VIA ADESÃO À ATAS DE PREGÃO",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "20/08/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (APRIMORAMENTO DO ENSINO DAS TURMAS PIONEIRAS DA ENGENHARIA DE PRODUÇÃO DA FELCS (11.87.00.00.00.00.01.02.72)) e sem movimentacao desde 20/08/2024"
+  },
+  {
+    "numero": "23077.103921/2024-11",
+    "processo_id": 1101962,
+    "assunto": "PLANEJAMENTO DE COMPRA DE CONTRATAÇÃO PARA AQUISIÇÃO DE BATERIAS PARA INSTALAÇÃO DE INSTRUMENTOS PLUVIOMÉTRICOS E SENSORES DE NÍVEL NA BACIA HIDROGRÁFICA DO RIO PITIMBU, VINCULADA A SUBREDE ÁGUA E SOLO DO PROJETO INCT KLIMAPOLIS.",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "16/09/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (DEPARTAMENTO DE CIÊNCIAS ATMOSFÉRICAS E CLIMÁTICAS (12.87)) e sem movimentacao desde 16/09/2024"
+  },
+  {
+    "numero": "23077.104737/2024-98",
+    "processo_id": 1102205,
+    "assunto": "AQUISIÇÃO DE SAXOFONES PARA A EMUFRN",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "31/10/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (ESCOLA DE MÚSICA (11.39)) e sem movimentacao desde 31/10/2024"
+  },
+  {
+    "numero": "23077.109527/2024-96",
+    "processo_id": 1103646,
+    "assunto": "SOLICITO ORIENTAÇÕES SOBRE A MODALIDADE DE CONTRATAÇÃO MAIS ADEQUADA PARA O SERVIÇO DESCRITO ABAIXO, BEM COMO A LISTA DE DOCUMENTOS INICIAIS QUE DEVEM SER PROVIDENCIADOS PARA COMPOR O PROCESSO DE CONTRATAÇÃO. 1. PROFISSIONAL A SER CONTRATADO: ATOR OU GRUPO TEATRAL PARA CONTAÇÃO DE HISTÓRIAS PARA O PÚBLICO INFANTIL. 2. DEMANDA - SERVIÇO A SER REALIZADO 3 SESSÕES DE CONTAÇÃO DE HISTÓRIA, DE NO MÍNIMO 40 MINUTOS CADA, COM TEMAS RELACIONADOS A MEIO AMBIENTE, SUSTENTABILIDADE, INCLUSÃO E ACESSIBILIDADE, CIÊNCIA, CULTURA POPULAR OU DIREITOS HUMANOS, PARA COMPOR A PROGRAMAÇÃO EDUCATIVA E CULTURAL DO PROJETO DE EXTENSÃO PJ784-2024 MINHA COMUNIDADE VAI AO MUSEU.",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "20/09/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (SETOR DE AÇÃO EDUCATIVA E CULTURAL - MCC (11.26.01.05.08)) e sem movimentacao desde 20/09/2024"
+  },
+  {
+    "numero": "23077.110351/2024-15",
+    "processo_id": 1103849,
+    "assunto": "AQUISIÇÃO DE GORRO DESCARTÁVEL, SERINGA DE 1ML E AGULHA (26G X 1/2'') PARA O BIOTÉRIO CENTRAL DO CB.",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "09/09/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (BIOTÉRIO/CB (17.01.13)) e sem movimentacao desde 09/09/2024"
+  },
+  {
+    "numero": "23077.118052/2024-29",
+    "processo_id": 1106045,
+    "assunto": "SOLICITAÇÃO DE AQUISIÇÃO DE “CADERNETAS DE CAMPO” QUE SERÃO UTILIZADAS, NOS TRABALHOS DE CAMPO, EM NOSSO PROJETO, JUNTO À EQUIPE E A NOSSOS PARCEIROS, COMO PARTE RELEVANTE DE NOSSA ESTRATÉGIA DE “MAPEAMENTO PARTICIPATIVO” E DE TROCA DE INFORMAÇÕES SOCIOAMBIENTAIS.",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "18/09/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (MAPEAMENTO PARTICIPATIVO DE ÁREAS DE RISCOS GEOLÓGICOS E GEOTÉCNICOS EM PARNAMIRIM (11.44.00.00.00.04.01.85)) e sem movimentacao desde 18/09/2024"
+  },
+  {
+    "numero": "23077.119055/2024-80",
+    "processo_id": 1106272,
+    "assunto": "AQUISIÇÃO DE AR-CONDICIONADOS - DISPENSA DE LICITAÇÃO",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "18/09/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (ADMINISTRAÇÃO DO CENTRO DE EDUCAÇÃO (19.01)) e sem movimentacao desde 18/09/2024"
+  },
+  {
+    "numero": "23077.121497/2024-96",
+    "processo_id": 1107093,
+    "assunto": "PLANEJAMENTO DE CONTRATAÇÃO/AQUISIÇÃO",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "20/09/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (PLANO DE ATIVIDADES NUTEQ - 2024 (11.44.00.00.00.04.10.17)) e sem movimentacao desde 20/09/2024"
+  },
+  {
+    "numero": "23077.126825/2024-41",
+    "processo_id": 1108665,
+    "assunto": "AQUISIÇÃO DE EQUIPAMENTOS DE TRANSMISSÃO PARA ATENDER DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES.",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "26/09/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (SUPERINTENDENCIA DE COMUNICACAO (11.28)) e sem movimentacao desde 26/09/2024"
+  },
+  {
+    "numero": "23077.127319/2024-79",
+    "processo_id": 1108770,
+    "assunto": "ADESÃO: SWITCHES POE PARA SISTEMA DE VIGILANCIA DA EAJ",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "02/10/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (ESCOLA AGRÍCOLA DE JUNDIAÍ (11.22)) e sem movimentacao desde 02/10/2024"
+  },
+  {
+    "numero": "23077.128166/2024-87",
+    "processo_id": 1109028,
+    "assunto": "REALIZAÇÃO DE UMA REVISÃO DA PESQUISA NACIONAL QUE ABORDA TEMAS E INTERESSES RELACIONADOS ÀS COLÔNIAS DE PESCA, COM O OBJETIVO DE SUBSIDIAR ATIVIDADES DE FORMAÇÃO EM SEGURANÇA ALIMENTAR E NUTRICIONAL (SAN), ALÉM DE ORIENTAR O PROCESSAMENTO E COMERCIALIZAÇÃO DE ALIMENTOS BENEFICIADOS.",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "04/10/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (COORDENAÇÃO DO CURSO DE GESTÃO DE COOPERATIVAS (16.25)) e sem movimentacao desde 04/10/2024"
+  },
+  {
+    "numero": "23077.135212/2024-02",
+    "processo_id": 1110904,
+    "assunto": "SOLICITAÇÃO DE FORMALIZAÇÃO DE ADESÃO A ATA DE REGISTRO DE PREÇOS: PREGÃO Nº 90005/2024, UASG 170334 - SUPERINTENDÊNCIA REGIONAL DE ADMINISTRAÇÃO DO MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS NO ACRE, ITENS 46 E 47 - POLTRONAS DE AUDITÓRIO",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "21/10/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (ASSESSORIA ADMINISTRATIVA (AS/CT) (14.31.11)) e sem movimentacao desde 21/10/2024"
+  },
+  {
+    "numero": "23077.135780/2024-03",
+    "processo_id": 1111016,
+    "assunto": "AQUISIÇÃO DE AR CONDICIONADO 22.000 BTU",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "21/10/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (INSTITUTO DO ENVELHECER (11.24.15)) e sem movimentacao desde 21/10/2024"
+  },
+  {
+    "numero": "23077.140387/2024-23",
+    "processo_id": 1112173,
+    "assunto": "SOLICITAÇÃO DE ADESÃO DE ATA DE REGISTRO DE PREÇOS Nº 00063/2024 PARA AQUISIÇÃO DE UNIFORMES RESISTENTE A FOGO PARA OS SERVIDORES DO SETOR DE MANUTENÇÃO ELÉTRICA QUE OPERAM O SISTEMA ELÉTRICO DE POTÊNCIA DA UFRN.",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "18/10/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (SETOR DE MANUTENÇÃO DOS SISTEMAS ELÉTRICOS E DE TELECOMUNICAÇÕES (11.08.05.05)) e sem movimentacao desde 18/10/2024"
+  },
+  {
+    "numero": "23077.141846/2024-96",
+    "processo_id": 1112520,
+    "assunto": "PLANEJAMENTO PARA CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM MANUTENÇÃO PREVENTIVA E CORRETIVA, COM EMISSÃO DE CERTIFICADO E EVENTUAL SUBSTITUIÇÃO DE PEÇAS E FILTROS, PARA OS SISTEMAS DE CLIMATIZAÇÃO DE EXPANSÃO INDIRETA (ÁGUA GELADA) INSTALADOS NO PRÉDIO DO NUPLAM DA UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE (UFRN).",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "22/11/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (NUCLEO DE PESQUISA EM ALIMENTOS E MEDICAMENTOS (11.50)) e sem movimentacao desde 22/11/2024"
+  },
+  {
+    "numero": "23077.144265/2024-14",
+    "processo_id": 1113226,
+    "assunto": "REGISTRO DOS PROCEDIMENTOS DE AQUISIÇÃO DE MATERIAIS INFORMACIONAIS IMPORTADOS: 2024-2025",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "25/10/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (CSA (11.20.25)) e sem movimentacao desde 25/10/2024"
+  },
+  {
+    "numero": "23077.145866/2024-36",
+    "processo_id": 1113657,
+    "assunto": "SOLICITAÇÃO DE ADESÃO ATRAVÉS DO PROCESSO LICITATÓRIO PREGÃO NO 90028/2024 (SRP), UASG 070008, REFERENTE A COMPRA DO PANO DE LIMPEZA.",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "06/11/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (DLOG - DIVISÃO DE ALMOXARIFADO CENTRAL (11.02.03.28)) e sem movimentacao desde 06/11/2024"
+  },
+  {
+    "numero": "23077.147457/2024-74",
+    "processo_id": 1114076,
+    "assunto": "O PROJETO \"PRÁTICAS SOCIAIS, LETRAMENTOS E LÍNGUA DE SINAIS: DOS SINAIS PARA A ESCRITA\" DE APOIO À MELHORIA NA QUALIDADE DO ENSINO DE GRADUAÇÃO - PAMQEG (11.87.00.00.00.00.01.02.13) ANO DE REFERÊNCIA: 2024 DATA DE INÍCIO: 01/03/2024 DATA DE FIM: 28/02/2025 FOI CONTEMPLADO PELO EDITAL Nº 03/2023-PROGRAD/DDPED - PAMQEG 2024 (PAMQEG) COM O VALOR ORÇAMENTÁRIO DE R$ 7.000,00 O PROJETO PREVÊ A CONTRATAÇÃO DE TILS PARA ELABORAÇÃO DE VÍDEOS ACESSÍVEIS AOS ESTUDANTES SURDOS DE ARTIGOS CIENTÍFICOS. DESSA FORMA, PRECISAMOS CONTRATAR TILS POR EMPRESA QUE OFERTA SERVIÇOS DE ACESSIBILIDADE COMUNICACIONAL, PARA A CONTRATAÇÃO DE TILS E EDIÇÃO DOS VÍDEOS.",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "27/11/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (PRÁTICAS SOCIAIS, LETRAMENTOS E LÍNGUA DE SINAIS: DOS SINAIS PARA A ESCRITA (11.87.00.00.00.00.01.02.13)) e sem movimentacao desde 27/11/2024"
+  },
+  {
+    "numero": "23077.149650/2024-40",
+    "processo_id": 1114546,
+    "assunto": "NOVO PROCESSO LICITATÓRIO JUNTO A DIRETORIA DE COMPRAS - SERVIÇOS DE MANUTENÇÃO DE AR-CONDICIONADO PARA A UNIDADE 11.24.02. CONFORME OFÍCIO OFÍCIO N° 139/2024/DFAC/CONTRATOS/CONTRATOS/PROAD/PROAD/REITORIA/UFRN. PLANEJAMENTO DE CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM MANUTENÇÃO PREVENTIVA E CORRETIVA DA CENTRAL DE AR CONDICIONADO DO TIPO VRF DO INSTITUTO INTERNACIONAL DE FÍSICA.",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "01/11/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (INSTITUTO INTERNACIONAL DE FÍSICA (11.24.02)) e sem movimentacao desde 01/11/2024"
+  },
+  {
+    "numero": "23077.152725/2024-70",
+    "processo_id": 1115366,
+    "assunto": "PLANEJAMENTO DE CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM MANUTENÇÃO PREVENTIVA E CORRETIVA EM CENTRAL DE AR CONDICIONADO PARA ATENDER À DEMANDA DO INSTITUTO INTERNACIONAL DE FÍSICA DA UFRN, PELO PERÍODO DE 12 (DOZE) MESES.",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "02/01/2025",
+    "motivo": "localizacao fora da Diretoria de Compras (INSTITUTO INTERNACIONAL DE FÍSICA (11.24.02)) e sem movimentacao desde 02/01/2025"
+  },
+  {
+    "numero": "23077.153313/2024-57",
+    "processo_id": 1115521,
+    "assunto": "PLANEJAMENTO PARA CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS DE AGENCIAMENTO DE VIAGENS PARA VÔOS REGULARES DOMÉSTICOS E INTERNACIONAIS E FORNECIMENTO DE PASSAGENS AÉREAS PARA ATENDER AS DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES.",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "30/12/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (SETOR DE CONCESSÃO DE DIÁRIAS E PASSAGENS - SCDP (11.02.00.02)) e sem movimentacao desde 30/12/2024"
+  },
+  {
+    "numero": "23077.153371/2024-81",
+    "processo_id": 1115544,
+    "assunto": "PLANEJAMENTO DL EVENTOS",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "07/11/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (CERIMONIAL (11.32.14)) e sem movimentacao desde 07/11/2024"
+  },
+  {
+    "numero": "23077.171851/2024-23",
+    "processo_id": 1120087,
+    "assunto": "SOLICITAÇÃO DE AQUISIÇÃO DE CRACHÁS INSTITUCIONAIS",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "14/12/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (FACULDADE DE ENGENHARIA, LETRAS E CIÊNCIAS SOCIAIS DO SERIDÓ - FELCS (11.70)) e sem movimentacao desde 14/12/2024"
+  },
+  {
+    "numero": "23077.172306/2024-54",
+    "processo_id": 1120186,
+    "assunto": "SOLICITAÇÃO DE COMPRA DE MATERIAL GRÁFICO - AGENDAS PERMANENTES - FELCS",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "14/12/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (FACULDADE DE ENGENHARIA, LETRAS E CIÊNCIAS SOCIAIS DO SERIDÓ - FELCS (11.70)) e sem movimentacao desde 14/12/2024"
+  },
+  {
+    "numero": "23077.174250/2024-72",
+    "processo_id": 1120709,
+    "assunto": "AQUISIÇÃO DE CANCELAS AUTOMÁTICAS VIA ADESÃO DE ATA DE REGISTRO DE PREÇOS",
+    "ignoradoEm": "14/08/2026",
+    "ultimaAtividadeNoMomento": "18/12/2024",
+    "motivo": "localizacao fora da Diretoria de Compras (FACULDADE DE ENGENHARIA, LETRAS E CIÊNCIAS SOCIAIS DO SERIDÓ - FELCS (11.70)) e sem movimentacao desde 18/12/2024"
+  }
+]
