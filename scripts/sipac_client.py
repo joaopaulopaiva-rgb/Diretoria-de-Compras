@@ -363,6 +363,17 @@ def _isolar_tabela(html: str, legenda: str) -> str | None:
     return None
 
 
+_DATA_CADASTRO_RE = re.compile(r"Data de Cadastro:?\s*</b></th>\s*<td>\s*(\d{2}/\d{2}/\d{4})\s*</td>", re.IGNORECASE)
+
+
+def extrair_data_cadastro(html: str) -> str | None:
+    """Extrai a "Data de Cadastro" mostrada no cabeçalho da página pública
+    do processo (data de abertura) — não é a mesma coisa que a data do
+    primeiro documento."""
+    m = _DATA_CADASTRO_RE.search(html)
+    return m.group(1) if m else None
+
+
 def extrair_documentos(html: str) -> list[DocumentoProcesso]:
     """Extrai a tabela "Documentos do Processo": Ordem, Tipo do Documento,
     Data do Documento, Origem, Natureza, + link de visualização (idDoc)."""
