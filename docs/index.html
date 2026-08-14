@@ -343,6 +343,8 @@ h1{
   overflow:hidden;
 }
 .manifest.show{ display:block; }
+.gestor-section{ display:none; }
+.gestor-section.show{ display:block; }
 .manifest-head{
   padding:12px 16px;
   border-bottom:1px solid var(--rail);
@@ -435,38 +437,6 @@ h1{
 .gestor-name{ font-size:13.5px; font-weight:600; color:var(--ink); }
 .gestor-stats{ font-size:12px; color:var(--ink-soft); margin-top:4px; }
 .gestor-stats .alert{ color:var(--critical); font-weight:600; }
-
-/* ledger */
-.ledger{
-  margin-top:2.5rem;
-  padding-top:1.5rem;
-  border-top:1px solid var(--rail);
-}
-.ledger-title{
-  font-family:var(--font-mono);
-  font-size:11px;
-  letter-spacing:.08em;
-  text-transform:uppercase;
-  color:var(--ink-faint);
-  margin-bottom:1rem;
-}
-.ledger-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(130px,1fr));
-  gap:1px;
-  background:var(--rail);
-  border:1px solid var(--rail);
-  border-radius:6px;
-  overflow:hidden;
-}
-.ledger-cell{
-  background:var(--paper-raised);
-  padding:10px 14px;
-}
-.ledger-cell.no-data{ opacity:.4; }
-.ledger-stage{ font-size:11px; color:var(--ink-faint); margin-bottom:3px; }
-.ledger-value{ font-family:var(--font-mono); font-size:16px; font-weight:600; color:var(--ink); font-variant-numeric:tabular-nums; }
-.ledger-value span{ font-size:10.5px; font-weight:400; color:var(--ink-soft); margin-left:2px; }
 
 .empty-note{ font-size:12.5px; color:var(--ink-faint); padding:14px 16px; }
 
@@ -801,14 +771,9 @@ h1{
   </div>
   <div class="manifest" id="manifest-homologado"></div>
 
-  <div class="gestor-section">
+  <div class="gestor-section" id="gestorSection">
     <p class="gestor-title">Carga por gestor (DPGC)</p>
     <div class="gestor-grid" id="gestorGrid"></div>
-  </div>
-
-  <div class="ledger">
-    <p class="ledger-title">Tempo médio por sub-etapa</p>
-    <div class="ledger-grid" id="ledgerGrid"></div>
   </div>
 </div>
 
@@ -1045,6 +1010,7 @@ function renderHomologados(){
 
 /* ---------- carga por gestor ---------- */
 function renderGestores(){
+  document.getElementById('gestorSection').classList.toggle('show', activeStation === 'dpgc');
   const dpgc = processos.filter(p => p.fase === 'Planejamento (DPGC)' && p.gestor);
   const porGestor = {};
   dpgc.forEach(p => {
@@ -1072,7 +1038,7 @@ function renderGestores(){
   });
 }
 
-/* ---------- ledger ---------- */
+/* ---------- duração de sub-etapa (usada na projeção de homologação) ---------- */
 function calcularEtapa(p, key){
   if(!p.marcos) return null;
   const m = p.marcos;
@@ -1090,18 +1056,6 @@ function calcularEtapa(p, key){
     default: return null;
   }
 }
-function renderLedger(){
-  const el = document.getElementById('ledgerGrid');
-  el.innerHTML = SUBETAPAS.map(etapa => {
-    const media = mediaPorEtapa[etapa.key];
-    const arredondado = media === null ? null : Math.round(media);
-    return `<div class="ledger-cell ${arredondado===null?'no-data':''}">
-      <div class="ledger-stage">${etapa.label}</div>
-      <div class="ledger-value">${arredondado!==null?arredondado:'—'}<span>${arredondado!==null?(arredondado===1?'dia':'dias'):''}</span></div>
-    </div>`;
-  }).join('');
-}
-
 function renderAll(){
   calcularMediasEtapas();
   renderPulse();
@@ -1109,7 +1063,6 @@ function renderAll(){
   renderManifests();
   renderHomologados();
   renderGestores();
-  renderLedger();
 }
 
 document.getElementById('searchInput').addEventListener('input', e => {
