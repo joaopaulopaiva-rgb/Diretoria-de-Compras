@@ -242,26 +242,39 @@ def _match_any(tipo: str, padroes: list[str]) -> bool:
     return any(_re.search(p, tipo, _re.IGNORECASE) for p in padroes)
 
 
-def calcular_progresso(docs, etapas: list[tuple[str, list[str]]]) -> tuple[str | None, dict, bool]:
+def calcular_progresso(
+    docs, etapas: list[tuple[str, list[str]]]
+) -> tuple[str | None, dict, bool, list[tuple[str, list[str]]]]:
     """Varre os documentos em ordem e descobre até onde o processo avançou
     dentro de uma lista de etapas (sempre de UM processo-fonte só — nunca
     misturar planejamento com pregão, ver comentário acima).
-    Retorna (subEtapa_atual, marcos, chegou_ao_fim_dessas_etapas)."""
+
+    Retorna (subEtapa_atual, marcos, chegou_ao_fim_dessas_etapas, retrabalho).
+    "retrabalho" lista as etapas cujo documento-gatilho apareceu mais de uma
+    vez — sinal de que o processo pode ter saído do fluxo padrão (devolvido
+    pra correção, reiniciado etc.) em algum momento. Não usamos isso pra
+    mudar a sub-etapa automaticamente (mesmo raciocínio da trava de
+    retrocesso: não dá pra distinguir com segurança "saiu do fluxo de
+    verdade" de "documento reemitido/corrigido sem mudar de etapa") — só
+    para sinalizar em avisos, pra confirmação manual."""
     marcos = {}
     ultima_completada_idx = -1
+    retrabalho: list[tuple[str, list[str]]] = []
     for i, (chave, padroes) in enumerate(etapas):
-        doc_encontrado = next((d for d in docs if _match_any(d.tipo, padroes)), None)
-        if doc_encontrado:
-            marcos[MARCO_FIM_POR_SUBETAPA[chave]] = doc_encontrado.data
+        encontrados = [d for d in docs if _match_any(d.tipo, padroes)]
+        if encontrados:
+            marcos[MARCO_FIM_POR_SUBETAPA[chave]] = encontrados[0].data
             ultima_completada_idx = i
+            if len(encontrados) > 1:
+                retrabalho.append((chave, [d.data for d in encontrados]))
 
     chegou_ao_fim = ultima_completada_idx == len(etapas) - 1
     if chegou_ao_fim:
-        return None, marcos, True
+        return None, marcos, True, retrabalho
 
     proxima_idx = ultima_completada_idx + 1
     sub_atual = etapas[proxima_idx][0] if proxima_idx < len(etapas) else None
-    return sub_atual, marcos, False
+    return sub_atual, marcos, False, retrabalho
 
 
 def detectar_estados_especiais(docs, movimentacoes, caminho: str = "pregao") -> dict:
@@ -299,6 +312,17 @@ def resumo_mecanico(docs, movimentacoes) -> str:
         m = movimentacoes[-1]
         partes.append(f"Última movimentação: {m.unidade_origem} → {m.unidade_destino} ({m.data_origem})")
     return " · ".join(partes) if partes else "Sem documentos ou movimentações registradas ainda."
+
+
+def avisos_retrabalho(numero_processo: str, retrabalho: list[tuple[str, list[str]]]) -> list[str]:
+    """Formata os avisos de possível saída do fluxo padrão (documento de uma
+    etapa já concluída reaparecendo mais tarde) pra lista de avisos."""
+    return [
+        f"{numero_processo}: documento da etapa '{chave}' apareceu {len(datas)} vezes ({', '.join(datas)}) "
+        f"— pode ter saído do fluxo padrão (devolvido pra correção, reiniciado etc.). Sub-etapa NÃO "
+        f"alterada por isso; conferir manualmente se quiser."
+        for chave, datas in retrabalho
+    ]
 
 
 def atualizar_todos() -> dict:
@@ -355,7 +379,8 @@ def atualizar_todos() -> dict:
             html = client.obter_processo(p["processo_id"])
             docs = extrair_documentos(html)
             movs = extrair_movimentacoes(html)
-            sub_atual, marcos_novos, concluido = calcular_progresso(docs, SEMPRE_PROCESSO_ID[caminho])
+            sub_atual, marcos_novos, concluido, retrabalho = calcular_progresso(docs, SEMPRE_PROCESSO_ID[caminho])
+            avisos.extend(avisos_retrabalho(p["processo"], retrabalho))
             estados = {"concluido": concluido, "em_recurso": False, "candidato_suspensao": False}
         elif tem_execucao_vinculada:
             # Já formalizou o processo de execução: a etapa de Planejamento é
@@ -381,7 +406,8 @@ def atualizar_todos() -> dict:
                 sub_atual, marcos_novos, concluido = calcular_progresso_inexigibilidade_execucao(docs)
                 estados = {"concluido": concluido, "em_recurso": False, "candidato_suspensao": False}
             else:
-                sub_atual, marcos_novos, _chegou_ao_fim = calcular_progresso(docs, SUBETAPAS_PREGAO)
+                sub_atual, marcos_novos, _chegou_ao_fim, retrabalho = calcular_progresso(docs, SUBETAPAS_PREGAO)
+                avisos.extend(avisos_retrabalho(p["processo"], retrabalho))
                 estados = detectar_estados_especiais(docs, movs, caminho)
         else:
             if not p.get("processo_id"):
@@ -390,7 +416,8 @@ def atualizar_todos() -> dict:
             html = client.obter_processo(p["processo_id"])
             docs = extrair_documentos(html)
             movs = extrair_movimentacoes(html)
-            sub_atual, marcos_novos, _chegou_ao_fim = calcular_progresso(docs, etapas_planejamento)
+            sub_atual, marcos_novos, _chegou_ao_fim, retrabalho = calcular_progresso(docs, etapas_planejamento)
+            avisos.extend(avisos_retrabalho(p["processo"], retrabalho))
             estados = {"concluido": False, "em_recurso": False, "candidato_suspensao": False}
 
         if estados["concluido"] and p.get("fase") != "Homologado":
