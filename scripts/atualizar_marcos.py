@@ -599,6 +599,12 @@ def atualizar_todos() -> dict:
 
         if mudou:
             atualizados += 1
+            # Checkpoint incremental — o levantamento histórico processa
+            # centenas de processos numa única execução (cada um exige 1+
+            # acesso ao SIPAC); salvar só no final arriscaria perder tudo se
+            # o ambiente cair no meio, como já aconteceu algumas vezes nesta
+            # sessão. Salvar a cada mudança é mais seguro que só no fim.
+            PROCESSOS_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     PROCESSOS_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     caminhos_suportados = ("pregao", "dispensa", "inexigibilidade", "adesao_srp", "concorrencia", "concorrencia_compras")
