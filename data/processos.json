@@ -15990,9 +15990,9 @@
   {
     "processo": "23077.018679/2024-81",
     "assunto": "AQUISIÇÃO DE PERSIANAS PARA LABORATÓRIO DO CCS",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: DESPACHO (02/06/2024) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (02/06/2024 17:29)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16003,7 +16003,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1077848",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "10/05/2024",
+      "faseInternaFim": "02/06/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1077848,
@@ -16012,9 +16015,9 @@
   {
     "processo": "23077.028860/2024-03",
     "assunto": "AQUISIÇÃO DE MOBILIÁRIO PARA ESTOQUE DA RESERVA TÉCNICA, VIA ADESÃO.",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: NOTA DE EMPENHO (22/03/2024) · Última movimentação: DCF - SETOR DE EXECUÇÃO ORÇAMENTÁRIA (11.02.02.04.03) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (03/04/2024 13:52)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16025,7 +16028,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1080547",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "06/03/2024",
+      "faseInternaFim": "10/03/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1080547,
@@ -16034,9 +16040,9 @@
   {
     "processo": "23077.030125/2024-51",
     "assunto": "SOLICITAÇÃO DE ADESÃO: PROTEINA PARA O RU",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: NOTA DE EMPENHO (18/03/2024) · Última movimentação: DCF - SETOR DE EXECUÇÃO ORÇAMENTÁRIA (11.02.02.04.03) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (18/03/2024 09:41)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16047,7 +16053,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1080919",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "08/03/2024",
+      "faseInternaFim": "11/03/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1080919,
@@ -16056,9 +16065,9 @@
   {
     "processo": "23077.031298/2024-97",
     "assunto": "CONSTRUÇÃO DA GUARITA NA UNIDADE CLÍNICA DO INSTITUTO DE MEDICINA TROPICAL - IMT",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "faseExterna",
+    "subetapa": "Último documento: DESPACHO (29/08/2025) · Última movimentação: DIVISÃO DE PROJETOS E DOCUMENTAÇÃO (11.08.20.04) → COORDENADORIA DE ORÇAMENTO E PROJETOS BÁSICOS (11.08.00.11) (29/08/2025 11:14)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16100,9 +16109,9 @@
   {
     "processo": "23077.036252/2024-64",
     "assunto": "SOLICITAÇÃO DE ADESÃO: LAVADOURA DE ALTA PRESSÃO",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: DESPACHO (21/03/2024) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (21/03/2024 09:26)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16113,7 +16122,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1082514",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "20/03/2024",
+      "faseInternaFim": "21/03/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1082514,
@@ -16122,9 +16134,9 @@
   {
     "processo": "23077.042248/2024-35",
     "assunto": "AQUISIÇÃO DE MOBILIÁRIO PARA DIRETORIA DE INFRAESTRUTURA E REDES.",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: NOTA DE EMPENHO (23/04/2024) · Última movimentação: DCF - SETOR DE EXECUÇÃO ORÇAMENTÁRIA (11.02.02.04.03) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (23/04/2024 09:32)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16135,7 +16147,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1084249",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "03/04/2024",
+      "faseInternaFim": "05/04/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1084249,
@@ -16166,9 +16181,9 @@
   {
     "processo": "23077.048937/2024-53",
     "assunto": "ADESÃO/SRP AO PREGÃO ELETRÔNICO PARA REGISTRO DE PREÇO Nº 00007/2023 (SRP), UASG 783800-BASE NAVAL DE NATAL - RN, - SACO LIXO 100 LTS",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: DESPACHO (23/04/2024) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (23/04/2024 09:09)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16179,7 +16194,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1086094",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "19/04/2024",
+      "faseInternaFim": "22/04/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1086094,
@@ -16201,7 +16219,12 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1086868",
-    "marcos": null,
+    "marcos": {
+      "dfdFim": "07/05/2024",
+      "etpFim": "17/05/2024",
+      "trFim": "23/07/2024",
+      "listaFim": "24/07/2024"
+    },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1086868,
@@ -16210,9 +16233,9 @@
   {
     "processo": "23077.053143/2024-10",
     "assunto": "SOLICITAÇÃO DE ADESÃO A PREGÃO CARONA: BEBEDOURO DE COLUNA",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: SICAF (10/05/2024) · Última movimentação: DCF - SETOR DE EXECUÇÃO ORÇAMENTÁRIA (11.02.02.04.03) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (10/05/2024 12:50)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16223,7 +16246,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1087127",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "03/05/2024",
+      "faseInternaFim": "07/05/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1087127,
@@ -16245,7 +16271,12 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1087964",
-    "marcos": null,
+    "marcos": {
+      "dfdFim": "25/07/2024",
+      "etpFim": "06/08/2024",
+      "trFim": "20/08/2024",
+      "listaFim": "25/09/2024"
+    },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1087964,
@@ -16254,9 +16285,9 @@
   {
     "processo": "23077.057286/2024-92",
     "assunto": "SOLICITAÇÃO DE ADESÃO: PROCESSADOR",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: DESPACHO (28/05/2024) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (28/05/2024 10:53)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16267,7 +16298,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1088246",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "24/05/2024",
+      "faseInternaFim": "28/05/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1088246,
@@ -16299,8 +16333,8 @@
     "processo": "23077.064730/2024-26",
     "assunto": "PROCESSO PARA AQUISIÇÃO DE RELIGADORES PARA O SISTEMA DE DISTRIBUIÇÃO DO CAMPUS CENTRAL E DAS UNIDADES EXTRA CAMPUS.",
     "fase": "Planejamento (DPGC)",
-    "subEtapa": "dfd",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "subEtapa": "etp",
+    "subetapa": "Último documento: DESPACHO DE ENCAMINHAMENTO (05/08/2026) · Última movimentação: DIRETORIA DE OBRAS (11.08.06) → COORDENADORIA DE ORÇAMENTO E PROJETOS BÁSICOS (11.08.00.11) (06/08/2026 14:38)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16311,7 +16345,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1090733",
-    "marcos": null,
+    "marcos": {
+      "dfdFim": "04/08/2026"
+    },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1090733,
@@ -16333,7 +16369,12 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1091161",
-    "marcos": null,
+    "marcos": {
+      "dfdFim": "17/06/2024",
+      "etpFim": "27/06/2024",
+      "trFim": "04/07/2024",
+      "listaFim": "08/07/2024"
+    },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1091161,
@@ -16342,9 +16383,9 @@
   {
     "processo": "23077.071865/2024-48",
     "assunto": "COMPRA DE EQUIPAMENTOS PARA O IPP POR MEIO DE EMENDA PARLAMENTAR",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: DESPACHO (25/07/2024) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (25/07/2024 08:45)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16355,7 +16396,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1093215",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "16/07/2024",
+      "faseInternaFim": "23/07/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1093215,
@@ -16386,9 +16430,9 @@
   {
     "processo": "23077.087559/2024-23",
     "assunto": "AQUISIÇÃO DE 2 COMPUTADORES COMPLETOS DO TIPO DESKTOP PARA A SECRETARIA DO PROGRAMA DE PÓS-GRADUAÇÃO EM GESTÃO DA QUALIDADE EM SERVIÇOS DE SAÚDE (PPGQUALISAÚDE).",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: NOTA DE EMPENHO (29/10/2024) · Última movimentação: DCF - SEÇÃO DE CONVÊNIOS DE RECEITA (11.02.02.02) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (29/10/2024 10:19)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16399,7 +16443,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1097933",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "20/09/2024",
+      "faseInternaFim": "24/09/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1097933,
@@ -16408,9 +16455,9 @@
   {
     "processo": "23077.087701/2024-32",
     "assunto": "AQUISIÇÃO DE 50 ESTANTES DE PARTITURAS PARA A EMUFRN. PR 14/2023 - UASG 158145.",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: DESPACHO (14/08/2024) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (14/08/2024 12:36)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16421,7 +16468,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1097963",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "12/08/2024",
+      "faseInternaFim": "14/08/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1097963,
@@ -16430,9 +16480,9 @@
   {
     "processo": "23077.093472/2024-95",
     "assunto": "MANUTENÇÃO DA TORRE DE TRANSMISSÃO - SUPERINTENDÊNCIA DE COMUNICAÇÃO DA UFRN",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "faseExterna",
+    "subetapa": "Último documento: DESPACHO DE ENCAMINHAMENTO (05/02/2026) · Última movimentação: DIRETORIA DE OBRAS (11.08.06) → SUPERINTENDENCIA DE COMUNICACAO (11.28) (05/02/2026 16:17)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16474,9 +16524,9 @@
   {
     "processo": "23077.109456/2024-21",
     "assunto": "SOLICITAÇÃO DE ADESÃO PARA COMPRA DE BETONEIRA MONOFÁSICA DE 220V E 400L PARA USO NAS OBRAS DE MANUTENÇÃO DE INFRAESTRUTURA DO CERES.",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: DESPACHO (20/09/2024) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (20/09/2024 11:54)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16487,7 +16537,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103626",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "03/09/2024",
+      "faseInternaFim": "20/09/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1103626,
@@ -16496,9 +16549,9 @@
   {
     "processo": "23077.112287/2024-15",
     "assunto": "PLANEJAMENTO DE AQUISIÇÃO DE MOBILIÁRIO ADMINISTRATIVO PARA A UFRN POR MEIO DE ADESÃO A ATA DE REGISTRO DE PREÇOS (PR 12/2023 DA UASG 158718 - UNIVERSIDADE FEDERAL DO SUL E SUDESTE DO PARÁ).",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: DESPACHO (12/09/2024) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (12/09/2024 14:05)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16509,7 +16562,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1104464",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "05/09/2024",
+      "faseInternaFim": "12/09/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1104464,
@@ -16518,9 +16574,9 @@
   {
     "processo": "23077.113203/2024-52",
     "assunto": "PLANEJAMENTO DE AQUISIÇÃO DE TELEVISORES 55 POLEGADAS POR MEIO DE ADESÃO A ATA SRP (PR 8/2023 DA UASG 153080 - UNIVERSIDADE FEDERAL DE PERNAMBUCO)",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: DESPACHO (10/09/2024) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (10/09/2024 11:59)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16531,7 +16587,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1104701",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "06/09/2024",
+      "faseInternaFim": "10/09/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1104701,
@@ -16540,9 +16599,9 @@
   {
     "processo": "23077.115527/2024-25",
     "assunto": "PLANEJAMENTO DE AQUISIÇÃO DE MOBILIÁRIO ADMINISTRATIVO (GAVETEIROS, MESA DE REUNIÃO CIRCULAR E CADEIRA GIRATÓRIA COM BRAÇOS E ESPALDAR ALTO) POR MEIO DE ADESÃO A ATA SRP (PR 12/2023 DA UASG 158718)",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: DESPACHO (18/09/2024) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (18/09/2024 14:53)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16553,7 +16612,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1105408",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "10/09/2024",
+      "faseInternaFim": "18/09/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1105408,
@@ -16562,9 +16624,9 @@
   {
     "processo": "23077.115842/2024-52",
     "assunto": "PLANEJAMENTO DE AQUISIÇÃO DE EQUIPAMENTOS ENERGÉTICOS (ESTABILIZADORES DE TENSÃO DE 1KVA E NO-BREAKS DE 600VA) POR MEIO DE ADESÃO A ATA SRP (PR 162023 DA UASG 160106).",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: DESPACHO (18/09/2024) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (18/09/2024 15:49)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16575,7 +16637,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1105478",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "10/09/2024",
+      "faseInternaFim": "18/09/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1105478,
@@ -16584,9 +16649,9 @@
   {
     "processo": "23077.118364/2024-32",
     "assunto": "SOLICITAÇÃO DE ADESÃO PARA COMPRA DE 50 BATERIAS 12V 7A PARA MANUTENÇÃO GERAL DOS NOBREAKS DA ADMINISTRAÇÃO, BIBLIOTECA, BACHARELADO DE SISTEMAS DE INFORMAÇÃO E LABORATÓRIOS DO CERES.",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: DESPACHO (19/09/2024) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (19/09/2024 13:35)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16597,7 +16662,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1106116",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "18/09/2024",
+      "faseInternaFim": "19/09/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1106116,
@@ -16606,9 +16674,9 @@
   {
     "processo": "23077.120035/2024-51",
     "assunto": "ADESAO SRP P AQUISIÇÃO DE ETIQUETAS AUTO ADESIVAS PARA SEAC",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: DESPACHO (23/09/2024) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (23/09/2024 12:38)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16619,7 +16687,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1106625",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "18/09/2024",
+      "faseInternaFim": "23/09/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1106625,
@@ -16628,9 +16699,9 @@
   {
     "processo": "23077.125731/2024-54",
     "assunto": "SOLICITAÇÃO DE ADESÃO PARA COMPRA DE IMPRESSORA 3D PARA USO NO LABORATÓRIO DE EDUCAÇÃO MATEMÁTICA.",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: DESPACHO (10/10/2024) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (10/10/2024 07:57)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16641,7 +16712,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1108402",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "08/10/2024",
+      "faseInternaFim": "10/10/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1108402,
@@ -16650,9 +16724,9 @@
   {
     "processo": "23077.126974/2024-18",
     "assunto": "SOLICITAÇÃO DE FORMALIZAÇÃO DE ADESÃO A ATA DE REGISTRO DE PREÇOS: PREGÃO Nº 90030/2024, UASG 070008 - TRIBUNAL REGIONAL ELEITORAL DO RIO GRANDE DO NORTE – TRE/RN, ITEM 02 - MICROCOMPUTADOR.",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: DESPACHO (06/12/2024) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (06/12/2024 10:44)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16663,7 +16737,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1108702",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "05/12/2024",
+      "faseInternaFim": "06/12/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1108702,
@@ -16672,9 +16749,9 @@
   {
     "processo": "23077.129059/2024-76",
     "assunto": "ADESÃO DE TELA DE PROJEÇÃO",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: DESPACHO (10/10/2024) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (10/10/2024 09:25)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16685,7 +16762,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1109290",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "07/10/2024",
+      "faseInternaFim": "10/10/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1109290,
@@ -16694,9 +16774,9 @@
   {
     "processo": "23077.131167/2024-17",
     "assunto": "AQUISIÇÃO DE PROJETORES MULTIMIDIA PARA O CCS",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: NOTA DE EMPENHO (30/10/2024) · Última movimentação: DCF - SETOR DE EXECUÇÃO ORÇAMENTÁRIA (11.02.02.04.03) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (30/10/2024 16:45)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16707,7 +16787,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1109810",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "07/10/2024",
+      "faseInternaFim": "10/10/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1109810,
@@ -16729,7 +16812,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1109914",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "10/12/2024"
+    },
     "caminho": "inexigibilidade",
     "caminhoHistorico": [],
     "processo_id": 1109914,
@@ -16738,9 +16823,9 @@
   {
     "processo": "23077.136073/2024-26",
     "assunto": "SOLICITAÇÃO DE FORMALIZAÇÃO DE ADESÃO A ATA DE REGISTRO DE PREÇOS: PREGÃO Nº 12/2023, UNIVERSIDADE FEDERAL DO SUL E SUDESTE DO PARÁ — UNIFESSPA - UASG: 158718,ITENS 26, 51, 55, 58 E 61 - MOBILIÁRIO",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: NOTA DE EMPENHO (13/11/2024) · Última movimentação: DCF - SETOR DE EXECUÇÃO ORÇAMENTÁRIA (11.02.02.04.03) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (13/11/2024 11:15)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16751,7 +16836,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1111101",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "14/10/2024",
+      "faseInternaFim": "22/10/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1111101,
@@ -16782,9 +16870,9 @@
   {
     "processo": "23077.136615/2024-61",
     "assunto": "COMPLEMENTAÇÃO DA REFORMA DO PRÉDIO DO ARQUIVO GERAL DA UFRN",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "faseExterna",
+    "subetapa": "Último documento: CERTIDÃO (16/03/2026) · Última movimentação: DIRETORIA DE CONTRATOS - PROAD (11.02.16) → CONTRATOS - DIVISÃO DE FORMALIZAÇÃO E ACOMPANHAMENTO DE CONTRATOS (11.02.16.01) (31/07/2026 16:53)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16817,7 +16905,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1113859",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "20/05/2025"
+    },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1113859,
@@ -16839,7 +16929,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1114285",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "10/06/2025"
+    },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1114285,
@@ -16861,7 +16953,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1114352",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "18/06/2025"
+    },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1114352,
@@ -16883,7 +16977,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1114377",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "14/05/2025"
+    },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1114377,
@@ -16892,9 +16988,9 @@
   {
     "processo": "23077.155110/2024-03",
     "assunto": "AQUISIÇÃO DE DISCOS SSD POR ADESÃO",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: NOTA DE EMPENHO (27/11/2024) · Última movimentação: DCF - SETOR DE EXECUÇÃO ORÇAMENTÁRIA (11.02.02.04.03) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (27/11/2024 10:24)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16905,7 +17001,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1116014",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "13/11/2024",
+      "faseInternaFim": "18/11/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1116014,
@@ -16914,9 +17013,9 @@
   {
     "processo": "23077.159591/2024-18",
     "assunto": "REFORMA DO AUDITÓRIO DO NEPSA I",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "faseExterna",
+    "subetapa": "Último documento: CERTIDÃO (30/04/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE EXTERNA DE COMPRAS (11.02.09.02) (22/06/2026 16:30)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16958,9 +17057,9 @@
   {
     "processo": "23077.172860/2024-31",
     "assunto": "ADESÃO A ATA DE REGISTRO DE PREÇOS DO PREGÃO ELETRÔNICO Nº 045/2023 - CREA MG PARA AQUISIÇÃO DE MOBILIÁRIO",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Fase Interna (DFI)",
+    "subEtapa": "faseInterna",
+    "subetapa": "Último documento: DESPACHO (30/12/2024) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (30/12/2024 16:52)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16971,7 +17070,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1120326",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "13/12/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1120326,
@@ -16980,9 +17081,9 @@
   {
     "processo": "23077.172902/2024-34",
     "assunto": "ADESÃO AO PREGÃO 10/2023 DA UASG 158135 - INST.FED.DE EDUC.,CIENC.E TEC.DO PARA, PARA AQUISIÇÃO DE ESTANTES METÁLICAS",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: DESPACHO (29/12/2024) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (29/12/2024 17:41)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -16993,7 +17094,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1120345",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "17/12/2024",
+      "faseInternaFim": "29/12/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1120345,
@@ -17015,7 +17119,12 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1120722",
-    "marcos": null,
+    "marcos": {
+      "dfdFim": "16/12/2024",
+      "etpFim": "16/12/2024",
+      "trFim": "27/01/2025",
+      "listaFim": "31/01/2025"
+    },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1120722,
@@ -17024,9 +17133,9 @@
   {
     "processo": "23077.178816/2024-35",
     "assunto": "ADESÃO A ATA DE REGISTRO DE PREÇOS 16/2023-IFES",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Fase Interna (DFI)",
+    "subEtapa": "faseInterna",
+    "subetapa": "Último documento: DESPACHO (30/12/2024) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (30/12/2024 14:47)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -17037,7 +17146,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1122051",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "30/12/2024"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1122051,
@@ -17046,9 +17157,9 @@
   {
     "processo": "23077.001829/2025-06",
     "assunto": "RECUPERAÇÃO DA ESTRUTURA DA COBERTURA METÁLICA DO CENTRO VOCACIONAL TECNOLÓGICO DA ESCOLA AGRÍCOLA DE JUNDIAÍ - UFRN",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "faseExterna",
+    "subetapa": "Último documento: DESPACHO (08/08/2025) · Última movimentação: SUPERINTENDÊNCIA DE INFRAESTRUTURA (11.08) → ESCOLA AGRÍCOLA DE JUNDIAÍ (11.22) (08/08/2025 16:10)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -17068,9 +17179,9 @@
   {
     "processo": "23077.011364/2025-93",
     "assunto": "PROJETO DE ADEQUAÇÕES NO PRÉDIO DO IMT CLÍNICO, LOCALIZADO NO BAIRRO DAS QUINTAS, PARA FINS DE LEGALIZAÇÃO JUNTO À SEMURB.",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "faseExterna",
+    "subetapa": "Último documento: DESPACHO (23/07/2026) · Última movimentação: COORDENADORIA DE ORÇAMENTO E PROJETOS BÁSICOS (11.08.00.11) → FUNDAÇÃO NORTE-RIOGRANDENSE DE PESQUISA E CULTURA (10.03) (23/07/2026 09:47)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -17090,9 +17201,9 @@
   {
     "processo": "23077.016672/2025-13",
     "assunto": "PROCESSO LICITATÓRIO PARA CELEBRAÇÃO DE CONTRATO DE CONCESSÃO ONEROSA DE DIREITO REAL DE USO DE BEM PÚBLICO - MANUTENÇÃO DE FIBRAS - NÚCLEO DE REDES AVANÇADAS DA UFRN",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "faseExterna",
+    "subetapa": "Último documento: DESPACHO (17/07/2025) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → NÚCLEO DE REDES AVANÇADAS (11.24.00.01) (12/08/2026 11:07)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -17113,8 +17224,8 @@
     "processo": "23077.024928/2025-58",
     "assunto": "CONTRATAÇÃO CENTRALIZADA DE SOFTWARES SUÍTE DE ESCRITÓRIO. ATUAÇÃO, COMO ÓRGÃO PARTICIPANTE, NA LICITAÇÃO IRP 03/2025 SEGES/MGI.",
     "fase": "Planejamento (DPGC)",
-    "subEtapa": "dfd",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "subEtapa": "etp",
+    "subetapa": "Último documento: DESPACHO (01/08/2025) · Última movimentação: DIRETORIA DE COMPRAS - PROAD (11.02.09) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (01/08/2025 15:59)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -17125,7 +17236,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1129312",
-    "marcos": null,
+    "marcos": {
+      "dfdFim": "30/07/2025"
+    },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1129312,
@@ -17267,8 +17380,8 @@
     "processo": "23077.070333/2025-74",
     "assunto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE LIMPEZA E DESINFECÇÃO DE CAIXAS D'ÁGUA, CISTERNAS E RESERVATÓRIOS PARA ATENDER DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES.",
     "fase": "Planejamento (DPGC)",
-    "subEtapa": "dfd",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "subEtapa": "etp",
+    "subetapa": "Último documento: DESPACHO (08/07/2025) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → DIRETORIA DE MEIO AMBIENTE (11.08.12) (08/07/2025 13:48)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -17279,7 +17392,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1143254",
-    "marcos": null,
+    "marcos": {
+      "dfdFim": "06/06/2025"
+    },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1143254,
@@ -17355,8 +17470,8 @@
     "processo": "23077.091033/2025-29",
     "assunto": "PCA26 - AQUISIÇÃO DE SERVIDORES/STORAGE",
     "fase": "Planejamento (DPGC)",
-    "subEtapa": "dfd",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "subEtapa": "etp",
+    "subetapa": "Último documento: DESPACHO (14/07/2025) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → CENTRO MULTIUSUÁRIO EM BIOINFORMÁTICA - CMB (11.00.05.02.08) (14/07/2025 16:23)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -17367,7 +17482,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1150400",
-    "marcos": null,
+    "marcos": {
+      "dfdFim": "06/07/2025"
+    },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1150400,
@@ -17377,8 +17494,8 @@
     "processo": "23077.091039/2025-04",
     "assunto": "PCA26 - AQUISIÇÃO DE EQUIPAMENTOS DE PROCESSAMENTO DE DADOS",
     "fase": "Planejamento (DPGC)",
-    "subEtapa": "dfd",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "subEtapa": "etp",
+    "subetapa": "Último documento: DESPACHO (28/08/2025) · Última movimentação: DIRETORIA DE COMPRAS - PROAD (11.02.09) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (28/08/2025 14:08)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -17389,7 +17506,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1150406",
-    "marcos": null,
+    "marcos": {
+      "dfdFim": "27/08/2025"
+    },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1150406,
@@ -17443,8 +17562,8 @@
     "processo": "23077.106375/2025-51",
     "assunto": "AQUISIÇÃO E INSTALAÇÃO DE USINAS FOTOVOLTAICAS PARA ATENDIMENTO ÀS DEMANDAS ENERGÉTICAS DA UFRN",
     "fase": "Planejamento (DPGC)",
-    "subEtapa": "dfd",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "subEtapa": "tr",
+    "subetapa": "Último documento: DESPACHO (13/07/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) (13/07/2026 12:50)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -17455,7 +17574,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1155222",
-    "marcos": null,
+    "marcos": {
+      "dfdFim": "14/07/2025",
+      "etpFim": "22/08/2025"
+    },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1155222,
@@ -17508,9 +17630,9 @@
   {
     "processo": "23077.116249/2025-12",
     "assunto": "REFORMA DOS BANHEIROS E ADEQUAÇÃO DE ACESSIBILIDADE DA SUPERINTENDÊNCIA DE TECNOLOGIA DA INFORMAÇÃO",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "faseExterna",
+    "subetapa": "Último documento: DESPACHO (10/10/2025) · Última movimentação: DIRETORIA DE OBRAS (11.08.06) → CONTRATOS - DIVISÃO DE FORMALIZAÇÃO E ACOMPANHAMENTO DE CONTRATOS (11.02.16.01) (08/06/2026 12:28)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -17530,9 +17652,9 @@
   {
     "processo": "23077.119755/2025-55",
     "assunto": "FORNECIMENTO E INSTALAÇÃO DE RETIFICADOR TRIFÁSICO 380 V VCA / 125 VCC, SUBSTITUIÇÃO DE BANCO DE BATERIAS ESTACIONÁRIAS DE 2 V / 250 A/H, REPOSIÇÃO DE GÁS SF6 DO DISJUNTOR DE 69 KV DE LINHA, CONFORME ESPECIFICAÇÕES EM ANEXO.",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "faseExterna",
+    "subetapa": "Último documento: DESPACHO DE AUTORIZAÇÃO DO TERMO DE REFERÊNCIA (13/03/2026) · Última movimentação: REITORIA (11.24) → PRÓ-REITORIA DE ADMINISTRAÇÃO (PROAD) (11.02) (14/08/2026 17:21)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -17565,7 +17687,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1161169",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "16/07/2026"
+    },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1161169,
@@ -17574,9 +17698,9 @@
   {
     "processo": "23077.127147/2025-14",
     "assunto": "REFORMA E RECUPERAÇÃO ESTRUTURAL DO ALMOXARIFADO CENTRAL DA UFRN",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "faseExterna",
+    "subetapa": "Último documento: CERTIDÃO (11/08/2026) · Última movimentação: COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) → COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) (14/08/2025 14:38)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -17619,8 +17743,8 @@
     "processo": "23077.134826/2025-40",
     "assunto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM MANUTENÇÃO DE CENTRAIS DE AR CONDICIONADO DO TIPO VRF.",
     "fase": "Planejamento (DPGC)",
-    "subEtapa": "dfd",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "subEtapa": "tr",
+    "subetapa": "Último documento: DESPACHO (10/08/2026) · Última movimentação: COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (10/08/2026 14:44)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -17631,7 +17755,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1164466",
-    "marcos": null,
+    "marcos": {
+      "dfdFim": "29/08/2025",
+      "etpFim": "06/11/2025"
+    },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1164466,
@@ -17751,8 +17878,8 @@
     "processo": "23077.161971/2025-01",
     "assunto": "CONTRATAÇÃO DE SERVIÇOS DE ENGENHARIA DE SONDAGEM DE SOLO, TIPOS SPT E ROTATIVA, E ENSAIOS DE INFILTRAÇÃO NO SOLO, PARA OBRAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES",
     "fase": "Planejamento (DPGC)",
-    "subEtapa": "dfd",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "subEtapa": "etp",
+    "subetapa": "Último documento: DESPACHO (06/11/2025) · Última movimentação: DIRETORIA DE OBRAS (11.08.06) → COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) (17/10/2025 17:30)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -17763,7 +17890,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1172910",
-    "marcos": null,
+    "marcos": {
+      "dfdFim": "09/10/2025"
+    },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1172910,
@@ -17773,8 +17902,8 @@
     "processo": "23077.163589/2025-24",
     "assunto": "CONTRATAÇÃO DE SERVIÇOS EVENTUAIS DE TERCEIRIZAÇÃO PARA PRODUÇÃO E/OU DE EMBALAGEM E LOGÍSTICA DE MEDICAMENTOS SÓLIDOS, PARA OS QUAIS O NUPLAM DETÉM REGISTRO SANITÁRIO.",
     "fase": "Planejamento (DPGC)",
-    "subEtapa": "dfd",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "subEtapa": "tr",
+    "subetapa": "Último documento: DESPACHO (18/12/2025) · Última movimentação: PRÓ-REITORIA DE ADMINISTRAÇÃO (PROAD) (11.02) → NUCLEO DE PESQUISA EM ALIMENTOS E MEDICAMENTOS (11.50) (18/12/2025 14:41)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -17785,7 +17914,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1173370",
-    "marcos": null,
+    "marcos": {
+      "dfdFim": "14/10/2025",
+      "etpFim": "10/11/2025"
+    },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1173370,
@@ -17794,9 +17926,9 @@
   {
     "processo": "23077.164172/2025-89",
     "assunto": "SOLICITAÇÃO ADESÃO ATRAVÉS DO PROCESSO LICITATÓRIO PREGÃO Nº 90005/2024, UASG 160033 - 19 BATALHÃO DE CAÇADORES, PARA COMPRA DE CANETA AZUL ESFEROGRÁFICA.",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Fase Interna (DFI)",
+    "subEtapa": "faseInterna",
+    "subetapa": "Último documento: DESPACHO (10/11/2025) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → DLOG - DIVISÃO DE ALMOXARIFADO CENTRAL (11.02.03.28) (10/11/2025 10:03)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -17807,7 +17939,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1173614",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "05/11/2025"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1173614,
@@ -17817,8 +17951,8 @@
     "processo": "23077.167411/2025-52",
     "assunto": "PLANEJAMENTO DE LICITAÇÃO PARA CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO CONTINUADO DE MOTORISTAS, COM DEDICAÇÃO EXCLUSIVA DE MÃO DE OBRA, PARA ATENDER A DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES.",
     "fase": "Planejamento (DPGC)",
-    "subEtapa": "dfd",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "subEtapa": "etp",
+    "subetapa": "Último documento: DESPACHO (10/03/2026) · Última movimentação: DAS/PROGESP - DIRETORIA DE QUALIDADE DE VIDA, SAÚDE E SEGURANÇA NO TRABALHO (11.65.05) → DAS - DIVISÃO DE VIGILÂNCIA EM SAÚDE E SEGURANÇA DO TRABALHO (11.65.05.00.01) (10/03/2026 11:03)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -17829,7 +17963,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1174719",
-    "marcos": null,
+    "marcos": {
+      "dfdFim": "17/10/2025"
+    },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1174719,
@@ -17917,7 +18053,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1179208",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "08/07/2026"
+    },
     "caminho": "inexigibilidade",
     "caminhoHistorico": [],
     "processo_id": 1179208,
@@ -17948,9 +18086,9 @@
   {
     "processo": "23077.196164/2025-00",
     "assunto": "CONSTRUÇÃO DOS GINÁSIOS POLIESPORTIVOS DOS CAMPI DE CAICÓ, MACAÍBA, SANTA CRUZ E CURRAIS NOVOS E DO PRÉDIO PARA OS CURSOS DE GRADUAÇÃO EM PSICOLOGIA E TERAPIA OCUPACIONAL DA FACISA, DA UFRN",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "faseExterna",
+    "subetapa": "Último documento: DESPACHO DE AUTORIZAÇÃO DO TERMO DE REFERÊNCIA (16/12/2025) · Última movimentação: DIRETORIA DE CONTRATOS - PROAD (11.02.16) → CONTRATOS - DIVISÃO DE FORMALIZAÇÃO E ACOMPANHAMENTO DE CONTRATOS (11.02.16.01) (24/07/2026 11:06)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -18027,7 +18165,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1190076",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "15/07/2026"
+    },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1190076,
@@ -18058,9 +18198,9 @@
   {
     "processo": "23077.012171/2026-31",
     "assunto": "SOLICITAÇÃO DE ABERTURA DE PROCESSO DE ADESÃO À ATA DE REGISTRO DE PREÇOS – PREGÃO 90009/2024 UASG: 160024",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Fase Interna (DFI)",
+    "subEtapa": "faseInterna",
+    "subetapa": "Último documento: DESPACHO DE ENCAMINHAMENTO (24/04/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → DLOG - DIVISÃO DE ALMOXARIFADO DE MANUTENÇÃO (11.02.03.31) (24/04/2026 16:26)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -18071,7 +18211,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1191502",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "11/02/2026"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1191502,
@@ -18137,7 +18279,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1196170",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "24/04/2026"
+    },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1196170,
@@ -18168,9 +18312,9 @@
   {
     "processo": "23077.032951/2026-05",
     "assunto": "ADESÃO CARONA - OVO DE GALINHA - NATAL DISTRIBUIDORA",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: NOTA DE EMPENHO (30/03/2026) · Última movimentação: DCF - SETOR DE EXECUÇÃO ORÇAMENTÁRIA (11.02.02.04.03) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (30/03/2026 11:37)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -18181,7 +18325,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1198026",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "18/03/2026",
+      "faseInternaFim": "20/03/2026"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1198026,
@@ -18203,7 +18350,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1200115",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "17/06/2026"
+    },
     "caminho": "inexigibilidade",
     "caminhoHistorico": [],
     "processo_id": 1200115,
@@ -18300,9 +18449,9 @@
   {
     "processo": "23077.047227/2026-78",
     "assunto": "REFORMA DO CENTRO DE CONVIVÊNCIA PARA IMPLANTAÇÃO DA OUVIDORIA DA UFRN",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "faseExterna",
+    "subetapa": "Último documento: CERTIDÃO (01/07/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE EXTERNA DE COMPRAS (11.02.09.02) (06/08/2026 10:03)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -18445,7 +18594,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1205619",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "03/08/2026"
+    },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1205619,
@@ -18467,7 +18618,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1205674",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "13/08/2026"
+    },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1205674,
@@ -18498,9 +18651,9 @@
   {
     "processo": "23077.062866/2026-63",
     "assunto": "COMPLEMENTAÇÃO DA OBRA DE RESTAURO E REFORMA DO PRÉDIO DO ANTIGO GRUPO ESCOLAR AUGUSTO SEVERO DESTINADO AO CENTRO DE EXTENSÃO CIDADANIA E CULTURA DA UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "faseExterna",
+    "subetapa": "Último documento: DESPACHO (11/05/2026) · Última movimentação: SUPERINTENDÊNCIA DE INFRAESTRUTURA (11.08) → DIVISÃO DE FISCALIZAÇÃO DE OBRAS (11.08.06.04) (08/05/2026 17:31)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -18621,7 +18774,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1208513",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "10/08/2026"
+    },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1208513,
@@ -18775,7 +18930,12 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1209719",
-    "marcos": null,
+    "marcos": {
+      "dfdFim": "07/07/2026",
+      "etpFim": "30/07/2026",
+      "trFim": "05/08/2026",
+      "listaFim": "05/08/2026"
+    },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1209719,
@@ -18828,9 +18988,9 @@
   {
     "processo": "23077.076685/2026-14",
     "assunto": "SOLICITAÇÃO DE ADESÃO ATRAVÉS DO PROCESSO LICITATÓRIO PREGÃO Nº 90050/2025, UASG 153065- UNIVERSIDADE FEDERAL DA PARAÍBA - CAMPOS I, PARA COMPRA DE DETERGENTE NEUTRO 500 ML.",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Fase Interna (DFI)",
+    "subEtapa": "faseInterna",
+    "subetapa": "Último documento: DESPACHO (30/06/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → DLOG - DIVISÃO DE ALMOXARIFADO CENTRAL (11.02.03.28) (30/06/2026 16:39)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -18841,7 +19001,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1210941",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "16/06/2026"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1210941,
@@ -18863,7 +19025,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1211036",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "13/08/2026"
+    },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1211036,
@@ -18885,7 +19049,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1212996",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "27/07/2026"
+    },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1212996,
@@ -18951,7 +19117,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1213583",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "11/08/2026"
+    },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1213583,
@@ -19105,7 +19273,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1214948",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "04/08/2026"
+    },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1214948,
@@ -19268,9 +19438,9 @@
   {
     "processo": "23077.099805/2026-51",
     "assunto": "TRATA-SE DE PROCESSO DE AQUISIÇÃO DE UMA LICENÇA SUBSCRIÇÃO POR 36 MESES DO ADOBE CREATIVE CLOUD VIP TEAMS GOVERNAMENTAL ALL APPS",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: NOTA DE EMPENHO (12/08/2026) · Última movimentação: DCF - SETOR DE EXECUÇÃO ORÇAMENTÁRIA (11.02.02.04.03) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (12/08/2026 08:51)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -19281,7 +19451,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1217996",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "24/07/2026",
+      "faseInternaFim": "03/08/2026"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1217996,
@@ -19303,7 +19476,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1218675",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "04/08/2026"
+    },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1218675,
@@ -19510,9 +19685,9 @@
   {
     "processo": "23077.112001/2026-55",
     "assunto": "ADESÃO CARONA - CARNE BOVINA",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: NOTA DE EMPENHO (07/08/2026) · Última movimentação: DCF - SETOR DE EXECUÇÃO ORÇAMENTÁRIA (11.02.02.04.03) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (07/08/2026 15:26)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -19523,7 +19698,10 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1221874",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "04/08/2026",
+      "faseInternaFim": "05/08/2026"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1221874,
@@ -19620,9 +19798,9 @@
   {
     "processo": "23077.116386/2026-20",
     "assunto": "AQUISIÇÃO DE TELEVISOR 55\" ATRAVÉS DE ADESÃO/CARONA",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Fase Interna (DFI)",
+    "subEtapa": "faseInterna",
+    "subetapa": "Último documento: AUTORIZAÇÃO DE FORMALIZAÇÃO - ADESÃO A ATA DE REGISTRO DE PREÇOS (13/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (13/08/2026 16:51)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "2026-08-13",
@@ -19633,7 +19811,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223277",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "13/08/2026"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1223277,
@@ -19665,8 +19845,8 @@
     "processo": "23077.116743/2026-50",
     "assunto": "PLANEJAMENTO DE CONTRATAÇÃO PCA 2027_GRUPO 3011_PRODUTOS QUÍMICOS",
     "fase": "Planejamento (DPGC)",
-    "subEtapa": "dfd",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "subEtapa": "etp",
+    "subetapa": "Último documento: DESPACHO (14/08/2026) · Última movimentação: DIRETORIA DE COMPRAS - PROAD (11.02.09) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (14/08/2026 14:01)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "2026-08-13",
@@ -19677,7 +19857,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223403",
-    "marcos": null,
+    "marcos": {
+      "dfdFim": "10/08/2026"
+    },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1223403,
@@ -19753,8 +19935,8 @@
     "processo": "23077.118339/2026-11",
     "assunto": "AQUISIÇÃO DE RAÇÃO E ALIMENTOS PARA ANIMAIS PARA ATENDER DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES.",
     "fase": "Planejamento (DPGC)",
-    "subEtapa": "dfd",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "subEtapa": "etp",
+    "subetapa": "Último documento: PORTARIA DE COMISSÃO (14/08/2026) · Última movimentação: PROAD - COORDENADORIA ADMINISTRATIVA (11.02.06) → DIRETORIA DE COMPRAS - PROAD (11.02.09) (14/08/2026 13:39)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "2026-08-13",
@@ -19765,7 +19947,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223899",
-    "marcos": null,
+    "marcos": {
+      "dfdFim": "13/08/2026"
+    },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1223899,
@@ -19775,8 +19959,8 @@
     "processo": "23077.118373/2026-95",
     "assunto": "AQUISIÇÃO DE MATERIAL DE COUDELARIA OU DE USO ZOOTECNICO PARA ATENDER DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES.",
     "fase": "Planejamento (DPGC)",
-    "subEtapa": "dfd",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "subEtapa": "etp",
+    "subetapa": "Último documento: PORTARIA DE COMISSÃO (14/08/2026) · Última movimentação: PROAD - COORDENADORIA ADMINISTRATIVA (11.02.06) → DIRETORIA DE COMPRAS - PROAD (11.02.09) (14/08/2026 13:37)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "2026-08-13",
@@ -19787,7 +19971,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223906",
-    "marcos": null,
+    "marcos": {
+      "dfdFim": "13/08/2026"
+    },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1223906,
@@ -19797,8 +19983,8 @@
     "processo": "23077.118522/2026-16",
     "assunto": "AQUISIÇÃO DE MATERIAIS E MEDICAMENTOS PARA USO VETERINARIO PARA ATENDER DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES.",
     "fase": "Planejamento (DPGC)",
-    "subEtapa": "dfd",
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "subEtapa": "etp",
+    "subetapa": "Último documento: DESPACHO DE AUTORIZAÇÃO DA FORMALIZAÇÃO DE DEMANDA (14/08/2026) · Última movimentação: PRÓ-REITORIA DE ADMINISTRAÇÃO (PROAD) (11.02) → PROAD - COORDENADORIA ADMINISTRATIVA (11.02.06) (14/08/2026 12:16)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "2026-08-13",
@@ -19809,7 +19995,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223947",
-    "marcos": null,
+    "marcos": {
+      "dfdFim": "14/08/2026"
+    },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1223947,
