@@ -2591,7 +2591,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "11/06/2026",
-    "ultimaAtividade": "28/07/2026"
+    "ultimaAtividade": "28/07/2026",
+    "triado": true
   },
   {
     "processo_id": 1213078,
@@ -2603,7 +2604,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "11/06/2026",
-    "ultimaAtividade": "25/06/2026"
+    "ultimaAtividade": "25/06/2026",
+    "triado": true
   },
   {
     "processo_id": 1213132,
@@ -2615,7 +2617,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "11/06/2026",
-    "ultimaAtividade": "16/06/2026"
+    "ultimaAtividade": "16/06/2026",
+    "triado": true
   },
   {
     "processo_id": 1096716,
@@ -2628,7 +2631,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "18/07/2024",
     "ultimaAtividade": "15/10/2024",
-    "alertaEmpenhoSemExecucao": true
+    "alertaEmpenhoSemExecucao": true,
+    "triado": true
   },
   {
     "processo_id": 1096934,
@@ -2640,7 +2644,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "19/07/2024",
-    "ultimaAtividade": ""
+    "ultimaAtividade": "",
+    "triado": true
   },
   {
     "processo_id": 1213583,
@@ -2652,7 +2657,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "15/06/2026",
-    "ultimaAtividade": "13/08/2026"
+    "ultimaAtividade": "13/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1213806,
@@ -2664,7 +2670,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "16/06/2026",
-    "ultimaAtividade": "06/07/2026"
+    "ultimaAtividade": "06/07/2026",
+    "triado": true
   },
   {
     "processo_id": 1147970,
@@ -2676,7 +2683,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/06/2025",
-    "ultimaAtividade": "11/06/2025"
+    "ultimaAtividade": "11/06/2025",
+    "triado": true
   },
   {
     "processo_id": 1148054,
@@ -2688,7 +2696,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/06/2025",
-    "ultimaAtividade": "22/05/2025"
+    "ultimaAtividade": "22/05/2025",
+    "triado": true
   },
   {
     "processo_id": 1213959,
@@ -2700,7 +2709,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "17/06/2026",
-    "ultimaAtividade": "18/06/2026"
+    "ultimaAtividade": "18/06/2026",
+    "triado": true
   },
   {
     "processo_id": 1097384,
@@ -2712,7 +2722,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "23/07/2024",
-    "ultimaAtividade": "16/09/2024"
+    "ultimaAtividade": "16/09/2024",
+    "triado": true
   },
   {
     "processo_id": 1214165,
@@ -2724,7 +2735,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "18/06/2026",
-    "ultimaAtividade": "23/06/2026"
+    "ultimaAtividade": "23/06/2026",
+    "triado": true
   },
   {
     "processo_id": 1214174,
@@ -2736,7 +2748,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "18/06/2026",
-    "ultimaAtividade": "18/06/2026"
+    "ultimaAtividade": "18/06/2026",
+    "triado": true
   },
   {
     "processo_id": 1097831,
@@ -2748,7 +2761,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "26/07/2024",
-    "ultimaAtividade": "13/11/2024"
+    "ultimaAtividade": "13/11/2024",
+    "triado": true
   },
   {
     "processo_id": 1097933,
