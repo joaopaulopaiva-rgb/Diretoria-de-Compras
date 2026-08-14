@@ -30,11 +30,25 @@ DOC_VISUALIZACAO_URL = f"{BASE}/public/jsp/processos/documento_visualizacao.jsf"
 # menos um caso de value reciclado para outro tipo em anos diferentes.
 TIPO_PROCESSO = {
     "planejamento": 314,       # PLANEJAMENTO DE CONTRATAÇÃO/AQUISIÇÃO (33.00)
+    "pregao": 151,             # PREGÃO — confirmado ago/2026, nunca usado antes neste
+                                # projeto (o número de pregão sempre foi resolvido por
+                                # outros meios); permite busca por tipo+data igual aos
+                                # demais caminhos, sem depender de apensação encontrada.
     "dispensa": 150,           # DISPENSA DE LICITAÇÃO
     "inexigibilidade": 74,     # INEXIGIBILIDADE DE LICITAÇÃO
     "adesao_srp": 258,         # ADESÃO SRP
     "concorrencia": 220,       # CONCORRÊNCIA
     "solicitacao_material_srp": 632,  # SOLICITAÇÃO DE MATERIAL EM REGISTRO DE PREÇO
+}
+
+# Tipos de documento confirmados (ver CLAUDE.md seção 4.6/12 — busca por
+# Tipo de Documento). O value 983 aparece rotulado "(INATIVO)" no dropdown do
+# SIPAC, mas é o tipo usado em documentos reais e recentes (confirmado em
+# documentos de 2026) — o rótulo parece indicar só que não é mais oferecido
+# pra CRIAR documento novo dentro do sistema interno, não que buscas por ele
+# estejam desativadas.
+TIPO_DOCUMENTO = {
+    "termo_juntada_apensacao": 983,  # TERMO DE JUNTADA POR APENSAÇÃO (INATIVO)
 }
 
 DEFAULT_TIMEOUT = 20
@@ -139,6 +153,57 @@ class SipacClient:
         return parse_resultados_busca(resp.text)
 
     # ------------------------------------------------------------------
+    # Busca por Tipo de Documento (CLAUDE.md seção 4.6/12) — usada pra achar
+    # em massa documentos de um tipo específico (ex. Termo de Juntada por
+    # Apensação) sem precisar saber o processo de antemão.
+    # ------------------------------------------------------------------
+
+    def _extrair_campo_select_tipo_documento(self, portal_html: str) -> str:
+        """Mesma cautela do campo de Tipo de Processo: o `name` muda a cada
+        carregamento da página, nunca hardcodear entre execuções."""
+        m = re.search(
+            r'id="doc_tipo"[^>]*/>\s*<label[^>]*>.*?</label>\s*<select name="(documentosForm:j_id[^"]+)"',
+            portal_html,
+            re.DOTALL,
+        )
+        if not m:
+            raise SipacError("Não encontrei o campo de Tipo de Documento na página do portal — o SIPAC pode ter mudado o HTML.")
+        return m.group(1)
+
+    def _extrair_botao_consultar_documento(self, portal_html: str) -> str:
+        m = re.search(r'name="(documentosForm:j_id[^"]+)" value="Consultar Documento"', portal_html)
+        if not m:
+            raise SipacError("Não encontrei o botão 'Consultar Documento' na página do portal.")
+        return m.group(1)
+
+    def buscar_documentos_por_tipo(
+        self, tipo_value: int, data_inicial: date, data_final: date
+    ) -> list["ResultadoDocumento"]:
+        """Busca documentos por Tipo de Documento + Período de Cadastro.
+
+        Mesma limitação de paginação/janela estreita da busca por processo
+        (CLAUDE.md seção 12) — usar janelas curtas o bastante pra não
+        truncar o "N Registro(s) Encontrado(s)".
+        """
+        portal_resp = self.get(PORTAL_URL)
+        campo_tipo = self._extrair_campo_select_tipo_documento(portal_resp.text)
+        botao = self._extrair_botao_consultar_documento(portal_resp.text)
+
+        payload = {
+            "documentosForm": "documentosForm",
+            "aba": "p-buscadocumentos",
+            "tipo_consulta_documento": "500",
+            campo_tipo: str(tipo_value),
+            "tipo_consulta_cadastro": "400",
+            "DATA_INICIAL": data_inicial.isoformat(),
+            "DATA_FINAL": data_final.isoformat(),
+            botao: "Consultar Documento",
+            "javax.faces.ViewState": "j_id1",
+        }
+        resp = self.post(PORTAL_URL, data=payload)
+        return parse_resultados_busca_documentos(resp.text)
+
+    # ------------------------------------------------------------------
     # Leitura de processo e documentos
     # ------------------------------------------------------------------
 
@@ -162,6 +227,13 @@ class ResultadoProcesso:
     processo_id: int | None
     assunto: str
     situacao: str | None = None
+
+
+@dataclass
+class ResultadoDocumento:
+    tipo: str
+    origem: str
+    id_doc: int | None
 
 
 @dataclass
@@ -232,6 +304,37 @@ def parse_resultados_busca(html: str) -> list[ResultadoProcesso]:
                 numero=numero_m.group(0), processo_id=int(id_m.group(1)), assunto=assunto
             )
         )
+    return resultados
+
+
+_IDDOC_BUSCA_RE = re.compile(r"idDoc=(\d+)")
+
+
+def parse_resultados_busca_documentos(html: str) -> list[ResultadoDocumento]:
+    """Extrai a lista de documentos da tabela de resultados da busca pública
+    por Tipo de Documento (<table class="listagem"><caption>Documentos
+    Encontrados</caption>). Cada linha tem: nº do protocolo (quase sempre
+    "NÃO PROTOCOLADO"), tipo do documento, assunto, interessado, origem, e
+    os links de visualização (contendo idDoc=NNN)."""
+    m = re.search(
+        r'<table class="listagem">\s*<caption>Documentos Encontrados</caption>(.*?)</table>',
+        html,
+        re.DOTALL,
+    )
+    if m is None:
+        return []
+    tabela_html = m.group(1)
+    resultados: list[ResultadoDocumento] = []
+    for row_m in _LINHA_RESULTADO_RE.finditer(tabela_html):
+        row_html = row_m.group(1)
+        cols = _TD_RE.findall(row_html)
+        if len(cols) < 5:
+            continue
+        tipo = _normalizar(re.sub(r"<[^>]+>", " ", cols[1]))
+        origem = _normalizar(re.sub(r"<[^>]+>", " ", cols[4]))
+        id_m = _IDDOC_BUSCA_RE.search(row_html)
+        id_doc = int(id_m.group(1)) if id_m else None
+        resultados.append(ResultadoDocumento(tipo=tipo, origem=origem, id_doc=id_doc))
     return resultados
 
 
