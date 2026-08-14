@@ -5156,7 +5156,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "29/10/2024",
-    "ultimaAtividade": "20/10/2025"
+    "ultimaAtividade": "20/10/2025",
+    "triado": true
   },
   {
     "processo_id": 1168142,
@@ -5168,7 +5169,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "11/09/2025",
-    "ultimaAtividade": "01/12/2025"
+    "ultimaAtividade": "01/12/2025",
+    "triado": true
   },
   {
     "processo_id": 1168159,
@@ -5180,19 +5182,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "12/09/2025",
-    "ultimaAtividade": "17/10/2025"
-  },
-  {
-    "processo_id": 1168285,
-    "numero": "23077.147363/2025-86",
-    "assunto": "SOLICITAÇÃO DE ABERTURA DE PREGÃO PARA COMPRA DE COMPUTADORES.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1168285",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "12/09/2025",
-    "ultimaAtividade": "07/11/2025"
+    "ultimaAtividade": "17/10/2025",
+    "triado": true
   },
   {
     "processo_id": 1168290,
@@ -5204,7 +5195,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "12/09/2025",
-    "ultimaAtividade": "27/11/2025"
+    "ultimaAtividade": "27/11/2025",
+    "triado": true
   },
   {
     "processo_id": 1114076,
@@ -5216,7 +5208,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "30/10/2024",
-    "ultimaAtividade": "27/11/2024"
+    "ultimaAtividade": "27/11/2024",
+    "triado": true
   },
   {
     "processo_id": 1168326,
@@ -5228,7 +5221,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "12/09/2025",
-    "ultimaAtividade": "30/10/2025"
+    "ultimaAtividade": "30/10/2025",
+    "triado": true
   },
   {
     "processo_id": 1168357,
@@ -5240,19 +5234,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "12/09/2025",
-    "ultimaAtividade": "26/09/2025"
-  },
-  {
-    "processo_id": 1168382,
-    "numero": "23077.147672/2025-56",
-    "assunto": "SOLICITAÇÃO DE UMA DISPENSA DE LICITAÇÃO PARA AQUISIÇÃO DE FOGÕES DOMPESTICOS.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1168382",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "12/09/2025",
-    "ultimaAtividade": "05/11/2025"
+    "ultimaAtividade": "26/09/2025",
+    "triado": true
   },
   {
     "processo_id": 1114285,
@@ -5264,7 +5247,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "31/10/2024",
-    "ultimaAtividade": "31/10/2025"
+    "ultimaAtividade": "31/10/2025",
+    "triado": true
   },
   {
     "processo_id": 1114352,
@@ -5276,7 +5260,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "31/10/2024",
-    "ultimaAtividade": "20/10/2025"
+    "ultimaAtividade": "20/10/2025",
+    "triado": true
   },
   {
     "processo_id": 1114377,
@@ -5288,7 +5273,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "31/10/2024",
-    "ultimaAtividade": "22/10/2025"
+    "ultimaAtividade": "22/10/2025",
+    "triado": true
   },
   {
     "processo_id": 1114392,
@@ -5300,19 +5286,9 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "31/10/2024",
-    "ultimaAtividade": "02/04/2025"
-  },
-  {
-    "processo_id": 1168907,
-    "numero": "23077.149292/2025-56",
-    "assunto": "PROCESSO PARA COMPRA DE IMPRESSORA 3D",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1168907",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "16/09/2025",
-    "ultimaAtividade": "22/09/2025"
+    "ultimaAtividade": "02/04/2025",
+    "triado": true,
+    "alertaEmpenhoSemExecucao": true
   },
   {
     "processo_id": 1114546,
@@ -5324,7 +5300,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "01/11/2024",
-    "ultimaAtividade": "01/11/2024"
+    "ultimaAtividade": "01/11/2024",
+    "triado": true
   },
   {
     "processo_id": 1169167,
@@ -5336,7 +5313,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "17/09/2025",
-    "ultimaAtividade": "22/10/2025"
+    "ultimaAtividade": "22/10/2025",
+    "triado": true
   },
   {
     "processo_id": 1169191,
@@ -5348,19 +5326,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "17/09/2025",
-    "ultimaAtividade": "19/09/2025"
-  },
-  {
-    "processo_id": 1114748,
-    "numero": "23077.150501/2024-23",
-    "assunto": "INTERESSE EM CONTRATAÇÃO DE PRESTADORA DE SERVIÇOS DE IMPRESSÃO",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1114748",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "04/11/2024",
-    "ultimaAtividade": "04/11/2024"
+    "ultimaAtividade": "19/09/2025",
+    "triado": true
   },
   {
     "processo_id": 1114826,
@@ -5372,7 +5339,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/11/2024",
-    "ultimaAtividade": null
+    "ultimaAtividade": null,
+    "triado": true
   },
   {
     "processo_id": 1114912,
@@ -5384,19 +5352,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "05/11/2024",
-    "ultimaAtividade": null
-  },
-  {
-    "processo_id": 1169627,
-    "numero": "23077.151601/2025-58",
-    "assunto": "SOLICITAÇÃO DE DISPENSA DE LICITAÇÃO: MEDICAMENTOS",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1169627",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "19/09/2025",
-    "ultimaAtividade": "22/09/2025"
+    "ultimaAtividade": null,
+    "triado": true
   },
   {
     "processo_id": 1169870,
