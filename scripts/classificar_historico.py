@@ -174,7 +174,18 @@ def classificar(limite: int | None, dry_run: bool) -> dict:
         execucao_numero = apensacao["execucao_numero"]
         matches = [t for t in EXECUCAO_TIPOS if execucao_numero in idx.get(t, {}).get("processos", {})]
 
-        if len(matches) == 1:
+        if len(matches) == 1 and matches[0] == "concorrencia":
+            # Combinado com a pessoa dona do projeto: apensação levando a
+            # Concorrência é tratada como baixa confiança (CLAUDE.md seção
+            # 4.4 marca a apensação nesse caminho como hipótese não
+            # confirmada) — vai pro portão em vez de auto-adicionar.
+            novos_pendentes.append(
+                montar_entrada_pendente(
+                    numero, info_planejamento, hoje_iso,
+                    f"apensado a {execucao_numero} (Concorrência) — apensação nesse caminho é hipótese não confirmada (CLAUDE.md 4.4), decisão manual necessária",
+                )
+            )
+        elif len(matches) == 1:
             caminho = matches[0]
             info_execucao = idx[caminho]["processos"][execucao_numero]
             entrada = montar_entrada_confiante(numero, info_planejamento, caminho, execucao_numero, info_execucao, hoje_iso)

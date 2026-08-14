@@ -169,5 +169,45 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223499",
     "descoberto_em": "2026-08-13"
+  },
+  {
+    "processo_id": 1072996,
+    "numero": "23077.001345/2024-78",
+    "assunto": "SOLICITAÇÃO DE FORMALIZAÇÃO DO PROCESSO DE ADESÃO AO PREGÃO 110/2022 DO HOSPITAL CENTRAL DO EXÉRCITO/RJ (UASG 160322), PARA AQUISIÇÃO DE 300 UNIDADES DO ITEM 1, BOCAIS PARA ESPIROMETRIA, PARA O PPGASFAR/CCS.",
+    "primeiro_documento": null,
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1072996",
+    "descoberto_em": "14/08/2026",
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+  },
+  {
+    "processo_id": 1122563,
+    "numero": "23077.001829/2025-06",
+    "assunto": "RECUPERAÇÃO DA ESTRUTURA DA COBERTURA METÁLICA DO CENTRO VOCACIONAL TECNOLÓGICO DA ESCOLA AGRÍCOLA DE JUNDIAÍ - UFRN",
+    "primeiro_documento": null,
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1122563",
+    "descoberto_em": "14/08/2026",
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+  },
+  {
+    "processo_id": 1188640,
+    "numero": "23077.002746/2026-15",
+    "assunto": "SOLICITAÇÃO DE MANUTENÇÃO CORRETIVA NO EQUIPAMENTO \"LIOFILIZADOR DE BANCADA, MODELO L101\" DO LABORATÓRIO DE TECNOLOGIA DE ALIMENTOS DA FACISA.",
+    "primeiro_documento": null,
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1188640",
+    "descoberto_em": "14/08/2026",
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
+  },
+  {
+    "processo_id": 1123061,
+    "numero": "23077.003797/2025-75",
+    "assunto": "PAGAMENTO DO INVOICE, NO VALOR DE US$2.290,00 (DOIS MIL DUZENTOS E NOVENTA DÓLARES AMERICANOS), REFERENTE A PAGAMENTO DE PUBLICAÇÃO DO ARTIGO “CELLULAR THERAPY FOR THE PERIPHERAL ARTERIAL DISEASE TREATMENT: PROTOCOL FOR A SYSTEMATIC REVIEW AND META-ANALYSIS\" DA PROFESSORA GRASIELA PIUVEZAM E DE SEU ORIENTANDO DE DOUTORADO, ISAC DAVIDSON SANTIAGO FERNANDES PIMENTA (MAT. 20221021832), DO PROGRAMA DE PÓS-GRADUAÇÃO EM SAÚDE COLETIVA EM FAVOR DE PUBLIC LIBRARY OF SCIENCE.",
+    "primeiro_documento": null,
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1123061",
+    "descoberto_em": "14/08/2026",
+    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje"
   }
 ]
