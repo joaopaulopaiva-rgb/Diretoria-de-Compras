@@ -21,11 +21,13 @@ from __future__ import annotations
 
 import json
 import sys
+from datetime import date
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).parent.parent
 PENDENTES_PATH = REPO_ROOT / "data" / "portao_pendentes.json"
 PROCESSOS_PATH = REPO_ROOT / "data" / "processos.json"
+IGNORADOS_PATH = REPO_ROOT / "data" / "ignorados.json"
 
 CAMINHOS_VALIDOS = {"pregao", "dispensa", "inexigibilidade", "adesao_srp", "concorrencia", "contratabrasil"}
 
@@ -33,9 +35,11 @@ CAMINHOS_VALIDOS = {"pregao", "dispensa", "inexigibilidade", "adesao_srp", "conc
 def aplicar(decisoes: list[dict]) -> dict:
     pendentes = json.loads(PENDENTES_PATH.read_text(encoding="utf-8"))
     processos = json.loads(PROCESSOS_PATH.read_text(encoding="utf-8"))
+    ignorados_registro = json.loads(IGNORADOS_PATH.read_text(encoding="utf-8")) if IGNORADOS_PATH.exists() else []
 
     pendentes_por_id = {p["processo_id"]: p for p in pendentes}
     acompanhados, ignorados, nao_encontrados = [], [], []
+    hoje_iso = date.today().strftime("%d/%m/%Y")
 
     for d in decisoes:
         pid = d["processo_id"]
@@ -76,6 +80,22 @@ def aplicar(decisoes: list[dict]) -> dict:
             acompanhados.append(pendente["numero"])
         elif acao == "ignorar":
             ignorados.append(pendente["numero"])
+            # Guarda o registro em vez de só descartar — permite que
+            # scripts/revisar_ignorados.py detecte depois se o processo
+            # voltou a se movimentar e o traga de volta pro portão (pedido
+            # explícito da pessoa dona do projeto: "ignorar" não devia ser
+            # definitivo se o processo criar vida de novo).
+            ignorados_registro.append(
+                {
+                    "processo_id": pid,
+                    "numero": pendente["numero"],
+                    "assunto": pendente.get("assunto", ""),
+                    "link": pendente.get("link", ""),
+                    "ignoradoEm": hoje_iso,
+                    "ultimaAtividadeNoIgnorar": pendente.get("ultimaAtividade"),
+                    "motivo": d.get("motivo"),
+                }
+            )
         else:
             raise ValueError(f"processo_id {pid}: decisão desconhecida: {acao!r}")
 
@@ -85,6 +105,7 @@ def aplicar(decisoes: list[dict]) -> dict:
 
     PENDENTES_PATH.write_text(json.dumps(pendentes_restantes, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     PROCESSOS_PATH.write_text(json.dumps(processos, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    IGNORADOS_PATH.write_text(json.dumps(ignorados_registro, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     return {
         "acompanhados": acompanhados,
