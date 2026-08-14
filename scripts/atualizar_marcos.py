@@ -52,31 +52,62 @@ SUBETAPAS_PREGAO = [
 ]
 ORDEM_GLOBAL = ["dfd", "etp", "tr", "lista", "analiseDfi", "pesquisaPrecos", "irp", "edital", "juridico", "dfe"]
 
-# --- Dispensa de Licitação (CLAUDE.md seção 4.1) ---
-# Padrões calibrados contra 2 processos reais de Dispensa + o planejamento
-# apensado de um deles (ago/2026). Confirmado na prática: os documentos de
-# DFD/ETP que aparecem copiados dentro do próprio processo de Dispensa têm
-# data diferente (posterior) da data real no planejamento — por isso DFD/ETP/
-# TR/Autorização continuam lidos só do processo de Planejamento, nunca da
-# Dispensa (mesma regra do Pregão, CLAUDE.md seção 2).
+# --- Dispensa de Licitação ---
+# Modelo enxuto definido pela pessoa dona do projeto (não usa a tabela
+# detalhada do CLAUDE.md seção 4.1 — foi simplificado de propósito), validado
+# contra 3 processos reais: 2 "com disputa de fase externa" e 1 "sem disputa"
+# (23077.117430/2026-19, DL 90034/2026).
+#
+# Só 1 etapa lida do processo de Planejamento apensado:
+#   Planejamento: da criação até "Autorização de Formalização - Contratação
+#   Direta" (mesma regra de nunca misturar fonte, CLAUDE.md seção 2).
+#
+# As etapas seguintes são detectadas pela ORIGEM de cada documento no
+# processo de Dispensa (não pelo tipo do documento nem pela tabela de
+# "Movimentações", que fica praticamente vazia nesses processos) — a
+# tramitação real fica registrada em qual unidade *emitiu* cada documento:
+#   Fase Interna: enquanto os documentos continuam saindo da DFI.
+#   Fase Externa: a partir do primeiro documento com origem DFE — só
+#     acontece se houve disputa. Detectado também pelo "Relatório de
+#     Julgamento de Propostas": se sai da DFE, teve disputa; se sai da
+#     própria DFI, não teve (pula direto pra Homologado).
+#   Homologado: a partir do primeiro documento com origem no DCF (ex.
+#     "SEO/DCF/PROAD") — regra confirmada pela pessoa dona do projeto:
+#     "se teve movimentação depois que o processo passou pela DFE indo pro
+#     DCF, pode considerar que foi encerrado" (vale igual pro caminho sem
+#     disputa, que vai direto de DFI pro DCF).
 SUBETAPAS_PLANEJAMENTO_DISPENSA = [
-    ("dfd", ["FORMALIZA[ÇC][ÃA]O DA DEMANDA"]),
-    ("etp", ["MAPA DE GERENCIAMENTO DE RISCOS"]),
-    # TR não tem documento de fechamento próprio no SIPAC (CLAUDE.md marca
-    # "—") — considerado concluído quando o próprio TR é protocolado.
-    ("tr", ["TERMO DE REFER[ÊE]NCIA"]),
-    ("autorizacaoDireta", ["AUTORIZA[ÇC][ÃA]O DE FORMALIZA[ÇC][ÃA]O.*CONTRATA[ÇC][ÃA]O DIRETA"]),
+    ("planejamento", ["AUTORIZA[ÇC][ÃA]O DE FORMALIZA[ÇC][ÃA]O.*CONTRATA[ÇC][ÃA]O DIRETA"]),
 ]
-SUBETAPAS_DISPENSA = [
-    ("apensacao", ["JUNTADA POR APENSA[ÇC][ÃA]O"]),
-    ("julgamento", ["QUADRO COMPARATIVO DE PROPOSTAS", "PARECER T[ÉE]CNICO"]),
-    ("divulgacao", ["DIVULGA[ÇC][ÃA]O DA DISPENSA"]),
-    ("orcamento", ["DECLARA[ÇC][ÃA]O DE DISPONIBILIDADE OR[ÇC]AMENT[ÁA]RIA"]),
-    ("empenho", ["^NOTA DE EMPENHO"]),
-]
-ORDEM_DISPENSA = [
-    "dfd", "etp", "tr", "autorizacaoDireta", "apensacao", "julgamento", "divulgacao", "orcamento", "empenho",
-]
+ORDEM_DISPENSA = ["planejamento", "faseInterna", "faseExterna"]
+
+
+def calcular_progresso_dispensa_execucao(docs) -> tuple[str | None, dict, bool, bool | None]:
+    """Calcula a sub-etapa dentro do processo de Dispensa (pós-planejamento)
+    a partir da ORIGEM dos documentos, não do tipo. Retorna (subEtapa,
+    marcos, concluido, sem_disputa_fase_externa — None se ainda não dá pra
+    saber)."""
+    marcos: dict = {}
+    sem_disputa: bool | None = None
+
+    julgamento = next((d for d in docs if "JULGAMENTO DE PROPOSTAS" in d.tipo.upper()), None)
+    if julgamento:
+        sem_disputa = "DFE" not in julgamento.origem.upper()
+
+    doc_dfe = next((d for d in docs if "DFE" in d.origem.upper()), None)
+    sub_atual = "faseInterna"
+    if doc_dfe:
+        marcos["faseExternaInicio"] = doc_dfe.data
+        sub_atual = "faseExterna"
+        sem_disputa = False
+
+    doc_dcf = next((d for d in docs if "DCF" in d.origem.upper()), None)
+    concluido = doc_dcf is not None
+    if concluido:
+        marcos["homologadoData"] = doc_dcf.data
+        sub_atual = None
+
+    return sub_atual, marcos, concluido, sem_disputa
 
 FASE_POR_SUBETAPA = {
     "dfd": "Planejamento (DPGC)",
@@ -89,12 +120,9 @@ FASE_POR_SUBETAPA = {
     "edital": "Fase Interna (DFI)",
     "juridico": "Jurídico (Projur/Análise)",
     "dfe": "Fase Externa (DFE)",
-    "autorizacaoDireta": "Planejamento (DPGC)",
-    "apensacao": "Fase Interna (DFI)",
-    "julgamento": "Fase Interna (DFI)",
-    "divulgacao": "Fase Externa (DFE)",
-    "orcamento": "Fase Interna (DFI)",
-    "empenho": "Fase Interna (DFI)",
+    "planejamento": "Planejamento (DPGC)",
+    "faseInterna": "Fase Interna (DFI)",
+    "faseExterna": "Fase Externa (DFE)",
 }
 MARCO_FIM_POR_SUBETAPA = {
     "dfd": "dfdFim",
@@ -107,12 +135,7 @@ MARCO_FIM_POR_SUBETAPA = {
     "edital": "editalFim",
     "juridico": "juridicoFim",
     "dfe": "dfeFim",
-    "autorizacaoDireta": "autorizacaoDiretaFim",
-    "apensacao": "apensacaoFim",
-    "julgamento": "julgamentoFim",
-    "divulgacao": "divulgacaoFim",
-    "orcamento": "orcamentoFim",
-    "empenho": "empenhoFim",
+    "planejamento": "planejamentoFim",
 }
 
 import re as _re
@@ -145,16 +168,10 @@ def calcular_progresso(docs, etapas: list[tuple[str, list[str]]]) -> tuple[str |
 
 
 def detectar_estados_especiais(docs, movimentacoes, caminho: str = "pregao") -> dict:
-    """Estados especiais do CLAUDE.md seção 8 — documentados só pro caminho
-    Pregão (recurso/suspensão são conceitos de licitação em disputa, não se
-    aplicam a Dispensa). "concluido" é o gatilho de saída do acompanhamento
-    ativo, que muda de significado por caminho (Homologação no Pregão, Nota
-    de Empenho na Dispensa)."""
+    """Estados especiais do CLAUDE.md seção 8 — só pro caminho Pregão
+    (recurso/suspensão são conceitos de licitação em disputa; Dispensa usa
+    calcular_progresso_dispensa_execucao para seu próprio "concluido")."""
     tipos = [d.tipo.upper() for d in docs]
-
-    if caminho == "dispensa":
-        concluido = any(t.startswith("NOTA DE EMPENHO") for t in tipos)
-        return {"concluido": concluido, "em_recurso": False, "candidato_suspensao": False}
 
     homologado = any("HOMOLOGA" in t for t in tipos)
     em_recurso = any("RECURSO ADMINISTRATIVO DE LICITA" in t for t in tipos) and any(
@@ -207,17 +224,17 @@ def atualizar_todos() -> dict:
         # nomenclatura de tramitação diferente — ver CLAUDE.md seção 4.
         campo_vinculo = "pregao" if caminho == "pregao" else "execucao_numero"
         campo_vinculo_id = "pregao_id" if caminho == "pregao" else "execucao_id"
-        etapas_execucao = SUBETAPAS_PREGAO if caminho == "pregao" else SUBETAPAS_DISPENSA
         etapas_planejamento = SUBETAPAS_PLANEJAMENTO if caminho == "pregao" else SUBETAPAS_PLANEJAMENTO_DISPENSA
         ordem = ORDEM_GLOBAL if caminho == "pregao" else ORDEM_DISPENSA
 
         tem_execucao_vinculada = bool(p.get(campo_vinculo))
+        concluido = False
 
         if tem_execucao_vinculada:
-            # Já formalizou o processo de execução: DFD/ETP/TR/etc. são
-            # história do apenso de planejamento e não são recalculados
-            # aqui — só a parte do processo de execução é reavaliada
-            # (nunca misturar fonte, CLAUDE.md seção 2).
+            # Já formalizou o processo de execução: a etapa de Planejamento é
+            # história do apenso e não é recalculada aqui — só a parte do
+            # processo de execução é reavaliada (nunca misturar fonte,
+            # CLAUDE.md seção 2).
             if not p.get(campo_vinculo_id):
                 avisos.append(
                     f"{p['processo']}: tem {campo_vinculo}={p[campo_vinculo]!r} vinculado mas o id "
@@ -227,7 +244,15 @@ def atualizar_todos() -> dict:
             html = client.obter_processo(p[campo_vinculo_id])
             docs = extrair_documentos(html)
             movs = extrair_movimentacoes(html)
-            etapas = etapas_execucao
+            if caminho == "dispensa":
+                sub_atual, marcos_novos, concluido, sem_disputa = calcular_progresso_dispensa_execucao(docs)
+                if sem_disputa is not None and p.get("semDisputaFaseExterna") != sem_disputa:
+                    p["semDisputaFaseExterna"] = sem_disputa
+                    mudou = True
+                estados = {"concluido": concluido, "em_recurso": False, "candidato_suspensao": False}
+            else:
+                sub_atual, marcos_novos, _chegou_ao_fim = calcular_progresso(docs, SUBETAPAS_PREGAO)
+                estados = detectar_estados_especiais(docs, movs, caminho)
         else:
             if not p.get("processo_id"):
                 avisos.append(f"{p['processo']}: sem processo_id resolvido — pulado.")
@@ -235,10 +260,8 @@ def atualizar_todos() -> dict:
             html = client.obter_processo(p["processo_id"])
             docs = extrair_documentos(html)
             movs = extrair_movimentacoes(html)
-            etapas = etapas_planejamento
-
-        sub_atual, marcos_novos, _chegou_ao_fim = calcular_progresso(docs, etapas)
-        estados = detectar_estados_especiais(docs, movs, caminho)
+            sub_atual, marcos_novos, _chegou_ao_fim = calcular_progresso(docs, etapas_planejamento)
+            estados = {"concluido": False, "em_recurso": False, "candidato_suspensao": False}
 
         if estados["concluido"] and p.get("fase") != "Homologado":
             # "Homologado" é reaproveitado aqui como o balde genérico de
