@@ -164,6 +164,28 @@ SUBETAPAS_CONCORRENCIA = [
 ORDEM_CONCORRENCIA = ["faseExterna"]
 
 
+# --- Concorrência que nasce na Diretoria de Compras (RASCUNHO, não validado) ---
+# Caminho separado ("concorrencia_compras") pro caso minoritário em que a
+# Concorrência nasce direto na Diretoria de Compras, não na CAOSE/INFRA —
+# só examinamos 1 exemplo real até agora, e ele foi bem confuso (dois ciclos
+# de DFD/ETP/TR quase um ano de diferença, apensação no meio, passagens por
+# INFRA/STI/PoP-NRA sem padrão óbvio, nunca chegou na DFE). Não dá pra
+# validar um padrão com 1 exemplo só — este desenho é uma primeira hipótese,
+# copiada da estrutura do Pregão (mesmos documentos-gatilho, já que muitos
+# batem com o que apareceu nesse exemplo), tudo lido de um processo só (sem
+# separar planejamento/execução, já que aqui não houve apenso separado).
+# Ajustar conforme mais processos reais desse tipo forem examinados.
+SUBETAPAS_CONCORRENCIA_COMPRAS = [
+    ("dfd", ["DOCUMENTO DE FORMALIZA[ÇC][ÃA]O DA DEMANDA DIGITAL"]),
+    ("etp", ["AUTORIZA[ÇC][ÃA]O DOS ESTUDOS T[ÉE]CNICOS"]),
+    ("tr", ["AUTORIZA[ÇC][ÃA]O DO TERMO DE REFER[ÊE]NCIA"]),
+    ("edital", ["CERTIFICA[ÇC][ÃA]O PROCESSUAL"]),
+    ("juridico", ["AN[ÁA]LISE DE PARECER JUR[ÍI]DICO"]),
+    ("dfe", ["HOMOLOGA[ÇC][ÃA]O"]),
+]
+ORDEM_CONCORRENCIA_COMPRAS = ["dfd", "etp", "tr", "edital", "juridico", "dfe"]
+
+
 def calcular_progresso_inexigibilidade_execucao(docs) -> tuple[str | None, dict, bool]:
     """Retorna (subEtapa, marcos, concluido) pro processo de Inexigibilidade
     (pós-planejamento), usando a origem dos documentos."""
@@ -291,7 +313,11 @@ def atualizar_todos() -> dict:
         # Adesão SRP e Concorrência sempre leem do processo_id direto — nunca
         # têm processo de execução separado a resolver (ver comentários
         # acima de cada um).
-        SEMPRE_PROCESSO_ID = {"adesao_srp": SUBETAPAS_ADESAO_SRP, "concorrencia": SUBETAPAS_CONCORRENCIA}
+        SEMPRE_PROCESSO_ID = {
+            "adesao_srp": SUBETAPAS_ADESAO_SRP,
+            "concorrencia": SUBETAPAS_CONCORRENCIA,
+            "concorrencia_compras": SUBETAPAS_CONCORRENCIA_COMPRAS,
+        }
         caminhos_suportados = ("pregao", "dispensa", "inexigibilidade", *SEMPRE_PROCESSO_ID)
         if caminho not in caminhos_suportados or p.get("fase") == "Homologado":
             continue
@@ -317,6 +343,7 @@ def atualizar_todos() -> dict:
             "inexigibilidade": ORDEM_INEXIGIBILIDADE,
             "adesao_srp": ORDEM_ADESAO_SRP,
             "concorrencia": ORDEM_CONCORRENCIA,
+            "concorrencia_compras": ORDEM_CONCORRENCIA_COMPRAS,
         }[caminho]
 
         tem_execucao_vinculada = caminho not in SEMPRE_PROCESSO_ID and bool(p.get(campo_vinculo))
@@ -448,7 +475,7 @@ def atualizar_todos() -> dict:
             atualizados += 1
 
     PROCESSOS_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    caminhos_suportados = ("pregao", "dispensa", "inexigibilidade", "adesao_srp", "concorrencia")
+    caminhos_suportados = ("pregao", "dispensa", "inexigibilidade", "adesao_srp", "concorrencia", "concorrencia_compras")
     return {
         "processos_verificados": sum(1 for p in data if p.get("caminho") in caminhos_suportados),
         "atualizados": atualizados,
