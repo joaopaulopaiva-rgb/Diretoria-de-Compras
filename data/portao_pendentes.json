@@ -5764,7 +5764,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "30/09/2025",
-    "ultimaAtividade": "23/10/2025"
+    "ultimaAtividade": "23/10/2025",
+    "triado": true
   },
   {
     "processo_id": 1171903,
@@ -5776,7 +5777,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "01/10/2025",
-    "ultimaAtividade": null
+    "ultimaAtividade": null,
+    "triado": true
   },
   {
     "processo_id": 1171905,
@@ -5788,7 +5790,9 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "01/10/2025",
-    "ultimaAtividade": "01/10/2025"
+    "ultimaAtividade": "01/10/2025",
+    "triado": true,
+    "alertaDesistencia": true
   },
   {
     "processo_id": 1172170,
@@ -5800,7 +5804,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "02/10/2025",
-    "ultimaAtividade": "01/10/2025"
+    "ultimaAtividade": "01/10/2025",
+    "triado": true
   },
   {
     "processo_id": 1117132,
@@ -5812,7 +5817,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "apensado a 23077.060070/2026-76 (Concorrência) — apensação nesse caminho é hipótese não confirmada (CLAUDE.md 4.4), decisão manual necessária",
     "dataAbertura": "19/11/2024",
-    "ultimaAtividade": "30/04/2026"
+    "ultimaAtividade": "30/04/2026",
+    "triado": true
   },
   {
     "processo_id": 1172727,
@@ -5824,7 +5830,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "07/10/2025",
-    "ultimaAtividade": "15/10/2025"
+    "ultimaAtividade": "15/10/2025",
+    "triado": true
   },
   {
     "processo_id": 1172868,
@@ -5836,7 +5843,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "08/10/2025",
-    "ultimaAtividade": "10/10/2025"
+    "ultimaAtividade": "10/10/2025",
+    "triado": true
   },
   {
     "processo_id": 1172910,
@@ -5848,7 +5856,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "08/10/2025",
-    "ultimaAtividade": "06/11/2025"
+    "ultimaAtividade": "06/11/2025",
+    "triado": true
   },
   {
     "processo_id": 1172912,
@@ -5860,7 +5869,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "08/10/2025",
-    "ultimaAtividade": "08/10/2025"
+    "ultimaAtividade": "08/10/2025",
+    "triado": true
   },
   {
     "processo_id": 1173072,
@@ -5872,7 +5882,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "08/10/2025",
-    "ultimaAtividade": null
+    "ultimaAtividade": null,
+    "triado": true
   },
   {
     "processo_id": 1118103,
@@ -5884,7 +5895,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "27/11/2024",
-    "ultimaAtividade": "27/11/2024"
+    "ultimaAtividade": "27/11/2024",
+    "triado": true
   },
   {
     "processo_id": 1173370,
@@ -5896,7 +5908,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "10/10/2025",
-    "ultimaAtividade": "18/12/2025"
+    "ultimaAtividade": "18/12/2025",
+    "triado": true
   },
   {
     "processo_id": 1173614,
@@ -5908,7 +5921,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "13/10/2025",
-    "ultimaAtividade": "10/11/2025"
+    "ultimaAtividade": "10/11/2025",
+    "triado": true
   },
   {
     "processo_id": 1174719,
@@ -5920,7 +5934,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "16/10/2025",
-    "ultimaAtividade": "10/03/2026"
+    "ultimaAtividade": "10/03/2026",
+    "triado": true
   },
   {
     "processo_id": 1174754,
@@ -5933,7 +5948,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "16/10/2025",
     "ultimaAtividade": "29/07/2026",
-    "alertaEmpenhoSemExecucao": true
+    "alertaEmpenhoSemExecucao": true,
+    "triado": true
   },
   {
     "processo_id": 1119169,
@@ -5945,7 +5961,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/12/2024",
-    "ultimaAtividade": "07/01/2025"
+    "ultimaAtividade": "07/01/2025",
+    "triado": true
   },
   {
     "processo_id": 1119447,
@@ -5957,7 +5974,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "06/12/2024",
-    "ultimaAtividade": "06/12/2024"
+    "ultimaAtividade": "06/12/2024",
+    "triado": true
   },
   {
     "processo_id": 1175461,
@@ -5969,7 +5987,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "21/10/2025",
-    "ultimaAtividade": null
+    "ultimaAtividade": null,
+    "triado": true
   },
   {
     "processo_id": 1119866,
@@ -5981,7 +6000,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "10/12/2024",
-    "ultimaAtividade": "20/10/2025"
+    "ultimaAtividade": "20/10/2025",
+    "triado": true
   },
   {
     "processo_id": 1177673,
@@ -5993,7 +6013,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "03/11/2025",
-    "ultimaAtividade": "03/11/2025"
+    "ultimaAtividade": "03/11/2025",
+    "triado": true
   },
   {
     "processo_id": 1120087,
@@ -6005,7 +6026,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "11/12/2024",
-    "ultimaAtividade": "14/12/2024"
+    "ultimaAtividade": "14/12/2024",
+    "triado": true
   },
   {
     "processo_id": 1176172,
@@ -6017,7 +6039,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "24/10/2025",
-    "ultimaAtividade": "31/10/2025"
+    "ultimaAtividade": "31/10/2025",
+    "triado": true
   },
   {
     "processo_id": 1120186,
@@ -6029,7 +6052,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "12/12/2024",
-    "ultimaAtividade": "14/12/2024"
+    "ultimaAtividade": "14/12/2024",
+    "triado": true
   },
   {
     "processo_id": 1120326,
@@ -6041,7 +6065,10 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "12/12/2024",
-    "ultimaAtividade": "30/12/2024"
+    "ultimaAtividade": "30/12/2024",
+    "triado": true,
+    "alertaRedirecionado": true,
+    "processoDestino": "23077.162178/2024-31"
   },
   {
     "processo_id": 1120344,
@@ -6053,7 +6080,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "13/12/2024",
-    "ultimaAtividade": "18/12/2024"
+    "ultimaAtividade": "18/12/2024",
+    "triado": true
   },
   {
     "processo_id": 1120345,
@@ -6065,7 +6093,10 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "13/12/2024",
-    "ultimaAtividade": "29/12/2024"
+    "ultimaAtividade": "29/12/2024",
+    "triado": true,
+    "alertaRedirecionado": true,
+    "processoDestino": "23077.176996/2024-11"
   },
   {
     "processo_id": 1176752,
@@ -6077,7 +6108,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "29/10/2025",
-    "ultimaAtividade": null
+    "ultimaAtividade": null,
+    "triado": true
   },
   {
     "processo_id": 1120709,
@@ -6089,7 +6121,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "16/12/2024",
-    "ultimaAtividade": "18/12/2024"
+    "ultimaAtividade": "18/12/2024",
+    "triado": true
   },
   {
     "processo_id": 1120722,
@@ -6101,7 +6134,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "16/12/2024",
-    "ultimaAtividade": "31/01/2025"
+    "ultimaAtividade": "31/01/2025",
+    "triado": true
   },
   {
     "processo_id": 1120987,
@@ -6113,7 +6147,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "18/12/2024",
-    "ultimaAtividade": "19/12/2024"
+    "ultimaAtividade": "19/12/2024",
+    "triado": true
   },
   {
     "processo_id": 1121065,
@@ -6125,7 +6160,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "18/12/2024",
-    "ultimaAtividade": "07/01/2025"
+    "ultimaAtividade": "07/01/2025",
+    "triado": true
   },
   {
     "processo_id": 1178075,
@@ -6137,7 +6173,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "04/11/2025",
-    "ultimaAtividade": "29/01/2026"
+    "ultimaAtividade": "29/01/2026",
+    "triado": true
   },
   {
     "processo_id": 1122043,
@@ -6149,7 +6186,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "28/12/2024",
-    "ultimaAtividade": "28/12/2024"
+    "ultimaAtividade": "28/12/2024",
+    "triado": true
   },
   {
     "processo_id": 1122051,
@@ -6161,7 +6199,10 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "30/12/2024",
-    "ultimaAtividade": "30/12/2024"
+    "ultimaAtividade": "30/12/2024",
+    "triado": true,
+    "alertaRedirecionado": true,
+    "processoDestino": "23077.159079/2024-71"
   },
   {
     "processo_id": 1179208,
@@ -6173,7 +6214,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "07/11/2025",
-    "ultimaAtividade": "10/08/2026"
+    "ultimaAtividade": "10/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1181253,
@@ -6185,7 +6227,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "18/11/2025",
-    "ultimaAtividade": "03/08/2026"
+    "ultimaAtividade": "03/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1184069,
@@ -6197,7 +6240,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "apensado a 23077.202195/2025-07 (Concorrência) — apensação nesse caminho é hipótese não confirmada (CLAUDE.md 4.4), decisão manual necessária",
     "dataAbertura": "04/12/2025",
-    "ultimaAtividade": "16/12/2025"
+    "ultimaAtividade": "16/12/2025",
+    "triado": true
   },
   {
     "processo_id": 1184174,
@@ -6210,6 +6254,7 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "05/12/2025",
     "ultimaAtividade": "26/02/2026",
-    "alertaEmpenhoSemExecucao": true
+    "alertaEmpenhoSemExecucao": true,
+    "triado": true
   }
 ]
