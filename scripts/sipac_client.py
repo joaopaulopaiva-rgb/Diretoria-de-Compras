@@ -12,6 +12,8 @@ Reúne as técnicas de acesso já validadas empiricamente (ver CLAUDE.md, seçã
 from __future__ import annotations
 
 import re
+import subprocess
+import tempfile
 import time
 import unicodedata
 from dataclasses import dataclass, field
@@ -214,11 +216,37 @@ class SipacClient:
     def obter_documento_texto(self, id_doc: int) -> str | None:
         """Tenta ler um documento como HTML direto (mais rápido). Retorna None
         se esse documento não tiver visualização HTML (ex.: é um PDF puro —
-        nesse caso, usar obter_documento_pdf_url + baixar separadamente)."""
+        nesse caso, usar obter_documento_pdf_texto com id_arquivo/arquivo_key)."""
         resp = self.get(DOC_VISUALIZACAO_URL, params={"idDoc": id_doc})
         if resp.status_code == 200 and "<html" in resp.text.lower():
             return resp.text
         return None
+
+    def obter_documento_pdf_texto(self, id_arquivo: int, arquivo_key: str) -> str | None:
+        """Baixa o arquivo original do documento (link 'anexo', público, sem
+        login — CLAUDE.md seção 12) e extrai o texto via `pdftotext`
+        (poppler-utils). Retorna None se o download falhar ou não for um PDF
+        de verdade (ex.: algum tipo de anexo binário sem texto extraível)."""
+        resp = self.get(
+            f"{BASE}/public/verArquivoDocumento",
+            params={"idArquivo": id_arquivo, "key": arquivo_key, "downloadArquivo": "true", "publicPath": "true"},
+        )
+        if resp.status_code != 200 or not resp.content:
+            return None
+        with tempfile.NamedTemporaryFile(suffix=".pdf") as tmp:
+            tmp.write(resp.content)
+            tmp.flush()
+            try:
+                resultado = subprocess.run(
+                    ["pdftotext", "-layout", tmp.name, "-"],
+                    capture_output=True, timeout=30, check=False,
+                )
+            except (subprocess.SubprocessError, OSError):
+                return None
+        if resultado.returncode != 0:
+            return None
+        texto = resultado.stdout.decode("utf-8", errors="replace").strip()
+        return texto or None
 
 
 @dataclass
@@ -242,6 +270,8 @@ class DocumentoProcesso:
     data: str
     origem: str = ""
     id_doc: int | None = None
+    id_arquivo: int | None = None
+    arquivo_key: str | None = None
 
 
 @dataclass
@@ -374,9 +404,15 @@ def extrair_data_cadastro(html: str) -> str | None:
     return m.group(1) if m else None
 
 
+_IDARQUIVO_RE = re.compile(r"verArquivoDocumento\?idArquivo=(\d+)&key=([0-9a-f]+)")
+
+
 def extrair_documentos(html: str) -> list[DocumentoProcesso]:
     """Extrai a tabela "Documentos do Processo": Ordem, Tipo do Documento,
-    Data do Documento, Origem, Natureza, + link de visualização (idDoc)."""
+    Data do Documento, Origem, Natureza, + link de visualização (idDoc) e o
+    par idArquivo/key usado pra baixar o arquivo original (PDF) — existe pra
+    praticamente todo documento, mesmo os que não têm visualização HTML
+    direta via idDoc (ver obter_documento_pdf)."""
     tabela_html = _isolar_tabela(html, "Documentos do Processo")
     if tabela_html is None:
         return []
@@ -390,6 +426,7 @@ def extrair_documentos(html: str) -> list[DocumentoProcesso]:
         data_doc = _normalizar(re.sub(r"<[^>]+>", " ", cols[2]))
         origem = _normalizar(re.sub(r"<[^>]+>", " ", cols[3])) if len(cols) > 3 else ""
         id_m = _IDDOC_RE.search(row_html)
+        arquivo_m = _IDARQUIVO_RE.search(row_html)
         if not tipo:
             continue
         docs.append(
@@ -398,6 +435,8 @@ def extrair_documentos(html: str) -> list[DocumentoProcesso]:
                 data=data_doc,
                 origem=origem,
                 id_doc=int(id_m.group(1)) if id_m else None,
+                id_arquivo=int(arquivo_m.group(1)) if arquivo_m else None,
+                arquivo_key=arquivo_m.group(2) if arquivo_m else None,
             )
         )
     return docs
