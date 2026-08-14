@@ -9,7 +9,8 @@
     "descoberto_em": "2026-08-13",
     "dataAbertura": "07/08/2026",
     "ultimaAtividade": "10/08/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1223339,
@@ -21,7 +22,8 @@
     "descoberto_em": "2026-08-13",
     "dataAbertura": "07/08/2026",
     "ultimaAtividade": "07/08/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1223277,
@@ -33,7 +35,8 @@
     "descoberto_em": "2026-08-13",
     "dataAbertura": "07/08/2026",
     "ultimaAtividade": "13/08/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1223268,
@@ -45,7 +48,8 @@
     "descoberto_em": "2026-08-13",
     "dataAbertura": "07/08/2026",
     "ultimaAtividade": "11/08/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1223190,
@@ -57,7 +61,8 @@
     "descoberto_em": "2026-08-13",
     "dataAbertura": "07/08/2026",
     "ultimaAtividade": "07/08/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1223181,
@@ -69,7 +74,8 @@
     "descoberto_em": "2026-08-13",
     "dataAbertura": "07/08/2026",
     "ultimaAtividade": "07/08/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1222913,
@@ -81,7 +87,8 @@
     "descoberto_em": "2026-08-13",
     "dataAbertura": "06/08/2026",
     "ultimaAtividade": "11/08/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1224256,
@@ -93,7 +100,8 @@
     "descoberto_em": "2026-08-13",
     "dataAbertura": "12/08/2026",
     "ultimaAtividade": "11/08/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1224230,
@@ -105,7 +113,8 @@
     "descoberto_em": "2026-08-13",
     "dataAbertura": "12/08/2026",
     "ultimaAtividade": "11/08/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1224160,
@@ -117,7 +126,8 @@
     "descoberto_em": "2026-08-13",
     "dataAbertura": "12/08/2026",
     "ultimaAtividade": "11/08/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1224105,
@@ -129,7 +139,8 @@
     "descoberto_em": "2026-08-13",
     "dataAbertura": "12/08/2026",
     "ultimaAtividade": null,
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1223947,
@@ -141,7 +152,8 @@
     "descoberto_em": "2026-08-13",
     "dataAbertura": "11/08/2026",
     "ultimaAtividade": "13/08/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1223906,
@@ -153,7 +165,8 @@
     "descoberto_em": "2026-08-13",
     "dataAbertura": "11/08/2026",
     "ultimaAtividade": "13/08/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1223899,
@@ -165,7 +178,8 @@
     "descoberto_em": "2026-08-13",
     "dataAbertura": "11/08/2026",
     "ultimaAtividade": "13/08/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1223775,
@@ -177,7 +191,8 @@
     "descoberto_em": "2026-08-13",
     "dataAbertura": "11/08/2026",
     "ultimaAtividade": "03/08/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1223721,
@@ -189,7 +204,8 @@
     "descoberto_em": "2026-08-13",
     "dataAbertura": "11/08/2026",
     "ultimaAtividade": "11/08/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1223617,
@@ -201,7 +217,8 @@
     "descoberto_em": "2026-08-13",
     "dataAbertura": "10/08/2026",
     "ultimaAtividade": "10/08/2026",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1223499,
@@ -213,20 +230,8 @@
     "descoberto_em": "2026-08-13",
     "dataAbertura": "10/08/2026",
     "ultimaAtividade": "12/08/2026",
-    "triado": true
-  },
-  {
-    "processo_id": 1072996,
-    "numero": "23077.001345/2024-78",
-    "assunto": "SOLICITAÇÃO DE FORMALIZAÇÃO DO PROCESSO DE ADESÃO AO PREGÃO 110/2022 DO HOSPITAL CENTRAL DO EXÉRCITO/RJ (UASG 160322), PARA AQUISIÇÃO DE 300 UNIDADES DO ITEM 1, BOCAIS PARA ESPIROMETRIA, PARA O PPGASFAR/CCS.",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1072996",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "05/01/2024",
-    "ultimaAtividade": "05/02/2024",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1122563,
@@ -239,7 +244,8 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "08/01/2025",
     "ultimaAtividade": "08/08/2025",
-    "triado": true
+    "triado": true,
+    "statusChecado": true
   },
   {
     "processo_id": 1188640,
