@@ -8,7 +8,8 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223403",
     "descoberto_em": "2026-08-13",
     "dataAbertura": "07/08/2026",
-    "ultimaAtividade": "10/08/2026"
+    "ultimaAtividade": "10/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1223339,
@@ -19,7 +20,8 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223339",
     "descoberto_em": "2026-08-13",
     "dataAbertura": "07/08/2026",
-    "ultimaAtividade": "07/08/2026"
+    "ultimaAtividade": "07/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1223277,
@@ -30,7 +32,8 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223277",
     "descoberto_em": "2026-08-13",
     "dataAbertura": "07/08/2026",
-    "ultimaAtividade": "13/08/2026"
+    "ultimaAtividade": "13/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1223268,
@@ -41,7 +44,8 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223268",
     "descoberto_em": "2026-08-13",
     "dataAbertura": "07/08/2026",
-    "ultimaAtividade": "11/08/2026"
+    "ultimaAtividade": "11/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1223190,
@@ -52,7 +56,8 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223190",
     "descoberto_em": "2026-08-13",
     "dataAbertura": "07/08/2026",
-    "ultimaAtividade": "07/08/2026"
+    "ultimaAtividade": "07/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1223181,
@@ -63,7 +68,8 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223181",
     "descoberto_em": "2026-08-13",
     "dataAbertura": "07/08/2026",
-    "ultimaAtividade": "07/08/2026"
+    "ultimaAtividade": "07/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1222913,
@@ -74,7 +80,8 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1222913",
     "descoberto_em": "2026-08-13",
     "dataAbertura": "06/08/2026",
-    "ultimaAtividade": "11/08/2026"
+    "ultimaAtividade": "11/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1224256,
@@ -85,7 +92,8 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1224256",
     "descoberto_em": "2026-08-13",
     "dataAbertura": "12/08/2026",
-    "ultimaAtividade": "11/08/2026"
+    "ultimaAtividade": "11/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1224230,
@@ -96,7 +104,8 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1224230",
     "descoberto_em": "2026-08-13",
     "dataAbertura": "12/08/2026",
-    "ultimaAtividade": "11/08/2026"
+    "ultimaAtividade": "11/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1224160,
@@ -107,7 +116,8 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1224160",
     "descoberto_em": "2026-08-13",
     "dataAbertura": "12/08/2026",
-    "ultimaAtividade": "11/08/2026"
+    "ultimaAtividade": "11/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1224105,
@@ -118,7 +128,8 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1224105",
     "descoberto_em": "2026-08-13",
     "dataAbertura": "12/08/2026",
-    "ultimaAtividade": null
+    "ultimaAtividade": null,
+    "triado": true
   },
   {
     "processo_id": 1223947,
@@ -129,7 +140,8 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223947",
     "descoberto_em": "2026-08-13",
     "dataAbertura": "11/08/2026",
-    "ultimaAtividade": "13/08/2026"
+    "ultimaAtividade": "13/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1223906,
@@ -140,7 +152,8 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223906",
     "descoberto_em": "2026-08-13",
     "dataAbertura": "11/08/2026",
-    "ultimaAtividade": "13/08/2026"
+    "ultimaAtividade": "13/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1223899,
@@ -151,7 +164,8 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223899",
     "descoberto_em": "2026-08-13",
     "dataAbertura": "11/08/2026",
-    "ultimaAtividade": "13/08/2026"
+    "ultimaAtividade": "13/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1223775,
@@ -162,7 +176,8 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223775",
     "descoberto_em": "2026-08-13",
     "dataAbertura": "11/08/2026",
-    "ultimaAtividade": "03/08/2026"
+    "ultimaAtividade": "03/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1223721,
@@ -173,7 +188,8 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223721",
     "descoberto_em": "2026-08-13",
     "dataAbertura": "11/08/2026",
-    "ultimaAtividade": "11/08/2026"
+    "ultimaAtividade": "11/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1223617,
@@ -184,7 +200,8 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223617",
     "descoberto_em": "2026-08-13",
     "dataAbertura": "10/08/2026",
-    "ultimaAtividade": "10/08/2026"
+    "ultimaAtividade": "10/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1223499,
@@ -195,7 +212,8 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223499",
     "descoberto_em": "2026-08-13",
     "dataAbertura": "10/08/2026",
-    "ultimaAtividade": "12/08/2026"
+    "ultimaAtividade": "12/08/2026",
+    "triado": true
   },
   {
     "processo_id": 1072996,
@@ -207,7 +225,8 @@
     "descoberto_em": "14/08/2026",
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "05/01/2024",
-    "ultimaAtividade": "05/02/2024"
+    "ultimaAtividade": "05/02/2024",
+    "triado": true
   },
   {
     "processo_id": 1122563,
