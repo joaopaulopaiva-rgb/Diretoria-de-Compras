@@ -126,6 +126,26 @@ SUBETAPAS_PLANEJAMENTO_INEXIGIBILIDADE = [
 ORDEM_INEXIGIBILIDADE = ["planejamento", "faseInterna"]
 
 
+# --- Adesão a Ata de Registro de Preços (SRP) ---
+# O mais simples de todos: as duas etapas rastreadas vivem inteiras dentro
+# do próprio processo de Planejamento — confirmado em 2 processos reais, o
+# invólucro tipo=258 que recebe a apensação tem pouquíssimo conteúdo próprio
+# (só Termo de Juntada + Lista de Verificação). Por isso não precisa de
+# processo de execução separado: sempre lê do processo de Planejamento
+# (processo_id), nunca do "execucao_id".
+#   Planejamento: da capa do processo até "Autorização de Formalização -
+#     Adesão a Ata de Registro de Preços" (ainda na DPGC).
+#   Fase Interna: até "Autorização de Adesão a Ata de Registro de Preços"
+#     (na DFI) — esse é o fechamento real; a partir daí já é Homologado.
+#     Execução (pedidos de material usando a ata) fica fora do escopo,
+#     conforme já definido.
+SUBETAPAS_ADESAO_SRP = [
+    ("planejamento", ["AUTORIZA[ÇC][ÃA]O DE FORMALIZA[ÇC][ÃA]O.*ADES[ÃA]O"]),
+    ("faseInterna", ["AUTORIZA[ÇC][ÃA]O DE ADES[ÃA]O A ATA"]),
+]
+ORDEM_ADESAO_SRP = ["planejamento", "faseInterna"]
+
+
 def calcular_progresso_inexigibilidade_execucao(docs) -> tuple[str | None, dict, bool]:
     """Retorna (subEtapa, marcos, concluido) pro processo de Inexigibilidade
     (pós-planejamento), usando a origem dos documentos."""
@@ -171,6 +191,7 @@ MARCO_FIM_POR_SUBETAPA = {
     "juridico": "juridicoFim",
     "dfe": "dfeFim",
     "planejamento": "planejamentoFim",
+    "faseInterna": "faseInternaFim",
 }
 
 import re as _re
@@ -248,33 +269,44 @@ def atualizar_todos() -> dict:
 
     for p in data:
         caminho = p.get("caminho")
-        if caminho not in ("pregao", "dispensa", "inexigibilidade") or p.get("fase") == "Homologado":
+        if caminho not in ("pregao", "dispensa", "inexigibilidade", "adesao_srp") or p.get("fase") == "Homologado":
             continue
 
         mudou = False
         subetapa_mudou = False
+        concluido = False
 
         # Cada caminho usa nomes de campo próprios pro processo de execução
         # vinculado (pregão / dispensa / inexigibilidade), porque cada um
         # pode ter uma nomenclatura de tramitação diferente — CLAUDE.md
-        # seção 4.
+        # seção 4. Adesão SRP não usa nenhum: sempre lê do processo_id (ver
+        # comentário acima de SUBETAPAS_ADESAO_SRP).
         campo_vinculo = "pregao" if caminho == "pregao" else "execucao_numero"
         campo_vinculo_id = "pregao_id" if caminho == "pregao" else "execucao_id"
         etapas_planejamento = {
             "pregao": SUBETAPAS_PLANEJAMENTO,
             "dispensa": SUBETAPAS_PLANEJAMENTO_DISPENSA,
             "inexigibilidade": SUBETAPAS_PLANEJAMENTO_INEXIGIBILIDADE,
-        }[caminho]
+        }.get(caminho)
         ordem = {
             "pregao": ORDEM_GLOBAL,
             "dispensa": ORDEM_DISPENSA,
             "inexigibilidade": ORDEM_INEXIGIBILIDADE,
+            "adesao_srp": ORDEM_ADESAO_SRP,
         }[caminho]
 
-        tem_execucao_vinculada = bool(p.get(campo_vinculo))
-        concluido = False
+        tem_execucao_vinculada = caminho != "adesao_srp" and bool(p.get(campo_vinculo))
 
-        if tem_execucao_vinculada:
+        if caminho == "adesao_srp":
+            if not p.get("processo_id"):
+                avisos.append(f"{p['processo']}: sem processo_id resolvido — pulado.")
+                continue
+            html = client.obter_processo(p["processo_id"])
+            docs = extrair_documentos(html)
+            movs = extrair_movimentacoes(html)
+            sub_atual, marcos_novos, concluido = calcular_progresso(docs, SUBETAPAS_ADESAO_SRP)
+            estados = {"concluido": concluido, "em_recurso": False, "candidato_suspensao": False}
+        elif tem_execucao_vinculada:
             # Já formalizou o processo de execução: a etapa de Planejamento é
             # história do apenso e não é recalculada aqui — só a parte do
             # processo de execução é reavaliada (nunca misturar fonte,
@@ -375,7 +407,7 @@ def atualizar_todos() -> dict:
         # resolveria isso sozinha (varrer Termos de Juntada por tipo de
         # documento) ainda não foi construída — combinado com a pessoa dona
         # do projeto pra fazer depois do levantamento por caminho.
-        if not tem_execucao_vinculada:
+        if not tem_execucao_vinculada and caminho != "adesao_srp":
             status_mudou = "Status: APENSADO" in html or "Status: ARQUIVADO" in html
             enviado_a_dfi = any(
                 "DFI" in mv.unidade_destino.upper() and "PLANEJAMENTO" not in mv.unidade_destino.upper()
@@ -392,7 +424,12 @@ def atualizar_todos() -> dict:
             atualizados += 1
 
     PROCESSOS_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    return {"processos_verificados": sum(1 for p in data if p.get("caminho") == "pregao"), "atualizados": atualizados, "avisos": avisos}
+    caminhos_suportados = ("pregao", "dispensa", "inexigibilidade", "adesao_srp")
+    return {
+        "processos_verificados": sum(1 for p in data if p.get("caminho") in caminhos_suportados),
+        "atualizados": atualizados,
+        "avisos": avisos,
+    }
 
 
 if __name__ == "__main__":
