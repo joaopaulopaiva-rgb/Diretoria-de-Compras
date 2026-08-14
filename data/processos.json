@@ -775,7 +775,12 @@
       "juridicoFim": "29/07/2026"
     },
     "processo_id": null,
-    "pregao_id": 1207433
+    "pregao_id": 1207433,
+    "responsaveisDfi": {
+      "pesquisaPrecos": "Amanda Medeiros",
+      "irp": "Marilia Linhares de Sousa",
+      "elaboracaoEdital": "Stefferson Alves Sarthour"
+    }
   },
   {
     "caminho": "pregao",

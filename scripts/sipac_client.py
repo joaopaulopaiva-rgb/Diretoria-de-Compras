@@ -192,6 +192,14 @@ def _normalizar(txt: str) -> str:
     return " ".join(txt.split())
 
 
+def texto_visivel(html: str) -> str:
+    """Extrai o texto visível de uma página de documento (remove tags,
+    decodifica entidades, normaliza espaços) — usado para ler o conteúdo de
+    despachos/notas informativas em busca de nomes de responsáveis, não só
+    a tabela de listagem de documentos."""
+    return _normalizar(re.sub(r"<[^>]+>", " ", html))
+
+
 _LINHA_RESULTADO_RE = re.compile(r"<tr>(.*?)</tr>", re.DOTALL)
 _TD_RE = re.compile(r"<td[^>]*>(.*?)</td>", re.DOTALL)
 _NUMERO_PROCESSO_RE = re.compile(r"\d{5}\.\d{6}/\d{4}-\d{2}")

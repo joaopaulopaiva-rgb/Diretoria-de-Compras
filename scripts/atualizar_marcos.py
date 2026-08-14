@@ -24,7 +24,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from sipac_client import SipacClient, extrair_documentos, extrair_movimentacoes  # noqa: E402
+from sipac_client import SipacClient, extrair_documentos, extrair_movimentacoes, texto_visivel  # noqa: E402
 
 REPO_ROOT = Path(__file__).parent.parent
 PROCESSOS_PATH = REPO_ROOT / "data" / "processos.json"
@@ -202,6 +202,86 @@ def calcular_progresso_inexigibilidade_execucao(docs) -> tuple[str | None, dict,
         sub_atual = None
 
     return sub_atual, marcos, concluido
+
+
+# --- Responsáveis na DFI e na DFE (só caminho Pregão) ---
+# Pedido da pessoa dona do projeto: as 3 Notas Informativas da Fase Interna
+# (Pesquisa de Preços, IRP, Elaboração de Edital) trazem o nome de quem é
+# responsável por cada etapa dentro do texto do próprio documento — e o
+# primeiro despacho que a DFE emite depois de receber o Encaminhamento da
+# DFI designa o pregoeiro e a equipe de apoio. Padrões confirmados lendo
+# documentos reais (agosto/2026):
+#   Pesquisa de Preços — "Responsável pela pesquisa: NOME."
+#   IRP                — "Responsável pela IRP: NOME"  (sem ponto final)
+#   Elaboração de Edital — "Responsável pela instrução: NOME."
+#   Despacho da DFE    — "... ao(à) agente de contratação NOME, que atuará
+#     como Pregoeiro(a) ... sendo auxiliado(a) pelo(a) servidor(a) NOME2,
+#     que atuará como equipe de apoio ..."
+# O despacho da DFE só foi confirmado em 1 processo real até agora
+# (23077.110448/2025-17) — reconferir contra mais processos reais conforme
+# forem aparecendo antes de confiar cegamente no padrão em lote.
+_PADROES_RESPONSAVEL_DFI = {
+    "pesquisaPrecos": (
+        ["NOTA INFORMATIVA.*PESQUISA DE PRE"],
+        r"Respons[áa]vel pela pesquisa:\s*(.+?)\(Assinado",
+    ),
+    "irp": (
+        ["NOTA INFORMATIVA.*INTEN[ÇC][ÃA]O DE REGISTRO"],
+        r"Respons[áa]vel pela IRP:\s*(.+?)\(Assinado",
+    ),
+    "elaboracaoEdital": (
+        ["NOTA INFORMATIVA.*ELABORA[ÇC][ÃA]O DE EDITAL"],
+        r"Respons[áa]vel pela instru[çc][ãa]o:\s*(.+?)\(Assinado",
+    ),
+}
+
+
+def extrair_responsaveis_dfi(client: SipacClient, docs) -> dict:
+    """Lê o texto das 3 Notas Informativas da Fase Interna já presentes em
+    `docs` (quando existirem) e extrai o nome do responsável indicado em
+    cada uma. Só busca o texto quando o documento correspondente já existe
+    na listagem — processos que ainda não chegaram naquela etapa
+    simplesmente não geram nenhuma chamada extra ao SIPAC."""
+    resultado: dict[str, str] = {}
+    for chave, (tipo_padroes, regex_nome) in _PADROES_RESPONSAVEL_DFI.items():
+        doc = next((d for d in docs if _match_any(d.tipo, tipo_padroes) and d.id_doc), None)
+        if not doc:
+            continue
+        html_doc = client.obter_documento_texto(doc.id_doc)
+        if html_doc is None:
+            continue
+        texto = texto_visivel(html_doc)
+        m = _re.search(regex_nome, texto, _re.IGNORECASE)
+        if m:
+            resultado[chave] = m.group(1).strip().rstrip(".").strip()
+    return resultado
+
+
+_REGEX_PREGOEIRO = r"agente de contrata[çc][ãa]o\s+(.+?),\s*que atuar[áa] como Pregoeiro"
+_REGEX_EQUIPE_APOIO = r"servidor\(a\)\s+(.+?),\s*que atuar[áa] como equipe de apoio"
+
+
+def extrair_responsavel_dfe(client: SipacClient, docs) -> dict:
+    """Procura, entre os despachos emitidos pela DFE, o primeiro cujo texto
+    designa o pregoeiro (frase "que atuará como Pregoeiro") e extrai
+    pregoeiro + equipe de apoio. O tipo de documento é só "DESPACHO"
+    (genérico, usado pra várias coisas) — por isso confere o texto de cada
+    um até achar o que bate, em vez de confiar só no tipo."""
+    candidatos = [d for d in docs if "DFE" in d.origem.upper() and "DESPACHO" in d.tipo.upper() and d.id_doc]
+    for doc in candidatos:
+        html_doc = client.obter_documento_texto(doc.id_doc)
+        if html_doc is None:
+            continue
+        texto = texto_visivel(html_doc)
+        m_preg = _re.search(_REGEX_PREGOEIRO, texto, _re.IGNORECASE)
+        if not m_preg:
+            continue
+        resultado = {"pregoeiro": m_preg.group(1).strip()}
+        m_equipe = _re.search(_REGEX_EQUIPE_APOIO, texto, _re.IGNORECASE)
+        if m_equipe:
+            resultado["equipeApoio"] = m_equipe.group(1).strip()
+        return resultado
+    return {}
 
 
 FASE_POR_SUBETAPA = {
@@ -409,6 +489,25 @@ def atualizar_todos() -> dict:
                 sub_atual, marcos_novos, _chegou_ao_fim, retrabalho = calcular_progresso(docs, SUBETAPAS_PREGAO)
                 avisos.extend(avisos_retrabalho(p["processo"], retrabalho))
                 estados = detectar_estados_especiais(docs, movs, caminho)
+
+                # Responsáveis na DFI/DFE (seção acima) — só busca o texto
+                # de um documento quando ainda falta o nome correspondente,
+                # pra não reler o mesmo despacho/nota em toda execução.
+                responsaveis_dfi_existentes = p.get("responsaveisDfi") or {}
+                if len(responsaveis_dfi_existentes) < len(_PADROES_RESPONSAVEL_DFI):
+                    novos_dfi = extrair_responsaveis_dfi(client, docs)
+                    combinados = {**responsaveis_dfi_existentes, **novos_dfi}
+                    if combinados != responsaveis_dfi_existentes:
+                        p["responsaveisDfi"] = combinados
+                        mudou = True
+
+                responsaveis_dfe_existentes = p.get("responsaveisDfe") or {}
+                if len(responsaveis_dfe_existentes) < 2:
+                    novos_dfe = extrair_responsavel_dfe(client, docs)
+                    combinados = {**responsaveis_dfe_existentes, **novos_dfe}
+                    if combinados != responsaveis_dfe_existentes:
+                        p["responsaveisDfe"] = combinados
+                        mudou = True
         else:
             if not p.get("processo_id"):
                 avisos.append(f"{p['processo']}: sem processo_id resolvido — pulado.")
