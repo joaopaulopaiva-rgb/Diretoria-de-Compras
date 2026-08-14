@@ -500,6 +500,7 @@ h1{
 .gate-card-top{ display:flex; justify-content:space-between; align-items:flex-start; gap:12px; margin-bottom:6px; }
 .gate-id{ font-family:var(--font-mono); font-size:12.5px; color:var(--ink); font-weight:600; }
 .gate-date{ font-family:var(--font-mono); font-size:11px; color:var(--ink-faint); white-space:nowrap; }
+.gate-dates{ display:flex; flex-direction:column; align-items:flex-end; gap:2px; }
 .gate-subj{ font-size:14px; color:var(--ink); margin-bottom:4px; }
 .gate-meta{ font-size:12px; color:var(--ink-soft); margin-bottom:10px; }
 .gate-warning{
@@ -1262,7 +1263,10 @@ function renderGate(){
     <div class="gate-card ${resolvido?'resolved':''}" data-processo-id="${p.processo_id}">
       <div class="gate-card-top">
         <span class="gate-id">${p.numero}</span>
-        <span class="gate-date">Descoberto em ${p.descoberto_em || ''}</span>
+        <div class="gate-dates">
+          <span class="gate-date">Aberto em ${p.dataAbertura || '—'}</span>
+          <span class="gate-date">${p.ultimaAtividade ? `${diasParado(p.ultimaAtividade)} dia${diasParado(p.ultimaAtividade)===1?'':'s'} sem movimentação` : 'sem dados ainda'}</span>
+        </div>
       </div>
       <div class="gate-subj">${p.assunto || '(assunto não disponível)'}</div>
       <div class="gate-meta">${p.primeiro_documento ? `1º documento: ${p.primeiro_documento}` : ''}</div>
