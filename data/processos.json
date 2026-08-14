@@ -15963,5 +15963,28 @@
     "responsaveisDfi": {
       "irp": "Marilia Linhares de Sousa"
     }
+  },
+  {
+    "processo": "23077.115273/2026-15",
+    "assunto": "AQUISIÇÃO DE MEDALHAS PARA JOGOS INTERNOS 2026 DA FACISA.",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: DESPACHO (11/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (11/08/2026 09:35)",
+    "categoria": "elaboracao",
+    "unidade": "",
+    "data": "14/08/2026",
+    "dataCriacao": "14/08/2026",
+    "gestor": null,
+    "suspenso": false,
+    "emRecurso": false,
+    "urgente": false,
+    "marcos": {
+      "planejamentoFim": "07/08/2026",
+      "faseInternaFim": "11/08/2026"
+    },
+    "caminho": "adesao_srp",
+    "caminhoHistorico": [],
+    "processo_id": 1222913,
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1222913"
   }
 ]
