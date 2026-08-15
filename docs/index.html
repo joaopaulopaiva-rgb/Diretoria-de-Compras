@@ -334,6 +334,9 @@ h1{
 .terminus .cluster{ padding-top:0; }
 .terminus.watch .terminus-dot{ background:var(--ink-faint); box-shadow:0 0 0 2px var(--ink-faint); }
 .terminus.watch .terminus-count{ background:var(--ink-faint); }
+.terminus.overview{ margin-top:0; padding-top:0; border-top:none; margin-bottom:1.25rem; }
+.terminus.overview .terminus-dot{ background:var(--accent-bright); box-shadow:0 0 0 2px var(--accent-bright); }
+.terminus.overview .terminus-count{ background:var(--accent-bright); }
 
 /* manifest panel */
 .manifest{
@@ -785,16 +788,17 @@ h1{
     </div>
   </div>
 
+  <div class="terminus overview" id="planejamentoOverviewHead">
+    <span class="terminus-dot"></span>
+    <span class="terminus-label">Planejamento — visão geral de todos os caminhos de contratação</span>
+    <span class="terminus-count" id="planejamentoOverviewCount">0</span>
+  </div>
+  <div class="subetapa-tabs" id="planejamentoCaminhoTabs" style="display:none"></div>
+  <div class="manifest" id="manifest-planejamentoOverview"></div>
+
   <div class="transit">
     <div class="stations" id="stations"></div>
   </div>
-
-  <div class="terminus watch" id="concorrenciaWatchHead">
-    <span class="terminus-dot"></span>
-    <span class="terminus-label">Concorrência · aguardando Fase Externa — ainda na CAOSE/INFRA, fora da gestão da Diretoria de Compras</span>
-    <span class="terminus-count" id="concorrenciaWatchCount">0</span>
-  </div>
-  <div class="manifest" id="manifest-concorrenciaWatch"></div>
 
   <div class="terminus" id="terminusHead">
     <span class="terminus-dot"></span>
@@ -823,15 +827,34 @@ h1{
 </div>
 
 <script>
+// Cor de estação uniforme (azul) pras 4 divisões — a identidade visual por
+// cor deixou de marcar "qual divisão" (todas viram a mesma linha) e passou a
+// marcar "qual tipo de contratação" (CAMINHO_CORES abaixo), que é exibido só
+// quando uma divisão é selecionada e mostra os processos por dentro.
 const FASES = [
-  { key:'dpgc', label:'Planejamento', sub:'DPGC', fase:'Planejamento (DPGC)', color:'var(--line-dpgc)', soft:'var(--line-dpgc-soft)' },
+  { key:'dpgc', label:'Planejamento', sub:'DPGC', fase:'Planejamento (DPGC)', color:'var(--line-dfi)', soft:'var(--line-dfi-soft)' },
   { key:'dfi', label:'Fase Interna', sub:'DFI', fase:'Fase Interna (DFI)', color:'var(--line-dfi)', soft:'var(--line-dfi-soft)' },
-  { key:'jur', label:'Jurídico', sub:'Projur', fase:'Jurídico (Projur/Análise)', color:'var(--line-jur)', soft:'var(--line-jur-soft)' },
-  { key:'dfe', label:'Fase Externa', sub:'DFE', fase:'Fase Externa (DFE)', color:'var(--line-dfe)', soft:'var(--line-dfe-soft)' },
+  { key:'jur', label:'Jurídico', sub:'Projur', fase:'Jurídico (Projur/Análise)', color:'var(--line-dfi)', soft:'var(--line-dfi-soft)' },
+  { key:'dfe', label:'Fase Externa', sub:'DFE', fase:'Fase Externa (DFE)', color:'var(--line-dfi)', soft:'var(--line-dfi-soft)' },
 ];
 
 // Mesmo literal usado em scripts/atualizar_marcos.py e scripts/aplicar_decisoes.py.
 const FASE_CONCORRENCIA_PRE_DFE = 'Concorrência · aguardando Fase Externa (CAOSE/INFRA)';
+
+// Cor por tipo de contratação (caminho) — reaproveita a paleta que antes
+// identificava as divisões, já que essa função de "identidade por cor"
+// mudou de dono (pedido da pessoa dona do projeto: divisões ficam todas
+// azuis, o tipo de contratação é que ganha cor própria).
+const CAMINHO_CORES = {
+  pregao:          { color:'var(--line-dpgc)',    soft:'var(--line-dpgc-soft)' },
+  dispensa:        { color:'var(--line-dfe)',      soft:'var(--line-dfe-soft)' },
+  inexigibilidade: { color:'var(--line-jur)',      soft:'var(--line-jur-soft)' },
+  adesao_srp:      { color:'var(--line-homolog)',  soft:'var(--line-homolog-soft)' },
+  concorrencia:    { color:'var(--ink-faint)',     soft:'var(--paper-sunken)' },
+  contratabrasil:  { color:'var(--suspenso)',      soft:'var(--paper-sunken)' },
+};
+function corCaminho(p){ return (CAMINHO_CORES[p.caminho || 'pregao'] || CAMINHO_CORES.pregao).color; }
+function corCaminhoSuave(p){ return (CAMINHO_CORES[p.caminho || 'pregao'] || CAMINHO_CORES.pregao).soft; }
 
 const SUBETAPAS = [
   { key:'dfd', label:'DFD', sub:'DPGC', fase:'Planejamento (DPGC)', color:'var(--line-dpgc)', soft:'var(--line-dpgc-soft)', groupStart:true },
@@ -926,11 +949,13 @@ function renderStations(){
   el.className = 'stations mode-' + viewMode;
   el.innerHTML = stations.map(f => {
     const procs = stationProcs(f);
+    const selecionada = activeStation === f.key;
     const chips = procs.map(p => {
       const dias = diasParado(p.data);
       const cls = statusClasse(dias, p.categoria);
       const dim = !matches(p) ? 'dim' : '';
-      return `<div class="chip status-${cls} ${p.suspenso?'suspenso':''} ${p.urgente?'urgente':''} ${dim}" style="--dot-color:${f.color}" data-id="${p.processo}" title="${p.assuntoPregao||p.processo} — ${p.assunto}"></div>`;
+      const corChip = selecionada ? corCaminho(p) : f.color;
+      return `<div class="chip status-${cls} ${p.suspenso?'suspenso':''} ${p.urgente?'urgente':''} ${dim}" style="--dot-color:${corChip}" data-id="${p.processo}" title="${p.assuntoPregao||p.processo} — ${p.assunto}"></div>`;
     }).join('');
     return `
       <div class="station ${f.groupStart?'group-start':''}" data-key="${f.key}" style="--dot-color:${f.color}">
@@ -1014,9 +1039,11 @@ function manifestRows(procs, color, soft){
     .map(p => {
       const match = matches(p);
       const showGestor = p.fase === 'Planejamento (DPGC)';
+      const corLinha = typeof color === 'function' ? color(p) : color;
+      const corSuave = typeof soft === 'function' ? soft(p) : soft;
       return `
-      <div class="row ${match?'':'faded'}" style="--dot-soft:${soft}" data-processo="${p.processo}">
-        <div class="row-dot" style="--dot-color:${color}"></div>
+      <div class="row ${match?'':'faded'}" style="--dot-soft:${corSuave}" data-processo="${p.processo}">
+        <div class="row-dot" style="--dot-color:${corLinha}"></div>
         <div class="row-main">
           <div class="row-top">
             <span class="row-id">${p.assuntoPregao || p.processo}</span>
@@ -1052,13 +1079,13 @@ function renderManifests(){
     }
     const procs = stationProcs(f);
     panel.className = 'manifest' + (activeStation === f.key ? ' show' : '');
-    panel.innerHTML = `<div class="manifest-head">${f.label} · ${f.sub} — ${procs.length} processo${procs.length===1?'':'s'}</div>` + manifestRows(procs, f.color, f.soft);
+    panel.innerHTML = `<div class="manifest-head">${f.label} · ${f.sub} — ${procs.length} processo${procs.length===1?'':'s'}</div>` + manifestRows(procs, corCaminho, corCaminhoSuave);
     anchor.after(panel);
     anchor = panel;
   });
   // clean up panels from the other view mode so they don't linger below
   const validKeys = new Set(stations.map(f => 'manifest-'+f.key));
-  const panelsProtegidos = new Set(['manifest-homologado', 'manifest-concorrenciaWatch']);
+  const panelsProtegidos = new Set(['manifest-homologado', 'manifest-planejamentoOverview']);
   document.querySelectorAll('.manifest').forEach(panel => {
     if(!panelsProtegidos.has(panel.id) && !validKeys.has(panel.id)){
       panel.remove();
@@ -1066,13 +1093,39 @@ function renderManifests(){
   });
 }
 
-function renderConcorrenciaWatch(){
-  const procs = processos.filter(p => p.fase === FASE_CONCORRENCIA_PRE_DFE);
-  document.getElementById('concorrenciaWatchCount').textContent = procs.length;
-  const panel = document.getElementById('manifest-concorrenciaWatch');
-  const aberto = activeStation === 'concorrenciaWatch';
+let activePlanejamentoCaminho = null; // filtro por tipo de contratação na visão geral de Planejamento
+
+function renderPlanejamentoOverview(){
+  // Inclui tanto o Planejamento "de verdade" (DPGC) quanto a Concorrência
+  // que ainda não chegou à Fase Externa (fica na CAOSE/INFRA, fora da DPGC,
+  // mas é a mesma ideia de "ainda em planejamento, só de olho") — uma única
+  // visão geral por tipo de contratação em vez de dois lugares separados.
+  const todos = processos.filter(p => p.fase === 'Planejamento (DPGC)' || p.fase === FASE_CONCORRENCIA_PRE_DFE);
+  document.getElementById('planejamentoOverviewCount').textContent = todos.length;
+
+  const tabsEl = document.getElementById('planejamentoCaminhoTabs');
+  const aberto = activeStation === 'planejamentoOverview';
+  tabsEl.style.display = aberto ? 'flex' : 'none';
+  if(aberto){
+    const caminhosPresentes = CAMINHO_OPCOES.filter(c => todos.some(p => (p.caminho || 'pregao') === c.key));
+    tabsEl.innerHTML = `<button class="subetapa-tab ${activePlanejamentoCaminho===null?'active':''}" data-caminho="">Todos · ${todos.length}</button>` +
+      caminhosPresentes.map(c => {
+        const n = todos.filter(p => (p.caminho || 'pregao') === c.key).length;
+        return `<button class="subetapa-tab ${activePlanejamentoCaminho===c.key?'active':''}" data-caminho="${c.key}">${c.label} · ${n}</button>`;
+      }).join('');
+    tabsEl.querySelectorAll('.subetapa-tab').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const c = btn.getAttribute('data-caminho');
+        activePlanejamentoCaminho = c || null;
+        renderAll();
+      });
+    });
+  }
+
+  const procs = activePlanejamentoCaminho ? todos.filter(p => (p.caminho || 'pregao') === activePlanejamentoCaminho) : todos;
+  const panel = document.getElementById('manifest-planejamentoOverview');
   panel.className = 'manifest' + (aberto ? ' show' : '');
-  panel.innerHTML = `<div class="manifest-head">Concorrência em observação — ${procs.length} processo${procs.length===1?'':'s'} ainda na CAOSE/INFRA</div>` + manifestRows(procs, 'var(--ink-faint)', 'var(--line-dpgc-soft)');
+  panel.innerHTML = `<div class="manifest-head">Planejamento — ${procs.length} processo${procs.length===1?'':'s'}</div>` + manifestRows(procs, corCaminho, corCaminhoSuave);
 }
 
 function renderHomologados(){
@@ -1222,7 +1275,7 @@ function renderAll(){
   renderStations();
   renderManifests();
   renderHomologados();
-  renderConcorrenciaWatch();
+  renderPlanejamentoOverview();
   renderGestores();
   renderResponsaveisDfi();
   renderResponsaveisDfe();
@@ -1236,8 +1289,8 @@ document.getElementById('terminusHead').addEventListener('click', () => {
   activeStation = activeStation === 'homologado' ? null : 'homologado';
   renderAll();
 });
-document.getElementById('concorrenciaWatchHead').addEventListener('click', () => {
-  activeStation = activeStation === 'concorrenciaWatch' ? null : 'concorrenciaWatch';
+document.getElementById('planejamentoOverviewHead').addEventListener('click', () => {
+  activeStation = activeStation === 'planejamentoOverview' ? null : 'planejamentoOverview';
   renderAll();
 });
 document.getElementById('viewDivisao').addEventListener('click', () => {
