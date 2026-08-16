@@ -20,6 +20,7 @@ esse campo à mão quando quiser mais qualidade.
 from __future__ import annotations
 
 import json
+import re as _re
 import sys
 from pathlib import Path
 
@@ -283,6 +284,34 @@ _PADROES_RESPONSAVEL_DFI = {
 }
 
 
+_ASIDE_RE = _re.compile(r"\s*\([^)]*\)\s*$")
+
+
+def _limpar_nome_responsavel(bruto: str) -> str:
+    """Limpa o nome capturado pelo regex de responsável: remove observação
+    entre parênteses no final (ex. "(a pesquisa foi antecipada a partir do
+    protocolo)", visto num caso real) e separa dois nomes unidos por " e "
+    quando a pesquisa foi dividida entre duas pessoas — confirmado pela
+    pessoa dona do projeto como exceção real (rara, mas acontece; CLAUDE.md
+    não documentava isso até 14/08/2026). Critério conservador pra não
+    quebrar sobrenome composto de uma pessoa só (ex. "Sousa e Silva"): só
+    separa quando os dois lados têm 2+ palavras cada, sinal de dois nomes
+    completos."""
+    texto = bruto
+    while True:
+        novo = _ASIDE_RE.sub("", texto).strip()
+        if novo == texto:
+            break
+        texto = novo
+
+    m = _re.search(r"^(.+?)\s+e\s+(.+)$", texto)
+    if m:
+        esquerda, direita = m.group(1).strip(), m.group(2).strip()
+        if len(esquerda.split()) >= 2 and len(direita.split()) >= 2:
+            return f"{esquerda}; {direita}"
+    return texto
+
+
 def extrair_responsaveis_dfi(client: SipacClient, docs) -> dict:
     """Lê o texto das 3 Notas Informativas da Fase Interna já presentes em
     `docs` (quando existirem) e extrai o nome do responsável indicado em
@@ -300,7 +329,7 @@ def extrair_responsaveis_dfi(client: SipacClient, docs) -> dict:
         texto = texto_visivel(html_doc)
         m = _re.search(regex_nome, texto, _re.IGNORECASE)
         if m:
-            resultado[chave] = m.group(1).strip().rstrip(".").strip()
+            resultado[chave] = _limpar_nome_responsavel(m.group(1).strip().rstrip("."))
     return resultado
 
 
@@ -361,8 +390,6 @@ MARCO_FIM_POR_SUBETAPA = {
     "faseInterna": "faseInternaFim",
     "faseExterna": "faseExternaFim",
 }
-
-import re as _re
 
 
 def _match_any(tipo: str, padroes: list[str]) -> bool:

@@ -917,6 +917,50 @@ const DFE_SUBETAPAS = [
   { key:'pregoeiro', label:'Pregoeiro' },
   { key:'equipeApoio', label:'Equipe de apoio' },
 ];
+
+// Grafias diferentes do mesmo nome (acento/caixa alta/forma abreviada) que
+// apareceram na extração automática dos documentos — confirmadas uma a uma
+// com a pessoa dona do projeto em 14/08/2026, pra não presumir duplicata
+// (ex. "Geise"/"Geisi" e "Sayonara"/"Saionara" são pessoas DIFERENTES,
+// mesmo soando parecido — por isso não estão nesta lista). Chave sempre em
+// maiúsculas (comparação normalizada); valor é a grafia oficial a exibir.
+const NOME_CANONICO = {
+  // DFI
+  'AMANDA ELOYSE MEDEIROS BEZERRIL': 'Amanda Eloyse de Medeiros Bezerril',
+  'AMANDA ELOYSE DE MEDEIROS BEZERRIL': 'Amanda Eloyse de Medeiros Bezerril',
+  'AMANDA MEDEIROS': 'Amanda Eloyse de Medeiros Bezerril',
+  'JOSE WELITON B. DA SILVA': 'José Weliton Barbosa da Silva',
+  'JOSÉ WELITON B. DA SILVA': 'José Weliton Barbosa da Silva',
+  'JOSÉ WELITON BARBOSA SILVA': 'José Weliton Barbosa da Silva',
+  'JOSÉ WELITON BARBOSA DA SILVA': 'José Weliton Barbosa da Silva',
+  'ERICKA FABRICIA JACOME DE SOUSA COSTA': 'Éricka Fabrícia Jácome de Sousa Costa',
+  'ÉRICKA FABRÍCIA JÁCOME DE SOUSA COSTA': 'Éricka Fabrícia Jácome de Sousa Costa',
+  'MARILIA LINHARES DE SOUSA': 'Marília Linhares de Sousa',
+  'MARÍLIA LINHARES DE SOUSA': 'Marília Linhares de Sousa',
+  'ROSANA MARIA GARCIA SILVA': 'Rosana Maria Garcia Silva',
+  'VANESSA MEDINO': 'Vanessa Raquel da Silva Medino',
+  'VANESSA RAQUEL DA SILVA MEDINO': 'Vanessa Raquel da Silva Medino',
+  'GEISE RANA SANTOS': 'Geise Rana Santos',
+  'GEISI RANA SANTOS': 'Geise Rana Santos',
+  'THIAGO RENAN DA SILVA CORREIA': 'Thiago Renan da Silva Correia',
+  'THIAGO RENAN DA SILVA CORREA': 'Thiago Renan da Silva Correia',
+  'SAYONARA SUELY JANUÁRIO PEREIRA': 'Sayonara Suely Januário Pereira',
+  'SAYONARA PEREIRA': 'Sayonara Suely Januário Pereira',
+  'SAIONARA PRISCILA LUCAS SARAIVA': 'Saionara Priscila Lucas Saraiva',
+  // DFE
+  'ANDREA LOPES FIGUEIREDO': 'Andrea Lopes de Figueiredo',
+  'ANDREA LOPES DE FIGUEIREDO': 'Andrea Lopes de Figueiredo',
+  'PAULO JOSE PEREIRA': 'Paulo José Pereira',
+  'PAULO JOSÉ PEREIRA': 'Paulo José Pereira',
+  'PAULO JOSÉ DA SILVA': 'Paulo José Pereira', // confirmado: só existe um Paulo, "da Silva" foi erro de digitação
+};
+// Uma sub-etapa raramente pode ter mais de um responsável (pesquisa
+// dividida entre duas pessoas, confirmado como exceção real possível) —
+// scripts/atualizar_marcos.py grava esse caso como "Nome1; Nome2".
+function nomesCanonicos(bruto){
+  if(!bruto) return [];
+  return bruto.split(';').map(s => s.trim()).filter(Boolean).map(nome => NOME_CANONICO[nome.toUpperCase()] || nome);
+}
 let activeDfiSubetapa = DFI_SUBETAPAS[0].key;
 let activeResponsavelDfi = null;
 let activeDfeSubetapa = DFE_SUBETAPAS[0].key;
@@ -925,8 +969,8 @@ let activeResponsavelDfe = null;
 function matches(p){
   const searchOk = !searchTerm || (p.processo+' '+p.assunto+' '+(p.assuntoPregao||'')+' '+p.gestor+' '+p.unidade).toLowerCase().includes(searchTerm.toLowerCase());
   const gestorOk = !activeGestor || p.gestor === activeGestor;
-  const dfiOk = !activeResponsavelDfi || (p.responsaveisDfi && p.responsaveisDfi[activeDfiSubetapa] === activeResponsavelDfi);
-  const dfeOk = !activeResponsavelDfe || (p.responsaveisDfe && p.responsaveisDfe[activeDfeSubetapa] === activeResponsavelDfe);
+  const dfiOk = !activeResponsavelDfi || (p.responsaveisDfi && nomesCanonicos(p.responsaveisDfi[activeDfiSubetapa]).includes(activeResponsavelDfi));
+  const dfeOk = !activeResponsavelDfe || (p.responsaveisDfe && nomesCanonicos(p.responsaveisDfe[activeDfeSubetapa]).includes(activeResponsavelDfe));
   return searchOk && gestorOk && dfiOk && dfeOk;
 }
 
@@ -1223,10 +1267,13 @@ function renderResponsaveisGrid(cfg){
   const procs = processos.filter(p => p[cfg.campo] && p[cfg.campo][cfg.activeSubetapa]);
   const porPessoa = {};
   procs.forEach(p => {
-    const nome = p[cfg.campo][cfg.activeSubetapa];
-    if(!porPessoa[nome]) porPessoa[nome] = { total:0, atrasados:0 };
-    porPessoa[nome].total++;
-    if(statusClasse(diasParado(p.data), p.categoria) !== 'ok') porPessoa[nome].atrasados++;
+    // normalmente 1 nome só; raramente 2 (pesquisa dividida entre duas
+    // pessoas) — cada pessoa listada conta o processo pra ela.
+    nomesCanonicos(p[cfg.campo][cfg.activeSubetapa]).forEach(nome => {
+      if(!porPessoa[nome]) porPessoa[nome] = { total:0, atrasados:0 };
+      porPessoa[nome].total++;
+      if(statusClasse(diasParado(p.data), p.categoria) !== 'ok') porPessoa[nome].atrasados++;
+    });
   });
   const nomes = Object.keys(porPessoa).sort();
   const el = document.getElementById(cfg.gridId);
