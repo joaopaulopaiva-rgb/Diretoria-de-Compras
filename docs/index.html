@@ -367,6 +367,15 @@ h1{
   color:var(--ink-faint);
   background:var(--paper-sunken);
 }
+.manifest-group-label{
+  padding:9px 16px 3px;
+  font-family:var(--font-mono);
+  font-size:9.5px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:var(--ink-faint);
+}
+.manifest-group-label:first-child{ padding-top:12px; }
 .row{
   display:flex;
   gap:16px;
@@ -975,9 +984,6 @@ function renderStations(){
       const key = st.getAttribute('data-key');
       activeStation = activeStation === key ? null : key;
       renderAll();
-      if(activeStation){
-        document.getElementById('manifest-'+key)?.scrollIntoView({behavior:'smooth', block:'nearest'});
-      }
     });
   });
 }
@@ -1032,6 +1038,20 @@ function linkBadgesHtml(p){
   `;
 }
 
+function manifestRowsAgrupado(procs, color, soft){
+  if(procs.length===0) return '<p class="empty-note">Nenhum processo nesta seleção.</p>';
+  const grupos = {};
+  procs.forEach(p => {
+    const chave = p.caminho || 'pregao';
+    (grupos[chave] = grupos[chave] || []).push(p);
+  });
+  const ordem = CAMINHO_OPCOES.filter(c => grupos[c.key]);
+  return ordem.map(c => {
+    const lista = grupos[c.key];
+    return `<p class="manifest-group-label">${c.label} · ${lista.length}</p>` + manifestRows(lista, color, soft);
+  }).join('');
+}
+
 function manifestRows(procs, color, soft){
   if(procs.length===0) return '<p class="empty-note">Nenhum processo nesta seleção.</p>';
   return procs
@@ -1079,7 +1099,7 @@ function renderManifests(){
     }
     const procs = stationProcs(f);
     panel.className = 'manifest' + (activeStation === f.key ? ' show' : '');
-    panel.innerHTML = `<div class="manifest-head">${f.label} · ${f.sub} — ${procs.length} processo${procs.length===1?'':'s'}</div>` + manifestRows(procs, corCaminho, corCaminhoSuave);
+    panel.innerHTML = `<div class="manifest-head">${f.label} · ${f.sub} — ${procs.length} processo${procs.length===1?'':'s'}</div>` + manifestRowsAgrupado(procs, corCaminho, corCaminhoSuave);
     anchor.after(panel);
     anchor = panel;
   });
