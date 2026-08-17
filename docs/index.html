@@ -510,7 +510,14 @@ h1{
   padding:1rem 1.15rem;
   transition:opacity .2s ease, transform .2s ease;
 }
-.gate-card.resolved{ opacity:0; transform:translateX(12px) scale(.98); pointer-events:none; height:0; padding:0; margin:0; border:none; overflow:hidden; }
+.gate-card.resolved{ opacity:.55; padding:.6rem 1.15rem; }
+.gate-card.resolved:hover{ opacity:1; }
+.gate-card.resolved .gate-subj,
+.gate-card.resolved .gate-meta,
+.gate-card.resolved .gate-date,
+.gate-card.resolved .gate-alerta-empenho,
+.gate-card.resolved .gate-alerta-redirecionado,
+.gate-card.resolved .gate-alerta-desistencia{ display:none; }
 .gate-card.alerta-empenho{ background:color-mix(in srgb, var(--warn) 10%, var(--paper-raised)); border-color:var(--warn); }
 .gate-alerta-empenho{
   display:inline-block; margin-top:6px; padding:3px 9px; border-radius:5px;
@@ -565,6 +572,7 @@ h1{
 }
 .gate-status-tag.em-analise{ background:color-mix(in srgb, var(--warn) 18%, var(--paper-raised)); color:var(--warn); }
 .gate-status-tag.acompanhando{ background:color-mix(in srgb, var(--ok-fg) 18%, var(--paper-raised)); color:var(--ok-fg); }
+.gate-status-tag.ignorado{ background:color-mix(in srgb, var(--ink-faint) 18%, var(--paper-raised)); color:var(--ink-faint); }
 .caminho-picker{
   display:flex; gap:6px; flex-wrap:wrap; margin-top:2px;
 }
@@ -1438,19 +1446,30 @@ function gateContagem(){
   return { total: itens.length, feitos: itens.length - itens.filter(p => !p.decisaoLocal).length };
 }
 
+function itemResolvido(p){
+  const decisao = p.decisaoLocal;
+  const escondidoAgora = escondidosNestaSessao.has(String(p.processo_id));
+  return (decisao && decisao.status !== 'em_analise') || escondidoAgora;
+}
+
 function renderGate(){
   const el = document.getElementById('gateList');
-  const itens = itensDoPortao();
+  // pendentes ficam no topo (foco da revisão); já decididos afundam pro
+  // final da lista — continuam visíveis e clicáveis (dá pra mudar de ideia),
+  // só saem do caminho de quem ainda está revisando.
+  const itens = itensDoPortao().sort((a,b) => (itemResolvido(a)?1:0) - (itemResolvido(b)?1:0));
   el.innerHTML = itens.map(p => {
     const decisao = p.decisaoLocal;
     const escondidoAgora = escondidosNestaSessao.has(String(p.processo_id));
-    const resolvido = (decisao && decisao.status !== 'em_analise') || escondidoAgora;
+    const resolvido = itemResolvido(p);
     const tagHtml = decisao
       ? (decisao.status === 'em_analise'
           ? `<span class="gate-status-tag em-analise">Em análise</span>`
           : decisao.status === 'acompanhar'
             ? `<span class="gate-status-tag acompanhando">Acompanhando · ${(CAMINHO_OPCOES.find(c=>c.key===decisao.caminho)||{}).label||''}</span>`
-            : '')
+            : decisao.status === 'ignorar'
+              ? `<span class="gate-status-tag ignorado">Ignorado</span>`
+              : '')
       : '';
     return `
     <div class="gate-card ${resolvido?'resolved':''} ${p.alertaEmpenhoSemExecucao?'alerta-empenho':''} ${p.alertaRedirecionado?'alerta-redirecionado':''} ${p.alertaDesistencia?'alerta-desistencia':''}" data-processo-id="${p.processo_id}">
@@ -1467,15 +1486,21 @@ function renderGate(){
       ${p.alertaRedirecionado ? `<span class="gate-alerta-redirecionado">↪ Demanda parece redirecionada${p.processoDestino ? ` para ${p.processoDestino}` : ''}</span>` : ''}
       ${p.alertaDesistencia ? `<span class="gate-alerta-desistencia">✕ Requisitante desistiu da demanda</span>` : ''}
       ${tagHtml}
-      <div class="gate-actions" ${decisao && decisao.status !== 'em_analise' ? 'style="display:none"' : ''}>
+      ${decisao && decisao.status !== 'em_analise' ? `
+      <div class="gate-actions">
+        <button class="gate-btn ghost" data-acao="desfazer">↺ Mudar decisão</button>
+        <a class="gate-btn-link" href="${p.link}" target="_blank" rel="noopener">Abrir no Sipac ↗</a>
+      </div>` : `
+      <div class="gate-actions">
         <button class="gate-btn primary" data-acao="acompanhar">Acompanhar</button>
         <button class="gate-btn ghost" data-acao="ignorar">Ignorar</button>
         <button class="gate-btn ghost" data-acao="em_analise">Em análise</button>
         <a class="gate-btn-link" href="${p.link}" target="_blank" rel="noopener">Abrir no Sipac ↗</a>
-      </div>
+      </div>`}
       <div class="caminho-picker" data-processo-id="${p.processo_id}" style="display:none">
         <span class="caminho-picker-label">Qual caminho este processo vai seguir?</span>
         ${CAMINHO_OPCOES.map(c => `<button class="caminho-btn" data-caminho="${c.key}">${c.label}</button>`).join('')}
+        <button class="gate-btn ghost caminho-voltar" data-processo-id="${p.processo_id}">← Voltar</button>
       </div>
     </div>`;
   }).join('');
@@ -1490,12 +1515,26 @@ function renderGate(){
         card.querySelector(`.caminho-picker[data-processo-id="${processoId}"]`).style.display = 'flex';
         return;
       }
+      if(acao === 'desfazer'){
+        delete decisoesLocais[processoId];
+        salvarDecisoesLocais(decisoesLocais);
+        renderGate();
+        return;
+      }
       decisoesLocais[processoId] = { status: acao };
       salvarDecisoesLocais(decisoesLocais);
       if(acao === 'em_analise'){
         escondidosNestaSessao.add(String(processoId));
       }
       renderGate();
+    });
+  });
+
+  el.querySelectorAll('.caminho-voltar').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const card = btn.closest('.gate-card');
+      card.querySelector('.caminho-picker').style.display = 'none';
+      card.querySelector('.gate-actions').style.display = 'flex';
     });
   });
 
