@@ -281,6 +281,16 @@ h1{
   min-height:26px;
   align-content:flex-start;
 }
+.cluster-group-label{
+  font-family:var(--font-mono);
+  font-size:9.5px;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+  color:var(--ink-faint);
+  margin:0 0 4px;
+  width:100%;
+}
+.cluster-group-label:not(:first-child){ margin-top:8px; }
 .chip{
   width:12px; height:12px;
   border-radius:3px;
@@ -1004,6 +1014,31 @@ function stationProcs(st){
   return processos.filter(p => p.subEtapa === st.key);
 }
 
+function chipHtml(p, cor){
+  const dias = diasParado(p.data);
+  const cls = statusClasse(dias, p.categoria);
+  const dim = !matches(p) ? 'dim' : '';
+  return `<div class="chip status-${cls} ${p.suspenso?'suspenso':''} ${p.urgente?'urgente':''} ${dim}" style="--dot-color:${cor}" data-id="${p.processo}" title="${p.assuntoPregao||p.processo} — ${p.assunto}"></div>`;
+}
+
+function clusterHtml(procs, f, selecionada){
+  if(!selecionada) return `<div class="cluster">${procs.map(p => chipHtml(p, f.color)).join('')}</div>`;
+  // divisão selecionada: agrupa por tipo de contratação, com rótulo em
+  // cima de cada grupo — só aparecem os grupos com processo de verdade ali
+  // (ex. Inexigibilidade/Adesão SRP/Contrata+Brasil nunca chegam à Fase
+  // Externa, então nunca vão gerar grupo nessa estação).
+  const grupos = {};
+  procs.forEach(p => {
+    const chave = p.caminho || 'pregao';
+    (grupos[chave] = grupos[chave] || []).push(p);
+  });
+  const ordem = CAMINHO_OPCOES.filter(c => grupos[c.key]);
+  return ordem.map(c => {
+    const lista = grupos[c.key];
+    return `<p class="cluster-group-label">${c.label} · ${lista.length}</p><div class="cluster">${lista.map(p => chipHtml(p, corCaminho(p))).join('')}</div>`;
+  }).join('');
+}
+
 function renderStations(){
   const stations = currentStations();
   const el = document.getElementById('stations');
@@ -1011,13 +1046,6 @@ function renderStations(){
   el.innerHTML = stations.map(f => {
     const procs = stationProcs(f);
     const selecionada = activeStation === f.key;
-    const chips = procs.map(p => {
-      const dias = diasParado(p.data);
-      const cls = statusClasse(dias, p.categoria);
-      const dim = !matches(p) ? 'dim' : '';
-      const corChip = selecionada ? corCaminho(p) : f.color;
-      return `<div class="chip status-${cls} ${p.suspenso?'suspenso':''} ${p.urgente?'urgente':''} ${dim}" style="--dot-color:${corChip}" data-id="${p.processo}" title="${p.assuntoPregao||p.processo} — ${p.assunto}"></div>`;
-    }).join('');
     return `
       <div class="station ${f.groupStart?'group-start':''}" data-key="${f.key}" style="--dot-color:${f.color}">
         <div class="rail-seg" style="--dot-color:${f.color}"></div>
@@ -1026,7 +1054,7 @@ function renderStations(){
           <span class="station-sub">${f.sub}</span>
           <span class="station-count" style="--dot-color:${f.color}">${procs.length}</span>
         </div>
-        <div class="cluster">${chips}</div>
+        ${clusterHtml(procs, f, selecionada)}
       </div>
     `;
   }).join('');
