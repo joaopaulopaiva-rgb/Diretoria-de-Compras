@@ -517,7 +517,7 @@
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1200698",
     "marcos": null,
-    "processo_id": null,
+    "processo_id": 1185145,
     "pregao_id": 1200698
   },
   {
@@ -550,7 +550,7 @@
       "listaFim": "17/07/2026",
       "analiseDfiInicio": "17/07/2026"
     },
-    "processo_id": null,
+    "processo_id": 1214415,
     "pregao_id": 1214415
   },
   {
@@ -573,7 +573,7 @@
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1139132",
     "marcos": null,
-    "processo_id": null,
+    "processo_id": 1139132,
     "pregao_id": 1139132
   },
   {
@@ -606,7 +606,7 @@
       "listaFim": "08/10/2025",
       "analiseDfiInicio": "08/10/2025"
     },
-    "processo_id": null,
+    "processo_id": 1150519,
     "pregao_id": 1150519
   },
   {
@@ -639,7 +639,7 @@
       "listaFim": "17/07/2026",
       "analiseDfiInicio": "17/07/2026"
     },
-    "processo_id": null,
+    "processo_id": 1152393,
     "pregao_id": 1152393
   },
   {
@@ -672,7 +672,7 @@
       "listaFim": "18/06/2026",
       "analiseDfiInicio": "18/06/2026"
     },
-    "processo_id": null,
+    "processo_id": 1168876,
     "pregao_id": 1168876
   },
   {
@@ -705,7 +705,7 @@
       "listaFim": "19/05/2026",
       "analiseDfiInicio": "19/05/2026"
     },
-    "processo_id": null,
+    "processo_id": 1187634,
     "pregao_id": 1187634
   },
   {
@@ -726,7 +726,7 @@
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1067820",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1116685",
     "marcos": {
       "cadastro": "24/11/2023",
       "dfdFim": "05/12/2023",
@@ -738,8 +738,8 @@
       "listaFim": "11/10/2024",
       "analiseDfiInicio": "11/10/2024"
     },
-    "processo_id": null,
-    "pregao_id": 1067820
+    "processo_id": 1067820,
+    "pregao_id": 1116685
   },
   {
     "caminho": "pregao",
@@ -776,7 +776,7 @@
       "editalFim": "09/07/2026",
       "juridicoFim": "29/07/2026"
     },
-    "processo_id": null,
+    "processo_id": 1085979,
     "pregao_id": 1207433,
     "responsaveisDfi": {
       "pesquisaPrecos": "Amanda Medeiros",
@@ -815,7 +815,7 @@
       "analiseDfiInicio": "16/06/2025",
       "juridicoInicio": "12/06/2026"
     },
-    "processo_id": null,
+    "processo_id": 1130007,
     "pregao_id": 1130007
   },
   {
@@ -865,7 +865,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.010286/2024-29",
     "execucao_id": 1075638,
-    "processo_id": null,
+    "processo_id": 1072714,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1075638",
     "semDisputaFaseExterna": true
   },
@@ -890,7 +890,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.021863/2024-16",
     "execucao_id": 1078583,
-    "processo_id": null,
+    "processo_id": 1072785,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1078583",
     "semDisputaFaseExterna": false
   },
@@ -915,7 +915,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.008832/2024-61",
     "execucao_id": 1075312,
-    "processo_id": null,
+    "processo_id": 1072975,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1075312",
     "semDisputaFaseExterna": true
   },
@@ -943,7 +943,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.023067/2026-71",
     "pregao_id": 1194908,
-    "processo_id": null,
+    "processo_id": 1188290,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1194908",
     "responsaveisDfi": {
       "pesquisaPrecos": "José Weliton Barbosa da Silva",
@@ -975,7 +975,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.012400/2024-55",
     "execucao_id": 1076174,
-    "processo_id": null,
+    "processo_id": 1073277,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1076174",
     "semDisputaFaseExterna": true
   },
@@ -1000,7 +1000,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.007880/2024-32",
     "execucao_id": 1075058,
-    "processo_id": null,
+    "processo_id": 1073402,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1075058"
   },
   {
@@ -1029,7 +1029,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.064819/2025-73",
     "pregao_id": 1141748,
-    "processo_id": null,
+    "processo_id": 1122783,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1141748",
     "responsaveisDfi": {
       "pesquisaPrecos": "Amanda Eloyse de Medeiros Bezerril",
@@ -1067,7 +1067,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.063122/2025-85",
     "pregao_id": 1141280,
-    "processo_id": null,
+    "processo_id": 1122801,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1141280",
     "responsaveisDfi": {
       "pesquisaPrecos": "Vanessa Raquel da Silva Medino; Saionara Priscila Lucas Saraiva",
@@ -1100,7 +1100,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.014829/2024-87",
     "execucao_id": 1076830,
-    "processo_id": null,
+    "processo_id": 1073594,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1076830",
     "semDisputaFaseExterna": true
   },
@@ -1148,7 +1148,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.044742/2026-04",
     "execucao_id": 1201320,
-    "processo_id": null,
+    "processo_id": 1188970,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1201320"
   },
   {
@@ -1172,7 +1172,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.013621/2025-21",
     "execucao_id": 1125875,
-    "processo_id": null,
+    "processo_id": 1073957,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1125875"
   },
   {
@@ -1221,7 +1221,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.050165/2024-10",
     "pregao_id": 1086394,
-    "processo_id": null,
+    "processo_id": 1073984,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1086394"
   },
   {
@@ -1248,7 +1248,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.026008/2026-55",
     "pregao_id": 1195902,
-    "processo_id": null,
+    "processo_id": 1189329,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1195902",
     "responsaveisDfi": {
       "irp": "Marilia Linhares de Sousa",
@@ -1280,7 +1280,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.031604/2026-57",
     "pregao_id": 1197588,
-    "processo_id": null,
+    "processo_id": 1189333,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1197588",
     "responsaveisDfe": {
       "pregoeiro": "Klayton Lima Figueiredo",
@@ -1308,7 +1308,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.011997/2026-82",
     "execucao_id": 1191453,
-    "processo_id": null,
+    "processo_id": 1189406,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1191453",
     "semDisputaFaseExterna": true
   },
@@ -1356,7 +1356,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.013756/2026-78",
     "execucao_id": 1192004,
-    "processo_id": null,
+    "processo_id": 1189478,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1192004",
     "semDisputaFaseExterna": true
   },
@@ -1386,7 +1386,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.064823/2025-31",
     "pregao_id": 1141749,
-    "processo_id": null,
+    "processo_id": 1123536,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1141749",
     "responsaveisDfi": {
       "pesquisaPrecos": "José Weliton Barbosa da Silva",
@@ -1442,7 +1442,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.020341/2026-51",
     "execucao_id": 1194091,
-    "processo_id": null,
+    "processo_id": 1189890,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1194091",
     "semDisputaFaseExterna": true
   },
@@ -1468,7 +1468,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.063348/2024-03",
     "execucao_id": 1090291,
-    "processo_id": null,
+    "processo_id": 1074713,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1090291",
     "semDisputaFaseExterna": false
   },
@@ -1493,7 +1493,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.020755/2026-80",
     "execucao_id": 1194211,
-    "processo_id": null,
+    "processo_id": 1190183,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1194211",
     "semDisputaFaseExterna": true
   },
@@ -1521,7 +1521,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.108630/2024-19",
     "pregao_id": 1103394,
-    "processo_id": null,
+    "processo_id": 1075016,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103394",
     "responsaveisDfi": {
       "elaboracaoEdital": "Thiago Renan da Silva Correia"
@@ -1570,7 +1570,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.012319/2024-75",
     "execucao_id": 1076153,
-    "processo_id": null,
+    "processo_id": 1075250,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1076153",
     "semDisputaFaseExterna": true
   },
@@ -1595,7 +1595,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.028284/2025-77",
     "execucao_id": 1130461,
-    "processo_id": null,
+    "processo_id": 1124564,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1130461",
     "semDisputaFaseExterna": true
   },
@@ -1621,7 +1621,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.027115/2026-09",
     "execucao_id": 1196232,
-    "processo_id": null,
+    "processo_id": 1190518,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1196232",
     "semDisputaFaseExterna": false
   },
@@ -1646,7 +1646,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.027000/2024-44",
     "execucao_id": 1080064,
-    "processo_id": null,
+    "processo_id": 1075582,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1080064",
     "semDisputaFaseExterna": false
   },
@@ -1671,7 +1671,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.018306/2024-18",
     "execucao_id": 1077736,
-    "processo_id": null,
+    "processo_id": 1075583,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1077736",
     "semDisputaFaseExterna": false
   },
@@ -1742,7 +1742,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.036647/2026-29",
     "execucao_id": 1199086,
-    "processo_id": null,
+    "processo_id": 1191312,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1199086",
     "semDisputaFaseExterna": false
   },
@@ -1838,7 +1838,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.149081/2024-32",
     "pregao_id": 1114444,
-    "processo_id": null,
+    "processo_id": 1076425,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1114444"
   },
   {
@@ -1863,7 +1863,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.084178/2026-54",
     "execucao_id": 1213736,
-    "processo_id": null,
+    "processo_id": 1192007,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1213736",
     "semDisputaFaseExterna": false
   },
@@ -1911,7 +1911,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.113283/2026-16",
     "execucao_id": 1222271,
-    "processo_id": null,
+    "processo_id": 1192024,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1222271",
     "semDisputaFaseExterna": true
   },
@@ -1936,7 +1936,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.018992/2026-81",
     "execucao_id": 1193686,
-    "processo_id": null,
+    "processo_id": 1192146,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1193686",
     "semDisputaFaseExterna": true
   },
@@ -1962,7 +1962,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.060227/2025-82",
     "execucao_id": 1140556,
-    "processo_id": null,
+    "processo_id": 1126027,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1140556",
     "semDisputaFaseExterna": false
   },
@@ -1987,7 +1987,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.024991/2025-94",
     "execucao_id": 1129334,
-    "processo_id": null,
+    "processo_id": 1126059,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1129334",
     "semDisputaFaseExterna": true
   },
@@ -2012,7 +2012,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.023157/2025-81",
     "execucao_id": 1128769,
-    "processo_id": null,
+    "processo_id": 1126089,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1128769",
     "semDisputaFaseExterna": true
   },
@@ -2038,7 +2038,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.021424/2025-86",
     "execucao_id": 1128214,
-    "processo_id": null,
+    "processo_id": 1126122,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1128214",
     "semDisputaFaseExterna": false
   },
@@ -2064,7 +2064,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.026132/2024-59",
     "execucao_id": 1079747,
-    "processo_id": null,
+    "processo_id": 1077181,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1079747",
     "semDisputaFaseExterna": false
   },
@@ -2089,7 +2089,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.046557/2026-46",
     "execucao_id": 1201824,
-    "processo_id": null,
+    "processo_id": 1192944,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1201824",
     "semDisputaFaseExterna": true
   },
@@ -2115,7 +2115,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.060172/2025-19",
     "execucao_id": 1140539,
-    "processo_id": null,
+    "processo_id": 1126900,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1140539",
     "semDisputaFaseExterna": false
   },
@@ -2140,7 +2140,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.021637/2024-27",
     "execucao_id": 1078504,
-    "processo_id": null,
+    "processo_id": 1077540,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1078504",
     "semDisputaFaseExterna": true
   },
@@ -2233,7 +2233,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.029014/2025-83",
     "execucao_id": 1130687,
-    "processo_id": null,
+    "processo_id": 1127706,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1130687",
     "semDisputaFaseExterna": true
   },
@@ -2281,7 +2281,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.091543/2025-04",
     "execucao_id": 1150737,
-    "processo_id": null,
+    "processo_id": 1127753,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1150737",
     "semDisputaFaseExterna": true
   },
@@ -2329,7 +2329,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.028722/2025-05",
     "execucao_id": 1130610,
-    "processo_id": null,
+    "processo_id": 1127969,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1130610",
     "semDisputaFaseExterna": false
   },
@@ -2354,7 +2354,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.077096/2026-53",
     "execucao_id": 1211091,
-    "processo_id": null,
+    "processo_id": 1194175,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1211091",
     "semDisputaFaseExterna": true
   },
@@ -2380,7 +2380,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.057053/2026-51",
     "execucao_id": 1204568,
-    "processo_id": null,
+    "processo_id": 1194196,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1204568",
     "semDisputaFaseExterna": false
   },
@@ -2405,7 +2405,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.024931/2024-91",
     "execucao_id": 1079450,
-    "processo_id": null,
+    "processo_id": 1078348,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1079450"
   },
   {
@@ -2456,7 +2456,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.031726/2026-43",
     "pregao_id": 1197632,
-    "processo_id": null,
+    "processo_id": 1194464,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1197632",
     "responsaveisDfi": {
       "irp": "Marilia Linhares de Sousa",
@@ -2511,7 +2511,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.105514/2026-18",
     "execucao_id": 1219540,
-    "processo_id": null,
+    "processo_id": 1194635,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1219540",
     "semDisputaFaseExterna": false
   },
@@ -2536,7 +2536,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.165581/2025-01",
     "execucao_id": 1174077,
-    "processo_id": null,
+    "processo_id": 1128569,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1174077"
   },
   {
@@ -2584,7 +2584,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.086208/2024-03",
     "execucao_id": 1097600,
-    "processo_id": null,
+    "processo_id": 1079202,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1097600",
     "semDisputaFaseExterna": false
   },
@@ -2610,7 +2610,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.048911/2024-13",
     "execucao_id": 1086088,
-    "processo_id": null,
+    "processo_id": 1079275,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1086088",
     "semDisputaFaseExterna": false
   },
@@ -2636,7 +2636,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.071842/2026-03",
     "execucao_id": 1209047,
-    "processo_id": null,
+    "processo_id": 1195296,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1209047",
     "semDisputaFaseExterna": false
   },
@@ -2661,7 +2661,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.035009/2024-29",
     "execucao_id": 1082099,
-    "processo_id": null,
+    "processo_id": 1079358,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1082099"
   },
   {
@@ -2709,7 +2709,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.061242/2026-29",
     "execucao_id": 1205701,
-    "processo_id": null,
+    "processo_id": 1195611,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1205701",
     "semDisputaFaseExterna": false
   },
@@ -2757,7 +2757,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.034719/2025-12",
     "execucao_id": 1132588,
-    "processo_id": null,
+    "processo_id": 1129606,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1132588",
     "semDisputaFaseExterna": true
   },
@@ -2785,7 +2785,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.094806/2025-29",
     "pregao_id": 1151992,
-    "processo_id": null,
+    "processo_id": 1129986,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1151992",
     "responsaveisDfi": {
       "pesquisaPrecos": "Bruna de Oliveira Silva",
@@ -2933,7 +2933,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.060876/2026-64",
     "execucao_id": 1205610,
-    "processo_id": null,
+    "processo_id": 1196825,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1205610",
     "semDisputaFaseExterna": true
   },
@@ -2959,7 +2959,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.148981/2024-62",
     "execucao_id": 1114423,
-    "processo_id": null,
+    "processo_id": 1080744,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1114423",
     "semDisputaFaseExterna": false
   },
@@ -3031,7 +3031,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.062108/2025-64",
     "execucao_id": 1140997,
-    "processo_id": null,
+    "processo_id": 1131105,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1140997",
     "semDisputaFaseExterna": false
   },
@@ -3056,7 +3056,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.085721/2026-31",
     "execucao_id": 1214158,
-    "processo_id": null,
+    "processo_id": 1197424,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1214158",
     "semDisputaFaseExterna": true
   },
@@ -3082,7 +3082,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.039594/2024-36",
     "execucao_id": 1083459,
-    "processo_id": null,
+    "processo_id": 1081313,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1083459",
     "semDisputaFaseExterna": false
   },
@@ -3108,7 +3108,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.038609/2025-20",
     "execucao_id": 1133915,
-    "processo_id": null,
+    "processo_id": 1131933,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1133915",
     "semDisputaFaseExterna": false
   },
@@ -3157,7 +3157,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.037870/2024-21",
     "execucao_id": 1083037,
-    "processo_id": null,
+    "processo_id": 1082007,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1083037",
     "semDisputaFaseExterna": false
   },
@@ -3182,7 +3182,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.093490/2024-77",
     "execucao_id": 1099313,
-    "processo_id": null,
+    "processo_id": 1082023,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1099313",
     "semDisputaFaseExterna": true
   },
@@ -3208,7 +3208,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.085684/2024-07",
     "execucao_id": 1097479,
-    "processo_id": null,
+    "processo_id": 1082170,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1097479",
     "semDisputaFaseExterna": false
   },
@@ -3231,7 +3231,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.039371/2024-79",
     "execucao_id": 1083413,
-    "processo_id": null,
+    "processo_id": 1082321,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1083413"
   },
   {
@@ -3348,7 +3348,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.044548/2024-59",
     "execucao_id": 1084927,
-    "processo_id": null,
+    "processo_id": 1082759,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1084927",
     "semDisputaFaseExterna": false
   },
@@ -3373,7 +3373,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.043273/2025-17",
     "execucao_id": 1135320,
-    "processo_id": null,
+    "processo_id": 1133610,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1135320",
     "semDisputaFaseExterna": false
   },
@@ -3400,7 +3400,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.049821/2024-31",
     "pregao_id": 1086309,
-    "processo_id": null,
+    "processo_id": 1083046,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1086309"
   },
   {
@@ -3425,7 +3425,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.079623/2026-64",
     "execucao_id": 1212293,
-    "processo_id": null,
+    "processo_id": 1199519,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1212293",
     "semDisputaFaseExterna": false
   },
@@ -3451,7 +3451,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.115717/2025-23",
     "execucao_id": 1158033,
-    "processo_id": null,
+    "processo_id": 1133816,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1158033",
     "semDisputaFaseExterna": false
   },
@@ -3478,7 +3478,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.049873/2024-16",
     "pregao_id": 1086326,
-    "processo_id": null,
+    "processo_id": 1083164,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1086326"
   },
   {
@@ -3523,7 +3523,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.062114/2025-11",
     "execucao_id": 1140998,
-    "processo_id": null,
+    "processo_id": 1134082,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1140998"
   },
   {
@@ -3571,7 +3571,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.088399/2024-30",
     "execucao_id": 1098164,
-    "processo_id": null,
+    "processo_id": 1083474,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1098164",
     "semDisputaFaseExterna": false
   },
@@ -3596,7 +3596,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.047887/2025-78",
     "execucao_id": 1136627,
-    "processo_id": null,
+    "processo_id": 1134269,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1136627",
     "semDisputaFaseExterna": true
   },
@@ -3646,7 +3646,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.054655/2024-95",
     "pregao_id": 1087535,
-    "processo_id": null,
+    "processo_id": 1083614,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1087535"
   },
   {
@@ -3671,7 +3671,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.067553/2024-30",
     "execucao_id": 1091717,
-    "processo_id": null,
+    "processo_id": 1084295,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1091717",
     "semDisputaFaseExterna": false
   },
@@ -3697,7 +3697,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.058736/2024-64",
     "execucao_id": 1088659,
-    "processo_id": null,
+    "processo_id": 1084382,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1088659",
     "semDisputaFaseExterna": false
   },
@@ -3723,7 +3723,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.126632/2024-90",
     "execucao_id": 1108627,
-    "processo_id": null,
+    "processo_id": 1084400,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1108627",
     "semDisputaFaseExterna": false
   },
@@ -3772,7 +3772,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.063454/2024-89",
     "execucao_id": 1090344,
-    "processo_id": null,
+    "processo_id": 1084846,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1090344",
     "semDisputaFaseExterna": false
   },
@@ -3797,7 +3797,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.105520/2026-67",
     "execucao_id": 1219542,
-    "processo_id": null,
+    "processo_id": 1201378,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1219542",
     "semDisputaFaseExterna": false
   },
@@ -3822,7 +3822,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.056866/2025-43",
     "execucao_id": 1139480,
-    "processo_id": null,
+    "processo_id": 1135912,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1139480",
     "semDisputaFaseExterna": true
   },
@@ -3894,7 +3894,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.064820/2024-17",
     "execucao_id": 1090759,
-    "processo_id": null,
+    "processo_id": 1085389,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1090759",
     "semDisputaFaseExterna": false
   },
@@ -3946,7 +3946,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.063794/2026-71",
     "pregao_id": 1206516,
-    "processo_id": null,
+    "processo_id": 1202062,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1206516",
     "responsaveisDfi": {
       "pesquisaPrecos": "Vanessa Raquel da Silva Medino",
@@ -4007,7 +4007,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.022229/2025-73",
     "pregao_id": 1128464,
-    "processo_id": null,
+    "processo_id": 1085975,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1128464",
     "responsaveisDfi": {
       "pesquisaPrecos": "Bruna de Oliveira Silva",
@@ -4037,7 +4037,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.055972/2024-29",
     "execucao_id": 1087895,
-    "processo_id": null,
+    "processo_id": 1085976,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1087895",
     "semDisputaFaseExterna": false
   },
@@ -4064,7 +4064,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.060595/2024-40",
     "pregao_id": 1089294,
-    "processo_id": null,
+    "processo_id": 1085983,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1089294"
   },
   {
@@ -4088,7 +4088,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.063514/2024-63",
     "execucao_id": 1090371,
-    "processo_id": null,
+    "processo_id": 1086058,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1090371",
     "semDisputaFaseExterna": true
   },
@@ -4114,7 +4114,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.064804/2025-13",
     "execucao_id": 1141741,
-    "processo_id": null,
+    "processo_id": 1136935,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1141741",
     "semDisputaFaseExterna": false
   },
@@ -4163,7 +4163,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.109133/2024-38",
     "execucao_id": 1103541,
-    "processo_id": null,
+    "processo_id": 1086234,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103541",
     "semDisputaFaseExterna": false
   },
@@ -4189,7 +4189,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.064802/2025-16",
     "execucao_id": 1141740,
-    "processo_id": null,
+    "processo_id": 1137352,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1141740",
     "semDisputaFaseExterna": false
   },
@@ -4214,7 +4214,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.096132/2025-05",
     "execucao_id": 1152362,
-    "processo_id": null,
+    "processo_id": 1137388,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1152362",
     "semDisputaFaseExterna": false
   },
@@ -4239,7 +4239,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.155849/2024-15",
     "execucao_id": 1116169,
-    "processo_id": null,
+    "processo_id": 1086476,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1116169",
     "semDisputaFaseExterna": true
   },
@@ -4289,7 +4289,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.061498/2024-74",
     "pregao_id": 1089635,
-    "processo_id": null,
+    "processo_id": 1086604,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1089635"
   },
   {
@@ -4314,7 +4314,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.101304/2025-61",
     "execucao_id": 1153855,
-    "processo_id": null,
+    "processo_id": 1137717,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1153855",
     "semDisputaFaseExterna": false
   },
@@ -4339,7 +4339,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.135157/2024-42",
     "execucao_id": 1110885,
-    "processo_id": null,
+    "processo_id": 1086673,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1110885",
     "semDisputaFaseExterna": false
   },
@@ -4458,7 +4458,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.060151/2024-12",
     "pregao_id": 1089135,
-    "processo_id": null,
+    "processo_id": 1087384,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1089135"
   },
   {
@@ -4482,7 +4482,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.058636/2025-19",
     "execucao_id": 1140022,
-    "processo_id": null,
+    "processo_id": 1138611,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1140022",
     "semDisputaFaseExterna": true
   },
@@ -4535,7 +4535,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.084268/2024-83",
     "pregao_id": 1097162,
-    "processo_id": null,
+    "processo_id": 1087515,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1097162",
     "responsaveisDfi": {
       "pesquisaPrecos": "Ana Patrícia Ramos",
@@ -4569,7 +4569,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.076059/2024-66",
     "execucao_id": 1094740,
-    "processo_id": null,
+    "processo_id": 1087624,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1094740",
     "semDisputaFaseExterna": false
   },
@@ -4594,7 +4594,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.097320/2025-42",
     "execucao_id": 1152694,
-    "processo_id": null,
+    "processo_id": 1138907,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1152694"
   },
   {
@@ -4618,7 +4618,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.073793/2025-54",
     "execucao_id": 1144313,
-    "processo_id": null,
+    "processo_id": 1138940,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1144313",
     "semDisputaFaseExterna": false
   },
@@ -4644,7 +4644,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.073843/2025-01",
     "execucao_id": 1144336,
-    "processo_id": null,
+    "processo_id": 1139085,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1144336",
     "semDisputaFaseExterna": false
   },
@@ -4672,7 +4672,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.117613/2025-53",
     "pregao_id": 1158645,
-    "processo_id": null,
+    "processo_id": 1087830,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1158645",
     "responsaveisDfi": {
       "pesquisaPrecos": "José Weliton Barbosa da Silva",
@@ -4706,7 +4706,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.012692/2025-15",
     "pregao_id": 1125639,
-    "processo_id": null,
+    "processo_id": 1087832,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1125639",
     "responsaveisDfi": {
       "pesquisaPrecos": "Vanessa Raquel da Silva Medino",
@@ -4744,7 +4744,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.017569/2025-82",
     "pregao_id": 1127012,
-    "processo_id": null,
+    "processo_id": 1087837,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1127012",
     "responsaveisDfi": {
       "pesquisaPrecos": "Amanda Eloyse de Medeiros Bezerril",
@@ -4779,7 +4779,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.018456/2026-85",
     "pregao_id": 1193511,
-    "processo_id": null,
+    "processo_id": 1139136,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1193511",
     "responsaveisDfi": {
       "pesquisaPrecos": "Bruna de Oliveira Silva",
@@ -4812,7 +4812,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.071333/2024-19",
     "execucao_id": 1093054,
-    "processo_id": null,
+    "processo_id": 1087923,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1093054",
     "semDisputaFaseExterna": false
   },
@@ -4841,7 +4841,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.135084/2025-70",
     "pregao_id": 1164563,
-    "processo_id": null,
+    "processo_id": 1087969,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1164563",
     "responsaveisDfi": {
       "pesquisaPrecos": "José Weliton Barbosa da Silva",
@@ -4896,7 +4896,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.106686/2024-39",
     "execucao_id": 1102754,
-    "processo_id": null,
+    "processo_id": 1088165,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1102754"
   },
   {
@@ -4921,7 +4921,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.118427/2025-31",
     "execucao_id": 1158879,
-    "processo_id": null,
+    "processo_id": 1139572,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1158879",
     "semDisputaFaseExterna": false
   },
@@ -4946,7 +4946,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.157056/2024-22",
     "execucao_id": 1116441,
-    "processo_id": null,
+    "processo_id": 1088247,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1116441"
   },
   {
@@ -4993,7 +4993,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.130685/2025-96",
     "execucao_id": 1163028,
-    "processo_id": null,
+    "processo_id": 1139732,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1163028"
   },
   {
@@ -5022,7 +5022,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.065046/2024-61",
     "pregao_id": 1090824,
-    "processo_id": null,
+    "processo_id": 1088487,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1090824",
     "responsaveisDfi": {
       "pesquisaPrecos": "João Igor da Silva Santos",
@@ -5074,7 +5074,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.066286/2024-83",
     "execucao_id": 1091345,
-    "processo_id": null,
+    "processo_id": 1088619,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1091345",
     "semDisputaFaseExterna": false
   },
@@ -5123,7 +5123,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.096904/2026-81",
     "execucao_id": 1217317,
-    "processo_id": null,
+    "processo_id": 1205070,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1217317",
     "semDisputaFaseExterna": false
   },
@@ -5149,7 +5149,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.084224/2024-53",
     "execucao_id": 1097152,
-    "processo_id": null,
+    "processo_id": 1088729,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1097152",
     "semDisputaFaseExterna": false
   },
@@ -5179,7 +5179,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.064044/2024-55",
     "pregao_id": 1090539,
-    "processo_id": null,
+    "processo_id": 1088745,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1090539",
     "responsaveisDfi": {
       "pesquisaPrecos": "José Weliton Barbosa da Silva",
@@ -5213,7 +5213,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.079639/2024-13",
     "pregao_id": 1095900,
-    "processo_id": null,
+    "processo_id": 1088763,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1095900",
     "responsaveisDfi": {
       "pesquisaPrecos": "José Weliton Barbosa da Silva",
@@ -5242,7 +5242,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.068812/2024-40",
     "execucao_id": 1092173,
-    "processo_id": null,
+    "processo_id": 1088779,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1092173",
     "semDisputaFaseExterna": false
   },
@@ -5359,7 +5359,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.062209/2026-16",
     "execucao_id": 1206022,
-    "processo_id": null,
+    "processo_id": 1205357,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1206022",
     "semDisputaFaseExterna": true
   },
@@ -5408,7 +5408,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.064336/2024-98",
     "execucao_id": 1090621,
-    "processo_id": null,
+    "processo_id": 1089199,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1090621",
     "semDisputaFaseExterna": false
   },
@@ -5479,7 +5479,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.164275/2025-49",
     "execucao_id": 1173650,
-    "processo_id": null,
+    "processo_id": 1140752,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1173650",
     "semDisputaFaseExterna": true
   },
@@ -5509,7 +5509,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.086163/2024-69",
     "pregao_id": 1097588,
-    "processo_id": null,
+    "processo_id": 1089576,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1097588",
     "responsaveisDfi": {
       "pesquisaPrecos": "José Weliton Barbosa da Silva",
@@ -5542,7 +5542,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.097717/2024-53",
     "pregao_id": 1100320,
-    "processo_id": null,
+    "processo_id": 1089580,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1100320",
     "responsaveisDfi": {
       "pesquisaPrecos": "José Weliton Barbosa da Silva",
@@ -5575,7 +5575,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.079577/2024-31",
     "pregao_id": 1095884,
-    "processo_id": null,
+    "processo_id": 1089585,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1095884",
     "responsaveisDfi": {
       "pesquisaPrecos": "José Weliton Barbosa da Silva",
@@ -5609,7 +5609,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.067394/2024-73",
     "pregao_id": 1091672,
-    "processo_id": null,
+    "processo_id": 1089599,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1091672",
     "responsaveisDfi": {
       "pesquisaPrecos": "João Igor da Silva Santos",
@@ -5643,7 +5643,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.067905/2024-57",
     "pregao_id": 1091825,
-    "processo_id": null,
+    "processo_id": 1089622,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1091825",
     "responsaveisDfi": {
       "pesquisaPrecos": "Vanessa Raquel da Silva Medino",
@@ -5673,7 +5673,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.101238/2025-20",
     "execucao_id": 1153836,
-    "processo_id": null,
+    "processo_id": 1140875,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1153836",
     "semDisputaFaseExterna": false
   },
@@ -5699,7 +5699,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.135228/2025-98",
     "execucao_id": 1164609,
-    "processo_id": null,
+    "processo_id": 1141105,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1164609",
     "semDisputaFaseExterna": false
   },
@@ -5771,7 +5771,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.087525/2026-09",
     "execucao_id": 1214702,
-    "processo_id": null,
+    "processo_id": 1206338,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1214702",
     "semDisputaFaseExterna": false
   },
@@ -5796,7 +5796,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.171091/2025-35",
     "execucao_id": 1175864,
-    "processo_id": null,
+    "processo_id": 1141297,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1175864",
     "semDisputaFaseExterna": false
   },
@@ -5822,7 +5822,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.073779/2025-51",
     "execucao_id": 1144306,
-    "processo_id": null,
+    "processo_id": 1141311,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1144306",
     "semDisputaFaseExterna": false
   },
@@ -5852,7 +5852,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.087491/2025-63",
     "pregao_id": 1148994,
-    "processo_id": null,
+    "processo_id": 1141362,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1148994",
     "responsaveisDfi": {
       "pesquisaPrecos": "Bruna de Oliveira Silva",
@@ -5886,7 +5886,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.132724/2025-90",
     "pregao_id": 1163686,
-    "processo_id": null,
+    "processo_id": 1141419,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1163686",
     "responsaveisDfi": {
       "pesquisaPrecos": "Bruna de Oliveira Silva",
@@ -5947,7 +5947,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.096143/2025-87",
     "pregao_id": 1152365,
-    "processo_id": null,
+    "processo_id": 1141466,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1152365",
     "responsaveisDfi": {
       "pesquisaPrecos": "José Weliton B. da Silva",
@@ -5980,7 +5980,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.104480/2025-55",
     "execucao_id": 1154743,
-    "processo_id": null,
+    "processo_id": 1141519,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1154743",
     "semDisputaFaseExterna": false
   },
@@ -6007,7 +6007,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.009893/2024-46",
     "pregao_id": 1075541,
-    "processo_id": null,
+    "processo_id": 1090600,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1075541"
   },
   {
@@ -6032,7 +6032,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.081503/2025-46",
     "execucao_id": 1147035,
-    "processo_id": null,
+    "processo_id": 1141628,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1147035",
     "semDisputaFaseExterna": false
   },
@@ -6062,7 +6062,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.096154/2025-67",
     "pregao_id": 1152366,
-    "processo_id": null,
+    "processo_id": 1141669,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1152366",
     "responsaveisDfi": {
       "pesquisaPrecos": "Vanessa Raquel da Silva Medino",
@@ -6096,7 +6096,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.086707/2024-92",
     "execucao_id": 1097715,
-    "processo_id": null,
+    "processo_id": 1090814,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1097715",
     "semDisputaFaseExterna": false
   },
@@ -6121,7 +6121,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.104643/2025-08",
     "execucao_id": 1154791,
-    "processo_id": null,
+    "processo_id": 1141803,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1154791",
     "semDisputaFaseExterna": true
   },
@@ -6174,7 +6174,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.105798/2024-72",
     "pregao_id": 1102522,
-    "processo_id": null,
+    "processo_id": 1090985,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1102522",
     "responsaveisDfi": {
       "pesquisaPrecos": "José Weliton Barbosa da Silva",
@@ -6208,7 +6208,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.108532/2024-81",
     "pregao_id": 1103353,
-    "processo_id": null,
+    "processo_id": 1090999,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103353",
     "responsaveisDfi": {
       "pesquisaPrecos": "Sayonara Suely Januário Pereira",
@@ -6241,7 +6241,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.122204/2024-98",
     "pregao_id": 1107302,
-    "processo_id": null,
+    "processo_id": 1091014,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1107302",
     "responsaveisDfi": {
       "irp": "Sonaydy Lyany Dantas",
@@ -6273,7 +6273,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.103287/2024-16",
     "pregao_id": 1101808,
-    "processo_id": null,
+    "processo_id": 1091213,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1101808",
     "responsaveisDfi": {
       "irp": "Sonaydy Lyany Dantas",
@@ -6301,7 +6301,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.111663/2026-16",
     "execucao_id": 1221773,
-    "processo_id": null,
+    "processo_id": 1207467,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1221773",
     "semDisputaFaseExterna": true
   },
@@ -6326,7 +6326,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.160221/2025-12",
     "execucao_id": 1172376,
-    "processo_id": null,
+    "processo_id": 1142362,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1172376"
   },
   {
@@ -6355,7 +6355,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.082102/2025-11",
     "pregao_id": 1147205,
-    "processo_id": null,
+    "processo_id": 1142610,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1147205",
     "responsaveisDfi": {
       "pesquisaPrecos": "José Weliton Barbosa da Silva",
@@ -6437,7 +6437,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.081296/2024-49",
     "pregao_id": 1096345,
-    "processo_id": null,
+    "processo_id": 1092172,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1096345",
     "responsaveisDfi": {
       "irp": "Marília Linhares de Sousa",
@@ -6515,7 +6515,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.032550/2025-66",
     "pregao_id": 1131805,
-    "processo_id": null,
+    "processo_id": 1092650,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1131805",
     "responsaveisDfi": {
       "pesquisaPrecos": "Bruna de Oliveira Silva",
@@ -6567,7 +6567,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.146998/2025-66",
     "execucao_id": 1168184,
-    "processo_id": null,
+    "processo_id": 1143276,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1168184",
     "semDisputaFaseExterna": true
   },
@@ -6597,7 +6597,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.085277/2025-72",
     "pregao_id": 1148224,
-    "processo_id": null,
+    "processo_id": 1143307,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1148224",
     "responsaveisDfi": {
       "pesquisaPrecos": "Vanessa Raquel da Silva Medino",
@@ -6631,7 +6631,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.147546/2025-00",
     "execucao_id": 1168344,
-    "processo_id": null,
+    "processo_id": 1092798,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1168344",
     "semDisputaFaseExterna": false
   },
@@ -6680,7 +6680,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.135143/2024-29",
     "execucao_id": 1110879,
-    "processo_id": null,
+    "processo_id": 1093048,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1110879",
     "semDisputaFaseExterna": false
   },
@@ -6728,7 +6728,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.084862/2024-74",
     "execucao_id": 1097291,
-    "processo_id": null,
+    "processo_id": 1093187,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1097291",
     "semDisputaFaseExterna": false
   },
@@ -6754,7 +6754,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.089493/2025-97",
     "execucao_id": 1149768,
-    "processo_id": null,
+    "processo_id": 1144023,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1149768",
     "semDisputaFaseExterna": false
   },
@@ -6779,7 +6779,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.083316/2024-16",
     "execucao_id": 1096887,
-    "processo_id": null,
+    "processo_id": 1093704,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1096887",
     "semDisputaFaseExterna": true
   },
@@ -6805,7 +6805,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.080055/2025-63",
     "execucao_id": 1146575,
-    "processo_id": null,
+    "processo_id": 1144328,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1146575",
     "semDisputaFaseExterna": false
   },
@@ -6830,7 +6830,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.108858/2026-71",
     "execucao_id": 1220649,
-    "processo_id": null,
+    "processo_id": 1209838,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1220649"
   },
   {
@@ -6854,7 +6854,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.135925/2024-68",
     "execucao_id": 1111054,
-    "processo_id": null,
+    "processo_id": 1094067,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1111054"
   },
   {
@@ -6901,7 +6901,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.117430/2026-19",
     "execucao_id": 1223635,
-    "processo_id": null,
+    "processo_id": 1210133,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223635",
     "semDisputaFaseExterna": true
   },
@@ -6994,7 +6994,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.135315/2025-45",
     "execucao_id": 1164631,
-    "processo_id": null,
+    "processo_id": 1145478,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1164631"
   },
   {
@@ -7069,7 +7069,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.107481/2024-71",
     "pregao_id": 1103005,
-    "processo_id": null,
+    "processo_id": 1095250,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103005",
     "responsaveisDfi": {
       "pesquisaPrecos": "Saionara Priscila Lucas Saraiva",
@@ -7122,7 +7122,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.125253/2024-82",
     "execucao_id": 1108266,
-    "processo_id": null,
+    "processo_id": 1095371,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1108266",
     "semDisputaFaseExterna": false
   },
@@ -7170,7 +7170,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.203372/2025-64",
     "execucao_id": 1186065,
-    "processo_id": null,
+    "processo_id": 1146000,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1186065",
     "semDisputaFaseExterna": true
   },
@@ -7195,7 +7195,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.012117/2026-95",
     "execucao_id": 1191485,
-    "processo_id": null,
+    "processo_id": 1146525,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1191485",
     "semDisputaFaseExterna": true
   },
@@ -7221,7 +7221,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.108431/2024-19",
     "execucao_id": 1103311,
-    "processo_id": null,
+    "processo_id": 1095983,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103311",
     "semDisputaFaseExterna": false
   },
@@ -7246,7 +7246,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.090355/2024-70",
     "execucao_id": 1098592,
-    "processo_id": null,
+    "processo_id": 1096182,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1098592"
   },
   {
@@ -7294,7 +7294,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.152560/2024-36",
     "execucao_id": 1115316,
-    "processo_id": null,
+    "processo_id": 1096250,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1115316",
     "semDisputaFaseExterna": false
   },
@@ -7319,7 +7319,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.138021/2025-75",
     "execucao_id": 1165491,
-    "processo_id": null,
+    "processo_id": 1146859,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1165491",
     "semDisputaFaseExterna": false
   },
@@ -7344,7 +7344,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.135423/2024-37",
     "execucao_id": 1110970,
-    "processo_id": null,
+    "processo_id": 1096279,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1110970"
   },
   {
@@ -7396,7 +7396,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.089819/2024-03",
     "pregao_id": 1098486,
-    "processo_id": null,
+    "processo_id": 1096302,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1098486",
     "responsaveisDfi": {
       "pesquisaPrecos": "Adriana Marques",
@@ -7428,7 +7428,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.005397/2026-85",
     "pregao_id": 1189526,
-    "processo_id": null,
+    "processo_id": 1147060,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1189526",
     "responsaveisDfi": {
       "pesquisaPrecos": "Sayonara Suely Januário Pereira",
@@ -7485,7 +7485,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.088618/2024-81",
     "execucao_id": 1098208,
-    "processo_id": null,
+    "processo_id": 1096742,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1098208"
   },
   {
@@ -7510,7 +7510,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.091285/2024-77",
     "execucao_id": 1098808,
-    "processo_id": null,
+    "processo_id": 1096823,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1098808",
     "semDisputaFaseExterna": false
   },
@@ -7559,7 +7559,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.110165/2025-67",
     "execucao_id": 1156348,
-    "processo_id": null,
+    "processo_id": 1148082,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1156348",
     "semDisputaFaseExterna": false
   },
@@ -7584,7 +7584,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.111946/2026-50",
     "execucao_id": 1221859,
-    "processo_id": null,
+    "processo_id": 1214025,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1221859"
   },
   {
@@ -7613,7 +7613,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.098680/2024-81",
     "pregao_id": 1100547,
-    "processo_id": null,
+    "processo_id": 1097422,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1100547",
     "responsaveisDfi": {
       "pesquisaPrecos": "João Igor da Silva Santos",
@@ -7669,7 +7669,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.158154/2024-87",
     "pregao_id": 1116687,
-    "processo_id": null,
+    "processo_id": 1097438,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1116687",
     "responsaveisDfi": {
       "pesquisaPrecos": "Bruna de Oliveira Silva",
@@ -7704,7 +7704,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.208114/2025-74",
     "pregao_id": 1187585,
-    "processo_id": null,
+    "processo_id": 1148321,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1187585",
     "responsaveisDfi": {
       "pesquisaPrecos": "Sayonara Pereira",
@@ -7741,7 +7741,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.096457/2024-07",
     "pregao_id": 1100015,
-    "processo_id": null,
+    "processo_id": 1097486,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1100015",
     "responsaveisDfi": {
       "pesquisaPrecos": "Sayonara Pereira",
@@ -7774,7 +7774,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.095008/2025-14",
     "execucao_id": 1152065,
-    "processo_id": null,
+    "processo_id": 1148399,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1152065",
     "semDisputaFaseExterna": true
   },
@@ -7867,7 +7867,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.188923/2025-52",
     "execucao_id": 1182041,
-    "processo_id": null,
+    "processo_id": 1097889,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1182041"
   },
   {
@@ -7916,7 +7916,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.076225/2026-96",
     "pregao_id": 1210747,
-    "processo_id": null,
+    "processo_id": 1149073,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1210747",
     "responsaveisDfi": {
       "pesquisaPrecos": "José Weliton Barbosa Silva",
@@ -7954,7 +7954,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.149802/2024-12",
     "pregao_id": 1114572,
-    "processo_id": null,
+    "processo_id": 1097976,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1114572",
     "responsaveisDfi": {
       "pesquisaPrecos": "Sayonara Suely Januário Pereira",
@@ -7984,7 +7984,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.114441/2024-85",
     "execucao_id": 1105078,
-    "processo_id": null,
+    "processo_id": 1098130,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1105078",
     "semDisputaFaseExterna": false
   },
@@ -8010,7 +8010,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.183566/2025-36",
     "execucao_id": 1180341,
-    "processo_id": null,
+    "processo_id": 1149366,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1180341",
     "semDisputaFaseExterna": false
   },
@@ -8058,7 +8058,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.117543/2026-14",
     "execucao_id": 1223659,
-    "processo_id": null,
+    "processo_id": 1215187,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223659"
   },
   {
@@ -8087,7 +8087,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.132669/2025-38",
     "pregao_id": 1163654,
-    "processo_id": null,
+    "processo_id": 1149779,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1163654",
     "responsaveisDfi": {
       "pesquisaPrecos": "José Weliton Barbosa da Silva",
@@ -8125,7 +8125,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.097727/2024-99",
     "pregao_id": 1100325,
-    "processo_id": null,
+    "processo_id": 1098432,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1100325",
     "responsaveisDfi": {
       "pesquisaPrecos": "Adriana Marques",
@@ -8199,7 +8199,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.120419/2024-74",
     "execucao_id": 1106746,
-    "processo_id": null,
+    "processo_id": 1098500,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1106746",
     "semDisputaFaseExterna": true
   },
@@ -8229,7 +8229,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.110413/2024-99",
     "pregao_id": 1103874,
-    "processo_id": null,
+    "processo_id": 1098545,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103874",
     "responsaveisDfi": {
       "pesquisaPrecos": "Vanessa Raquel da Silva Medino",
@@ -8259,7 +8259,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.117622/2025-44",
     "execucao_id": 1158648,
-    "processo_id": null,
+    "processo_id": 1150100,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1158648",
     "semDisputaFaseExterna": false
   },
@@ -8285,7 +8285,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.163470/2025-51",
     "execucao_id": 1173328,
-    "processo_id": null,
+    "processo_id": 1150141,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1173328",
     "semDisputaFaseExterna": false
   },
@@ -8361,7 +8361,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.158157/2024-11",
     "pregao_id": 1116690,
-    "processo_id": null,
+    "processo_id": 1099338,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1116690",
     "responsaveisDfi": {
       "pesquisaPrecos": "Sayonara Suely Januário Pereira",
@@ -8394,7 +8394,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.117418/2025-23",
     "execucao_id": 1158582,
-    "processo_id": null,
+    "processo_id": 1151667,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1158582"
   },
   {
@@ -8441,7 +8441,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.156730/2024-51",
     "execucao_id": 1116356,
-    "processo_id": null,
+    "processo_id": 1099458,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1116356",
     "semDisputaFaseExterna": true
   },
@@ -8467,7 +8467,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.129136/2024-98",
     "execucao_id": 1109309,
-    "processo_id": null,
+    "processo_id": 1099487,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1109309",
     "semDisputaFaseExterna": false
   },
@@ -8492,7 +8492,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.126851/2024-79",
     "execucao_id": 1108669,
-    "processo_id": null,
+    "processo_id": 1099509,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1108669"
   },
   {
@@ -8519,7 +8519,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.192450/2025-98",
     "pregao_id": 1183045,
-    "processo_id": null,
+    "processo_id": 1151879,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1183045",
     "responsaveisDfi": {
       "elaboracaoEdital": "Thiago Renan da Silva Correia"
@@ -8578,7 +8578,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.102401/2024-91",
     "pregao_id": 1101574,
-    "processo_id": null,
+    "processo_id": 1099697,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1101574",
     "responsaveisDfi": {
       "pesquisaPrecos": "Vanessa Raquel da Silva Medino",
@@ -8611,7 +8611,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.119021/2024-95",
     "pregao_id": 1106258,
-    "processo_id": null,
+    "processo_id": 1099746,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1106258",
     "responsaveisDfi": {
       "pesquisaPrecos": "Sayonara Suely Januário Pereira",
@@ -8643,7 +8643,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.012822/2026-92",
     "execucao_id": 1191662,
-    "processo_id": null,
+    "processo_id": 1152255,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1191662",
     "semDisputaFaseExterna": false
   },
@@ -8669,7 +8669,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.139843/2024-92",
     "execucao_id": 1112053,
-    "processo_id": null,
+    "processo_id": 1099821,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1112053",
     "semDisputaFaseExterna": false
   },
@@ -8695,7 +8695,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.121394/2025-15",
     "execucao_id": 1159886,
-    "processo_id": null,
+    "processo_id": 1152354,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1159886",
     "semDisputaFaseExterna": false
   },
@@ -8720,7 +8720,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.107464/2025-14",
     "execucao_id": 1155555,
-    "processo_id": null,
+    "processo_id": 1152696,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1155555",
     "semDisputaFaseExterna": true
   },
@@ -8746,7 +8746,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.152560/2024-36",
     "execucao_id": 1115316,
-    "processo_id": null,
+    "processo_id": 1100260,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1115316",
     "semDisputaFaseExterna": false
   },
@@ -8774,7 +8774,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.178375/2025-52",
     "pregao_id": 1178407,
-    "processo_id": null,
+    "processo_id": 1152861,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1178407",
     "responsaveisDfi": {
       "pesquisaPrecos": "Sayonara Suely Januário Pereira",
@@ -8808,7 +8808,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.156347/2024-01",
     "execucao_id": 1116260,
-    "processo_id": null,
+    "processo_id": 1100417,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1116260",
     "semDisputaFaseExterna": false
   },
@@ -8834,7 +8834,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.103233/2024-51",
     "execucao_id": 1101788,
-    "processo_id": null,
+    "processo_id": 1100440,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1101788",
     "semDisputaFaseExterna": false
   },
@@ -8860,7 +8860,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.151135/2025-19",
     "execucao_id": 1169456,
-    "processo_id": null,
+    "processo_id": 1152998,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1169456",
     "semDisputaFaseExterna": false
   },
@@ -8885,7 +8885,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.140672/2025-25",
     "execucao_id": 1166304,
-    "processo_id": null,
+    "processo_id": 1153009,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1166304",
     "semDisputaFaseExterna": true
   },
@@ -8911,7 +8911,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.101238/2025-20",
     "execucao_id": 1153836,
-    "processo_id": null,
+    "processo_id": 1153125,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1153836",
     "semDisputaFaseExterna": false
   },
@@ -8936,7 +8936,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.207147/2025-05",
     "execucao_id": 1187313,
-    "processo_id": null,
+    "processo_id": 1153195,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1187313",
     "semDisputaFaseExterna": true
   },
@@ -8966,7 +8966,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.132265/2024-63",
     "pregao_id": 1110095,
-    "processo_id": null,
+    "processo_id": 1100697,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1110095",
     "responsaveisDfi": {
       "pesquisaPrecos": "Vanessa Raquel da Silva Medino",
@@ -9027,7 +9027,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.135263/2024-26",
     "pregao_id": 1110925,
-    "processo_id": null,
+    "processo_id": 1101028,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1110925",
     "responsaveisDfi": {
       "pesquisaPrecos": "José Weliton B. da Silva",
@@ -9061,7 +9061,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.126730/2024-27",
     "execucao_id": 1108646,
-    "processo_id": null,
+    "processo_id": 1101129,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1108646",
     "semDisputaFaseExterna": false
   },
@@ -9091,7 +9091,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.142659/2024-20",
     "pregao_id": 1112809,
-    "processo_id": null,
+    "processo_id": 1101237,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1112809",
     "responsaveisDfi": {
       "pesquisaPrecos": "Bruna de Oliveira Silva",
@@ -9213,7 +9213,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.138549/2025-44",
     "execucao_id": 1165652,
-    "processo_id": null,
+    "processo_id": 1154343,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1165652",
     "semDisputaFaseExterna": false
   },
@@ -9238,7 +9238,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.122987/2024-18",
     "execucao_id": 1107554,
-    "processo_id": null,
+    "processo_id": 1101831,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1107554",
     "semDisputaFaseExterna": true
   },
@@ -9314,7 +9314,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.149698/2024-58",
     "pregao_id": 1114557,
-    "processo_id": null,
+    "processo_id": 1101975,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1114557",
     "responsaveisDfi": {
       "pesquisaPrecos": "Saionara Priscila Lucas Saraiva",
@@ -9370,7 +9370,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.161780/2025-31",
     "execucao_id": 1172844,
-    "processo_id": null,
+    "processo_id": 1154578,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1172844",
     "semDisputaFaseExterna": true
   },
@@ -9441,7 +9441,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.118558/2024-38",
     "execucao_id": 1106156,
-    "processo_id": null,
+    "processo_id": 1102266,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1106156",
     "semDisputaFaseExterna": false
   },
@@ -9466,7 +9466,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.149615/2024-21",
     "execucao_id": 1114539,
-    "processo_id": null,
+    "processo_id": 1102288,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1114539"
   },
   {
@@ -9514,7 +9514,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.115685/2025-66",
     "execucao_id": 1158020,
-    "processo_id": null,
+    "processo_id": 1155150,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1158020",
     "semDisputaFaseExterna": false
   },
@@ -9540,7 +9540,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.129342/2025-89",
     "execucao_id": 1162521,
-    "processo_id": null,
+    "processo_id": 1155415,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1162521",
     "semDisputaFaseExterna": false
   },
@@ -9635,7 +9635,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.141484/2025-14",
     "execucao_id": 1166606,
-    "processo_id": null,
+    "processo_id": 1155844,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1166606",
     "semDisputaFaseExterna": false
   },
@@ -9660,7 +9660,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.147729/2024-36",
     "execucao_id": 1114150,
-    "processo_id": null,
+    "processo_id": 1103443,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1114150"
   },
   {
@@ -9730,7 +9730,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.120910/2024-03",
     "execucao_id": 1106928,
-    "processo_id": null,
+    "processo_id": 1103693,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1106928"
   },
   {
@@ -9778,7 +9778,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.121494/2025-33",
     "execucao_id": 1159920,
-    "processo_id": null,
+    "processo_id": 1156629,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1159920",
     "semDisputaFaseExterna": false
   },
@@ -9806,7 +9806,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.007068/2025-98",
     "pregao_id": 1124007,
-    "processo_id": null,
+    "processo_id": 1104162,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1124007",
     "responsaveisDfi": {
       "pesquisaPrecos": "Bruna de Oliveira Silva",
@@ -9861,7 +9861,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.166061/2024-26",
     "execucao_id": 1118672,
-    "processo_id": null,
+    "processo_id": 1104183,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1118672"
   },
   {
@@ -9883,7 +9883,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.060354/2025-81",
     "execucao_id": 1140602,
-    "processo_id": null,
+    "processo_id": 1104344,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1140602"
   },
   {
@@ -9911,7 +9911,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.158153/2024-32",
     "pregao_id": 1116686,
-    "processo_id": null,
+    "processo_id": 1104378,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1116686",
     "responsaveisDfi": {
       "pesquisaPrecos": "Vanessa Raquel da Silva Medino",
@@ -10034,7 +10034,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.146611/2025-71",
     "pregao_id": 1168088,
-    "processo_id": null,
+    "processo_id": 1157175,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1168088",
     "responsaveisDfi": {
       "pesquisaPrecos": "Amanda Eloyse Medeiros Bezerril",
@@ -10095,7 +10095,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.178263/2025-00",
     "pregao_id": 1178371,
-    "processo_id": null,
+    "processo_id": 1157236,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1178371",
     "responsaveisDfi": {
       "pesquisaPrecos": "Bruna de Oliveira Silva",
@@ -10133,7 +10133,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.172747/2024-56",
     "pregao_id": 1120296,
-    "processo_id": null,
+    "processo_id": 1104897,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1120296",
     "responsaveisDfi": {
       "pesquisaPrecos": "Sayonara Suely Januário Pereira",
@@ -10262,7 +10262,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.068782/2025-52",
     "pregao_id": 1142833,
-    "processo_id": null,
+    "processo_id": 1105755,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1142833",
     "responsaveisDfi": {
       "pesquisaPrecos": "Bruna de Oliveira Silva",
@@ -10298,7 +10298,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.039003/2026-92",
     "pregao_id": 1199743,
-    "processo_id": null,
+    "processo_id": 1105759,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1199743",
     "responsaveisDfi": {
       "pesquisaPrecos": "Vanessa Raquel da Silva Medino",
@@ -10334,7 +10334,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.071760/2025-70",
     "pregao_id": 1143663,
-    "processo_id": null,
+    "processo_id": 1105761,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1143663",
     "responsaveisDfi": {
       "pesquisaPrecos": "Saionara Priscila Lucas Saraiva",
@@ -10370,7 +10370,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.074191/2025-14",
     "pregao_id": 1144479,
-    "processo_id": null,
+    "processo_id": 1105765,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1144479",
     "responsaveisDfi": {
       "pesquisaPrecos": "Sayonara Suely Januário Pereira",
@@ -10429,7 +10429,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.110448/2025-17",
     "pregao_id": 1156421,
-    "processo_id": null,
+    "processo_id": 1105769,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1156421",
     "responsaveisDfi": {
       "pesquisaPrecos": "Amanda Eloyse de Medeiros Bezerril",
@@ -10491,7 +10491,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.169516/2024-65",
     "pregao_id": 1119522,
-    "processo_id": null,
+    "processo_id": 1105869,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1119522",
     "responsaveisDfi": {
       "pesquisaPrecos": "Geise Rana Santos",
@@ -10525,7 +10525,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.171097/2025-11",
     "execucao_id": 1175865,
-    "processo_id": null,
+    "processo_id": 1158607,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1175865",
     "semDisputaFaseExterna": false
   },
@@ -10550,7 +10550,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.123628/2024-70",
     "execucao_id": 1107778,
-    "processo_id": null,
+    "processo_id": 1106101,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1107778",
     "semDisputaFaseExterna": false
   },
@@ -10599,7 +10599,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.156343/2024-15",
     "execucao_id": 1116257,
-    "processo_id": null,
+    "processo_id": 1106276,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1116257",
     "semDisputaFaseExterna": false
   },
@@ -10624,7 +10624,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.148959/2024-12",
     "execucao_id": 1114416,
-    "processo_id": null,
+    "processo_id": 1106587,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1114416",
     "semDisputaFaseExterna": false
   },
@@ -10765,7 +10765,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.129592/2025-19",
     "execucao_id": 1162614,
-    "processo_id": null,
+    "processo_id": 1159910,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1162614",
     "semDisputaFaseExterna": false
   },
@@ -10791,7 +10791,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.152552/2024-90",
     "execucao_id": 1115313,
-    "processo_id": null,
+    "processo_id": 1107097,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1115313",
     "semDisputaFaseExterna": false
   },
@@ -10819,7 +10819,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.146285/2025-01",
     "pregao_id": 1167985,
-    "processo_id": null,
+    "processo_id": 1160054,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1167985",
     "responsaveisDfi": {
       "pesquisaPrecos": "Vanessa Raquel da Silva Medino",
@@ -10872,7 +10872,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.137260/2024-27",
     "execucao_id": 1111348,
-    "processo_id": null,
+    "processo_id": 1107473,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1111348",
     "semDisputaFaseExterna": false
   },
@@ -10921,7 +10921,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.156344/2024-60",
     "execucao_id": 1116258,
-    "processo_id": null,
+    "processo_id": 1107555,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1116258",
     "semDisputaFaseExterna": false
   },
@@ -10946,7 +10946,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.036907/2025-85",
     "execucao_id": 1133446,
-    "processo_id": null,
+    "processo_id": 1107544,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1133446",
     "semDisputaFaseExterna": true
   },
@@ -10972,7 +10972,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.175618/2025-09",
     "execucao_id": 1177409,
-    "processo_id": null,
+    "processo_id": 1160465,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1177409",
     "semDisputaFaseExterna": false
   },
@@ -11020,7 +11020,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.203372/2025-64",
     "execucao_id": 1186065,
-    "processo_id": null,
+    "processo_id": 1160777,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1186065",
     "semDisputaFaseExterna": true
   },
@@ -11045,7 +11045,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.152563/2024-70",
     "execucao_id": 1115318,
-    "processo_id": null,
+    "processo_id": 1107934,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1115318",
     "semDisputaFaseExterna": false
   },
@@ -11075,7 +11075,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.190752/2025-21",
     "pregao_id": 1182614,
-    "processo_id": null,
+    "processo_id": 1160844,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1182614",
     "responsaveisDfi": {
       "pesquisaPrecos": "Sayonara Suely Januário Pereira",
@@ -11109,7 +11109,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.143931/2025-70",
     "execucao_id": 1167368,
-    "processo_id": null,
+    "processo_id": 1160906,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1167368",
     "semDisputaFaseExterna": false
   },
@@ -11157,7 +11157,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.080633/2025-61",
     "execucao_id": 1146765,
-    "processo_id": null,
+    "processo_id": 1108338,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1146765",
     "semDisputaFaseExterna": true
   },
@@ -11183,7 +11183,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.140708/2024-90",
     "execucao_id": 1112245,
-    "processo_id": null,
+    "processo_id": 1108417,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1112245",
     "semDisputaFaseExterna": false
   },
@@ -11208,7 +11208,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.131316/2025-11",
     "execucao_id": 1163220,
-    "processo_id": null,
+    "processo_id": 1161326,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1163220"
   },
   {
@@ -11232,7 +11232,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.177960/2024-54",
     "execucao_id": 1121718,
-    "processo_id": null,
+    "processo_id": 1108515,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1121718",
     "semDisputaFaseExterna": true
   },
@@ -11257,7 +11257,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.158959/2024-21",
     "execucao_id": 1116899,
-    "processo_id": null,
+    "processo_id": 1108558,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1116899",
     "semDisputaFaseExterna": false
   },
@@ -11282,7 +11282,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.156342/2024-71",
     "execucao_id": 1116256,
-    "processo_id": null,
+    "processo_id": 1108823,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1116256",
     "semDisputaFaseExterna": false
   },
@@ -11307,7 +11307,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.157265/2024-76",
     "execucao_id": 1116483,
-    "processo_id": null,
+    "processo_id": 1108600,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1116483",
     "semDisputaFaseExterna": true
   },
@@ -11360,7 +11360,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.047824/2025-11",
     "pregao_id": 1136615,
-    "processo_id": null,
+    "processo_id": 1108714,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1136615",
     "responsaveisDfi": {
       "pesquisaPrecos": "José Weliton Barbosa da Silva",
@@ -11394,7 +11394,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.170635/2024-61",
     "execucao_id": 1119787,
-    "processo_id": null,
+    "processo_id": 1108809,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1119787",
     "semDisputaFaseExterna": false
   },
@@ -11420,7 +11420,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.137261/2024-71",
     "execucao_id": 1111349,
-    "processo_id": null,
+    "processo_id": 1108831,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1111349",
     "semDisputaFaseExterna": false
   },
@@ -11468,7 +11468,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.153493/2025-58",
     "execucao_id": 1170244,
-    "processo_id": null,
+    "processo_id": 1161954,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1170244",
     "semDisputaFaseExterna": false
   },
@@ -11520,7 +11520,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.164806/2024-12",
     "pregao_id": 1118414,
-    "processo_id": null,
+    "processo_id": 1109131,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1118414",
     "responsaveisDfi": {
       "pesquisaPrecos": "Bruna de Oliveira Silva",
@@ -11553,7 +11553,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.146792/2024-55",
     "execucao_id": 1113882,
-    "processo_id": null,
+    "processo_id": 1109137,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1113882",
     "semDisputaFaseExterna": true
   },
@@ -11602,7 +11602,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.140688/2024-57",
     "execucao_id": 1112233,
-    "processo_id": null,
+    "processo_id": 1109208,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1112233",
     "semDisputaFaseExterna": false
   },
@@ -11628,7 +11628,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.140332/2025-02",
     "execucao_id": 1166209,
-    "processo_id": null,
+    "processo_id": 1162528,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1166209",
     "semDisputaFaseExterna": false
   },
@@ -11654,7 +11654,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.148969/2024-58",
     "execucao_id": 1114419,
-    "processo_id": null,
+    "processo_id": 1109468,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1114419",
     "semDisputaFaseExterna": false
   },
@@ -11679,7 +11679,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.154976/2024-99",
     "execucao_id": 1115975,
-    "processo_id": null,
+    "processo_id": 1109665,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1115975",
     "semDisputaFaseExterna": false
   },
@@ -11705,7 +11705,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.140693/2024-60",
     "execucao_id": 1112237,
-    "processo_id": null,
+    "processo_id": 1109682,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1112237",
     "semDisputaFaseExterna": false
   },
@@ -11731,7 +11731,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.139796/2024-87",
     "execucao_id": 1112033,
-    "processo_id": null,
+    "processo_id": 1109690,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1112033",
     "semDisputaFaseExterna": false
   },
@@ -11756,7 +11756,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.157126/2024-42",
     "execucao_id": 1116455,
-    "processo_id": null,
+    "processo_id": 1109715,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1116455",
     "semDisputaFaseExterna": false
   },
@@ -11782,7 +11782,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.150286/2024-61",
     "execucao_id": 1114671,
-    "processo_id": null,
+    "processo_id": 1109739,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1114671",
     "semDisputaFaseExterna": false
   },
@@ -11854,7 +11854,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.152555/2024-23",
     "execucao_id": 1115314,
-    "processo_id": null,
+    "processo_id": 1109965,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1115314",
     "semDisputaFaseExterna": false
   },
@@ -11879,7 +11879,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.154662/2024-96",
     "execucao_id": 1115910,
-    "processo_id": null,
+    "processo_id": 1109990,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1115910"
   },
   {
@@ -11903,7 +11903,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.147172/2024-33",
     "execucao_id": 1114016,
-    "processo_id": null,
+    "processo_id": 1110007,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1114016"
   },
   {
@@ -11927,7 +11927,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.146563/2025-11",
     "execucao_id": 1168068,
-    "processo_id": null,
+    "processo_id": 1163573,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1168068"
   },
   {
@@ -11998,7 +11998,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.154667/2025-08",
     "execucao_id": 1170593,
-    "processo_id": null,
+    "processo_id": 1163873,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1170593",
     "semDisputaFaseExterna": false
   },
@@ -12024,7 +12024,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.186781/2025-99",
     "execucao_id": 1181409,
-    "processo_id": null,
+    "processo_id": 1163875,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1181409",
     "semDisputaFaseExterna": false
   },
@@ -12050,7 +12050,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.181807/2025-11",
     "execucao_id": 1179748,
-    "processo_id": null,
+    "processo_id": 1163882,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1179748",
     "semDisputaFaseExterna": false
   },
@@ -12075,7 +12075,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.104731/2025-00",
     "execucao_id": 1154814,
-    "processo_id": null,
+    "processo_id": 1110481,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1154814"
   },
   {
@@ -12122,7 +12122,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.158931/2025-74",
     "execucao_id": 1171950,
-    "processo_id": null,
+    "processo_id": 1164140,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1171950",
     "semDisputaFaseExterna": true
   },
@@ -12214,7 +12214,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.092120/2026-84",
     "execucao_id": 1215948,
-    "processo_id": null,
+    "processo_id": 1164509,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1215948"
   },
   {
@@ -12263,7 +12263,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.207881/2025-66",
     "pregao_id": 1187473,
-    "processo_id": null,
+    "processo_id": 1164564,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1187473",
     "responsaveisDfi": {
       "pesquisaPrecos": "Vanessa Medino",
@@ -12479,7 +12479,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.144999/2025-76",
     "execucao_id": 1167641,
-    "processo_id": null,
+    "processo_id": 1165177,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1167641",
     "semDisputaFaseExterna": false
   },
@@ -12505,7 +12505,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.189523/2025-64",
     "execucao_id": 1182214,
-    "processo_id": null,
+    "processo_id": 1165206,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1182214",
     "semDisputaFaseExterna": false
   },
@@ -12600,7 +12600,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.181806/2025-68",
     "execucao_id": 1179747,
-    "processo_id": null,
+    "processo_id": 1165725,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1179747",
     "semDisputaFaseExterna": false
   },
@@ -12626,7 +12626,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.185176/2025-09",
     "execucao_id": 1180830,
-    "processo_id": null,
+    "processo_id": 1166040,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1180830",
     "semDisputaFaseExterna": false
   },
@@ -12651,7 +12651,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.182742/2025-12",
     "execucao_id": 1180050,
-    "processo_id": null,
+    "processo_id": 1166066,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1180050",
     "semDisputaFaseExterna": true
   },
@@ -12677,7 +12677,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.189495/2025-85",
     "execucao_id": 1182207,
-    "processo_id": null,
+    "processo_id": 1166068,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1182207",
     "semDisputaFaseExterna": false
   },
@@ -12749,7 +12749,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.166929/2025-79",
     "execucao_id": 1174501,
-    "processo_id": null,
+    "processo_id": 1166200,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1174501",
     "semDisputaFaseExterna": false
   },
@@ -12821,7 +12821,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.179715/2025-62",
     "execucao_id": 1178857,
-    "processo_id": null,
+    "processo_id": 1166436,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1178857",
     "semDisputaFaseExterna": false
   },
@@ -12847,7 +12847,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.177768/2025-49",
     "execucao_id": 1178173,
-    "processo_id": null,
+    "processo_id": 1166447,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1178173",
     "semDisputaFaseExterna": false
   },
@@ -12876,7 +12876,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.018385/2026-11",
     "pregao_id": 1193490,
-    "processo_id": null,
+    "processo_id": 1166466,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1193490",
     "responsaveisDfi": {
       "pesquisaPrecos": "Bruna de Oliveira Silva",
@@ -12927,7 +12927,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.193451/2025-50",
     "execucao_id": 1183333,
-    "processo_id": null,
+    "processo_id": 1166760,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1183333"
   },
   {
@@ -12951,7 +12951,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.163895/2025-61",
     "execucao_id": 1173507,
-    "processo_id": null,
+    "processo_id": 1166789,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1173507",
     "semDisputaFaseExterna": true
   },
@@ -12977,7 +12977,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.005918/2026-02",
     "execucao_id": 1189693,
-    "processo_id": null,
+    "processo_id": 1166935,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1189693",
     "semDisputaFaseExterna": false
   },
@@ -13007,7 +13007,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.158155/2024-21",
     "pregao_id": 1116688,
-    "processo_id": null,
+    "processo_id": 1112736,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1116688",
     "responsaveisDfi": {
       "pesquisaPrecos": "Saionara Priscila Lucas Saraiva",
@@ -13110,7 +13110,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.175594/2025-80",
     "execucao_id": 1177400,
-    "processo_id": null,
+    "processo_id": 1167403,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1177400",
     "semDisputaFaseExterna": false
   },
@@ -13135,7 +13135,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.021775/2026-78",
     "execucao_id": 1194519,
-    "processo_id": null,
+    "processo_id": 1167493,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1194519"
   },
   {
@@ -13183,7 +13183,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.157361/2025-03",
     "execucao_id": 1171424,
-    "processo_id": null,
+    "processo_id": 1168237,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1171424",
     "semDisputaFaseExterna": false
   },
@@ -13209,7 +13209,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.163531/2025-81",
     "execucao_id": 1173349,
-    "processo_id": null,
+    "processo_id": 1167625,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1173349",
     "semDisputaFaseExterna": false
   },
@@ -13235,7 +13235,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.191906/2025-01",
     "execucao_id": 1182952,
-    "processo_id": null,
+    "processo_id": 1167650,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1182952",
     "semDisputaFaseExterna": false
   },
@@ -13261,7 +13261,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.183572/2025-93",
     "execucao_id": 1180343,
-    "processo_id": null,
+    "processo_id": 1167655,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1180343",
     "semDisputaFaseExterna": false
   },
@@ -13310,7 +13310,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.157125/2024-06",
     "execucao_id": 1116454,
-    "processo_id": null,
+    "processo_id": 1113567,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1116454",
     "semDisputaFaseExterna": false
   },
@@ -13336,7 +13336,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.191914/2025-49",
     "execucao_id": 1182956,
-    "processo_id": null,
+    "processo_id": 1167837,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1182956",
     "semDisputaFaseExterna": false
   },
@@ -13384,7 +13384,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.020026/2026-23",
     "execucao_id": 1193982,
-    "processo_id": null,
+    "processo_id": 1167901,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1193982",
     "semDisputaFaseExterna": false
   },
@@ -13409,7 +13409,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.152687/2025-36",
     "execucao_id": 1169969,
-    "processo_id": null,
+    "processo_id": 1168031,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1169969"
   },
   {
@@ -13457,7 +13457,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.163499/2025-33",
     "execucao_id": 1173336,
-    "processo_id": null,
+    "processo_id": 1168254,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1173336",
     "semDisputaFaseExterna": false
   },
@@ -13506,7 +13506,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.156345/2024-12",
     "execucao_id": 1116259,
-    "processo_id": null,
+    "processo_id": 1114138,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1116259",
     "semDisputaFaseExterna": false
   },
@@ -13605,7 +13605,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.177652/2024-29",
     "pregao_id": 1121645,
-    "processo_id": null,
+    "processo_id": 1114288,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1121645",
     "responsaveisDfi": {
       "pesquisaPrecos": "José Weliton Barbosa da Silva",
@@ -13635,7 +13635,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.189530/2025-66",
     "execucao_id": 1182217,
-    "processo_id": null,
+    "processo_id": 1168888,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1182217",
     "semDisputaFaseExterna": false
   },
@@ -13661,7 +13661,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.194490/2025-74",
     "execucao_id": 1183639,
-    "processo_id": null,
+    "processo_id": 1168904,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1183639",
     "semDisputaFaseExterna": false
   },
@@ -13709,7 +13709,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.188923/2025-52",
     "execucao_id": 1182041,
-    "processo_id": null,
+    "processo_id": 1169537,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1182041"
   },
   {
@@ -13784,7 +13784,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.167293/2024-00",
     "pregao_id": 1118970,
-    "processo_id": null,
+    "processo_id": 1115063,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1118970",
     "responsaveisDfi": {
       "pesquisaPrecos": "Geisi Rana Santos",
@@ -13813,7 +13813,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.205895/2025-45",
     "execucao_id": 1186851,
-    "processo_id": null,
+    "processo_id": 1170073,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1186851"
   },
   {
@@ -13838,7 +13838,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.186794/2025-68",
     "execucao_id": 1181410,
-    "processo_id": null,
+    "processo_id": 1170121,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1181410",
     "semDisputaFaseExterna": false
   },
@@ -13863,7 +13863,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.198624/2025-26",
     "execucao_id": 1184732,
-    "processo_id": null,
+    "processo_id": 1170138,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1184732"
   },
   {
@@ -13938,7 +13938,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.099206/2025-57",
     "pregao_id": 1153235,
-    "processo_id": null,
+    "processo_id": 1115850,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1153235",
     "responsaveisDfi": {
       "pesquisaPrecos": "José Weliton Barbosa da Silva",
@@ -13971,7 +13971,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.162822/2025-51",
     "execucao_id": 1173137,
-    "processo_id": null,
+    "processo_id": 1170552,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1173137"
   },
   {
@@ -14000,7 +14000,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.170441/2025-46",
     "pregao_id": 1175630,
-    "processo_id": null,
+    "processo_id": 1170610,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1175630",
     "responsaveisDfi": {
       "pesquisaPrecos": "Amanda Eloyse Medeiros Bezerril",
@@ -14240,7 +14240,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.175580/2025-66",
     "execucao_id": 1177397,
-    "processo_id": null,
+    "processo_id": 1171095,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1177397"
   },
   {
@@ -14265,7 +14265,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.180128/2025-16",
     "execucao_id": 1179057,
-    "processo_id": null,
+    "processo_id": 1171553,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1179057",
     "semDisputaFaseExterna": false
   },
@@ -14290,7 +14290,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.169616/2024-91",
     "execucao_id": 1119550,
-    "processo_id": null,
+    "processo_id": 1116624,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1119550"
   },
   {
@@ -14337,7 +14337,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.185177/2025-45",
     "execucao_id": 1180831,
-    "processo_id": null,
+    "processo_id": 1171643,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1180831",
     "semDisputaFaseExterna": true
   },
@@ -14363,7 +14363,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.001716/2026-83",
     "execucao_id": 1188358,
-    "processo_id": null,
+    "processo_id": 1171725,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1188358",
     "semDisputaFaseExterna": false
   },
@@ -14434,7 +14434,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.000922/2025-95",
     "execucao_id": 1122342,
-    "processo_id": null,
+    "processo_id": 1117346,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1122342",
     "semDisputaFaseExterna": false
   },
@@ -14483,7 +14483,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.194268/2025-71",
     "execucao_id": 1183567,
-    "processo_id": null,
+    "processo_id": 1172792,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1183567",
     "semDisputaFaseExterna": false
   },
@@ -14557,7 +14557,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.179648/2025-86",
     "pregao_id": 1178838,
-    "processo_id": null,
+    "processo_id": 1172922,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1178838",
     "responsaveisDfi": {
       "pesquisaPrecos": "José Weliton Barbosa da Silva",
@@ -14616,7 +14616,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.183560/2025-69",
     "pregao_id": 1180339,
-    "processo_id": null,
+    "processo_id": 1173142,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1180339",
     "responsaveisDfi": {
       "pesquisaPrecos": "José Weliton Barbosa da Silva",
@@ -14741,7 +14741,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.033970/2025-60",
     "execucao_id": 1132304,
-    "processo_id": null,
+    "processo_id": 1118262,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1132304",
     "semDisputaFaseExterna": false
   },
@@ -14840,7 +14840,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.001517/2025-94",
     "pregao_id": 1122503,
-    "processo_id": null,
+    "processo_id": 1118485,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1122503",
     "responsaveisDfi": {
       "pesquisaPrecos": "Amanda Eloyse de Medeiros Bezerril",
@@ -14920,7 +14920,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.191882/2025-81",
     "execucao_id": 1182945,
-    "processo_id": null,
+    "processo_id": 1174510,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1182945",
     "semDisputaFaseExterna": false
   },
@@ -14950,7 +14950,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.001543/2025-12",
     "pregao_id": 1122507,
-    "processo_id": null,
+    "processo_id": 1119011,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1122507",
     "responsaveisDfi": {
       "pesquisaPrecos": "Saionara Priscila Lucas Saraiva",
@@ -15011,7 +15011,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.181803/2025-24",
     "pregao_id": 1179745,
-    "processo_id": null,
+    "processo_id": 1175044,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1179745",
     "responsaveisDfi": {
       "pesquisaPrecos": "José Weliton Barbosa da Silva",
@@ -15183,7 +15183,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.178512/2025-59",
     "execucao_id": 1178454,
-    "processo_id": null,
+    "processo_id": 1177052,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1178454",
     "semDisputaFaseExterna": false
   },
@@ -15230,7 +15230,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.012463/2025-92",
     "execucao_id": 1125575,
-    "processo_id": null,
+    "processo_id": 1121040,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1125575"
   },
   {
@@ -15282,7 +15282,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.017643/2025-61",
     "pregao_id": 1127033,
-    "processo_id": null,
+    "processo_id": 1121174,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1127033",
     "responsaveisDfi": {
       "pesquisaPrecos": "Geise Rana Santos",
@@ -15385,7 +15385,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.031140/2026-89",
     "pregao_id": 1197471,
-    "processo_id": null,
+    "processo_id": 1121603,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1197471",
     "responsaveisDfi": {
       "irp": "Sonaydy Lyany Dantas"
@@ -15416,7 +15416,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.020703/2025-22",
     "execucao_id": 1128020,
-    "processo_id": null,
+    "processo_id": 1121608,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1128020",
     "semDisputaFaseExterna": true
   },
@@ -15441,7 +15441,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.019291/2025-88",
     "execucao_id": 1127598,
-    "processo_id": null,
+    "processo_id": 1121615,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1127598",
     "semDisputaFaseExterna": true
   },
@@ -15467,7 +15467,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.059789/2025-83",
     "execucao_id": 1140431,
-    "processo_id": null,
+    "processo_id": 1121616,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1140431",
     "semDisputaFaseExterna": false
   },
@@ -15492,7 +15492,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.024681/2025-70",
     "execucao_id": 1129217,
-    "processo_id": null,
+    "processo_id": 1121618,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1129217",
     "semDisputaFaseExterna": true
   },
@@ -15517,7 +15517,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.019611/2025-08",
     "execucao_id": 1127710,
-    "processo_id": null,
+    "processo_id": 1121620,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1127710",
     "semDisputaFaseExterna": true
   },
@@ -15543,7 +15543,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.012691/2025-62",
     "execucao_id": 1125638,
-    "processo_id": null,
+    "processo_id": 1121693,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1125638",
     "semDisputaFaseExterna": false
   },
@@ -15568,7 +15568,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.090246/2025-33",
     "execucao_id": 1150023,
-    "processo_id": null,
+    "processo_id": 1121695,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1150023",
     "semDisputaFaseExterna": false
   },
@@ -15593,7 +15593,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.203372/2025-64",
     "execucao_id": 1186065,
-    "processo_id": null,
+    "processo_id": 1179910,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1186065",
     "semDisputaFaseExterna": true
   },
@@ -15735,7 +15735,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.048030/2026-56",
     "pregao_id": 1202192,
-    "processo_id": null,
+    "processo_id": 1182872,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1202192",
     "responsaveisDfi": {
       "pesquisaPrecos": "Vanessa Raquel da Silva Medino",
@@ -15793,7 +15793,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.018481/2026-69",
     "pregao_id": 1193521,
-    "processo_id": null,
+    "processo_id": 1184666,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1193521",
     "responsaveisDfi": {
       "pesquisaPrecos": "Sayonara Suely Januário Pereira",
@@ -15828,7 +15828,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.007641/2026-44",
     "pregao_id": 1190185,
-    "processo_id": null,
+    "processo_id": 1185151,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1190185",
     "responsaveisDfi": {
       "pesquisaPrecos": "Bruna de Oliveira Silva",
@@ -15862,7 +15862,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.208234/2025-71",
     "pregao_id": 1187661,
-    "processo_id": null,
+    "processo_id": 1185959,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1187661",
     "responsaveisDfi": {
       "pesquisaPrecos": "Amanda Medeiros",
@@ -15895,7 +15895,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.001581/2026-56",
     "execucao_id": 1188307,
-    "processo_id": null,
+    "processo_id": 1186494,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1188307",
     "semDisputaFaseExterna": true
   },
@@ -15920,7 +15920,7 @@
     "caminhoHistorico": [],
     "execucao_numero": "23077.046435/2026-50",
     "execucao_id": 1201769,
-    "processo_id": null,
+    "processo_id": 1187343,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1201769",
     "semDisputaFaseExterna": true
   },
@@ -15948,7 +15948,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.048597/2026-22",
     "pregao_id": 1202377,
-    "processo_id": null,
+    "processo_id": 1187628,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1202377",
     "responsaveisDfi": {
       "pesquisaPrecos": "Sayonara Suely Januário Pereira",
@@ -15983,7 +15983,7 @@
     "caminhoHistorico": [],
     "pregao": "23077.067797/2026-84",
     "pregao_id": 1207791,
-    "processo_id": null,
+    "processo_id": 1187631,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1207791",
     "responsaveisDfi": {
       "irp": "Marilia Linhares de Sousa"

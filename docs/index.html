@@ -431,6 +431,8 @@ h1{
 .link-badge.plan{ color:var(--ink-faint); }
 .link-badge.pregao{ color:var(--line-dfi); border-color:var(--line-dfi); }
 .link-arrow{ color:var(--ink-faint); }
+a.link-badge{ text-decoration:none; cursor:pointer; }
+a.link-badge:hover{ text-decoration:underline; }
 
 .row-meta{ text-align:right; flex:none; font-family:var(--font-mono); font-size:11px; color:var(--ink-faint); white-space:nowrap; }
 .row-meta .days{ font-size:12.5px; margin-bottom:3px; display:block; }
@@ -1121,15 +1123,34 @@ function tituloCard(p){
   if((p.caminho === 'pregao' || !p.caminho) && p.assuntoPregao) return p.assuntoPregao;
   return numeroExecucao(p) || p.processo;
 }
+const SIPAC_LINK_BASE = 'https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=';
+function idExecucao(p){
+  if(p.caminho === 'pregao' || !p.caminho) return p.pregao_id || null;
+  return p.execucao_id || null;
+}
+// Cada badge é um link de verdade (não só texto) quando o id numérico
+// interno do SIPAC está resolvido — planejamento e execução são processos
+// DIFERENTES (CLAUDE.md seção 2), e a pessoa quer poder abrir os dois, não
+// só o que o campo "link" genérico do card aponta (bug real corrigido
+// 17/08/2026: 371 processos tinham perdido o id do planejamento assim que
+// a execução era resolvida — ver scripts/classificar_historico.py).
 function linkBadgesHtml(p){
   const numExec = numeroExecucao(p);
   if(!numExec) return '';
   const label = (CAMINHO_OPCOES.find(c=>c.key===(p.caminho||'pregao'))||{}).label || 'Execução';
+  const idPlan = p.processo_id;
+  const idExec = idExecucao(p);
+  const badgePlan = idPlan
+    ? `<a class="link-badge plan" href="${SIPAC_LINK_BASE}${idPlan}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Planejamento · ${p.processo} ↗</a>`
+    : `<span class="link-badge plan" title="Id interno do planejamento ainda não resolvido">Planejamento · ${p.processo}</span>`;
+  const badgeExec = idExec
+    ? `<a class="link-badge pregao" href="${SIPAC_LINK_BASE}${idExec}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${label} · ${numExec} ↗</a>`
+    : `<span class="link-badge pregao" title="Id interno da execução ainda não resolvido">${label} · ${numExec}</span>`;
   return `
     <div class="link-badges">
-      <span class="link-badge plan">Planejamento · ${p.processo}</span>
+      ${badgePlan}
       <span class="link-arrow">→</span>
-      <span class="link-badge pregao">${label} · ${numExec}</span>
+      ${badgeExec}
     </div>
   `;
 }

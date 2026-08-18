@@ -103,12 +103,17 @@ def montar_entrada_confiante(numero_planejamento: str, info_planejamento: dict, 
     if caminho == "pregao":
         entrada["pregao"] = execucao_numero
         entrada["pregao_id"] = info_execucao["id"]
-        entrada["processo_id"] = None
+        # Mantém o id do planejamento (não é usado pra raspar depois que a
+        # execução existe, mas o painel precisa dele pra montar o link
+        # "Planejamento →" clicável — bug real encontrado 17/08/2026: 371
+        # processos ficaram sem link de planejamento porque essa linha
+        # zerava o id à toa.
+        entrada["processo_id"] = info_planejamento["id"]
         entrada["link"] = LINK_BASE + str(info_execucao["id"])
     elif caminho in ("dispensa", "inexigibilidade"):
         entrada["execucao_numero"] = execucao_numero
         entrada["execucao_id"] = info_execucao["id"]
-        entrada["processo_id"] = None
+        entrada["processo_id"] = info_planejamento["id"]
         entrada["link"] = LINK_BASE + str(info_execucao["id"])
     elif caminho == "adesao_srp":
         # Lê sempre do processo de Planejamento (docs reais vivem lá) —
