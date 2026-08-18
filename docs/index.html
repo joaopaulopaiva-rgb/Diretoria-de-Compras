@@ -985,7 +985,7 @@ let activeDfeSubetapa = DFE_SUBETAPAS[0].key;
 let activeResponsavelDfe = null;
 
 function matches(p){
-  const searchOk = !searchTerm || (p.processo+' '+p.assunto+' '+(p.assuntoPregao||'')+' '+p.gestor+' '+p.unidade).toLowerCase().includes(searchTerm.toLowerCase());
+  const searchOk = !searchTerm || (p.processo+' '+p.assunto+' '+(p.assuntoPregao||'')+' '+(p.pregao||'')+' '+(p.execucao_numero||'')+' '+p.gestor+' '+p.unidade).toLowerCase().includes(searchTerm.toLowerCase());
   const gestorOk = !activeGestor || p.gestor === activeGestor;
   const dfiOk = !activeResponsavelDfi || (p.responsaveisDfi && nomesCanonicos(p.responsaveisDfi[activeDfiSubetapa]).includes(activeResponsavelDfi));
   const dfeOk = !activeResponsavelDfe || (p.responsaveisDfe && nomesCanonicos(p.responsaveisDfe[activeDfeSubetapa]).includes(activeResponsavelDfe));
@@ -1018,7 +1018,7 @@ function chipHtml(p, cor){
   const dias = diasParado(p.data);
   const cls = statusClasse(dias, p.categoria);
   const dim = !matches(p) ? 'dim' : '';
-  return `<div class="chip status-${cls} ${p.suspenso?'suspenso':''} ${p.urgente?'urgente':''} ${dim}" style="--dot-color:${cor}" data-id="${p.processo}" title="${p.assuntoPregao||p.processo} — ${p.assunto}"></div>`;
+  return `<div class="chip status-${cls} ${p.suspenso?'suspenso':''} ${p.urgente?'urgente':''} ${dim}" style="--dot-color:${cor}" data-id="${p.processo}" title="${tituloCard(p)} — ${p.assunto}"></div>`;
 }
 
 function clusterHtml(procs, f, selecionada){
@@ -1107,18 +1107,33 @@ function previsaoHtml(p){
   if(!proj) return '';
   return `<span class="previsao">Previsão: ${fmtDataCurta(proj.dataPrevista)}${proj.parcial?' (parcial)':''}</span>`;
 }
+// Enquanto o processo é só planejamento, o número que identifica ele é o
+// próprio p.processo. Assim que vira Pregão (campo "pregao") ou Dispensa/
+// Inexigibilidade/Adesão SRP (campo "execucao_numero" — mesmo nome pros 3,
+// ver scripts/atualizar_marcos.py), o número que passa a importar é o da
+// execução, não mais o do planejamento original.
+function numeroExecucao(p){
+  if(p.caminho === 'pregao' || !p.caminho) return p.pregao || null;
+  return p.execucao_numero || null;
+}
+function tituloCard(p){
+  if((p.caminho === 'pregao' || !p.caminho) && p.assuntoPregao) return p.assuntoPregao;
+  return numeroExecucao(p) || p.processo;
+}
 function linkBadgesHtml(p){
-  if(!p.pregao) return '';
+  const numExec = numeroExecucao(p);
+  if(!numExec) return '';
+  const label = (CAMINHO_OPCOES.find(c=>c.key===(p.caminho||'pregao'))||{}).label || 'Execução';
   return `
     <div class="link-badges">
       <span class="link-badge plan">Planejamento · ${p.processo}</span>
       <span class="link-arrow">→</span>
-      <span class="link-badge pregao">Pregão · ${p.pregao}</span>
+      <span class="link-badge pregao">${label} · ${numExec}</span>
     </div>
   `;
 }
 
-function manifestRowsAgrupado(procs, color, soft){
+function manifestRowsAgrupado(procs, color, soft, rotulosExtra){
   if(procs.length===0) return '<p class="empty-note">Nenhum processo nesta seleção.</p>';
   const grupos = {};
   procs.forEach(p => {
@@ -1128,7 +1143,8 @@ function manifestRowsAgrupado(procs, color, soft){
   const ordem = CAMINHO_OPCOES.filter(c => grupos[c.key]);
   return ordem.map(c => {
     const lista = grupos[c.key];
-    return `<p class="manifest-group-label">${c.label} · ${lista.length}</p>` + manifestRows(lista, color, soft);
+    const rotulo = (rotulosExtra && rotulosExtra[c.key]) || c.label;
+    return `<p class="manifest-group-label">${rotulo} · ${lista.length}</p>` + manifestRows(lista, color, soft);
   }).join('');
 }
 
@@ -1146,7 +1162,7 @@ function manifestRows(procs, color, soft){
         <div class="row-dot" style="--dot-color:${corLinha}"></div>
         <div class="row-main">
           <div class="row-top">
-            <span class="row-id">${p.assuntoPregao || p.processo}</span>
+            <span class="row-id">${tituloCard(p)}</span>
             ${p.suspenso?'<span class="row-tag suspenso">Suspenso</span>':''}
             ${p.emRecurso?'<span class="row-tag recurso">Em recurso</span>':''}
             ${p.urgente?'<span class="row-tag urgente">Prioridade</span>':''}
@@ -1225,7 +1241,13 @@ function renderPlanejamentoOverview(){
   const procs = activePlanejamentoCaminho ? todos.filter(p => (p.caminho || 'pregao') === activePlanejamentoCaminho) : todos;
   const panel = document.getElementById('manifest-planejamentoOverview');
   panel.className = 'manifest' + (aberto ? ' show' : '');
-  panel.innerHTML = `<div class="manifest-head">Planejamento — ${procs.length} processo${procs.length===1?'':'s'}</div>` + manifestRows(procs, corCaminho, corCaminhoSuave);
+  // Concorrência aqui é sempre a que ainda está na CAOSE/INFRA (não chegou
+  // à Fase Externa) — rótulo próprio "Concorrências (INFRA)" deixa isso
+  // claro, já que ela não é gerida pela DPGC como as demais deste grupo.
+  const corpo = activePlanejamentoCaminho
+    ? manifestRows(procs, corCaminho, corCaminhoSuave)
+    : manifestRowsAgrupado(procs, corCaminho, corCaminhoSuave, { concorrencia: 'Concorrências (INFRA)' });
+  panel.innerHTML = `<div class="manifest-head">Planejamento — ${procs.length} processo${procs.length===1?'':'s'}</div>` + corpo;
 }
 
 function renderHomologados(){
@@ -1749,12 +1771,12 @@ function openTrailFor(processoNumero){
   document.getElementById('trailContent').innerHTML = `
     <div class="trail-head">
       <p class="trail-eyebrow">
-        ${p.assuntoPregao ? 'Processo de pregão' : 'Processo de planejamento'}
+        ${numeroExecucao(p) ? 'Processo de execução' : 'Processo de planejamento'}
         <span class="trail-caminho-tag ${caminho.confirmado?'':'placeholder'}">${caminho.label}${caminho.confirmado?'':' · rascunho'}</span>
       </p>
       <h2 class="trail-title">${p.assunto}</h2>
       <div class="trail-meta">
-        <span>${p.assuntoPregao || p.processo}</span>
+        <span>${tituloCard(p)}</span>
         <span>${p.unidade}</span>
         ${p.fase==='Planejamento (DPGC)' && p.gestor ? `<span>Gestor: <b>${p.gestor.split(' ')[0]}</b></span>` : ''}
         <span class="days ${cls}">${dias===0?'Hoje':dias===1?'Há 1 dia':`Há ${dias} dias`}</span>
