@@ -2493,9 +2493,9 @@
   {
     "processo": "23077.022186/2026-15",
     "assunto": "SOLICITAÇÃO DE DISPENSA DE LICITAÇÃO: AQUISIÇÃO DE FARDAMENTO ESCOLAR",
-    "fase": "Fase Interna (DFI)",
-    "subEtapa": "faseInterna",
-    "subetapa": "Último documento: DESPACHO (12/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (05/08/2026 15:21)",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "faseExterna",
+    "subetapa": "Último documento: DIVULGAÇÃO DA DISPENSA DE LICITAÇÃO (18/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (05/08/2026 15:21)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -2504,13 +2504,16 @@
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
-    "marcos": null,
+    "marcos": {
+      "faseExternaInicio": "17/08/2026"
+    },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "execucao_numero": "23077.105514/2026-18",
     "execucao_id": 1219540,
     "processo_id": null,
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1219540"
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1219540",
+    "semDisputaFaseExterna": false
   },
   {
     "processo": "23077.022619/2025-43",
@@ -3776,9 +3779,9 @@
   {
     "processo": "23077.044973/2026-18",
     "assunto": "AQUISIÇÃO DE ESTETOSCÓPIOS PARA O DFAR",
-    "fase": "Fase Interna (DFI)",
-    "subEtapa": "faseInterna",
-    "subetapa": "Último documento: DESPACHO (12/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (10/08/2026 19:08)",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "faseExterna",
+    "subetapa": "Último documento: DESPACHO (18/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (10/08/2026 19:08)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -3787,13 +3790,16 @@
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
-    "marcos": null,
+    "marcos": {
+      "faseExternaInicio": "18/08/2026"
+    },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "execucao_numero": "23077.105520/2026-67",
     "execucao_id": 1219542,
     "processo_id": null,
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1219542"
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1219542",
+    "semDisputaFaseExterna": false
   },
   {
     "processo": "23077.045576/2025-74",
@@ -7401,8 +7407,8 @@
   {
     "processo": "23077.081616/2025-41",
     "assunto": "PROCESSO DE PLANEJAMENTO DE CONTRATAÇÕES DE SERVIÇOS PARA COLAÇÕES DE GRAU",
-    "fase": "Fase Interna (DFI)",
-    "subEtapa": "edital",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "dfe",
     "subetapa": "Último documento: ESCLARECIMENTO (05/03/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (19/01/2026 19:47)",
     "categoria": "elaboracao",
     "unidade": "",
@@ -7415,7 +7421,8 @@
     "marcos": {
       "analiseDfiFim": "19/01/2026",
       "pesquisaPrecosFim": "19/01/2026",
-      "irpFim": "23/01/2026"
+      "irpFim": "23/01/2026",
+      "dfeInicio": "03/02/2026"
     },
     "caminho": "pregao",
     "caminhoHistorico": [],
@@ -7887,9 +7894,9 @@
   {
     "processo": "23077.087641/2025-39",
     "assunto": "PCA26 - AQUISIÇÃO DE EQUIPAMENTOS DE PROTEÇÃO E SEGURANÇA PARA BIBLIOTECAS PARA ATENDER AS DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES.",
-    "fase": "Fase Interna (DFI)",
-    "subEtapa": "edital",
-    "subetapa": "Último documento: ESCLARECIMENTO (13/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (11/06/2026 09:47)",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "dfe",
+    "subetapa": "Último documento: RESPOSTA A ESCLARECIMENTO (17/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (11/06/2026 09:47)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -7901,7 +7908,8 @@
     "marcos": {
       "analiseDfiFim": "11/06/2026",
       "pesquisaPrecosFim": "17/06/2026",
-      "irpFim": "16/07/2026"
+      "irpFim": "16/07/2026",
+      "dfeInicio": "05/08/2026"
     },
     "caminho": "pregao",
     "caminhoHistorico": [],
@@ -10267,8 +10275,8 @@
   {
     "processo": "23077.117042/2024-76",
     "assunto": "AQUISIÇÃO DE MATERIAL ODONTOLÓGICO (II), PARA ATENDER A DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES.",
-    "fase": "Fase Interna (DFI)",
-    "subEtapa": "edital",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "dfe",
     "subetapa": "Último documento: DIVULGAÇÃO DA LICITAÇÃO (14/07/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (30/04/2026 10:08)",
     "categoria": "elaboracao",
     "unidade": "",
@@ -10281,7 +10289,8 @@
     "marcos": {
       "analiseDfiFim": "30/04/2026",
       "pesquisaPrecosFim": "30/04/2026",
-      "irpFim": "21/05/2026"
+      "irpFim": "21/05/2026",
+      "dfeInicio": "08/06/2026"
     },
     "caminho": "pregao",
     "caminhoHistorico": [],
@@ -10396,8 +10405,8 @@
   {
     "processo": "23077.117093/2024-06",
     "assunto": "AQUISIÇÃO DE MATERIAL ODONTOLÓGICO (V), PARA ATENDER A DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES.",
-    "fase": "Fase Interna (DFI)",
-    "subEtapa": "edital",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "dfe",
     "subetapa": "Último documento: DIVULGAÇÃO DA LICITAÇÃO (24/07/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (11/05/2026 09:21)",
     "categoria": "elaboracao",
     "unidade": "",
@@ -10410,7 +10419,8 @@
     "marcos": {
       "analiseDfiFim": "18/07/2025",
       "pesquisaPrecosFim": "19/05/2026",
-      "irpFim": "28/05/2026"
+      "irpFim": "28/05/2026",
+      "dfeInicio": "17/07/2026"
     },
     "caminho": "pregao",
     "caminhoHistorico": [],
@@ -15911,9 +15921,9 @@
   {
     "processo": "23077.208186/2025-11",
     "assunto": "AQUISIÇÃO DE MATERIAL HOSPITALAR - PCA 26 - LETRAS D A L - 97 ITENS",
-    "fase": "Jurídico (Projur/Análise)",
-    "subEtapa": "juridico",
-    "subetapa": "Último documento: DESPACHO DE ENCAMINHAMENTO (13/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (14/05/2026 08:00)",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "dfe",
+    "subetapa": "Último documento: DESPACHO (17/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (14/05/2026 08:00)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -15925,7 +15935,8 @@
     "marcos": {
       "analiseDfiFim": "13/05/2026",
       "pesquisaPrecosFim": "08/06/2026",
-      "editalFim": "17/06/2026"
+      "editalFim": "17/06/2026",
+      "dfeInicio": "17/08/2026"
     },
     "caminho": "pregao",
     "caminhoHistorico": [],
@@ -15936,14 +15947,18 @@
     "responsaveisDfi": {
       "pesquisaPrecos": "Sayonara Suely Januário Pereira",
       "irp": "Marilia Linhares de Sousa"
+    },
+    "responsaveisDfe": {
+      "pregoeiro": "Andrea Lopes de Figueiredo",
+      "equipeApoio": "Adriana da Silva Cardoso"
     }
   },
   {
     "processo": "23077.208192/2025-79",
     "assunto": "AQUISIÇÃO DE MATERIAL HOSPITALAR - PCA 26 - LETRAS M A R - 53 ITENS.",
-    "fase": "Fase Interna (DFI)",
-    "subEtapa": "edital",
-    "subetapa": "Último documento: DESPACHO DE ENCAMINHAMENTO (13/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (26/05/2026 09:27)",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "dfe",
+    "subetapa": "Último documento: DESPACHO (18/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (26/05/2026 09:27)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -15954,7 +15969,8 @@
     "urgente": false,
     "marcos": {
       "pesquisaPrecosFim": "26/06/2026",
-      "irpFim": "22/05/2026"
+      "irpFim": "22/05/2026",
+      "dfeInicio": "18/08/2026"
     },
     "caminho": "pregao",
     "caminhoHistorico": [],
@@ -15964,6 +15980,10 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1207791",
     "responsaveisDfi": {
       "irp": "Marilia Linhares de Sousa"
+    },
+    "responsaveisDfe": {
+      "pregoeiro": "Diego Brito Cruz",
+      "equipeApoio": "Adriana da Silva Cardoso"
     }
   },
   {
