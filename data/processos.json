@@ -266,8 +266,8 @@
     "processo": "23077.135115/2025-92",
     "assunto": "Planejamento de aquisição de material laboratorial (Vidraria III)",
     "fase": "Planejamento (DPGC)",
-    "subEtapa": "etp",
-    "subetapa": "DFD autorizado pela PROAD; retornado à DPGC para dar sequência ao ETP",
+    "subEtapa": "tr",
+    "subetapa": "Último documento: TERMO DE REFERÊNCIA DIGITAL (TR DIGITAL) (18/08/2026) · Última movimentação: DIRETORIA DE COMPRAS - PROAD (11.02.09) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (22/12/2025 19:19)",
     "categoria": "elaboracao",
     "unidade": "DPGC - Divisão de Planejamento e Gerenciamento de Compras",
     "data": "07/01/2026",
@@ -280,7 +280,8 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1164572",
     "marcos": {
       "cadastro": "26/08/2025",
-      "dfdFim": "28/08/2025"
+      "dfdFim": "28/08/2025",
+      "etpFim": "17/08/2026"
     },
     "processo_id": 1164572,
     "pregao_id": null
@@ -291,8 +292,8 @@
     "processo": "23077.135108/2025-91",
     "assunto": "Planejamento de aquisição de material laboratorial (Vidraria II)",
     "fase": "Planejamento (DPGC)",
-    "subEtapa": "etp",
-    "subetapa": "DFD autorizado pela PROAD; retornado à DPGC para dar sequência ao ETP",
+    "subEtapa": "tr",
+    "subetapa": "Último documento: TERMO DE REFERÊNCIA DIGITAL (TR DIGITAL) (18/08/2026) · Última movimentação: DIRETORIA DE COMPRAS - PROAD (11.02.09) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (18/12/2025 17:03)",
     "categoria": "elaboracao",
     "unidade": "DPGC - Divisão de Planejamento e Gerenciamento de Compras",
     "data": "19/12/2025",
@@ -305,7 +306,8 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1164570",
     "marcos": {
       "cadastro": "26/08/2025",
-      "dfdFim": "28/08/2025"
+      "dfdFim": "28/08/2025",
+      "etpFim": "17/08/2026"
     },
     "processo_id": 1164570,
     "pregao_id": null

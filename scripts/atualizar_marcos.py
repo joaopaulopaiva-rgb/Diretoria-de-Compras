@@ -574,6 +574,23 @@ def atualizar_todos() -> dict:
                 avisos.extend(avisos_retrabalho(p["processo"], retrabalho))
                 estados = detectar_estados_especiais(docs, movs, caminho)
 
+                # Rede de segurança pra quando "edital"/"juridico" nunca
+                # avançam por casamento de palavra-chave (documento de
+                # fechamento rotulado de forma genérica/diferente do
+                # esperado, ou etapa pulada de verdade) mas o processo já
+                # tem prova concreta de ter chegado à Fase Externa —
+                # confirmado num caso real (23077.081616/2025-41 / pregão
+                # 23077.005397/2026-85, agosto/2026): publicado no Diário
+                # Oficial, respondendo impugnação, mas preso em "edital"
+                # porque nunca teve documento chamado "Certificação
+                # Processual" nem "Análise de Parecer Jurídico". Mesma
+                # lógica de origem já usada pra Dispensa/Concorrência.
+                if not estados["concluido"] and sub_atual in ("edital", "juridico"):
+                    doc_dfe = next((d for d in docs if "DFE" in d.origem.upper()), None)
+                    if doc_dfe:
+                        marcos_novos.setdefault("dfeInicio", doc_dfe.data)
+                        sub_atual = "dfe"
+
                 # Responsáveis na DFI/DFE (seção acima) — só busca o texto
                 # de um documento quando ainda falta o nome correspondente,
                 # pra não reler o mesmo despacho/nota em toda execução.
