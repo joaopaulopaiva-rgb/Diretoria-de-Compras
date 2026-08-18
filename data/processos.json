@@ -15711,9 +15711,9 @@
   {
     "processo": "23077.191540/2025-61",
     "assunto": "AQUISIÇÃO DE MATERIAL HOSPITALAR - PCA 26 - LETRAS DE A A C.",
-    "fase": "Fase Interna (DFI)",
-    "subEtapa": "irp",
-    "subetapa": "Último documento: RELATÓRIO DETALHADO DE REQUISIÇÕES DO PROCESSO (13/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (15/05/2026 09:33)",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "dfe",
+    "subetapa": "Último documento: DIVULGAÇÃO DA LICITAÇÃO (14/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (15/05/2026 09:33)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -15724,7 +15724,8 @@
     "urgente": false,
     "marcos": {
       "analiseDfiFim": "13/05/2026",
-      "pesquisaPrecosFim": "09/06/2026"
+      "pesquisaPrecosFim": "09/06/2026",
+      "dfeInicio": "27/07/2026"
     },
     "caminho": "pregao",
     "caminhoHistorico": [],
