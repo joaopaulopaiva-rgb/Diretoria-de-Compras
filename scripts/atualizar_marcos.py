@@ -593,6 +593,15 @@ def atualizar_todos() -> dict:
                     doc_dfe = next((d for d in docs if "DFE" in d.origem.upper()), None)
                     if doc_dfe:
                         marcos_novos.setdefault("dfeInicio", doc_dfe.data)
+                        # Sinaliza no painel (badge visível, não só aviso de
+                        # terminal) pra pessoa dona do projeto conferir se
+                        # foi mesmo pulo de etapa real (possível falha de
+                        # fluxo da equipe) ou só documento rotulado diferente
+                        # — pedido explícito dela, 14/08/2026: preferiu ser
+                        # avisada a ter isso corrigido silenciosamente.
+                        if not p.get("avancoPorIndicioDfe"):
+                            p["avancoPorIndicioDfe"] = sub_atual
+                            mudou = True
                         sub_atual = "dfe"
 
                 # Responsáveis na DFI/DFE (seção acima) — só busca o texto

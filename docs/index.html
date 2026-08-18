@@ -409,6 +409,7 @@ h1{
 .row-tag.suspenso{ color:var(--suspenso); border-color:var(--suspenso); }
 .row-tag.recurso{ color:var(--warn); border-color:var(--warn); }
 .row-tag.urgente{ color:var(--critical); border-color:var(--critical); font-weight:600; }
+.row-tag.indicio{ color:var(--warn); border-color:var(--warn); border-style:dashed; cursor:help; }
 .row-subj{ font-size:13.5px; color:var(--ink); margin-bottom:3px; }
 .row-status{ font-size:12.5px; color:var(--ink-soft); line-height:1.4; margin-bottom:6px; }
 
@@ -1166,6 +1167,7 @@ function manifestRows(procs, color, soft){
             ${p.suspenso?'<span class="row-tag suspenso">Suspenso</span>':''}
             ${p.emRecurso?'<span class="row-tag recurso">Em recurso</span>':''}
             ${p.urgente?'<span class="row-tag urgente">Prioridade</span>':''}
+            ${p.avancoPorIndicioDfe?`<span class="row-tag indicio" title="Avançou pra Fase Externa por documento de origem DFE, sem o documento de fechamento esperado pra sub-etapa '${(SUBETAPAS.find(s=>s.key===p.avancoPorIndicioDfe)||{}).label||p.avancoPorIndicioDfe}' (ex. Certificação Processual / Análise de Parecer Jurídico). Pode ser só rótulo diferente no SIPAC, ou a etapa pode ter sido pulada de verdade — vale conferir.">⚠ Conferir avanço</span>`:''}
           </div>
           <div class="row-subj">${p.assunto}${showGestor && p.gestor ? ' · <span style="color:var(--ink-faint)">'+p.gestor.split(' ')[0]+'</span>' : ''}</div>
           <div class="row-status">${p.subetapa}</div>
