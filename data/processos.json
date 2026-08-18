@@ -19745,7 +19745,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1222799",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "17/08/2026"
+    },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1222799,
@@ -19820,9 +19822,9 @@
   {
     "processo": "23077.116386/2026-20",
     "assunto": "AQUISIÇÃO DE TELEVISOR 55\" ATRAVÉS DE ADESÃO/CARONA",
-    "fase": "Fase Interna (DFI)",
-    "subEtapa": "faseInterna",
-    "subetapa": "Último documento: AUTORIZAÇÃO DE FORMALIZAÇÃO - ADESÃO A ATA DE REGISTRO DE PREÇOS (13/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (13/08/2026 16:51)",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: DESPACHO (17/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (17/08/2026 05:22)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "2026-08-13",
@@ -19834,7 +19836,8 @@
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223277",
     "marcos": {
-      "planejamentoFim": "13/08/2026"
+      "planejamentoFim": "13/08/2026",
+      "faseInternaFim": "17/08/2026"
     },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
@@ -20094,9 +20097,9 @@
   {
     "processo": "23077.119330/2026-27",
     "assunto": "AQUISIÇÃO DE MACA/DIVÃ ATRAVÉS DE ADESÃO",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Último documento: JUSTIFICATIVA (14/08/2026) · Última movimentação: SETOR DE MATERIAL E PATRIMÔNIO DA FACISA (10.32.01.04) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (14/08/2026 16:15)",
+    "fase": "Fase Interna (DFI)",
+    "subEtapa": "faseInterna",
+    "subetapa": "Último documento: AUTORIZAÇÃO DE FORMALIZAÇÃO - ADESÃO A ATA DE REGISTRO DE PREÇOS (17/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (17/08/2026 16:30)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "2026-08-13",
@@ -20107,7 +20110,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1224256",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "17/08/2026"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1224256,
@@ -20138,9 +20143,9 @@
   {
     "processo": "23077.120685/2026-69",
     "assunto": "SOLICITAÇÃO DE ADESÃO ATRAVÉS DO PROCESSO LICITATÓRIO PREGÃO Nº 90011/2025, UASG 160342 - BASE ADMINISTRATIVA DA GUARNIÇÃO DE NATAL PARA COMPRA DE COPO DESCARTÁVEL DE 180 ML.",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Último documento: ESTUDO TÉCNICO PRELIMINAR (13/08/2026) · Última movimentação: DLOG - DIVISÃO DE ALMOXARIFADO CENTRAL (11.02.03.28) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (13/08/2026 15:24)",
+    "fase": "Fase Interna (DFI)",
+    "subEtapa": "faseInterna",
+    "subetapa": "Último documento: AUTORIZAÇÃO DE FORMALIZAÇÃO - ADESÃO A ATA DE REGISTRO DE PREÇOS (18/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (18/08/2026 10:44)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -20151,7 +20156,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1224859",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "18/08/2026"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1224859,
