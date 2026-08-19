@@ -736,10 +736,18 @@
       "trFim": "08/10/2024",
       "listaInicio": "11/10/2024",
       "listaFim": "11/10/2024",
-      "analiseDfiInicio": "11/10/2024"
+      "analiseDfiInicio": "11/10/2024",
+      "analiseDfiFim": "17/11/2024",
+      "pesquisaPrecosFim": "12/05/2025",
+      "irpFim": "06/06/2025"
     },
     "processo_id": 1067820,
-    "pregao_id": 1116685
+    "pregao_id": 1116685,
+    "responsaveisDfi": {
+      "pesquisaPrecos": "José Weliton Barbosa da Silva",
+      "irp": "Marília Linhares de Sousa",
+      "elaboracaoEdital": "Chianc Leocádio de Lima"
+    }
   },
   {
     "caminho": "pregao",
