@@ -20227,9 +20227,9 @@
   {
     "processo": "23077.030319/2026-19",
     "assunto": "CONCORRÊNCIA Nº.: 90001/2026 - ADEQUAÇÃO DAS INSTALAÇÕES DE CLIMATIZAÇÃO DA ESCOLA DE CIÊNCIA E TECNOLOGIA DA UFRN",
-    "fase": "Concorrência · aguardando Fase Externa (CAOSE/INFRA)",
-    "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "faseExterna",
+    "subetapa": "Último documento: CONSULTA DE CONDIÇÕES DE PARTICIPAÇÃO (10/08/2026) · Última movimentação: SUPERINTENDÊNCIA DE INFRAESTRUTURA (11.08) → COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) (11/03/2026 10:49)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "19/08/2026",
@@ -20238,7 +20238,9 @@
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
-    "marcos": null,
+    "marcos": {
+      "faseExternaInicio": "24/04/2026"
+    },
     "caminho": "concorrencia",
     "caminhoHistorico": [],
     "processo_id": 1197220,
@@ -20247,9 +20249,9 @@
   {
     "processo": "23077.031244/2026-93",
     "assunto": "CONCORRÊNCIA Nº.: 90002/2026 - EXECUÇÃO DA REFORMA E ADEQUAÇÃO DOS BANHEIROS DO PAVIMENTO TÉRREO DA ESCOLA DE SAÚDE DA UFRN",
-    "fase": "Concorrência · aguardando Fase Externa (CAOSE/INFRA)",
+    "fase": "Homologado",
     "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "subetapa": "Último documento: DESPACHO DE ENCAMINHAMENTO (31/07/2026) · Última movimentação: COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) → COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) (12/03/2026 11:47)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "19/08/2026",
@@ -20258,7 +20260,9 @@
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
-    "marcos": null,
+    "marcos": {
+      "homologadoData": "27/07/2026"
+    },
     "caminho": "concorrencia",
     "caminhoHistorico": [],
     "processo_id": 1197510,
@@ -20267,9 +20271,9 @@
   {
     "processo": "23077.034037/2026-91",
     "assunto": "CONCORRÊNCIA Nº.: 90003/2026 - FORNECIMENTO E INSTALAÇÃO DE PAINEL ELÉTRICO RETIFICADOR INDUSTRIAL E MANUTENÇÃO CORRETIVA NO DISJUNTOR GERAL DE ALTA TENSÃO DO PÁTIO DA SUBESTAÇÃO (69 KV) DA UFRN",
-    "fase": "Concorrência · aguardando Fase Externa (CAOSE/INFRA)",
+    "fase": "Homologado",
     "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "subetapa": "Último documento: DESPACHO (18/08/2026) · Última movimentação: COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) → COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) (17/03/2026 10:18)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "19/08/2026",
@@ -20278,7 +20282,9 @@
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
-    "marcos": null,
+    "marcos": {
+      "homologadoData": "23/06/2026"
+    },
     "caminho": "concorrencia",
     "caminhoHistorico": [],
     "processo_id": 1198355,
@@ -20287,9 +20293,9 @@
   {
     "processo": "23077.034888/2026-33",
     "assunto": "CONCORRÊNCIA Nº.: 90004/2026 - COMPLEMENTAÇÃO DA REFORMA DO PRÉDIO DO ARQUIVO GERAL DA UFRN",
-    "fase": "Concorrência · aguardando Fase Externa (CAOSE/INFRA)",
+    "fase": "Homologado",
     "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "subetapa": "Último documento: DESPACHO DE ENCAMINHAMENTO (31/07/2026) · Última movimentação: COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) → COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) (18/03/2026 10:34)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "19/08/2026",
@@ -20298,7 +20304,9 @@
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
-    "marcos": null,
+    "marcos": {
+      "homologadoData": "30/07/2026"
+    },
     "caminho": "concorrencia",
     "caminhoHistorico": [],
     "processo_id": 1198582,
@@ -20307,9 +20315,9 @@
   {
     "processo": "23077.040760/2025-28",
     "assunto": "CONCORRÊNCIA Nº.: 01/2025 - REFORMA E AMPLIAÇÃO DO NÚCLEO DE REDES AVANÇADAS DA UFRN - NURA/UFRN ( POP-RN )",
-    "fase": "Concorrência · aguardando Fase Externa (CAOSE/INFRA)",
+    "fase": "Homologado",
     "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "subetapa": "Último documento: LISTA DE VERIFICAÇÃO (18/08/2026) · Última movimentação: SUPERINTENDÊNCIA DE INFRAESTRUTURA (11.08) → COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) (21/03/2025 08:56)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "19/08/2026",
@@ -20318,7 +20326,9 @@
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
-    "marcos": null,
+    "marcos": {
+      "homologadoData": "12/06/2025"
+    },
     "caminho": "concorrencia",
     "caminhoHistorico": [],
     "processo_id": 1134577,
@@ -20327,9 +20337,9 @@
   {
     "processo": "23077.041318/2025-19",
     "assunto": "CONCORRÊNCIA Nº.: 2/2025 - COMPLEMENTAÇÃO DA OBRA DA ESCOLA MULTICAMPI DE CIÊNCIAS MÉDICAS (EMCM) - INFRAESTRUTURA E URBANIZAÇÃO",
-    "fase": "Concorrência · aguardando Fase Externa (CAOSE/INFRA)",
+    "fase": "Homologado",
     "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "subetapa": "Último documento: DESPACHO (17/08/2026) · Última movimentação: DIRETORIA DE OBRAS (11.08.06) → CONTRATOS - DIVISÃO DE FORMALIZAÇÃO E ACOMPANHAMENTO DE CONTRATOS (11.02.16.01) (20/08/2025 11:14)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "19/08/2026",
@@ -20338,7 +20348,9 @@
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
-    "marcos": null,
+    "marcos": {
+      "homologadoData": "09/06/2025"
+    },
     "caminho": "concorrencia",
     "caminhoHistorico": [],
     "processo_id": 1134754,
@@ -20347,9 +20359,9 @@
   {
     "processo": "23077.043185/2025-15",
     "assunto": "CONCORRÊNCIA Nº.: 3/2025 - CONSTRUÇÃO DO REFEITÓRIO DO CENTRO DE ENSINO SUPERIOR DO SERIDÓ - CÂMPUS DE CAICÓ",
-    "fase": "Concorrência · aguardando Fase Externa (CAOSE/INFRA)",
+    "fase": "Homologado",
     "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "subetapa": "Último documento: PUBLICAÇÃO NO DIÁRIO OFICIAL (29/07/2026) · Última movimentação: COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) → COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) (25/03/2025 12:58)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "19/08/2026",
@@ -20358,7 +20370,9 @@
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
-    "marcos": null,
+    "marcos": {
+      "homologadoData": "04/08/2025"
+    },
     "caminho": "concorrencia",
     "caminhoHistorico": [],
     "processo_id": 1135294,
@@ -20367,9 +20381,9 @@
   {
     "processo": "23077.045566/2025-39",
     "assunto": "CONCORRÊNCIA Nº.: 4/2025 - COMPLEMENTAÇÃO DA OBRA DO TEATRO DO DEPARTAMENTO DE ARTES DA UFRN (DEART/UFRN)",
-    "fase": "Concorrência · aguardando Fase Externa (CAOSE/INFRA)",
+    "fase": "Homologado",
     "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "subetapa": "Último documento: DESPACHO (18/08/2026) · Última movimentação: COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) → COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) (27/03/2025 15:11)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "19/08/2026",
@@ -20378,7 +20392,9 @@
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
-    "marcos": null,
+    "marcos": {
+      "homologadoData": "01/07/2025"
+    },
     "caminho": "concorrencia",
     "caminhoHistorico": [],
     "processo_id": 1135911,
@@ -20387,9 +20403,9 @@
   {
     "processo": "23077.060070/2026-76",
     "assunto": "CONCORRÊNCIA Nº.: 90005/2026 - ADEQUAÇÃO DO AUDITÓRIO DO NEPSA I PARA INSTALAÇÃO DE UMA SALA DE CINEMA",
-    "fase": "Concorrência · aguardando Fase Externa (CAOSE/INFRA)",
-    "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "faseExterna",
+    "subetapa": "Último documento: PARECER CONTÁBIL (04/08/2026) · Última movimentação: COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) → COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) (05/05/2026 12:10)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "19/08/2026",
@@ -20398,7 +20414,9 @@
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
-    "marcos": null,
+    "marcos": {
+      "faseExternaInicio": "19/06/2026"
+    },
     "caminho": "concorrencia",
     "caminhoHistorico": [],
     "processo_id": 1205371,
@@ -20409,7 +20427,7 @@
     "assunto": "CONCORRÊNCIA SISPP Nº.: 90008/2025 - CONTRATAÇÃO DE SERVIÇOS CONTÍNUOS DE CONCESSÃO DE UM PAR DE FIBRAS ÓPTICAS EM CONTRAPARTIDA DAS MANUTENÇÕES PREVENTIVA E CORRETIVA DE CABEAMENTO ÓPTICO, COM FORNECIMENTO DE PEÇAS, NA INFRAESTRUTURA DA REDE DE DADOS GIGA METRÓPOLE",
     "fase": "Concorrência · aguardando Fase Externa (CAOSE/INFRA)",
     "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "subetapa": "Último documento: DESPACHO (12/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (09/06/2025 15:06)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "19/08/2026",
@@ -20427,9 +20445,9 @@
   {
     "processo": "23077.092427/2026-85",
     "assunto": "CONCORRÊNCIA Nº.: 90006/2026 - REFORMA DO CENTRO DE CONVIVÊNCIA PARA IMPLANTAÇÃO DA OUVIDORIA DA UFRN",
-    "fase": "Concorrência · aguardando Fase Externa (CAOSE/INFRA)",
-    "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "faseExterna",
+    "subetapa": "Último documento: DIVULGAÇÃO DA LICITAÇÃO (12/08/2026) · Última movimentação: COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) → COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) (02/07/2026 09:08)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "19/08/2026",
@@ -20438,7 +20456,9 @@
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
-    "marcos": null,
+    "marcos": {
+      "faseExternaInicio": "04/08/2026"
+    },
     "caminho": "concorrencia",
     "caminhoHistorico": [],
     "processo_id": 1216025,
@@ -20447,9 +20467,9 @@
   {
     "processo": "23077.096963/2025-79",
     "assunto": "CONCORRÊNCIA Nº.: 5/2025 - COMPLEMENTAÇÃO DA REFORMA DO ANTIGO PRÉDIO DO NAC NO CENTRO DE CONVIVÊNCIA DA UFRN PARA FUNCIONAMENTO DE UMA PRAÇA DE ALIMENTAÇÃO",
-    "fase": "Concorrência · aguardando Fase Externa (CAOSE/INFRA)",
+    "fase": "Homologado",
     "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "subetapa": "Último documento: TERMO DE DESAPENSAÇÃO (26/02/2026) · Última movimentação: COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) → COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) (26/06/2025 11:28)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "19/08/2026",
@@ -20458,7 +20478,9 @@
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
-    "marcos": null,
+    "marcos": {
+      "homologadoData": "04/12/2025"
+    },
     "caminho": "concorrencia",
     "caminhoHistorico": [],
     "processo_id": 1152618,
@@ -20467,9 +20489,9 @@
   {
     "processo": "23077.144670/2025-13",
     "assunto": "CONCORRÊNCIA Nº.: 6/2025 - MANUTENÇÃO DAS INSTALAÇÕES FÍSICAS DO LABORATÓRIO DE REPRODUÇÃO E CULTIVO DE ORGANISMOS AQUÁTICOS DO DEPARTAMENTO DE OCEANOGRAFIA E LIMNOLOGIA DA UFRN",
-    "fase": "Concorrência · aguardando Fase Externa (CAOSE/INFRA)",
+    "fase": "Homologado",
     "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "subetapa": "Último documento: TERMO DE DESAPENSAÇÃO (17/07/2026) · Última movimentação: COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) → COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) (09/09/2025 11:29)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "19/08/2026",
@@ -20478,7 +20500,9 @@
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
-    "marcos": null,
+    "marcos": {
+      "homologadoData": "19/03/2026"
+    },
     "caminho": "concorrencia",
     "caminhoHistorico": [],
     "processo_id": 1167566,
@@ -20487,9 +20511,9 @@
   {
     "processo": "23077.164559/2025-35",
     "assunto": "CONCORRÊNCIA Nº.: 9/2025 - REFORMA DOS BANHEIROS E ADEQUAÇÃO DE ACESSIBILIDADE DA SUPERINTENDÊNCIA DE TECNOLOGIA DA INFORMAÇÃO (STI)",
-    "fase": "Concorrência · aguardando Fase Externa (CAOSE/INFRA)",
+    "fase": "Homologado",
     "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "subetapa": "Último documento: PUBLICAÇÃO NO DIÁRIO OFICIAL (15/06/2026) · Última movimentação: COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) → COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) (13/10/2025 14:03)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "19/08/2026",
@@ -20498,7 +20522,9 @@
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
-    "marcos": null,
+    "marcos": {
+      "homologadoData": "19/12/2025"
+    },
     "caminho": "concorrencia",
     "caminhoHistorico": [],
     "processo_id": 1173740,
@@ -20507,9 +20533,9 @@
   {
     "processo": "23077.202195/2025-07",
     "assunto": "CONCORRÊNCIA Nº.: 90010/2025 - CONSTRUÇÃO DOS GINÁSIOS POLIESPORTIVOS DOS CAMPI DE CAICÓ, MACAÍBA, SANTA CRUZ E CURRAIS NOVOS E DO PRÉDIO PARA OS CURSOS DE GRADUAÇÃO EM PSICOLOGIA E TERAPIA OCUPACIONAL DA FACISA, DA UFRN",
-    "fase": "Concorrência · aguardando Fase Externa (CAOSE/INFRA)",
+    "fase": "Homologado",
     "subEtapa": null,
-    "subetapa": "Adicionado via portão de entrada — aguardando a próxima atualização automática de marcos.",
+    "subetapa": "Último documento: DESPACHO DE ENCAMINHAMENTO (24/07/2026) · Última movimentação: COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) → COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) (15/12/2025 14:22)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "19/08/2026",
@@ -20518,7 +20544,9 @@
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
-    "marcos": null,
+    "marcos": {
+      "homologadoData": "14/07/2026"
+    },
     "caminho": "concorrencia",
     "caminhoHistorico": [],
     "processo_id": 1185703,
