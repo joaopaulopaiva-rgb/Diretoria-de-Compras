@@ -1013,7 +1013,15 @@ function renderPulse(){
 /* ---------- estações (divisão ou sub-etapa) ---------- */
 function currentStations(){ return viewMode === 'divisao' ? FASES : SUBETAPAS; }
 function stationProcs(st){
-  if(viewMode === 'divisao') return processos.filter(p => p.fase === st.fase);
+  if(viewMode === 'divisao'){
+    // A estação "Planejamento" (DPGC) também mostra a Concorrência que
+    // ainda não chegou à Fase Externa — ela não é gerida pela DPGC (fica
+    // na CAOSE/INFRA, fase própria FASE_CONCORRENCIA_PRE_DFE), mas entra
+    // aqui pra ciência/acompanhamento, num subgrupo à parte (ver
+    // clusterHtml/manifestRowsAgrupado com rotulosExtra).
+    if(st.key === 'dpgc') return processos.filter(p => p.fase === st.fase || p.fase === FASE_CONCORRENCIA_PRE_DFE);
+    return processos.filter(p => p.fase === st.fase);
+  }
   return processos.filter(p => p.subEtapa === st.key);
 }
 
@@ -1024,7 +1032,7 @@ function chipHtml(p, cor){
   return `<div class="chip status-${cls} ${p.suspenso?'suspenso':''} ${p.urgente?'urgente':''} ${dim}" style="--dot-color:${cor}" data-id="${p.processo}" title="${tituloCard(p)} — ${p.assunto}"></div>`;
 }
 
-function clusterHtml(procs, f, selecionada){
+function clusterHtml(procs, f, selecionada, rotulosExtra){
   if(!selecionada) return `<div class="cluster">${procs.map(p => chipHtml(p, f.color)).join('')}</div>`;
   // divisão selecionada: agrupa por tipo de contratação, com rótulo em
   // cima de cada grupo — só aparecem os grupos com processo de verdade ali
@@ -1038,9 +1046,15 @@ function clusterHtml(procs, f, selecionada){
   const ordem = CAMINHO_OPCOES.filter(c => grupos[c.key]);
   return ordem.map(c => {
     const lista = grupos[c.key];
-    return `<p class="cluster-group-label">${c.label} · ${lista.length}</p><div class="cluster">${lista.map(p => chipHtml(p, corCaminho(p))).join('')}</div>`;
+    const rotulo = (rotulosExtra && rotulosExtra[c.key]) || c.label;
+    return `<p class="cluster-group-label">${rotulo} · ${lista.length}</p><div class="cluster">${lista.map(p => chipHtml(p, corCaminho(p))).join('')}</div>`;
   }).join('');
 }
+
+// Concorrência aqui é sempre a que ainda está na CAOSE/INFRA (não chegou à
+// Fase Externa) — mesmo rótulo especial já usado na visão geral de
+// Planejamento, reaproveitado nas estações (DPGC) e no manifesto expandido.
+const ROTULOS_CONCORRENCIA_INFRA = { concorrencia: 'Concorrências (INFRA)' };
 
 function renderStations(){
   const stations = currentStations();
@@ -1057,7 +1071,7 @@ function renderStations(){
           <span class="station-sub">${f.sub}</span>
           <span class="station-count" style="--dot-color:${f.color}">${procs.length}</span>
         </div>
-        ${clusterHtml(procs, f, selecionada)}
+        ${clusterHtml(procs, f, selecionada, f.key==='dpgc' ? ROTULOS_CONCORRENCIA_INFRA : null)}
       </div>
     `;
   }).join('');
@@ -1218,7 +1232,7 @@ function renderManifests(){
     }
     const procs = stationProcs(f);
     panel.className = 'manifest' + (activeStation === f.key ? ' show' : '');
-    panel.innerHTML = `<div class="manifest-head">${f.label} · ${f.sub} — ${procs.length} processo${procs.length===1?'':'s'}</div>` + manifestRowsAgrupado(procs, corCaminho, corCaminhoSuave);
+    panel.innerHTML = `<div class="manifest-head">${f.label} · ${f.sub} — ${procs.length} processo${procs.length===1?'':'s'}</div>` + manifestRowsAgrupado(procs, corCaminho, corCaminhoSuave, f.key==='dpgc' ? ROTULOS_CONCORRENCIA_INFRA : null);
     anchor.after(panel);
     anchor = panel;
   });
