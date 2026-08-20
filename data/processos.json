@@ -18544,7 +18544,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1203873",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "19/08/2026"
+    },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1203873,
@@ -19289,7 +19291,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1214738",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "19/08/2026"
+    },
     "caminho": "inexigibilidade",
     "caminhoHistorico": [],
     "processo_id": 1214738,
@@ -19953,9 +19957,9 @@
   {
     "processo": "23077.117815/2026-86",
     "assunto": "SOLICITAÇÃO DE CARONA PARA COMPRA DE CADEIRA DE RODAS MOTORIZADA",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Último documento: DESPACHO (14/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → COMPRAS E EXECUÇÃO ORÇAMENTÁRIA (17.39) (14/08/2026 11:06)",
+    "fase": "Fase Interna (DFI)",
+    "subEtapa": "faseInterna",
+    "subetapa": "Último documento: AUTORIZAÇÃO DE FORMALIZAÇÃO - ADESÃO A ATA DE REGISTRO DE PREÇOS (19/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (19/08/2026 11:11)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "2026-08-13",
@@ -19966,7 +19970,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223721",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "19/08/2026"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1223721,
@@ -20184,8 +20190,8 @@
     "processo": "23077.120877/2026-75",
     "assunto": "CONTRATAÇÃO DE SERVIÇO DE GARANTIA E SUPORTE DE HARDWARES E SOFTWARES POR 36 MESES, VISANDO AO ATENDIMENTO DA DEMANDA DA UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE.",
     "fase": "Planejamento (DPGC)",
-    "subEtapa": "dfd",
-    "subetapa": "Último documento: DESPACHO DE ENCAMINHAMENTO (13/08/2026) · Última movimentação: SUPERINTENDÊNCIA DE TECNOLOGIA DA INFORMAÇÃO (11.35) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (13/08/2026 17:12)",
+    "subEtapa": "etp",
+    "subetapa": "Último documento: DESPACHO DE AUTORIZAÇÃO DA FORMALIZAÇÃO DE DEMANDA (19/08/2026) · Última movimentação: PRÓ-REITORIA DE ADMINISTRAÇÃO (PROAD) (11.02) → PROAD - COORDENADORIA ADMINISTRATIVA (11.02.06) (19/08/2026 08:36)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "14/08/2026",
@@ -20196,7 +20202,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1224929",
-    "marcos": null,
+    "marcos": {
+      "dfdFim": "19/08/2026"
+    },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1224929,
