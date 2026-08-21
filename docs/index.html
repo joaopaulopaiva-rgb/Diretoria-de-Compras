@@ -988,7 +988,7 @@ let activeDfeSubetapa = DFE_SUBETAPAS[0].key;
 let activeResponsavelDfe = null;
 
 function matches(p){
-  const searchOk = !searchTerm || (p.processo+' '+p.assunto+' '+(p.assuntoPregao||'')+' '+(p.pregao||'')+' '+(p.execucao_numero||'')+' '+p.gestor+' '+p.unidade).toLowerCase().includes(searchTerm.toLowerCase());
+  const searchOk = !searchTerm || (p.processo+' '+p.assunto+' '+(p.objetoLicitacao||'')+' '+(p.numeroLicitacao||'')+' '+(p.assuntoPregao||'')+' '+(p.pregao||'')+' '+(p.execucao_numero||'')+' '+p.gestor+' '+p.unidade).toLowerCase().includes(searchTerm.toLowerCase());
   const gestorOk = !activeGestor || p.gestor === activeGestor;
   const dfiOk = !activeResponsavelDfi || (p.responsaveisDfi && nomesCanonicos(p.responsaveisDfi[activeDfiSubetapa]).includes(activeResponsavelDfi));
   const dfeOk = !activeResponsavelDfe || (p.responsaveisDfe && nomesCanonicos(p.responsaveisDfe[activeDfeSubetapa]).includes(activeResponsavelDfe));
@@ -1029,7 +1029,7 @@ function chipHtml(p, cor){
   const dias = diasParado(p.data);
   const cls = statusClasse(dias, p.categoria);
   const dim = !matches(p) ? 'dim' : '';
-  return `<div class="chip status-${cls} ${p.suspenso?'suspenso':''} ${p.urgente?'urgente':''} ${dim}" style="--dot-color:${cor}" data-id="${p.processo}" title="${tituloCard(p)} — ${p.assunto}"></div>`;
+  return `<div class="chip status-${cls} ${p.suspenso?'suspenso':''} ${p.urgente?'urgente':''} ${dim}" style="--dot-color:${cor}" data-id="${p.processo}" title="${tituloCard(p)} — ${objetoCard(p)}"></div>`;
 }
 
 function clusterHtml(procs, f, selecionada, rotulosExtra){
@@ -1134,8 +1134,18 @@ function numeroExecucao(p){
   return p.execucao_numero || null;
 }
 function tituloCard(p){
+  if(p.numeroLicitacao) return p.numeroLicitacao;
   if((p.caminho === 'pregao' || !p.caminho) && p.assuntoPregao) return p.assuntoPregao;
   return numeroExecucao(p) || p.processo;
+}
+// Objeto da própria licitação (extraído do "Assunto Detalhado" do processo
+// de execução) — mais preciso que p.assunto (o assunto do planejamento
+// original, que pode ter sido reformulado na formalização; ex. real:
+// 23077.070170/2024-49 menciona "(METAIS)" no planejamento, mas o pregão
+// 23077.032550/2025-66 não). Cai pro assunto do planejamento enquanto a
+// execução ainda não existe ou não foi lida.
+function objetoCard(p){
+  return p.objetoLicitacao || p.assunto;
 }
 const SIPAC_LINK_BASE = 'https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=';
 function idExecucao(p){
@@ -1204,7 +1214,7 @@ function manifestRows(procs, color, soft){
             ${p.urgente?'<span class="row-tag urgente">Prioridade</span>':''}
             ${p.avancoPorIndicioDfe?`<span class="row-tag indicio" title="Avançou pra Fase Externa por documento de origem DFE, sem o documento de fechamento esperado pra sub-etapa '${(SUBETAPAS.find(s=>s.key===p.avancoPorIndicioDfe)||{}).label||p.avancoPorIndicioDfe}' (ex. Certificação Processual / Análise de Parecer Jurídico). Pode ser só rótulo diferente no SIPAC, ou a etapa pode ter sido pulada de verdade — vale conferir.">⚠ Conferir avanço</span>`:''}
           </div>
-          <div class="row-subj">${p.assunto}${showGestor && p.gestor ? ' · <span style="color:var(--ink-faint)">'+p.gestor.split(' ')[0]+'</span>' : ''}</div>
+          <div class="row-subj">${objetoCard(p)}${showGestor && p.gestor ? ' · <span style="color:var(--ink-faint)">'+p.gestor.split(' ')[0]+'</span>' : ''}</div>
           <div class="row-status">${p.subetapa}</div>
           ${linkBadgesHtml(p)}
           <span class="row-trail-link">🎲 Ver trilha do processo →</span>
@@ -1811,7 +1821,7 @@ function openTrailFor(processoNumero){
         ${numeroExecucao(p) ? 'Processo de execução' : 'Processo de planejamento'}
         <span class="trail-caminho-tag ${caminho.confirmado?'':'placeholder'}">${caminho.label}${caminho.confirmado?'':' · rascunho'}</span>
       </p>
-      <h2 class="trail-title">${p.assunto}</h2>
+      <h2 class="trail-title">${objetoCard(p)}</h2>
       <div class="trail-meta">
         <span>${tituloCard(p)}</span>
         <span>${p.unidade}</span>

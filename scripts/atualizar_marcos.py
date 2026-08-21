@@ -44,6 +44,36 @@ PLACEHOLDER_SUBETAPA = "Adicionado via portão de entrada — aguardando a próx
 # não são da equipe. Mesmo literal usado em scripts/aplicar_decisoes.py.
 FASE_CONCORRENCIA_PRE_DFE = "Concorrência · aguardando Fase Externa (CAOSE/INFRA)"
 
+# --- Número e objeto da licitação, direto do campo "Assunto Detalhado" ---
+# Pedido da pessoa dona do projeto (21/08/2026): assim que o processo de
+# execução (Pregão/Dispensa/Inexigibilidade/Concorrência) existe, o card
+# deve mostrar o número da licitação como título e o objeto como subtítulo
+# — não mais o número/assunto do processo de Planejamento original (que às
+# vezes nem bate: exemplo real, 23077.070170/2024-49, assunto do
+# planejamento menciona "(METAIS)", mas o Assunto Detalhado do pregão
+# 23077.032550/2025-66 não). Fonte: campo "Assunto Detalhado" da própria
+# página do processo de execução — não é específico de nenhum caminho,
+# funciona igual pra Pregão/Dispensa/Inexigibilidade/Concorrência, sempre
+# no formato "TIPO Nº X/AAAA - OBJETO..." (às vezes "Nº.:", às vezes só
+# "Nº", às vezes separado por ":" em vez de "-" — tratado abaixo).
+_ASSUNTO_DETALHADO_RE = _re.compile(
+    r"<th><b>Assunto Detalhado:\s*</b></th>\s*<td[^>]*>(.*?)</td>", _re.IGNORECASE | _re.DOTALL
+)
+_NUMERO_LICITACAO_RE = _re.compile(r"^(.*?N[ºo°]\.?:?\s*\d+/\d{4})\s*[-:]\s*(.*)$", _re.IGNORECASE)
+
+
+def extrair_numero_e_objeto_licitacao(html: str) -> tuple[str | None, str | None]:
+    m = _ASSUNTO_DETALHADO_RE.search(html)
+    if not m:
+        return None, None
+    texto = texto_visivel(m.group(1))
+    m2 = _NUMERO_LICITACAO_RE.search(texto)
+    if not m2:
+        return None, None
+    numero = m2.group(1).strip()
+    objeto = m2.group(2).strip().rstrip(".").strip()
+    return numero, (objeto or None)
+
 # Sub-etapas do caminho Pregão (CLAUDE.md seção 3), separadas por
 # processo-fonte — DFD/ETP/TR/Lista SÓ podem vir do processo de
 # Planejamento; as demais SÓ do processo de Pregão. Nunca misturar (regra
@@ -561,6 +591,13 @@ def atualizar_todos() -> dict:
             docs = extrair_documentos(html)
             movs = extrair_movimentacoes(html)
             if caminho == "concorrencia":
+                numero_lic, objeto_lic = extrair_numero_e_objeto_licitacao(html)
+                if numero_lic and numero_lic != p.get("numeroLicitacao"):
+                    p["numeroLicitacao"] = numero_lic
+                    mudou = True
+                if objeto_lic and objeto_lic != p.get("objetoLicitacao"):
+                    p["objetoLicitacao"] = objeto_lic
+                    mudou = True
                 sub_atual, marcos_novos, concluido = calcular_progresso_concorrencia(docs)
                 if not concluido and sub_atual is None and p.get("fase") != FASE_CONCORRENCIA_PRE_DFE:
                     # Autocorrige rótulo de fase desatualizado/errado (ex.
@@ -587,6 +624,13 @@ def atualizar_todos() -> dict:
             html = client.obter_processo(p[campo_vinculo_id])
             docs = extrair_documentos(html)
             movs = extrair_movimentacoes(html)
+            numero_lic, objeto_lic = extrair_numero_e_objeto_licitacao(html)
+            if numero_lic and numero_lic != p.get("numeroLicitacao"):
+                p["numeroLicitacao"] = numero_lic
+                mudou = True
+            if objeto_lic and objeto_lic != p.get("objetoLicitacao"):
+                p["objetoLicitacao"] = objeto_lic
+                mudou = True
             if caminho == "dispensa":
                 sub_atual, marcos_novos, concluido, sem_disputa = calcular_progresso_dispensa_execucao(docs)
                 if sem_disputa is not None and p.get("semDisputaFaseExterna") != sem_disputa:
