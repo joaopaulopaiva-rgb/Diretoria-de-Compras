@@ -182,11 +182,11 @@
     "processo": "23077.087632/2025-48",
     "assunto": "PCA26 - Aquisição de equipamentos hidráulicos e elétricos (12 meses)",
     "fase": "Planejamento (DPGC)",
-    "subEtapa": "tr",
-    "subetapa": "Estudos técnicos (ETP) autorizados; DPGC deve seguir para o TR",
+    "subEtapa": "lista",
+    "subetapa": "Último documento: DESPACHO DE AUTORIZAÇÃO DO TERMO DE REFERÊNCIA (21/08/2026) · Última movimentação: DIRETORIA DE COMPRAS - PROAD (11.02.09) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (20/05/2026 13:20)",
     "categoria": "elaboracao",
     "unidade": "DPGC - Divisão de Planejamento e Gerenciamento de Compras",
-    "data": "20/08/2026",
+    "data": "21/08/2026",
     "dataCriacao": "09/06/2025",
     "gestor": "Jorge Henrique Teotonio de Lima Melo",
     "pregao": null,
@@ -198,7 +198,8 @@
       "cadastro": "09/06/2025",
       "dfdFim": "19/05/2026",
       "etpInicio": "09/07/2026",
-      "etpFim": "09/07/2026"
+      "etpFim": "09/07/2026",
+      "trFim": "21/08/2026"
     },
     "processo_id": 1149064,
     "pregao_id": null
@@ -273,7 +274,7 @@
     "subetapa": "Último documento: TERMO DE REFERÊNCIA DIGITAL (TR DIGITAL) (18/08/2026) · Última movimentação: DIRETORIA DE COMPRAS - PROAD (11.02.09) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (22/12/2025 19:19)",
     "categoria": "elaboracao",
     "unidade": "DPGC - Divisão de Planejamento e Gerenciamento de Compras",
-    "data": "18/08/2026",
+    "data": "21/08/2026",
     "dataCriacao": "26/08/2025",
     "gestor": "Adrielly Cristiane Silva Vital Nunes",
     "pregao": null,
@@ -299,7 +300,7 @@
     "subetapa": "Último documento: TERMO DE REFERÊNCIA DIGITAL (TR DIGITAL) (18/08/2026) · Última movimentação: DIRETORIA DE COMPRAS - PROAD (11.02.09) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (18/12/2025 17:03)",
     "categoria": "elaboracao",
     "unidade": "DPGC - Divisão de Planejamento e Gerenciamento de Compras",
-    "data": "18/08/2026",
+    "data": "21/08/2026",
     "dataCriacao": "26/08/2025",
     "gestor": "Adrielly Cristiane Silva Vital Nunes",
     "pregao": null,
@@ -532,11 +533,11 @@
     "assunto": "PCA 26 - Planejamento de aquisição de materiais de limpeza e produtos de higienização (itens fracassados no PE 90038/2025)",
     "assuntoPregao": "PREGÃO ELETRÔNICO SISRP Nº.: 90024/2026",
     "fase": "Fase Interna (DFI)",
-    "subEtapa": "analiseDfi",
-    "subetapa": "Concluída a fase de planejamento; pregão 90024/2026 aberto na DFI, aguardando desenvolvimento do edital",
+    "subEtapa": "edital",
+    "subetapa": "Último documento: DESPACHO DE ENCAMINHAMENTO (19/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (06/08/2026 17:01)",
     "categoria": "unidades",
     "unidade": "DFI - Divisão de Fase Interna de Compras",
-    "data": "18/08/2026",
+    "data": "19/08/2026",
     "dataCriacao": "19/06/2026",
     "gestor": "Chianc Leocadio de Lima",
     "pregao": "23077.106273/2026-16",
@@ -553,10 +554,17 @@
       "trFim": "16/07/2026",
       "listaInicio": "16/07/2026",
       "listaFim": "17/07/2026",
-      "analiseDfiInicio": "17/07/2026"
+      "analiseDfiInicio": "17/07/2026",
+      "analiseDfiFim": "06/08/2026",
+      "irpFim": "12/08/2026"
     },
     "processo_id": 1214415,
-    "pregao_id": 1214415
+    "pregao_id": 1219747,
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90024/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE MATERIAL DE LIMPEZA E PRODUTOS DE HIGIENIZAÇÃO",
+    "responsaveisDfi": {
+      "elaboracaoEdital": "Leonardo Belchior Silva Neto"
+    }
   },
   {
     "caminho": "pregao",
@@ -592,7 +600,7 @@
     "subetapa": "Edital publicado; esclarecimentos e respostas já registrados, processo em fase de licitação pública",
     "categoria": "unidades",
     "unidade": "DFE - Divisão de Fase Externa de Compras",
-    "data": "14/08/2026",
+    "data": "20/08/2026",
     "dataCriacao": "15/06/2025",
     "gestor": "Jorge Henrique Teotonio de Lima Melo",
     "pregao": "23077.167944/2025-34",
@@ -609,17 +617,30 @@
       "trFim": "06/10/2025",
       "listaInicio": "06/10/2025",
       "listaFim": "08/10/2025",
-      "analiseDfiInicio": "08/10/2025"
+      "analiseDfiInicio": "08/10/2025",
+      "analiseDfiFim": "17/10/2025",
+      "pesquisaPrecosFim": "20/03/2026",
+      "dfeInicio": "28/05/2026"
     },
     "processo_id": 1150519,
-    "pregao_id": 1150519
+    "pregao_id": 1174902,
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90035/2025",
+    "objetoLicitacao": "AQUISIÇÃO DE MATERIAL DE PROCESSAMENTO DE DADOS PARA ATENDER DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES",
+    "avancoPorIndicioDfe": "irp",
+    "responsaveisDfi": {
+      "pesquisaPrecos": "Saionara Priscila Lucas Saraiva",
+      "irp": "Marilia Linhares de Sousa"
+    },
+    "responsaveisDfe": {
+      "pregoeiro": "Diego Brito Cruz",
+      "equipeApoio": "Adriana da Silva Cardoso"
+    }
   },
   {
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo": "23077.096256/2025-82",
     "assunto": "Contratação de serviços de infraestrutura de cabeamento metálico e óptico para atender a demandas da UFRN",
-    "assuntoPregao": "PREGÃO ELETRÔNICO SISRP Nº.: 90025/2026",
     "fase": "Fase Interna (DFI)",
     "subEtapa": "analiseDfi",
     "subetapa": "Concluída a fase de planejamento; pregão 90025/2026 recém-aberto na DFI",
@@ -628,7 +649,7 @@
     "data": "17/07/2026",
     "dataCriacao": "25/06/2025",
     "gestor": "Jorge Henrique Teotonio de Lima Melo",
-    "pregao": "23077.106361/2026-18",
+    "pregao": null,
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
@@ -645,7 +666,7 @@
       "analiseDfiInicio": "17/07/2026"
     },
     "processo_id": 1152393,
-    "pregao_id": 1152393
+    "pregao_id": null
   },
   {
     "caminho": "pregao",
@@ -653,9 +674,9 @@
     "processo": "23077.149158/2025-55",
     "assunto": "Instalação de agência bancária, conforme orientações e descritivos da área",
     "assuntoPregao": "PREGÃO ELETRÔNICO SISPP Nº.: 90022/2026",
-    "fase": "Fase Interna (DFI)",
-    "subEtapa": "edital",
-    "subetapa": "Nota Informativa de Elaboração de Edital emitida; DFI prossegue com o desenvolvimento do edital",
+    "fase": "Jurídico (Projur/Análise)",
+    "subEtapa": "juridico",
+    "subetapa": "Último documento: DESPACHO (13/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (25/06/2026 16:04)",
     "categoria": "unidades",
     "unidade": "DFI - Divisão de Fase Interna de Compras",
     "data": "13/08/2026",
@@ -675,10 +696,17 @@
       "trFim": "15/06/2026",
       "listaInicio": "18/06/2026",
       "listaFim": "18/06/2026",
-      "analiseDfiInicio": "18/06/2026"
+      "analiseDfiInicio": "18/06/2026",
+      "irpFim": "31/07/2026",
+      "editalFim": "13/08/2026"
     },
     "processo_id": 1168876,
-    "pregao_id": 1168876
+    "pregao_id": 1215205,
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISPP Nº.: 90022/2026",
+    "objetoLicitacao": "CESSÃO ONEROSA DE USO DE IMÓVEIS SITUADOS NAS DEPENDÊNCIAS DA UFRN PARA INSTALAÇÃO DE AGÊNCIA BANCÁRIA",
+    "responsaveisDfi": {
+      "elaboracaoEdital": "Stefferson Alves Sarthour"
+    }
   },
   {
     "caminho": "pregao",
@@ -687,8 +715,8 @@
     "assunto": "Aquisição de material hospitalar - PCA 26 - letras S a Z - 77 itens",
     "assuntoPregao": "PREGÃO ELETRÔNICO SISRP Nº.: 90020/2026",
     "fase": "Fase Interna (DFI)",
-    "subEtapa": "pesquisaPrecos",
-    "subetapa": "Documento comprobatório de licitação emitido; DFI prossegue com pesquisa de preços e IRP",
+    "subEtapa": "irp",
+    "subetapa": "Último documento: DESPACHO (20/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (25/05/2026 16:50)",
     "categoria": "unidades",
     "unidade": "DFI - Divisão de Fase Interna de Compras",
     "data": "20/08/2026",
@@ -708,10 +736,18 @@
       "trFim": "19/05/2026",
       "listaInicio": "19/05/2026",
       "listaFim": "19/05/2026",
-      "analiseDfiInicio": "19/05/2026"
+      "analiseDfiInicio": "19/05/2026",
+      "analiseDfiFim": "09/06/2026",
+      "pesquisaPrecosFim": "26/06/2026"
     },
     "processo_id": 1187634,
-    "pregao_id": 1187634
+    "pregao_id": 1209065,
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90020/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE MATERIAL HOSPITALAR",
+    "responsaveisDfi": {
+      "pesquisaPrecos": "Bruna de Oliveira Silva Cordeiro",
+      "irp": "Marilia Linhares de Sousa"
+    }
   },
   {
     "caminho": "pregao",
@@ -767,7 +803,7 @@
     "subetapa": "Último documento: DESPACHO (07/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (29/05/2026 08:31)",
     "categoria": "juridico",
     "unidade": "DPGC - Divisão de Planejamento e Gerenciamento de Compras",
-    "data": "19/08/2026",
+    "data": "21/08/2026",
     "dataCriacao": "17/04/2024",
     "gestor": "Jorge Henrique Teotonio de Lima Melo",
     "pregao": "23077.066653/2026-19",
@@ -807,9 +843,9 @@
     "processo": "23077.026713/2025-71",
     "assunto": "Aquisição de equipamentos para áudio, vídeo e foto para atender demandas da UFRN pelo período de 12 meses",
     "assuntoPregao": "PREGÃO ELETRÔNICO SISRP Nº.: 90022/2025",
-    "fase": "Jurídico (Projur/Análise)",
-    "subEtapa": "juridico",
-    "subetapa": "Processo enviado à Procuradoria Federal para emissão de Parecer Jurídico",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "dfe",
+    "subetapa": "Último documento: DESPACHO (20/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (18/05/2026 11:17)",
     "categoria": "juridico",
     "unidade": "Secretaria da Procuradoria Federal",
     "data": "20/08/2026",
@@ -830,10 +866,20 @@
       "listaInicio": "13/06/2025",
       "listaFim": "16/06/2025",
       "analiseDfiInicio": "16/06/2025",
-      "juridicoInicio": "12/06/2026"
+      "juridicoInicio": "12/06/2026",
+      "analiseDfiFim": "23/06/2025",
+      "pesquisaPrecosFim": "20/05/2026",
+      "editalFim": "12/06/2026",
+      "juridicoFim": "20/08/2026"
     },
     "processo_id": 1130007,
-    "pregao_id": 1130007
+    "pregao_id": 1151927,
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90022/2025",
+    "objetoLicitacao": "AQUISIÇÃO DE EQUIPAMENTOS PARA AUDIO, VIDEO E FOTO PARA ATENDER DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES",
+    "responsaveisDfi": {
+      "pesquisaPrecos": "Saionara Priscila Lucas Saraiva",
+      "irp": "Marilia Linhares de Sousa"
+    }
   },
   {
     "caminho": "pregao",
@@ -17842,7 +17888,7 @@
     "subetapa": "Último documento: CERTIDÃO (11/08/2026) · Última movimentação: COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) → COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) (14/08/2025 14:38)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "11/08/2026",
+    "data": "21/08/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -19408,7 +19454,7 @@
     "subetapa": "Último documento: DESPACHO (14/08/2026) · Última movimentação: DIRETORIA DE COMPRAS - PROAD (11.02.09) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (14/08/2026 12:48)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "20/08/2026",
+    "data": "21/08/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -19454,7 +19500,7 @@
     "subetapa": "Último documento: DESPACHO (01/07/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → DEPARTAMENTO DE EDUCAÇÃO FÍSICA (15.11) (01/07/2026 13:46)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "01/07/2026",
+    "data": "21/08/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
