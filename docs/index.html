@@ -1210,7 +1210,7 @@ function manifestRows(procs, color, soft){
           <span class="row-trail-link">🎲 Ver trilha do processo →</span>
         </div>
         <div class="row-meta">
-          ${railHtml(p)}
+          ${p.fase==='Homologado' ? '' : railHtml(p)}
           ${previsaoHtml(p)}
           <div>${p.unidade.split(' - ')[0]}</div>
           <a href="${p.link}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Sipac ↗</a>
@@ -1816,7 +1816,7 @@ function openTrailFor(processoNumero){
         <span>${tituloCard(p)}</span>
         <span>${p.unidade}</span>
         ${p.fase==='Planejamento (DPGC)' && p.gestor ? `<span>Gestor: <b>${p.gestor.split(' ')[0]}</b></span>` : ''}
-        <span class="days ${cls}">${dias===0?'Hoje':dias===1?'Há 1 dia':`Há ${dias} dias`}</span>
+        ${p.fase==='Homologado' ? '' : `<span class="days ${cls}">${dias===0?'Hoje':dias===1?'Há 1 dia':`Há ${dias} dias`}</span>`}
       </div>
     </div>
     ${caminho.confirmado ? '' : `<p class="trail-placeholder-note">⚠ Sequência de etapas ainda não confirmada com processos reais deste caminho — é um rascunho provisório, sujeito a mudar.</p>`}
