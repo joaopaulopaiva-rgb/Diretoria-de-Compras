@@ -518,7 +518,9 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1200698",
     "marcos": null,
     "processo_id": 1185145,
-    "pregao_id": 1200698
+    "pregao_id": 1200698,
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90014/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE SOFTWARES DIVERSOS PARA APOIO ACADÊMICO E ADMINISTRATIVO"
   },
   {
     "caminho": "pregao",
@@ -747,7 +749,9 @@
       "pesquisaPrecos": "José Weliton Barbosa da Silva",
       "irp": "Marília Linhares de Sousa",
       "elaboracaoEdital": "Chianc Leocádio de Lima"
-    }
+    },
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90055/2024",
+    "objetoLicitacao": "CONTRATAÇÃO DE LICENÇAS DE SOFTWARES DIVERSOS PARA O APOIO ACADÊMICO E ADMINISTRATIVO, VISANDO O ATENDIMENTO ÀS DEMANDAS DOS LABORATÓRIOS, DEPARTAMENTOS E SETORES ADMINISTRATIVOS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES"
   },
   {
     "caminho": "pregao",
@@ -790,7 +794,9 @@
       "pesquisaPrecos": "Amanda Medeiros",
       "irp": "Marilia Linhares de Sousa",
       "elaboracaoEdital": "Stefferson Alves Sarthour"
-    }
+    },
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90018/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE EQUIPAMENTOS DE COMPUTAÇÃO PESSOAL"
   },
   {
     "caminho": "pregao",
@@ -900,7 +906,9 @@
     "execucao_id": 1078583,
     "processo_id": 1072785,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1078583",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 10/2024",
+    "objetoLicitacao": "AQUISIÇÃO DE SUPORTE PARA BANNERS"
   },
   {
     "processo": "23077.001297/2024-18",
@@ -1265,7 +1273,9 @@
     "responsaveisDfe": {
       "pregoeiro": "Klayton Lima Figueiredo",
       "equipeApoio": "Adriana da Silva Cardoso"
-    }
+    },
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90009/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE MATERIAL PARA MANUTENÇÃO DE BENS IMÓVEIS"
   },
   {
     "processo": "23077.004795/2026-84",
@@ -1656,7 +1666,9 @@
     "execucao_id": 1080064,
     "processo_id": 1075582,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1080064",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 12/2024",
+    "objetoLicitacao": "SERVIÇOS FUNERÁRIOS PARA TRASLADO DE CADÁVERES HUMANOS EM FAVOR DO DEPARTAMENTO DE MORFOLOGIA"
   },
   {
     "processo": "23077.010058/2024-59",
@@ -1681,7 +1693,9 @@
     "execucao_id": 1077736,
     "processo_id": 1075583,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1077736",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 7/2024",
+    "objetoLicitacao": "CONTRATAÇÃO DE SERVIÇOS PARA MANUTENÇÃO EM MACAS ELEVATÓRIAS E TANQUES DE CONSERVAÇÃO DE CADÁVERES"
   },
   {
     "processo": "23077.010149/2025-75",
@@ -1752,7 +1766,9 @@
     "execucao_id": 1199086,
     "processo_id": 1191312,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1199086",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90011/2026",
+    "objetoLicitacao": "SERVIÇOS DE REMOÇÃO DE CADÁVERES"
   },
   {
     "processo": "23077.012372/2024-76",
@@ -2521,7 +2537,9 @@
     "execucao_id": 1219540,
     "processo_id": 1194635,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1219540",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90028/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE SHORTS PARA EDUCAÇÃO FÍSICA E CAMISAS TIPO REGATA PARA OS ALUNOS DA ESCOLA AGRÍCOLA DE JUNDIAÍ (EAJ)"
   },
   {
     "processo": "23077.022619/2025-43",
@@ -3240,7 +3258,9 @@
     "execucao_numero": "23077.039371/2024-79",
     "execucao_id": 1083413,
     "processo_id": 1082321,
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1083413"
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1083413",
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 15/2024",
+    "objetoLicitacao": "AQUISIÇÃO DE CONDUTIVÍMETRO ONLINE"
   },
   {
     "processo": "23077.035926/2024-11",
@@ -3383,7 +3403,9 @@
     "execucao_id": 1135320,
     "processo_id": 1133610,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1135320",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90020/2025",
+    "objetoLicitacao": "AQUISIÇÃO DE CORDA PARA HASTEAMENTO DE BANDEIRA DA UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"
   },
   {
     "processo": "23077.037910/2024-35",
@@ -3532,7 +3554,9 @@
     "execucao_numero": "23077.062114/2025-11",
     "execucao_id": 1140998,
     "processo_id": 1134082,
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1140998"
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1140998",
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90029/2025",
+    "objetoLicitacao": "AQUISIÇÃO DE MATERIAL PARA CERCAMENTO"
   },
   {
     "processo": "23077.039663/2024-10",
@@ -3807,7 +3831,9 @@
     "execucao_id": 1219542,
     "processo_id": 1201378,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1219542",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90030/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE ESTETOSCÓPIOS"
   },
   {
     "processo": "23077.045576/2025-74",
@@ -3964,7 +3990,9 @@
     "responsaveisDfe": {
       "pregoeiro": "Paulo José Pereira",
       "equipeApoio": "Adriana da Silva Cardoso"
-    }
+    },
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90017/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE MATERIAL ELÉTRICO E ELETRÔNICO"
   },
   {
     "processo": "23077.048063/2024-34",
@@ -4224,7 +4252,9 @@
     "execucao_id": 1152362,
     "processo_id": 1137388,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1152362",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90042/2025",
+    "objetoLicitacao": "AQUISIÇÃO DE CADEIRA DE RODAS PARA BANHO"
   },
   {
     "processo": "23077.050701/2024-87",
@@ -4349,7 +4379,9 @@
     "execucao_id": 1110885,
     "processo_id": 1086673,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1110885",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90060/2024",
+    "objetoLicitacao": "CONTRATAÇÃO DE SERVIÇOS DE CONSTRUÇÃO DE WEBSITE"
   },
   {
     "processo": "23077.051875/2024-67",
@@ -4628,7 +4660,9 @@
     "execucao_id": 1144313,
     "processo_id": 1138940,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1144313",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90033/2025",
+    "objetoLicitacao": "AQUISIÇÃO DE MATERIAIS QUÍMICOS E LABORATORIAIS"
   },
   {
     "processo": "23077.055569/2025-81",
@@ -4686,7 +4720,9 @@
       "pesquisaPrecos": "José Weliton Barbosa da Silva",
       "irp": "Marília Linhares de Sousa",
       "elaboracaoEdital": "Chianc Leocádio de Lima"
-    }
+    },
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90029/2025",
+    "objetoLicitacao": "AQUISIÇÃO DE ATIVOS DE REDE WIRELESS (PONTOS DE ACESSO E LICENÇAS PARA SISTEMA DE GERENCIAMENTO) EM VISTAS À EXPANSÃO DO PARQUE TECNOLÓGICO DE REDE DE DADOS SEM FIO DA UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE PELO PERÍODO DE 12 (DOZE) MESES"
   },
   {
     "processo": "23077.055707/2024-41",
@@ -5084,7 +5120,9 @@
     "execucao_id": 1091345,
     "processo_id": 1088619,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1091345",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90030/2024",
+    "objetoLicitacao": "AQUISIÇÃO DE MUFLAS TERMINAIS UNIPOLARES"
   },
   {
     "processo": "23077.058759/2024-79",
@@ -5252,7 +5290,9 @@
     "execucao_id": 1092173,
     "processo_id": 1088779,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1092173",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90032/2024",
+    "objetoLicitacao": "AQUISIÇÃO DE VISOR PLUMBÍFERO COM CAIXILHO PARA RAIO X"
   },
   {
     "processo": "23077.059128/2024-77",
@@ -5806,7 +5846,9 @@
     "execucao_id": 1175864,
     "processo_id": 1141297,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1175864",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90085/2025",
+    "objetoLicitacao": "AQUISIÇÃO DE ARMÁRIO PARA REAGENTES COM EXAUSTÃO INCLUINDO INSTALAÇÃO E MONTAGEM"
   },
   {
     "processo": "23077.063272/2025-99",
@@ -6529,7 +6571,9 @@
       "pesquisaPrecos": "Bruna de Oliveira Silva",
       "irp": "Sonaydy Lyany Dantas",
       "elaboracaoEdital": "Leonardo Belchior Silva Neto"
-    }
+    },
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90009/2025",
+    "objetoLicitacao": "AQUISIÇÃO DE MATERIAL LABORATORIAL PARA ATENDER DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES"
   },
   {
     "processo": "23077.070281/2024-55",
@@ -6738,7 +6782,9 @@
     "execucao_id": 1097291,
     "processo_id": 1093187,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1097291",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90038/2024",
+    "objetoLicitacao": "CONTRATAÇÃO DE SERVIÇOS DE MANUTENÇÃO CORRETIVA EM EMPILHADEIRA ELÉTRICA E SERVIÇO DE MANUTENÇÃO CORRETIVA EM TRANSPALETEIRA MANUAL, COM SUBSTITUIÇÃO DE PEÇAS"
   },
   {
     "processo": "23077.072921/2025-42",
@@ -7329,7 +7375,9 @@
     "execucao_id": 1165491,
     "processo_id": 1146859,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1165491",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90061/2025",
+    "objetoLicitacao": "CONTRATAÇÃO DE SERVIÇOS DE ILUSTRADOR PROFISSIONAL HABILITADO PARA FORNECER ILUSTRAÇÕES"
   },
   {
     "processo": "23077.081059/2024-88",
@@ -7447,7 +7495,9 @@
       "pregoeiro": "Diego Brito Cruz",
       "equipeApoio": "Adriana da Silva Cardoso"
     },
-    "avancoPorIndicioDfe": "edital"
+    "avancoPorIndicioDfe": "edital",
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90001/2026",
+    "objetoLicitacao": "CONTRATAÇÃO DE SERVIÇOS CONTÍNUOS DE EMPRESA ESPECIALIZADA EM ORGANIZAÇÃO DE EVENTOS, PARA PRODUÇÃO, ORGANIZAÇÃO E EXECUÇÃO DE EVENTOS, SOB DEMANDA, NO ÃMBITO DA UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE PELO PERÍODO DE 12 (DOZE) MESES"
   },
   {
     "processo": "23077.081997/2025-69",
@@ -7934,7 +7984,9 @@
       "pregoeiro": "Adriana da Silva Cardoso",
       "equipeApoio": "Andrea Lopes Figueiredo"
     },
-    "avancoPorIndicioDfe": "edital"
+    "avancoPorIndicioDfe": "edital",
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90021/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE EQUIPAMENTOS DE PROTEÇÃO E SEGURANÇA PARA BIBLIOTECAS"
   },
   {
     "processo": "23077.087730/2024-02",
@@ -8628,7 +8680,9 @@
     "responsaveisDfe": {
       "pregoeiro": "Diego Brito Cruz",
       "equipeApoio": "Adriana da Silva Cardoso"
-    }
+    },
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90047/2024",
+    "objetoLicitacao": "AQUISIÇÃO DE MÁQUINAS, UTENSÍLIOS E EQUIPAMENTOS AGRÍCOLAS E DE EQUIPAMENTOS DE COMUNICAÇÃO PARA ATENDER DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES"
   },
   {
     "processo": "23077.095621/2025-31",
@@ -8653,7 +8707,9 @@
     "execucao_id": 1191662,
     "processo_id": 1152255,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1191662",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90005/2026",
+    "objetoLicitacao": "CONTRATAÇÃO DE SERVIÇOS DE MANUTENÇÃO DE CASA DE BOMBAS DA PISCINA OLÍMPICA DA UFRN"
   },
   {
     "processo": "23077.095691/2024-17",
@@ -9823,7 +9879,9 @@
     "responsaveisDfe": {
       "pregoeiro": "Klayton Lima Figueiredo",
       "equipeApoio": "Adriana da Silva Cardoso"
-    }
+    },
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90003/2025",
+    "objetoLicitacao": "AQUISIÇÃO DE APARELHOS DE MEDIÇÃO E ORIENTAÇÃO PARA ATENDER DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES"
   },
   {
     "processo": "23077.111336/2025-75",
@@ -9892,7 +9950,9 @@
     "execucao_numero": "23077.060354/2025-81",
     "execucao_id": 1140602,
     "processo_id": 1104344,
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1140602"
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1140602",
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90027/2025",
+    "objetoLicitacao": "SERVIÇOS DE APOIO (REPROGRAFIA), COM CESSÃO DE ESPAÇO, PARA ATENDER DEMANDAS DA COMUNIDADE UNIVERSITÁRIA DA UFRN PELO PERÍODO DE 12 (DOZE) MESES"
   },
   {
     "processo": "23077.112059/2024-37",
@@ -10317,7 +10377,9 @@
       "pregoeiro": "Paulo José Pereira",
       "equipeApoio": "Adriana da Silva Cardoso"
     },
-    "avancoPorIndicioDfe": "edital"
+    "avancoPorIndicioDfe": "edital",
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90013/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE MATERIAL ODONTOLÓGICO PARA ATENDER DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES"
   },
   {
     "processo": "23077.117056/2024-90",
@@ -10448,7 +10510,9 @@
       "pregoeiro": "Andrea Lopes de Figueiredo",
       "equipeApoio": "Adriana da Silva Cardoso"
     },
-    "avancoPorIndicioDfe": "edital"
+    "avancoPorIndicioDfe": "edital",
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90027/2025",
+    "objetoLicitacao": "AQUISIÇÃO DE MATERIAL ODONTOLÓGICO PARA ATENDER DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES"
   },
   {
     "processo": "23077.117122/2025-11",
@@ -10560,7 +10624,9 @@
     "execucao_id": 1107778,
     "processo_id": 1106101,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1107778",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90053/2024",
+    "objetoLicitacao": "AQUISIÇÃO DE MATERIAL GRÁFICO"
   },
   {
     "processo": "23077.118530/2025-81",
@@ -10634,7 +10700,9 @@
     "execucao_id": 1114416,
     "processo_id": 1106587,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1114416",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90070/2024",
+    "objetoLicitacao": "AQUISIÇÃO DE CANAS E EQUIPAMENTOS PARA PRODUÇÃO DE PALHETAS PARA OBOÉS PARA ATENDER A ESCOLA DE MÚSICA DA UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE"
   },
   {
     "processo": "23077.119917/2024-74",
@@ -10833,7 +10901,9 @@
       "pesquisaPrecos": "Vanessa Raquel da Silva Medino",
       "irp": "Sonaydy Lyany Dantas",
       "elaboracaoEdital": "Éricka Fabrícia Jácome de Sousa Costa"
-    }
+    },
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90033/2025",
+    "objetoLicitacao": "AQUISIÇÃO DE LIVROS IMPRESSOS SOB DEMANDA PARA ATENDER DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES"
   },
   {
     "processo": "23077.122176/2024-17",
@@ -11055,7 +11125,9 @@
     "execucao_id": 1115318,
     "processo_id": 1107934,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1115318",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90077/2024",
+    "objetoLicitacao": "CONTRATAÇÃO DE SERVIÇOS DE MODELAGEM DE PALEOARTE EM 3D"
   },
   {
     "processo": "23077.124344/2025-81",
@@ -11267,7 +11339,9 @@
     "execucao_id": 1116899,
     "processo_id": 1108558,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1116899",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90088/2024",
+    "objetoLicitacao": "AQUISIÇÃO DE TESTES PSICOLÓGICOS PARA PRESTAÇÃO DE SERVIÇO DE ATENDIMENTO NO SENE (SERVIÇO DE NEUROPSICOLOGIA DO ENVELHECIMENTO) – SERVIÇO DE EXTENSÃO/ASSISTÊNCIA"
   },
   {
     "processo": "23077.126492/2024-50",
@@ -11292,7 +11366,9 @@
     "execucao_id": 1116256,
     "processo_id": 1108823,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1116256",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90079/2024",
+    "objetoLicitacao": "AQUISIÇÃO DE VIDRO TEMPERADO PARA SECRETARIA DE GOVERNANÇA INSTITUCIONAL (SGI)"
   },
   {
     "processo": "23077.126516/2024-71",
@@ -11478,7 +11554,9 @@
     "execucao_id": 1170244,
     "processo_id": 1161954,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1170244",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90074/2025",
+    "objetoLicitacao": "CONTRATAÇÃO DE SERVIÇOS DE GRAVAÇÃO DE VOZ E EDIÇÃO EM ESTÚDIO PARA PRODUÇÃO DE PODCASTS"
   },
   {
     "processo": "23077.127976/2024-16",
@@ -11689,7 +11767,9 @@
     "execucao_id": 1115975,
     "processo_id": 1109665,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1115975",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90078/2024",
+    "objetoLicitacao": "AQUISIÇÃO DE CADEIRA DE ESCRITÓRIO PARA OBESO"
   },
   {
     "processo": "23077.130610/2024-24",
@@ -11766,7 +11846,9 @@
     "execucao_id": 1116455,
     "processo_id": 1109715,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1116455",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90086/2024",
+    "objetoLicitacao": "CONTRATAÇÃO DE SERVIÇOS DE ANÁLISES LABORATORIAIS (QUÍMICAS E FÍSICAS) DE SOLOS E SEDIMENTOS"
   },
   {
     "processo": "23077.130854/2024-15",
@@ -12223,7 +12305,9 @@
     "execucao_numero": "23077.092120/2026-84",
     "execucao_id": 1215948,
     "processo_id": 1164509,
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1215948"
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1215948",
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90026/2026",
+    "objetoLicitacao": "CONTRATAÇÃO DE SERVIÇOS CONTÍNUOS DE APOIO DE RESTAURANTE/LANCHONETE PARA ATENDER DEMANDAS DA UFRN"
   },
   {
     "processo": "23077.135085/2024-33",
@@ -12489,7 +12573,9 @@
     "execucao_id": 1167641,
     "processo_id": 1165177,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1167641",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90068/2025",
+    "objetoLicitacao": "CONTRATAÇÃO SERVIÇOS DE MANUTENÇÃO EM MACAS ELEVATÓRIAS E TANQUES DE CONSERVAÇÃO DE CADÁVERES - DMOR"
   },
   {
     "processo": "23077.136992/2025-81",
@@ -13394,7 +13480,9 @@
     "execucao_id": 1193982,
     "processo_id": 1167901,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1193982",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90007/2026",
+    "objetoLicitacao": "CONTRATAÇÃO DE SERVIÇOS DE LICENCIAMENTO DO SOFTWARE NVIVO 15, VERSÃO ACADÊMICO, DESTINADO A ATENDER ÀS NECESSIDADES DO PROGRAMA DE PÓS-GRADUAÇÃO EM MÚSICA, DA ESCOLA DE MÚSICA DA UFRN"
   },
   {
     "processo": "23077.146418/2025-31",
@@ -14444,7 +14532,9 @@
     "execucao_id": 1122342,
     "processo_id": 1117346,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1122342",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90001/2025",
+    "objetoLicitacao": "AQUISIÇÃO DE CAIXAS DE PAPELÃO"
   },
   {
     "processo": "23077.161405/2025-91",
@@ -15578,7 +15668,9 @@
     "execucao_id": 1150023,
     "processo_id": 1121695,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1150023",
-    "semDisputaFaseExterna": false
+    "semDisputaFaseExterna": false,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90039/2025",
+    "objetoLicitacao": "CONTRATAÇÃO DE SERVIÇOS DE MANUTENÇÃO EM MACAS ELEVATÓRIAS E TANQUES DE CONSERVAÇÃO DE CADÁVERES – DMOR, COM FORNECIMENTO DE PEÇAS"
   },
   {
     "processo": "23077.182199/2025-53",
@@ -15753,7 +15845,9 @@
       "pregoeiro": "Diego Brito Cruz",
       "equipeApoio": "Adriana da Silva Cardoso"
     },
-    "avancoPorIndicioDfe": "irp"
+    "avancoPorIndicioDfe": "irp",
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90015/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE MATERIAL HOSPITALAR"
   },
   {
     "processo": "23077.196202/2025-16",
@@ -15966,7 +16060,9 @@
       "pregoeiro": "Andrea Lopes de Figueiredo",
       "equipeApoio": "Adriana da Silva Cardoso"
     },
-    "avancoPorIndicioDfe": "juridico"
+    "avancoPorIndicioDfe": "juridico",
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90016/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE MATERIAL HOSPITALAR"
   },
   {
     "processo": "23077.208192/2025-79",
@@ -16000,7 +16096,9 @@
       "pregoeiro": "Diego Brito Cruz",
       "equipeApoio": "Adriana da Silva Cardoso"
     },
-    "avancoPorIndicioDfe": "edital"
+    "avancoPorIndicioDfe": "edital",
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90019/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE MATERIAL HOSPITALAR"
   },
   {
     "processo": "23077.115273/2026-15",
@@ -20253,7 +20351,9 @@
     "caminho": "concorrencia",
     "caminhoHistorico": [],
     "processo_id": 1197220,
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1197220"
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1197220",
+    "numeroLicitacao": "CONCORRÊNCIA Nº.: 90001/2026",
+    "objetoLicitacao": "ADEQUAÇÃO DAS INSTALAÇÕES DE CLIMATIZAÇÃO DA ESCOLA DE CIÊNCIA E TECNOLOGIA DA UFRN"
   },
   {
     "processo": "23077.031244/2026-93",
@@ -20429,7 +20529,9 @@
     "caminho": "concorrencia",
     "caminhoHistorico": [],
     "processo_id": 1205371,
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1205371"
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1205371",
+    "numeroLicitacao": "CONCORRÊNCIA Nº.: 90005/2026",
+    "objetoLicitacao": "ADEQUAÇÃO DO AUDITÓRIO DO NEPSA I PARA INSTALAÇÃO DE UMA SALA DE CINEMA"
   },
   {
     "processo": "23077.087366/2025-53",
@@ -20449,7 +20551,9 @@
     "caminho": "concorrencia",
     "caminhoHistorico": [],
     "processo_id": 1148935,
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1148935"
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1148935",
+    "numeroLicitacao": "CONCORRÊNCIA SISPP Nº.: 90008/2025",
+    "objetoLicitacao": "CONTRATAÇÃO DE SERVIÇOS CONTÍNUOS DE CONCESSÃO DE UM PAR DE FIBRAS ÓPTICAS EM CONTRAPARTIDA DAS MANUTENÇÕES PREVENTIVA E CORRETIVA DE CABEAMENTO ÓPTICO, COM FORNECIMENTO DE PEÇAS, NA INFRAESTRUTURA DA REDE DE DADOS GIGA METRÓPOLE"
   },
   {
     "processo": "23077.092427/2026-85",
@@ -20471,7 +20575,9 @@
     "caminho": "concorrencia",
     "caminhoHistorico": [],
     "processo_id": 1216025,
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1216025"
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1216025",
+    "numeroLicitacao": "CONCORRÊNCIA Nº.: 90006/2026",
+    "objetoLicitacao": "REFORMA DO CENTRO DE CONVIVÊNCIA PARA IMPLANTAÇÃO DA OUVIDORIA DA UFRN"
   },
   {
     "processo": "23077.096963/2025-79",
