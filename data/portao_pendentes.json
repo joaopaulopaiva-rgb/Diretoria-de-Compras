@@ -1,18 +1,5 @@
 [
   {
-    "processo_id": 1223775,
-    "numero": "23077.117967/2026-89",
-    "assunto": "-IMPRESSÃO DA REVISTA CIGARRA PRODUTO DO PROJETO DE EXTENSÃO CIGARRA DIGITAL - PJ 494-2026",
-    "primeiro_documento": "ORÇAMENTO",
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223775",
-    "descoberto_em": "2026-08-13",
-    "dataAbertura": "11/08/2026",
-    "ultimaAtividade": "03/08/2026",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
     "processo_id": 1222675,
     "numero": "23077.114592/2026-03",
     "assunto": "SOLICITAÇÃO DE ADESÃO OU DISPENSA DE LICITAÇÃO PARA AQUISIÇÃO GPS PORTÁTIL PARA LEVANTAMENTOS EM ATIVIDADE DE CAMPO.",
@@ -51,20 +38,6 @@
     "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
     "dataAbertura": "05/08/2026",
     "ultimaAtividade": "05/08/2026",
-    "triado": true,
-    "statusChecado": true
-  },
-  {
-    "processo_id": 1162320,
-    "numero": "23077.128750/2025-13",
-    "assunto": "PROCESSO PARA CONTRATAÇÃO DE PESSOA FÍSICA PARA MINISTRAR CURSO COM FOMENTO APROVADO POR EDITAL INTERNO UFRN",
-    "primeiro_documento": null,
-    "status": "pendente",
-    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1162320",
-    "descoberto_em": "14/08/2026",
-    "nota_classificacao": "sem apensação encontrada na varredura 2024-hoje",
-    "dataAbertura": "18/08/2025",
-    "ultimaAtividade": null,
     "triado": true,
     "statusChecado": true
   }

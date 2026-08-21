@@ -1271,5 +1271,23 @@
     "ignoradoEm": "14/08/2026",
     "ultimaAtividadeNoIgnorar": null,
     "motivo": null
+  },
+  {
+    "processo_id": 1162320,
+    "numero": "23077.128750/2025-13",
+    "assunto": "PROCESSO PARA CONTRATAÇÃO DE PESSOA FÍSICA PARA MINISTRAR CURSO COM FOMENTO APROVADO POR EDITAL INTERNO UFRN",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1162320",
+    "ignoradoEm": "21/08/2026",
+    "ultimaAtividadeNoIgnorar": null,
+    "motivo": null
+  },
+  {
+    "processo_id": 1223775,
+    "numero": "23077.117967/2026-89",
+    "assunto": "-IMPRESSÃO DA REVISTA CIGARRA PRODUTO DO PROJETO DE EXTENSÃO CIGARRA DIGITAL - PJ 494-2026",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223775",
+    "ignoradoEm": "21/08/2026",
+    "ultimaAtividadeNoIgnorar": "03/08/2026",
+    "motivo": null
   }
 ]
