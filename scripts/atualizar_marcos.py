@@ -19,6 +19,7 @@ esse campo à mão quando quiser mais qualidade.
 
 from __future__ import annotations
 
+import datetime as _datetime
 import json
 import re as _re
 import sys
@@ -468,6 +469,32 @@ def resumo_mecanico(docs, movimentacoes) -> str:
     return " · ".join(partes) if partes else "Sem documentos ou movimentações registradas ainda."
 
 
+def data_ultima_atividade(docs, movimentacoes) -> str | None:
+    """Data (DD/MM/AAAA) do evento mais recente entre o último documento e a
+    última movimentação — é o que alimenta p["data"], usado pelo painel pra
+    calcular "há quantos dias está parado" e disparar os alertas de prazo
+    (CLAUDE.md seção 6). Bug real encontrado 21/08/2026: nenhum script
+    atualizava p["data"] depois da criação do registro — ficava travado na
+    data em que o processo foi descoberto/promovido pro painel, fazendo
+    processos genuinamente parados há semanas aparecerem como "há poucos
+    dias"."""
+    candidatas: list[str] = []
+    if docs:
+        candidatas.append(docs[-1].data)
+    if movimentacoes:
+        candidatas.append(movimentacoes[-1].data_origem.split()[0])
+    if not candidatas:
+        return None
+
+    def _parse(d: str) -> _datetime.date:
+        return _datetime.datetime.strptime(d, "%d/%m/%Y").date()
+
+    try:
+        return max(candidatas, key=_parse)
+    except ValueError:
+        return candidatas[0]
+
+
 def avisos_retrabalho(numero_processo: str, retrabalho: list[tuple[str, list[str]]]) -> list[str]:
     """Formata os avisos de possível saída do fluxo padrão (documento de uma
     etapa já concluída reaparecendo mais tarde) pra lista de avisos."""
@@ -632,6 +659,11 @@ def atualizar_todos() -> dict:
             sub_atual, marcos_novos, _chegou_ao_fim, retrabalho = calcular_progresso(docs, etapas_planejamento)
             avisos.extend(avisos_retrabalho(p["processo"], retrabalho))
             estados = {"concluido": False, "em_recurso": False, "candidato_suspensao": False}
+
+        nova_data = data_ultima_atividade(docs, movs)
+        if nova_data and nova_data != p.get("data"):
+            p["data"] = nova_data
+            mudou = True
 
         if estados["concluido"] and p.get("fase") != "Homologado":
             # "Homologado" é reaproveitado aqui como o balde genérico de
