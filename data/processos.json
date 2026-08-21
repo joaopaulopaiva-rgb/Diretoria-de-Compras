@@ -241,7 +241,7 @@
     "data": "20/08/2026",
     "dataCriacao": "24/06/2025",
     "gestor": "Adrielly Cristiane Silva Vital Nunes",
-    "pregao": null,
+    "pregao": "23077.090222/2026-65",
     "suspenso": false,
     "emRecurso": false,
     "urgente": true,
@@ -255,10 +255,13 @@
       "trFim": "09/06/2026",
       "listaInicio": "09/06/2026",
       "listaFim": "11/06/2026",
-      "juridicoInicio": "11/06/2026"
+      "juridicoInicio": "11/06/2026",
+      "editalFim": "09/07/2026"
     },
     "processo_id": 1152174,
-    "pregao_id": null
+    "pregao_id": 1215440,
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISPP Nº.: 90023/2026",
+    "objetoLicitacao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO CONTINUADO DE MANUTENÇÃO PREDIAL COM DEDICAÇÃO EXCLUSIVA DE MÃO DE OBRA PARA ATENDER DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES"
   },
   {
     "caminho": "pregao",
