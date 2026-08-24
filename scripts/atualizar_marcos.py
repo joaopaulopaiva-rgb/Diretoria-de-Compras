@@ -724,9 +724,23 @@ def atualizar_todos() -> dict:
             html = client.obter_processo(p["processo_id"])
             docs = extrair_documentos(html)
             movs = extrair_movimentacoes(html)
-            sub_atual, marcos_novos, _chegou_ao_fim, retrabalho = calcular_progresso(docs, etapas_planejamento)
+            sub_atual, marcos_novos, chegou_ao_fim, retrabalho = calcular_progresso(docs, etapas_planejamento)
             avisos.extend(avisos_retrabalho(p["processo"], retrabalho))
             estados = {"concluido": False, "em_recurso": False, "candidato_suspensao": False}
+            # calcular_progresso devolve sub_atual=None de propósito quando
+            # o planejamento terminou (chegou_ao_fim) — normalmente nesse
+            # ponto tem_execucao_vinculada já seria True e o outro branch
+            # assumiria a leitura. Mas se o vínculo ainda não foi resolvido
+            # (aviso "apensado sem vínculo" acima, ou DFI ainda não abriu o
+            # processo de execução), sub_atual=None deixava a sub-etapa
+            # travada no valor inicial ("dfd") pra sempre, mesmo com o
+            # planejamento 100% concluído — bug real encontrado 24/08/2026
+            # (23077.174275/2024-76: Lista de Verificação feita e enviado à
+            # DFI há mais de 570 dias, card mostrando "dfd" o tempo todo).
+            # Correção: usa a última etapa da lista como sub-etapa "chão"
+            # nesse caso — reflete o que realmente foi confirmado.
+            if chegou_ao_fim and not sub_atual:
+                sub_atual = etapas_planejamento[-1][0]
 
         nova_data = data_ultima_atividade(docs, movs)
         if nova_data and nova_data != p.get("data"):
