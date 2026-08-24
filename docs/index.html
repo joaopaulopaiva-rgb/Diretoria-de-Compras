@@ -1213,6 +1213,7 @@ function manifestRows(procs, color, soft){
             ${p.emRecurso?'<span class="row-tag recurso">Em recurso</span>':''}
             ${p.urgente?'<span class="row-tag urgente">Prioridade</span>':''}
             ${p.avancoPorIndicioDfe?`<span class="row-tag indicio" title="Avançou pra Fase Externa por documento de origem DFE, sem o documento de fechamento esperado pra sub-etapa '${(SUBETAPAS.find(s=>s.key===p.avancoPorIndicioDfe)||{}).label||p.avancoPorIndicioDfe}' (ex. Certificação Processual / Análise de Parecer Jurídico). Pode ser só rótulo diferente no SIPAC, ou a etapa pode ter sido pulada de verdade — vale conferir.">⚠ Conferir avanço</span>`:''}
+            ${p.avisoApensadoSemVinculo?`<span class="row-tag indicio" title="O processo no SIPAC já mudou de status (apensado/arquivado/cancelado) ou já foi enviado à DFI, mas o painel ainda não tem o processo de execução vinculado — a contagem de dias parado aqui pode estar errada. Precisa achar o processo de execução correto (Termo de Juntada) e vincular manualmente.">⚠ Conferir apensação</span>`:''}
           </div>
           <div class="row-subj">${objetoCard(p)}${showGestor && p.gestor ? ' · <span style="color:var(--ink-faint)">'+p.gestor.split(' ')[0]+'</span>' : ''}</div>
           <div class="row-status">${p.subetapa}</div>

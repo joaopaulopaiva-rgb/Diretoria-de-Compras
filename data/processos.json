@@ -72,7 +72,8 @@
       "listaFim": "07/08/2026"
     },
     "processo_id": 1217522,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "caminho": "pregao",
@@ -125,7 +126,8 @@
       "listaFim": "11/08/2026"
     },
     "processo_id": 1147856,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "caminho": "pregao",
@@ -227,7 +229,8 @@
       "dfdFim": "05/03/2026"
     },
     "processo_id": 1184742,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "caminho": "pregao",
@@ -270,11 +273,11 @@
     "processo": "23077.135115/2025-92",
     "assunto": "Planejamento de aquisição de material laboratorial (Vidraria III)",
     "fase": "Planejamento (DPGC)",
-    "subEtapa": "tr",
-    "subetapa": "Último documento: TERMO DE REFERÊNCIA DIGITAL (TR DIGITAL) (18/08/2026) · Última movimentação: DIRETORIA DE COMPRAS - PROAD (11.02.09) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (22/12/2025 19:19)",
+    "subEtapa": "lista",
+    "subetapa": "Último documento: DESPACHO DE AUTORIZAÇÃO DO TERMO DE REFERÊNCIA (23/08/2026) · Última movimentação: DIRETORIA DE COMPRAS - PROAD (11.02.09) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (22/12/2025 19:19)",
     "categoria": "elaboracao",
     "unidade": "DPGC - Divisão de Planejamento e Gerenciamento de Compras",
-    "data": "21/08/2026",
+    "data": "23/08/2026",
     "dataCriacao": "26/08/2025",
     "gestor": "Adrielly Cristiane Silva Vital Nunes",
     "pregao": null,
@@ -285,7 +288,8 @@
     "marcos": {
       "cadastro": "26/08/2025",
       "dfdFim": "28/08/2025",
-      "etpFim": "17/08/2026"
+      "etpFim": "17/08/2026",
+      "trFim": "23/08/2026"
     },
     "processo_id": 1164572,
     "pregao_id": null
@@ -296,11 +300,11 @@
     "processo": "23077.135108/2025-91",
     "assunto": "Planejamento de aquisição de material laboratorial (Vidraria II)",
     "fase": "Planejamento (DPGC)",
-    "subEtapa": "tr",
-    "subetapa": "Último documento: TERMO DE REFERÊNCIA DIGITAL (TR DIGITAL) (18/08/2026) · Última movimentação: DIRETORIA DE COMPRAS - PROAD (11.02.09) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (18/12/2025 17:03)",
+    "subEtapa": "lista",
+    "subetapa": "Último documento: DESPACHO DE AUTORIZAÇÃO DO TERMO DE REFERÊNCIA (23/08/2026) · Última movimentação: DIRETORIA DE COMPRAS - PROAD (11.02.09) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (18/12/2025 17:03)",
     "categoria": "elaboracao",
     "unidade": "DPGC - Divisão de Planejamento e Gerenciamento de Compras",
-    "data": "21/08/2026",
+    "data": "23/08/2026",
     "dataCriacao": "26/08/2025",
     "gestor": "Adrielly Cristiane Silva Vital Nunes",
     "pregao": null,
@@ -311,7 +315,8 @@
     "marcos": {
       "cadastro": "26/08/2025",
       "dfdFim": "28/08/2025",
-      "etpFim": "17/08/2026"
+      "etpFim": "17/08/2026",
+      "trFim": "23/08/2026"
     },
     "processo_id": 1164570,
     "pregao_id": null
@@ -482,7 +487,7 @@
     "subetapa": "TR finalizado; requisição de materiais anexada (04/08), recebido por Chianc em 05/08",
     "categoria": "elaboracao",
     "unidade": "DPGC - Divisão de Planejamento e Gerenciamento de Compras",
-    "data": "11/08/2026",
+    "data": "21/08/2026",
     "dataCriacao": "01/12/2025",
     "gestor": "Chianc Leocadio de Lima",
     "pregao": null,
@@ -499,7 +504,8 @@
       "listaFim": "11/08/2026"
     },
     "processo_id": 1183171,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "caminho": "pregao",
@@ -642,14 +648,14 @@
     "processo": "23077.096256/2025-82",
     "assunto": "Contratação de serviços de infraestrutura de cabeamento metálico e óptico para atender a demandas da UFRN",
     "fase": "Fase Interna (DFI)",
-    "subEtapa": "analiseDfi",
-    "subetapa": "Concluída a fase de planejamento; pregão 90025/2026 recém-aberto na DFI",
+    "subEtapa": "edital",
+    "subetapa": "Último documento: PORTARIA DE PREGOEIRO (20/05/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (12/08/2026 08:14)",
     "categoria": "unidades",
     "unidade": "DFI - Divisão de Fase Interna de Compras",
-    "data": "17/07/2026",
+    "data": "12/08/2026",
     "dataCriacao": "25/06/2025",
     "gestor": "Jorge Henrique Teotonio de Lima Melo",
-    "pregao": null,
+    "pregao": "23077.106361/2026-18",
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
@@ -663,10 +669,18 @@
       "trFim": "16/07/2026",
       "listaInicio": "16/07/2026",
       "listaFim": "17/07/2026",
-      "analiseDfiInicio": "17/07/2026"
+      "analiseDfiInicio": "17/07/2026",
+      "analiseDfiFim": "11/08/2026",
+      "pesquisaPrecosFim": "14/08/2026",
+      "irpFim": "24/08/2026"
     },
     "processo_id": 1152393,
-    "pregao_id": null
+    "pregao_id": 1219763,
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90025/2026",
+    "objetoLicitacao": "CONTRATAÇÃO DE SERVIÇOS DE INSTALAÇÃO, AMPLIAÇÃO, REESTRUTURAÇÃO, RETIRADA DE MATERIAIS, MANUTENÇÃO PREVENTIVA, CORRETIVA E ADAPTATIVA PARA CABEAMENTO HORIZONTAL, VERTICAL E BACKBONE DE FIBRA ÓPTICA DA REDE LÓGICA",
+    "responsaveisDfi": {
+      "irp": "Marilia Linhares de Sousa"
+    }
   },
   {
     "caminho": "pregao",
@@ -719,7 +733,7 @@
     "subetapa": "Último documento: DESPACHO (20/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (25/05/2026 16:50)",
     "categoria": "unidades",
     "unidade": "DFI - Divisão de Fase Interna de Compras",
-    "data": "20/08/2026",
+    "data": "21/08/2026",
     "dataCriacao": "29/12/2025",
     "gestor": "Pedro",
     "pregao": "23077.071885/2026-81",
@@ -803,7 +817,7 @@
     "subetapa": "Último documento: DESPACHO (07/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (29/05/2026 08:31)",
     "categoria": "juridico",
     "unidade": "DPGC - Divisão de Planejamento e Gerenciamento de Compras",
-    "data": "21/08/2026",
+    "data": "24/08/2026",
     "dataCriacao": "17/04/2024",
     "gestor": "Jorge Henrique Teotonio de Lima Melo",
     "pregao": "23077.066653/2026-19",
@@ -835,7 +849,11 @@
       "elaboracaoEdital": "Stefferson Alves Sarthour"
     },
     "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90018/2026",
-    "objetoLicitacao": "AQUISIÇÃO DE EQUIPAMENTOS DE COMPUTAÇÃO PESSOAL"
+    "objetoLicitacao": "AQUISIÇÃO DE EQUIPAMENTOS DE COMPUTAÇÃO PESSOAL",
+    "responsaveisDfe": {
+      "pregoeiro": "Paulo José Pereira",
+      "equipeApoio": "Adriana da Silva Cardoso"
+    }
   },
   {
     "caminho": "pregao",
@@ -848,7 +866,7 @@
     "subetapa": "Último documento: DESPACHO (20/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (18/05/2026 11:17)",
     "categoria": "juridico",
     "unidade": "Secretaria da Procuradoria Federal",
-    "data": "20/08/2026",
+    "data": "24/08/2026",
     "dataCriacao": "24/02/2025",
     "gestor": "Flavio Carlos de Albuquerque",
     "pregao": "23077.094606/2025-76",
@@ -8007,7 +8025,7 @@
     "subetapa": "Último documento: RESPOSTA A ESCLARECIMENTO (17/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (11/06/2026 09:47)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "17/08/2026",
+    "data": "21/08/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "suspenso": false,
@@ -9898,12 +9916,12 @@
   {
     "processo": "23077.111284/2024-56",
     "assunto": "AQUISIÇÃO DE APARELHOS DE MEDIÇÃO E ORIENTAÇÃO PARA ATENDER DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES.",
-    "fase": "Fase Externa (DFE)",
-    "subEtapa": "dfe",
-    "subetapa": "Último documento: E-MAIL (17/06/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (27/03/2025 13:13)",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: DESPACHO (21/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (27/03/2025 13:13)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "20/08/2026",
+    "data": "21/08/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "suspenso": false,
@@ -9913,7 +9931,8 @@
       "analiseDfiFim": "20/01/2025",
       "pesquisaPrecosFim": "27/03/2025",
       "editalFim": "20/05/2025",
-      "juridicoFim": "04/06/2025"
+      "juridicoFim": "04/06/2025",
+      "dfeFim": "21/08/2026"
     },
     "caminho": "pregao",
     "caminhoHistorico": [],
@@ -16083,7 +16102,7 @@
     "subetapa": "Último documento: DESPACHO (17/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (14/05/2026 08:00)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "17/08/2026",
+    "data": "21/08/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "suspenso": false,
@@ -16289,7 +16308,8 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1082261,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.036252/2024-64",
@@ -16361,7 +16381,8 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1085853,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.048937/2024-53",
@@ -16391,15 +16412,15 @@
   {
     "processo": "23077.052150/2024-96",
     "assunto": "PLANEJAMENTO DE AQUISIÇÃO DE FERRAMENTAS PARA A UFRN",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "dfd",
-    "subetapa": "Último documento: DESPACHO (24/07/2024) · Última movimentação: DIRETORIA DE COMPRAS - PROAD (11.02.09) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (23/12/2024 12:49)",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: ATA DE REGISTRO DE PREÇOS () · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (08/08/2024 07:52)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "23/12/2024",
     "dataCriacao": "14/08/2026",
     "gestor": null,
-    "pregao": null,
+    "pregao": "23077.086155/2024-12",
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
@@ -16408,12 +16429,25 @@
       "dfdFim": "07/05/2024",
       "etpFim": "17/05/2024",
       "trFim": "23/07/2024",
-      "listaFim": "24/07/2024"
+      "listaFim": "24/07/2024",
+      "analiseDfiFim": "24/07/2024",
+      "pesquisaPrecosFim": "08/08/2024",
+      "irpFim": "27/08/2024",
+      "editalFim": "23/09/2024",
+      "juridicoFim": "08/10/2024",
+      "dfeFim": "19/12/2024"
     },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1086868,
-    "pregao_id": null
+    "pregao_id": 1097587,
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90033/2024",
+    "objetoLicitacao": "AQUISIÇÃO DE FERRAMENTAS PARA ATENDER DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES",
+    "responsaveisDfi": {
+      "pesquisaPrecos": "Sayonara Pereira",
+      "irp": "Marília Linhares de Sousa",
+      "elaboracaoEdital": "Éricka Fabrícia Jácome de Sousa Costa"
+    }
   },
   {
     "processo": "23077.053143/2024-10",
@@ -16465,7 +16499,8 @@
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1087964,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.057286/2024-92",
@@ -16512,7 +16547,8 @@
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1089784,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.064730/2024-26",
@@ -16541,15 +16577,15 @@
   {
     "processo": "23077.065792/2024-55",
     "assunto": "AQUISIÇÃO DE CARRINHOS DE TRANSPORTE E CARGA PARA ARMAZÉNS E DEPÓSITOS, EMPILHADEIRAS, PALETEIRAS E CARRINHOS DE COLETA DE RESÍDUOS (LIMPEZA), PARA ATENDER DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES.",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "dfd",
-    "subetapa": "Último documento: DESPACHO (09/09/2024) · Última movimentação: DIRETORIA DE COMPRAS - PROAD (11.02.09) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (20/02/2025 11:52)",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: ATA DE REGISTRO DE PREÇOS () · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (18/07/2024 17:49)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "20/02/2025",
     "dataCriacao": "14/08/2026",
     "gestor": null,
-    "pregao": null,
+    "pregao": "23077.077487/2024-14",
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
@@ -16558,12 +16594,25 @@
       "dfdFim": "17/06/2024",
       "etpFim": "27/06/2024",
       "trFim": "04/07/2024",
-      "listaFim": "08/07/2024"
+      "listaFim": "08/07/2024",
+      "analiseDfiFim": "18/07/2024",
+      "pesquisaPrecosFim": "18/07/2024",
+      "irpFim": "07/08/2024",
+      "editalFim": "24/09/2024",
+      "juridicoFim": "22/10/2024",
+      "dfeFim": "19/02/2025"
     },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1091161,
-    "pregao_id": null
+    "pregao_id": 1095296,
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90026/2024",
+    "objetoLicitacao": "AQUISIÇÃO DE CARRINHOS DE TRANSPORTE DE CARGA ARMAZÉM/DEPÓSITO, EMPILHADEIRA, PALETEIRAS E CARRINHOS DE COLETA DE RESÍDUOS PARA ATENDER DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES",
+    "responsaveisDfi": {
+      "pesquisaPrecos": "Sayonara Pereira",
+      "irp": "Marília Linhares de Sousa",
+      "elaboracaoEdital": "Klayton Lima Figueiredo"
+    }
   },
   {
     "processo": "23077.071865/2024-48",
@@ -17003,7 +17052,8 @@
     "caminho": "inexigibilidade",
     "caminhoHistorico": [],
     "processo_id": 1109914,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.136073/2024-26",
@@ -17096,7 +17146,8 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1113859,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.148251/2024-61",
@@ -17120,7 +17171,8 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1114285,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.148564/2024-10",
@@ -17144,7 +17196,8 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1114352,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.148746/2024-91",
@@ -17168,7 +17221,8 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1114377,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.155110/2024-03",
@@ -17237,7 +17291,8 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1119866,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.172860/2024-31",
@@ -17313,7 +17368,8 @@
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1120722,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.178816/2024-35",
@@ -17427,7 +17483,8 @@
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1129312,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.032143/2025-59",
@@ -17864,7 +17921,7 @@
     "subetapa": "Último documento: E-MAIL (10/08/2026) · Última movimentação: COMPRAS E EXECUÇÃO ORÇAMENTÁRIA (17.39) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (10/08/2026 13:02)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "20/08/2026",
+    "data": "21/08/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -17878,7 +17935,8 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1161169,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.127147/2025-14",
@@ -17979,7 +18037,7 @@
     "subetapa": "Último documento: DESPACHO (24/02/2026) · Última movimentação: ADMINISTRAÇÃO DA ESCOLA MULTICAMPI DE CIÊNCIAS MÉDICAS DO RN (11.32.29.03) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (24/02/2026 13:24)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "20/08/2026",
+    "data": "23/08/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -17987,7 +18045,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1170948",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "23/08/2026"
+    },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1170948,
@@ -18230,7 +18290,7 @@
     "subetapa": "Último documento: E-MAIL (10/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → ESCOLA DE MÚSICA (11.39) (17/07/2026 21:51)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "20/08/2026",
+    "data": "24/08/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -18244,7 +18304,8 @@
     "caminho": "inexigibilidade",
     "caminhoHistorico": [],
     "processo_id": 1179208,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.186285/2025-35",
@@ -18356,7 +18417,8 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1190076,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.008313/2026-65",
@@ -18470,7 +18532,8 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1196170,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.029814/2026-85",
@@ -18541,7 +18604,8 @@
     "caminho": "inexigibilidade",
     "caminhoHistorico": [],
     "processo_id": 1200115,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.041254/2026-37",
@@ -18661,7 +18725,7 @@
     "subetapa": "Último documento: REQUISIÇÃO DE MATERIAIS (04/08/2026) · Última movimentação: ESCOLA AGRÍCOLA DE JUNDIAÍ (11.22) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (03/08/2026 14:27)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "04/08/2026",
+    "data": "24/08/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -18669,7 +18733,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1203257",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "21/08/2026"
+    },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1203257,
@@ -18697,7 +18763,8 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1203873,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.055022/2026-66",
@@ -18787,7 +18854,8 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1205619,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.061114/2026-85",
@@ -18811,7 +18879,8 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1205674,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.061609/2026-12",
@@ -18967,7 +19036,8 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1208513,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.070776/2026-46",
@@ -19126,7 +19196,8 @@
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1209719,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.074956/2026-05",
@@ -19218,7 +19289,8 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1211036,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.081738/2026-19",
@@ -19228,7 +19300,7 @@
     "subetapa": "Último documento: LISTA DE VERIFICAÇÃO (28/07/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (28/07/2026 21:21)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "28/07/2026",
+    "data": "24/08/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -19242,7 +19314,8 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1212996,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.081965/2026-44",
@@ -19310,7 +19383,8 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1213583,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.084457/2026-18",
@@ -19444,7 +19518,8 @@
     "caminho": "inexigibilidade",
     "caminhoHistorico": [],
     "processo_id": 1214738,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.088505/2026-47",
@@ -19454,7 +19529,7 @@
     "subetapa": "Último documento: DESPACHO (14/08/2026) · Última movimentação: DIRETORIA DE COMPRAS - PROAD (11.02.09) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (14/08/2026 12:48)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "21/08/2026",
+    "data": "24/08/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -19468,7 +19543,8 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1214948,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.090949/2026-42",
@@ -19500,7 +19576,7 @@
     "subetapa": "Último documento: DESPACHO (01/07/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → DEPARTAMENTO DE EDUCAÇÃO FÍSICA (15.11) (01/07/2026 13:46)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "21/08/2026",
+    "data": "24/08/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -19508,7 +19584,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1215685",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "24/08/2026"
+    },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1215685,
@@ -19671,7 +19749,8 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1218675,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.102539/2026-51",
@@ -19918,7 +19997,8 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1222799,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.116102/2026-03",
@@ -20104,12 +20184,12 @@
   {
     "processo": "23077.117815/2026-86",
     "assunto": "SOLICITAÇÃO DE CARONA PARA COMPRA DE CADEIRA DE RODAS MOTORIZADA",
-    "fase": "Fase Interna (DFI)",
-    "subEtapa": "faseInterna",
-    "subetapa": "Último documento: AUTORIZAÇÃO DE FORMALIZAÇÃO - ADESÃO A ATA DE REGISTRO DE PREÇOS (19/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (19/08/2026 11:11)",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: DESPACHO (23/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (23/08/2026 18:51)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "19/08/2026",
+    "data": "23/08/2026",
     "dataCriacao": "2026-08-13",
     "gestor": null,
     "pregao": null,
@@ -20118,7 +20198,8 @@
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223721",
     "marcos": {
-      "planejamentoFim": "19/08/2026"
+      "planejamentoFim": "19/08/2026",
+      "faseInternaFim": "23/08/2026"
     },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
@@ -20612,7 +20693,7 @@
     "subetapa": "Último documento: DIVULGAÇÃO DA LICITAÇÃO (12/08/2026) · Última movimentação: COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) → COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) (02/07/2026 09:08)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "12/08/2026",
+    "data": "24/08/2026",
     "dataCriacao": "19/08/2026",
     "gestor": null,
     "suspenso": false,
