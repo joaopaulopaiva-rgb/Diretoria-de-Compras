@@ -72,8 +72,7 @@
       "listaFim": "07/08/2026"
     },
     "processo_id": 1217522,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "caminho": "pregao",
@@ -126,8 +125,7 @@
       "listaFim": "11/08/2026"
     },
     "processo_id": 1147856,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "caminho": "pregao",
@@ -229,8 +227,7 @@
       "dfdFim": "05/03/2026"
     },
     "processo_id": 1184742,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "caminho": "pregao",
@@ -504,8 +501,7 @@
       "listaFim": "11/08/2026"
     },
     "processo_id": 1183171,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "caminho": "pregao",
@@ -16381,8 +16377,7 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1085853,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "processo": "23077.048937/2024-53",
@@ -16499,8 +16494,7 @@
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1087964,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "processo": "23077.057286/2024-92",
@@ -17052,8 +17046,7 @@
     "caminho": "inexigibilidade",
     "caminhoHistorico": [],
     "processo_id": 1109914,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "processo": "23077.136073/2024-26",
@@ -17146,8 +17139,7 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1113859,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "processo": "23077.148251/2024-61",
@@ -17171,8 +17163,7 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1114285,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "processo": "23077.148564/2024-10",
@@ -17196,8 +17187,7 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1114352,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "processo": "23077.148746/2024-91",
@@ -17221,8 +17211,7 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1114377,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "processo": "23077.155110/2024-03",
@@ -17291,8 +17280,7 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1119866,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "processo": "23077.172860/2024-31",
@@ -17368,8 +17356,7 @@
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1120722,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "processo": "23077.178816/2024-35",
@@ -17483,8 +17470,7 @@
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1129312,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "processo": "23077.032143/2025-59",
@@ -17916,9 +17902,9 @@
   {
     "processo": "23077.125359/2025-67",
     "assunto": "SOLICITAÇÃO DE DISPENSA DE LICITAÇÃO PARA COMPRA DE REAGENTES.",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Último documento: E-MAIL (10/08/2026) · Última movimentação: COMPRAS E EXECUÇÃO ORÇAMENTÁRIA (17.39) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (10/08/2026 13:02)",
+    "fase": "Fase Interna (DFI)",
+    "subEtapa": "faseInterna",
+    "subetapa": "Último documento: DESPACHO DE ENCAMINHAMENTO (21/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (14/08/2026 16:14)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "21/08/2026",
@@ -17936,7 +17922,10 @@
     "caminhoHistorico": [],
     "processo_id": 1161169,
     "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "execucao_numero": "23077.105519/2026-32",
+    "execucao_id": 1219541,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90029/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE REAGENTES PARA AULAS PRÁTICAS DO CURSO DE BIOMEDICINA DA UFRN"
   },
   {
     "processo": "23077.127147/2025-14",
@@ -18304,8 +18293,7 @@
     "caminho": "inexigibilidade",
     "caminhoHistorico": [],
     "processo_id": 1179208,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "processo": "23077.186285/2025-35",
@@ -18417,8 +18405,7 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1190076,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "processo": "23077.008313/2026-65",
@@ -18532,8 +18519,7 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1196170,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "processo": "23077.029814/2026-85",
@@ -18604,8 +18590,7 @@
     "caminho": "inexigibilidade",
     "caminhoHistorico": [],
     "processo_id": 1200115,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "processo": "23077.041254/2026-37",
@@ -18763,8 +18748,7 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1203873,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "processo": "23077.055022/2026-66",
@@ -18854,8 +18838,7 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1205619,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "processo": "23077.061114/2026-85",
@@ -18879,8 +18862,7 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1205674,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "processo": "23077.061609/2026-12",
@@ -19017,9 +18999,9 @@
   {
     "processo": "23077.070136/2026-36",
     "assunto": "SOLICITAÇÃO DE DISPENSA DE LICITAÇÃO PARA COMPRA DE MONITORES 4K PARA USO DOS MICROSCÓPIOS NOS LABORATÓRIOS DO CB",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Último documento: LISTA DE VERIFICAÇÃO (11/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (11/08/2026 11:07)",
+    "fase": "Fase Interna (DFI)",
+    "subEtapa": "faseInterna",
+    "subetapa": "Último documento: DESPACHO (21/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (18/08/2026 15:07)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "21/08/2026",
@@ -19037,7 +19019,10 @@
     "caminhoHistorico": [],
     "processo_id": 1208513,
     "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "execucao_numero": "23077.121339/2026-06",
+    "execucao_id": 1225154,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90035/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE MONITOR 4K"
   },
   {
     "processo": "23077.070776/2026-46",
@@ -19196,8 +19181,7 @@
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1209719,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "processo": "23077.074956/2026-05",
@@ -19289,8 +19273,7 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1211036,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "processo": "23077.081738/2026-19",
@@ -19314,8 +19297,7 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1212996,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "processo": "23077.081965/2026-44",
@@ -19383,8 +19365,7 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1213583,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "processo": "23077.084457/2026-18",
@@ -19518,18 +19499,17 @@
     "caminho": "inexigibilidade",
     "caminhoHistorico": [],
     "processo_id": 1214738,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "processo": "23077.088505/2026-47",
     "assunto": "AQUISIÇÃO DE EQUIPAMENTO DE ULTRASSONOGRAFIA PORTÁTIL",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Último documento: DESPACHO (14/08/2026) · Última movimentação: DIRETORIA DE COMPRAS - PROAD (11.02.09) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (14/08/2026 12:48)",
+    "fase": "Fase Interna (DFI)",
+    "subEtapa": "faseInterna",
+    "subetapa": "Último documento: DESPACHO (21/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (17/08/2026 08:23)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "24/08/2026",
+    "data": "21/08/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -19540,11 +19520,14 @@
     "marcos": {
       "planejamentoFim": "04/08/2026"
     },
-    "caminho": "dispensa",
+    "caminho": "inexigibilidade",
     "caminhoHistorico": [],
     "processo_id": 1214948,
     "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "execucao_numero": "23077.122327/2026-91",
+    "execucao_id": 1225548,
+    "numeroLicitacao": "INEXIGIBILIDADE DE LICITAÇÃO Nº 8/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE ULTRASSOM PORTÁTIL (MOBISSON MDUO3X1)"
   },
   {
     "processo": "23077.090949/2026-42",
@@ -19749,8 +19732,7 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1218675,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "processo": "23077.102539/2026-51",
@@ -19997,8 +19979,7 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1222799,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": null
   },
   {
     "processo": "23077.116102/2026-03",

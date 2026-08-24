@@ -796,25 +796,32 @@ def atualizar_todos() -> dict:
                 p["subetapa"] = novo_resumo
                 mudou = True
 
-        # Planejamento que já mudou de status (ex. "APENSADO") mas ainda não
-        # tem o processo de execução vinculado no painel — não dá pra
-        # descobrir automaticamente hoje (busca por número não funciona,
-        # CLAUDE.md seção 12); sinaliza pra confirmação manual. A peça que
-        # resolveria isso sozinha (varrer Termos de Juntada por tipo de
-        # documento) ainda não foi construída — combinado com a pessoa dona
-        # do projeto pra fazer depois do levantamento por caminho.
+        # Planejamento que já mudou pra Status "APENSADO" mas ainda não tem
+        # o processo de execução vinculado no painel — não dá pra descobrir
+        # automaticamente hoje (busca por número não funciona, CLAUDE.md
+        # seção 12); sinaliza pra confirmação manual. A peça que resolveria
+        # isso sozinha (varrer Termos de Juntada por tipo de documento)
+        # ainda não foi construída.
+        #
+        # Duas coisas testadas ao vivo em agosto/2026 e descartadas por
+        # gerarem falso positivo demais (confirmado triando 33 casos reais):
+        # 1) ARQUIVADO/CANCELADO NÃO entram aqui — ao contrário de APENSADO,
+        #    esses são fim de linha de verdade (demanda cancelada), não um
+        #    "virou outro processo que falta vincular". Tratar como aviso
+        #    de vínculo faltando seria enganoso.
+        # 2) O sinal "enviado à DFI" (qualquer movimentação histórica pra
+        #    unidade da DFI) foi removido — na prática ele capturava
+        #    processos que só passaram por lá de forma normal (circulando
+        #    em unidades técnicas, CLAUDE.md seção 6) e continuam
+        #    Status=ATIVO até hoje, sem nunca terem sido apensados. De 33
+        #    avisos gerados por esse sinal, 0 correspondiam a apensação
+        #    real — só Status=APENSADO bateu de verdade nos 5 casos reais
+        #    da amostra.
         if not tem_execucao_vinculada and caminho not in SEMPRE_PROCESSO_ID:
             status_atual = extrair_status(html)
-            status_mudou = bool(status_atual) and status_atual.upper().startswith(("APENSADO", "ARQUIVADO", "CANCELADO"))
-            # Nome real da unidade no SIPAC é por extenso ("DIVISÃO DE FASE
-            # INTERNA DE COMPRAS"), não a sigla "DFI" — checar as duas formas.
-            enviado_a_dfi = any(
-                ("DFI" in mv.unidade_destino.upper() or "FASE INTERNA DE COMPRAS" in mv.unidade_destino.upper())
-                and "PLANEJAMENTO" not in mv.unidade_destino.upper()
-                for mv in movs
-            )
-            if status_mudou or enviado_a_dfi:
-                motivo = f"Status: {status_atual}" if status_mudou else "movimentação já indica envio à DFI"
+            status_mudou = bool(status_atual) and status_atual.upper().startswith("APENSADO")
+            if status_mudou:
+                motivo = f"Status: {status_atual}"
                 avisos.append(
                     f"{p['processo']}: sinais de que já saiu do planejamento ({motivo}) "
                     f"mas ainda não tem processo de execução vinculado no painel — confirmar "
@@ -823,6 +830,12 @@ def atualizar_todos() -> dict:
                 if not p.get("avisoApensadoSemVinculo"):
                     p["avisoApensadoSemVinculo"] = True
                     mudou = True
+            elif p.get("avisoApensadoSemVinculo"):
+                # Sinal antigo (ex. heurística "enviado à DFI", já removida)
+                # não se sustenta mais nesta leitura — limpa o selo pra não
+                # ficar um falso positivo grudado no card pra sempre.
+                del p["avisoApensadoSemVinculo"]
+                mudou = True
 
         if mudou:
             atualizados += 1
