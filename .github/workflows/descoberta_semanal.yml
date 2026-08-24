@@ -25,13 +25,16 @@ jobs:
       - name: Rodar descoberta semanal
         run: python3 scripts/descoberta_semanal.py
 
-      - name: Commitar novos processos descobertos (se houver)
+      - name: Revisar processos ignorados (voltaram a se movimentar?)
+        run: python3 scripts/revisar_ignorados.py
+
+      - name: Commitar mudanças do portão (se houver)
         run: |
           git config user.name "painel-compras-bot"
           git config user.email "painel-compras-bot@users.noreply.github.com"
-          git add data/vistos.json data/portao_pendentes.json
+          git add data/vistos.json data/portao_pendentes.json data/ignorados.json
           if ! git diff --cached --quiet; then
-            git commit -m "Descoberta semanal automática: novos processos de planejamento"
+            git commit -m "Descoberta semanal automática: novos processos + revisão de ignorados"
             git push
           else
             echo "Nada novo para commitar."
