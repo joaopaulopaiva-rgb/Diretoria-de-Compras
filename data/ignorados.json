@@ -477,8 +477,8 @@
     "assunto": "AQUISIÇÃO DE MOBILIÁRIO - MESAS",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1076169",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "15/02/2024",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "15/02/2024"
   },
   {
     "processo_id": 1080534,
@@ -486,8 +486,8 @@
     "assunto": "CONTRATAÇÃO DE EMPRESA PARA CONFECÇÃO DE VESTES TALARES PARA TÍTULOS HONORÍFICOS",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1080534",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": null,
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": null
   },
   {
     "processo_id": 1089314,
@@ -495,8 +495,8 @@
     "assunto": "PLANEJAMENTO DE COMPRAS DE ITENS PARA O NAC QUE NÃO ESTÃO EM REGISTRO DE PREÇO",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1089314",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "01/04/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "01/04/2025"
   },
   {
     "processo_id": 1092323,
@@ -504,8 +504,8 @@
     "assunto": "AQUISIÇÃO DE ALIMENTOS PARA PRIMATOLOGIA",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1092323",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "27/03/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "27/03/2025"
   },
   {
     "processo_id": 1092324,
@@ -513,8 +513,8 @@
     "assunto": "AQUISIÇÃO DE ALIMENTOS PARA PRIMATOLOGIA",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1092324",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "15/04/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "15/04/2025"
   },
   {
     "processo_id": 1092769,
@@ -522,8 +522,8 @@
     "assunto": "AQUISIÇÃO DE ALIMENTOS PARA PRIMATOLOGIA",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1092769",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "01/04/2026",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "01/04/2026"
   },
   {
     "processo_id": 1102847,
@@ -531,8 +531,8 @@
     "assunto": "SOLICITAÇÃO DE SERVIÇO IMPORTAÇÃO MEDIANTE GARANTIA ESTENDIDA PARA SUPORTE TÉCNICO DE HARDWARE DO EQUIPAMENTO RTDS.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1102847",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "08/11/2024",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "08/11/2024"
   },
   {
     "processo_id": 1103156,
@@ -540,8 +540,8 @@
     "assunto": "SOLICITAÇÃO DE ADESÃO A ATA DE REGISTRO DE PREÇOS: PREGÃO Nº º 16/2023, UASG 153178 - UTFPR - CAMPUS PONTA GROSSA, ITEM 32, COMPRA DE 20 UND LÂMPADAS DE PROJETOR",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1103156",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "13/09/2024",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "13/09/2024"
   },
   {
     "processo_id": 1104795,
@@ -549,8 +549,8 @@
     "assunto": "PLANEJAMENTO DE AQUISIÇÃO DE CAFETEIRAS ELÉTRICAS DE 6 LITROS POR MEIO DE ADESÃO A ATA SRP (PR 151/2023 DA UASG 10001 - CÂMARA DOS DEPUTADOS)",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1104795",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "13/09/2024",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "13/09/2024"
   },
   {
     "processo_id": 1109849,
@@ -558,8 +558,8 @@
     "assunto": "PEDIDO DE IMPRESSÃO DE UMA TIRAGEM DE 30 E-BOOKS CONTENDO 69 PÁGINAS, TAMANHO 210X280MM, A SER CONFECCIONADA EM PAPEL COUCHÊ 115G, COM IMPRESSÃO COLORIDA, PREFERENCIALMENTE COM RESOLUÇÃO DE 300DPI.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1109849",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": null,
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": null
   },
   {
     "processo_id": 1110397,
@@ -567,8 +567,8 @@
     "assunto": "IMPORTAÇÃO - DOAÇÃO DE SISMÔMETROS DE PERÍODO CURTO (1HZ) TELEDYNE GEOTECH S13 E CABOS.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1110397",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "29/01/2026",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "29/01/2026"
   },
   {
     "processo_id": 1114826,
@@ -576,8 +576,8 @@
     "assunto": "SOLICITAÇÃO DE COMPRA DE MATERIAL LABORATORIAL VIA ADESÃO, POR INDISPONIBILIDADE DOS ITENS EM PREGÃO NA UFRN",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1114826",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": null,
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": null
   },
   {
     "processo_id": 1119169,
@@ -585,8 +585,8 @@
     "assunto": "ADESÃO DE MOBILIÁRIO EM GERAL",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1119169",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "07/01/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "07/01/2025"
   },
   {
     "processo_id": 1121065,
@@ -594,8 +594,8 @@
     "assunto": "AQUISIÇÃO DE LIXEIRA INOX , 8 LITROS - PARA ATENDER DEMANDA DO RESTAURANTE UNIVERSITÁRIO - RU/UFRN.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1121065",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "07/01/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "07/01/2025"
   },
   {
     "processo_id": 1124494,
@@ -603,8 +603,8 @@
     "assunto": "PLANEJAMENTO DE AQUISIÇÃO DE CAMINHÃO BAÚ PARA A DIRETORIA DE LOGÍSTICA DA UFRN.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1124494",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "16/05/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "16/05/2025"
   },
   {
     "processo_id": 1125768,
@@ -612,8 +612,8 @@
     "assunto": "CONTRATAÇÃO DE SERVIÇO DE AFINAÇÃO E REGULAGEM DE PIANOS DA EMUFRN",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1125768",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "11/02/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "11/02/2025"
   },
   {
     "processo_id": 1126544,
@@ -621,8 +621,8 @@
     "assunto": "PROCESSO DE MANUTENÇÃO DE OBOÉS DA EMUFRN",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1126544",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "11/02/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "11/02/2025"
   },
   {
     "processo_id": 1126658,
@@ -630,8 +630,8 @@
     "assunto": "MANUTENÇÃO CORRETIVA DAS PORTAS PRINCIPAIS (PORTAS DE ENROLAR) DO ALMOXARIFADO CENTRAL (DLOG) DA UFRN.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1126658",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "09/06/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "09/06/2025"
   },
   {
     "processo_id": 1129212,
@@ -639,8 +639,8 @@
     "assunto": "CONTRATAÇÃO CENTRALIZADA DE SOFTWARES SUÍTE DE ESCRITÓRIO. ATUAÇÃO, COMO ÓRGÃO PARTICIPANTE, NA LICITAÇÃO IRP 03/2025 SEGES/MGI.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1129212",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "19/02/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "19/02/2025"
   },
   {
     "processo_id": 1130335,
@@ -648,8 +648,8 @@
     "assunto": "AQUISIÇÃO DE INSTRUMENTOS MUSICAIS PARA O CURSO DE LICENCIATURA EM MÚSICA - LABORATÓRIO DE EDUCAÇÃO INFANTIL",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1130335",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "10/03/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "10/03/2025"
   },
   {
     "processo_id": 1134757,
@@ -657,8 +657,8 @@
     "assunto": "AQUISIÇÃO DE CAFÉ TORRADO E MOÍDO POR DISPENSA DE LICITAÇÃO.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1134757",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "21/03/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "21/03/2025"
   },
   {
     "processo_id": 1136279,
@@ -666,8 +666,8 @@
     "assunto": "SOLICITAÇÃO DE DISPENSA DE LICITAÇÃO PARA AQUISIÇÃO DE POLPAS DE FRUTAS",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1136279",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": null,
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": null
   },
   {
     "processo_id": 1137620,
@@ -675,8 +675,8 @@
     "assunto": "SOLICITAÇÃO DE AQUISIÇÃO DE 30 FILTROS DE LINHA COM DPS PARA MANUTENÇÃO GERAL DO CERES PELA EQUIPE DE T.I.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1137620",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "07/04/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "07/04/2025"
   },
   {
     "processo_id": 1138371,
@@ -684,8 +684,8 @@
     "assunto": "SOLICITAÇÃO DE AQUISIÇÃO DE VEÍCULO PARA O RESTAURANTE UNIVERSITÁRIO.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1138371",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "11/04/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "11/04/2025"
   },
   {
     "processo_id": 1138433,
@@ -693,8 +693,8 @@
     "assunto": "AQUISIÇÃO DE CONSULTÓRIOS ODONTOLÓGICOS PARA O DOD",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1138433",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": null,
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": null
   },
   {
     "processo_id": 1139479,
@@ -702,8 +702,8 @@
     "assunto": "SOLICITAÇÃO DE COMPRA DE EXAUSTORES POR DISPENSA DE LICITAÇÃO PARA O BIOTÉRIO DO CENTRO DE BIOCIÊNCIAS.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1139479",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": null,
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": null
   },
   {
     "processo_id": 1142303,
@@ -711,8 +711,8 @@
     "assunto": "DISPENSA DE LICITAÇÃO – ITENS FRACASSADOS NO PREGÃO 23077.010897/2024-49",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1142303",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "23/05/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "23/05/2025"
   },
   {
     "processo_id": 1142319,
@@ -720,8 +720,8 @@
     "assunto": "PLANEJAMENTO DE AQUISIÇÃO DE SOFTWARES DE EDIÇÃO DE IMAGENS (ADOBE PHOTOSHOP E ILLUSTRATOS)",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1142319",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "25/06/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "25/06/2025"
   },
   {
     "processo_id": 1142325,
@@ -729,8 +729,8 @@
     "assunto": "PLANEJAMENTO PARA AQUISIÇÃO DE MATERIAL PARA O PROJETO PJ801-2025 – ORGANIZAÇÃO E DIVULGAÇÃO DO ARQUIVO DO INSTITUTO HISTÓRICO E GEOGRÁFICO DO RIO GRANDE DO NORTE (IHGRN)",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1142325",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "12/05/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "12/05/2025"
   },
   {
     "processo_id": 1143082,
@@ -738,8 +738,8 @@
     "assunto": "AQUISIÇÃO DE MATERIAIS QUÍMICOS PARA USO DA PISCINA AQUECIDA DO CURSO DE FISIOTERAPIA DA FACISA: CLORO GRANULADO.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1143082",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "21/05/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "21/05/2025"
   },
   {
     "processo_id": 1146193,
@@ -747,8 +747,8 @@
     "assunto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA LOCAÇÃO DE GERADOR DE HIPOCLORITO DE SÓDIO, SEM ADIÇÃO DIRETA DE SAL NA ÁGUA DAS PISCINAS E SEM ARMAZENAMENTO DE HIPOCLORITO DE SÓDIO, INCLUINDO SERVIÇO DE MANUTENÇÃO PERIÓDICA DO EQUIPAMENTO.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1146193",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "27/05/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "27/05/2025"
   },
   {
     "processo_id": 1151627,
@@ -756,8 +756,8 @@
     "assunto": "O PROCESSO TEM COMO OBJETO VIABILIZAR A IMPRESSÃO DE MATERIAL DE DIVULGAÇÃO ASSOCIADO AO EVENTO QUE É A UNIDADE ORÇAMENTÁRIA (PROJETO APROVADO EM EDITAL INTERNO DE EVENTOS INTEGRADOS)",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1151627",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "18/06/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "18/06/2025"
   },
   {
     "processo_id": 1152939,
@@ -765,8 +765,8 @@
     "assunto": "AQUISIÇÃO DE IMPRESSORA 3D PARA IMPRESSÃO DE COMPONENTES DA CABINE DE MEDIÇÃO 13,8 KV EM TECNIL, PLA OU POLIMÉRICO.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1152939",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": null,
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": null
   },
   {
     "processo_id": 1153984,
@@ -774,8 +774,8 @@
     "assunto": "AQUISIÇÃO DE COMPUTADORES PARA O CCS",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1153984",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "14/07/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "14/07/2025"
   },
   {
     "processo_id": 1155324,
@@ -783,8 +783,8 @@
     "assunto": "SOLICITAÇÃO DE AQUISIÇÃO DE 10 CADEIRAS GIRATÓRIAS DE ESCRITÓRIO PARA USO COLETIVO NO LABORATÓRIO DE ESTUDOS RURAIS (UNIDADE 18.15.18), A UTILIZAR SALDO DE PROJETO DE ENSINO PRÁTICAS DIDÁTICO-PEDAGÓGICAS DE ENSINO (11.87.00.00.00.00.02.02.21).",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1155324",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "25/07/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "25/07/2025"
   },
   {
     "processo_id": 1156123,
@@ -792,8 +792,8 @@
     "assunto": "AQUISIÇÃO DE MATERIAS GRÁFICOS PARA ORGANIZAÇÃO DE SEMINÁRIO DE ASSISTÊNCIA ESTUDANTIL DA PROAE",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1156123",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "17/07/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "17/07/2025"
   },
   {
     "processo_id": 1157300,
@@ -801,8 +801,8 @@
     "assunto": "COMPRA DE SOFTWARE DE NUTRIÇÃO",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1157300",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "23/07/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "23/07/2025"
   },
   {
     "processo_id": 1159409,
@@ -810,8 +810,8 @@
     "assunto": "SOLICITAÇÃO DE MANUTENÇÃO CORRETIVA NO EQUIPAMENTO \"PLATAFORMA DE FORÇA (BIOMEC410)\" DO LABORATÓRIO DE MOTRICIDADE E FISIOLOGIA HUMANA DA FACISA.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1159409",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "06/10/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "06/10/2025"
   },
   {
     "processo_id": 1159660,
@@ -819,8 +819,8 @@
     "assunto": "AQUISIÇÃO DE BATERIAS PARA O CCS",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1159660",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "05/08/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "05/08/2025"
   },
   {
     "processo_id": 1161132,
@@ -828,8 +828,8 @@
     "assunto": "SOLICITAÇÃO DE ADESÃO: EPI TIPO GORRO/TOUCA",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1161132",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "14/08/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "14/08/2025"
   },
   {
     "processo_id": 1163868,
@@ -837,8 +837,8 @@
     "assunto": "AQUISIÇÃO DE CADEIRA DE ESCRITÓRIO ERGONÔMICA -DISPENSA DE LICITAÇÃO",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1163868",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "27/11/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "27/11/2025"
   },
   {
     "processo_id": 1165375,
@@ -846,8 +846,8 @@
     "assunto": "PROJETO DE EXTENSÃO PROEX PJ767-2025. APROVADO COM RECURSO FINANCEIRO NO VALOR DE R$ 1.200,00 DESTINADO A MANUTENÇÃO E ATUALIZAÇÃO DE SITE VIRTUAL (MUSEU VIRTUAL). O PROJETO TRATA DO LEVANTAMENTO DE DOCUMENTOS HISTÓRICOS E CULTURAIS QUE SÃO SELECIONADOS E DISPONIBILIZADOS NO MUSEU VIRTUAL. PARA A SUA REALIZAÇÃO É NECESSÁRIO PROFISSIONAL COM DOMÍNIO DE PROGRAMAÇÃO WEB.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1165375",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "07/11/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "07/11/2025"
   },
   {
     "processo_id": 1166158,
@@ -855,8 +855,8 @@
     "assunto": "AQUISIÇÃO DE PLACA DE VÍDEO",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1166158",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "02/09/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "02/09/2025"
   },
   {
     "processo_id": 1166624,
@@ -864,8 +864,8 @@
     "assunto": "AQUISIÇÃO DE PLÁSTICO BOLHA PARA REALIZAÇÃO DA MUDANÇA DE RETORNO DO ACERVO APÓS REFORMA DO MUSEU DO SERIDÓ",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1166624",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "24/09/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "24/09/2025"
   },
   {
     "processo_id": 1166989,
@@ -873,8 +873,8 @@
     "assunto": "ABERTURA DE PROCESSO PARA AQUISIÇÃO DA DEMANDA REFERENTE AO PROTÓTIPO DE PISTA DE GELO PARA O ENSINO DE ENGENHARIA MECÂNICA DA UFRN, VINCULADO AO DEPARTAMENTO DE ENGENHARIA MECÂNICA DESTA UNIVERSIDADE.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1166989",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "10/11/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "10/11/2025"
   },
   {
     "processo_id": 1167004,
@@ -882,8 +882,8 @@
     "assunto": "AQUISIÇÃO DE CADEIRA FIXA EMPILHÁVEL - DISPENSA DE LICITAÇÃO",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1167004",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "07/11/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "07/11/2025"
   },
   {
     "processo_id": 1167425,
@@ -891,8 +891,8 @@
     "assunto": "SOLICITAÇÃO DE MATERIAL DE UM REGISTRO DE PREÇOS",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1167425",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": null,
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": null
   },
   {
     "processo_id": 1167531,
@@ -900,8 +900,8 @@
     "assunto": "AQUISIÇÃO DE MATERIAIS GRÁFICOS (ADESÃO)",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1167531",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "05/11/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "05/11/2025"
   },
   {
     "processo_id": 1167611,
@@ -909,8 +909,8 @@
     "assunto": "CONTRATAÇÃO DIRETA - PAMQEG 2025",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1167611",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "11/11/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "11/11/2025"
   },
   {
     "processo_id": 1167895,
@@ -918,8 +918,8 @@
     "assunto": "AQUISIÇÃO DE PROJETORES PARA O CCS",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1167895",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "22/09/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "22/09/2025"
   },
   {
     "processo_id": 1168142,
@@ -927,8 +927,8 @@
     "assunto": "PLANEJAMENTO DA AQUISIÇÃO DE BECAS PARA O CENTRO DE ENSINO SUPERIOR DO SERIDÓ (CERES) DA UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE (UFRN) EM CAICÓ - RN.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1168142",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "01/12/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "01/12/2025"
   },
   {
     "processo_id": 1168159,
@@ -936,8 +936,8 @@
     "assunto": "ESTE PROCESSO VISA EXECUTAR A DOTAÇÃO ORÇAMENTÁRIA DO PROJETO PAMQEG/2025 DE NOME: TEATRO LABORATÓRIO JESIEL FIGUEIREDO – ESPAÇO DE ENSINO (FASE II), PARA A AQUISIÇÃO DE EQUIPAMENTOS DE ILUMINAÇÃO CÊNICA E DE SONORIZAÇÃO TEATRAL, BEM COMO LÂMPADAS E CABOS DE SOM, PARA ATUALIZAR OS RECURSOS PEDAGÓGICOS PRESENTES NESTE ESPAÇO MULTIDISCIPLINAR, QUE OFERECE SUPORTE ÀS ATIVIDADES DOS CURSOS DE GRADUAÇÃO E PÓS-GRADUAÇÃO DE TEATRO E DANÇA DO DEPARTAMENTO DE ARTES/CCHLA. TAIS EQUIPAMENTOS TAMBÉM SÃO UTILIZADOS NAS ATIVIDADES DE PESQUISA E DE EXTENSÃO REALIZADAS PELOS DOCENTES DO DEPARTAMENTO NESTE ESPAÇO.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1168159",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "17/10/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "17/10/2025"
   },
   {
     "processo_id": 1168290,
@@ -945,8 +945,8 @@
     "assunto": "AQUISIÇÃO DE CADEIRA FIXA PARA REUNIÃO - DISPENSA DE LICITAÇÃO",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1168290",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "27/11/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "27/11/2025"
   },
   {
     "processo_id": 1168357,
@@ -954,8 +954,8 @@
     "assunto": "SOLICITAÇÃO DE AQUISIÇÃO DE MATERIAL",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1168357",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "26/09/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "26/09/2025"
   },
   {
     "processo_id": 1169167,
@@ -963,8 +963,8 @@
     "assunto": "COMPRA DE MATERIAL PERMANENTE PARA PROJETO DO EDITAL PAMQEG",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1169167",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "22/10/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "22/10/2025"
   },
   {
     "processo_id": 1169871,
@@ -972,8 +972,8 @@
     "assunto": "SOLICITAÇÃO DE AQUISIÇÃO DE MATERIAL DE CONSUMO PARA PROJETO (SENSORES, MICROCONTROLADORES, CABO)",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1169871",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "24/09/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "24/09/2025"
   },
   {
     "processo_id": 1170210,
@@ -981,8 +981,8 @@
     "assunto": "AQUISIÇÃO DE CADEIRA DE RODAS PARA BANHO ATRAVÉS DE ADESÃO/CARONA",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1170210",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "30/09/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "30/09/2025"
   },
   {
     "processo_id": 1170756,
@@ -990,8 +990,8 @@
     "assunto": "DISPENSA DE LICITAÇÃO - PROJETO INFÂNCIAS, ARTES E NATUREZAS.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1170756",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "20/10/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "20/10/2025"
   },
   {
     "processo_id": 1170870,
@@ -999,8 +999,8 @@
     "assunto": "SOLICITAÇÃO DE COMPRA DE ITENS DE CONSUMO: 4 UNIDADES SENSOR FLEX 2.2”; 3 UNIDADES SENSOR FORÇA RESISTIVO FSR 50N; 4 UNIDADES SENSOR DE FORÇA RESISTIVO FSR402, 2 UNIDADES SENSOR DE FORÇA RESISTIVO FSR406; 4 UNIDADES MÓDULO WIFI ESP32 BLUETOOTH - 30 PINOS; 2 UNIDADES SENSOR BOTÃO CAPACITIVO TOUCH TTP223B; 3 METROS CABO PLANO (FLAT CABLE) 10 VIAS 28 AWG.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1170870",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "27/11/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "27/11/2025"
   },
   {
     "processo_id": 1170887,
@@ -1008,8 +1008,8 @@
     "assunto": "AQUISIÇÃO DE TELEVISÃO SMART ATRAVÉS DE ADESÃO/CARONA",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1170887",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "18/11/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "18/11/2025"
   },
   {
     "processo_id": 1170894,
@@ -1017,8 +1017,8 @@
     "assunto": "DISPENSA DE LICITAÇÃO - PROJETO INFÂNCIAS, ARTES E NATUREZAS.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1170894",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "17/10/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "17/10/2025"
   },
   {
     "processo_id": 1170954,
@@ -1026,8 +1026,8 @@
     "assunto": "CONTRATAÇÃO DE PESSOA PARA A CAPTAÇÃO DE IMAGEM E CONSTRUÇÃO DE VIDEO",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1170954",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": null,
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": null
   },
   {
     "processo_id": 1170960,
@@ -1035,8 +1035,8 @@
     "assunto": "CONTRATAÇÃO DE PESSOA FISICA PARA CAPTAÇÃO DE IMAGEM E PRODUÇÃO DE VÍDEO",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1170960",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "13/10/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "13/10/2025"
   },
   {
     "processo_id": 1171386,
@@ -1044,8 +1044,8 @@
     "assunto": "DEMANDA DE IMPRESSÕES",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1171386",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "13/10/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "13/10/2025"
   },
   {
     "processo_id": 1171501,
@@ -1053,8 +1053,8 @@
     "assunto": "DISPENSA DE LICITAÇÃO - PROJETO O LÚDICO, A EDUCAÇÃO E A INTERCULTURALIDADE",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1171501",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "13/10/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "13/10/2025"
   },
   {
     "processo_id": 1171530,
@@ -1062,8 +1062,8 @@
     "assunto": "SOLICITAÇÃO PARA COMPRA DE FOGÕES DOMÉSTICOS DE 04 E 06 BOCAS DESTINADOS ÀS RESIDÊNCIAS UNIVERSITÁRIAS BIOMÉDICA, CAMPUS III E CAMPUS IV.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1171530",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "11/02/2026",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "11/02/2026"
   },
   {
     "processo_id": 1171637,
@@ -1071,8 +1071,8 @@
     "assunto": "AQUISIÇÃO DE 6 FLIP CHARTS PARA O PROGRAMA DE PÓS-GRADUAÇÃO EM GESTÃO DA QUALIDADE EM SERVIÇOS DE SAÚDE (PPGQUALISAÚDE).",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1171637",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "25/11/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "25/11/2025"
   },
   {
     "processo_id": 1171680,
@@ -1080,8 +1080,8 @@
     "assunto": "SOLICITAÇÃO DE CONTRATAÇÃO DE SERVIÇO PARA CONFECÇÃO DE TRÊS MESAS ESCOLARES ADAPTADAS.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1171680",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "06/10/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "06/10/2025"
   },
   {
     "processo_id": 1171682,
@@ -1089,8 +1089,8 @@
     "assunto": "SOLICITAÇÃO DE COMPRA DE ITENS DE CONSUMO PARA AÇÕES DOS ALUNOS DO CURSO DE ENGENHARIA BIOMÉDICA. 5 PINOS MOLA TRAVA TELESCÓPICA CLICK FLEXÍVEL; PONTEIRA PARA MÓVEIS REDONDO PLÁSTICO 14MM; CATRACA PARA ENCOSTO DE SOFÁ RECLINÁVEL 4 ESTÁGIOS AÇO GALVANIZADO - 4 PARES; ROLO DE 10 METROS DE PERFIL T PVC PARA MÓVEIS - 15MM.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1171682",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "23/10/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "23/10/2025"
   },
   {
     "processo_id": 1172170,
@@ -1098,8 +1098,8 @@
     "assunto": "SOLICITAÇÃO DE ADESÃO OFÍCIO N° 97/2025/PROPESQ/REITORIA/UFRN",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1172170",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "01/10/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "01/10/2025"
   },
   {
     "processo_id": 1172868,
@@ -1107,8 +1107,8 @@
     "assunto": "SOLICITAÇÃO DE ADESÃO: ITENS DE RECREAÇÃO",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1172868",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "10/10/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "10/10/2025"
   },
   {
     "processo_id": 1172912,
@@ -1116,8 +1116,8 @@
     "assunto": "PROPOSTAS",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1172912",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "08/10/2025",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "08/10/2025"
   },
   {
     "processo_id": 1175461,
@@ -1125,8 +1125,8 @@
     "assunto": "SOLICITAÇÃO DE MANUTENÇÃO CORRETIVA NO EQUIPAMENTO \"LIOFILIZADOR DE BANCADA\" DO LABORATÓRIO DE TECNOLOGIA DE ALIMENTOS DA FACISA.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1175461",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": null,
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": null
   },
   {
     "processo_id": 1176752,
@@ -1134,8 +1134,8 @@
     "assunto": "FORNECIMENTO E INSTALAÇÃO DE BATERIAS ESTACIONÁRIAS 150AH/12V PARA SISTEMA DE AUTOMAÇÃO E PROTEÇÃO DA SE 69KV UFRN/CAMPUS CENTRAL.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1176752",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": null,
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": null
   },
   {
     "processo_id": 1193666,
@@ -1143,8 +1143,8 @@
     "assunto": "ESTE PROCESSO VEM SOLICITAR A CONTINUIDADE DOS PROCESSOS DE AQUISIÇÃO E COMPRAS RELACIONADOS AOS ITENS 20 E 21 DA DL 90090/2025 E DO ITEM 8 DA DL 90097/2025. TAIS DLS SÃO RELACIONADAS AO PROCESSO 23077.146937/2025-07.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1193666",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": null,
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": null
   },
   {
     "processo_id": 1195796,
@@ -1152,8 +1152,8 @@
     "assunto": "SUBSTITUIÇÃO DE DISJUNTORES DE MÉDIA TENSÃO NAS UNIDADES E DE TRANSFORMADORES DE CORRENTE PARA REPOSIÇÃO: DAS/ESCOLA DE GOVERNO; FACULDADE DE FARMÁCIA; ESCOLA AGRÍCOLA DE JUNDIAÍ/ FACULDADE DE ODONTOLOGIA/ CCS/ EC&T/ COMPLEXO TECNOLÓGICO DE NOVAS ENGENHARIAS / NTI 01 E NTI 02 / NUPLAM E REITORIA.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1195796",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": null,
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": null
   },
   {
     "processo_id": 1195800,
@@ -1161,8 +1161,8 @@
     "assunto": "SUBSTITUIÇÃO DE RELIGADORES TELECOMANDADOS COM RECUPERAÇÃO DO SISTEMA SUPERVISÓRIO E SUBSTITUIÇÃO DE CHAVES TELECOMANDADAS POR FALÊNCIA OPERACIONAL OU OBSOLESCÊNCIA.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1195800",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": null,
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": null
   },
   {
     "processo_id": 1195808,
@@ -1170,8 +1170,8 @@
     "assunto": "AQUISIÇÃO DE ANALISADOR DE QUALIDADE DE ENERGIA ELÉTRICA - 02 TTR - MEDIDOR DE RELAÇÃO DE TRANSFORMAÇÃO - 02 ANALISADOR DE BATERIA ESTACIONÁRIA - 01",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1195808",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": null,
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": null
   },
   {
     "processo_id": 1195809,
@@ -1179,8 +1179,8 @@
     "assunto": "AQUISIÇÃO DE EQUIPAMENTOS DE PROTEÇÃO COLETIVA, INDIVIDUAL, EQUIPAMENTOS PARA TRABALHOS COM LINHA VIVA ATÉ 34,5 KV E DE MANUTENÇÃO/OPERAÇÃO DE REDES DE DISTRIBUIÇÃO DE ENERGIA ELÉTRICA AÉREAS.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1195809",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": null,
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": null
   },
   {
     "processo_id": 1195810,
@@ -1188,8 +1188,8 @@
     "assunto": "KIT DE ABASTECIMENTO DE GAS SF6 DE DISJUNTORES DE ALTA TENSÃO.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1195810",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": null,
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": null
   },
   {
     "processo_id": 1195811,
@@ -1197,8 +1197,8 @@
     "assunto": "REDUNDÂNCIA DO SISTEMA DE PROTEÇÃO DA SE 69 KV.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1195811",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": null,
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": null
   },
   {
     "processo_id": 1197573,
@@ -1206,8 +1206,8 @@
     "assunto": "AQUISIÇÃO DE BOLSA TIPO ECOBAG EM ALGODÃO E BLOCO DE RASCUNHOS - 50 FOLHAS",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1197573",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "17/03/2026",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "17/03/2026"
   },
   {
     "processo_id": 1198212,
@@ -1215,8 +1215,8 @@
     "assunto": "COMPRA DE REAGENTES - PROFESSORA AURIGENA ANTUNES DE ARAÚJO",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1198212",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "26/03/2026",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "26/03/2026"
   },
   {
     "processo_id": 1201989,
@@ -1224,8 +1224,8 @@
     "assunto": "AQUISIÇÃO DE PIA EM AÇO INOXIDÁVEL PARA CLÍNICA ESCOLA DE ENFERMAGEM DA FACISA",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1201989",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "06/05/2026",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "06/05/2026"
   },
   {
     "processo_id": 1203586,
@@ -1233,8 +1233,8 @@
     "assunto": "DL AQUISIÇÃO DE SOFTWARE",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1203586",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "23/04/2026",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "23/04/2026"
   },
   {
     "processo_id": 1205703,
@@ -1242,8 +1242,8 @@
     "assunto": "SOLICITAÇÃO DE ADESÃO: AR CONDICIONADO",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1205703",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "08/06/2026",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "08/06/2026"
   },
   {
     "processo_id": 1208193,
@@ -1251,8 +1251,8 @@
     "assunto": "SOLICITAR UM EQUIPAMENTO DE AR CONDICIONADO SPLIT 12 MIL BTUS DE PAREDE PARA A SALA DO SETOR DE INFRAESTRUTURA E PATRIMÔNIO DO COESPE.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1208193",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "08/06/2026",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "08/06/2026"
   },
   {
     "processo_id": 1208323,
@@ -1260,8 +1260,8 @@
     "assunto": "AQUISIÇÃO DE 02 EQUIPAMENTOS CONDICIONADORES DE AR, COM 30.000 BTUS DE CAPACIDADE TÉRMICA. PROCESSO DE ADESÃO.",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1208323",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": "08/06/2026",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "08/06/2026"
   },
   {
     "processo_id": 1220287,
@@ -1269,8 +1269,8 @@
     "assunto": "AQUISIÇÃO DE EQUIPAMENTOS E MATERIAIS PERMANENTES PARA PROJETO DE ENSINO \"INTERCULTURALIDADE, TERRITÓRIOS E CONHECIMENTOS INDÍGENAS: ETNOGRAFIA, PRODUÇÃO AUDIOVISUAL E MATERIAIS DIDÁTICOS BILÍNGUES PARA A FORMAÇÃO DE PROFESSORES INDÍGENAS\"",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1220287",
     "ignoradoEm": "14/08/2026",
-    "ultimaAtividadeNoIgnorar": null,
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": null
   },
   {
     "processo_id": 1162320,
@@ -1278,8 +1278,8 @@
     "assunto": "PROCESSO PARA CONTRATAÇÃO DE PESSOA FÍSICA PARA MINISTRAR CURSO COM FOMENTO APROVADO POR EDITAL INTERNO UFRN",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1162320",
     "ignoradoEm": "21/08/2026",
-    "ultimaAtividadeNoIgnorar": null,
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": null
   },
   {
     "processo_id": 1223775,
@@ -1287,7 +1287,7 @@
     "assunto": "-IMPRESSÃO DA REVISTA CIGARRA PRODUTO DO PROJETO DE EXTENSÃO CIGARRA DIGITAL - PJ 494-2026",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223775",
     "ignoradoEm": "21/08/2026",
-    "ultimaAtividadeNoIgnorar": "03/08/2026",
-    "motivo": null
+    "motivo": null,
+    "ultimaAtividadeNoMomento": "03/08/2026"
   }
 ]
