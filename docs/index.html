@@ -1230,6 +1230,8 @@ function manifestRows(procs, color, soft){
     }).join('');
 }
 
+let activeCaminhoPorEstacao = {}; // filtro por tipo de contratação dentro de cada estação (dpgc/dfi/dfe/etc.), por chave de estação
+
 function renderManifests(){
   const stations = currentStations();
   const el = document.getElementById('stations');
@@ -1241,9 +1243,34 @@ function renderManifests(){
       panel.className = 'manifest';
       panel.id = 'manifest-'+f.key;
     }
-    const procs = stationProcs(f);
+    const todos = stationProcs(f);
     panel.className = 'manifest' + (activeStation === f.key ? ' show' : '');
-    panel.innerHTML = `<div class="manifest-head">${f.label} · ${f.sub} — ${procs.length} processo${procs.length===1?'':'s'}</div>` + manifestRowsAgrupado(procs, corCaminho, corCaminhoSuave, f.key==='dpgc' ? ROTULOS_CONCORRENCIA_INFRA : null);
+
+    const rotulosExtra = f.key==='dpgc' ? ROTULOS_CONCORRENCIA_INFRA : null;
+    const caminhosPresentes = CAMINHO_OPCOES.filter(c => todos.some(p => (p.caminho || 'pregao') === c.key));
+    const caminhoAtivo = activeCaminhoPorEstacao[f.key] || null;
+    const tabsHtml = caminhosPresentes.length > 0 ? `
+      <div class="subetapa-tabs manifest-caminho-tabs">
+        <button class="subetapa-tab ${caminhoAtivo===null?'active':''}" data-caminho="">Todos · ${todos.length}</button>
+        ${caminhosPresentes.map(c => {
+          const n = todos.filter(p => (p.caminho || 'pregao') === c.key).length;
+          const rotulo = (rotulosExtra && rotulosExtra[c.key]) || c.label;
+          return `<button class="subetapa-tab ${caminhoAtivo===c.key?'active':''}" data-caminho="${c.key}">${rotulo} · ${n}</button>`;
+        }).join('')}
+      </div>` : '';
+
+    const procs = caminhoAtivo ? todos.filter(p => (p.caminho || 'pregao') === caminhoAtivo) : todos;
+    const corpo = caminhoAtivo ? manifestRows(procs, corCaminho, corCaminhoSuave) : manifestRowsAgrupado(procs, corCaminho, corCaminhoSuave, rotulosExtra);
+    panel.innerHTML = `<div class="manifest-head">${f.label} · ${f.sub} — ${procs.length} processo${procs.length===1?'':'s'}</div>` + tabsHtml + corpo;
+
+    panel.querySelectorAll('.manifest-caminho-tabs .subetapa-tab').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const c = btn.getAttribute('data-caminho');
+        activeCaminhoPorEstacao[f.key] = c || null;
+        renderAll();
+      });
+    });
+
     anchor.after(panel);
     anchor = panel;
   });
