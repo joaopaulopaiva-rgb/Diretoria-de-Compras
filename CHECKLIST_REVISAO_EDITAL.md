@@ -12,6 +12,8 @@ Rascunho v1, construído a partir da leitura de 5 editais reais da UFRN (com seu
 
 **Formato de retorno da revisão**: eu só reporto o que tiver pendência/achado. Itens do checklist que passaram sem problema não aparecem na resposta — nada de tabela "ok/ok/ok" item por item.
 
+**Técnica de leitura (crítico — aprendido em 26/08/2026)**: os modelos AGU/SGD trazem cláusulas alternativas em **vermelho e/ou tachado** — texto nessa formatação significa que aquele trecho **vai sair** (não foi mantido na versão final). Extração de texto puro (ex. `pypdf`) apaga cor e tachado e mostra as duas alternativas lado a lado como se nenhuma tivesse sido escolhida — isso gera falso positivo sistemático de "cláusula não resolvida". Para revisar corretamente: extrair o PDF preservando cor de fonte e detectando tachado (linha fina sobreposta ao texto — `pymupdf`/`fitz` com `get_text("dict")` + `get_drawings()`, já que `pdftoppm`/poppler não está disponível neste ambiente), montar duas versões (texto limpo = spans não riscados; texto riscado = spans riscados) e revisar a versão limpa. Só reportar como "não resolvido" o que sobrar ambíguo/quebrado *na versão limpa* (ex.: frase cortada no meio porque o tachado foi mal aplicado, ou as duas alternativas tachadas ao mesmo tempo deixando a cláusula vazia).
+
 ---
 
 ## Parte 1 — Revisão do Edital
@@ -31,6 +33,8 @@ Rascunho v1, construído a partir da leitura de 5 editais reais da UFRN (com seu
 - [ ] Número do processo, número do Pregão/SISRP, UASG e datas são os mesmos em todas as páginas/anexos onde aparecem?
 - [ ] Valor total do edital bate com o valor total do Relatório de Materiais e Serviços com Preços Estimados?
 - [ ] Prazos (impugnação, esclarecimento, entrega de propostas) estão corretos e não conflitam entre si?
+- [ ] CEP/endereço da UFRN é o mesmo em todos os documentos (edital, TR, Ata, Contrato)? Achado real: já vi divergência de CEP entre Ata e os demais documentos do mesmo processo.
+- [ ] **Resíduo de "contratação direta" na Ata/Contrato de Pregão**: a minuta da Ata de Registro de Preços traz frases como "não será admitida a adesão... decorrente desta licitação **ou desta contratação direta**" — em processo de Pregão, a parte "ou desta contratação direta" é resíduo do modelo de Dispensa/Inexigibilidade e deveria ter sido tachada/removida junto com o resto. Já visto em 2 processos diferentes (Pregão 90018/2026 e 90029/2025) — parece falha recorrente na hora de gerar a minuta, vale checar sempre.
 
 ### 1.4 Aspectos redacionais (Português)
 - [ ] Ortografia, concordância verbal/nominal, clareza.
@@ -52,6 +56,7 @@ Rascunho v1, construído a partir da leitura de 5 editais reais da UFRN (com seu
 - [ ] O código **CATMAT citado dentro do texto da especificação** é idêntico ao campo oficial **CATMAT/CATSER** declarado logo abaixo do item? (achei 1 divergência real em 130 pares checados — processo 23077.026008/2026-55, item 24)
 - [ ] A **unidade de medida do título do item** (ex.: "870 ML") bate com a unidade usada no corpo da especificação (ex.: não pode virar "730 gramas")? Mesmo achado do ponto acima, mesmo item — vale checar os dois juntos, costumam andar em par.
 - [ ] Quantidade, valor unitário e valor total (Quant. × Valor Unit. = Valor Total) batem aritmeticamente?
+- [ ] **CATMAT idêntico entre itens tecnicamente diferentes** (achado novo, padrão recorrente): já vi o mesmo CATMAT/CATSER usado em 2-3 itens de um mesmo Termo de Referência que descrevem produtos fisicamente distintos (ex.: Access Point Indoor 2x2:2 / Indoor 4x4:4 / Outdoor 2x2:2, todos com CATMAT 393277; ou monitores de tamanhos diferentes com o mesmo código). Pode ser catalogação genuína do catálogo oficial, mas o padrão se repete o bastante para sempre reportar como pendência de verificação quando 2+ itens de especificação diferente compartilham CATMAT.
 
 ### 2.3 Especificação contraditória ou ultrapassada
 - [ ] A especificação cita norma técnica (ABNT NBR, etc.) — é a norma vigente, não uma revisão substituída?
