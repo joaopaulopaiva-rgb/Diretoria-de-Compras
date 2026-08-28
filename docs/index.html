@@ -831,7 +831,7 @@ a.link-badge:hover{ text-decoration:underline; }
       <h2>Tudo revisado</h2>
       <p id="gateDoneSummary"></p>
       <div class="gate-sync" id="gateSync" style="display:none;">
-        <p class="gate-sync-label">Ao clicar em "Entrar no painel", uma aba do GitHub abre pronta com essas decisões — é só clicar em "Submit new issue" lá. Se a aba não abrir (bloqueio do navegador), copie e envie manualmente:</p>
+        <p class="gate-sync-label">Decisões ainda não sincronizadas com o painel real — copie e envie para o Claude aplicar:</p>
         <textarea id="gateSyncText" readonly rows="5"></textarea>
         <button class="gate-btn ghost" id="gateSyncCopy">Copiar decisões</button>
       </div>
@@ -1596,17 +1596,16 @@ carregarDados().then(() => {
    decisões tomadas aqui ficam guardadas no navegador (localStorage) até
    serem sincronizadas de volta pro repositório. Não dá pra escrever no
    repositório direto da página (site público, sem lugar seguro pra guardar
-   uma credencial de escrita) — o caminho é clicar em "Entrar no painel",
-   que sempre abre uma issue pré-preenchida no GitHub (só falta clicar em
-   "Submit new issue" lá); um workflow do GitHub (.github/workflows/
-   portao_atualizar.yml) reage sozinho a essa issue e roda a atualização
-   geral (marcos + revisão de ignorados) e aplica decisões, se houver —
-   sem precisar de nenhuma checagem periódica rodando em background.
-   "Copiar decisões" continua existindo só como reserva manual pras
-   decisões, caso a aba não abra (bloqueio do navegador). */
+   uma credencial de escrita), e testamos um fluxo que abria uma issue no
+   GitHub automaticamente pra resolver isso — revertido em 28/08/2026 a
+   pedido da pessoa dona do projeto, porque exigia login no GitHub toda vez
+   que ela só queria entrar no painel. "Entrar no painel" volta a ser só
+   isso: fecha o portão, sem abrir nada. "Copiar decisões" continua sendo o
+   jeito de sincronizar — ela copia e cola na conversa com o Claude quando
+   quiser aplicar de verdade. A atualização geral (marcos + revisão de
+   ignorados) roda sozinha por agendamento no GitHub Actions, sem precisar
+   de clique nenhum (ver .github/workflows/atualizar_marcos.yml). */
 const DECISOES_KEY = 'linhaDeCompras_decisoesLocais_v1';
-const PORTAO_ISSUE_REPO = 'joaopaulopaiva-rgb/Diretoria-de-Compras';
-const PORTAO_ISSUE_TITULO = 'Atualização do portão de entrada';
 
 const CAMINHO_OPCOES = [
   { key: 'pregao', label: 'Pregão' },
@@ -1806,24 +1805,6 @@ function closeGate(){
   renderAll();
 }
 
-// "Entrar no painel" é também o botão de atualização: sempre abre uma issue
-// no GitHub (decisões pendentes, se houver, ou só um pedido de atualização
-// geral) — um workflow do GitHub reage sozinho a essa issue e roda a
-// atualização de marcos + revisão de ignorados + aplicação de decisões,
-// sem precisar de nenhuma checagem periódica (ver .github/workflows/
-// portao_atualizar.yml). Decisão combinada com a pessoa dona do projeto
-// 28/08/2026: como ela sempre entra no painel ao abrir o site, esse clique
-// é o gatilho natural — tirou-se a atualização agendada separada.
-function enviarAtualizacaoPortao(){
-  const pendentes = decisoesPendentesDeSincronizar();
-  const corpo = pendentes.length > 0
-    ? 'Decisões tomadas no portão de entrada do painel (Linha de Compras).\n\n'
-      + '```json\n' + JSON.stringify(pendentes, null, 2) + '\n```'
-    : 'Sem decisões novas no portão — só pedindo a atualização geral (marcos dos processos + revisão de ignorados).';
-  const url = `https://github.com/${PORTAO_ISSUE_REPO}/issues/new?title=${encodeURIComponent(PORTAO_ISSUE_TITULO)}&body=${encodeURIComponent(corpo)}`;
-  window.open(url, '_blank', 'noopener');
-}
-
 function mostrarBoasVindas(){
   const el = document.getElementById('boasVindas');
   el.classList.remove('fade-out');
@@ -1837,7 +1818,6 @@ function mostrarBoasVindas(){
 }
 
 document.getElementById('gateEnter').addEventListener('click', () => {
-  enviarAtualizacaoPortao();
   closeGate();
   mostrarBoasVindas();
 });

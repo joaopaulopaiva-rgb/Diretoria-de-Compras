@@ -177,12 +177,14 @@ Pipeline (roda toda sexta-feira automaticamente, e sob demanda quando a pessoa p
 3. Descartar processos cujo número/id já estejam registrados como "já vistos" (arquivo local de cache) — evita reabrir/reanalisar processo repetido.
 4. Para cada processo novo: abrir a página pública e checar o **primeiro documento** da lista. Se for **"DOCUMENTO DE FORMALIZAÇÃO DA DEMANDA DIGITAL (DFD DIGITAL)"**, é um processo válido para acompanhar — adicionar ao painel e rodar a extração de marcos (seção 3). Se não for, marcar como "visto, fora do padrão" e não tratar mais.
 
-Além da descoberta semanal, dois outros processos automáticos mantêm o painel em dia (**desde 28/08/2026 nenhum dos dois roda mais em horário fixo** — ambos disparam quando a pessoa clica em "Entrar no painel" no portão, o que ela faz sempre que abre o site; ver `.github/workflows/portao_atualizar.yml`):
+Além da descoberta semanal, dois outros processos automáticos mantêm o painel em dia, cada um com seu próprio agendamento fixo — nenhum dos dois depende de a pessoa clicar em nada (testamos amarrar isso ao clique em "Entrar no painel" em 28/08/2026, mas revertido no mesmo dia: exigia que a página abrisse uma issue no GitHub e pedisse login, o que a pessoa dona do projeto não quis de jeito nenhum — "Entrar no painel" é só entrar no painel):
 
-- **Atualização geral de marcos** (`scripts/atualizar_marcos.py`): repuxa os documentos/movimentações de cada processo já rastreado e recalcula fase/sub-etapa (seção 3).
-- **Revisar processos ignorados** (`scripts/revisar_ignorados.py`): para cada processo em `data/ignorados.json` (marcado "Ignorar" no portão em algum momento), compara a data do último documento hoje com a que estava registrada no momento em que foi ignorado. Se mudou (voltou a se movimentar), devolve automaticamente à fila do portão (`data/portao_pendentes.json`) com uma nota explicando o motivo. Se não mudou, continua ignorado, sem gerar alerta.
+- **Atualização geral de marcos** (`scripts/atualizar_marcos.py`, `.github/workflows/atualizar_marcos.yml`): todo dia útil, 07:00 (horário de Natal-RN) — repuxa os documentos/movimentações de cada processo já rastreado e recalcula fase/sub-etapa (seção 3).
+- **Revisar processos ignorados** (`scripts/revisar_ignorados.py`, dentro de `.github/workflows/descoberta_semanal.yml`): toda sexta-feira, junto com a descoberta — para cada processo em `data/ignorados.json` (marcado "Ignorar" no portão em algum momento), compara a data do último documento hoje com a que estava registrada no momento em que foi ignorado. Se mudou (voltou a se movimentar), devolve automaticamente à fila do portão (`data/portao_pendentes.json`) com uma nota explicando o motivo. Se não mudou, continua ignorado, sem gerar alerta.
 
-Os dois workflows antigos (`atualizar_marcos.yml` em cron diário, e a revisão de ignorados dentro de `descoberta_semanal.yml`) continuam existindo só como `workflow_dispatch` (rodar manualmente na aba Actions do GitHub), sem agendamento — mantidos como saída de emergência caso a pessoa passe muito tempo sem abrir o painel.
+Ambos os workflows também aceitam `workflow_dispatch` (rodar manualmente na aba Actions do GitHub, ou pedir pro Claude rodar na hora).
+
+**Sincronização das decisões do portão** (Acompanhar/Ignorar/Em análise): como o painel é uma página estática, essas decisões ficam só no navegador (localStorage) até serem aplicadas de verdade. O jeito de aplicar continua sendo copiar o bloco de decisões ("Copiar decisões" na tela do portão) e colar numa conversa com o Claude, que roda `scripts/aplicar_decisoes.py` e publica — não existe hoje um caminho automático que não exija login em algum lugar.
 
 ## 12. Limitações técnicas conhecidas do SIPAC público
 

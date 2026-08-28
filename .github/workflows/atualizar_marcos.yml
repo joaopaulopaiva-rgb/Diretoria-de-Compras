@@ -1,12 +1,9 @@
 name: Atualização de marcos e status
 
-# Sem agendamento fixo desde 28/08/2026: a atualização geral agora roda
-# via .github/workflows/portao_atualizar.yml, disparada pelo clique em
-# "Entrar no painel" no portão (docs/index.html) — a pessoa sempre entra
-# no painel ao abrir o site, então esse clique já cobre a atualização.
-# Este workflow fica disponível só pra rodar manualmente quando quiser
-# (aba Actions no GitHub, "Run workflow").
 on:
+  schedule:
+    # Todo dia útil, 07:00 America/Sao_Paulo (10:00 UTC)
+    - cron: "0 10 * * 1-5"
   workflow_dispatch: {}
 
 permissions:
