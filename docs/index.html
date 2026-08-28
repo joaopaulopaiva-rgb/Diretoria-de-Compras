@@ -632,6 +632,60 @@ a.link-badge:hover{ text-decoration:underline; }
 }
 
 /* ===== trilha (visão detalhada de um processo) ===== */
+.boas-vindas{
+  display:none;
+  position:fixed; inset:0;
+  background:rgba(20,32,46,.55);
+  z-index:150;
+  align-items:center; justify-content:center;
+  padding:2rem 1.5rem;
+  cursor:pointer;
+}
+.boas-vindas.show{ display:flex; }
+.boas-vindas-card{
+  background:var(--paper-raised);
+  border-radius:14px;
+  padding:2.5rem 3rem;
+  text-align:center;
+  box-shadow:0 24px 60px rgba(0,0,0,.35);
+  animation:boasVindasEntra .45s cubic-bezier(.2,.9,.3,1.3);
+}
+.boas-vindas.fade-out{ animation:boasVindasSai .35s ease forwards; }
+.boas-vindas-icone{
+  font-size:2.6rem;
+  line-height:1;
+  margin-bottom:.75rem;
+  animation:boasVindasBalanca 1.1s ease-in-out .15s 2;
+  display:inline-block;
+}
+.boas-vindas-titulo{
+  font-family:var(--font-display);
+  font-size:1.4rem;
+  font-weight:700;
+  color:var(--ink);
+  margin:0 0 .35rem;
+}
+.boas-vindas-sub{
+  font-size:14px;
+  color:var(--ink-soft);
+  margin:0;
+}
+@keyframes boasVindasEntra{
+  from{ opacity:0; transform:scale(.85) translateY(10px); }
+  to{ opacity:1; transform:scale(1) translateY(0); }
+}
+@keyframes boasVindasSai{
+  from{ opacity:1; }
+  to{ opacity:0; }
+}
+@keyframes boasVindasBalanca{
+  0%, 100%{ transform:rotate(0deg); }
+  25%{ transform:rotate(-12deg); }
+  75%{ transform:rotate(12deg); }
+}
+@media (prefers-reduced-motion: reduce){
+  .boas-vindas-card, .boas-vindas-icone{ animation:none; }
+}
 .trail-overlay{
   display:none;
   position:fixed; inset:0;
@@ -785,6 +839,15 @@ a.link-badge:hover{ text-decoration:underline; }
     </div>
   </div>
 </div>
+
+<div class="boas-vindas" id="boasVindas" style="display:none;">
+  <div class="boas-vindas-card">
+    <div class="boas-vindas-icone">🛒</div>
+    <p class="boas-vindas-titulo">Boas-vindas!</p>
+    <p class="boas-vindas-sub">Rumo a mais uma tentativa de comprar alguma coisa pra UFRN 😄</p>
+  </div>
+</div>
+
 <a href="#" class="example-trigger" id="exampleTrigger">🎲 Ver exemplo: processo que mudou de caminho</a>
 
 <div class="trail-overlay" id="trailOverlay">
@@ -1761,9 +1824,22 @@ function enviarAtualizacaoPortao(){
   window.open(url, '_blank', 'noopener');
 }
 
+function mostrarBoasVindas(){
+  const el = document.getElementById('boasVindas');
+  el.classList.remove('fade-out');
+  el.classList.add('show');
+  const sumir = () => {
+    el.classList.add('fade-out');
+    setTimeout(() => el.classList.remove('show', 'fade-out'), 350);
+  };
+  el.onclick = sumir;
+  setTimeout(sumir, 2400);
+}
+
 document.getElementById('gateEnter').addEventListener('click', () => {
   enviarAtualizacaoPortao();
   closeGate();
+  mostrarBoasVindas();
 });
 
 // Sempre abre o portão ao carregar a página — mesmo sem nada pendente pra
