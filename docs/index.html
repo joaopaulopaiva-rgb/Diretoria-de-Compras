@@ -1766,9 +1766,14 @@ document.getElementById('gateEnter').addEventListener('click', () => {
   closeGate();
 });
 
+// Sempre abre o portão ao carregar a página — mesmo sem nada pendente pra
+// revisar. É de propósito (decisão combinada 28/08/2026): "Entrar no
+// painel" é o gatilho da atualização geral (ver portao_atualizar.yml), e
+// só dispara se a pessoa realmente passar pela tela do portão a cada
+// visita — pular direto pro painel quando não há pendência deixaria a
+// atualização de disparar.
 function abrirPortaoSeNecessario(){
-  const { total } = gateContagem();
-  if(total > 0) openGate();
+  openGate();
 }
 
 /* ===== trilha (visão detalhada de um processo, estilo tabuleiro) =====
