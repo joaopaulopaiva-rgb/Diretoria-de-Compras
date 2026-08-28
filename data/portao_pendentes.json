@@ -1,1 +1,111 @@
-[]
+[
+  {
+    "processo_id": 1229177,
+    "numero": "23077.132391/2026-80",
+    "assunto": "AQUISIÇÃO DOS MATERIAIS NÃO DISPONÍVEIS VIA SIPAC PARA O PROJETO DE EXTENSÃO PJ085-2026 - TECNOLOGIA SOCIAL E EMPREENDEDORISMO NA AGRICULTURA FAMILIAR.",
+    "primeiro_documento": null,
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1229177",
+    "descoberto_em": "2026-08-28"
+  },
+  {
+    "processo_id": 1229119,
+    "numero": "23077.132232/2026-85",
+    "assunto": "SOLICITAÇÃO DE ADESÃO: TERMOHIGRÔMETRO-ANEMÔMETRO",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1229119",
+    "descoberto_em": "2026-08-28"
+  },
+  {
+    "processo_id": 1229058,
+    "numero": "23077.132045/2026-00",
+    "assunto": "PLANEJAMENTO PARA ADESÃO AO RP N.º 9007/2025.",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1229058",
+    "descoberto_em": "2026-08-28"
+  },
+  {
+    "processo_id": 1228804,
+    "numero": "23077.131162/2026-48",
+    "assunto": "SOLICITAÇÃO DE ADESÃO: SUPORTE PARA PROJETOR",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1228804",
+    "descoberto_em": "2026-08-28"
+  },
+  {
+    "processo_id": 1228245,
+    "numero": "23077.129612/2026-32",
+    "assunto": "AQUISIÇÃO DE BANCOS DE MADEIRA - DISPENSA DE LICITAÇÃO",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1228245",
+    "descoberto_em": "2026-08-28"
+  },
+  {
+    "processo_id": 1228161,
+    "numero": "23077.129310/2026-64",
+    "assunto": "SOLICITAÇÃO DE ADESÃO: CARNE PATINHO",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1228161",
+    "descoberto_em": "2026-08-28"
+  },
+  {
+    "processo_id": 1228150,
+    "numero": "23077.129280/2026-96",
+    "assunto": "FORMALIZAÇÃO DE ADESÃO PARA AQUISIÇÃO DE SUPORTES DE PROJETORES, ATRAVÉS DA ATA DE REGISTRO DE PREÇOS 15/2026, DECORRENTE DO PREGÃO ELETRÔNICO 90004/2025, DO CENTRO DE CIÊNCIAS HUMANAS SOCIAIS E AGRÁRIAS DA UNIVERSIDADE FEDERAL DA PARAÍBA",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1228150",
+    "descoberto_em": "2026-08-28"
+  },
+  {
+    "processo_id": 1227942,
+    "numero": "23077.128812/2026-78",
+    "assunto": "AQUISIÇÃO DE MOBILIÁRIO ADMINISTRATIVO (DEMANDAS COLETADAS NO PCA26).",
+    "primeiro_documento": "PROTOCOLO DE ANÁLISE DE REQUISIÇÕES PARA COMPRA",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1227942",
+    "descoberto_em": "2026-08-28"
+  },
+  {
+    "processo_id": 1227726,
+    "numero": "23077.128260/2026-06",
+    "assunto": "ADESÃO PARA FORNECIMENTO DE PLACA DE PETRI",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1227726",
+    "descoberto_em": "2026-08-28"
+  },
+  {
+    "processo_id": 1227717,
+    "numero": "23077.128221/2026-09",
+    "assunto": "DISPENSA DE LICITAÇÃO - QUEIJO MUSSARELA",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1227717",
+    "descoberto_em": "2026-08-28"
+  },
+  {
+    "processo_id": 1227329,
+    "numero": "23077.127152/2026-16",
+    "assunto": "ADESÃO A ATA PARA REGISTRO DE PREÇO Nº 90001/2026 DA UNIDADE GERENCIADORA COMANDO 10 REGIAO MILITAR/MEX - CE (UASG 160047) PARA AQUISIÇÃO DE 60 UNIDADES DE UNIDADE DISCO TIPO: DISCO SSD.",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1227329",
+    "descoberto_em": "2026-08-28"
+  },
+  {
+    "processo_id": 1223775,
+    "numero": "23077.117967/2026-89",
+    "assunto": "-IMPRESSÃO DA REVISTA CIGARRA PRODUTO DO PROJETO DE EXTENSÃO CIGARRA DIGITAL - PJ 494-2026",
+    "primeiro_documento": null,
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223775",
+    "descoberto_em": null,
+    "nota_classificacao": "voltou a se movimentar depois de ter sido ignorado em 21/08/2026 (última atividade era 03/08/2026, agora é 24/08/2026)"
+  }
+]
