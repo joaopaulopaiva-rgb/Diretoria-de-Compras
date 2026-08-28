@@ -208,6 +208,12 @@ Por enquanto: todo mundo (quando o painel for compartilhado) pode **ver** tudo. 
 - Testar empiricamente antes de afirmar uma capacidade técnica (ex.: baixar e ler um documento de verdade antes de dizer que "funciona") — várias suposições iniciais deste projeto (links de documento "mortos", busca por número, etc.) se mostraram erradas só depois de testar de fato.
 - **Nunca pular a leitura de documentos-chave (ex. Termo de Juntada por Apensação) por economia** quando a pergunta é justamente sobre a estrutura do fluxo — uma rodada de pesquisa que pulou essa leitura chegou a conclusões erradas sobre os caminhos da seção 4, corrigidas só numa segunda rodada mais profunda.
 - Antes de lançar uma tarefa de pesquisa longa e autônoma, verificar rapidamente ao vivo (poucos exemplos, foreground) e reportar à pessoa antes de comprometer o tempo numa tarefa longa em background — dá chance dela corrigir o rumo com detalhes que só ela sabe.
+- **Gatilho "rode"/"atualize" (regra fixa, combinada 28/08/2026):** sempre que a pessoa disser "rode", "atualize" ou qualquer sinônimo, rodar as **três** coisas, nessa ordem — nunca só uma:
+  1. `scripts/descoberta_semanal.py` — processos de planejamento novos.
+  2. `scripts/revisar_ignorados.py` — processos ignorados que voltaram a se movimentar.
+  3. `scripts/atualizar_marcos.py` — status dos processos já acompanhados.
+  
+  "Atualizar" sem rodar as três não conta como atender o pedido — ela foi explícita: rodar só uma parte (ex. só marcos) e deixar processo novo de fora quebra a confiança no painel.
 
 ## 15. Em aberto (ainda não decidido)
 
