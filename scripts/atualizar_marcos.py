@@ -61,6 +61,25 @@ _ASSUNTO_DETALHADO_RE = _re.compile(
 )
 _NUMERO_LICITACAO_RE = _re.compile(r"^(.*?N[ºo°]\.?:?\s*\d+/\d{4})\s*[-:]\s*(.*)$", _re.IGNORECASE)
 
+# Campo "Status:" da página do processo — usado pra detectar quando um
+# planejamento já foi apensado/arquivado mas o painel ainda não tem o
+# processo de execução vinculado (ver checagem mais abaixo). BUG JÁ
+# CORRIGIDO: a versão anterior comparava a string literal "Status: APENSADO"
+# contra o HTML bruto, que nunca bate de verdade porque há marcação HTML
+# entre o rótulo e o valor (<th><b>Status:</b></th>\n<td>APENSADO</td>) —
+# ou seja, essa checagem nunca disparou pra NENHUM processo desde que foi
+# escrita. Confirmado ao vivo em agosto/2026 depois de a pessoa dona do
+# projeto reportar dois processos apensados que o painel mostrava como
+# "parados" sem nenhum aviso.
+_STATUS_RE = _re.compile(r"<th><b>Status:\s*</b></th>\s*<td[^>]*>(.*?)</td>", _re.IGNORECASE | _re.DOTALL)
+
+
+def extrair_status(html: str) -> str | None:
+    m = _STATUS_RE.search(html)
+    if not m:
+        return None
+    return texto_visivel(m.group(1)).strip() or None
+
 
 def extrair_numero_e_objeto_licitacao(html: str) -> tuple[str | None, str | None]:
     m = _ASSUNTO_DETALHADO_RE.search(html)
@@ -615,6 +634,11 @@ def atualizar_todos() -> dict:
             # história do apenso e não é recalculada aqui — só a parte do
             # processo de execução é reavaliada (nunca misturar fonte,
             # CLAUDE.md seção 2).
+            if p.get("avisoApensadoSemVinculo"):
+                # Vínculo foi resolvido (manualmente ou por algum outro meio)
+                # — o aviso de "apensado sem vínculo" não se aplica mais.
+                del p["avisoApensadoSemVinculo"]
+                mudou = True
             if not p.get(campo_vinculo_id):
                 avisos.append(
                     f"{p['processo']}: tem {campo_vinculo}={p[campo_vinculo]!r} vinculado mas o id "
@@ -700,9 +724,23 @@ def atualizar_todos() -> dict:
             html = client.obter_processo(p["processo_id"])
             docs = extrair_documentos(html)
             movs = extrair_movimentacoes(html)
-            sub_atual, marcos_novos, _chegou_ao_fim, retrabalho = calcular_progresso(docs, etapas_planejamento)
+            sub_atual, marcos_novos, chegou_ao_fim, retrabalho = calcular_progresso(docs, etapas_planejamento)
             avisos.extend(avisos_retrabalho(p["processo"], retrabalho))
             estados = {"concluido": False, "em_recurso": False, "candidato_suspensao": False}
+            # calcular_progresso devolve sub_atual=None de propósito quando
+            # o planejamento terminou (chegou_ao_fim) — normalmente nesse
+            # ponto tem_execucao_vinculada já seria True e o outro branch
+            # assumiria a leitura. Mas se o vínculo ainda não foi resolvido
+            # (aviso "apensado sem vínculo" acima, ou DFI ainda não abriu o
+            # processo de execução), sub_atual=None deixava a sub-etapa
+            # travada no valor inicial ("dfd") pra sempre, mesmo com o
+            # planejamento 100% concluído — bug real encontrado 24/08/2026
+            # (23077.174275/2024-76: Lista de Verificação feita e enviado à
+            # DFI há mais de 570 dias, card mostrando "dfd" o tempo todo).
+            # Correção: usa a última etapa da lista como sub-etapa "chão"
+            # nesse caso — reflete o que realmente foi confirmado.
+            if chegou_ao_fim and not sub_atual:
+                sub_atual = etapas_planejamento[-1][0]
 
         nova_data = data_ultima_atividade(docs, movs)
         if nova_data and nova_data != p.get("data"):
@@ -772,25 +810,46 @@ def atualizar_todos() -> dict:
                 p["subetapa"] = novo_resumo
                 mudou = True
 
-        # Planejamento que já mudou de status (ex. "APENSADO") mas ainda não
-        # tem o processo de execução vinculado no painel — não dá pra
-        # descobrir automaticamente hoje (busca por número não funciona,
-        # CLAUDE.md seção 12); sinaliza pra confirmação manual. A peça que
-        # resolveria isso sozinha (varrer Termos de Juntada por tipo de
-        # documento) ainda não foi construída — combinado com a pessoa dona
-        # do projeto pra fazer depois do levantamento por caminho.
+        # Planejamento que já mudou pra Status "APENSADO" mas ainda não tem
+        # o processo de execução vinculado no painel — não dá pra descobrir
+        # automaticamente hoje (busca por número não funciona, CLAUDE.md
+        # seção 12); sinaliza pra confirmação manual. A peça que resolveria
+        # isso sozinha (varrer Termos de Juntada por tipo de documento)
+        # ainda não foi construída.
+        #
+        # Duas coisas testadas ao vivo em agosto/2026 e descartadas por
+        # gerarem falso positivo demais (confirmado triando 33 casos reais):
+        # 1) ARQUIVADO/CANCELADO NÃO entram aqui — ao contrário de APENSADO,
+        #    esses são fim de linha de verdade (demanda cancelada), não um
+        #    "virou outro processo que falta vincular". Tratar como aviso
+        #    de vínculo faltando seria enganoso.
+        # 2) O sinal "enviado à DFI" (qualquer movimentação histórica pra
+        #    unidade da DFI) foi removido — na prática ele capturava
+        #    processos que só passaram por lá de forma normal (circulando
+        #    em unidades técnicas, CLAUDE.md seção 6) e continuam
+        #    Status=ATIVO até hoje, sem nunca terem sido apensados. De 33
+        #    avisos gerados por esse sinal, 0 correspondiam a apensação
+        #    real — só Status=APENSADO bateu de verdade nos 5 casos reais
+        #    da amostra.
         if not tem_execucao_vinculada and caminho not in SEMPRE_PROCESSO_ID:
-            status_mudou = "Status: APENSADO" in html or "Status: ARQUIVADO" in html
-            enviado_a_dfi = any(
-                "DFI" in mv.unidade_destino.upper() and "PLANEJAMENTO" not in mv.unidade_destino.upper()
-                for mv in movs
-            )
-            if status_mudou or enviado_a_dfi:
+            status_atual = extrair_status(html)
+            status_mudou = bool(status_atual) and status_atual.upper().startswith("APENSADO")
+            if status_mudou:
+                motivo = f"Status: {status_atual}"
                 avisos.append(
-                    f"{p['processo']}: sinais de que já saiu do planejamento (status/movimentação) "
+                    f"{p['processo']}: sinais de que já saiu do planejamento ({motivo}) "
                     f"mas ainda não tem processo de execução vinculado no painel — confirmar "
-                    f"manualmente por enquanto."
+                    f"manualmente e resolver o vínculo."
                 )
+                if not p.get("avisoApensadoSemVinculo"):
+                    p["avisoApensadoSemVinculo"] = True
+                    mudou = True
+            elif p.get("avisoApensadoSemVinculo"):
+                # Sinal antigo (ex. heurística "enviado à DFI", já removida)
+                # não se sustenta mais nesta leitura — limpa o selo pra não
+                # ficar um falso positivo grudado no card pra sempre.
+                del p["avisoApensadoSemVinculo"]
+                mudou = True
 
         if mudou:
             atualizados += 1

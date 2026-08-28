@@ -119,7 +119,7 @@ def aplicar(decisoes: list[dict]) -> dict:
                     "assunto": pendente.get("assunto", ""),
                     "link": pendente.get("link", ""),
                     "ignoradoEm": hoje_iso,
-                    "ultimaAtividadeNoIgnorar": pendente.get("ultimaAtividade"),
+                    "ultimaAtividadeNoMomento": pendente.get("ultimaAtividade"),
                     "motivo": d.get("motivo"),
                 }
             )

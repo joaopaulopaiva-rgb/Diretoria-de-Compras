@@ -176,6 +176,7 @@ Pipeline (roda toda sexta-feira automaticamente, e sob demanda quando a pessoa p
 2. Percorrer **todas as páginas** de resultado (há paginação real — testado com 23 registros em 2 páginas).
 3. Descartar processos cujo número/id já estejam registrados como "já vistos" (arquivo local de cache) — evita reabrir/reanalisar processo repetido.
 4. Para cada processo novo: abrir a página pública e checar o **primeiro documento** da lista. Se for **"DOCUMENTO DE FORMALIZAÇÃO DA DEMANDA DIGITAL (DFD DIGITAL)"**, é um processo válido para acompanhar — adicionar ao painel e rodar a extração de marcos (seção 3). Se não for, marcar como "visto, fora do padrão" e não tratar mais.
+5. **Revisar processos ignorados** (`scripts/revisar_ignorados.py`): para cada processo em `data/ignorados.json` (marcado "Ignorar" no portão em algum momento), comparar a data do último documento hoje com a que estava registrada no momento em que foi ignorado. Se mudou (voltou a se movimentar), devolve automaticamente à fila do portão (`data/portao_pendentes.json`) com uma nota explicando o motivo. Se não mudou, continua ignorado, sem gerar alerta. Essa revisão roda sempre junto com a descoberta semanal (mesmo gatilho, sexta-feira) e também sob demanda — **não é mais uma rotina bimestral separada**.
 
 ## 12. Limitações técnicas conhecidas do SIPAC público
 

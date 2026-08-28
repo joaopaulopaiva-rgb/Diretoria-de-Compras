@@ -5,7 +5,9 @@ portão) e devolve à fila (data/portao_pendentes.json) qualquer um cuja
 última atividade avançou desde que foi ignorado — sinal de que voltou a se
 movimentar.
 
-Rodado periodicamente (rotina bimestral, ver CLAUDE.md) pra não perder de
+Roda como parte do pipeline semanal do portão (toda sexta-feira, junto com
+scripts/descoberta_semanal.py — ver .github/workflows/descoberta_semanal.yml
+e CLAUDE.md seção 11) e sob demanda quando a pessoa pedir, pra não perder de
 vista processos que "esfriaram" mas depois voltaram ao fluxo normal.
 
 Uso:

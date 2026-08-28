@@ -777,7 +777,7 @@ a.link-badge:hover{ text-decoration:underline; }
       <h2>Tudo revisado</h2>
       <p id="gateDoneSummary"></p>
       <div class="gate-sync" id="gateSync" style="display:none;">
-        <p class="gate-sync-label">Decisões ainda não sincronizadas com o painel real — copie e envie para o Claude aplicar:</p>
+        <p class="gate-sync-label">Ao clicar em "Entrar no painel", uma aba do GitHub abre pronta pra você enviar essas decisões — é só clicar em "Submit new issue" lá. Se a aba não abrir (bloqueio do navegador), copie e envie manualmente:</p>
         <textarea id="gateSyncText" readonly rows="5"></textarea>
         <button class="gate-btn ghost" id="gateSyncCopy">Copiar decisões</button>
       </div>
@@ -1213,6 +1213,7 @@ function manifestRows(procs, color, soft){
             ${p.emRecurso?'<span class="row-tag recurso">Em recurso</span>':''}
             ${p.urgente?'<span class="row-tag urgente">Prioridade</span>':''}
             ${p.avancoPorIndicioDfe?`<span class="row-tag indicio" title="Avançou pra Fase Externa por documento de origem DFE, sem o documento de fechamento esperado pra sub-etapa '${(SUBETAPAS.find(s=>s.key===p.avancoPorIndicioDfe)||{}).label||p.avancoPorIndicioDfe}' (ex. Certificação Processual / Análise de Parecer Jurídico). Pode ser só rótulo diferente no SIPAC, ou a etapa pode ter sido pulada de verdade — vale conferir.">⚠ Conferir avanço</span>`:''}
+            ${p.avisoApensadoSemVinculo?`<span class="row-tag indicio" title="O processo no SIPAC já mudou de status (apensado/arquivado/cancelado) ou já foi enviado à DFI, mas o painel ainda não tem o processo de execução vinculado — a contagem de dias parado aqui pode estar errada. Precisa achar o processo de execução correto (Termo de Juntada) e vincular manualmente.">⚠ Conferir apensação</span>`:''}
           </div>
           <div class="row-subj">${objetoCard(p)}${showGestor && p.gestor ? ' · <span style="color:var(--ink-faint)">'+p.gestor.split(' ')[0]+'</span>' : ''}</div>
           <div class="row-status">${p.subetapa}</div>
@@ -1229,6 +1230,8 @@ function manifestRows(procs, color, soft){
     }).join('');
 }
 
+let activeCaminhoPorEstacao = {}; // filtro por tipo de contratação dentro de cada estação (dpgc/dfi/dfe/etc.), por chave de estação
+
 function renderManifests(){
   const stations = currentStations();
   const el = document.getElementById('stations');
@@ -1240,9 +1243,34 @@ function renderManifests(){
       panel.className = 'manifest';
       panel.id = 'manifest-'+f.key;
     }
-    const procs = stationProcs(f);
+    const todos = stationProcs(f);
     panel.className = 'manifest' + (activeStation === f.key ? ' show' : '');
-    panel.innerHTML = `<div class="manifest-head">${f.label} · ${f.sub} — ${procs.length} processo${procs.length===1?'':'s'}</div>` + manifestRowsAgrupado(procs, corCaminho, corCaminhoSuave, f.key==='dpgc' ? ROTULOS_CONCORRENCIA_INFRA : null);
+
+    const rotulosExtra = f.key==='dpgc' ? ROTULOS_CONCORRENCIA_INFRA : null;
+    const caminhosPresentes = CAMINHO_OPCOES.filter(c => todos.some(p => (p.caminho || 'pregao') === c.key));
+    const caminhoAtivo = activeCaminhoPorEstacao[f.key] || null;
+    const tabsHtml = caminhosPresentes.length > 0 ? `
+      <div class="subetapa-tabs manifest-caminho-tabs">
+        <button class="subetapa-tab ${caminhoAtivo===null?'active':''}" data-caminho="">Todos · ${todos.length}</button>
+        ${caminhosPresentes.map(c => {
+          const n = todos.filter(p => (p.caminho || 'pregao') === c.key).length;
+          const rotulo = (rotulosExtra && rotulosExtra[c.key]) || c.label;
+          return `<button class="subetapa-tab ${caminhoAtivo===c.key?'active':''}" data-caminho="${c.key}">${rotulo} · ${n}</button>`;
+        }).join('')}
+      </div>` : '';
+
+    const procs = caminhoAtivo ? todos.filter(p => (p.caminho || 'pregao') === caminhoAtivo) : todos;
+    const corpo = caminhoAtivo ? manifestRows(procs, corCaminho, corCaminhoSuave) : manifestRowsAgrupado(procs, corCaminho, corCaminhoSuave, rotulosExtra);
+    panel.innerHTML = `<div class="manifest-head">${f.label} · ${f.sub} — ${procs.length} processo${procs.length===1?'':'s'}</div>` + tabsHtml + corpo;
+
+    panel.querySelectorAll('.manifest-caminho-tabs .subetapa-tab').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const c = btn.getAttribute('data-caminho');
+        activeCaminhoPorEstacao[f.key] = c || null;
+        renderAll();
+      });
+    });
+
     anchor.after(panel);
     anchor = panel;
   });
@@ -1503,9 +1531,17 @@ carregarDados().then(() => {
    caminho de contratação), IGNORAR, ou EM ANÁLISE (continua aparecendo até
    virar uma das outras duas). Como esta página é estática (GitHub Pages),
    decisões tomadas aqui ficam guardadas no navegador (localStorage) até
-   serem sincronizadas de volta pro repositório — o botão "Copiar decisões"
-   gera o texto pra colar na conversa com o Claude aplicar de verdade. */
+   serem sincronizadas de volta pro repositório. Não dá pra escrever no
+   repositório direto da página (site público, sem lugar seguro pra guardar
+   uma credencial de escrita) — o próximo melhor caminho é clicar em
+   "Entrar no painel", que abre sozinho uma issue pré-preenchida no GitHub
+   (só falta clicar em "Submit new issue" lá); o Claude fica de olho nas
+   issues novas e aplica automaticamente, sem precisar colar nada no chat.
+   "Copiar decisões" continua existindo só como reserva manual. */
 const DECISOES_KEY = 'linhaDeCompras_decisoesLocais_v1';
+const ENVIADOS_PORTAO_KEY = 'linhaDeCompras_decisoesEnviadas_v1';
+const PORTAO_ISSUE_REPO = 'joaopaulopaiva-rgb/Diretoria-de-Compras';
+const PORTAO_ISSUE_TITULO = 'Decisões do portão de entrada';
 
 const CAMINHO_OPCOES = [
   { key: 'pregao', label: 'Pregão' },
@@ -1705,7 +1741,40 @@ function closeGate(){
   renderAll();
 }
 
-document.getElementById('gateEnter').addEventListener('click', closeGate);
+function carregarDecisoesEnviadas(){
+  try { return JSON.parse(localStorage.getItem(ENVIADOS_PORTAO_KEY)) || {}; }
+  catch { return {}; }
+}
+function salvarDecisoesEnviadas(d){
+  localStorage.setItem(ENVIADOS_PORTAO_KEY, JSON.stringify(d));
+}
+function assinaturaDecisao(d){
+  return `${d.decisao}:${d.caminho || ''}`;
+}
+
+// Abre uma issue do GitHub já pré-preenchida com as decisões pendentes, pra
+// pessoa só clicar em "Submit new issue" — sem copiar/colar nada. Só dispara
+// quando há decisão nova (comparado com o que já foi enviado antes), pra não
+// abrir uma issue repetida toda vez que ela reabrir o portão sem mudar nada.
+function enviarDecisoesPendentesSeHouver(){
+  const pendentes = decisoesPendentesDeSincronizar();
+  const enviados = carregarDecisoesEnviadas();
+  const novas = pendentes.filter(d => enviados[d.processo_id] !== assinaturaDecisao(d));
+  if(novas.length === 0) return;
+
+  const corpo = 'Decisões tomadas no portão de entrada do painel (Linha de Compras).\n\n'
+    + '```json\n' + JSON.stringify(novas, null, 2) + '\n```';
+  const url = `https://github.com/${PORTAO_ISSUE_REPO}/issues/new?title=${encodeURIComponent(PORTAO_ISSUE_TITULO)}&body=${encodeURIComponent(corpo)}`;
+  window.open(url, '_blank', 'noopener');
+
+  novas.forEach(d => { enviados[d.processo_id] = assinaturaDecisao(d); });
+  salvarDecisoesEnviadas(enviados);
+}
+
+document.getElementById('gateEnter').addEventListener('click', () => {
+  enviarDecisoesPendentesSeHouver();
+  closeGate();
+});
 
 function abrirPortaoSeNecessario(){
   const { total } = gateContagem();
