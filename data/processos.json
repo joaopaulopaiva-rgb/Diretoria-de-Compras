@@ -20803,5 +20803,30 @@
     "caminhoHistorico": [],
     "processo_id": 1185703,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1185703"
+  },
+  {
+    "processo": "23077.089039/2026-17",
+    "assunto": "REPRESENTAÇÃO DA EDUFRN NO ESTANDE COLETIVO DA ABEU",
+    "fase": "Fase Interna (DFI)",
+    "subEtapa": "faseInterna",
+    "subetapa": "Último documento: LISTA DE VERIFICAÇÃO - FASE INTERNA (28/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (28/08/2026 11:24)",
+    "categoria": "elaboracao",
+    "unidade": "",
+    "data": "28/08/2026",
+    "dataCriacao": "28/08/2026",
+    "gestor": null,
+    "pregao": null,
+    "suspenso": false,
+    "emRecurso": false,
+    "urgente": false,
+    "link": null,
+    "marcos": null,
+    "caminho": "inexigibilidade",
+    "caminhoHistorico": [],
+    "processo_id": null,
+    "execucao_numero": "23077.132539/2026-86",
+    "execucao_id": 1229215,
+    "numeroLicitacao": "INEXIGIBILIDADE DE LICITAÇÃO Nº.: 9/2026",
+    "objetoLicitacao": "REPRESENTAÇÃO DA EDUFRN NO ESTANDE COLETIVO DA ABEU NA 28ª BIENAL INTERNACIONAL DO LIVRO DE SÃO PAULO"
   }
 ]
