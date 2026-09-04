@@ -107,5 +107,114 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223775",
     "descoberto_em": null,
     "nota_classificacao": "voltou a se movimentar depois de ter sido ignorado em 21/08/2026 (última atividade era 03/08/2026, agora é 24/08/2026)"
+  },
+  {
+    "processo_id": 1230512,
+    "numero": "23077.136839/2026-34",
+    "assunto": "SOLICITAÇÃO DE ADESÃO PARA AQUISIÇÃO DE 2 GPS PARA USO NO PROJETO DE ENSINO \"DESENVOLVIMENTO DE TÉCNICAS DE TOPOGRAFIA E GEOPROCESSAMENTO PARA MELHORIA DOS CURSOS DE GEOGRAFIA DO CERES\" PARA A IDENTIFICAÇÃO DE PONTOS DE INTERESSE GEOMORFOLÓGICOS E NA LOCALIZAÇÃO DE PROCESSOS MORFODINÂMICOS.",
+    "primeiro_documento": "JUSTIFICATIVA",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1230512",
+    "descoberto_em": "2026-09-04"
+  },
+  {
+    "processo_id": 1230373,
+    "numero": "23077.136431/2026-62",
+    "assunto": "AQUISIÇÃO DE REAGENTE PARA PESQUISA: SOLUÇÃO DE RECUPERAÇÃO ANTIGENICA 3 EM 1 TRILOGY",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1230373",
+    "descoberto_em": "2026-09-04"
+  },
+  {
+    "processo_id": 1229903,
+    "numero": "23077.134844/2026-11",
+    "assunto": "SOLICITAÇÃO DE AQUISIÇÃO DE ÁGUA SANITÁRIA ATRAVÉS DE DISPENSA DE LICITAÇÃO",
+    "primeiro_documento": "DESPACHO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1229903",
+    "descoberto_em": "2026-09-04"
+  },
+  {
+    "processo_id": 1229865,
+    "numero": "23077.134716/2026-69",
+    "assunto": "SOLICITAÇÃO DE ADESÃO: MICROFONE",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1229865",
+    "descoberto_em": "2026-09-04"
+  },
+  {
+    "processo_id": 1229819,
+    "numero": "23077.134505/2026-26",
+    "assunto": "SOLICITAÇÃO DE ADESÃO: TELA DE PROJEÇÃO",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1229819",
+    "descoberto_em": "2026-09-04"
+  },
+  {
+    "processo_id": 1229797,
+    "numero": "23077.134453/2026-98",
+    "assunto": "AQUISIÇÃO DE TELAS DE PROJEÇÃO RETRÁTIL, SUPORTES PARA PROJETORES, FONTE DE ALIMENTAÇÃO PARA DESKTOP E LÂMPADAS PARA PROJETORES COM A FINALIDADE DE ASSEGURAR CONDIÇÕES APROPRIADAS À EXECUÇÃO DAS ATIVIDADES DE ENSINO, PESQUISA, EXTENSÃO, CAPACITAÇÃO E DEMAIS AÇÕES INSTITUCIONAIS QUE DEMANDEM RECURSOS AUDIOVISUAIS E COMPUTACIONAIS.",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1229797",
+    "descoberto_em": "2026-09-04"
+  },
+  {
+    "processo_id": 1229749,
+    "numero": "23077.134264/2026-15",
+    "assunto": "SOLCITAÇÃO DE DISPENSA DE LICITAÇÃO PARA INSTALAÇÃO DE CONDENSADORAS LG MULTI-V 5 PRO, INTEGRANTES DE SISTEMA DE CLIMATIZAÇÃO COM TECNOLOGIA VRF (VARIABLE REFRIGERANT FLOW), A SEREM INSTALADAS NA COBERTURA DO PRÉDIO DO INSTITUTO METRÓPOLE DIGITAL – IMD/UFRN.",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1229749",
+    "descoberto_em": "2026-09-04"
+  },
+  {
+    "processo_id": 1229740,
+    "numero": "23077.134231/2026-75",
+    "assunto": "FORNECIMENTO E INSTALAÇÃO DE CERCA CONCERTINA PARA ATENDER DEMANDAS DE TODOS OS \"CAMPI\" DA UFRN (GRANDE NATAL E INTERIOR) PELO PERÍODO DE 12 (DOZE) MESES",
+    "primeiro_documento": "DESPACHO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1229740",
+    "descoberto_em": "2026-09-04"
+  },
+  {
+    "processo_id": 1229651,
+    "numero": "23077.133934/2026-86",
+    "assunto": "AQUISIÇÃO DE TELAS DE PROJEÇÃO RETRÁTIL, SUPORTES PARA PROJETORES, FONTE DE ALIMENTAÇÃO PARA DESKTOP E LÂMPADAS PARA PROJETORES COM A FINALIDADE DE ATENDER ÀS NECESSIDADES DE INFRAESTRUTURA TECNOLÓGICA E DE APOIO ÀS ATIVIDADES ACADÊMICAS E ADMINISTRATIVAS DA INSTITUIÇÃO.",
+    "primeiro_documento": null,
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1229651",
+    "descoberto_em": "2026-09-04"
+  },
+  {
+    "processo_id": 1229483,
+    "numero": "23077.133334/2026-18",
+    "assunto": "ENCAMINHAMENTO DE SOLICITAÇÃO DE QUALIFICAÇÃO E CALIBRAÇÃO DE AUTOCLAVE DE BARREIRA, UTILIZADA NO DEPARTAMENTO DE ODONTOLOGIA.",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1229483",
+    "descoberto_em": "2026-09-04"
+  },
+  {
+    "processo_id": 1229457,
+    "numero": "23077.133242/2026-38",
+    "assunto": "NOVA CONTRATAÇÃO",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1229457",
+    "descoberto_em": "2026-09-04"
+  },
+  {
+    "processo_id": 1195808,
+    "numero": "23077.025811/2026-72",
+    "assunto": "AQUISIÇÃO DE ANALISADOR DE QUALIDADE DE ENERGIA ELÉTRICA - 02 TTR - MEDIDOR DE RELAÇÃO DE TRANSFORMAÇÃO - 02 ANALISADOR DE BATERIA ESTACIONÁRIA - 01",
+    "primeiro_documento": null,
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1195808",
+    "descoberto_em": null,
+    "nota_classificacao": "voltou a se movimentar depois de ter sido ignorado em 14/08/2026 (última atividade era None, agora é 03/09/2026)"
   }
 ]
