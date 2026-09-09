@@ -57,20 +57,20 @@ Edjane/João → página (Artifact) → grava em db "solicitacoes" (status: pend
               página atualiza sozinha (onSnapshot) → botão "Baixar PDF" aparece
 ```
 
-### Por que 6 rotinas em vez de 1
+### Por que 12 rotinas em vez de 1
 
 A trava de "mínimo 1 hora" vale **por rotina individual**, não no total — criar
 múltiplas rotinas hourly, cada uma com um minuto de disparo diferente, é uma forma
-legítima (não um hack) de reduzir o intervalo efetivo: 6 rotinas espaçadas de 10 em 10
-minutos cobrem a fila com espera máxima de ~10min, em vez de ~1h com uma só. Ajustado
-em 09/09/2026 depois que João apontou que a atividade manual leva uns 20 minutos — esperar
-até 1h pelo automático não fazia sentido.
+legítima (não um hack) de reduzir o intervalo efetivo. Primeira versão (09/09/2026):
+6 rotinas de 10 em 10 minutos (espera máxima ~10min). Ajustado no mesmo dia pra 12
+rotinas de 5 em 5 minutos (espera máxima ~5min), a pedido de João, depois de confirmar
+que o custo extra (o dobro de disparos "olhando fila vazia") era aceitável.
 
-Também por pedido de João, as 6 rotinas só disparam em horário comercial (seg-sex,
+Também por pedido de João, as rotinas só disparam em horário comercial (seg-sex,
 8h-17h horário de Natal-RN, pulando o almoço 12h30-13h30) — evita gastar disparos à toa
 de madrugada/fim de semana, quando ninguém vai estar usando mesmo. Um disparo que acha a
-fila vazia é barato (só duas consultas ao banco, sem rodar o script), mas gastar 100+
-disparos por dia à toa era desnecessário.
+fila vazia é barato (só duas consultas ao banco, sem rodar o script), mas gastar
+disparos à toa fora do expediente era desnecessário.
 
 ### Banco de dados (capability `db` do Artifact)
 
@@ -90,23 +90,31 @@ do pedido ("Relatar um problema" na página):
 - `solicitacaoId` (id do doc em `solicitacoes`), `numero`, `texto`, `criadoEm`
 - `revisado`: `false` até a rotina processar/eu ler; vira `true` depois.
 
-### Routines (6, escalonadas)
+### Routines (12, escalonadas)
 
 Todas com o mesmo prompt/lógica, só o cron muda. Substituíram a rotina única original
-(`trig_01N1drupA9E7Cg9zLSQVkNUH`, deletada em 09/09/2026):
+(`trig_01N1drupA9E7Cg9zLSQVkNUH`, deletada em 09/09/2026) e depois a versão de 6
+rotinas (mantidas, só somaram-se mais 6):
 
 | Minuto | `trigger_id` | Cron (UTC) |
 |---|---|---|
 | :04 | `trig_01SqBwdTk2iTFWnsXD8MJGyb` | `4 11-15,17-20 * * 1-5` |
+| :09 | `trig_01TEAG6miifKMBPgV8aZPGcV` | `9 11-15,17-20 * * 1-5` |
 | :14 | `trig_018FSsQS26tBaYHcEUxwEr25` | `14 11-15,17-20 * * 1-5` |
+| :19 | `trig_014H23Qy8rZwUGQHSnf8vF7n` | `19 11-15,17-20 * * 1-5` |
 | :24 | `trig_01DP1WdhERKfHdU7bd5GCo6N` | `24 11-15,17-20 * * 1-5` |
+| :29 | `trig_01NwMe5sattzUY69LN8jtZWx` | `29 11-15,17-20 * * 1-5` |
 | :34 | `trig_01G2qS5PTJ3yWvKksTEDYRDh` | `34 11-14,16-20 * * 1-5` |
+| :39 | `trig_01DfCavXriyuWuRaKreeun1P` | `39 11-14,16-20 * * 1-5` |
 | :44 | `trig_019hGwR7UsiMywjtovYiVdER` | `44 11-14,16-20 * * 1-5` |
+| :49 | `trig_01NQuTvQnFp3DXFDCoebWcDx` | `49 11-14,16-20 * * 1-5` |
 | :54 | `trig_018GLy9SBY8YfsRDf6cy6KP6` | `54 11-14,16-20 * * 1-5` |
+| :59 | `trig_01BwfhzDSwryFZThommJcNLJ` | `59 11-14,16-20 * * 1-5` |
 
 Os dois grupos de hora (`11-15,17-20` vs `11-14,16-20`) existem pra excluir só a janela
-exata 12h30-13h30 local: os minutos <30 (:04,:14,:24) incluem a hora 12 UTC-ajustada e
-excluem a 13; os minutos ≥30 (:34,:44,:54) fazem o oposto — juntos, nenhum disparo cai
+exata 12h30-13h30 local: os minutos <30 (:04,:09,:14,:19,:24,:29) incluem a hora 12
+UTC-ajustada e excluem a 13; os minutos ≥30 (:34,:39,:44,:49,:54,:59) fazem o oposto —
+juntos, nenhum disparo cai
 dentro do almoço. Horário local Natal-RN = UTC-3 (sem horário de verão); por isso os
 campos de hora no cron já vêm somados em +3 em relação ao horário local 8h-17h.
 
