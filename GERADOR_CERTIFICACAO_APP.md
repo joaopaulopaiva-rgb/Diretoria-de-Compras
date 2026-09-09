@@ -163,30 +163,52 @@ em chat — leitura de parecer + despacho, recomendação de encaminhamento) com
 atividade da mesma página. Diferença fundamental em relação à Certificação: **não segue
 receita fixa** — é julgamento caso a caso, não um pipeline determinístico. Por isso não
 tem script Python próprio (ao contrário de `gerar_certificacao.py`) — a lógica mora
-inteira no prompt das 12 Routines (seção 3), que faz a sessão do Claude Code ler os
-documentos e escrever a análise diretamente, sem passar por um script intermediário.
+inteira no prompt das 12 Routines (seção 2), que faz a sessão do Claude Code ler os
+documentos e escrever a análise/minuta diretamente, sem passar por um script
+intermediário.
 
-**Como localizar o parecer no processo** (indeterminístico, calibrado com 2 casos reais):
-1. Primeiro, procurar um documento com TIPO contendo "PARECER" (ex.: "PARECER JURÍDICO",
-   confirmado no processo 23077.190752/2025-21, documento 37) — caso mais comum.
-2. Se não achar, usar a ORIGEM do documento como sinal alternativo (unidade jurídica —
-   "SPF", "PROCURADORIA" ou "PGF" no campo origem) — confirmado num processo de
-   Concorrência onde o parecer aparecia como "NOTA INFORMATIVA" de origem SPF, sem
-   tipo "PARECER".
-3. Se já existir no processo um documento "ANÁLISE DE PARECER JURÍDICO" mais recente que
-   o parecer (é literalmente o nome do produto final que a própria Diretoria de Compras
-   produz manualmente hoje) — não gerar do zero, sinalizar que já foi feito.
+**Como localizar o documento-fonte no processo** (lógica v3, 09/09/2026 — corrigida
+duas vezes no mesmo dia a partir de casos reais confirmados no SIPAC):
+1. Monta uma lista de candidatos, sem prioridade de tipo: (i) qualquer documento com
+   TIPO contendo "PARECER" (ex.: "PARECER JURÍDICO", confirmado no processo
+   23077.190752/2025-21, documento 37); (ii) qualquer documento com TIPO "NOTA
+   INFORMATIVA" cuja ORIGEM seja de unidade jurídica (SPF, Projur, ETR ou similar — não
+   só SPF, confirmado num processo de Concorrência onde o parecer saiu como "NOTA
+   INFORMATIVA" de origem SPF, sem tipo "PARECER").
+2. **Entre os candidatos, vence sempre o mais recente** — nunca um tipo é priorizado
+   sobre o outro. Motivo: o mesmo processo pode ter uma Nota Informativa e, meses
+   depois, um Parecer Jurídico (ou a ordem inversa) — o que importa é a última palavra
+   da unidade jurídica, não o tipo do documento que carrega ela.
+3. Se nenhum candidato existir (nem parecer, nem nota informativa jurídica): erro
+   explícito, nunca fica preso em "processando".
+4. Se já existir no processo um documento "ANÁLISE DE PARECER JURÍDICO" mais recente que
+   o candidato vencedor (é literalmente o nome do produto final que a própria Diretoria
+   de Compras produz manualmente hoje) — não gerar do zero: ler esse documento e devolver
+   como dúvida, com resumo do que já foi feito.
+
+**Formato da resposta depende do tipo do candidato vencedor** (não é sempre "análise"):
+- Candidato tipo "PARECER..." → uma **Análise de Parecer Jurídico** de verdade: o que o
+  parecer diz + recomendação objetiva do que a Diretoria de Compras pode/deve fazer.
+  `rotulo: "Análise de Parecer Jurídico"`.
+- Candidato tipo "NOTA INFORMATIVA" → uma **Minuta de Despacho de Encaminhamento**
+  pronta pra tramitar (não uma análise solta) — mesmo estilo já usado quando o João pede
+  minutas de encaminhamento direto em chat. `rotulo: "Minuta de Despacho de
+  Encaminhamento"`.
 
 **Campos de `solicitacoes` específicos desta atividade** (além de `numero`, `tipo`,
 `atividade: "analise_parecer"`): `foco` (opcional, texto livre — "quer que eu foque em
-algo específico?"), `analise` (texto da análise, parágrafos separados por `\n\n`, nunca
-quebra manual dentro de um parágrafo — regra fixa do projeto), `duvidas` (lista de
-strings — dúvidas reais que só o João resolve, sempre entregues **todas de uma vez**,
-nunca uma por vez — pedido explícito dele).
+algo específico?"), `analise` (texto gerado — análise ou minuta, conforme acima;
+parágrafos separados por `\n\n`, nunca quebra manual dentro de um parágrafo — regra
+fixa do projeto), `rotulo` (qual dos dois formatos foi gerado, mostrado como título na
+página), `duvidas` (lista de strings — dúvidas reais que só o João resolve, sempre
+entregues **todas de uma vez**, nunca uma por vez — pedido explícito dele).
 
-Ainda não testado com um processo real de ponta a ponta (só a descoberta de que
-"PARECER JURÍDICO" existe como tipo, via consulta direta ao SIPAC) — calibrar depois do
-primeiro caso real.
+Ainda não testado com um processo real de ponta a ponta — calibrar depois do primeiro
+caso real. A lógica já passou por três revisões no mesmo dia (v1: só origem SPF; v2:
+tipo "PARECER" prioritário com origem como fallback; v3: sempre o mais recente entre os
+dois tipos, com branch de formato de saída) — cada uma corrigida a partir de um caso
+real que a versão anterior não cobria, então é esperado que precise de mais ajustes
+depois dos primeiros casos de verdade.
 
 ## 8. Em aberto
 
