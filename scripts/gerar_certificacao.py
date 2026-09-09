@@ -35,7 +35,7 @@ from datetime import date
 
 sys.path.insert(0, __file__.rsplit("/", 1)[0])
 
-import fitz  # noqa: E402
+import pymupdf as fitz  # noqa: E402
 
 from sipac_client import (  # noqa: E402
     SipacClient,
