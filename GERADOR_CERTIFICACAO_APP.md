@@ -1,9 +1,11 @@
-# Gerador de Certificação Processual da UFRN — o "sisteminha"
+# Central de Processos (UFRN) — o "sisteminha"
 
-Página onde João e Edjane digitam um número de processo e recebem de volta o PDF da
-Certificação Processual (modelo documentado em `MODELO_CERTIFICACAO_PROCESSUAL.md`),
-sem precisar abrir o SIPAC manualmente. Criado em 09/09/2026, a pedido de João
-("Quero que voce monte o sisteminha e ja deixe pronto [...] Nao precisa de login e senha").
+Página onde João e Edjane digitam um número de processo e recebem de volta um resultado
+sem precisar abrir o SIPAC manualmente. Duas atividades, escolhidas por um seletor no
+topo da página: **Certificação Processual** (PDF, modelo documentado em
+`MODELO_CERTIFICACAO_PROCESSUAL.md`) e **Análise de Parecer Jurídico** (texto, adicionada
+em 09/09/2026, ver seção 7). Criado em 09/09/2026, a pedido de João ("Quero que voce
+monte o sisteminha e ja deixe pronto [...] Nao precisa de login e senha").
 
 **Página (Artifact, sem login):** https://claude.ai/code/artifact/c0f6ffd2-50be-4cae-a772-38f685de0706
 
@@ -154,12 +156,48 @@ O arquivo-fonte fica no scratchpad da sessão que a criou (não versionado no re
 mudar algo na página: reabrir a URL do Artifact com `action: "read"`, editar,
 publicar de novo passando o mesmo `url` (mantém o link).
 
-## 6. Em aberto
+## 7. Análise de Parecer Jurídico (segunda atividade, 09/09/2026)
+
+João pediu pra incluir a análise de parecer jurídico (algo que já fazíamos livremente
+em chat — leitura de parecer + despacho, recomendação de encaminhamento) como segunda
+atividade da mesma página. Diferença fundamental em relação à Certificação: **não segue
+receita fixa** — é julgamento caso a caso, não um pipeline determinístico. Por isso não
+tem script Python próprio (ao contrário de `gerar_certificacao.py`) — a lógica mora
+inteira no prompt das 12 Routines (seção 3), que faz a sessão do Claude Code ler os
+documentos e escrever a análise diretamente, sem passar por um script intermediário.
+
+**Como localizar o parecer no processo** (indeterminístico, calibrado com 2 casos reais):
+1. Primeiro, procurar um documento com TIPO contendo "PARECER" (ex.: "PARECER JURÍDICO",
+   confirmado no processo 23077.190752/2025-21, documento 37) — caso mais comum.
+2. Se não achar, usar a ORIGEM do documento como sinal alternativo (unidade jurídica —
+   "SPF", "PROCURADORIA" ou "PGF" no campo origem) — confirmado num processo de
+   Concorrência onde o parecer aparecia como "NOTA INFORMATIVA" de origem SPF, sem
+   tipo "PARECER".
+3. Se já existir no processo um documento "ANÁLISE DE PARECER JURÍDICO" mais recente que
+   o parecer (é literalmente o nome do produto final que a própria Diretoria de Compras
+   produz manualmente hoje) — não gerar do zero, sinalizar que já foi feito.
+
+**Campos de `solicitacoes` específicos desta atividade** (além de `numero`, `tipo`,
+`atividade: "analise_parecer"`): `foco` (opcional, texto livre — "quer que eu foque em
+algo específico?"), `analise` (texto da análise, parágrafos separados por `\n\n`, nunca
+quebra manual dentro de um parágrafo — regra fixa do projeto), `duvidas` (lista de
+strings — dúvidas reais que só o João resolve, sempre entregues **todas de uma vez**,
+nunca uma por vez — pedido explícito dele).
+
+Ainda não testado com um processo real de ponta a ponta (só a descoberta de que
+"PARECER JURÍDICO" existe como tipo, via consulta direta ao SIPAC) — calibrar depois do
+primeiro caso real.
+
+## 8. Em aberto
 
 - Ainda não testado com Dispensa/Inexigibilidade/Adesão SRP/Concorrência de verdade
-  pela página (só Pregão, que já era o caso validado em
+  pela página, na atividade Certificação (só Pregão, que já era o caso validado em
   `MODELO_CERTIFICACAO_PROCESSUAL.md`).
-- Ainda não testado um pedido real de João/Edjane esperando o disparo natural da
-  Routine (só disparo manual, forçado).
+- Ainda não testado um pedido real esperando o disparo natural da Routine com item
+  de verdade na fila (confirmamos que o disparo natural funciona pra fila vazia —
+  rotina `:29` disparou sozinha em 09/09/2026 e não fez nada, corretamente — mas os
+  dois pedidos reais que chegaram pela página até agora foram processados manualmente
+  por mim, não pela Routine em disparo natural).
+- Análise de Parecer Jurídico (seção 7): zero casos reais processados ainda.
 - `relatos` fica sob demanda de eu ler manualmente quando a Routine dispara — não há
   hoje nenhuma notificação push além disso.
