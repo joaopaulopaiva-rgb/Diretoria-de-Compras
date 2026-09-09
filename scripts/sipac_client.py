@@ -24,6 +24,7 @@ import requests
 
 BASE = "https://sipac.ufrn.br"
 PORTAL_URL = f"{BASE}/public/jsp/portal.jsf"
+PROCESSOS_JSF_URL = f"{BASE}/public/jsp/processos/processos.jsf"
 PROCESSO_DETALHADO_URL = f"{BASE}/public/jsp/processos/processo_detalhado.jsf"
 DOC_VISUALIZACAO_URL = f"{BASE}/public/jsp/processos/documento_visualizacao.jsf"
 
@@ -155,6 +156,71 @@ class SipacClient:
         return parse_resultados_busca(resp.text)
 
     # ------------------------------------------------------------------
+    # Busca por Tipo de Processo, paginada (sem filtro de data) — técnica
+    # corrigida em 09/09/2026, ver MODELO_CERTIFICACAO_PROCESSUAL.md seção 4.
+    # A página 1 posta pra PORTAL_URL; da página 2 em diante, o formulário de
+    # resultados (`documentoForm`) posta pra PROCESSOS_JSF_URL — postar pra
+    # PORTAL_URL nas páginas seguintes faz o servidor devolver sempre a
+    # página 1 (ou erro), dando a falsa impressão de que a paginação não
+    # funciona (limitação que estava documentada, e corrigida, no
+    # CLAUDE.md seção 12).
+    # ------------------------------------------------------------------
+
+    def buscar_por_numero_paginado(
+        self, tipo_value: int, numero_alvo: str, max_paginas: int = 40
+    ) -> "ResultadoProcesso | None":
+        """Busca todos os processos de um Tipo (sem filtro de data, ordenado
+        por cadastro mais recente primeiro) e pagina até achar `numero_alvo`
+        ou esgotar `max_paginas`. Cada página tem ~15 resultados; processos
+        recentes aparecem nas primeiras páginas. Devolve None se não achar
+        dentro do limite — quem chama decide se tenta outro tipo ou desiste."""
+        numero_alvo = numero_alvo.strip()
+        portal_resp = self.get(PORTAL_URL)
+        campo_tipo = self._extrair_campo_select_tipo_processo(portal_resp.text)
+        botao = self._extrair_botao_consultar(portal_resp.text)
+
+        payload = {
+            "processoForm": "processoForm",
+            "aba": "p-processos",
+            "tipo_consulta_processo": "500",
+            campo_tipo: str(tipo_value),
+            botao: "Consultar Processo",
+            "javax.faces.ViewState": "j_id1",
+        }
+        resp = self.post(PORTAL_URL, data=payload)
+        for resultado in parse_resultados_busca(resp.text):
+            if resultado.numero == numero_alvo:
+                return resultado
+
+        campo_pagina_m = re.search(r'name="(documentoForm:j_id[^"]+)"[^>]*>\s*<option value="0"', resp.text)
+        campo_pagina = campo_pagina_m.group(1) if campo_pagina_m else "documentoForm:j_id_jsp_377120508_26"
+        view_state_m = re.search(r'javax\.faces\.ViewState"\s+id="javax\.faces\.ViewState"\s+value="([^"]*)"', resp.text)
+        view_state = view_state_m.group(1) if view_state_m else "j_id2"
+
+        for pagina in range(2, max_paginas + 1):
+            payload = {
+                "documentoForm": "documentoForm",
+                "tipo_consulta": "0",
+                "tipo_consulta_processo": "500",
+                "TIPO_PROCESSO": str(tipo_value),
+                "CLASSIFICACAO_CONARQ": "0",
+                "contextoLicitacaoContratos": "false",
+                "javax.faces.ViewState": view_state,
+                campo_pagina: str(pagina - 1),
+            }
+            resp = self.post(PROCESSOS_JSF_URL, data=payload)
+            resultados_pagina = parse_resultados_busca(resp.text)
+            if not resultados_pagina:
+                return None
+            for resultado in resultados_pagina:
+                if resultado.numero == numero_alvo:
+                    return resultado
+            view_state_m = re.search(r'javax\.faces\.ViewState"\s+id="javax\.faces\.ViewState"\s+value="([^"]*)"', resp.text)
+            if view_state_m:
+                view_state = view_state_m.group(1)
+        return None
+
+    # ------------------------------------------------------------------
     # Busca por Tipo de Documento (CLAUDE.md seção 4.6/12) — usada pra achar
     # em massa documentos de um tipo específico (ex. Termo de Juntada por
     # Apensação) sem precisar saber o processo de antemão.
@@ -247,6 +313,20 @@ class SipacClient:
             return None
         texto = resultado.stdout.decode("utf-8", errors="replace").strip()
         return texto or None
+
+    def obter_documento_pdf_bytes(self, id_arquivo: int, arquivo_key: str) -> bytes | None:
+        """Baixa o arquivo original do documento (mesma URL pública de
+        `obter_documento_pdf_texto`), mas devolve os bytes crus em vez de já
+        extrair texto — usar com `pymupdf`/`fitz` quando `pdftotext` (poppler-
+        utils) não estiver instalado no ambiente (caso deste container)."""
+        resp = self.get(
+            f"{BASE}/public/verArquivoDocumento",
+            params={"idArquivo": id_arquivo, "key": arquivo_key, "downloadArquivo": "true", "publicPath": "true"},
+            allow_redirects=True,
+        )
+        if resp.status_code != 200 or not resp.content:
+            return None
+        return resp.content
 
 
 @dataclass
@@ -440,6 +520,39 @@ def extrair_documentos(html: str) -> list[DocumentoProcesso]:
             )
         )
     return docs
+
+
+_ASSUNTO_DETALHADO_RE = re.compile(
+    r"Assunto Detalhado:?\s*</b></th>\s*<td>(.*?)</td>", re.IGNORECASE | re.DOTALL
+)
+
+
+def extrair_assunto_detalhado(html: str) -> str | None:
+    """Extrai o campo "Assunto Detalhado" do cabeçalho da página pública do
+    processo — é a partir dele que se decide Aquisição vs. Serviço (contém
+    a palavra "aquisição" ou não) e, em geral, a modalidade/objeto
+    resumidos."""
+    m = _ASSUNTO_DETALHADO_RE.search(html)
+    if not m:
+        return None
+    return _normalizar(re.sub(r"<[^>]+>", " ", m.group(1)))
+
+
+def extrair_interessados(html: str) -> list[str]:
+    """Extrai a tabela "Interessados Deste Processo" (Tipo / Identificador /
+    Nome) — devolve só os nomes, na ordem em que aparecem."""
+    tabela_html = _isolar_tabela(html, "Interessados Deste Processo")
+    if tabela_html is None:
+        return []
+    nomes: list[str] = []
+    for row_m in _LINHA_RE.finditer(tabela_html):
+        cols = _TD_RE.findall(row_m.group(1))
+        if len(cols) < 3:
+            continue
+        nome = _normalizar(re.sub(r"<[^>]+>", " ", cols[2]))
+        if nome:
+            nomes.append(nome)
+    return nomes
 
 
 def extrair_movimentacoes(html: str) -> list[Movimentacao]:
