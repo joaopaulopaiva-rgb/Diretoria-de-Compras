@@ -116,5 +116,96 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1195808",
     "descoberto_em": null,
     "nota_classificacao": "voltou a se movimentar depois de ter sido ignorado em 14/08/2026 (última atividade era None, agora é 03/09/2026)"
+  },
+  {
+    "processo_id": 1231160,
+    "numero": "23077.139108/2026-41",
+    "assunto": "SOLICITAÇÃO DE DISPENSA: AQUISIÇÃO DE MILHO EM GRÃO 2026",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1231160",
+    "descoberto_em": "2026-09-09"
+  },
+  {
+    "processo_id": 1231027,
+    "numero": "23077.138643/2026-84",
+    "assunto": "AQUISIÇÃO DE CADEIRA UNIVERSITÁRIA",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1231027",
+    "descoberto_em": "2026-09-09"
+  },
+  {
+    "processo_id": 1230859,
+    "numero": "23077.137979/2026-20",
+    "assunto": "CONTRATAÇÃO DIRETA POR DISPENSA DE LICITAÇÃO",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1230859",
+    "descoberto_em": "2026-09-09"
+  },
+  {
+    "processo_id": 1230858,
+    "numero": "23077.137978/2026-85",
+    "assunto": "CONTRATAÇÃO DIRETA POR DISPENSA DE LICITAÇÃO",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1230858",
+    "descoberto_em": "2026-09-09"
+  },
+  {
+    "processo_id": 1230857,
+    "numero": "23077.137977/2026-31",
+    "assunto": "CONTRATAÇÃO DIRETA POR DISPENSA DE LICITAÇÃO",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1230857",
+    "descoberto_em": "2026-09-09"
+  },
+  {
+    "processo_id": 1230761,
+    "numero": "23077.137683/2026-17",
+    "assunto": "CONTRATAÇÃO DE SERVIÇO DE MANUTENÇÃO DAS POLTRONAS DA MARCA ALBERFLEX DO AUDITÓRIO DO IMT-RN.",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1230761",
+    "descoberto_em": "2026-09-09"
+  },
+  {
+    "processo_id": 1230736,
+    "numero": "23077.137612/2026-14",
+    "assunto": "SOLICITAÇÃO DE ADESÃO: PROJETOR MULTIMÍDIA",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1230736",
+    "descoberto_em": "2026-09-09"
+  },
+  {
+    "processo_id": 1230713,
+    "numero": "23077.137541/2026-41",
+    "assunto": "CESSÃO DE DIREITO REAL DE USO DE BEM IMÓVEL PÚBLICO REALIZADA EM FAVOR DA ASSOCIAÇÃO DE PROFESSORES DA UFRN - APURN.",
+    "primeiro_documento": "TERMO DE ABERTURA",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1230713",
+    "descoberto_em": "2026-09-09"
+  },
+  {
+    "processo_id": 1230699,
+    "numero": "23077.137500/2026-55",
+    "assunto": "EXEMPLO DE PROCESSO",
+    "primeiro_documento": null,
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1230699",
+    "descoberto_em": "2026-09-09"
+  },
+  {
+    "processo_id": 1223775,
+    "numero": "23077.117967/2026-89",
+    "assunto": "-IMPRESSÃO DA REVISTA CIGARRA PRODUTO DO PROJETO DE EXTENSÃO CIGARRA DIGITAL - PJ 494-2026",
+    "primeiro_documento": null,
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223775",
+    "descoberto_em": null,
+    "nota_classificacao": "voltou a se movimentar depois de ter sido ignorado em 09/09/2026 (última atividade era None, agora é 03/09/2026)"
   }
 ]
