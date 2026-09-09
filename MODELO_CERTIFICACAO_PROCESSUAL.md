@@ -11,7 +11,11 @@ SISRP nº 132/2026 — aquisição de gêneros alimentícios).
 
 ---
 
-## 1. Estrutura do documento (3 páginas)
+## 1. Estrutura do documento (2 páginas)
+
+O modelo em branco e o exemplo real usados como referência têm 3 páginas, mas a página 3 (DECLARO
+final + assinatura) cabe folgada no espaço sobrando da página 2, depois do CERTIFICO — gerar
+assim, em 2 páginas, em vez de 3.
 
 Cabeçalho repetido no topo de cada página (centralizado, negrito):
 ```
@@ -38,7 +42,7 @@ seguido de uma linha horizontal.
     Tomada de Preços
   - CONTRATAÇÃO DIRETA (idem): Dispensa, Inexigibilidade
 
-### Página 2
+### Página 2 (inclui o que seria a página 3 do modelo original)
 - Quadro (borda, sem faixa cinza de título) com **TIPO** (Menor Preço — por item/grupo/item e
   grupo —, Melhor Técnica, Técnica e Preço), **Descrição do objeto** e **Valor Estimado**
   (numérico e por extenso).
@@ -51,8 +55,7 @@ seguido de uma linha horizontal.
   3. Que a instrução foi cotejada com os checklists do mesmo site, justificando documentos
      faltantes se houver.
 
-### Página 3
-- Sem quadro, texto corrido:
+Em seguida, ainda na página 2, sem quadro, texto corrido:
   - "DECLARO que as inclusões (em verde), as exclusões (em vermelho) e as alterações (em azul)
     estão devidamente indicadas, com as correspondentes justificativas no Relatório de Alterações
     - Minutas da AGU (documento N do processo)." — versão resumida, usada quando existe um
@@ -120,6 +123,21 @@ usar "-" ou "( X )" no lugar de checkmarks, e hífen normal no lugar de travess�
 Script de referência gerado nesta sessão (não commitado no repo — específico do processo testado,
 mas serve de base para adaptar): construção via classe `Writer` que escreve linha a linha e
 controla `y` manualmente, mais funções `section_box_start`/`section_box_end` para os quadros.
+
+**Cuidado com a centralização vertical do texto nas faixas cinza.** `page.insert_text` posiciona
+o texto pelo ponto da *linha de base* (baseline), não pelo topo do caractere — usar `y_top +
+bar_h/2` sem correção deixa o texto alto demais, encostando ou vazando pela borda superior do
+quadro (erro cometido na primeira versão). Como os títulos das faixas são sempre em caixa alta
+(sem descendentes), a fórmula que centraliza corretamente é:
+
+```
+baseline_y = y_top + bar_h/2 + 0.36 * font_size
+```
+
+(0.36×tamanho da fonte aproxima a metade da altura de caixa-alta da Helvetica). Para texto com
+minúsculas (ex.: o subtítulo "Art. 14 da Portaria..."), não usar essa fórmula — nesse caso
+posicionar por um deslocamento fixo abaixo do título, com folga suficiente para descendentes
+(letras como "g", "p").
 
 ---
 
