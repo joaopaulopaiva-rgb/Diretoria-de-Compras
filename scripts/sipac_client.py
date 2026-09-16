@@ -123,6 +123,43 @@ class SipacClient:
             raise SipacError("Não encontrei o botão 'Consultar Processo' na página do portal.")
         return m.group(1)
 
+    def listar_tipos_processo(self) -> list[tuple[int, str]]:
+        """Devolve todos os pares (value, rótulo) do <select> de Tipo de
+        Processo da página pública do portal — usado pra resolver o tipo
+        certo a partir de um nome digitado livre (fluxo "Outros tipos de
+        processo" do Despacho de Encaminhamento), sem depender de um
+        dicionário fixo tipo TIPO_PROCESSO."""
+        portal_resp = self.get(PORTAL_URL)
+        m = re.search(
+            r'name="processoForm:j_id[^"]+"\s+size="1"[^>]*>(.*?)</select>',
+            portal_resp.text,
+            re.DOTALL,
+        )
+        if not m:
+            raise SipacError("Não encontrei o <select> de Tipo de Processo na página do portal.")
+        bloco = m.group(1)
+        opcoes: list[tuple[int, str]] = []
+        for opt_m in re.finditer(r'<option value="(\d+)">(.*?)</option>', bloco):
+            valor = int(opt_m.group(1))
+            if valor == 0:
+                continue
+            opcoes.append((valor, unescape(opt_m.group(2)).strip()))
+        return opcoes
+
+    def buscar_tipos_processo_por_nome(self, nome_busca: str) -> list[tuple[int, str]]:
+        """Filtra `listar_tipos_processo()` pelos rótulos que contêm
+        `nome_busca` (sem acento, case-insensitive). Pode devolver 0, 1 ou
+        várias opções — quem chama decide o que fazer com cada caso (0 =
+        não achou; 1 = usa direto; 2+ = pede pra pessoa escolher)."""
+
+        def normalizar(s: str) -> str:
+            s = unicodedata.normalize("NFKD", s)
+            s = "".join(c for c in s if not unicodedata.combining(c))
+            return s.upper().strip()
+
+        alvo = normalizar(nome_busca)
+        return [(v, l) for v, l in self.listar_tipos_processo() if alvo in normalizar(l)]
+
     def buscar_processos_por_tipo(
         self, tipo_value: int, data_inicial: date, data_final: date
     ) -> list["ResultadoProcesso"]:
