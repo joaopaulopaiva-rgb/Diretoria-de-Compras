@@ -244,5 +244,51 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1222680",
     "descoberto_em": null,
     "nota_classificacao": "voltou a se movimentar depois de ter sido ignorado em 24/08/2026 (última atividade era 05/08/2026, agora é 10/09/2026)"
+  },
+  {
+    "processo_id": 1233016,
+    "numero": "23077.144981/2026-55",
+    "assunto": "SOLICITAÇÃO DE DISPENSA DE LICITAÇÃO PARA COMPRA DE CAPELA DE GASES",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1233016",
+    "descoberto_em": "2026-09-18"
+  },
+  {
+    "processo_id": 1232318,
+    "numero": "23077.142820/2026-27",
+    "assunto": "SOLICITAÇÃO SOLICITAR ADESÃO ATRAVÉS DO PROCESSO LICITATÓRIO PREGÃO Nº 90028/2025, UASG 154421 - FUND. UNIVERSIDADE FEDERAL VALE SÃO FRANCISCO, PARA COMPRA DE LÁPIS GRAFITE.",
+    "primeiro_documento": "DESPACHO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1232318",
+    "descoberto_em": "2026-09-18"
+  },
+  {
+    "processo_id": 1231952,
+    "numero": "23077.141816/2026-41",
+    "assunto": "DL - CONCESSÃO DE USO DE ESPAÇO FÍSICO (COOPERATIVA CULTURAL)",
+    "primeiro_documento": "CÓPIA DE OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1231952",
+    "descoberto_em": "2026-09-18"
+  },
+  {
+    "processo_id": 1231766,
+    "numero": "23077.141217/2026-28",
+    "assunto": "SOLICITAÇÃO DE AQUISIÇÃO DE MATERIAL PARA O PROJETO 11.44.00.00.00.08.09.03)",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1231766",
+    "descoberto_em": "2026-09-18"
+  },
+  {
+    "processo_id": 1223775,
+    "numero": "23077.117967/2026-89",
+    "assunto": "-IMPRESSÃO DA REVISTA CIGARRA PRODUTO DO PROJETO DE EXTENSÃO CIGARRA DIGITAL - PJ 494-2026",
+    "primeiro_documento": null,
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223775",
+    "descoberto_em": null,
+    "nota_classificacao": "voltou a se movimentar depois de ter sido ignorado em 15/09/2026 (última atividade era None, agora é 18/09/2026)"
   }
 ]
