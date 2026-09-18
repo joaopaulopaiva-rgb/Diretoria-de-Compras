@@ -191,8 +191,10 @@ def resolver_dados_edital(client: SipacClient, docs: list, avisos: list) -> dict
     }
     doc_tr = None
     for d in docs:
-        if d.tipo.upper() == "TERMO DE REFERÊNCIA":
-            doc_tr = d  # fica com a última ocorrência (mais recente na lista)
+        if "TERMO DE REFERÊNCIA" in d.tipo.upper() and "APENSA" not in d.tipo.upper():
+            doc_tr = d  # fica com a última ocorrência (mais recente na lista); cobre
+                        # tanto "TERMO DE REFERÊNCIA" (processo de compra formalizado)
+                        # quanto "TERMO DE REFERÊNCIA DIGITAL" (processo de planejamento)
     doc_edital = None
     for d in docs:
         if "MINUTA DE EDITAL PARA LICITAÇÃO" in d.tipo.upper():
@@ -453,7 +455,25 @@ def gerar_pdf(campos: dict) -> bytes:
 # 7. Orquestração
 # ----------------------------------------------------------------------
 
-def gerar_certificacao(numero: str, tipo: str, nome: str | None = None, cargo: str | None = None) -> dict:
+def _detectar_contratacao_direta_pleiteada(explicacao: str | None) -> str | None:
+    """Só usado quando tipo == 'planejamento'. Interpreta o texto livre que a
+    pessoa escreveu pra saber se a contratação direta pleiteada (ainda não
+    formalizada) é Dispensa ou Inexigibilidade. Nunca adivinha: se o texto não
+    mencionar claramente um dos dois (ou mencionar os dois), retorna None."""
+    texto = (explicacao or "").lower()
+    tem_dispensa = "dispens" in texto
+    tem_inexig = "inexigib" in texto
+    if tem_dispensa and not tem_inexig:
+        return "Dispensa"
+    if tem_inexig and not tem_dispensa:
+        return "Inexigibilidade"
+    return None
+
+
+def gerar_certificacao(
+    numero: str, tipo: str, nome: str | None = None, cargo: str | None = None,
+    explicacao: str | None = None,
+) -> dict:
     avisos: list[str] = []
     client = SipacClient()
     try:
@@ -479,6 +499,28 @@ def gerar_certificacao(numero: str, tipo: str, nome: str | None = None, cargo: s
             modalidade = "Concorrência"
         elif tipo == "adesao_srp":
             modalidade = "Adesão SRP"
+        elif tipo == "planejamento":
+            contratacao_direta = _detectar_contratacao_direta_pleiteada(explicacao)
+            if contratacao_direta is None:
+                return {
+                    "status": "erro",
+                    "erro": (
+                        "Pra Certificação a partir de um processo de PLANEJAMENTO, preciso que a "
+                        "explicação diga claramente, com a palavra 'Dispensa' ou 'Inexigibilidade', "
+                        "qual contratação direta está sendo pleiteada — não consegui identificar isso "
+                        "no texto enviado."
+                    ),
+                    "avisos": avisos, "campos": {}, "pdf_base64": None,
+                }
+            modalidade = None
+            avisos.append(
+                f"Certificação emitida a partir do processo de PLANEJAMENTO (33.00), pra uma futura "
+                f"contratação direta por {contratacao_direta} que ainda não foi formalizada em processo "
+                "próprio — Solicitação nº e dados de objeto/valor/critério (se preenchidos) vieram dos "
+                "documentos do próprio planejamento (DFD/ETP/TR Digital), não de um Edital/Termo de "
+                "Referência de processo já formalizado. Primeira versão desse fluxo — conferir com atenção "
+                "redobrada antes de assinar ou enviar à Procuradoria."
+            )
 
         if not interessados:
             avisos.append("Não consegui extrair a lista de Interessados — campo ficou vazio, preencher manualmente.")
@@ -515,10 +557,13 @@ def main():
                          help="Modalidade/tipo de processo (default: pregao)")
     parser.add_argument("--nome", default=None, help="Nome de quem assina (opcional)")
     parser.add_argument("--cargo", default=None, help="Cargo de quem assina (opcional)")
+    parser.add_argument("--explicacao", default=None,
+                         help="Só pra --tipo planejamento: texto livre dizendo se a contratação "
+                              "direta pleiteada é Dispensa ou Inexigibilidade")
     parser.add_argument("--saida", default=None, help="Se passado, também salva o PDF nesse caminho")
     args = parser.parse_args()
 
-    resultado = gerar_certificacao(args.numero, args.tipo, args.nome, args.cargo)
+    resultado = gerar_certificacao(args.numero, args.tipo, args.nome, args.cargo, args.explicacao)
     if args.saida and resultado["pdf_base64"]:
         with open(args.saida, "wb") as f:
             f.write(base64.b64decode(resultado["pdf_base64"]))
