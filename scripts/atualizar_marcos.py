@@ -862,8 +862,16 @@ def atualizar_todos() -> dict:
 
     PROCESSOS_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     caminhos_suportados = ("pregao", "dispensa", "inexigibilidade", "adesao_srp", "concorrencia", "concorrencia_compras")
+    # Bug real corrigido 22/09/2026: esse total contava TODO processo com
+    # caminho suportado, inclusive os já Homologados — que o loop acima
+    # pula sem acessar o SIPAC (linha ~576). O número não refletia o que
+    # de fato foi verificado ao vivo (a pessoa dona do projeto notou a
+    # inconsistência: "e como isso dá 800 processos?" quando só ~240
+    # estavam realmente ativos). Agora conta só quem entrou no loop de
+    # verificação de verdade.
+    elegveis = [p for p in data if p.get("caminho") in caminhos_suportados and p.get("fase") != "Homologado"]
     return {
-        "processos_verificados": sum(1 for p in data if p.get("caminho") in caminhos_suportados),
+        "processos_verificados": len(elegveis),
         "atualizados": atualizados,
         "avisos": avisos,
     }
