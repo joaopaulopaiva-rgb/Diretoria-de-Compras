@@ -53,5 +53,139 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1223775",
     "descoberto_em": null,
     "nota_classificacao": "voltou a se movimentar depois de ter sido ignorado em 15/09/2026 (última atividade era None, agora é 18/09/2026)"
+  },
+  {
+    "processo_id": 1234000,
+    "numero": "23077.148205/2026-24",
+    "assunto": "CONTRATAÇÃO DE SERVIÇO DE PESSOA JURÍDICA PARA PRODUÇÃO DE LIVRO COM RECURSOS DO PROJETO DE EXTENSÃO INTITULADO \"BRINCAR, JOGAR, COMER E APRENDER: O LÚDICO COMO ESTRATÉGIA DE ENSINO DA NUTRIÇÃO ENVOLVENDO CRIANÇAS, ADOLESCENTES E IDOSOS, EM ESPAÇOS DE EDUCAÇÃO FORMAL E NÃO FORMAL, ANO 4\"",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1234000",
+    "descoberto_em": "2026-09-22"
+  },
+  {
+    "processo_id": 1233945,
+    "numero": "23077.148042/2026-80",
+    "assunto": "CONTRATAÇÃO DE MATERIAIS E SERVIÇOS NÃO DISPONÍVEIS NO SIPAC PARA AQUISIÇÃO DE CAMISAS PARA O GRUPO DE PESQUISA NÚCLEO DE ESTUDOS E PESQUISAS EM ANTROPOLOGIA E SAÚDE COLETIVA DA FACISA/UFRN",
+    "primeiro_documento": "ORÇAMENTO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1233945",
+    "descoberto_em": "2026-09-22"
+  },
+  {
+    "processo_id": 1233597,
+    "numero": "23077.146901/2026-04",
+    "assunto": "ADESÃO CARONA - CARNE BOVINA - EDNALDO LOPES GONÇALVES",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1233597",
+    "descoberto_em": "2026-09-22"
+  },
+  {
+    "processo_id": 1233569,
+    "numero": "23077.146812/2026-50",
+    "assunto": "SOLICITAÇÃO DE DISPENSA DE LICTAÇÃO PARA COMPRA DE MATERIAL DE LABORATÓRIO E LICENÇA DE SOFTWARE.",
+    "primeiro_documento": null,
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1233569",
+    "descoberto_em": "2026-09-22"
+  },
+  {
+    "processo_id": 1233377,
+    "numero": "23077.146326/2026-31",
+    "assunto": "AQUISIÇÃO DE 03 SUPORTE DE FIXAÇÃO PARA PROJETOR ATRAVÉS DE ADESÃO À ATA DE REGISTRO DE PREÇOS DE OUTRO ÓRGÃO COM A FINALIDADE DE ATENDER ÀS NECESSIDADES DE INFRAESTRUTURA TECNOLÓGICA E DE APOIO ÀS ATIVIDADES ACADÊMICAS E ADMINISTRATIVAS DA INSTITUIÇÃO.",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1233377",
+    "descoberto_em": "2026-09-22"
+  },
+  {
+    "processo_id": 1233339,
+    "numero": "23077.146109/2026-41",
+    "assunto": "CONTRATAÇÃO DE SERVIÇO DE CONFECÇÃO/INSTALAÇÃO DE SINALIZAÇÃO",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1233339",
+    "descoberto_em": "2026-09-22"
+  },
+  {
+    "processo_id": 1195808,
+    "numero": "23077.025811/2026-72",
+    "assunto": "AQUISIÇÃO DE ANALISADOR DE QUALIDADE DE ENERGIA ELÉTRICA - 02 TTR - MEDIDOR DE RELAÇÃO DE TRANSFORMAÇÃO - 02 ANALISADOR DE BATERIA ESTACIONÁRIA - 01",
+    "primeiro_documento": null,
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1195808",
+    "descoberto_em": null,
+    "nota_classificacao": "voltou a se movimentar depois de ter sido ignorado em 22/09/2026 (última atividade era None, agora é 03/09/2026)"
+  },
+  {
+    "processo_id": 1222675,
+    "numero": "23077.114592/2026-03",
+    "assunto": "SOLICITAÇÃO DE ADESÃO OU DISPENSA DE LICITAÇÃO PARA AQUISIÇÃO GPS PORTÁTIL PARA LEVANTAMENTOS EM ATIVIDADE DE CAMPO.",
+    "primeiro_documento": null,
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1222675",
+    "descoberto_em": null,
+    "nota_classificacao": "voltou a se movimentar depois de ter sido ignorado em 22/09/2026 (última atividade era None, agora é 10/09/2026)"
+  },
+  {
+    "processo_id": 1222680,
+    "numero": "23077.114610/2026-49",
+    "assunto": "SOLICITAÇÃO DE ADESÃO OU DISPENSA DE LICITAÇÃO PARA AQUISIÇÃO DE BALANÇA ANALÍTICA COM PRECISÃO DE 4 CASAS PARA AUXÍLIO DE ANÁLISES DE SOLO E SEDIMENTOS.",
+    "primeiro_documento": null,
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1222680",
+    "descoberto_em": null,
+    "nota_classificacao": "voltou a se movimentar depois de ter sido ignorado em 22/09/2026 (última atividade era None, agora é 10/09/2026)"
+  },
+  {
+    "processo_id": 1229483,
+    "numero": "23077.133334/2026-18",
+    "assunto": "ENCAMINHAMENTO DE SOLICITAÇÃO DE QUALIFICAÇÃO E CALIBRAÇÃO DE AUTOCLAVE DE BARREIRA, UTILIZADA NO DEPARTAMENTO DE ODONTOLOGIA.",
+    "primeiro_documento": null,
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1229483",
+    "descoberto_em": null,
+    "nota_classificacao": "voltou a se movimentar depois de ter sido ignorado em 22/09/2026 (última atividade era None, agora é 28/08/2026)"
+  },
+  {
+    "processo_id": 1230857,
+    "numero": "23077.137977/2026-31",
+    "assunto": "CONTRATAÇÃO DIRETA POR DISPENSA DE LICITAÇÃO",
+    "primeiro_documento": null,
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1230857",
+    "descoberto_em": null,
+    "nota_classificacao": "voltou a se movimentar depois de ter sido ignorado em 22/09/2026 (última atividade era None, agora é 09/09/2026)"
+  },
+  {
+    "processo_id": 1230858,
+    "numero": "23077.137978/2026-85",
+    "assunto": "CONTRATAÇÃO DIRETA POR DISPENSA DE LICITAÇÃO",
+    "primeiro_documento": null,
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1230858",
+    "descoberto_em": null,
+    "nota_classificacao": "voltou a se movimentar depois de ter sido ignorado em 22/09/2026 (última atividade era None, agora é 21/09/2026)"
+  },
+  {
+    "processo_id": 1230859,
+    "numero": "23077.137979/2026-20",
+    "assunto": "CONTRATAÇÃO DIRETA POR DISPENSA DE LICITAÇÃO",
+    "primeiro_documento": null,
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1230859",
+    "descoberto_em": null,
+    "nota_classificacao": "voltou a se movimentar depois de ter sido ignorado em 22/09/2026 (última atividade era None, agora é 09/09/2026)"
+  },
+  {
+    "processo_id": 1231551,
+    "numero": "23077.140495/2026-68",
+    "assunto": "AQUISIÇÃO DE 03 (TRÊS) ESCADAS DE ALUMÍNIO COM 8 (OITO) DEGRAUS PARA ATENDER AS DEMANDAS DO INSTITUTO METRÓPOLE DIGITAL - IMD/UFRN.",
+    "primeiro_documento": null,
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1231551",
+    "descoberto_em": null,
+    "nota_classificacao": "voltou a se movimentar depois de ter sido ignorado em 22/09/2026 (última atividade era None, agora é 11/09/2026)"
   }
 ]
