@@ -1092,7 +1092,7 @@ function chipHtml(p, cor){
   const dias = diasParado(p.data);
   const cls = statusClasse(dias, p.categoria);
   const dim = !matches(p) ? 'dim' : '';
-  return `<div class="chip status-${cls} ${p.suspenso?'suspenso':''} ${p.urgente?'urgente':''} ${dim}" style="--dot-color:${cor}" data-id="${p.processo}" title="${tituloCard(p)} — ${objetoCard(p)}"></div>`;
+  return `<div class="chip status-${cls} ${p.suspenso?'suspenso':''} ${p.urgente?'urgente':''} ${dim}" style="--dot-color:${cor}" data-id="${p.processo}" title="${tituloCard(p)} — ${objetoCard(p)} · duplo clique abre no Sipac"></div>`;
 }
 
 function clusterHtml(procs, f, selecionada, rotulosExtra){
@@ -2018,6 +2018,16 @@ document.addEventListener('click', (e) => {
   if(row){
     openTrailFor(row.getAttribute('data-processo'));
   }
+});
+// Duplo clique numa bolinha (visão de estação, fora da divisão expandida)
+// abre o processo direto no Sipac numa aba nova — pedido explícito da
+// pessoa dona do projeto (22/09/2026): não precisa passar pela trilha só
+// pra chegar no link.
+document.addEventListener('dblclick', (e) => {
+  const chip = e.target.closest('.chip[data-id]');
+  if(!chip) return;
+  const p = processos.find(x => x.processo === chip.getAttribute('data-id'));
+  if(p && p.link) window.open(p.link, '_blank', 'noopener');
 });
 document.getElementById('trailClose').addEventListener('click', closeTrail);
 document.getElementById('trailOverlay').addEventListener('click', (e) => {
