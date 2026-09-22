@@ -1142,7 +1142,13 @@ function renderStations(){
   }).join('');
 
   el.querySelectorAll('.station').forEach(st => {
-    st.addEventListener('click', () => {
+    st.addEventListener('click', (e) => {
+      // Clique numa bolinha não deve expandir/recolher a estação — ela
+      // tem seu próprio comportamento (duplo clique abre no Sipac). Sem
+      // essa checagem, o primeiro toque de um duplo clique já reconstruía
+      // a tela inteira (renderAll) antes do segundo toque completar,
+      // quebrando o duplo clique — bug real reportado 22/09/2026.
+      if(e.target.closest('.chip')) return;
       const key = st.getAttribute('data-key');
       activeStation = activeStation === key ? null : key;
       renderAll();
