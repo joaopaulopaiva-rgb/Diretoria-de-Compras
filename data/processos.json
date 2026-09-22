@@ -72,7 +72,8 @@
       "listaFim": "07/08/2026"
     },
     "processo_id": 1217522,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "caminho": "pregao",
@@ -242,7 +243,7 @@
     "subetapa": "Processo apensado; em ciclo intenso de tramitação entre PROAD e Procuradoria Federal para parecer jurídico (idas e vindas em 04-05/08)",
     "categoria": "juridico",
     "unidade": "Secretaria da Procuradoria Federal",
-    "data": "16/09/2026",
+    "data": "21/09/2026",
     "dataCriacao": "24/06/2025",
     "gestor": "Adrielly Cristiane Silva Vital Nunes",
     "pregao": "23077.090222/2026-65",
@@ -410,7 +411,7 @@
     "subetapa": "ETP autorizado (03/08); DPGC deve seguir para o TR",
     "categoria": "elaboracao",
     "unidade": "DPGC - Divisão de Planejamento e Gerenciamento de Compras",
-    "data": "18/09/2026",
+    "data": "22/09/2026",
     "dataCriacao": "10/03/2026",
     "gestor": "Flavio Carlos de Albuquerque",
     "pregao": null,
@@ -519,7 +520,7 @@
     "subetapa": "Concluída a fase de planejamento; pregão 90014/2026 aberto na DFI, aguardando desenvolvimento do edital",
     "categoria": "unidades",
     "unidade": "DFI - Divisão de Fase Interna de Compras",
-    "data": "14/09/2026",
+    "data": "22/09/2026",
     "dataCriacao": "11/12/2025",
     "gestor": "Jorge Henrique Teotonio de Lima Melo",
     "pregao": "23077.042576/2026-01",
@@ -529,7 +530,8 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1200698",
     "marcos": {
       "analiseDfiFim": "26/08/2026",
-      "pesquisaPrecosFim": "11/09/2026"
+      "pesquisaPrecosFim": "11/09/2026",
+      "irpFim": "22/09/2026"
     },
     "processo_id": 1185145,
     "pregao_id": 1200698,
@@ -17756,7 +17758,7 @@
     "subetapa": "Último documento: DESPACHO (28/08/2025) · Última movimentação: DIRETORIA DE COMPRAS - PROAD (11.02.09) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (28/08/2025 14:08)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "16/09/2026",
+    "data": "22/09/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -19840,7 +19842,7 @@
     "subetapa": "Último documento: ORÇAMENTO (09/07/2026) · Última movimentação: INSTITUTO DO CÉREBRO (10.89) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (23/07/2026 15:08)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "23/07/2026",
+    "data": "21/09/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -21081,7 +21083,7 @@
     "subetapa": "Último documento: AUTORIZAÇÃO DE FORMALIZAÇÃO - ADESÃO A ATA DE REGISTRO DE PREÇOS (09/09/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (09/09/2026 10:44)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "16/09/2026",
+    "data": "22/09/2026",
     "dataCriacao": "2026-08-28",
     "gestor": null,
     "pregao": null,
