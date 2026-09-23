@@ -215,7 +215,16 @@ Por enquanto: todo mundo (quando o painel for compartilhado) pode **ver** tudo. 
   
   "Atualizar" sem rodar as três não conta como atender o pedido — ela foi explícita: rodar só uma parte (ex. só marcos) e deixar processo novo de fora quebra a confiança no painel.
 
-## 15. Em aberto (ainda não decidido)
+## 15. Identidade visual — logo da Diretoria de Compras
+
+Requisito permanente (definido 23/09/2026): todo sistema visual deste projeto — o Mesa de Compras já existente e qualquer "sisteminha" novo que a pessoa pedir — deve usar a logo oficial da Diretoria de Compras no cabeçalho/masthead.
+
+- Arquivo-fonte: `assets/logo_diretoria_compras.png` (PNG, 175×183, fornecido pela pessoa dona do projeto).
+- **Forma de embutir em páginas públicas (Artifacts):** base64 inline via `data:image/png;base64,...` num `<img>`, nunca via capability `assets` do Artifact — essa capability torna a página **interna à organização** (perde o acesso público sem login), o que conflita com o requisito de acesso do painel (seção 11). Gerar o base64 a partir do arquivo em `assets/` e embutir diretamente no HTML publicado.
+- Já aplicado no Mesa de Compras (masthead — `<img class="mark">` no lugar do círculo genérico desenhado em CSS).
+- Ao criar um sistema novo, replicar o mesmo padrão desde o início (não é algo para adicionar depois).
+
+## 16. Em aberto (ainda não decidido)
 
 - Design visual do dashboard: a pessoa quer algo mais "disruptivo" que um Kanban/Trello tradicional, mas ainda não sabe exatamente o quê — vai ser por tentativa e erro.
 - Arquitetura de implementação (onde/como persistir os dados dos processos, tecnologia do frontend) — ainda não definida.
