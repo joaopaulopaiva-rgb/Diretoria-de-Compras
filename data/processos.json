@@ -171,7 +171,7 @@
     "subetapa": "Último documento: DESPACHO DE AUTORIZAÇÃO DO TERMO DE REFERÊNCIA (18/09/2026) · Última movimentação: SUPERINTENDÊNCIA DE TECNOLOGIA DA INFORMAÇÃO (11.35) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (09/09/2026 13:12)",
     "categoria": "proad",
     "unidade": "PROAD - Coordenadoria Administrativa",
-    "data": "18/09/2026",
+    "data": "23/09/2026",
     "dataCriacao": "30/07/2026",
     "gestor": "Jorge Henrique Teotonio de Lima Melo",
     "pregao": null,
@@ -419,7 +419,7 @@
     "subetapa": "Último documento: DESPACHO DE AUTORIZAÇÃO DO TERMO DE REFERÊNCIA (22/09/2026) · Última movimentação: PROAD - COORDENADORIA DE TRANSPORTES (11.02.05) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (11/09/2026 09:12)",
     "categoria": "elaboracao",
     "unidade": "DPGC - Divisão de Planejamento e Gerenciamento de Compras",
-    "data": "22/09/2026",
+    "data": "23/09/2026",
     "dataCriacao": "10/03/2026",
     "gestor": "Flavio Carlos de Albuquerque",
     "pregao": null,
@@ -432,7 +432,8 @@
       "dfdFim": "20/05/2026",
       "etpInicio": "03/08/2026",
       "etpFim": "03/08/2026",
-      "trFim": "22/09/2026"
+      "trFim": "22/09/2026",
+      "listaFim": "23/09/2026"
     },
     "processo_id": 1196869,
     "pregao_id": null
@@ -447,7 +448,7 @@
     "subetapa": "Último documento: DESPACHO (25/06/2026) · Última movimentação: DIRETORIA DE OBRAS (11.08.06) → DIVISÃO DE FISCALIZAÇÃO DE OBRAS (11.08.06.04) (25/06/2026 15:18)",
     "categoria": "unidades",
     "unidade": "Divisão de Fiscalização de Obras (INFRA)",
-    "data": "25/06/2026",
+    "data": "23/09/2026",
     "dataCriacao": "20/08/2025",
     "gestor": "Pedro",
     "pregao": null,
@@ -548,7 +549,8 @@
     "objetoLicitacao": "AQUISIÇÃO DE SOFTWARES DIVERSOS PARA APOIO ACADÊMICO E ADMINISTRATIVO",
     "responsaveisDfi": {
       "pesquisaPrecos": "José Weliton B. da Silva",
-      "irp": "Sonaydy Lyany Dantas"
+      "irp": "Sonaydy Lyany Dantas",
+      "elaboracaoEdital": "Stefferson Alves Sarthour"
     }
   },
   {
@@ -1347,7 +1349,7 @@
     "subetapa": "Último documento: DESPACHO (13/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (09/04/2026 17:57)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "17/09/2026",
+    "data": "23/09/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "suspenso": false,
@@ -18902,7 +18904,7 @@
     "subetapa": "Último documento: NOTA DE RESUMO PARA EMPENHOS (22/09/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (26/08/2026 17:30)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "22/09/2026",
+    "data": "23/09/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -19636,7 +19638,7 @@
     "subetapa": "Último documento: AVISO DE DISPENSA DE LICITAÇÃO (22/09/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (16/09/2026 18:09)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "22/09/2026",
+    "data": "23/09/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -19979,7 +19981,7 @@
     "subetapa": "Último documento: CARTA DE EXCLUSIVIDADE (20/07/2026) · Última movimentação: GABINETE DO REITOR (11.32) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (11/08/2026 16:17)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "21/09/2026",
+    "data": "23/09/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -20383,12 +20385,12 @@
   {
     "processo": "23077.119094/2026-49",
     "assunto": "AQUISIÇÃO DE CADEIRAS PARA O CCS",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Último documento: CARTA DE ACEITE (11/08/2026) · Última movimentação: CCS - SETOR DE COMPRAS (15.65) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (12/08/2026 11:05)",
+    "fase": "Fase Interna (DFI)",
+    "subEtapa": "faseInterna",
+    "subetapa": "Último documento: AUTORIZAÇÃO DE FORMALIZAÇÃO - ADESÃO A ATA DE REGISTRO DE PREÇOS (23/09/2026) · Última movimentação: CCS - SETOR DE COMPRAS (15.65) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (21/09/2026 10:56)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "21/09/2026",
+    "data": "23/09/2026",
     "dataCriacao": "2026-08-13",
     "gestor": null,
     "pregao": null,
@@ -20396,7 +20398,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1224160",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "23/09/2026"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1224160,
@@ -20781,7 +20785,7 @@
     "subetapa": "Último documento: DIVULGAÇÃO DA LICITAÇÃO (12/08/2026) · Última movimentação: COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) → COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) (02/07/2026 09:08)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "17/09/2026",
+    "data": "23/09/2026",
     "dataCriacao": "19/08/2026",
     "gestor": null,
     "suspenso": false,
@@ -21466,7 +21470,8 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1231160,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.139622/2026-86",
