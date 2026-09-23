@@ -48,15 +48,15 @@
     "caminhoHistorico": [],
     "processo": "23077.097709/2026-79",
     "assunto": "Abertura de pregão eletrônico Grupo 3024 — Requisição nº 18340",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "analiseDfi",
-    "subetapa": "Lista de Verificação concluída; enviado à DFI em 07/08, aguardando recebimento formal",
+    "fase": "Fase Interna (DFI)",
+    "subEtapa": "edital",
+    "subetapa": "Último documento: RELATÓRIO (22/09/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (14/09/2026 14:35)",
     "categoria": "unidades",
     "unidade": "DPGC - Divisão de Planejamento e Gerenciamento de Compras",
-    "data": "07/08/2026",
+    "data": "22/09/2026",
     "dataCriacao": "10/07/2026",
     "gestor": "Chianc Leocadio de Lima",
-    "pregao": null,
+    "pregao": "23077.117033/2026-47",
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
@@ -69,11 +69,19 @@
       "trInicio": "05/08/2026",
       "trFim": "06/08/2026",
       "listaInicio": "06/08/2026",
-      "listaFim": "07/08/2026"
+      "listaFim": "07/08/2026",
+      "analiseDfiFim": "31/08/2026",
+      "pesquisaPrecosFim": "14/09/2026",
+      "irpFim": "18/09/2026"
     },
     "processo_id": 1217522,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": 1223509,
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90026/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE MATERIAL PARA MANUTENÇÃO DE BENS IMÓVEIS",
+    "responsaveisDfi": {
+      "pesquisaPrecos": "Vanessa Raquel da Silva Medino",
+      "irp": "Sonaydy Lyany Dantas"
+    }
   },
   {
     "caminho": "pregao",
@@ -18859,12 +18867,12 @@
   {
     "processo": "23077.060897/2026-80",
     "assunto": "AQUISIÇÃO DE DISCOS RÍGIDOS DE 4TB PARA STORAGE - DISPENSA DE LICITAÇÃO",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Último documento: DESPACHO (14/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (14/08/2026 16:10)",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "faseExterna",
+    "subetapa": "Último documento: DIVULGAÇÃO DA DISPENSA DE LICITAÇÃO (15/09/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (03/09/2026 14:42)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "14/09/2026",
+    "data": "15/09/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -18873,23 +18881,28 @@
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1205619",
     "marcos": {
-      "planejamentoFim": "03/08/2026"
+      "planejamentoFim": "03/08/2026",
+      "faseExternaInicio": "11/09/2026"
     },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1205619,
     "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "execucao_numero": "23077.117257/2026-59",
+    "execucao_id": 1223575,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90032/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE DISCO RÍGIDO",
+    "semDisputaFaseExterna": false
   },
   {
     "processo": "23077.061114/2026-85",
     "assunto": "PLANEJAMENTO DE CONTRATAÇÃO/ AQUISIÇÃO, COORDENADOR EDVALDO",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Último documento: LISTA DE VERIFICAÇÃO (14/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (14/08/2026 20:40)",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "faseExterna",
+    "subetapa": "Último documento: NOTA DE RESUMO PARA EMPENHOS (22/09/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (26/08/2026 17:30)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "09/09/2026",
+    "data": "22/09/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -18898,13 +18911,18 @@
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1205674",
     "marcos": {
-      "planejamentoFim": "13/08/2026"
+      "planejamentoFim": "13/08/2026",
+      "faseExternaInicio": "04/09/2026"
     },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1205674,
     "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "execucao_numero": "23077.123008/2026-01",
+    "execucao_id": 1225811,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90036/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE MEIOS DE CULTURA MICROBIOLÓGICOS E REAGENTES QUÍMICOS",
+    "semDisputaFaseExterna": false
   },
   {
     "processo": "23077.061609/2026-12",
@@ -19396,12 +19414,12 @@
   {
     "processo": "23077.083687/2026-60",
     "assunto": "AQUISIÇÃO DE MOTOBOMBAS SUBMERSAS PARA A DIMAN/INFRA",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Último documento: PORTARIA DE AGENTES DE CONTRATAÇÃO E PREGOEIROS - UFRN (14/08/2026) · Última movimentação: DIRETORIA DE OBRAS (11.08.06) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (14/08/2026 11:02)",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "faseExterna",
+    "subetapa": "Último documento: DIVULGAÇÃO DA DISPENSA DE LICITAÇÃO (15/09/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (28/08/2026 16:22)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "09/09/2026",
+    "data": "15/09/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -19410,13 +19428,18 @@
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1213583",
     "marcos": {
-      "planejamentoFim": "11/08/2026"
+      "planejamentoFim": "11/08/2026",
+      "faseExternaInicio": "08/09/2026"
     },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1213583,
     "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "execucao_numero": "23077.124926/2026-49",
+    "execucao_id": 1226478,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90037/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE MOTOBOMBAS SUBMERSAS",
+    "semDisputaFaseExterna": false
   },
   {
     "processo": "23077.084457/2026-18",
@@ -19608,12 +19631,12 @@
   {
     "processo": "23077.091115/2026-54",
     "assunto": "DISPENSA DE LICITAÇÃO PARA A AQUISIÇÃO DE FIGURINO PARA O GRUPO PARAFOLCLÓRICO DA UFRN, PROJETO DE EXTENSÃO - GRUPO PERMANENTE DE ARTE E CULTURA: PJ314-2016. AQUISIÇÃO DOS MATERIAIS: 8 CONJUNTOS DE CALÇA E BLUSA PARA A DANÇA FANDANGOS (MARINHEIROS). VALOR DO CONJUNTO: 160,00 10 CONJUNTOS DE CALÇA E BLUSA PARA A COREOGRAFIA \"FILHOS DE OXUM\" VALOR DO CONJUNTO: 172,00 VALOR TOTAL: 3000,00",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Último documento: DESPACHO (01/07/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → DEPARTAMENTO DE EDUCAÇÃO FÍSICA (15.11) (01/07/2026 13:46)",
+    "fase": "Fase Interna (DFI)",
+    "subEtapa": "faseInterna",
+    "subetapa": "Último documento: AVISO DE DISPENSA DE LICITAÇÃO (22/09/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (16/09/2026 18:09)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "21/09/2026",
+    "data": "22/09/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -19628,7 +19651,10 @@
     "caminhoHistorico": [],
     "processo_id": 1215685,
     "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "execucao_numero": "23077.133137/2026-07",
+    "execucao_id": 1229416,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90038/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE FIGURINO PARA O GRUPO PARAFOLCLÓRICO DA UFRN"
   },
   {
     "processo": "23077.092616/2026-58",
@@ -20019,9 +20045,9 @@
   {
     "processo": "23077.114920/2026-63",
     "assunto": "CONTRATAÇÃO DE SERVIÇOS DE ARBITRAGEM PARA OS JOGOS INTERNOS DA FACISA 2026",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Último documento: TERMO DE REFERÊNCIA DIGITAL (TR DIGITAL) (14/08/2026) · Última movimentação: SETOR DE EXECUCOES ORCAMENTARIAS (10.32.14) → DIRETORIA DE COMPRAS - PROAD (11.02.09) (14/08/2026 14:23)",
+    "fase": "Fase Interna (DFI)",
+    "subEtapa": "faseInterna",
+    "subetapa": "Último documento: LISTA DE VERIFICAÇÃO - FASE INTERNA (18/09/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (18/09/2026 14:20)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "18/09/2026",
@@ -20039,7 +20065,11 @@
     "caminhoHistorico": [],
     "processo_id": 1222799,
     "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "execucao_numero": "23077.146202/2026-56",
+    "execucao_id": 1233353,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº 90046/2026",
+    "objetoLicitacao": "CONTRATAÇÃO DE SERVIÇOS DE ARBITRAGEM PARA OS JOGOS INTERNOS DA FACISA 2026",
+    "semDisputaFaseExterna": true
   },
   {
     "processo": "23077.116102/2026-03",
@@ -20909,9 +20939,9 @@
   {
     "processo": "23077.128221/2026-09",
     "assunto": "DISPENSA DE LICITAÇÃO - QUEIJO MUSSARELA",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Último documento: DESPACHO (31/08/2026) · Última movimentação: DCF - SETOR DE EXECUÇÃO ORÇAMENTÁRIA (11.02.02.04.03) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (02/09/2026 11:49)",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: NOTA DE EMPENHO (02/09/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (31/08/2026 14:41)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "02/09/2026",
@@ -20923,13 +20953,18 @@
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1227717",
     "marcos": {
-      "planejamentoFim": "26/08/2026"
+      "planejamentoFim": "26/08/2026",
+      "homologadoData": "02/09/2026"
     },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1227717,
     "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "execucao_numero": "23077.133702/2026-28",
+    "execucao_id": 1229590,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº 90040/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE QUEIJO MUSSARELA",
+    "semDisputaFaseExterna": true
   },
   {
     "processo": "23077.128260/2026-06",
@@ -21247,9 +21282,9 @@
   {
     "processo": "23077.134844/2026-11",
     "assunto": "SOLICITAÇÃO DE AQUISIÇÃO DE ÁGUA SANITÁRIA ATRAVÉS DE DISPENSA DE LICITAÇÃO",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Último documento: DESPACHO (14/09/2026) · Última movimentação: DCF - SETOR DE EXECUÇÃO ORÇAMENTÁRIA (11.02.02.04.03) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (21/09/2026 10:22)",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: NOTA DE EMPENHO (21/09/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (15/09/2026 11:25)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "21/09/2026",
@@ -21261,13 +21296,18 @@
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1229903",
     "marcos": {
-      "planejamentoFim": "09/09/2026"
+      "planejamentoFim": "09/09/2026",
+      "homologadoData": "21/09/2026"
     },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1229903,
     "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "execucao_numero": "23077.143068/2026-31",
+    "execucao_id": 1232376,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90044/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE ÁGUA SANITÁRIA",
+    "semDisputaFaseExterna": true
   },
   {
     "processo": "23077.136431/2026-62",
