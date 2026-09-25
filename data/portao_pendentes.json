@@ -97,5 +97,159 @@
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1231551",
     "descoberto_em": null,
     "nota_classificacao": "voltou a se movimentar depois de ter sido ignorado em 22/09/2026 (última atividade era None, agora é 11/09/2026)"
+  },
+  {
+    "processo_id": 1234334,
+    "numero": "23077.149101/2026-37",
+    "assunto": "AQUISIÇÃO DE RÁDIOS COMUNICADORES E BATERIAS",
+    "primeiro_documento": "CÓPIA DE OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1234334",
+    "descoberto_em": "2026-09-25"
+  },
+  {
+    "processo_id": 1234333,
+    "numero": "23077.149099/2026-04",
+    "assunto": "SOLICITAÇÃO DE ADESÃO: CÂMERA DE MONITORAMENTO",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1234333",
+    "descoberto_em": "2026-09-25"
+  },
+  {
+    "processo_id": 1234332,
+    "numero": "23077.149097/2026-15",
+    "assunto": "AQUISIÇÃO DE 01 (UM) KIT CONTENDO 50 UNIDADES DO VERNIZ FLUORETADO À BASE DE ÁGUA CLINPRO™ CLEAR FLUORIDE TREATMENT (SOLVENTUM)",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1234332",
+    "descoberto_em": "2026-09-25"
+  },
+  {
+    "processo_id": 1234317,
+    "numero": "23077.149058/2026-18",
+    "assunto": "SOLICITAÇÃO DE ITENS PARA XVIII SEMANA DE ENGENHARIA DE ALIMENTOS",
+    "primeiro_documento": "DESPACHO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1234317",
+    "descoberto_em": "2026-09-25"
+  },
+  {
+    "processo_id": 1234259,
+    "numero": "23077.148918/2026-98",
+    "assunto": "CONTRATAÇÃO DE SUPORTE TÉCNICO ESPECIALIZADO PARA 02 EQUIPAMENTOS IFN100 E LICENCIAMENTO DE 02 MÓDULOS JOSIE PARA GERAÇÃO AUTOMÁTICA DE LEGENDAS OCULTAS (CLOSED CAPTION) DA TV UNIVERSITÁRIA.",
+    "primeiro_documento": "PROPOSTAS",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1234259",
+    "descoberto_em": "2026-09-25"
+  },
+  {
+    "processo_id": 1234250,
+    "numero": "23077.148901/2026-31",
+    "assunto": "CONTRATAÇÃO DE SUPORTE TÉCNICO ESPECIALIZADO PARA 02 (DOIS) EQUIPAMENTOS IFN100 E LICENCIAMENTO DE 02 (DOIS) MÓDULOS JOSIE PARA GERAÇÃO AUTOMÁTICA DE LEGENDAS OCULTAS (CLOSED CAPTION) DA TV UNIVERSITÁRIA.",
+    "primeiro_documento": null,
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1234250",
+    "descoberto_em": "2026-09-25"
+  },
+  {
+    "processo_id": 1234249,
+    "numero": "23077.148897/2026-19",
+    "assunto": "SOLICITAÇÃO ADESÃO: FRITADEIRA",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1234249",
+    "descoberto_em": "2026-09-25"
+  },
+  {
+    "processo_id": 1234067,
+    "numero": "23077.148411/2026-34",
+    "assunto": "CONTRATAÇÃO DIRETA POR DISPENSA DE LICITAÇÃO",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1234067",
+    "descoberto_em": "2026-09-25"
+  },
+  {
+    "processo_id": 1234064,
+    "numero": "23077.148407/2026-76",
+    "assunto": "AQUISIÇÃO DE CAMISETAS PARA O CCS",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1234064",
+    "descoberto_em": "2026-09-25"
+  },
+  {
+    "processo_id": 1234768,
+    "numero": "23077.150484/2026-96",
+    "assunto": "SOLICITAÇÃO DE PROVIDÊNCIAS PARA ADESÃO À ATA DECORRENTE DO PREGÃO ELETRÔNICO Nº 90006/2025 DO IFRN",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1234768",
+    "descoberto_em": "2026-09-25"
+  },
+  {
+    "processo_id": 1234753,
+    "numero": "23077.150435/2026-53",
+    "assunto": "PLANEJAMENTO DE AQUISIÇÃO DE GASES LABORATORIAIS E MEDICINAIS",
+    "primeiro_documento": "FORMALIZAÇÃO DA DEMANDA",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1234753",
+    "descoberto_em": "2026-09-25"
+  },
+  {
+    "processo_id": 1234708,
+    "numero": "23077.150326/2026-36",
+    "assunto": "AQUISIÇÃO DE 05 TELAS DE PROJEÇÃO ATRAVÉS DE ADESÃO À ATA DE REGISTRO DE PREÇO DE OUTRO ÓRGÃO COM A FINALIDADE DE ATENDER ÀS NECESSIDADE DE INFRAESTRUTURA TECNOLÓGICA E DE APOIO AS ATIVIDADES ACADÊMICAS E ADMINISTRATIVAS DA INSTITUIÇÃO.",
+    "primeiro_documento": null,
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1234708",
+    "descoberto_em": "2026-09-25"
+  },
+  {
+    "processo_id": 1234648,
+    "numero": "23077.150123/2026-40",
+    "assunto": "CAMISETAS PRETA PV TAMANHO(DIVERSOS TAMANHOS) PARA PROJETO DE EXTENSÃO",
+    "primeiro_documento": "DESPACHO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1234648",
+    "descoberto_em": "2026-09-25"
+  },
+  {
+    "processo_id": 1234587,
+    "numero": "23077.149965/2026-59",
+    "assunto": "AQUISIÇÃO DE ÁGUA ENVASADA E GARRAFÃO PLÁSTICO PARA ATENDER DEMANDAS DA UFRN PELO PERÍODO DE 12 (DOZE) MESES.",
+    "primeiro_documento": "DOCUMENTO DE FORMALIZAÇÃO DA DEMANDA DIGITAL (DFD DIGITAL)",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1234587",
+    "descoberto_em": "2026-09-25"
+  },
+  {
+    "processo_id": 1234549,
+    "numero": "23077.149781/2026-99",
+    "assunto": "ADESÃO CARONA - FORNO COMBINADO",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1234549",
+    "descoberto_em": "2026-09-25"
+  },
+  {
+    "processo_id": 1234428,
+    "numero": "23077.149402/2026-61",
+    "assunto": "SOLICITAÇÃO DE CARONA PARA COMPRA DE FILAMENTOS PLA",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1234428",
+    "descoberto_em": "2026-09-25"
+  },
+  {
+    "processo_id": 1233569,
+    "numero": "23077.146812/2026-50",
+    "assunto": "SOLICITAÇÃO DE DISPENSA DE LICTAÇÃO PARA COMPRA DE MATERIAL DE LABORATÓRIO E LICENÇA DE SOFTWARE.",
+    "primeiro_documento": null,
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1233569",
+    "descoberto_em": null,
+    "nota_classificacao": "voltou a se movimentar depois de ter sido ignorado em 22/09/2026 (última atividade era None, agora é 24/09/2026)"
   }
 ]
