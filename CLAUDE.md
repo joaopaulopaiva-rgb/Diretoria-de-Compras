@@ -224,7 +224,16 @@ Requisito permanente (definido 23/09/2026): todo sistema visual deste projeto �
 - Já aplicado no Mesa de Compras (masthead — `<img class="mark">` no lugar do círculo genérico desenhado em CSS).
 - Ao criar um sistema novo, replicar o mesmo padrão desde o início (não é algo para adicionar depois).
 
-## 16. Em aberto (ainda não decidido)
+## 16. Estilo de redação — Despachos de Encaminhamento e Análises de Parecer
+
+Regra fixa (combinada 25/09/2026, a partir de correção do João): quando o parágrafo final de um despacho encaminha os autos a uma unidade (fecha o texto com a determinação/pedido concreto), **não emendar essa frase na frase anterior com ponto e vírgula**. Fechar a frase anterior com ponto, começar frase nova, e usar o verbo no **imperativo/subjuntivo de determinação** ("Encaminhem-se os autos...", "Publique-se...", "Cumpra-se...") em vez do indicativo ("encaminham-se") — é o registro correto de despacho oficial, não uma frase narrativa comum.
+
+Errado: "...abrangendo os Grupos 1 a 5 e 7 a 22 do certame; encaminham-se os autos à DPGC..."
+Certo: "...abrangendo os Grupos 1 a 5 e 7 a 22 do certame. Encaminhem-se os autos à DPGC..."
+
+Vale para toda minuta de Despacho de Encaminhamento gerada — tanto pela rotina automática (`atividade == "despacho_encaminhamento"` ou Nota Informativa em `analise_parecer`) quanto quando o João pede diretamente no chat.
+
+## 17. Em aberto (ainda não decidido)
 
 - Design visual do dashboard: a pessoa quer algo mais "disruptivo" que um Kanban/Trello tradicional, mas ainda não sabe exatamente o quê — vai ser por tentativa e erro.
 - Arquitetura de implementação (onde/como persistir os dados dos processos, tecnologia do frontend) — ainda não definida.
