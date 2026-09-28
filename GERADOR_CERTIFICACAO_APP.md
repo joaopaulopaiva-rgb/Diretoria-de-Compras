@@ -187,9 +187,11 @@ duas vezes no mesmo dia a partir de casos reais confirmados no SIPAC):
    como dúvida, com resumo do que já foi feito.
 
 **Formato da resposta depende do tipo do candidato vencedor** (não é sempre "análise"):
-- Candidato tipo "PARECER..." → uma **Análise de Parecer Jurídico** de verdade: o que o
-  parecer diz + recomendação objetiva do que a Diretoria de Compras pode/deve fazer.
-  `rotulo: "Análise de Parecer Jurídico"`.
+- Candidato tipo "PARECER..." → um despacho formal **ANÁLISE DE PARECER JURÍDICO**, no
+  formato oficial documentado em `MODELO_ANALISE_PARECER.md` (cabeçalho, item por letra
+  respondendo cada item numerado do parecer, fechamento com encaminhamento) — **não** um
+  resumo em prosa livre (ver correção na seção 7.2). `rotulo: "Análise de Parecer
+  Jurídico"`.
 - Candidato tipo "NOTA INFORMATIVA" → uma **Minuta de Despacho de Encaminhamento**
   pronta pra tramitar (não uma análise solta) — mesmo estilo já usado quando o João pede
   minutas de encaminhamento direto em chat. `rotulo: "Minuta de Despacho de
@@ -225,6 +227,21 @@ de lógica, só do `<option>` no HTML).
 
 A Certificação Processual **não** ganhou a opção "Outros" — ver seção 8 (pendência
 em aberto, decisão do João necessária antes de implementar).
+
+### 7.2 Correção de estrutura (28/09/2026)
+
+O caso real citado no fim da seção 7 (processo 23077.117613/2025-53) foi gerado com
+formato **errado**: prosa livre em 4 parágrafos (resumo do parecer + recomendação),
+em vez do despacho formal item-por-item que a Diretoria já usa de verdade. O João
+apontou o erro e forneceu 4 exemplos reais assinados por ele (processos
+23077.079577/2024-31, 23077.065173/2024-61, 23077.049893/2024-89 e
+23077.084268/2024-83), que viraram `MODELO_ANALISE_PARECER.md` (mesmo padrão de
+documento de referência que `MODELO_CERTIFICACAO_PROCESSUAL.md`). A análise do
+processo 23077.117613/2025-53 foi regerada no formato correto e as duas solicitações
+já registradas em `solicitacoes` (`rfl50ianhu19f4bi1hvg` e `livbz1o7mza26uwkqx2j`)
+foram atualizadas com o texto corrigido. As 12 Routines devem passar a seguir
+`MODELO_ANALISE_PARECER.md` ao gerar esse tipo de análise (branch `analise_parecer`,
+candidato tipo "PARECER...") — atualizado no mesmo dia.
 
 ## 8. Em aberto
 
