@@ -203,12 +203,28 @@ fixa do projeto), `rotulo` (qual dos dois formatos foi gerado, mostrado como tí
 página), `duvidas` (lista de strings — dúvidas reais que só o João resolve, sempre
 entregues **todas de uma vez**, nunca uma por vez — pedido explícito dele).
 
-Ainda não testado com um processo real de ponta a ponta — calibrar depois do primeiro
-caso real. A lógica já passou por três revisões no mesmo dia (v1: só origem SPF; v2:
+A lógica já passou por três revisões no mesmo dia (v1: só origem SPF; v2:
 tipo "PARECER" prioritário com origem como fallback; v3: sempre o mais recente entre os
 dois tipos, com branch de formato de saída) — cada uma corrigida a partir de um caso
 real que a versão anterior não cobria, então é esperado que precise de mais ajustes
-depois dos primeiros casos de verdade.
+depois dos primeiros casos de verdade. Primeiro caso real processado com sucesso em
+28/09/2026 (processo 23077.117613/2025-53, Pregão, candidato vencedor um PARECER
+JURÍDICO) — análise gerada e escrita de volta sem erro.
+
+### 7.1 Modalidades Planejamento e Outros (28/09/2026)
+
+Igual ao Despacho de Encaminhamento (seção 6), a Análise de Parecer Jurídico agora
+também aceita `tipo: "planejamento"` (usa `TIPO_PROCESSO["planejamento"]` como
+qualquer outro tipo fixo, sem lógica extra) e `tipo: "outros"` (com campo `tipoOutro`
+livre, resolvido em tempo real via `client.buscar_tipos_processo_por_nome` contra o
+menu do SIPAC — mesma técnica e mesmo tratamento de 0/1/2+ opções que o Despacho já
+usa). As 12 Routines (seção 2) foram atualizadas com essa lógica no mesmo dia. O
+Despacho de Encaminhamento, por sua vez, ganhou a opção `planejamento` no seletor da
+página (já usava `TIPO_PROCESSO[<tipo>]` genericamente, então não precisou de mudança
+de lógica, só do `<option>` no HTML).
+
+A Certificação Processual **não** ganhou a opção "Outros" — ver seção 8 (pendência
+em aberto, decisão do João necessária antes de implementar).
 
 ## 8. Em aberto
 
@@ -220,6 +236,18 @@ depois dos primeiros casos de verdade.
   rotina `:29` disparou sozinha em 09/09/2026 e não fez nada, corretamente — mas os
   dois pedidos reais que chegaram pela página até agora foram processados manualmente
   por mim, não pela Routine em disparo natural).
-- Análise de Parecer Jurídico (seção 7): zero casos reais processados ainda.
 - `relatos` fica sob demanda de eu ler manualmente quando a Routine dispara — não há
   hoje nenhuma notificação push além disso.
+- **Certificação Processual e a modalidade "Outros"** (28/09/2026): ao contrário do
+  Despacho de Encaminhamento e da Análise de Parecer (texto livre), a Certificação
+  Processual gera um PDF em modelo fixo (art. 14, Portaria PGF nº 931/2018,
+  `MODELO_CERTIFICACAO_PROCESSUAL.md`) com um checklist fechado de MODALIDADE (Adesão
+  SRP, Aditivo, Concorrência, Concurso, Consulta, Convite, Leilão, Pregão, Pregão com
+  SRP, RDC, Tomada de Preços) + CONTRATAÇÃO DIRETA (Dispensa/Inexigibilidade) — não
+  há campo livre nem caixa "Outros" no modelo oficial. Se `tipoOutro` for algo como
+  "Contrata+Brasil", nenhum checkbox do modelo se aplica de verdade, e marcar
+  qualquer um seria incorreto num documento formal que vai à Procuradoria. Por isso
+  `gerar_certificacao.py` e a página **não** ganharam a opção "Outros" — perguntei ao
+  João e ele decidiu (28/09/2026) não adicionar por ora: casos fora do catálogo fixo
+  continuam sendo certificados manualmente. Decisão registrada, não é mais pendência
+  em aberto.
