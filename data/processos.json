@@ -48,12 +48,12 @@
     "caminhoHistorico": [],
     "processo": "23077.097709/2026-79",
     "assunto": "Abertura de pregão eletrônico Grupo 3024 — Requisição nº 18340",
-    "fase": "Fase Interna (DFI)",
-    "subEtapa": "edital",
-    "subetapa": "Último documento: RELATÓRIO (22/09/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (14/09/2026 14:35)",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "dfe",
+    "subetapa": "Último documento: DESPACHO (02/10/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (14/09/2026 14:35)",
     "categoria": "unidades",
     "unidade": "DPGC - Divisão de Planejamento e Gerenciamento de Compras",
-    "data": "28/09/2026",
+    "data": "02/10/2026",
     "dataCriacao": "10/07/2026",
     "gestor": "Chianc Leocadio de Lima",
     "pregao": "23077.117033/2026-47",
@@ -72,15 +72,21 @@
       "listaFim": "07/08/2026",
       "analiseDfiFim": "31/08/2026",
       "pesquisaPrecosFim": "14/09/2026",
-      "irpFim": "18/09/2026"
+      "irpFim": "18/09/2026",
+      "dfeInicio": "02/10/2026"
     },
     "processo_id": 1217522,
     "pregao_id": 1223509,
-    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90026/2026",
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 162/2026",
     "objetoLicitacao": "AQUISIÇÃO DE MATERIAL PARA MANUTENÇÃO DE BENS IMÓVEIS",
     "responsaveisDfi": {
       "pesquisaPrecos": "Vanessa Raquel da Silva Medino",
       "irp": "Sonaydy Lyany Dantas"
+    },
+    "avancoPorIndicioDfe": "edital",
+    "responsaveisDfe": {
+      "pregoeiro": "Adriana da Silva Cardoso",
+      "equipeApoio": "Andrea Lopes de Figueiredo"
     }
   },
   {
@@ -420,7 +426,7 @@
     "subetapa": "Último documento: DESPACHO DE AUTORIZAÇÃO DO TERMO DE REFERÊNCIA (22/09/2026) · Última movimentação: PROAD - COORDENADORIA DE TRANSPORTES (11.02.05) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (11/09/2026 09:12)",
     "categoria": "elaboracao",
     "unidade": "DPGC - Divisão de Planejamento e Gerenciamento de Compras",
-    "data": "23/09/2026",
+    "data": "02/10/2026",
     "dataCriacao": "10/03/2026",
     "gestor": "Flavio Carlos de Albuquerque",
     "pregao": null,
@@ -437,7 +443,8 @@
       "listaFim": "23/09/2026"
     },
     "processo_id": 1196869,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "caminho": "pregao",
@@ -17149,7 +17156,7 @@
     "subetapa": "Último documento: CERTIDÃO (16/03/2026) · Última movimentação: DIRETORIA DE CONTRATOS - PROAD (11.02.16) → CONTRATOS - DIVISÃO DE FORMALIZAÇÃO E ACOMPANHAMENTO DE CONTRATOS (11.02.16.01) (31/07/2026 16:53)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "29/09/2026",
+    "data": "02/10/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -18331,7 +18338,7 @@
     "subetapa": "Último documento: E-MAIL (10/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → ESCOLA DE MÚSICA (11.39) (17/07/2026 21:51)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "29/09/2026",
+    "data": "02/10/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -18790,7 +18797,7 @@
     "subetapa": "Último documento: DESPACHO DE ENCAMINHAMENTO (19/05/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → PROGRAMA DE PÓS-GRADUAÇÃO EM GEOGRAFIA (13.21) (19/05/2026 12:24)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "01/10/2026",
+    "data": "02/10/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -19054,7 +19061,7 @@
     "subetapa": "Último documento: OFÍCIO (20/05/2026) · Última movimentação: DEPARTAMENTO DE FARMACIA (15.13) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (20/05/2026 13:34)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "20/05/2026",
+    "data": "02/10/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -19505,7 +19512,7 @@
     "subetapa": "Último documento: PLANILHA (23/06/2026) · Última movimentação: DP - SECRETARIA ADMINISTRATIVA (11.08.20.01) → DIRETORIA DE PROJETOS (11.08.20) (18/06/2026 09:36)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "30/09/2026",
+    "data": "02/10/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -19995,7 +20002,7 @@
     "subetapa": "Último documento: CARTA DE EXCLUSIVIDADE (20/07/2026) · Última movimentação: GABINETE DO REITOR (11.32) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (11/08/2026 16:17)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "29/09/2026",
+    "data": "02/10/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -21348,7 +21355,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1230373",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "01/10/2026"
+    },
     "caminho": "inexigibilidade",
     "caminhoHistorico": [],
     "processo_id": 1230373,
@@ -21657,12 +21666,12 @@
   {
     "processo": "23077.146109/2026-41",
     "assunto": "CONTRATAÇÃO DE SERVIÇO DE CONFECÇÃO/INSTALAÇÃO DE SINALIZAÇÃO",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Último documento: CARTA DE ACEITE (17/09/2026) · Última movimentação: CCS - SETOR DE COMPRAS (15.65) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (18/09/2026 13:01)",
+    "fase": "Fase Interna (DFI)",
+    "subEtapa": "faseInterna",
+    "subetapa": "Último documento: AUTORIZAÇÃO DE FORMALIZAÇÃO - ADESÃO A ATA DE REGISTRO DE PREÇOS (02/10/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (02/10/2026 08:10)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "01/10/2026",
+    "data": "02/10/2026",
     "dataCriacao": "2026-09-22",
     "gestor": null,
     "pregao": null,
@@ -21670,7 +21679,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1233339",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "02/10/2026"
+    },
     "caminho": "adesao_srp",
     "caminhoHistorico": [],
     "processo_id": 1233339,
