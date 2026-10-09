@@ -485,5 +485,257 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1235740",
     "descoberto_em": "2026-10-02"
+  },
+  {
+    "processo_id": 1236598,
+    "numero": "23077.155859/2026-12",
+    "assunto": "12 CAMISETAS",
+    "primeiro_documento": "ORÇAMENTO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1236598",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1236386,
+    "numero": "23077.155278/2026-72",
+    "assunto": "CONTRATAÇÃO DE SERVIÇOS DE CONFECÇÃO DE SINALIZAÇÃO PARA O CCHLA",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1236386",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1236202,
+    "numero": "23077.154686/2026-15",
+    "assunto": "SOLICITAÇÃO DE DISPENSA DE LICITAÇÃO PARA COMPRA DE MESAS/CADEIRAS DE REFEITÓRIO.",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1236202",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1237178,
+    "numero": "23077.157556/2026-26",
+    "assunto": "ADESÃO A ATA DE REGISTRO DE PREÇOS DO PREGÃO N° 90002/2025 PARA A AQUISIÇÃO/CONTRATAÇÃO DE FILAMENTO PLA PARA IMPRESSORA 3D",
+    "primeiro_documento": "CARTA DE ACEITE",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1237178",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1237132,
+    "numero": "23077.157410/2026-81",
+    "assunto": "AQUISIÇÃO DE BALANÇA SEMI ANALÍTICA ATRAVÉS DE DISPENSA DE LICITAÇÃO",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1237132",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1237128,
+    "numero": "23077.157401/2026-90",
+    "assunto": "SOLICITAÇÃO DE DISPENSA: AQUISIÇÃO DE CIMENTO",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1237128",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1237126,
+    "numero": "23077.157396/2026-15",
+    "assunto": "AQUISIÇÃO DE MATERIAL DE PROCESSAMENTO DE DADOS - PROJETO ACESSIBILIDADE EM AÇÃO: DESENVOLVIMENTO E ADAPTAÇÃO DE TECNOLOGIAS ASSISTIVAS NA UFRN.",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1237126",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1237125,
+    "numero": "23077.157391/2026-92",
+    "assunto": "AQUISIÇÃO DE ESQUELETO HUMANO ATRAVÉS DE DISPENSA DE LICITAÇÃO",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1237125",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1237124,
+    "numero": "23077.157387/2026-24",
+    "assunto": "AQUISIÇÃO DE MATERIAL DE CONSUMO – PROJETO ACESSIBILIDADE EM AÇÃO: DESENVOLVIMENTO E ADAPTAÇÃO DE TECNOLOGIAS ASSISTIVAS NA UFRN.",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1237124",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1237118,
+    "numero": "23077.157373/2026-19",
+    "assunto": "AQUISIÇÃO DE MATERIAL PERMANENTE – PROJETO ACESSIBILIDADE EM AÇÃO: DESENVOLVIMENTO E ADAPTAÇÃO DE TECNOLOGIAS ASSISTIVAS NA UFRN.",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1237118",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1237108,
+    "numero": "23077.157342/2026-50",
+    "assunto": "AQUISIÇÃO DE FILAMENTO ABS PARA IMPRESSORA 3D",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1237108",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1236998,
+    "numero": "23077.157040/2026-81",
+    "assunto": "AQUISIÇÃO DE CADEIRA DE RODAS PARA O PROJETO \"ACESSIBILIDADE EM AÇÃO: DESENVOLVIMENTO E ADAPTAÇÃO DE TECNOLOGIAS ASSISTIVAS NA UFRN\".",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1236998",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1236902,
+    "numero": "23077.156788/2026-67",
+    "assunto": "ADESÃO À ATAS DE REGISTRO DE PREÇOS PARA AQUISIÇÃO DE EPI PARA O PROJETO DE EXTENSÃO INTITULADO “PRESERVAÇÃO DA COLEÇÃO DE PROCESSOS DE INVENTÁRIOS E PARTILHAS (1858 A 1914)\".",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1236902",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1236891,
+    "numero": "23077.156761/2026-74",
+    "assunto": "ADESÃO PARA AQUISIÇÃO DE 10 MICROCOMPUTADORES PARA A EMUFRN.",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1236891",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1236810,
+    "numero": "23077.156513/2026-23",
+    "assunto": "A AQUISIÇÃO DOS EQUIPAMENTOS ABAIXO RELACIONADOS DESTINA-SE À EXECUÇÃO DAS ATIVIDADES DO PROGRAMA DE EXTENSÃO “VELHICES ÉTNICO-RACIAIS NO SUS: AVALIAÇÃO E PREVENÇÃO DO DECLÍNIO FUNCIONAL NA TERCEIRA IDADE (PROGRAMA PREVIDECLI)”, CONTEMPLADO PELO EDITAL Nº 006/2026 UFRN/PROEX, CONSIDERANDO O LIMITE DE R$ 9.000,00 DISPONIBILIZADO PARA SUA EXECUÇÃO.",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1236810",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1236787,
+    "numero": "23077.156460/2026-41",
+    "assunto": "A PRESENTE AQUISIÇÃO DESTINA-SE À EXECUÇÃO DO PROJETO DE ENSINO “ESTRATÉGIAS E AÇÕES PARA A MELHORIA DO ENSINO DE ESTUDANTES COM TRANSTORNO DO ESPECTRO AUTISTA (TEA) NA GRADUAÇÃO”, VINCULADO AO PROGRAMA DE APOIO À MELHORIA NA QUALIDADE DO ENSINO DE GRADUAÇÃO – PAMQEG 2026, DESENVOLVIDO NO ÂMBITO DA FACULDADE DE CIÊNCIAS DA SAÚDE DO TRAIRI (FACISA/UFRN).",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1236787",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1236765,
+    "numero": "23077.156351/2026-23",
+    "assunto": "ADESÃO PARA AQUISIÇÃO DE 08 MICROCOMPUTADORES",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1236765",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1236738,
+    "numero": "23077.156223/2026-80",
+    "assunto": "AQUISIÇÃO DE ESQUELETO HUMANO E BALANÇA SEMI-ANALÍTICA ATRAVÉS DE DISPENSA DE LICITAÇÃO",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1236738",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1237607,
+    "numero": "23077.159009/2026-85",
+    "assunto": "SOLICITAÇÃO DE ABERTURA DE PROCESSO DE AQUISIÇÃO DE MATERIAL",
+    "primeiro_documento": "JUSTIFICATIVA",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1237607",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1237558,
+    "numero": "23077.158869/2026-00",
+    "assunto": "ADESÃO PARA AQUISIÇÃO DE ESTUFA PARA SECAGEM E ESTERILIZAÇÃO POR MEIO DE PROJETO DE ENSINO",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1237558",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1237464,
+    "numero": "23077.158630/2026-21",
+    "assunto": "SOLICITAÇÃO PARA FORNECIMENTO DE PRODUTO ATRAVÉS DE ATA DE REGISTRO DE PREÇOS - CAIXA SOM, POTÊNCIA 150 W, COR PRETA, VOLTAGEM 120/240 V, CARACTERÍSTICAS ADICIONAIS ENTRADA MICROFONE E LINHA DE CONTROLE INDEPENDENT E, IMPEDÂNCIA 8 OHM - 1 UNIDADE - FULL TIME EMPREENDIMENTOS - CNPJ: 17.991.542/0001-76",
+    "primeiro_documento": "SOLICITAÇÃO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1237464",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1237415,
+    "numero": "23077.158438/2026-35",
+    "assunto": "CONTRATAÇÃO, PELO PERÍODO DE 12 (DOZE) MESES, DE UMA INTELIGÊNCIA ARTIFICIAL GENERATIVA.",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1237415",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1237401,
+    "numero": "23077.158397/2026-87",
+    "assunto": "AQUISIÇÃO DE 01 (UM) NOTEBOOK DE CONFIGURAÇÃO INTERMEDIÁRIA OU SUPERIOR.",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1237401",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1237393,
+    "numero": "23077.158376/2026-61",
+    "assunto": "AQUISIÇÃO DE 05 (CINCO) FLIP CHARTS MAGNÉTICO COM CAVALETE TIPO TRIPÉ E RODINHAS.",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1237393",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1237392,
+    "numero": "23077.158369/2026-60",
+    "assunto": "A NECESSIDADE DA PRESENTE DEMANDA ESTÁ RELACIONADA À EFETIVAÇÃO DO PROJETO EDUCAÇÃO EMPREENDEDORA: GERANDO MINIEMPREENDEDORES DURANTE O ENSINO MÉDIO EM ESCOLAS PÚBLICAS. SOU A TUTORA DA EMPRESA JUNIOR GESTARC, E FOMOS CONTEMPLADOS NO EDITAL PROEXT NO. 006/2026 COM O PROJETO EM QUESTÃO. COMO A REALIZAÇÃO ESTÁ CIRCUNSCRITA À ESCOLAS DE ENSINO MÉDIO, FAZ-SE NECESSÁRIA A IDENTIFICAÇÃO VISUAL DE NOSSOS ALUNOS E, NESTE CASO UMA CAMISETA É ITEM ESSENCIAL NESTE PROCESSO. ESTA DEMANDA É NECESSÁRIA TER A SUA DISPONIBILIDADE ATÉ O FINAL DESTE MÊS (OUTUBRO/2026). SEGUE EM ANEXO UM ORÇAMENTO PARA ESTIMAR O VALOR DA PRESENTE CONTRATAÇÃO",
+    "primeiro_documento": "ORÇAMENTO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1237392",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1237365,
+    "numero": "23077.158267/2026-44",
+    "assunto": "SOLICITO A CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA REALIZAÇÃO DE LEVANTAMENTO RADIOMÉTRICO DAS INSTALAÇÕES E CONTROLE DE QUALIDADE DOS EQUIPAMENTOS EMISSORES DE RADIAÇÃO IONIZANTE DO SETOR DE IMAGENOLOGIA, COM EMISSÃO DOS RESPECTIVOS RELATÓRIOS TÉCNICOS, CONFORME A LEGISLAÇÃO SANITÁRIA VIGENTE.",
+    "primeiro_documento": "PARECER",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1237365",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1237341,
+    "numero": "23077.158163/2026-30",
+    "assunto": "AQUISIÇÃO DO LIVRO MANUAL DE PROCESSO PENAL – VOLUME ÚNICO (2026), DE RENATO BRASILEIRO DE LIMA, PARA APOIO ÀS ATIVIDADES DE FORMAÇÃO E PREPARAÇÃO DA EQUIPE EXECUTORA DO PROJETO DE EXTENSÃO #FALADIREITO: JUVENTUDE E CIDADANIA NO SERIDÓ (PJ200-2026).",
+    "primeiro_documento": "DESPACHO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1237341",
+    "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1237319,
+    "numero": "23077.158098/2026-42",
+    "assunto": "AQUISIÇÃO DE CAMISETAS PARA A EMPRESA JUNIOR GESTARC, ATRAVÉS DOS RECURSOS PROIVENIENTES DA UNIDADE EDUCAÇÃO EMPREENDEDORA: GERANDO MINIEMPRE... (11.44.00.00.00.08.10.06), ORIUNDO DE EDITAL DA PROEXT",
+    "primeiro_documento": null,
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1237319",
+    "descoberto_em": "2026-10-09"
   }
 ]
