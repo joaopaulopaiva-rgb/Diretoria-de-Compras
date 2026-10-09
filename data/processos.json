@@ -53,7 +53,7 @@
     "subetapa": "Último documento: DESPACHO (02/10/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (14/09/2026 14:35)",
     "categoria": "unidades",
     "unidade": "DPGC - Divisão de Planejamento e Gerenciamento de Compras",
-    "data": "06/10/2026",
+    "data": "09/10/2026",
     "dataCriacao": "10/07/2026",
     "gestor": "Chianc Leocadio de Lima",
     "pregao": "23077.117033/2026-47",
@@ -119,15 +119,15 @@
     "caminhoHistorico": [],
     "processo": "23077.084287/2025-91",
     "assunto": "Aquisição de elevador para o NPITI/IMD",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "lista",
-    "subetapa": "TR concluído (04/08/2026); aguardando encaminhamento à PROAD",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "dfe",
+    "subetapa": "Último documento: RELATÓRIO DETALHADO DE REQUISIÇÕES DO PROCESSO (08/10/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (23/09/2026 13:40)",
     "categoria": "elaboracao",
     "unidade": "DPGC - Divisão de Planejamento e Gerenciamento de Compras",
-    "data": "06/10/2026",
+    "data": "08/10/2026",
     "dataCriacao": "03/06/2025",
     "gestor": "Pedro",
-    "pregao": null,
+    "pregao": "23077.137983/2026-98",
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
@@ -137,11 +137,24 @@
       "dfdFim": "23/02/2026",
       "etpFim": "27/03/2026",
       "trFim": "26/03/2026",
-      "listaFim": "11/08/2026"
+      "listaFim": "11/08/2026",
+      "pesquisaPrecosFim": "21/09/2026",
+      "irpFim": "24/09/2026",
+      "dfeInicio": "06/10/2026"
     },
     "processo_id": 1147856,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": 1230861,
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 160/2026",
+    "objetoLicitacao": "FORNECIMENTO, MONTAGEM E INSTALAÇÃO DE TRANSPORTE VERTICAL",
+    "avancoPorIndicioDfe": "edital",
+    "responsaveisDfi": {
+      "irp": "Marilia Linhares de Sousa",
+      "elaboracaoEdital": "Thiago Renan da Silva Correia"
+    },
+    "responsaveisDfe": {
+      "pregoeiro": "Diego Brito Cruz",
+      "equipeApoio": "Adriana da Silva Cardoso"
+    }
   },
   {
     "caminho": "pregao",
@@ -422,15 +435,15 @@
     "caminhoHistorico": [],
     "processo": "23077.029208/2026-60",
     "assunto": "Aquisição de picape compacta leve de cabine dupla para a Superintendência de Infraestrutura",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "lista",
-    "subetapa": "Último documento: DESPACHO DE AUTORIZAÇÃO DO TERMO DE REFERÊNCIA (22/09/2026) · Última movimentação: PROAD - COORDENADORIA DE TRANSPORTES (11.02.05) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (11/09/2026 09:12)",
+    "fase": "Jurídico (Projur/Análise)",
+    "subEtapa": "juridico",
+    "subetapa": "Último documento: DESPACHO (02/10/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (25/09/2026 11:50)",
     "categoria": "elaboracao",
     "unidade": "DPGC - Divisão de Planejamento e Gerenciamento de Compras",
     "data": "02/10/2026",
     "dataCriacao": "10/03/2026",
     "gestor": "Flavio Carlos de Albuquerque",
-    "pregao": null,
+    "pregao": "23077.150429/2026-04",
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
@@ -441,11 +454,19 @@
       "etpInicio": "03/08/2026",
       "etpFim": "03/08/2026",
       "trFim": "22/09/2026",
-      "listaFim": "23/09/2026"
+      "listaFim": "23/09/2026",
+      "analiseDfiFim": "25/09/2026",
+      "pesquisaPrecosFim": "01/10/2026",
+      "editalFim": "02/10/2026"
     },
     "processo_id": 1196869,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": 1234751,
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 175/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE VEÍCULOS AUTOMOTORES PARA ATENDER DEMANDAS DA UFRN",
+    "responsaveisDfi": {
+      "pesquisaPrecos": "José Weliton Barbosa da Silva",
+      "irp": "Sonaydy Lyany Dantas"
+    }
   },
   {
     "caminho": "pregao",
@@ -637,12 +658,12 @@
     "processo": "23077.091157/2025-12",
     "assunto": "PCA26 - Aquisição de material de processamento de dados (II)",
     "assuntoPregao": "PREGÃO ELETRÔNICO SISRP Nº.: 90035/2025",
-    "fase": "Fase Externa (DFE)",
-    "subEtapa": "dfe",
-    "subetapa": "Edital publicado; esclarecimentos e respostas já registrados, processo em fase de licitação pública",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: E-MAIL (09/10/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (23/04/2026 09:16)",
     "categoria": "unidades",
     "unidade": "DFE - Divisão de Fase Externa de Compras",
-    "data": "08/09/2026",
+    "data": "09/10/2026",
     "dataCriacao": "15/06/2025",
     "gestor": "Jorge Henrique Teotonio de Lima Melo",
     "pregao": "23077.167944/2025-34",
@@ -662,7 +683,8 @@
       "analiseDfiInicio": "08/10/2025",
       "analiseDfiFim": "17/10/2025",
       "pesquisaPrecosFim": "20/03/2026",
-      "dfeInicio": "28/05/2026"
+      "dfeInicio": "28/05/2026",
+      "dfeFim": "09/10/2026"
     },
     "processo_id": 1150519,
     "pregao_id": 1174902,
@@ -16148,9 +16170,9 @@
   {
     "processo": "23077.208186/2025-11",
     "assunto": "AQUISIÇÃO DE MATERIAL HOSPITALAR - PCA 26 - LETRAS D A L - 97 ITENS",
-    "fase": "Fase Externa (DFE)",
-    "subEtapa": "dfe",
-    "subetapa": "Último documento: DESPACHO (17/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (14/05/2026 08:00)",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: DESPACHO (08/10/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (14/05/2026 08:00)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "08/10/2026",
@@ -16163,7 +16185,8 @@
       "analiseDfiFim": "13/05/2026",
       "pesquisaPrecosFim": "08/06/2026",
       "editalFim": "17/06/2026",
-      "dfeInicio": "17/08/2026"
+      "dfeInicio": "17/08/2026",
+      "dfeFim": "08/10/2026"
     },
     "caminho": "pregao",
     "caminhoHistorico": [],
@@ -17302,7 +17325,7 @@
     "subetapa": "Último documento: CERTIDÃO (30/04/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE EXTERNA DE COMPRAS (11.02.09.02) (22/06/2026 16:30)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "17/09/2026",
+    "data": "08/10/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -18085,9 +18108,9 @@
   {
     "processo": "23077.156019/2025-88",
     "assunto": "DISPENSA DE LICITAÇÃO: COMPRA DE 5 (CINCO) CAVALINHOS OBSTÉTRICOS PARA A REESTRUTURAÇÃO E MODERNIZAÇÃO DA SALA DE PARTO DO HOSPITAL DR. MARIANO COELHO",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Último documento: DESPACHO (24/02/2026) · Última movimentação: ADMINISTRAÇÃO DA ESCOLA MULTICAMPI DE CIÊNCIAS MÉDICAS DO RN (11.32.29.03) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (24/02/2026 13:24)",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: NOTA DE EMPENHO (02/10/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (07/09/2026 15:57)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "02/10/2026",
@@ -18099,13 +18122,19 @@
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1170948",
     "marcos": {
-      "planejamentoFim": "23/08/2026"
+      "planejamentoFim": "23/08/2026",
+      "faseExternaInicio": "11/09/2026",
+      "homologadoData": "02/10/2026"
     },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1170948,
     "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "execucao_numero": "23077.133681/2026-41",
+    "execucao_id": 1229584,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90039/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE CAVALINHOS OBSTÉTRICOS",
+    "semDisputaFaseExterna": false
   },
   {
     "processo": "23077.156066/2025-21",
@@ -18392,7 +18421,7 @@
     "subetapa": "Último documento: DESPACHO DE AUTORIZAÇÃO DO TERMO DE REFERÊNCIA (16/12/2025) · Última movimentação: DIRETORIA DE CONTRATOS - PROAD (11.02.16) → CONTRATOS - DIVISÃO DE FORMALIZAÇÃO E ACOMPANHAMENTO DE CONTRATOS (11.02.16.01) (24/07/2026 11:06)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "24/07/2026",
+    "data": "08/10/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -18798,9 +18827,9 @@
   {
     "processo": "23077.054403/2026-28",
     "assunto": "RENOVAÇÃO DE LICENÇA DO SOFTWARE ARCGIS PARA ATENDIMENTO AO PPGE/UFRN",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Último documento: DESPACHO DE ENCAMINHAMENTO (19/05/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → PROGRAMA DE PÓS-GRADUAÇÃO EM GEOGRAFIA (13.21) (19/05/2026 12:24)",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: NOTA DE EMPENHO (05/10/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (29/09/2026 09:11)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "05/10/2026",
@@ -18812,13 +18841,17 @@
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1203873",
     "marcos": {
-      "planejamentoFim": "19/08/2026"
+      "planejamentoFim": "19/08/2026",
+      "homologadoData": "05/10/2026"
     },
-    "caminho": "dispensa",
+    "caminho": "inexigibilidade",
     "caminhoHistorico": [],
     "processo_id": 1203873,
     "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "execucao_numero": "23077.151992/2026-91",
+    "execucao_id": 1235246,
+    "numeroLicitacao": "INEXIGIBILIDADE DE LICITAÇÃO Nº.: 10/2026",
+    "objetoLicitacao": "LICENÇA DO SOFTWARE ARCGIS"
   },
   {
     "processo": "23077.055022/2026-66",
@@ -19205,12 +19238,12 @@
   {
     "processo": "23077.072455/2026-86",
     "assunto": "AQUISIÇÃO DE ITENS (MATERIAIS E EQUIPAMENTOS) DE SEGURANÇA DESTINADOS À EXECUÇÃO DE TRABALHOS EM ALTURA NO ÂMBITO DA DIMAN/INFRA",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Último documento: DESPACHO (28/07/2026) · Última movimentação: DIRETORIA DE OBRAS (11.08.06) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (28/07/2026 14:00)",
+    "fase": "Fase Interna (DFI)",
+    "subEtapa": "faseInterna",
+    "subetapa": "Último documento: AVISO DE DISPENSA DE LICITAÇÃO (09/10/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (01/10/2026 10:05)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "08/10/2026",
+    "data": "09/10/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -19225,7 +19258,10 @@
     "caminhoHistorico": [],
     "processo_id": 1209277,
     "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "execucao_numero": "23077.146627/2026-65",
+    "execucao_id": 1233510,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90048/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE MATERIAIS E EQUIPAMENTOS DE SEGURANÇA DESTINADOS À EXECUÇÃO DE TRABALHOS EM ALTURA"
   },
   {
     "processo": "23077.073508/2026-86",
@@ -19252,15 +19288,15 @@
   {
     "processo": "23077.073767/2026-15",
     "assunto": "AQUISIÇÃO DE GÊNEROS ALIMENTÍCIOS (ORIGEM ANIMAL E PADARIA) - PCA 27",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "lista",
-    "subetapa": "Último documento: DESPACHO (05/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (05/08/2026 15:35)",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "dfe",
+    "subetapa": "Último documento: DESPACHO DE ENCAMINHAMENTO (08/10/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (28/08/2026 15:32)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "08/10/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
-    "pregao": null,
+    "pregao": "23077.121155/2026-38",
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
@@ -19269,13 +19305,22 @@
       "dfdFim": "07/07/2026",
       "etpFim": "30/07/2026",
       "trFim": "05/08/2026",
-      "listaFim": "05/08/2026"
+      "listaFim": "05/08/2026",
+      "analiseDfiFim": "14/08/2026",
+      "pesquisaPrecosFim": "03/09/2026",
+      "editalFim": "09/09/2026",
+      "juridicoFim": "30/09/2026"
     },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1209719,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": 1225069,
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 132/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE GÊNEROS ALIMENTÍCIOS (ORIGEM ANIMAL E PADARIA)",
+    "responsaveisDfi": {
+      "pesquisaPrecos": "Raphaella Louise Silveira de Lima",
+      "irp": "Marilia Linhares de Sousa"
+    }
   },
   {
     "processo": "23077.074956/2026-05",
@@ -19544,7 +19589,7 @@
     "subetapa": "Último documento: OFÍCIO (18/06/2026) · Última movimentação: ESCOLA DE MÚSICA (11.39) → ESCOLA DE MÚSICA (11.39) (18/06/2026 10:08)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "18/09/2026",
+    "data": "09/10/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -19636,12 +19681,12 @@
   {
     "processo": "23077.090949/2026-42",
     "assunto": "AQUISIÇÃO DE CLORO PARA TRATAMENTO DAS PISCINAS DO COESPE.",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Último documento: DESPACHO (29/07/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → COMPLEXO DE ESPORTES E EVENTOS (11.24.01) (29/07/2026 13:12)",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "faseExterna",
+    "subetapa": "Último documento: AVISO DE DISPENSA DE LICITAÇÃO (09/10/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (01/10/2026 09:22)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "07/10/2026",
+    "data": "09/10/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -19650,13 +19695,18 @@
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1215658",
     "marcos": {
-      "planejamentoFim": "09/09/2026"
+      "planejamentoFim": "09/09/2026",
+      "faseExternaInicio": "09/10/2026"
     },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1215658,
     "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "execucao_numero": "23077.142753/2026-41",
+    "execucao_id": 1232284,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90043/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE MATERIAIS QUÍMICOS PARA LIMPEZA DAS PISCINAS DO COESPE - UFRN",
+    "semDisputaFaseExterna": false
   },
   {
     "processo": "23077.091115/2026-54",
@@ -19762,7 +19812,7 @@
     "subetapa": "Último documento: DESPACHO (14/08/2026) · Última movimentação: DEPARTAMENTO DE ENGENHARIA BIOMEDICA (14.35) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (14/08/2026 16:27)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "07/10/2026",
+    "data": "08/10/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -19991,7 +20041,7 @@
     "subetapa": "Último documento: DESPACHO (13/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → COORDENAÇÃO DO CURSO DE LICENCIATURA EM EDUCAÇÃO INTERCULTURAL INDÍGENA (13.00.00.10) (13/08/2026 15:29)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "06/10/2026",
+    "data": "08/10/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -20008,9 +20058,9 @@
   {
     "processo": "23077.109984/2026-42",
     "assunto": "ASSINATURA REFERENTE AO PLANO DE 02 (DOIS) ANOS DA LISTA DE AUTORIDADES GOVERNAMENTAIS - LAG (2026 - 2028)",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Último documento: CARTA DE EXCLUSIVIDADE (20/07/2026) · Última movimentação: GABINETE DO REITOR (11.32) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (11/08/2026 16:17)",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: NOTA DE EMPENHO (06/10/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (30/09/2026 11:51)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "06/10/2026",
@@ -20022,13 +20072,17 @@
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1221346",
     "marcos": {
-      "planejamentoFim": "21/09/2026"
+      "planejamentoFim": "21/09/2026",
+      "homologadoData": "06/10/2026"
     },
     "caminho": "inexigibilidade",
     "caminhoHistorico": [],
     "processo_id": 1221346,
     "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "execucao_numero": "23077.153020/2026-31",
+    "execucao_id": 1235590,
+    "numeroLicitacao": "INEXIGIBILIDADE DE LICITAÇÃO Nº.: 11/2026",
+    "objetoLicitacao": "ASSINATURA DE LISTA DE AUTORIDADES GOVERNAMENTAIS"
   },
   {
     "processo": "23077.111589/2026-20",
@@ -20038,7 +20092,7 @@
     "subetapa": "Último documento: ORÇAMENTO (21/07/2026) · Última movimentação: SERVIÇO INTEGRADO DE NEUROPSICOLOGIA APLICADA: PRÁTICAS DE FORMAÇÃO E ASSISTÊNCIA À SAÚDE (11.44.00.00.00.08.09.02) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (31/07/2026 10:10)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "15/09/2026",
+    "data": "09/10/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -20545,7 +20599,7 @@
     "subetapa": "Último documento: DESPACHO DE AUTORIZAÇÃO DOS ESTUDOS TÉCNICOS (28/09/2026) · Última movimentação: SUPERINTENDÊNCIA DE TECNOLOGIA DA INFORMAÇÃO (11.35) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (16/09/2026 18:21)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "30/09/2026",
+    "data": "08/10/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -21105,12 +21159,12 @@
   {
     "processo": "23077.129612/2026-32",
     "assunto": "AQUISIÇÃO DE BANCOS DE MADEIRA - DISPENSA DE LICITAÇÃO",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Último documento: LISTA DE VERIFICAÇÃO (31/08/2026) · Última movimentação: PRÓ-REITORIA DE ADMINISTRAÇÃO (PROAD) (11.02) → PROPLAN - COORDENADORIA DE ORÇAMENTO (11.07.03) (09/09/2026 09:41)",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "faseExterna",
+    "subetapa": "Último documento: ESTUDO TÉCNICO PRELIMINAR (09/10/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (07/09/2026 15:56)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "06/10/2026",
+    "data": "09/10/2026",
     "dataCriacao": "2026-08-28",
     "gestor": null,
     "pregao": null,
@@ -21119,13 +21173,18 @@
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1228245",
     "marcos": {
-      "planejamentoFim": "30/08/2026"
+      "planejamentoFim": "30/08/2026",
+      "faseExternaInicio": "14/09/2026"
     },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1228245,
     "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "execucao_numero": "23077.136029/2026-88",
+    "execucao_id": 1230224,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90042/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE BANCOS DE MADEIRA",
+    "semDisputaFaseExterna": false
   },
   {
     "processo": "23077.131162/2026-48",
@@ -21493,9 +21552,9 @@
   {
     "processo": "23077.139108/2026-41",
     "assunto": "SOLICITAÇÃO DE DISPENSA: AQUISIÇÃO DE MILHO EM GRÃO 2026",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Último documento: DESPACHO DE ENCAMINHAMENTO (22/09/2026) · Última movimentação: DIRETORIA DE COMPRAS - PROAD (11.02.09) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (22/09/2026 17:24)",
+    "fase": "Homologado",
+    "subEtapa": null,
+    "subetapa": "Último documento: NOTA DE EMPENHO (01/10/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (23/09/2026 08:33)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "01/10/2026",
@@ -21507,13 +21566,18 @@
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1231160",
     "marcos": {
-      "planejamentoFim": "18/09/2026"
+      "planejamentoFim": "18/09/2026",
+      "homologadoData": "01/10/2026"
     },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1231160,
     "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "execucao_numero": "23077.148453/2026-75",
+    "execucao_id": 1234080,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90049/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE MILHO EM GRÃO",
+    "semDisputaFaseExterna": true
   },
   {
     "processo": "23077.139622/2026-86",

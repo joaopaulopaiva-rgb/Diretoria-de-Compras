@@ -186,6 +186,21 @@ Ambos os workflows também aceitam `workflow_dispatch` (rodar manualmente na aba
 
 **Sincronização das decisões do portão** (Acompanhar/Ignorar/Em análise): como o painel é uma página estática, essas decisões ficam só no navegador (localStorage) até serem aplicadas de verdade. O jeito de aplicar continua sendo copiar o bloco de decisões ("Copiar decisões" na tela do portão) e colar numa conversa com o Claude, que roda `scripts/aplicar_decisoes.py` e publica — não existe hoje um caminho automático que não exija login em algum lugar.
 
+### 11.1 Vínculo automático planejamento → processo principal (apensação)
+
+Pedido explícito da pessoa dona do projeto (25/09 e reforçado 09/10/2026): quando um planejamento (DPGC) é apensado a um processo de execução (Pregão/Dispensa/Inexigibilidade) já aberto por outra unidade, **os dois passam a "andar juntos"** no painel — sem isso, o card fica preso em "Planejamento (DPGC)" mesmo que o processo real já tenha passado por DFI, Jurídico ou até DFE.
+
+Dois scripts resolvem isso em conjunto:
+
+1. `scripts/mapear_apensacoes.py` — varre o tipo de documento "Termo de Juntada por Apensação" (CLAUDE.md seção 12) por toda a janela de tempo, com bisecção adaptativa de data (nunca perde registro por truncamento de ~15/página), e monta `data/apensacoes_cache.json` (número do planejamento → número do processo de execução). Incremental/retomável — semanas já varridas não são refeitas.
+2. `scripts/vincular_apensacoes.py` — cruza esse cache com `data/processos.json`: pra cada processo ainda sem `pregao`/`execucao_numero` vinculado, resolve o id interno do SIPAC do destino (via `buscar_por_numero_paginado`, tentando o Tipo de Processo esperado pro caminho) e só então grava o vínculo.
+
+Dois casos ficam sinalizados (não aplicados automaticamente — CLAUDE.md seção 10):
+- o destino não é encontrado nem no tipo esperado nem como Planejamento (314) — pode estar em caminho diferente do classificado (já aconteceu: um processo marcado "dispensa" tinha sido apensado numa Inexigibilidade de verdade — a classificação foi corrigida manualmente ao confirmar);
+- o destino ainda é ele mesmo um processo de Planejamento (314) no SIPAC — não é uma vinculação de execução normal, parece um planejamento absorvido/remanejado por outro planejamento mais novo (2 casos reais confirmados: 23077.148564/2024-10 → 23077.141816/2026-41, e 23077.198658/2025-11 → 23077.200452/2025-68). Esse padrão ainda não tem uma regra definida de como tratar (ver seção 15).
+
+Depois de aplicar os vínculos, rodar `scripts/atualizar_marcos.py` de novo pra esses processos puxarem a fase real do processo principal.
+
 ## 12. Limitações técnicas conhecidas do SIPAC público
 
 - A busca pública **por número de processo/documento** (formulário "N° Processo"/"N° Documento") **não funciona via automação simples** (POST direto) — parece depender de estado de sessão JSF que não se reproduz fora de um navegador real. **Não insistir nesse caminho** (testado de novo em agosto/2026, inclusive com número de processo válido conhecido — confirma a limitação).
@@ -208,12 +223,14 @@ Por enquanto: todo mundo (quando o painel for compartilhado) pode **ver** tudo. 
 - Testar empiricamente antes de afirmar uma capacidade técnica (ex.: baixar e ler um documento de verdade antes de dizer que "funciona") — várias suposições iniciais deste projeto (links de documento "mortos", busca por número, etc.) se mostraram erradas só depois de testar de fato.
 - **Nunca pular a leitura de documentos-chave (ex. Termo de Juntada por Apensação) por economia** quando a pergunta é justamente sobre a estrutura do fluxo — uma rodada de pesquisa que pulou essa leitura chegou a conclusões erradas sobre os caminhos da seção 4, corrigidas só numa segunda rodada mais profunda.
 - Antes de lançar uma tarefa de pesquisa longa e autônoma, verificar rapidamente ao vivo (poucos exemplos, foreground) e reportar à pessoa antes de comprometer o tempo numa tarefa longa em background — dá chance dela corrigir o rumo com detalhes que só ela sabe.
-- **Gatilho "rode"/"atualize" (regra fixa, combinada 28/08/2026):** sempre que a pessoa disser "rode", "atualize" ou qualquer sinônimo, rodar as **três** coisas, nessa ordem — nunca só uma:
+- **Gatilho "rode"/"atualize" (regra fixa, combinada 28/08/2026, ampliada 09/10/2026):** sempre que a pessoa disser "rode", "atualize" ou qualquer sinônimo, rodar as **cinco** coisas, nessa ordem — nunca só uma:
   1. `scripts/descoberta_semanal.py` — processos de planejamento novos.
   2. `scripts/revisar_ignorados.py` — processos ignorados que voltaram a se movimentar.
-  3. `scripts/atualizar_marcos.py` — status dos processos já acompanhados.
-  
-  "Atualizar" sem rodar as três não conta como atender o pedido — ela foi explícita: rodar só uma parte (ex. só marcos) e deixar processo novo de fora quebra a confiança no painel.
+  3. `scripts/mapear_apensacoes.py` — estende a varredura de Termos de Juntada por Apensação até hoje (seção 11.1).
+  4. `scripts/vincular_apensacoes.py` — aplica os vínculos planejamento → processo principal descobertos no passo anterior.
+  5. `scripts/atualizar_marcos.py` — status dos processos já acompanhados (já reflete os vínculos novos do passo 4).
+
+  "Atualizar" sem rodar as cinco não conta como atender o pedido — ela foi explícita: rodar só uma parte (ex. só marcos) e deixar processo novo ou vínculo de apensação de fora quebra a confiança no painel.
 
 ## 15. Em aberto (ainda não decidido)
 
