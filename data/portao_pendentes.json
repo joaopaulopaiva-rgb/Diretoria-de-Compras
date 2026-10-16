@@ -737,5 +737,113 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1237319",
     "descoberto_em": "2026-10-09"
+  },
+  {
+    "processo_id": 1238600,
+    "numero": "23077.162085/2026-78",
+    "assunto": "SOLICITAÇÃO DE ADESÃO A ATA DE REGISTRO DE PREÇOS.",
+    "primeiro_documento": "CARTA DE ACEITE",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1238600",
+    "descoberto_em": "2026-10-16"
+  },
+  {
+    "processo_id": 1238596,
+    "numero": "23077.162074/2026-98",
+    "assunto": "SOLICITAÇÃO DE COMPRA DIRETA.",
+    "primeiro_documento": "ORÇAMENTO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1238596",
+    "descoberto_em": "2026-10-16"
+  },
+  {
+    "processo_id": 1238388,
+    "numero": "23077.161530/2026-82",
+    "assunto": "ADESÃO PARA AQUISIÇÃO DE 04 TELEVISORES PARA A EMUFRN",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1238388",
+    "descoberto_em": "2026-10-16"
+  },
+  {
+    "processo_id": 1238350,
+    "numero": "23077.161401/2026-94",
+    "assunto": "ADESÃO PARA AQUISIÇÃO DE INSTRUMENTOS MUSICAIS PARA A EMUFRN",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1238350",
+    "descoberto_em": "2026-10-16"
+  },
+  {
+    "processo_id": 1238153,
+    "numero": "23077.160779/2026-71",
+    "assunto": "AQUISIÇÃO DE LONGARINAS PARA O CCS",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1238153",
+    "descoberto_em": "2026-10-16"
+  },
+  {
+    "processo_id": 1238132,
+    "numero": "23077.160731/2026-62",
+    "assunto": "AQUISIÇÃO DE CABO ÁUDIO E VÍDEO MATERIAL E MOUSE COMPUTADOR.",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1238132",
+    "descoberto_em": "2026-10-16"
+  },
+  {
+    "processo_id": 1238093,
+    "numero": "23077.160536/2026-32",
+    "assunto": "SOLICITAÇÃO DE PROVIDÊNCIAS PARA ADESÃO À ATA DE REGISTRO DE PREÇOS Nº 003/2025 DO CREA-PE",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1238093",
+    "descoberto_em": "2026-10-16"
+  },
+  {
+    "processo_id": 1237908,
+    "numero": "23077.159936/2026-03",
+    "assunto": "SOLICITAÇÃO DE ADESÃO À ATA DE REGISTRO DE PREÇO PARA AQUISIÇÃO DE UMA TENDA MEDINDO 4M X 4M.",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1237908",
+    "descoberto_em": "2026-10-16"
+  },
+  {
+    "processo_id": 1237897,
+    "numero": "23077.159914/2026-35",
+    "assunto": "PCA 2027 - PLANEJAMENTO PARA AQUISIÇÃO DE EQUIPAMENTOS DE COZINHA INDUSTRIAL E PADARIA",
+    "primeiro_documento": "PROTOCOLO DE ANÁLISE DE REQUISIÇÕES PARA COMPRA",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1237897",
+    "descoberto_em": "2026-10-16"
+  },
+  {
+    "processo_id": 1237880,
+    "numero": "23077.159840/2026-37",
+    "assunto": "ADESÃO A ATAS DE REGISTRO DE PREÇOS - PREGÃO ELETRÔNICO Nº 90008/2025.",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1237880",
+    "descoberto_em": "2026-10-16"
+  },
+  {
+    "processo_id": 1237827,
+    "numero": "23077.159562/2026-18",
+    "assunto": "AQUISIÇÃO DE MATERIAIS DE APOIO À PESQUISA",
+    "primeiro_documento": "REQUISIÇÃO DE MATERIAIS",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1237827",
+    "descoberto_em": "2026-10-16"
+  },
+  {
+    "processo_id": 1237693,
+    "numero": "23077.159206/2026-02",
+    "assunto": "SOLICITAÇÃO DE DISPENSA DE LICITAÇÃO: AQUISIÇÃO DE ANIMAIS VIVOS 2026",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1237693",
+    "descoberto_em": "2026-10-16"
   }
 ]
