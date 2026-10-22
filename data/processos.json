@@ -235,7 +235,8 @@
       "listaFim": "24/08/2026"
     },
     "processo_id": 1149064,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "caminho": "pregao",
@@ -440,7 +441,7 @@
     "subetapa": "Último documento: ANÁLISE DE PARECER JURÍDICO (19/10/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (25/09/2026 11:50)",
     "categoria": "elaboracao",
     "unidade": "DPGC - Divisão de Planejamento e Gerenciamento de Compras",
-    "data": "19/10/2026",
+    "data": "22/10/2026",
     "dataCriacao": "10/03/2026",
     "gestor": "Flavio Carlos de Albuquerque",
     "pregao": "23077.150429/2026-04",
@@ -506,7 +507,7 @@
     "subetapa": "Último documento: DESPACHO DE ENCAMINHAMENTO (01/07/2026) · Última movimentação: COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) → COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) (29/09/2025 14:01)",
     "categoria": "unidades",
     "unidade": "Divisão de Fiscalização de Obras (INFRA)",
-    "data": "16/10/2026",
+    "data": "21/10/2026",
     "dataCriacao": "29/09/2025",
     "gestor": "Jorge Henrique Teotonio de Lima Melo",
     "pregao": null,
@@ -936,7 +937,7 @@
     "subetapa": "Último documento: DESPACHO (20/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (18/05/2026 11:17)",
     "categoria": "juridico",
     "unidade": "Secretaria da Procuradoria Federal",
-    "data": "20/10/2026",
+    "data": "22/10/2026",
     "dataCriacao": "24/02/2025",
     "gestor": "Flavio Carlos de Albuquerque",
     "pregao": "23077.094606/2025-76",
@@ -980,7 +981,7 @@
     "subetapa": "Processo de pregão autônomo, sem processo de planejamento de origem identificado no painel (a apensação anterior a este processo estava incorreta). TR autorizado em 16/06/2026.",
     "categoria": "unidades",
     "unidade": "DFI - Divisão de Fase Interna de Compras",
-    "data": "20/10/2026",
+    "data": "21/10/2026",
     "dataCriacao": "13/02/2026",
     "gestor": "Thiago Renan da Silva Correia",
     "pregao": null,
@@ -18150,7 +18151,7 @@
     "subetapa": "Último documento: DESPACHO (24/02/2026) · Última movimentação: ADMINISTRAÇÃO DA ESCOLA MULTICAMPI DE CIÊNCIAS MÉDICAS DO RN (11.32.29.03) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (24/02/2026 13:37)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "17/08/2026",
+    "data": "22/10/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -18374,9 +18375,9 @@
   {
     "processo": "23077.180575/2025-75",
     "assunto": "AQUISIÇÃO DE CLARINETAS E CLARONES PARA A ESCOLA DE MÚSICA DA UFRN",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Último documento: E-MAIL (10/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → ESCOLA DE MÚSICA (11.39) (17/07/2026 21:51)",
+    "fase": "Fase Interna (DFI)",
+    "subEtapa": "faseInterna",
+    "subetapa": "Último documento: LISTA DE VERIFICAÇÃO - FASE INTERNA (21/10/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (09/10/2026 10:02)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "21/10/2026",
@@ -18394,7 +18395,10 @@
     "caminhoHistorico": [],
     "processo_id": 1179208,
     "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "execucao_numero": "23077.158801/2026-12",
+    "execucao_id": 1237531,
+    "numeroLicitacao": "INEXIGIBILIDADE DE LICITAÇÃO Nº 12/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE CLARINETAS E CLARONES PARA A ESCOLA DE MÚSICA DA UFRN"
   },
   {
     "processo": "23077.186285/2025-35",
@@ -19043,7 +19047,7 @@
     "subetapa": "Último documento: DESPACHO (05/08/2026) · Última movimentação: LABORATÓRIO DE ÁGUA PARA ABASTECIMENTO (14.17.09) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (05/08/2026 11:11)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "21/10/2026",
+    "data": "22/10/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -19580,7 +19584,7 @@
     "subetapa": "Último documento: CERTIDÃO DE TITULARIDADE DO IMÓVEL (31/07/2026) · Última movimentação: INFRA - ASSESSORIA TÉCNICA (11.08.01) → COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) (21/10/2026 10:41)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "21/10/2026",
+    "data": "22/10/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -19786,7 +19790,7 @@
     "subetapa": "Último documento: ESTUDO TÉCNICO PRELIMINAR (07/08/2026) · Última movimentação: BIBLIOTECA CENTRAL ZILA MAMEDE (11.20) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (07/08/2026 14:27)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "16/10/2026",
+    "data": "22/10/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -19928,7 +19932,7 @@
     "subetapa": "Último documento: DESPACHO (28/07/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → COMPLEXO DE ESPORTES E EVENTOS (11.24.01) (28/07/2026 15:30)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "09/09/2026",
+    "data": "22/10/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -19942,7 +19946,8 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1218753,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.104750/2026-17",
@@ -20062,7 +20067,7 @@
     "subetapa": "Último documento: DESPACHO (13/08/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → COORDENAÇÃO DO CURSO DE LICENCIATURA EM EDUCAÇÃO INTERCULTURAL INDÍGENA (13.00.00.10) (13/08/2026 15:29)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "20/10/2026",
+    "data": "21/10/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -21355,7 +21360,8 @@
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1229749,
-    "pregao_id": null
+    "pregao_id": null,
+    "avisoApensadoSemVinculo": true
   },
   {
     "processo": "23077.134505/2026-26",
@@ -21755,7 +21761,7 @@
     "subetapa": "Último documento: DESPACHO (18/09/2026) · Última movimentação: COMPRAS E EXECUÇÃO ORÇAMENTÁRIA (17.39) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (18/09/2026 14:31)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "05/10/2026",
+    "data": "22/10/2026",
     "dataCriacao": "2026-09-18",
     "gestor": null,
     "pregao": null,
