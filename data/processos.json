@@ -213,15 +213,15 @@
     "caminhoHistorico": [],
     "processo": "23077.087632/2025-48",
     "assunto": "PCA26 - Aquisição de equipamentos hidráulicos e elétricos (12 meses)",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "lista",
-    "subetapa": "Último documento: DESPACHO DE AUTORIZAÇÃO DO TERMO DE REFERÊNCIA (21/08/2026) · Última movimentação: DIRETORIA DE COMPRAS - PROAD (11.02.09) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (20/05/2026 13:20)",
+    "fase": "Fase Interna (DFI)",
+    "subEtapa": "irp",
+    "subetapa": "Último documento: RELATÓRIO DE ALTERAÇÕES - MINUTAS DA AGU (22/10/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (24/09/2026 12:08)",
     "categoria": "elaboracao",
     "unidade": "DPGC - Divisão de Planejamento e Gerenciamento de Compras",
-    "data": "28/08/2026",
+    "data": "22/10/2026",
     "dataCriacao": "09/06/2025",
     "gestor": "Jorge Henrique Teotonio de Lima Melo",
-    "pregao": null,
+    "pregao": "23077.136900/2026-43",
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
@@ -232,11 +232,18 @@
       "etpInicio": "09/07/2026",
       "etpFim": "09/07/2026",
       "trFim": "21/08/2026",
-      "listaFim": "24/08/2026"
+      "listaFim": "24/08/2026",
+      "analiseDfiFim": "04/09/2026",
+      "pesquisaPrecosFim": "05/10/2026"
     },
     "processo_id": 1149064,
-    "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "pregao_id": 1230527,
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 151/2026",
+    "objetoLicitacao": "AQUISIÇÃO DE EQUIPAMENTOS HIDRÁULICOS E ELÉTRICOS",
+    "responsaveisDfi": {
+      "pesquisaPrecos": "Raphaella Louise Silveira de Lima",
+      "irp": "Sonaydy Lyany Dantas"
+    }
   },
   {
     "caminho": "pregao",
@@ -981,7 +988,7 @@
     "subetapa": "Processo de pregão autônomo, sem processo de planejamento de origem identificado no painel (a apensação anterior a este processo estava incorreta). TR autorizado em 16/06/2026.",
     "categoria": "unidades",
     "unidade": "DFI - Divisão de Fase Interna de Compras",
-    "data": "21/10/2026",
+    "data": "22/10/2026",
     "dataCriacao": "13/02/2026",
     "gestor": "Thiago Renan da Silva Correia",
     "pregao": null,
@@ -18380,7 +18387,7 @@
     "subetapa": "Último documento: LISTA DE VERIFICAÇÃO - FASE INTERNA (21/10/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (09/10/2026 10:02)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "21/10/2026",
+    "data": "23/10/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -18814,12 +18821,12 @@
   {
     "processo": "23077.052273/2026-99",
     "assunto": "SOLICITAÇÃO DE AQUISIÇÃO DE MATERIAIS PARA INSTALAÇÃO E OPERAÇÃO DA QUEIJEIRA.",
-    "fase": "Fase Interna (DFI)",
-    "subEtapa": "faseInterna",
-    "subetapa": "Último documento: DESPACHO (21/10/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (16/10/2026 10:27)",
+    "fase": "Fase Externa (DFE)",
+    "subEtapa": "faseExterna",
+    "subetapa": "Último documento: DESPACHO (23/10/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (16/10/2026 10:27)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "21/10/2026",
+    "data": "23/10/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -18828,7 +18835,8 @@
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1203257",
     "marcos": {
-      "planejamentoFim": "21/08/2026"
+      "planejamentoFim": "21/08/2026",
+      "faseExternaInicio": "23/10/2026"
     },
     "caminho": "dispensa",
     "caminhoHistorico": [],
@@ -18837,7 +18845,8 @@
     "execucao_numero": "23077.133716/2026-41",
     "execucao_id": 1229593,
     "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90041/2026",
-    "objetoLicitacao": "AQUISIÇÃO DE MATERIAIS PARA INSTALAÇÃO E OPERAÇÃO DA QUEIJEIRA"
+    "objetoLicitacao": "AQUISIÇÃO DE MATERIAIS PARA INSTALAÇÃO E OPERAÇÃO DA QUEIJEIRA",
+    "semDisputaFaseExterna": false
   },
   {
     "processo": "23077.054403/2026-28",
@@ -19611,7 +19620,7 @@
     "subetapa": "Último documento: OFÍCIO (18/06/2026) · Última movimentação: ESCOLA DE MÚSICA (11.39) → ESCOLA DE MÚSICA (11.39) (18/06/2026 10:08)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "20/10/2026",
+    "data": "23/10/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -19619,7 +19628,9 @@
     "emRecurso": false,
     "urgente": false,
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1214174",
-    "marcos": null,
+    "marcos": {
+      "planejamentoFim": "23/10/2026"
+    },
     "caminho": "dispensa",
     "caminhoHistorico": [],
     "processo_id": 1214174,
@@ -19927,9 +19938,9 @@
   {
     "processo": "23077.102539/2026-51",
     "assunto": "PROCESSO PARA AQUISIÇÃO DE ASSINATURA DE INTELIGENCIA ARTIFICIAL GENERATIVA.",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Último documento: DESPACHO (28/07/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → COMPLEXO DE ESPORTES E EVENTOS (11.24.01) (28/07/2026 15:30)",
+    "fase": "Fase Interna (DFI)",
+    "subEtapa": "faseInterna",
+    "subetapa": "Último documento: TERMO DE DESAPENSAÇÃO (22/10/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (18/10/2026 19:08)",
     "categoria": "elaboracao",
     "unidade": "",
     "data": "22/10/2026",
@@ -19947,7 +19958,10 @@
     "caminhoHistorico": [],
     "processo_id": 1218753,
     "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "execucao_numero": "23077.143185/2026-03",
+    "execucao_id": 1232412,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90045/2026",
+    "objetoLicitacao": "CONTRATAÇÃO DE SERVIÇOS CONTÍNUOS DE SUBSCRIÇÃO DO CHATGPT BUSINESS, NA MODALIDADE SAAS, PELO PRAZO CONTRATUAL DE 48 (QUARENTA E OITO) MESES, COM SUBSCRIÇÕES ANUAIS"
   },
   {
     "processo": "23077.104750/2026-17",
@@ -21341,12 +21355,12 @@
   {
     "processo": "23077.134264/2026-15",
     "assunto": "SOLCITAÇÃO DE DISPENSA DE LICITAÇÃO PARA INSTALAÇÃO DE CONDENSADORAS LG MULTI-V 5 PRO, INTEGRANTES DE SISTEMA DE CLIMATIZAÇÃO COM TECNOLOGIA VRF (VARIABLE REFRIGERANT FLOW), A SEREM INSTALADAS NA COBERTURA DO PRÉDIO DO INSTITUTO METRÓPOLE DIGITAL – IMD/UFRN.",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "planejamento",
-    "subetapa": "Último documento: REQUISIÇÃO DE MATERIAIS (18/09/2026) · Última movimentação: INSTITUTO METROPOLE DIGITAL (11.00.05) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (18/09/2026 14:14)",
+    "fase": "Fase Interna (DFI)",
+    "subEtapa": "faseInterna",
+    "subetapa": "Último documento: DESPACHO (23/10/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (22/10/2026 10:00)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "21/10/2026",
+    "data": "23/10/2026",
     "dataCriacao": "2026-09-04",
     "gestor": null,
     "pregao": null,
@@ -21361,7 +21375,11 @@
     "caminhoHistorico": [],
     "processo_id": 1229749,
     "pregao_id": null,
-    "avisoApensadoSemVinculo": true
+    "execucao_numero": "23077.165592/2026-63",
+    "execucao_id": 1239889,
+    "numeroLicitacao": "DISPENSA DE LICITAÇÃO Nº.: 90062/2026",
+    "objetoLicitacao": "INSTALAÇÃO DE UNIDADES CONDENSADORAS LG MULTI-V 5 PRO",
+    "semDisputaFaseExterna": true
   },
   {
     "processo": "23077.134505/2026-26",
@@ -21857,7 +21875,7 @@
     "subetapa": "Último documento: DESPACHO DE ENCAMINHAMENTO (22/09/2026) · Última movimentação: DEPARTAMENTO DE NUTRIÇÃO (15.18) → COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) (22/09/2026 15:51)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "30/09/2026",
+    "data": "23/10/2026",
     "dataCriacao": "2026-09-22",
     "gestor": null,
     "pregao": null,
