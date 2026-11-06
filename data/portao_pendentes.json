@@ -1106,5 +1106,50 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1240590",
     "descoberto_em": "2026-10-30"
+  },
+  {
+    "processo_id": 1242193,
+    "numero": "23077.173205/2026-62",
+    "assunto": "PCA 26|27 - PLANEJAMENTO DE LICITAÇÃO PARA AQUISIÇÃO DE VESTIMENTAS, TECIDOS, AVIAMENTOS, MATERIAL DE CAMA, MESA, BANHO E OUTROS MATERIAIS DE CONSUMO (3023, 3099,3020)",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1242193",
+    "descoberto_em": "2026-11-06"
+  },
+  {
+    "processo_id": 1242192,
+    "numero": "23077.173204/2026-18",
+    "assunto": "PCA 26|27 - PLANEJAMENTO DE LICITAÇÃO MATERIAL GRAFICO (3059)",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1242192",
+    "descoberto_em": "2026-11-06"
+  },
+  {
+    "processo_id": 1241911,
+    "numero": "23077.172246/2026-31",
+    "assunto": "PLANEJAMENTO DE CONTRATAÇÃO/AQUISIÇÃO - UPDATE E MANUTENÇÃO DA LICENÇA DO SOFTWARE SOUNDPLAN",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1241911",
+    "descoberto_em": "2026-11-06"
+  },
+  {
+    "processo_id": 1241697,
+    "numero": "23077.171524/2026-33",
+    "assunto": "SOLICITAÇÃO DE ADESÃO: BANDEJAS AGROINDUSTRIA",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1241697",
+    "descoberto_em": "2026-11-06"
+  },
+  {
+    "processo_id": 1241651,
+    "numero": "23077.171443/2026-33",
+    "assunto": "AQUISIÇÃO DE 02 UNIDADES DE PLACAS DE SOM PARA A EMUFRN",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1241651",
+    "descoberto_em": "2026-11-06"
   }
 ]
