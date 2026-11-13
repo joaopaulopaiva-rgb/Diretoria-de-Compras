@@ -1151,5 +1151,95 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1241651",
     "descoberto_em": "2026-11-06"
+  },
+  {
+    "processo_id": 1243607,
+    "numero": "23077.177456/2026-16",
+    "assunto": "AQUISIÇÃO DE MATERIAL",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1243607",
+    "descoberto_em": "2026-11-13"
+  },
+  {
+    "processo_id": 1243606,
+    "numero": "23077.177452/2026-38",
+    "assunto": "AQUISIÇÃO DE MATERIAL HOSPITALAR",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1243606",
+    "descoberto_em": "2026-11-13"
+  },
+  {
+    "processo_id": 1243603,
+    "numero": "23077.177448/2026-70",
+    "assunto": "AQUISIÇÃO DE MATERIAIS ODONTOLÓGICOS",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1243603",
+    "descoberto_em": "2026-11-13"
+  },
+  {
+    "processo_id": 1243571,
+    "numero": "23077.177342/2026-76",
+    "assunto": "SOLICITAÇÃO DE ADESÃO: CADEIRA DE RODAS",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1243571",
+    "descoberto_em": "2026-11-13"
+  },
+  {
+    "processo_id": 1243004,
+    "numero": "23077.175813/2026-10",
+    "assunto": "AQUISIÇÃO DE PÓS METÁLICOS É NECESSÁRIA PARA O DESENVOLVIMENTO DAS ATIVIDADES EXPERIMENTAIS RELACIONADAS AO PROJETO DE PESQUISA INTITULADO “DESENVOLVIMENTO DE REVESTIMENTOS DE LIGAS DE ALTA ENTROPIA POR MANUFATURA ADITIVA VIA DEPOSIÇÃO DIRECIONADA DE ENERGIA PARA APLICAÇÕES EM AMBIENTES DE HIDROGÊNIO”, REGISTRADO NA UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE SOB O NÚMERO PVG24705-2026.AQUISIÇÃO DE PÓS METÁLICOS É NECESSÁRIA PARA O DESENVOLVIMENTO DAS ATIVIDADES EXPERIMENTAIS RELACIONADAS AO PROJETO DE PESQUISA INTITULADO “DESENVOLVIMENTO DE REVESTIMENTOS DE LIGAS DE ALTA ENTROPIA POR MANUFATURA ADITIVA VIA DEPOSIÇÃO DIRECIONADA DE ENERGIA PARA APLICAÇÕES EM AMBIENTES DE HIDROGÊNIO”, REGISTRADO NA UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE SOB O NÚMERO PVG24705-2026.",
+    "primeiro_documento": "JUSTIFICATIVA",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1243004",
+    "descoberto_em": "2026-11-13"
+  },
+  {
+    "processo_id": 1242991,
+    "numero": "23077.175750/2026-93",
+    "assunto": "AAQUISIÇÃO DE PÓS METÁLICOS É NECESSÁRIA PARA O DESENVOLVIMENTO DAS ATIVIDADES EXPERIMENTAIS RELACIONADAS AO PROJETO DE PESQUISA INTITULADO “DESENVOLVIMENTO DE REVESTIMENTOS DE LIGAS DE ALTA ENTROPIA POR MANUFATURA ADITIVA VIA DEPOSIÇÃO DIRECIONADA DE ENERGIA PARA APLICAÇÕES EM AMBIENTES DE HIDROGÊNIO”, REGISTRADO NA UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE SOB O NÚMERO PVG24705-2026.",
+    "primeiro_documento": null,
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1242991",
+    "descoberto_em": "2026-11-13"
+  },
+  {
+    "processo_id": 1242687,
+    "numero": "23077.174631/2026-13",
+    "assunto": "SOLICITAÇÃO DE ADESÃO: GPS",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1242687",
+    "descoberto_em": "2026-11-13"
+  },
+  {
+    "processo_id": 1242567,
+    "numero": "23077.174234/2026-41",
+    "assunto": "SOLICITAÇÃO DE ADESÃO: ECOBAGS, MOCHILAS E CANETAS",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1242567",
+    "descoberto_em": "2026-11-13"
+  },
+  {
+    "processo_id": 1242458,
+    "numero": "23077.173964/2026-25",
+    "assunto": "ADESÃO À ATA DE REGISTRO DE PREÇOS",
+    "primeiro_documento": "DESPACHO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1242458",
+    "descoberto_em": "2026-11-13"
+  },
+  {
+    "processo_id": 1242420,
+    "numero": "23077.173880/2026-91",
+    "assunto": "SOLICITAÇÃO DE ADESÃO: CAMISA GOLA POLO",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1242420",
+    "descoberto_em": "2026-11-13"
   }
 ]
