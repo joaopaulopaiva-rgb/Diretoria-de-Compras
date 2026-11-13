@@ -997,7 +997,7 @@
     "subetapa": "Processo de pregão autônomo, sem processo de planejamento de origem identificado no painel (a apensação anterior a este processo estava incorreta). TR autorizado em 16/06/2026.",
     "categoria": "unidades",
     "unidade": "DFI - Divisão de Fase Interna de Compras",
-    "data": "10/11/2026",
+    "data": "13/11/2026",
     "dataCriacao": "13/02/2026",
     "gestor": "Thiago Renan da Silva Correia",
     "pregao": null,
@@ -4856,7 +4856,7 @@
     "subetapa": "Último documento: ANÁLISE DE PARECER JURÍDICO (28/09/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (04/08/2025 07:51)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "12/11/2026",
+    "data": "13/11/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "suspenso": false,
@@ -4881,7 +4881,11 @@
       "elaboracaoEdital": "Chianc Leocádio de Lima"
     },
     "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 90029/2025",
-    "objetoLicitacao": "AQUISIÇÃO DE ATIVOS DE REDE WIRELESS (PONTOS DE ACESSO E LICENÇAS PARA SISTEMA DE GERENCIAMENTO) EM VISTAS À EXPANSÃO DO PARQUE TECNOLÓGICO DE REDE DE DADOS SEM FIO DA UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE PELO PERÍODO DE 12 (DOZE) MESES"
+    "objetoLicitacao": "AQUISIÇÃO DE ATIVOS DE REDE WIRELESS (PONTOS DE ACESSO E LICENÇAS PARA SISTEMA DE GERENCIAMENTO) EM VISTAS À EXPANSÃO DO PARQUE TECNOLÓGICO DE REDE DE DADOS SEM FIO DA UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE PELO PERÍODO DE 12 (DOZE) MESES",
+    "responsaveisDfe": {
+      "pregoeiro": "Adriana da Silva Cardoso",
+      "equipeApoio": "Andrea Lopes de Figueiredo"
+    }
   },
   {
     "processo": "23077.055707/2024-41",
@@ -17350,7 +17354,7 @@
     "subetapa": "Último documento: CERTIDÃO (30/04/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE EXTERNA DE COMPRAS (11.02.09.02) (22/06/2026 16:30)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "04/11/2026",
+    "data": "13/11/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -17901,7 +17905,7 @@
     "subetapa": "Último documento: DESPACHO (13/07/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) (13/07/2026 12:50)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "09/09/2026",
+    "data": "13/11/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -18084,15 +18088,15 @@
   {
     "processo": "23077.134826/2025-40",
     "assunto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM MANUTENÇÃO DE CENTRAIS DE AR CONDICIONADO DO TIPO VRF.",
-    "fase": "Planejamento (DPGC)",
-    "subEtapa": "lista",
-    "subetapa": "Último documento: DESPACHO (07/10/2026) · Última movimentação: COMPRAS - DIVISÃO DE PLANEJAMENTO E GERENCIAMENTO DE COMPRAS (11.02.09.03) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (07/10/2026 20:37)",
+    "fase": "Fase Interna (DFI)",
+    "subEtapa": "edital",
+    "subetapa": "Último documento: DOCUMENTO COMPROBATÓRIO DE LICITAÇÃO (13/11/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (09/11/2026 10:00)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "07/10/2026",
+    "data": "13/11/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
-    "pregao": null,
+    "pregao": "23077.159442/2026-11",
     "suspenso": false,
     "emRecurso": false,
     "urgente": false,
@@ -18101,12 +18105,20 @@
       "dfdFim": "29/08/2025",
       "etpFim": "06/11/2025",
       "trFim": "07/10/2026",
-      "listaFim": "07/10/2026"
+      "listaFim": "07/10/2026",
+      "pesquisaPrecosFim": "10/11/2026",
+      "irpFim": "12/11/2026"
     },
     "caminho": "pregao",
     "caminhoHistorico": [],
     "processo_id": 1164466,
-    "pregao_id": null
+    "pregao_id": 1237801,
+    "numeroLicitacao": "PREGÃO ELETRÔNICO SISRP Nº.: 188/2026",
+    "objetoLicitacao": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM MANUTENÇÃO PREVENTIVA E CORRETIVA, COM FORNECIMENTO DE PEÇAS, PARA A CENTRAL DE AR-CONDICIONADO TIPO VRF",
+    "responsaveisDfi": {
+      "irp": "Marilia Linhares de Sousa",
+      "elaboracaoEdital": "Stefferson Alves Sarthour"
+    }
   },
   {
     "processo": "23077.135929/2025-27",
@@ -19076,7 +19088,7 @@
     "subetapa": "Último documento: DESPACHO (12/11/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (02/11/2026 18:31)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "12/11/2026",
+    "data": "13/11/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -19970,7 +19982,7 @@
     "subetapa": "Último documento: TERMO DE DESAPENSAÇÃO (22/10/2026) · Última movimentação: COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) → COMPRAS - DIVISÃO DE FASE INTERNA DE COMPRAS (11.02.09.01) (18/10/2026 19:08)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "12/11/2026",
+    "data": "13/11/2026",
     "dataCriacao": "14/08/2026",
     "gestor": null,
     "pregao": null,
@@ -20948,7 +20960,7 @@
     "subetapa": "Último documento: DIVULGAÇÃO DA LICITAÇÃO (12/08/2026) · Última movimentação: COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) → COORDENADORIA DE AQUISIÇÕES DE OBRAS E SERVIÇOS DE ENGENHARIA (11.08.04) (02/07/2026 09:08)",
     "categoria": "elaboracao",
     "unidade": "",
-    "data": "10/11/2026",
+    "data": "13/11/2026",
     "dataCriacao": "19/08/2026",
     "gestor": null,
     "suspenso": false,
