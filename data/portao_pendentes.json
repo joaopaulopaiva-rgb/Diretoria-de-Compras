@@ -1241,5 +1241,68 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1242420",
     "descoberto_em": "2026-11-13"
+  },
+  {
+    "processo_id": 1244855,
+    "numero": "23077.181059/2026-49",
+    "assunto": "AQUISIÇÃO DE GÊNEROS ALIMENTÍCIOS (GÊNEROS SECOS - PARTE 1) COM BASE NO PCA 27.",
+    "primeiro_documento": "DOCUMENTO DE FORMALIZAÇÃO DA DEMANDA DIGITAL (DFD DIGITAL)",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1244855",
+    "descoberto_em": "2026-11-20"
+  },
+  {
+    "processo_id": 1244812,
+    "numero": "23077.180875/2026-35",
+    "assunto": "SOLICITAÇÃO DE ADESÃO ATRAVÉS DO PROCESSO LICITATÓRIO PREGÃO Nº 90006/2026, UASG 153038 - UNIVERSIDADE FEDERAL DA BAHIA -UF/BA, PARA COMPRA DE TOALHA DE PAPEL.",
+    "primeiro_documento": "CARTA DE ACEITE",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1244812",
+    "descoberto_em": "2026-11-20"
+  },
+  {
+    "processo_id": 1244772,
+    "numero": "23077.180761/2026-95",
+    "assunto": "AQUISIÇÃO DE TELA INTERATIVA DIGITAL",
+    "primeiro_documento": null,
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1244772",
+    "descoberto_em": "2026-11-20"
+  },
+  {
+    "processo_id": 1244579,
+    "numero": "23077.180140/2026-10",
+    "assunto": "CONTRATAÇÃO CENTRALIZADA DE SOFTWARES DE DESIGN GRÁFICO ADOBE. ATUAÇÃO, COMO ÓRGÃO PARTICIPANTE, NA LICITAÇÃO IRP Nº 10/2026 SEGES/MGI.",
+    "primeiro_documento": "JUSTIFICATIVA",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1244579",
+    "descoberto_em": "2026-11-20"
+  },
+  {
+    "processo_id": 1244339,
+    "numero": "23077.179491/2026-70",
+    "assunto": "PLANEJAMENTO DE AQUISIÇÃO DE MATERIAL DE SEGURANÇA PARA INFRA/UFRN",
+    "primeiro_documento": "JUSTIFICATIVA",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1244339",
+    "descoberto_em": "2026-11-20"
+  },
+  {
+    "processo_id": 1244083,
+    "numero": "23077.178779/2026-27",
+    "assunto": "SOLICITAÇÃO DE ADESÃO: LONA DE SILAGEM",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1244083",
+    "descoberto_em": "2026-11-20"
+  },
+  {
+    "processo_id": 1244076,
+    "numero": "23077.178741/2026-54",
+    "assunto": "SOLICITAÇÃO DE ADESÃO: FACAS",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1244076",
+    "descoberto_em": "2026-11-20"
   }
 ]
