@@ -1304,5 +1304,50 @@
     "status": "pendente",
     "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1244076",
     "descoberto_em": "2026-11-20"
+  },
+  {
+    "processo_id": 1246076,
+    "numero": "23077.184644/2026-09",
+    "assunto": "PLANEJAMENTO DE CONCORRÊNCIA VISANDO À CONTRATAÇÃO DE SERVIÇOS DE MANUTENÇÃO PREVENTIVA E CORRETIVA DE CABEAMENTO ÓPTICO - REDE GIGA NATAL E SUAS EXTENSÕES.",
+    "primeiro_documento": "CÓPIA DE OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1246076",
+    "descoberto_em": "2026-11-27"
+  },
+  {
+    "processo_id": 1245761,
+    "numero": "23077.183794/2026-97",
+    "assunto": "PLANEJAMENTO DE AQUISIÇÃO DE SWITCHES DE REDE PARA A UFRN",
+    "primeiro_documento": "FORMALIZAÇÃO DA DEMANDA",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1245761",
+    "descoberto_em": "2026-11-27"
+  },
+  {
+    "processo_id": 1245631,
+    "numero": "23077.183317/2026-21",
+    "assunto": "SOLICITAÇÃO DE ADESÃO: BOMBONAS",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1245631",
+    "descoberto_em": "2026-11-27"
+  },
+  {
+    "processo_id": 1245283,
+    "numero": "23077.182121/2026-10",
+    "assunto": "ADESÃO À ATA DE REGISTRO DE PREÇOS Nº 001/2026, PREGÃO ELETRÔNICO Nº 90023/2025, DO CREA/RJ, UASG 389090, VISANDO A AQUISIÇÃO DE 04 LICENÇAS AEC COLLECTION (FERRAMENTA BIM) DA AUTODESK",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1245283",
+    "descoberto_em": "2026-11-27"
+  },
+  {
+    "processo_id": 1245092,
+    "numero": "23077.181724/2026-02",
+    "assunto": "SOLICITAÇÃO DE ABERTURA DE PROCESSO LICITATÓRIO – MATERIAIS DO GRUPO 3026",
+    "primeiro_documento": "OFÍCIO",
+    "status": "pendente",
+    "link": "https://sipac.ufrn.br/public/jsp/processos/processo_detalhado.jsf?id=1245092",
+    "descoberto_em": "2026-11-27"
   }
 ]
